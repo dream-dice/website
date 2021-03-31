@@ -1,0 +1,67 @@
+{
+    "brawlers": {
+        "title": "Brawlers",
+        "members": ["zordar"],
+        "jobs": [{
+            "description": "Danika, and the rest of the town, are running dangerously low on Purple Smash. They desperatley need someone to get more from the Wizard Winery. She also offers free grog for the night to those who bring a new shipment",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }, {
+            "description": "Two hunters, NAME, are going on a hunt for wolves, there has been an influx in werewolves around where they hunt and are looking for someone to take them out without question",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }]
+    },
+    "luminaries": {
+        "title": "Luminaries",
+        "members": ["godfrey", "xerus"],
+        "jobs": [{
+            "description": "The burgomaster has asked that someone put on a street show during the festival of the sun",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }, {
+            "description": "The owners of the Blue Water Inn are looking for someone to put on a show in order to drum up business, they also offer free food, drink and stay for anyone who does the performance",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }]
+    },
+    "wraithRaiders": {
+        "title": "Wraith Raiders",
+        "members": ["dwight"],
+        "jobs": [{
+            "description": "Fiona Wachter has asked someone to discretely take out her servent, it must look like an accident or there is no reward",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }, {
+            "description": "The man in the coffin shop has a delicate situation and he needs someone to sort it out, no questions asked",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }]
+    },
+    "spellworkers": {
+        "title": "Spellworkers",
+        "members": ["gorek", "arty"],
+        "jobs": [{
+            "description": "The church priest is looking for someone to investigate a missing item of his, he is not willing to divulge infomation unless someone approaches him from the Spellworkers with this quest",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }, {
+            "description": "Izek is in desperate need of help and is investigating the disserpearance of some people, normally he wouldn't ask for help but it is Izek *womp wmop*",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }, {
+            "description": "On the outskirts of Vallaki there is a place which we believe has connections to the outside world or other planes and is not controlled by Strahd, we need someone to be able to go there and confirm this and to what extent this is true",
+            "rewards": [],
+            "owners": [],
+            "status": "waiting"
+        }]
+    }
+}
