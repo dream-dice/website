@@ -3,7 +3,6 @@ import { useLocation } from "react-router"
 
 const Header = () => {
     const {pathname} = useLocation()
-    console.log(pathname)
 
     let title = "Luke's Campaign"
     if (pathname.includes('player')) title = 'Player Details'
