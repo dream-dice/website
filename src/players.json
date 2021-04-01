@@ -1,25 +1,42 @@
 {
     "kuquar": {
         "title": "Ku-Quar",
-        "status": "Deceased"
+        "status": "Deceased",
+        "faction": "wraithRaiders"
     },
     "godfrey": {
         "title": "Godfrey the Guardian",
-        "status": "Missing in Action"
+        "status": "Missing in Action",
+        "faction": "luminaries"
     },
     "arty": {
-        "title": "Artefact #4546B a.k.a Arty"
+        "title": "Artefact #4546B a.k.a Arty",
+        "faction": "spellworkers"
     },
     "dwight": {
-        "title": "Dwight Ribble"
+        "title": "Dwight Ribble",
+        "faction": "wraithRaiders"
     },
     "gorek": {
-        "title": "Gorek Gottrisson"
+        "title": "Gorek Gottrisson",
+        "faction": "spellworkers"
     },
     "zordar": {
-        "title": "Zordar"
+        "title": "Zordar",
+        "faction": "brawlers"
+    },
+    "xerus": {
+        "title": "Xerus",
+        "faction": "luminaries",
+        "rank": "Rank D",
+        "renown": 15,
+        "race": "Tiefling",
+        "class": ["Warlock"],
+        "level": 5,
+        "description": "Xerus was born and raised in Barovia. On the playground was where he spent most of his days"
     },
     "izek": {
-        "title": "Izek"
+        "title": "Izek",
+        "faction": "brawlers"
     }
 }

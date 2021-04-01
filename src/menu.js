@@ -13,23 +13,25 @@ const MenuLink = ({to, children}) => {
 }
 
 const StoryLinks = () => {
-    const [open, setOpen] = useState(true)
+    const {pathname} = useLocation()
+    const [open, setOpen] = useState(pathname.includes('story'))
     return (
         <li>
-            <button className='button is-ghost' onClick={() => setOpen(!open)}>As the Sotry Unfolds, in Barovia</button>
-            {!open && <ul>
-                {story.map(({to, title}) => <li key={to}><MenuLink to={`/sotry/${to}`}>{title}</MenuLink></li>)}
+            <button className='button is-ghost' onClick={() => setOpen(!open)}>As the story Unfolds, in Barovia</button>
+            {open && <ul>
+                {story.map(({to, title}) => <li key={to}><MenuLink to={`/story/${to}`}>{title}</MenuLink></li>)}
             </ul> }
         </li>
     )
 }
 
 const FactionLinks = ({name, title}) => {
-    const [open, setOpen] = useState(true)
+    const {pathname} = useLocation()
+    const [open, setOpen] = useState(pathname.includes('faction') && pathname.includes(name))
     return (
         <li>
             <button className='button is-ghost' onClick={() => setOpen(!open)}>{title}</button>
-            {!open && <ul>
+            {open && <ul>
                 <li>
                     <MenuLink to={`/faction/${name}/manifesto`}>Manifesto</MenuLink>
                 </li>
@@ -54,25 +56,39 @@ const Menu = () => {
             </p>
             <ul className="menu-list">
                 <StoryLinks />
-                <li><MenuLink to='/saucey'>A Saucey Tale</MenuLink></li>
+                <li><MenuLink to='/saucey'>The Wizard's Staff</MenuLink></li>
             </ul>
             <p className="menu-label">
                 Factions
             </p>
             <ul className="menu-list">
-                { Object.entries(factions).map(([name, {title}]) => <FactionLinks key={name} name={name} title={title} />) }
+                { Object
+                    .entries(factions)
+                    .sort((left, right) => {
+                        if (left[0] < right[0]) return -2
+                        if (left[0] > right[0]) return 2
+                        return 0
+                    })
+                    .map(([name, {title}]) => <FactionLinks key={name} name={name} title={title} />) }
             </ul>
             <p className="menu-label">
                 Players
             </p>
             <ul className="menu-list">
-            { Object.entries(players).map(([name, {title, status}]) => <li key={name}><MenuLink to={`/player/${name}`}>{title}{status && ` (${status})`}</MenuLink></li>) }
+            { Object.entries(players)
+                .sort((left, right) => {
+                    if (left[1].faction < right[1].faction) return -2
+                    if (left[1].faction > right[1].faction) return 2
+                    if (left[1].title < right[1].title) return -1
+                    if (left[1].title > right[1].title) return 1
+                    return 0
+                })
+                .map(([name, {title, status}]) => <li key={name}><MenuLink to={`/player/${name}`}><span>{title}</span>{status && <b> - {status}</b>}</MenuLink></li>) }
             </ul>
             <p className="menu-label">
                 Game Master
             </p>
             <ul className="menu-list">
-                <li><MenuLink to='/about'>About</MenuLink></li>
                 <li><MenuLink to='/random'>Random</MenuLink></li>
                 <li><MenuLink to='/credits'>Credits</MenuLink></li>
             </ul>

@@ -1,13 +1,186 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,
+body,
+.lato {
+ font-family: 'Lato', sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  transition: background-color 0.3s ease-in-out;
+}
+
+h1,
+.lobster {
+  font-family: 'Lobster Two', cursive;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+/* Story */
+
+.is-story {
+  background-color: #DDC095;
+}
+
+.is-story .card,
+.is-story .title,
+.is-story .button,
+.is-story a,
+.is-story .menu-label,
+.is-story .content,
+.is-story h1,
+.is-story h2,
+.is-story h3,
+.is-story h4,
+.is-story h5,
+.is-story h6,
+.is-story p {
+  color: #37200F !important;
+}
+
+.is-story .menu-list li ul {
+  border-color: #37200F !important;
+}
+
+.is-story a:hover,
+.is-story a.is-active,
+.is-story .card {
+  background-color: #B98455 !important;
+}
+
+/* Brawlers */
+.is-brawlers {
+  background-color: #FDEEB1;
+}
+
+.is-brawlers .card,
+.is-brawlers .title,
+.is-brawlers .button,
+.is-brawlers a,
+.is-brawlers .menu-label,
+.is-brawlers .content,
+.is-brawlers h1,
+.is-brawlers h2,
+.is-brawlers h3,
+.is-brawlers h4,
+.is-brawlers h5,
+.is-brawlers h6,
+.is-brawlers p {
+  color: #25201C !important;
+}
+
+.is-brawlers .menu-list li ul {
+  border-color: #25201C !important;
+}
+
+.is-brawlers a:hover,
+.is-brawlers a.is-active,
+.is-brawlers .card {
+  background-color: #F1DA7C !important;
+}
+
+/* Wraith Raiders */
+
+.is-wraithRaiders {
+  background-color: #AA0000;
+}
+
+.is-wraithRaiders .card,
+.is-wraithRaiders .title,
+.is-wraithRaiders .button,
+.is-wraithRaiders a,
+.is-wraithRaiders .menu-label,
+.is-wraithRaiders .content,
+.is-wraithRaiders h1,
+.is-wraithRaiders h2,
+.is-wraithRaiders h3,
+.is-wraithRaiders h4,
+.is-wraithRaiders h5,
+.is-wraithRaiders h6,
+.is-wraithRaiders p {
+  color: #FFFFFF !important;
+}
+
+.is-wraithRaiders .menu-list li ul {
+  border-color: #FFFFFF !important;
+}
+
+.is-wraithRaiders a:hover,
+.is-wraithRaiders a.is-active,
+.is-wraithRaiders .card {
+  background-color: #950808 !important;
+}
+
+/* Luminaries */
+
+.is-luminaries {
+  background-color: #F3F1E8;
+}
+
+.is-luminaries .card,
+.is-luminaries .title,
+.is-luminaries .button,
+.is-luminaries a,
+.is-luminaries .menu-label,
+.is-luminaries .content,
+.is-luminaries h1,
+.is-luminaries h2,
+.is-luminaries h3,
+.is-luminaries h4,
+.is-luminaries h5,
+.is-luminaries h6,
+.is-luminaries p {
+  color: #0055D4 !important;
+}
+
+.is-luminaries .menu-list li ul {
+  border-color: #0055D4 !important;
+}
+
+.is-luminaries a:hover,
+.is-luminaries a.is-active,
+.is-luminaries .card {
+  background-color: #C2D2E4 !important;
+}
+
+/* Spellworkers */
+
+.is-spellworkers {
+  background-color: #EEF1F5;
+}
+
+.is-spellworkers .card,
+.is-spellworkers .title,
+.is-spellworkers .button,
+.is-spellworkers a,
+.is-spellworkers .menu-label,
+.is-spellworkers .content,
+.is-spellworkers h1,
+.is-spellworkers h2,
+.is-spellworkers h3,
+.is-spellworkers h4,
+.is-spellworkers h5,
+.is-spellworkers h6,
+.is-spellworkers p {
+  color: #5A2CA0 !important;
+}
+
+.is-spellworkers .menu-list li ul {
+  border-color: #5A2CA0 !important;
+}
+
+.is-spellworkers a:hover,
+.is-spellworkers a.is-active,
+.is-spellworkers .card {
+  background-color: #D0CAE4 !important;
 }
