@@ -56,11 +56,13 @@ const Random = () => {
     const [state, dispatch] = useReducer(reducer, { rich: 0, common: null, uncommon: null, open: [] })
 
     return (
-        <div>
-            <p>Random generator</p>
-            <p>
-                This page is here for shortcuts to be able to randomly generate things for my campaign, I use this with Discord to reward people in combination with Tatsu
-            </p>
+        <div className='mt-3'>
+            <div className='content'>
+                <h1 className='title'>Random Item generator</h1>
+                <p>
+                    As part of the Discord server everyone is rewarded using <a href='https://tatsu.gg/'>Tatsu</a>. Here are the generators which I use to roll for random items.
+                </p>
+            </div>
             <Generator dispatch={dispatch} state={state} name='common' title='Common'/>
             <Generator dispatch={dispatch} state={state} name='uncommon' title='Uncommon'/>
             <Generator dispatch={dispatch} state={state} name='attribute' title='Attribute'/>

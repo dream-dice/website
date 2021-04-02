@@ -22,7 +22,12 @@ h6,
   font-family: 'Oswald', sans-serif;
 }
 
-.card {
+.hero {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card,
+blockquote {
   box-shadow: none !important;
 }
 
@@ -44,17 +49,20 @@ h6,
 .is-story h4,
 .is-story h5,
 .is-story h6,
-.is-story p {
+.is-story p,
+.is-story blockquote {
   color: #37200F !important;
 }
 
+.is-story blockquote,
 .is-story .menu-list li ul {
   border-color: #37200F !important;
 }
 
 .is-story a:hover,
 .is-story a.is-active,
-.is-story .card {
+.is-story .card,
+.is-story blockquote {
   background-color: #B98455 !important;
 }
 
@@ -75,17 +83,20 @@ h6,
 .is-brawlers h4,
 .is-brawlers h5,
 .is-brawlers h6,
-.is-brawlers p {
+.is-brawlers p,
+.is-brawlers blockquote {
   color: #25201C !important;
 }
 
+.is-brawlers blockquote,
 .is-brawlers .menu-list li ul {
   border-color: #25201C !important;
 }
 
 .is-brawlers a:hover,
 .is-brawlers a.is-active,
-.is-brawlers .card {
+.is-brawlers .card,
+.is-brawlers blockquote {
   background-color: #F1DA7C !important;
 }
 
@@ -107,17 +118,20 @@ h6,
 .is-wraithRaiders h4,
 .is-wraithRaiders h5,
 .is-wraithRaiders h6,
-.is-wraithRaiders p {
+.is-wraithRaiders p,
+.is-wraithRaiders blockquote {
   color: #FFFFFF !important;
 }
 
+.is-wraithRaiders blockquote,
 .is-wraithRaiders .menu-list li ul {
   border-color: #FFFFFF !important;
 }
 
 .is-wraithRaiders a:hover,
 .is-wraithRaiders a.is-active,
-.is-wraithRaiders .card {
+.is-wraithRaiders .card,
+.is-wraithRaiders blockquote {
   background-color: #950808 !important;
 }
 
@@ -139,17 +153,20 @@ h6,
 .is-luminaries h4,
 .is-luminaries h5,
 .is-luminaries h6,
-.is-luminaries p {
+.is-luminaries p,
+.is-luminaries blockquote {
   color: #0055D4 !important;
 }
 
+.is-luminaries blockquote,
 .is-luminaries .menu-list li ul {
   border-color: #0055D4 !important;
 }
 
 .is-luminaries a:hover,
 .is-luminaries a.is-active,
-.is-luminaries .card {
+.is-luminaries .card,
+.is-luminaries blockquote {
   background-color: #C2D2E4 !important;
 }
 
@@ -171,16 +188,19 @@ h6,
 .is-spellworkers h4,
 .is-spellworkers h5,
 .is-spellworkers h6,
-.is-spellworkers p {
+.is-spellworkers p,
+.is-spellworkers blockquote {
   color: #5A2CA0 !important;
 }
 
+.is-spellworkers blockquote,
 .is-spellworkers .menu-list li ul {
   border-color: #5A2CA0 !important;
 }
 
 .is-spellworkers a:hover,
 .is-spellworkers a.is-active,
-.is-spellworkers .card {
+.is-spellworkers .card,
+.is-spellworkers blockquote {
   background-color: #D0CAE4 !important;
 }

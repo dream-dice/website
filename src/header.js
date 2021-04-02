@@ -6,7 +6,7 @@ const Header = () => {
 
     let title = "Luke's Campaign"
     if (pathname.includes('player')) title = 'Player Details'
-    if (pathname.includes('story')) title = 'As the Story Unfolds, in Barovia'
+    if (pathname.includes('story')) title = 'As the Story Unfolds'
     if (pathname.includes('saucey')) title = "The Wizard's Staff"
     if (pathname.includes('faction') && pathname.includes('manifesto')) title = 'Faction Manifesto'
     if (pathname.includes('faction') && pathname.includes('jobs')) title = 'Faction Jobs'

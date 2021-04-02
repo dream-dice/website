@@ -17,7 +17,7 @@ const StoryLinks = () => {
     const [open, setOpen] = useState(pathname.includes('story'))
     return (
         <li>
-            <button className='button is-ghost' onClick={() => setOpen(!open)}>As the story Unfolds, in Barovia</button>
+            <button className='button is-ghost' onClick={() => setOpen(!open)}>As the story Unfolds</button>
             {open && <ul>
                 {story.map(({to, title}) => <li key={to}><MenuLink to={`/story/${to}`}>{title}</MenuLink></li>)}
             </ul> }
@@ -45,7 +45,7 @@ const FactionLinks = ({name, title}) => {
 
 const Menu = () => {
     return (
-        <aside className="menu">
+        <aside className="menu mt-3">
             <ul className="menu-list">
                 <li>
                     <MenuLink to='/'>Home</MenuLink>

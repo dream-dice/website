@@ -1,67 +1,166 @@
 {
     "brawlers": {
         "title": "Brawlers",
-        "members": ["zordar"],
+        "intro": "We are people of action and we don’t enjoy your fancy words or your fancy magic. Sometimes we are seen fighting one another, but this is how we bond. Who says violence can’t solve all of the problems of the world? We throw everything we have into a problem, sometimes literally. Can I have another ale? What do you mean 5 silver pieces for a pretzel!? I dun mo hau ny...  zzzzz",
+        "leader": "Kildrak",
+        "contact": {
+            "name": "byllenan-stoutale",
+            "title": "Byllenan Stoutale",
+            "location": "Byllenan Smithy",
+            "description": "A kind dwarf who was a Brawler that found herself trapped in Barovia like many other adventurers before her."
+        },
+        "beliefs": [
+            "Violence solves all problems",
+            "Throw caution to the wind",
+            "Fight first, ask questions later",
+            "They get a lot of power from drinking"
+        ],
+        "offences": [
+            "Going for longer than a day without drinking",
+            "Solving a problem using logic",
+            "Using magic"
+        ],
+        "skill": {
+            "title": "Heavy Drinker",
+            "description": "As a bonus action on your turn you can take a swig of an alcoholic drink. Your strikes are now so powerful that you deal an extra 1d6 damage. If you have had more than 2 drinks before a short rest your max health is temporarily lowered by your current level."
+        },
         "jobs": [{
-            "description": "Danika, and the rest of the town, are running dangerously low on Purple Smash. They desperatley need someone to get more from the Wizard Winery. She also offers free grog for the night to those who bring a new shipment",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
+            "title": "Blue Inn Missing Delivery",
+            "description": "Danika and Urwin, who runs the Blue Water Inn, are low on Purple Grapemash No. 3 and Red Dragon Crush. She needs someone to travel to Wizard of Wines and find out why their order is overdue. If left unchecked the town will no doubt fall into chaos.",
+            "rewards": [
+                "Free drink, food and lodgings for the night"
+            ],
+            "status": "Awaiting Acceptance"
         }, {
-            "description": "Two hunters, NAME, are going on a hunt for wolves, there has been an influx in werewolves around where they hunt and are looking for someone to take them out without question",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
+            "title": "Wolf Hunt",
+            "description": "Wolf Hunters. Szoldar Szoldarovich and Yevgeni Krushkin are looking for rough and ready people who will go on a hunt with them.",
+            "rewards": [
+                "Premium Wolf steaks",
+                "Infomation about Wolves and Werewolves"
+            ],
+            "status": "Awaiting Acceptance"
         }]
     },
     "luminaries": {
         "title": "Luminaries",
-        "members": ["godfrey", "xerus"],
+        "intro": "We do things with pazazz! Throw in some razzle-dazzle with a sprinkling of funk. We do things in a way that when you hear a song or see a play about the work we have done you will remember our name. We have the largest number of famous members in any faction and that number increases daily. People love us and that is what we hope to keep up going forward.",
+        "beliefs": [
+            "Getting attention is never a bad thing",
+            "Everything should be done with pazazz",
+            "Try to make everyone like and recognise them",
+            "Use their fame (and fortune) to help others"
+        ],
+        "offences": [
+            "Bland or boring actions",
+            "Passing up an opportunity to gain fame",
+            "Being rude or uncouth"
+        ],
+        "leader": "Kimiko",
+        "skill": {
+            "title": "Crowd Pleaser",
+            "description": "For an individual or a group of people you can use your charm and skill to try and impress them, roll a Performance Check, and if they are impressed they will be compelled to tell you the truth and follow your commands for the next hour. You can do this once per long rest."
+        },
+        "contact": {
+            "name": "rictavio",
+            "title": "Rictavio, the storyman",
+            "location": "Blue Water Inn",
+            "description": "A colorfully dressed half-elf bard. He regales tavern patrons with stories so outrageous as to be hardly believable, yet he asserts they are true indeed."
+        },
         "jobs": [{
-            "description": "The burgomaster has asked that someone put on a street show during the festival of the sun",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
+            "title": "Festival Street Performers",
+            "description": "The burgomaster, Baron Vargas Vallakovich is holding the Festival of the Blazing Sun in a couple of days. He is looking for street performers and entertainers to liven things up.",
+            "rewards": [
+                "1gp per hour",
+                "50gp if you draw a large crowd"
+            ],
+            "status": "Awaiting Acceptance"
         }, {
-            "description": "The owners of the Blue Water Inn are looking for someone to put on a show in order to drum up business, they also offer free food, drink and stay for anyone who does the performance",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
-        }]
-    },
-    "wraithRaiders": {
-        "title": "Wraith Raiders",
-        "members": ["dwight"],
-        "jobs": [{
-            "description": "Fiona Wachter has asked someone to discretely take out her servent, it must look like an accident or there is no reward",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
-        }, {
-            "description": "The man in the coffin shop has a delicate situation and he needs someone to sort it out, no questions asked",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
+            "title": "Blue Water Inn Gig",
+            "description": "Danika and Urwin, owners of the Blue Water Inn, are looking for someone to put on a show to bring in more customers",
+            "rewards": [
+                "10% of the night's takings",
+                "Free drink, food and lodgings for the night"
+            ],
+            "status": "Awaiting Acceptance"
         }]
     },
     "spellworkers": {
         "title": "Spellworkers",
-        "members": ["gorek", "arty"],
+        "intro": "Our faction predates recorded history. We are often called out to investigate cases for people all over this wonderous globe. Since we are in such high demand we only take on interesting cases. We often further the field of magic which has to lead to some of the worlds greatest break-throughs and progressed our understanding of the world further.",
+        "leader": "Quillathe",
+        "beliefs": [
+            "Use magic and intelect to discern fact",
+            "Only investigate 'interesting' cases",
+            "Magic is the way forward"
+        ],
+        "offences": [
+            "Unintelligent or non magic solutions",
+            "Ignoring facts and truth"
+        ],
+        "skill": {
+            "title": "Avid Reader",
+            "description": "You can read spell scrolls from any school of magic without penalty. You can also cast spells from spell scrolls of a level highter than the highest level of your known spells."
+        },
+        "contact": {
+            "name": "dathana-mellerelel",
+            "title": "Dathana Mellerelel",
+            "location": "Dathana Magical Emporium",
+            "description": "A cruel but fair dark elf. She is a powerful mage and knows about every school of magic."
+        },
         "jobs": [{
-            "description": "The church priest is looking for someone to investigate a missing item of his, he is not willing to divulge infomation unless someone approaches him from the Spellworkers with this quest",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
+            "title": "The Priest's Cry for Help",
+            "description": "The church priest is looking for someone to investigate a missing item of his, he is not willing to divulge information unless someone approaches him from the Spellworkers with this quest",
+            "rewards": [
+                "A rare item"
+            ],
+            "status": "Awaiting Acceptance"
         }, {
-            "description": "Izek is in desperate need of help and is investigating the disserpearance of some people, normally he wouldn't ask for help but it is Izek *womp wmop*",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
+            "title": "Missing Townsfolk",
+            "description": "The locals speak of a place on the outskirts of Vallaki which haunted by ghosts. The stories are hard to believe, however, enough people are missing now that the burgomaster, Baron Vargas Vallakovich has requested further investigation.",
+            "rewards": [
+                "A Diamond worth 5000gp"
+            ],
+            "status": "Awaiting Acceptance"
+        }]
+    },
+    "wraithRaiders": {
+        "title": "Wraith Raiders",
+        "intro": "We are the most dangerous and financially successful faction to exist. Our clientele wants us to be discrete and efficient. We are not thieves or murderers, we are problem solvers. Our price may be high but the quality of service is second to none. We do not exist, we are incognito and no one knows our real identities. You do not contact us, we contact you.",
+        "leader": "???",
+        "beliefs": [
+            "Sneaking, stealing, killing is not a problem",
+            "Never turn down a job or say no",
+            "We work outside of the law"
+        ],
+        "offences": [
+            "Getting caught",
+            "Failing a mission",
+            "Having identiy known"
+        ],
+        "skill": {
+            "title": "Pickpocket",
+            "description": "One per short rest you can perform the pickpocket action. You can sneak up on an unsuspecting character (after a successful Stealth check) then roll a Sleight of Hand. You will then be shared a list of items on that character and you can take one of those items. If the Sleight of Hand is a natural 1 then you are caught."
+        },
+        "contact": {
+            "name": "mirapetor-the-fence",
+            "title": "Mirapetor (a.k.a M)",
+            "description": "A highly dangerous and devious individual, don't let his tall figure and slow speech fool you, if your name is on his target list it won't be there for long.",
+            "location": "Town Square Alley"
+        },
+        "jobs": [{
+            "title": "Assasination",
+            "description": "The client wants Ernst Larnak dead, no questions asked. It must look like an accident.",
+            "rewards": [
+                "1000gp"
+            ],
+            "status": "Awaiting Acceptance"
         }, {
-            "description": "On the outskirts of Vallaki there is a place which we believe has connections to the outside world or other planes and is not controlled by Strahd, we need someone to be able to go there and confirm this and to what extent this is true",
-            "rewards": [],
-            "owners": [],
-            "status": "waiting"
+            "title": "Coffin Maker",
+            "description": "Henrik van der Voort who owns the coffin shop has a delicate situation which needs taking care of. He will accept aid only after someone has given him the secret phrase, you will receive this phrase on accepting this mission.",
+            "rewards": [
+                "A dangerous item"
+            ],
+            "status": "Awaiting Acceptance"
         }]
     }
 }

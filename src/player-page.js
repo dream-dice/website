@@ -27,7 +27,7 @@ const Player = () => {
     if (!(name in players)) return <div>This player does not exist</div>
 
     return (
-        <div className='card p-5'>
+        <div className='card p-5 mt-3'>
             <div className='level'>
                 <div className='level-left'>
                     <div className='level-item'>

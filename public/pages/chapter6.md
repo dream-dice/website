@@ -12,7 +12,37 @@ After drinking an alarming amount of expensive wine and ale they made their way 
 
 In the morning, the welcoming aroma of a cooked breakfast filled the house as Dwight created breakfast for everyone. Ireena, a beautiful woman with striking red hair, came down and it was revealed that Strahd had twice taken her to his castle, though she has no memory of these events. The adventurers agreed they would help take the body to the church with them. First, they attended some errands.
 
-They made their way to Bildarth's mercantile. Bildarth is a rough individual whole will sell many common items at ten times their price. He hardly ever haggles because he is the only merchant in town. Whilst the group were making purchases Gorek got into a dispute about the prices and Bildarth's son, Perimple stepped in giving a warning punch where Godfrey quickly stepped in and stopped the fight. It was here that Bildarth revealed two things of interest to the whole group. Firstly was that the woman crying, known as Mad Mary, lived not far from the shop and no one has approached her asking why she cries. Secondly was that the Vistini, a group of people who live in Barrovia, might know about a spellbook which Godfrey was carrying.
+They made their way to Bildarth's mercantile. Bildarth is a rough individual whole that will sell many common items at ten times their price. He hardly ever haggles because he is the only merchant in town. Whilst the group were making purchases Gorek got into a dispute about the prices and Bildarth's son, Perimple stepped in giving a warning punch where Godfrey quickly stepped in and stopped the fight. It was here that Bildarth revealed two things of interest to the whole group. Firstly was that the woman crying, known as Mad Mary, lived not far from the shop and no one has approached her asking why she cries. Secondly was that the Vistini, a group of people who live in Barrovia, might know about a spellbook that Godfrey was carrying.
 
 All but Xerus and Dwight left for the tavern, and Dwight asked about the windmill deed which was in his possession. Bildarth informed him that a hag roams the streets at midnight offering dream pastries and that she is the current occupant. He also revealed the location of the windmill on their map.
 The others met the Vistini at the tavern, who told Godfrey of a woman named Madam Eva who knows many things about magic. They instructed him to take his spellbook to her where she might be able to tell him about its contents as well as offer services such as future readings.
+
+## Contents
+
+[Forward](/)
+
+[Chapter 1 - Werewolves in the Mist](chapter1)
+
+[Chapter 2 - The Durst Manor](chapter2)
+
+[Chapter 3 - The Forgotten Children](chapter3)
+
+[Chapter 4 - The Cultist Dungeon](chapter4)
+
+[Chapter 5 - The Fallen Brethren](chapter5)
+
+**Chapter 6 - The Dreary Village**
+
+[Chapter 7 - A Blood Thirsty Encounter](chapter7)
+
+[Chapter 8 - Fortunes and Fate](chapter8)
+
+[Chapter 9 - The Cursed Encounter](chapter9)
+
+[Chapter 10 - Reclaiming the Windmill](chapter10)
+
+[Chapter 11 - Haunting Pastries](chapter11)
+
+[Chapter 12 - Doomed Mine](chapter12)
+
+[Chapter 13 - The Demon Hand](chapter13)

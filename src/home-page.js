@@ -1,5 +1,5 @@
 const Home = () => (
-    <div className='content'>
+    <div className='content mt-3'>
         <h1 className='title'>My Campaign</h1>
         <p>
             Hello, if you  have come here it is probably because you are either a player, refered to by a player or perhaps the DM (me). In any case I hope you find what you are looking for.

@@ -9,3 +9,33 @@ Scouting ahead Gorek found yet another floor leading down into a reliquary which
 Arty discovered a room scattered with skeletons home to a large statue holding an orb. He did not detect any magic but failed to see the trap he triggered when he took the orb, suddenly filling the room with shadows that all attacked him at once. He quickly made short work of them, using his magic bestowed upon him by Helm, Gorek ran to his aide to help him from being taken over by the shadows. Gorek then took this opportunity to investigate the room further where he found a secret door with a ladder leading up into the house.
 
 Tired and warn the adventurers sat around a table to discuss their next course of action.
+
+## Contents
+
+[Forward](/)
+
+[Chapter 1 - Werewolves in the Mist](chapter1)
+
+[Chapter 2 - The Durst Manor](chapter2)
+
+[Chapter 3 - The Forgotten Children](chapter3)
+
+**Chapter 4 - The Cultist Dungeon**
+
+[Chapter 5 - The Fallen Brethren](chapter5)
+
+[Chapter 6 - The Dreary Village](chapter6)
+
+[Chapter 7 - A Blood Thirsty Encounter](chapter7)
+
+[Chapter 8 - Fortunes and Fate](chapter8)
+
+[Chapter 9 - The Cursed Encounter](chapter9)
+
+[Chapter 10 - Reclaiming the Windmill](chapter10)
+
+[Chapter 11 - Haunting Pastries](chapter11)
+
+[Chapter 12 - Doomed Mine](chapter12)
+
+[Chapter 13 - The Demon Hand](chapter13)

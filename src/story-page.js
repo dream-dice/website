@@ -36,7 +36,7 @@ const Story = () => {
     }, [path])
 
     return (
-        <div className='content'>
+        <div className='content mt-3'>
             <ReactMarkdown
                 plugins={[gfm]}
                 renderers={{
