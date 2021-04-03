@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {useLocation} from 'react-router-dom'
 
@@ -62,6 +62,7 @@ const Menu = () => {
                 Factions
             </p>
             <ul className="menu-list">
+            <li><MenuLink to='/faction/overview'>Overview</MenuLink></li>
                 { Object
                     .entries(factions)
                     .sort((left, right) => {
@@ -70,6 +71,15 @@ const Menu = () => {
                         return 0
                     })
                     .map(([name, {title}]) => <FactionLinks key={name} name={name} title={title} />) }
+            </ul>
+            <p className="menu-label">
+                Services
+            </p>
+            <ul className="menu-list">
+                <li><MenuLink to='/service/shop'>Shop</MenuLink></li>
+                <li><MenuLink to='/service/smith'>Smith</MenuLink></li>
+                <li><MenuLink to='/service/spells'>Spells</MenuLink></li>
+                <li><MenuLink to='/service/bard'>Bard</MenuLink></li>
             </ul>
             <p className="menu-label">
                 Players

@@ -1,8 +1,13 @@
+import { useEffect } from "react"
 import { useLocation } from "react-router"
 
 
 const Header = () => {
     const {pathname} = useLocation()
+    useEffect(() => {
+        const element = document.querySelector('.hero')
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    })
 
     let title = "Luke's Campaign"
     if (pathname.includes('player')) title = 'Player Details'

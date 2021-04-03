@@ -2,28 +2,89 @@
     "kuquar": {
         "title": "Ku-Quar",
         "status": "Deceased",
-        "faction": "wraithRaiders"
+        "faction": "wraithRaiders",
+        "rank": "Rank D",
+        "renown": 5,
+        "race": "Lizardfolk",
+        "class": [{"title": "Ranger", "level": 3}],
+        "description": "Ku-Quar wandered through Death House with everyone and after several tough battles he took an opportunity to take his own life in order to save everyone else.",
+        "famous": [
+            "Struggled to hit a Mimic door",
+            "Killed himself and turned into a Revenant",
+            "Arty tried to stop him from dying, which caused Ku-Quar to seek revenge against him"
+        ]
     },
     "godfrey": {
         "title": "Godfrey the Guardian",
         "status": "Missing in Action",
-        "faction": "luminaries"
+        "faction": "luminaries",
+        "rank": "Rank D",
+        "renown": 10,
+        "race": "Human",
+        "class": [{"title": "Paladin", "level": 4}],
+        "description": "Godfrey is a descendant from royalty. His homeland was ravenged by an inexplicable plague and he set off to learn the ways of the Paladin under the guidance of Helm. He vowed never to return home until could find a way to remove the plague.",
+        "famous": [
+            "Ireena hid behind his shield",
+            "Strahd charmed him and took him away"
+        ]
     },
     "arty": {
         "title": "Artefact #4546B a.k.a Arty",
-        "faction": "spellworkers"
+        "faction": "spellworkers",
+        "rank": "Rank D",
+        "renown": 15,
+        "race": "Warforged",
+        "class": [{"title": "Cleric", "level": 5}],
+        "description": "Arty was destroyed whilst humans tried to summon Talos into a suite of armour and Talos was in such a rage that he destroyed the church and grounds. Centuries later Gorek and other Spellworkers uncovered Arty and restored him. Now he still has the power of Talos but has no human emotion or sympathy, he understands the world by copying others.",
+        "famous": [
+            "Summons a Spirit Hammer similar to his Warhammer",
+            "Burned down gallows to cheer Dwight up",
+            "Chased down Strahd in order to rescue charmed Godfrey"
+        ]
     },
     "dwight": {
         "title": "Dwight Ribble",
-        "faction": "wraithRaiders"
+        "faction": "wraithRaiders",
+        "rank": "Rank C",
+        "renown": 25,
+        "race": "Elf",
+        "class": [{"title": "Ranger", "level": 5}],
+        "description": "Dwight went through hell as a young elf, his entire family was killed and he saw his own mother burned to death in-front of his own eyes. He pursued and killed those responsible. He spent most of his life surviving in caves and abandoned castles until he was recruited by the Wraith Raiders.",
+        "famous": [
+            "Extremely sneaky",
+            "Extremely dangerous with a bow",
+            "Plays pranks on Gorek",
+            "No one has caught him with his pickpocket abilities"
+        ]
     },
     "gorek": {
         "title": "Gorek Gottrisson",
-        "faction": "spellworkers"
+        "faction": "spellworkers",
+        "rank": "Rank D",
+        "renown": 15,
+        "race": "Dwarf",
+        "class": [{"title": "Artificer", "level": 5}],
+        "description": "Gorek was young when he started tinkering with items, and he did so in a way that his family didn't approve and they exiled him. After that he joined the Spellworkers and met Arty who he took an interest in and wanted to learn how he works. Time has made Gorek into a grumpy old dwarf and he will a pick fight with anyone who doesn't agree with him.",
+        "famous": [
+            "Uses thunder gauntlets",
+            "Loves rocks, a little too much",
+            "Plays pranks on Dwight",
+            "Uses his flute to cast spells"
+        ]
     },
     "zordar": {
         "title": "Zordar",
-        "faction": "brawlers"
+        "faction": "brawlers",
+        "rank": "Rank D",
+        "renown": 15,
+        "race": "Dragonborn",
+        "class": [{"title": "Barbarian", "level": 5}],
+        "description": "A strong warrior and enjoys nothing more than swinging his giant greataxe around. If he can smell liquor he will decend on it faster than you can say 'Zordar the Dragonborn'.",
+        "famous": [
+            "Always the first one to get within 5ft of a monster",
+            "Has had the most alcohol out of all the characters",
+            "Almost died because of some weak bats"
+        ]
     },
     "xerus": {
         "title": "Xerus",
@@ -31,12 +92,28 @@
         "rank": "Rank D",
         "renown": 15,
         "race": "Tiefling",
-        "class": ["Warlock"],
-        "level": 5,
-        "description": "Xerus was born and raised in Barovia. On the playground was where he spent most of his days"
+        "class": [{"title": "Warlock", "level": 5}],
+        "description": "Spent his entire life trapped in Barovia performing tricks for the locals, whilst adventuring he entered Death House and became so afraid that he decided to hide inside the ring his patron, Efreeti, gave him. Only after his new companions found him did he come out and now has a blood thurst for revenge against Strahd.",
+        "famous": [
+            "Causes mischief using his surrounding environment",
+            "Uses lots of fire",
+            "Has an overly friendly Efreeti patron",
+            "Will always remind you that he killed a dragon and a hag (with ease)"
+        ]
     },
     "izek": {
         "title": "Izek",
-        "faction": "brawlers"
+        "faction": "brawlers",
+        "rank": "Rank C",
+        "renown": 100,
+        "race": "Human",
+        "class": [{"title": "Warlock", "level": 6}],
+        "description": "A strong leader of the Vallaki Guard. What he lacks in intelligence he makes up for in brute force strength and his military tatics are second to none.",
+        "famous": [
+            "Leader of Vallaki Guard",
+            "Takes orders from the baron",
+            "Will lock anyone in the stockade who breaks the rules",
+            "Has a malformed arm"
+        ]
     }
 }

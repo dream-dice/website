@@ -11,9 +11,9 @@ const Player = () => {
         rank,
         renown,
         race,
-        class: playerClass,
-        level,
-        description
+        class: playerClass = [],
+        description,
+        famous = []
     } = players[name] || {}
 
     useEffect(() => {
@@ -41,7 +41,7 @@ const Player = () => {
                             <h2 className='subtitle'>
                                 <div className='is-size-4 mb-1'>
                                     <span className='pr-2'>{race}</span>
-                                    <span className='has-text-weight-light'>{playerClass}({level})</span>
+                                    {playerClass.map(({title, level}) => (<span key={title} className='has-text-weight-light'>{title} ({level})</span>))}
                                 </div>
                                 <div className='is-size-6'>
                                     <span className='pr-2'>{factionTitle}</span>
@@ -58,8 +58,7 @@ const Player = () => {
                     Famously
                 </h2>
                 <ul>
-                    <li>Doing a thing</li>
-                    <li>Doing another thing</li>
+                    {famous.map(item => <li key={item}>{item}</li>)}
                 </ul>
             </div>
         </div>
