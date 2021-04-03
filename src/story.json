@@ -50,5 +50,9 @@
     {
         "title": "Chapter Twelve",
         "to": "chapter12"
+    },
+    {
+        "title": "Chapter Thirteen",
+        "to": "chapter13"
     }
 ]

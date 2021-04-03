@@ -31,7 +31,26 @@ blockquote {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+.icon-1,
+.icon-2,
+.icon-3 {
+  transition: fill 0.3s ease-in-out;
+}
+
+
 /* Story */
+
+.is-story .icon-2 {
+  fill: #37200F;
+}
+
+.is-story .icon-1 {
+  fill: #B98455;
+}
+
+.is-story .icon-3 {
+  fill: #DDC095;
+}
 
 .is-story {
   background-color: #DDC095;
@@ -67,6 +86,19 @@ blockquote {
 }
 
 /* Brawlers */
+.is-brawlers .icon-2 {
+  fill: #25201C;
+}
+
+.is-brawlers .icon-1 {
+  fill: #ddc461;
+}
+
+.is-brawlers .icon-3 {
+  fill: #FDEEB1;
+}
+
+
 .is-brawlers {
   background-color: #FDEEB1;
 }
@@ -101,6 +133,18 @@ blockquote {
 }
 
 /* Wraith Raiders */
+
+.is-wraithRaiders .icon-2 {
+  fill: #800606;
+}
+
+.is-wraithRaiders .icon-1 {
+  fill: #d41010;
+}
+
+.is-wraithRaiders .icon-3 {
+  fill: #f18d8d;
+}
 
 .is-wraithRaiders {
   background-color: #AA0000;
@@ -137,6 +181,18 @@ blockquote {
 
 /* Luminaries */
 
+.is-luminaries .icon-2 {
+  fill: #0055D4;
+}
+
+.is-luminaries .icon-1 {
+  fill: #C2D2E4;
+}
+
+.is-luminaries .icon-3 {
+  fill: #F3F1E8;
+}
+
 .is-luminaries {
   background-color: #F3F1E8;
 }
@@ -171,6 +227,18 @@ blockquote {
 }
 
 /* Spellworkers */
+
+.is-spellworkers .icon-2 {
+  fill: #5A2CA0;
+}
+
+.is-spellworkers .icon-1 {
+  fill: #D0CAE4;
+}
+
+.is-spellworkers .icon-3 {
+  fill: #EEF1F5;
+}
 
 .is-spellworkers {
   background-color: #EEF1F5;

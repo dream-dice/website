@@ -1,9 +1,9 @@
 import { useEffect } from "react"
 import { useLocation } from "react-router"
-
+import Icon from './icon'
 
 const Header = () => {
-    const {pathname} = useLocation()
+    const { pathname } = useLocation()
     useEffect(() => {
         const element = document.querySelector('.hero')
         element.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -21,7 +21,18 @@ const Header = () => {
     return (
         <section className="hero">
             <div className="hero-body">
-                <p className="title">{title}</p>
+                <div className='level'>
+                    <div className='level-left'>
+                        <div className='level-item'>
+                            <div className='image is-128x128'>
+                                <Icon />
+                            </div>
+                        </div>
+                        <div className='level-item'>
+                            <h1 className="title">{title}</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
