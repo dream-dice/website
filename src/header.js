@@ -9,14 +9,16 @@ const Header = () => {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' })
     })
 
-    let title = "Luke's Campaign"
+    let title = "Dream Dice"
     if (pathname.includes('player')) title = 'Player Details'
     if (pathname.includes('story')) title = 'As the Story Unfolds'
     if (pathname.includes('saucey')) title = "The Wizard's Staff"
     if (pathname.includes('faction') && pathname.includes('manifesto')) title = 'Faction Manifesto'
     if (pathname.includes('faction') && pathname.includes('jobs')) title = 'Faction Jobs'
+    if (pathname.includes('faction') && pathname.includes('overview')) title = 'Faction Overview'
     if (pathname.includes('random')) title = "Random Generator's"
     if (pathname.includes('credits')) title = "Credits & Attributes"
+    if (pathname.includes('service')) title = "Service"
 
     return (
         <section className="hero">
@@ -29,7 +31,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className='level-item'>
-                            <h1 className="title">{title}</h1>
+                            <h1 className="title is-size-1">{title}</h1>
                         </div>
                     </div>
                 </div>

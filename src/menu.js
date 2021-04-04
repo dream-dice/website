@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import {useLocation} from 'react-router-dom'
 
 import factions from './factions.json'
 import story from './story.json'
 import players from './players.json'
+import services from './services.json'
 
 const MenuLink = ({to, children}) => {
     const {pathname} = useLocation()
@@ -74,12 +75,11 @@ const Menu = () => {
             </ul>
             <p className="menu-label">
                 Services
-            </p>
+        </p>
             <ul className="menu-list">
-                <li><MenuLink to='/service/shop'>Shop</MenuLink></li>
-                <li><MenuLink to='/service/smith'>Smith</MenuLink></li>
-                <li><MenuLink to='/service/spells'>Spells</MenuLink></li>
-                <li><MenuLink to='/service/bard'>Bard</MenuLink></li>
+                {Object.entries(services).map(([name, {title}]) => (
+                    <li key={name}><MenuLink to={`/service/${name}`}>{title}</MenuLink></li>
+                ))}
             </ul>
             <p className="menu-label">
                 Players

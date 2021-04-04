@@ -12,6 +12,8 @@ import CreditsPage from './credits-page';
 import RandomPage from './random-page';
 import StoryPage from './story-page'
 import SauceyPage from './saucey-page'
+import FactionOverviewPage from './faction-overview-page'
+import ServicePage from './service-page'
 
 const App = () => (
 <React.StrictMode>
@@ -30,9 +32,11 @@ const App = () => (
               <Route path='/player/:name' component={PlayerPage}></Route>
               <Route path='/faction/:name/manifesto' component={FactionManifestoPage}></Route>
               <Route path='/faction/:name/jobs' component={FactionJobsPage}></Route>
+              <Route path='/faction/overview' component={FactionOverviewPage}></Route>
               <Route path='/credits' component={CreditsPage}></Route>
               <Route path='/random' component={RandomPage}></Route>
               <Route path='/story/:page' component={StoryPage}></Route>
+              <Route path='/service/:service' component={ServicePage}></Route>
               <Route path='/saucey' component={SauceyPage}></Route>
               <Route component={NotFound}></Route>
             </Switch>

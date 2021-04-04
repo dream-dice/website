@@ -1,6 +1,6 @@
 const Home = () => (
     <div className='content mt-3'>
-        <h1 className='title'>My Campaign</h1>
+        <h1 className='title'>Dream Dice</h1>
         <p>
             Hello, if you  have come here it is probably because you are either a player, refered to by a player or perhaps the DM (me). In any case I hope you find what you are looking for.
         </p>
@@ -9,10 +9,10 @@ const Home = () => (
         </p>
         <h2 className='subtitle'>Library</h2>
         <p>
-            In here you will find a library of a write-up of my campaign I have been running. It started out as a recap then turned into a short novel recounting the interesting events that occured from the view of someone in their world.
+            In here you will find a library of a write-up of the campaign I have been running. It started out as a recap then turned into a short novel recounting the interesting events that occured from the view of someone in their world.
         </p>
         <p>
-            I will also aime to provide links to books and source materials from my campaign so that any player who would like to be a DM, or is interested in the work behind the campaign can do.
+            I will also aime to provide links to books and source materials from the campaign so that any player who would like to be a DM, or is interested in the work behind the campaign can do.
         </p>
         <h2 className='subtitle'>Factions</h2>
         <p>
