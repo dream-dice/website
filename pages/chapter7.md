@@ -1,0 +1,45 @@
+# Chapter 7 - A Blood Thirsty Encounter
+
+Zordar and Arty carried the coffin of the deceased burgomaster to church with a procession following them. When they arrived at the dilapidated church they were greeted by screams coming from beneath the floorboards and an acolyte praying at the altar. Donavich was the priest he told them that his son, Doru, had come back a changed man. He would carry out the funeral if the group would help him with his son, he neither had the willpower to put him out of his misery nor the strength to lock him up properly.
+
+The group agreed and made their way cautiously down into the undercroft. They were greeted by a weak and pale shell of a man. He kept screaming "I can smell your blood!". Donavich managed to convince the group not to kill his son and revealed that Ireena was the adopted daughter of Koylan, the deceased and that she had been found as a small girl on the edge of the Salvich Woods. The villagers believed her to be cursed or the vampire kin Strahd. Doru was, in Donavich's opinion, evidence that she was neither as she possed non of the qualities he was exhibiting, a lust for blood and an overwhelming urge to murder.
+
+Xerus handed his manacles to Zordar and Arty and together they locked Doru in place. Doru told them that about a year ago he and several others stormed Castle Ravenloft in revolt after being lured there by a wizard in black robes. This wizard came from a faraway land and he was killed by Stah himself. Doru was killed as well, somehow he awoke and made his way to the church. He was no longer a living person, but instead, a vampire spawn cursed to survive by consuming the blood of the living.
+
+After the funeral, the group left the church and headed to the tavern. As they were leaving a tall dark figure appeared from behind. It was Strahd who was looking to take Ireena back to his castle. He held out his hand and hexed the party. Two of the party members were unable to withstand the force of the blow but were gifted with a vision of the castle and a clear path to the dining hall where they were to meet Strahd. Smiling, Strahd beds the farewell and remarked how he looked forward to their visit.
+
+The group quickly made for the tavern. They drank and celebrated the life of the burgomaster. Ismark told the group that for 3 days, up until his father's death, the house had been attacked by wolves. He asked them to take Ireena to the fortified town of Valliki where she would be safe from Strahd. Godfrey agreed to do this, without any payment required.
+Ireena asked Godfrey for help, she knew of a woman named Madam Eva, a Vistini that could predict the future. He was also curious about her location and together they approached the owners of the tavern and found the current location of Madam Eva. She was situated in a camp near Tser Pool with a group of Vistini folk.
+
+Gorek created a makeshift set of bagpipes, then Zordar played throughout the night with lots of dancing and singing. Gorek told Ismark about how the Spellworkers had uncovered Artefact #4546B in a dig and rebooted him, they were curious about his powers which come from the diety Talos and how he was quested to uncover the origin of these powers.
+The party retreated to the mansion where they continued drinking, readying themselves for the journey to Vallaki and Madam Eva's camp.
+
+## Contents
+
+[Forward](/)
+
+[Chapter 1 - Werewolves in the Mist](chapter1)
+
+[Chapter 2 - The Durst Manor](chapter2)
+
+[Chapter 3 - The Forgotten Children](chapter3)
+
+[Chapter 4 - The Cultist Dungeon](chapter4)
+
+[Chapter 5 - The Fallen Brethren](chapter5)
+
+[Chapter 6 - The Dreary Village](chapter6)
+
+**Chapter 7 - A Blood Thirsty Encounter**
+
+[Chapter 8 - Fortunes and Fate](chapter8)
+
+[Chapter 9 - The Cursed Encounter](chapter9)
+
+[Chapter 10 - Reclaiming the Windmill](chapter10)
+
+[Chapter 11 - Haunting Pastries](chapter11)
+
+[Chapter 12 - Doomed Mine](chapter12)
+
+[Chapter 13 - The Demon Hand](chapter13)
