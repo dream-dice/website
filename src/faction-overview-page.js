@@ -9,7 +9,10 @@ const FactionOverview = () => (
                 We provide a model for all factions to follow, the renown model. As your reputation increases so will your rank, this way you can track your progress and if you do not receive something you are entitled to you can come to us and we will fight your case for you.
             </p>
             <p>
-                The following is your renown rating and your rank, it is up to your faction to decide what each rank’s responsibilities are ant what rewards you receive but the format is the same for each rank.
+                Your faction will provide jobs for your to pick up and complete and on successful completion of a job you will be rewarded large amounts renown. Some jobs offer rewards from the patron where as others offer no such reward.
+            </p>
+            <p>
+                The following is your renown or how many jobs you will need to have taken to progress through the ranks, it is up to your faction to decide what each rank’s responsibilities are ant what rewards you receive but the format is the same for each rank.
             </p>
             <table className='table is-narrow is-stripped'>
                 <thead>
@@ -60,7 +63,7 @@ const FactionOverview = () => (
                             20
                         </td>
                         <td>
-                            1
+                            2
                         </td>
                     </tr>
                     <tr>
@@ -74,7 +77,7 @@ const FactionOverview = () => (
                             50
                         </td>
                         <td>
-                            1
+                            2
                         </td>
                     </tr>
                     <tr>
@@ -88,7 +91,7 @@ const FactionOverview = () => (
                             100
                         </td>
                         <td>
-                            2
+                            3
                         </td>
                     </tr>
                 </tbody>

@@ -1,14 +1,23 @@
-## Teleporter
+## Wraith Raider
 
-You all have access to 2 rings to be able to teleport to the cellar in Dathana Magical Emporium and it takes 10 minutes to cast the ritual spell on the ring to teleport yourself and several willing creatures who have been permitted to go there. This means you won't be able to do this during combat or a conversation as you won't have 10 minutes to focus, but a short or long rest is a good chance to do this or if everyone agrees that this can happen.
+Only Wraith Raiders will be able to get in contact with Mirapetor.
 
-She will create scrolls, potions and items for focusing magic. Like Princess Cute she sells common items for focusing magic at the price listed above and buys them for half price unless brand new.
-She offers a service where she will create spell scrolls. Depending on the spell determines the price of the scroll (at my discretion). It takes 100gp per day to create a scroll e.g. a scroll worth 600gp would take 6 days. She will not buy scrolls or wizard books as she wouldn't be able to find a buyer for them.
+## Item Hunter
 
-```
-Cantrip - Level 1 spells cost 50-100gp
-Level 2 - Level 3 spells cost 101-500gp
-Level 4 - Level 5 spells cost 501-5000gp
-Level 6 - Level 8 spells cost 5001-50000gp
-Level 9 spells cost 50001gp+
-```
+If you are looking for a specific item Mirapetor will find its location for you for a fee. Sometimes he will be able to get the item for you but more often than not he will give you the location and instructions on how to obtain the item.
+
+## Selling
+
+He will take any item, regardless of whether it is rare or stolen and sell them on your behalf. He will buy items at half their value.
+
+## Price Breakdown
+
+For items that do not have a price value consult this table.
+
+Rarity | Value
+---|---
+Common | 50-100gp
+Uncommon | 101-500gp
+Rare | 501-5000gp
+Very Rare | 5001-50000gp
+Legendary | 50001gp+

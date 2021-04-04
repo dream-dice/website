@@ -1,5 +1,6 @@
 import { useParams } from 'react-router'
 import ReactMarkdown from 'react-markdown';
+import gfm from 'remark-gfm';
 import services from './services.json'
 import { useEffect, useReducer, useState } from 'react';
 
@@ -140,7 +141,7 @@ const Service = () => {
         <div className='mt-3'>
             <div className='content'>
                 <h1 className='title'>{title}</h1>
-                <ReactMarkdown>{children}</ReactMarkdown>
+                <ReactMarkdown plugins={[gfm]}>{children}</ReactMarkdown>
                 {
                     items.length > 0 && <Items items={items} />
                 }
