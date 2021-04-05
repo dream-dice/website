@@ -15,7 +15,7 @@ const MenuLink = ({to, children}) => {
 
 const StoryLinks = () => {
     const {pathname} = useLocation()
-    const [open, setOpen] = useState(pathname.includes('story'))
+    const [open, setOpen] = useState(navigator.userAgent === "ReactSnap" || pathname.includes('story'))
     return (
         <li>
             <button className='button is-ghost' onClick={() => setOpen(!open)}>As the story Unfolds</button>
@@ -28,7 +28,7 @@ const StoryLinks = () => {
 
 const FactionLinks = ({name, title}) => {
     const {pathname} = useLocation()
-    const [open, setOpen] = useState(pathname.includes('faction') && pathname.includes(name))
+    const [open, setOpen] = useState(navigator.userAgent === "ReactSnap" || (pathname.includes('faction') && pathname.includes(name)))
     return (
         <li>
             <button className='button is-ghost' onClick={() => setOpen(!open)}>{title}</button>

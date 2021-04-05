@@ -26,7 +26,7 @@ const App = () => (
               <div className='column is-3'>
               <Menu></Menu>
               </div>
-            <div className='column is-8'>
+            <div className='column is-8 scroll-to'>
             <Switch>
               <Route path='/' exact component={HomePage}></Route>
               <Route path='/player/:name' component={PlayerPage}></Route>

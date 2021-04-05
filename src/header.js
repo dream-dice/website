@@ -5,7 +5,7 @@ import Icon from './icon'
 const Header = () => {
     const { pathname } = useLocation()
     useEffect(() => {
-        const element = document.querySelector('.hero')
+        const element = document.querySelector('.scroll-to')
         element.scrollIntoView({ behavior: 'smooth', block: 'start' })
     })
 
