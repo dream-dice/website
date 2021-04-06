@@ -5,7 +5,9 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import metadata from './metadata.json'
 
 const Header = () => {
-    const { pathname } = useLocation()
+    let { pathname } = useLocation()
+    pathname = pathname.replace(/\/$/g, '')
+    if (pathname === '') pathname = '/'
     const [scrollTo, setScrollTo] = useState(window.innerWidth <= 768 ? '.scroll-to' : '.hero')
 
     const {title, className, description, image} = metadata[pathname] || metadata.notFound
