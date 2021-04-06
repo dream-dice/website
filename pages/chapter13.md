@@ -1,5 +1,7 @@
 # The Demon Hand
 
-After leaving the mines the group eventually made their way to Vallaki. When they arrived at the gates they were greeted by the leader of the guards Izek. 
+After leaving the mines the group eventually made their way to Vallaki. When they arrived at the gates they were greeted by the leader of the guards Izek. After investigating the group he let them enter, perhaps feeling that they were no threat to the citizens of Vallaki. Izek then decided to show them around town a bit whilst he was attending to his errands.
 
-Under construction
+The group went to Vallaki Town Square where they learned about the local shops and met some of their fellow faction members. Not much trade went on here as the locals were poor, but perhaps these newcomers would bring newfound wealth. In the centre, several people, including children, were locked up in the stockades. Izek would lock people up, by order of the burgomaster, for not embracing the village festivities or for talking ill of the burgomaster or his family.
+
+After they finished business in the centre of town they made their way to the Blue Water Inn and met several locals, including a colourful person named Rictavioa who would regale locals with his collection of tales that are hard to believe. Here Xerus was reunited with him, though his oppressed memories made it hard for him to remember all the details.
