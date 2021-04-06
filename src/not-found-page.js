@@ -1,5 +1,5 @@
 const NotFound = () => (
-    <div>This page does not exist</div>
+    <div className='content mt-3 is-size-4'>This page does not exist</div>
 )
 
 export default NotFound

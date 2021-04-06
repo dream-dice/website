@@ -57,7 +57,7 @@ const FactionJobs = () => {
                         </div>
                     </div>
                 </div>
-                <ul>
+                <ul style={{listStyleType: 'none'}}>
                     {jobs.map(({ description, status, rewards, title }) => (
                         <li key={description}>
                             <Job description={description} status={status} rewards={rewards} title={title} />
