@@ -35,11 +35,11 @@
         "renown": 15,
         "race": "Warforged",
         "class": [{"title": "Cleric", "level": 5}],
-        "description": "Arty was destroyed whilst humans tried to summon Talos into a suite of armour and Talos was in such a rage that he destroyed the church and grounds. Centuries later Gorek and other Spellworkers uncovered Arty and restored him. Now he still has the power of Talos but has no human emotion or sympathy, he understands the world by copying others.",
+        "description": "Arty was destroyed whilst humans tried to summon Talos into a suit of armour and Talos was in such a rage that he destroyed the church and grounds. Centuries later Gorek and other Spellworkers uncovered Arty and restored him. Now he still has the power of Talos but has no human emotion or sympathy, he understands the world by copying others.",
         "famous": [
             "Summons a Spirit Hammer similar to his Warhammer",
             "Burned down gallows to cheer Dwight up",
-            "Chased down Strahd in order to rescue charmed Godfrey"
+            "Chased down Strahd to rescue charmed Godfrey"
         ]
     },
     "dwight": {
@@ -64,7 +64,7 @@
         "renown": 15,
         "race": "Dwarf",
         "class": [{"title": "Artificer", "level": 5}],
-        "description": "Gorek was young when he started tinkering with items, and he did so in a way that his family didn't approve and they exiled him. After that he joined the Spellworkers and met Arty who he took an interest in and wanted to learn how he works. Time has made Gorek into a grumpy old dwarf and he will a pick fight with anyone who doesn't agree with him.",
+        "description": "Gorek was young when he started tinkering with items, and he did so in a way that his family didn't approve and they exiled him. After that, he joined the Spellworkers and met Arty who he took an interest in and wanted to learn how he works. Time has made Gorek into a grumpy old dwarf and he will a pick fight with anyone who doesn't agree with him.",
         "famous": [
             "Uses thunder gauntlets",
             "Loves rocks, a little too much",

@@ -89,17 +89,17 @@
         "intro": "Our faction predates recorded history. We are often called out to investigate cases for people all over this wonderous globe. Since we are in such high demand we only take on interesting cases. We often further the field of magic which has to lead to some of the worlds greatest break-throughs and progressed our understanding of the world further.",
         "leader": "Quillathe",
         "beliefs": [
-            "Use magic and intelect to discern fact",
+            "Use magic and intellect to discern fact",
             "Only investigate 'interesting' cases",
             "Magic is the way forward"
         ],
         "offences": [
-            "Unintelligent or non magic solutions",
+            "Unintelligent or non-magic solutions",
             "Ignoring facts and truth"
         ],
         "skill": {
             "title": "Avid Reader",
-            "description": "You can read spell scrolls from any school of magic without penalty. You can also cast spells from spell scrolls of a level highter than the highest level of your known spells."
+            "description": "You can read spell scrolls from any school of magic without penalty. You can also cast spells from spell scrolls of a level higher than the highest level of your known spells."
         },
         "contact": {
             "name": "dathana-mellerelel",
@@ -119,6 +119,14 @@
             "description": "The locals speak of a place on the outskirts of Vallaki which haunted by ghosts. The stories are hard to believe, however, enough people are missing now that the burgomaster, Baron Vargas Vallakovich has requested further investigation.",
             "rewards": [
                 "A Diamond worth 5000gp"
+            ],
+            "status": "Awaiting Acceptance"
+        }, {
+            "title": "Sewer Crisis",
+            "description": "The Vallaki Sewers are built on top of an abandoned mine created by Dwarves ages past, the sewers pre-date Strahd. The entrance to the mine has been lost for eons, but old blue prints suggest they would be a quick and safe way to travel around Barovia undetected by Strahd and his spawn. This has become more urgent as the town is running low on supplies from The Wizard of Wines.",
+            "rewards": [
+                "Anything found within in the mine",
+                "Quick access around Barovia"
             ],
             "status": "Awaiting Acceptance"
         }]

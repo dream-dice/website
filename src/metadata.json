@@ -8,7 +8,7 @@
     "/": {
         "title": "Dream Dice",
         "className": "home",
-        "description": "A website with all my DM notes that I want to share with my players including services, player info, story so far and faction jobs",
+        "description": "A website with all my DM notes that I want to share with my players including services, player info, the story so far and faction jobs",
         "image": "/icon.png"
     },
     "/saucey": {
