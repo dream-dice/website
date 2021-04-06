@@ -16,33 +16,3 @@ They made their way to Bildarth's mercantile. Bildarth is a rough individual who
 
 All but Xerus and Dwight left for the tavern, and Dwight asked about the windmill deed which was in his possession. Bildarth informed him that a hag roams the streets at midnight offering dream pastries and that she is the current occupant. He also revealed the location of the windmill on their map.
 The others met the Vistini at the tavern, who told Godfrey of a woman named Madam Eva who knows many things about magic. They instructed him to take his spellbook to her where she might be able to tell him about its contents as well as offer services such as future readings.
-
-## Contents
-
-[Forward](/)
-
-[Chapter 1 - Werewolves in the Mist](chapter1)
-
-[Chapter 2 - The Durst Manor](chapter2)
-
-[Chapter 3 - The Forgotten Children](chapter3)
-
-[Chapter 4 - The Cultist Dungeon](chapter4)
-
-[Chapter 5 - The Fallen Brethren](chapter5)
-
-**Chapter 6 - The Dreary Village**
-
-[Chapter 7 - A Blood Thirsty Encounter](chapter7)
-
-[Chapter 8 - Fortunes and Fate](chapter8)
-
-[Chapter 9 - The Cursed Encounter](chapter9)
-
-[Chapter 10 - Reclaiming the Windmill](chapter10)
-
-[Chapter 11 - Haunting Pastries](chapter11)
-
-[Chapter 12 - Doomed Mine](chapter12)
-
-[Chapter 13 - The Demon Hand](chapter13)

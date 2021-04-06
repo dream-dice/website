@@ -1,0 +1,248 @@
+{
+    "notFound": {
+        "title": "404 Not Found",
+        "className": "notFound",
+        "description": "This page does not exist",
+        "image": "/icon.png"
+    },
+    "/": {
+        "title": "Dream Dice",
+        "className": "home",
+        "description": "A website with all my DM notes that I want to share with my players including services, player info, story so far and faction jobs",
+        "image": "/icon.png"
+    },
+    "/saucey": {
+        "title": "The Wizard's Staff",
+        "className": "home",
+        "description": "The Wizard's Staff is a book you will find throughout Barovia, it is also available on Amazon and a great read!",
+        "image": "/icon.png"
+    },
+    "/faction/overview": {
+        "title": "Faction Oversight Guild",
+        "className": "home",
+        "description": "An introduction into the world of factions",
+        "image": "/icon.png"
+    },
+    "/faction/brawlers/manifesto": {
+        "title": "Brawlers Faction",
+        "className": "brawlers",
+        "description": "An introduction to the Brawlers",
+        "image": "/brawlers-icon.png"
+    },
+    "/faction/brawlers/jobs": {
+        "title": "Brawlers Jobs",
+        "className": "brawlers",
+        "description": "A list of jobs and their status for the Brawlers",
+        "image": "/brawlers-icon.png"
+    },
+    "/faction/luminaries/manifesto": {
+        "title": "Luminaries Faction",
+        "className": "luminaries",
+        "description": "An introduction to the Luminaries",
+        "image": "/luminaries-icon.png"
+    },
+    "/faction/luminaries/jobs": {
+        "title": "Luminaries Jobs",
+        "className": "luminaries",
+        "description": "A list of jobs and their status for the Luminaries",
+        "image": "/luminaries-icon.png"
+    },
+    "/faction/spellworkers/manifesto": {
+        "title": "Spellworkers Faction",
+        "className": "spellworkers",
+        "description": "An introduction to the Spellworkers",
+        "image": "/spellworkers-icon.png"
+    },
+    "/faction/spellworkers/jobs": {
+        "title": "Spellworkers Jobs",
+        "className": "spellworkers",
+        "description": "A list of jobs and their status for the Spellworkers",
+        "image": "/spellworkers-icon.png"
+    },
+    "/faction/wraithRaiders/manifesto": {
+        "title": "Wraith Raiders Faction",
+        "className": "wraithRaiders",
+        "description": "An introduction to the Wraith Raiders",
+        "image": "/wraithRaiders-icon.png"
+    },
+    "/faction/wraithRaiders/jobs": {
+        "title": "Wraith Raiders Jobs",
+        "className": "wraithRaiders",
+        "description": "A list of jobs and their status for the Wraith Raiders",
+        "image": "/wraithRaiders-icon.png"
+    },
+    "/service/smith": {
+        "title": "Byllenan Smithy",
+        "className": "home",
+        "description": "Purchase and upgrade weapons, armour or a shield",
+        "image": "/icon.png"
+    },
+    "/service/magic": {
+        "title": "Dathana Magical Emporium",
+        "className": "home",
+        "description": "Purchase scrolls, potions and access to the teleporter",
+        "image": "/icon.png"
+    },
+    "/service/shop": {
+        "title": "General Curiosities",
+        "className": "home",
+        "description": "Buy and sell common adventuring items and tools",
+        "image": "/icon.png"
+    },
+    "/service/fence": {
+        "title": "Mirapetor the Fence",
+        "className": "home",
+        "description": "A crafty person who buys and sells anything",
+        "image": "/icon.png"
+    },
+    "/service/memory": {
+        "title": "Rictavioa's Memories",
+        "className": "home",
+        "description": "Has infomation about individuals in Barovia and will buy stories",
+        "image": "/icon.png"
+    },
+    "/player/izek": {
+        "title": "Izek",
+        "className": "brawlers",
+        "description": "Leader of Vallaki guards",
+        "image": "/players/izek.png"
+    },
+    "/player/zordar": {
+        "title": "Zordar",
+        "className": "brawlers",
+        "description": "A dragonborn barbarian who likes to fight and drink",
+        "image": "/players/zordar.png"
+    },
+    "/player/godfrey": {
+        "title": "Godfrey the Guardian",
+        "className": "luminaries",
+        "description": "A human paladin who is in a quest to rid his land of a mysterious plague",
+        "image": "/players/godfrey.png"
+    },
+    "/player/xerus": {
+        "title": "Xerus",
+        "className": "luminaries",
+        "description": "A tiefling warlock who was found hiding inside his magic ring",
+        "image": "/players/xerus.png"
+    },
+    "/player/arty": {
+        "title": "Artefact #4546B a.k.a Arty",
+        "className": "spellworkers",
+        "description": "A warforged cleric who channels Talos and was discovered during and excavation",
+        "image": "/players/arty.png"
+    },
+    "/player/gorek": {
+        "title": "Gorek Gottrisson",
+        "className": "spellworkers",
+        "description": "An artificer dwarf who was exiled from his home for tinkering with items",
+        "image": "/players/gorek.png"
+    },
+    "/player/dwight": {
+        "title": "Dwight Ribble",
+        "className": "wraithRaiders",
+        "description": "An elf ranger who is always hiding in the shadows",
+        "image": "/players/dwight.png"
+    },
+    "/player/kuquar": {
+        "title": "Ku-Quar",
+        "className": "wraithRaiders",
+        "description": "A lizardfolk ranger that sacrificed himself to save his friends",
+        "image": "/players/kuquar.png"
+    },
+    "/random": {
+        "title": "Random Item Generator",
+        "className": "home",
+        "description": "A couple of tools used to generate items for my players",
+        "image": "/icon.png"
+    },
+    "/credits": {
+        "title": "Credits",
+        "className": "home",
+        "description": "A list of credited people and thanks",
+        "image": "/icon.png"
+    },
+    "/story/forward": {
+        "title": "Forward",
+        "className": "story",
+        "description": "The forward for the journey through Barovia",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter1": {
+        "title": "Chapter 1 - Werewolves in the Mist",
+        "className": "story",
+        "description": "Our adventurers take on the mission to take out the Werewolves in the Mist",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter2": {
+        "title": "Chapter 2 - The Durst Manor",
+        "className": "story",
+        "description": "After walking through the mist the adventurers come across a manor, and chase a werewolf inside",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter3": {
+        "title": "Chapter 3 - The Forgotten Children",
+        "className": "story",
+        "description": "Whilst exploring the manor the adventurers come across the ghosts of two children of the manor",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter4": {
+        "title": "Chapter 4 - The Cultist Dungeon",
+        "className": "story",
+        "description": "Finding a secret stairway the adventurers make their way down into a cultists dungeon",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter5": {
+        "title": "Chapter 5 - The Fallen Brethren",
+        "className": "story",
+        "description": "To escape the house with their lives one of the adventurer's sacrifices himself for the others",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter6": {
+        "title": "Chapter 6 - The Dreary Village",
+        "className": "story",
+        "description": "The village of Barovia is in ruins, a tavern is required for a long-awaited rest",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter7": {
+        "title": "Chapter 7 - A Blood Thirsty Encounter",
+        "className": "story",
+        "description": "While burying the deceased burgomaster the group come across a horrid creature who is out for blood",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter8": {
+        "title": "Chapter 8 - Fortunes and Fate",
+        "className": "story",
+        "description": "The group move on and meet Madam Eva who tells them their fortune",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter9": {
+        "title": "Chapter 9 - The Cursed Encounter",
+        "className": "story",
+        "description": "Whilst making their way to Vallaki they are swept away to meet Strahd for dinner1",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter10": {
+        "title": "Chapter 10 - Reclaiming the Windmill",
+        "className": "story",
+        "description": "After surviving their visit to Castle Ravenloft the group seek refuge in a windmill",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter11": {
+        "title": "Chapter 11 - Haunting Pastries",
+        "className": "story",
+        "description": "They climb the windmill to clear out the hags who haunt it",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter12": {
+        "title": "Chapter 12 - Doomed Mine",
+        "className": "story",
+        "description": "After leaving the windmill they spy a mine full of riches",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter13": {
+        "title": "Chapter 13 - The Demon Hand",
+        "className": "story",
+        "description": "Finally they reach Vallaki and are greated by the leader of the guards who let's them pass",
+        "image": "/story-icon.png"
+    }
+}

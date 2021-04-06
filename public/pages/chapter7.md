@@ -13,33 +13,3 @@ Ireena asked Godfrey for help, she knew of a woman named Madam Eva, a Vistini th
 
 Gorek created a makeshift set of bagpipes, then Zordar played throughout the night with lots of dancing and singing. Gorek told Ismark about how the Spellworkers had uncovered Artefact #4546B in a dig and rebooted him, they were curious about his powers which come from the diety Talos and how he was quested to uncover the origin of these powers.
 The party retreated to the mansion where they continued drinking, readying themselves for the journey to Vallaki and Madam Eva's camp.
-
-## Contents
-
-[Forward](/)
-
-[Chapter 1 - Werewolves in the Mist](chapter1)
-
-[Chapter 2 - The Durst Manor](chapter2)
-
-[Chapter 3 - The Forgotten Children](chapter3)
-
-[Chapter 4 - The Cultist Dungeon](chapter4)
-
-[Chapter 5 - The Fallen Brethren](chapter5)
-
-[Chapter 6 - The Dreary Village](chapter6)
-
-**Chapter 7 - A Blood Thirsty Encounter**
-
-[Chapter 8 - Fortunes and Fate](chapter8)
-
-[Chapter 9 - The Cursed Encounter](chapter9)
-
-[Chapter 10 - Reclaiming the Windmill](chapter10)
-
-[Chapter 11 - Haunting Pastries](chapter11)
-
-[Chapter 12 - Doomed Mine](chapter12)
-
-[Chapter 13 - The Demon Hand](chapter13)

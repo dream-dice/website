@@ -126,9 +126,6 @@ const Service = () => {
     useEffect(() => {
         if (service in services) {
             fetchChildren(path, setChildren)
-            return () => {
-                document.body.className = `is-home`
-            }
         }
     }, [path, service])
 

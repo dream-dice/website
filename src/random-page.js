@@ -58,7 +58,7 @@ const Random = () => {
     return (
         <div className='mt-3'>
             <div className='content'>
-                <h1 className='title'>Random Item generator</h1>
+                <h1 className='title'>Random Item Generator</h1>
                 <p>
                     As part of the Discord server everyone is rewarded using <a href='https://tatsu.gg/'>Tatsu</a>. Here are the generators which I use to roll for random items.
                 </p>

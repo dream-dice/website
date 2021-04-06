@@ -28,11 +28,7 @@ const Story = () => {
     const [children, setChildren] = useState('Loading')
 
     useEffect(() => {
-        document.body.className = `is-story`
         fetchChildren(path, setChildren)
-        return () => {
-            document.body.className = `is-home`
-        }
     }, [path])
 
     return (

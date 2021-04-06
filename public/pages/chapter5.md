@@ -13,33 +13,3 @@ Whatever was coursing through his body was not blood, but hate, and it fuelled h
 The house it would seem was appeased by this offering and the curse was lifted. The party left the house, and a curious thing happened as Dwight stepped through the doorway. One of the rings in his pocket, spoils from the house, started making music. A fanfare started and from the ring came a Tiefling named Xerus shouting "I'm free at last from that wretched house!". Xerus then joined the party in their quest to slay the werewolves of the mist.
 
 The taste of freedom did not last long, however. A skinny figure dressed in black handed the part a wax-sealed letter. An invitation from Strahd to dine with him. After the group accepted the figure hissed at them and darted into the mist.
-
-## Contents
-
-[Forward](/)
-
-[Chapter 1 - Werewolves in the Mist](chapter1)
-
-[Chapter 2 - The Durst Manor](chapter2)
-
-[Chapter 3 - The Forgotten Children](chapter3)
-
-[Chapter 4 - The Cultist Dungeon](chapter4)
-
-**Chapter 5 - The Fallen Brethren**
-
-[Chapter 6 - The Dreary Village](chapter6)
-
-[Chapter 7 - A Blood Thirsty Encounter](chapter7)
-
-[Chapter 8 - Fortunes and Fate](chapter8)
-
-[Chapter 9 - The Cursed Encounter](chapter9)
-
-[Chapter 10 - Reclaiming the Windmill](chapter10)
-
-[Chapter 11 - Haunting Pastries](chapter11)
-
-[Chapter 12 - Doomed Mine](chapter12)
-
-[Chapter 13 - The Demon Hand](chapter13)

@@ -1,26 +1,42 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { useLocation } from "react-router"
 import Icon from './icon'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import metadata from './metadata.json'
 
 const Header = () => {
     const { pathname } = useLocation()
+    const [scrollTo, setScrollTo] = useState(window.innerWidth <= 768 ? '.scroll-to' : '.hero')
+
+    const {title, className, description, image} = metadata[pathname] || metadata.notFound
+
     useEffect(() => {
-        const element = document.querySelector('.scroll-to')
+        document.body.className = `is-${className}`
+
+        const element = document.querySelector(scrollTo)
         element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        window.onresize = () => {
+            setScrollTo(window.innerWidth <= 768 ? '.scroll-to' : '.hero')
+        }
+
+        return () => {
+            window.onresize = null
+            document.body.className = `is-home`
+        }
     })
 
-    let title = "Dream Dice"
-    if (pathname.includes('player')) title = 'Player Details'
-    if (pathname.includes('story')) title = 'As the Story Unfolds'
-    if (pathname.includes('saucey')) title = "The Wizard's Staff"
-    if (pathname.includes('faction') && pathname.includes('manifesto')) title = 'Faction Manifesto'
-    if (pathname.includes('faction') && pathname.includes('jobs')) title = 'Faction Jobs'
-    if (pathname.includes('faction') && pathname.includes('overview')) title = 'Faction Overview'
-    if (pathname.includes('random')) title = "Random Generator's"
-    if (pathname.includes('credits')) title = "Credits & Attributes"
-    if (pathname.includes('service')) title = "Service"
-
     return (
+        <>
+        <HelmetProvider>
+        <Helmet>
+            <title>{title}</title>
+            <meta name="description" content={description} />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={`http://dream-dice.blankstring.com${image}`} />
+            <meta property="og:url" content={`http://dream-dice.blankstring.com${pathname}`} />
+        </Helmet>
+        </HelmetProvider>
         <section className="hero">
             <div className="hero-body">
                 <div className='level'>
@@ -37,6 +53,7 @@ const Header = () => {
                 </div>
             </div>
         </section>
+        </>
     )
 }
 

@@ -1,7 +1,6 @@
 import { useRouteMatch } from "react-router"
 import players from './players.json'
 import factions from './factions.json'
-import { useEffect } from "react"
 
 const Player = () => {
     const { params: { name } } = useRouteMatch()
@@ -15,13 +14,6 @@ const Player = () => {
         description,
         famous = []
     } = players[name] || {}
-
-    useEffect(() => {
-        if (faction in factions) document.body.className = `is-${faction}`
-        return () => {
-            document.body.className = `is-home`
-        }
-    })
 
     const { title: factionTitle } = factions[faction]
     if (!(name in players)) return <div>This player does not exist</div>

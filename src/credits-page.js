@@ -1,5 +1,7 @@
 const Credits = () => (
     <div className='content mt-3'>
+        <h1 className='title'>Credits</h1>
+        <p>A list of things I want to credit and say thanks to!</p>
         <h2 className='subtitle'>For the Images</h2>
         <p>
             I would like to say thank you to everyone on the internet who has provided images. Some of the images my players have given me and all I have done is turn them into avatars. I did find some banners but it was on pintrest and I have no idea who the original author was. If anyone in the world sees this and thinks "Hey that's my image", give me a shout and I will either say thanks or take it down. It is all fan made and there is no profit to be had on this entire website.

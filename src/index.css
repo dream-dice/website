@@ -53,6 +53,53 @@ blockquote {
   border-top: 5px solid #000000;
 }
 
+/* Not Found */
+
+.is-notFound .icon-2 {
+  fill: #686868;
+}
+
+.is-notFound .icon-1 {
+  fill: #949494;
+}
+
+.is-notFound .icon-3 {
+  fill: #D2D2D2;
+}
+
+.is-notFound {
+  background-color: #D2D2D2;
+}
+
+.is-notFound .card,
+.is-notFound .title,
+.is-notFound .button,
+.is-notFound a,
+.is-notFound .menu-label,
+.is-notFound .content,
+.is-notFound h1,
+.is-notFound h2,
+.is-notFound h3,
+.is-notFound h4,
+.is-notFound h5,
+.is-notFound h6,
+.is-notFound p,
+.is-notFound blockquote {
+  color: #686868 !important;
+}
+
+.is-notFound blockquote,
+.is-notFound .menu-list li ul {
+  border-color: #686868 !important;
+}
+
+.is-notFound a:hover,
+.is-notFound a.is-active,
+.is-notFound .card,
+.is-notFound blockquote {
+  background-color: #949494 !important;
+}
+
 /* Story */
 
 .is-story .icon-2 {

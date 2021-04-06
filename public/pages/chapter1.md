@@ -15,33 +15,3 @@ At night-fall of that same day Tibbles, a local ranger who had been tracking the
 The party were completely consumed in this thick and dense mist which turned into an impenetrable fog, making it hard to breathe and impossible to see. Each person in the party heard their names be called in the fog as they chased down shadowy figures, assumed to be the werewolves.
 
 Somehow, by chance, they found their way through the mist, together they faced an old and abandoned manor. In the wall around the manor, a dark shadow lept through a break in the wall, leaving the party to question what fate had in store for them.
-
-## Contents
-
-[Forward](/)
-
-**Chapter 1 - Werewolves in the Mist**
-
-[Chapter 2 - The Durst Manor](chapter2)
-
-[Chapter 3 - The Forgotten Children](chapter3)
-
-[Chapter 4 - The Cultist Dungeon](chapter4)
-
-[Chapter 5 - The Fallen Brethren](chapter5)
-
-[Chapter 6 - The Dreary Village](chapter6)
-
-[Chapter 7 - A Blood Thirsty Encounter](chapter7)
-
-[Chapter 8 - Fortunes and Fate](chapter8)
-
-[Chapter 9 - The Cursed Encounter](chapter9)
-
-[Chapter 10 - Reclaiming the Windmill](chapter10)
-
-[Chapter 11 - Haunting Pastries](chapter11)
-
-[Chapter 12 - Doomed Mine](chapter12)
-
-[Chapter 13 - The Demon Hand](chapter13)
