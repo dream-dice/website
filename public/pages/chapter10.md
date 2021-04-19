@@ -1,4 +1,4 @@
-# Chapter 10 - Reclaiming the Windmill
+# Reclaiming the Windmill
 
 Tired and battered the group decided to march on to the windmill which Dwight had the deeds for. As I followed their trail I found the very same hilltop with magical monoliths that the group had found. Somehow these things allowed magic from outside of Barovia in, however faint it was very comforting to me. It was here that Xerus brought everyone into his ring. They entered a small cottage where Xerus had spent years hiding away from the terrors of Death House. It was safe in this ring, and the party decided to stay the night, confident that no evil would approach the monoliths outside. Whilst they rested here Xerus's patron, an Efreeti approached. He told everyone to stay and enjoy themselves, that he would take care of them whilst in the ring he also explained that he could hear everything from within the ring. Efreeti proposed that once they had dealt with Strahd they should visit him again in the ring and he would take them to his living quarters to dine with him.
 

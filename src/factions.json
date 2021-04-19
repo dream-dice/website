@@ -30,7 +30,7 @@
             "rewards": [
                 "Free drink, food and lodgings for the night"
             ],
-            "status": "Awaiting Acceptance"
+            "status": "Zordar to go to the Blue Water Inn to talk to Danika and Urwin for more information (and a drink)"
         }, {
             "title": "Wolf Hunt",
             "description": "Wolf Hunters. Szoldar Szoldarovich and Yevgeni Krushkin are looking for rough and ready people who will go on a hunt with them.",
@@ -73,13 +73,12 @@
                 "1gp per hour",
                 "50gp if you draw a large crowd"
             ],
-            "status": "Awaiting Acceptance"
+            "status": "Xerus to perform at the festival, he promises a gigantic performance"
         }, {
-            "title": "Blue Water Inn Gig",
-            "description": "Danika and Urwin, owners of the Blue Water Inn, are looking for someone to put on a show to bring in more customers",
+            "title": "Charitable Fundraiser",
+            "description": "Lydia Petrovna, the baroness, has asked that someone hold a festival for the starving children whose parents are currently locked up in the stockade.",
             "rewards": [
-                "10% of the night's takings",
-                "Free drink, food and lodgings for the night"
+                "Since this is for charity, there will be no reward"
             ],
             "status": "Awaiting Acceptance"
         }]
@@ -115,13 +114,6 @@
             ],
             "status": "Awaiting Acceptance"
         }, {
-            "title": "Missing Townsfolk",
-            "description": "The locals speak of a place on the outskirts of Vallaki which haunted by ghosts. The stories are hard to believe, however, enough people are missing now that the burgomaster, Baron Vargas Vallakovich has requested further investigation.",
-            "rewards": [
-                "A Diamond worth 5000gp"
-            ],
-            "status": "Awaiting Acceptance"
-        }, {
             "title": "Sewer Crisis",
             "description": "The Vallaki Sewers are built on top of an abandoned mine created by Dwarves ages past, the sewers pre-date Strahd. The entrance to the mine has been lost for eons, but old blue prints suggest they would be a quick and safe way to travel around Barovia undetected by Strahd and his spawn. This has become more urgent as the town is running low on supplies from The Wizard of Wines.",
             "rewards": [
@@ -129,6 +121,13 @@
                 "Quick access around Barovia"
             ],
             "status": "Gorek to talk to the Burgomaster about the sewers"
+        }, {
+            "title": "The Missing Mage",
+            "description": "Noth of Vallaki is a lake, every morning a mad mage will walk out to the lake and shot bolts of lightning at it to capture fish. He has recently been missing and this request is to find out where he is headed. Some report that he lives somewhere in the mountains to the north.",
+            "rewards": [
+                "A Diamond woth 5000gp"
+            ],
+            "status": "Arty to talk to Rictavio and whether he knows any stories about this mad mage"
         }]
     },
     "wraithRaiders": {

@@ -1,4 +1,4 @@
-# Chapter 8 - Fortunes and Fate
+# Fortunes and Fate
 
 After several days I eventually tracked down the Tser Pool and the place that a group of Vistini travellers stayed. All but one tent remained. It is rare for Vistini to stay in one location for too long, but I had the luck to meet Madam Eva. She is old, rude and hysterical when you talk to her. However, she told me about the adventurers and she read their fortune to me.
 

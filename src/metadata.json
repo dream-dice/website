@@ -244,5 +244,11 @@
         "className": "story",
         "description": "Finally they reach Vallaki and are greated by the leader of the guards who let's them pass",
         "image": "/story-icon.png"
+    },
+    "/story/chapter14": {
+        "title": "Chapter 14 - The Madhouse",
+        "className": "story",
+        "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
+        "image": "/story-icon.png"
     }
 }

@@ -1,4 +1,4 @@
-# Chapter 2 - The Durst Manor
+# The Durst Manor
 
 Stood outside the grounds the adventurers decided to take a rest by a fire. Whilst doing this they patrolled the grounds and found there was no other way in or out of the manor. Several of them investigated the fog, only to be turned back around. It was as though the house was pulling them in and did not want to them escape.
 

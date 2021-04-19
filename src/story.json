@@ -4,55 +4,59 @@
         "to": "forward"
     },
     {
-        "title": "Chapter One",
+        "title": "Chapter 1",
         "to": "chapter1"
     },
     {
-        "title": "Chapter Two",
+        "title": "Chapter 2",
         "to": "chapter2"
     },
     {
-        "title": "Chapter Three",
+        "title": "Chapter 3",
         "to": "chapter3"
     },
     {
-        "title": "Chapter Four",
+        "title": "Chapter 4",
         "to": "chapter4"
     },
     {
-        "title": "Chapter Five",
+        "title": "Chapter 5",
         "to": "chapter5"
     },
     {
-        "title": "Chapter Six",
+        "title": "Chapter 6",
         "to": "chapter6"
     },
     {
-        "title": "Chapter Seven",
+        "title": "Chapter 7",
         "to": "chapter7"
     },
     {
-        "title": "Chapter Eight",
+        "title": "Chapter 8",
         "to": "chapter8"
     },
     {
-        "title": "Chapter Nine",
+        "title": "Chapter 9",
         "to": "chapter9"
     },
     {
-        "title": "Chapter Ten",
+        "title": "Chapter 10",
         "to": "chapter10"
     },
     {
-        "title": "Chapter Eleven",
+        "title": "Chapter 11",
         "to": "chapter11"
     },
     {
-        "title": "Chapter Twelve",
+        "title": "Chapter 12",
         "to": "chapter12"
     },
     {
-        "title": "Chapter Thirteen",
+        "title": "Chapter 13",
         "to": "chapter13"
+    },
+    {
+        "title": "Chapter 14",
+        "to": "chapter14"
     }
 ]

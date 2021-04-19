@@ -1,4 +1,4 @@
-# Chapter 7 - A Blood Thirsty Encounter
+# A Blood Thirsty Encounter
 
 Zordar and Arty carried the coffin of the deceased burgomaster to church with a procession following them. When they arrived at the dilapidated church they were greeted by screams coming from beneath the floorboards and an acolyte praying at the altar. Donavich was the priest he told them that his son, Doru, had come back a changed man. He would carry out the funeral if the group would help him with his son, he neither had the willpower to put him out of his misery nor the strength to lock him up properly.
 
