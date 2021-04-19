@@ -1,4 +1,4 @@
-# Chapter 5 - The Fallen Brethren
+# The Fallen Brethren
 
 The party sat around the table, desperate to leave and too tired to carry on. All but one of the party found the will to carry on. Ku-Quar now carried the fears that Thorne possessed, haunting his every thought. His only motivation was that if they all carry on perhaps they would all die and end the misery.
 

@@ -1,4 +1,4 @@
-# Chapter 9 - The Cursed Encounter
+# The Cursed Encounter
 
 After the adventurers left the Vistini camp they came across a black carriage, drawn by hideous and deathly horses. The doors opened up, Ireena, Dwight and Zordar fell into a daze and had the uncontrollable urge to get into the carriage. They told everyone that Strahd was looking forward to their dinner date and that everyone else should join them. After much debate, it was clear that nothing could deter them from getting out of the carriage so the others decided to join to protect them.
 

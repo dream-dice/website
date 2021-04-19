@@ -1,4 +1,4 @@
-# Chapter 6 - The Dreary Village
+# The Dreary Village
 
 The party of six made their way through the town. Xerus had previously been in the village and knew of a tavern nearby that served wines and ales where they could rest, but so much time spent inside his ring had damaged his memories and he could not remember anything about its location.
 

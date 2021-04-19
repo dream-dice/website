@@ -1,4 +1,4 @@
-# Chapter 4 - The Cultist Dungeon
+# The Cultist Dungeon
 
 Whilst exploring the dungeon they found two neglected rooms where cultist members would reside. In the middle of this room was a well, with Goreks keen insight into stone he found the well had not only been used for drinking but also as a way to dispose of the remains of those who had come before them.
 

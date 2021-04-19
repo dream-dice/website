@@ -1,4 +1,4 @@
-# Chapter 12 - Doomed Mine
+# Doomed Mine
 
 They pushed on from the windmill towards Vallaki. On the group came across a curiously abandoned mine. Gorek recommended that they go in and gather as many resources as they could before heading into Vallaki. The abandoned Dwarven mine was used to find precious metals such as gold and silver but also stones such as diamonds. From what I could gather, even before Strahd took over Barovia a group of Dwarves mined this place and during that time they uncovered a monstrous serpent who destroyed the Dwarves and anyone who dared enter would come to a swift death and be slowed digesting in horrible agony for a century before dying. The snake became so large that it was stuck unable to leave and eventually died. Over time the mine was forgotten and the treasure that lay within forgotten.
 

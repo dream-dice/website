@@ -1,4 +1,4 @@
-# Chapter 1 - Werewolves in the Mist
+# Werewolves in the Mist
 
 We begin our tale in the village of Daggerford. Where the mayor, a stoutly fellow by the name of Gerder, sent out a request to the Faction Oversight Guild as the town is in dire need of help. A pack of werewolves had been ransacking the village, killing, stealing and abducting fair maidens, the locals called them “the werewolves in the mist”.
 

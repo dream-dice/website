@@ -1,4 +1,4 @@
-# Chapter 11 - Haunting Pastries
+# Haunting Pastries
 
 After slaying Morgantha, the leader of the coven, the adventurers made their way upstairs. After they rounded the corner Arty took a mighty blow from one of the sisters who were hiding in the shadows and Xerus another from a foul Night Hag hiding in some clothes. It was then that the group discovered the real ingredient in Dream Pasteries was ground children's bone flour, they didn't know it, but this is why the windmill got the nickname The Old Bone Grinder.
 

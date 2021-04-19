@@ -1,4 +1,4 @@
-# Chapter 3 - The Forgotten Children
+# The Forgotten Children
 
 The group made their way into the attic. Up here there was very little, several small rooms. There was however a door with an iron lock. Unable to pick or destroy the lock Arty ran back downstairs to the library and retrieved a key for the lock.
 
