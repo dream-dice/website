@@ -58,5 +58,17 @@
     {
         "title": "Chapter 14",
         "to": "chapter14"
+    },
+    {
+        "title": "Chapter 15",
+        "to": "chapter15"
+    },
+    {
+        "title": "Chapter 16",
+        "to": "chapter16"
+    },
+    {
+        "title": "Chapter 17",
+        "to": "chapter17"
     }
 ]

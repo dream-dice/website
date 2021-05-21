@@ -15,17 +15,18 @@
         ]
     },
     "godfrey": {
-        "title": "Godfrey the Guardian",
-        "status": "Missing in Action",
+        "title": "Godfrey the Vengeful",
         "faction": "luminaries",
         "rank": "Rank C",
         "renown": 20,
         "race": "Human",
-        "class": [{"title": "Paladin", "level": 4}],
-        "description": "Godfrey is a descendant from royalty. His homeland was ravenged by an inexplicable plague and he set off to learn the ways of the Paladin under the guidance of Helm. He vowed never to return home until could find a way to remove the plague.",
+        "class": [{"title": "Paladin", "level": 3}, {"title": "sorcerer", "level": 2}],
+        "description": "Godfrey is a descendant from royalty. His homeland was ravaged by an inexplicable plague and he set off to learn the ways of the Paladin under the guidance of Helm. He vowed never to return home until could find a way to remove the plague.",
         "famous": [
             "Ireena hid behind his shield",
-            "Strahd charmed him and took him away"
+            "Strahd charmed him and took him away",
+            "Helm saved him from Strahd, and in the process infused a magical power within him",
+            "He has changed his oath, to strike vengeance against Strahd"
         ]
     },
     "arty": {

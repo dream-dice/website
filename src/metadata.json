@@ -250,5 +250,23 @@
         "className": "story",
         "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
         "image": "/story-icon.png"
+    },
+    "/story/chapter15": {
+        "title": "Chapter 14 - The Madhouse",
+        "className": "story",
+        "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter16": {
+        "title": "Chapter 14 - The Madhouse",
+        "className": "story",
+        "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter17": {
+        "title": "Chapter 14 - The Madhouse",
+        "className": "story",
+        "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
+        "image": "/story-icon.png"
     }
 }

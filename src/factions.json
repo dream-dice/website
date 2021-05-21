@@ -22,7 +22,7 @@
         ],
         "skill": {
             "title": "Heavy Drinker",
-            "description": "As a bonus action on your turn you can take a swig of an alcoholic drink. Your strikes are now so powerful that you deal an extra 1d6 damage. If you have had more than 2 drinks before a short rest your max health is temporarily lowered by your current level."
+            "description": "As a bonus action on your turn you can take a swig of an alcoholic drink. Your strikes are now so powerful that you deal an extra 1d6 damage. If you have had more than 2 drinks in this way before a short rest your max health is temporarily lowered by your current level."
         },
         "jobs": [{
             "title": "Blue Inn Missing Delivery",
@@ -30,7 +30,7 @@
             "rewards": [
                 "Free drink, food and lodgings for the night"
             ],
-            "status": "Zordar to go to the Blue Water Inn to talk to Danika and Urwin for more information (and a drink)"
+            "status": "Zordar to go to the Wizard of Wines and retrieve the drink in time for the festival."
         }, {
             "title": "Wolf Hunt",
             "description": "Wolf Hunters. Szoldar Szoldarovich and Yevgeni Krushkin are looking for rough and ready people who will go on a hunt with them.",
@@ -80,7 +80,7 @@
             "rewards": [
                 "Since this is for charity, there will be no reward"
             ],
-            "status": "Awaiting Acceptance"
+            "status": "Godfrey has accepted this mission, eager to impress the people of Vallaki."
         }]
     },
     "spellworkers": {
@@ -115,19 +115,19 @@
             "status": "Awaiting Acceptance"
         }, {
             "title": "Sewer Crisis",
-            "description": "The Vallaki Sewers are built on top of an abandoned mine created by Dwarves ages past, the sewers pre-date Strahd. The entrance to the mine has been lost for eons, but old blue prints suggest they would be a quick and safe way to travel around Barovia undetected by Strahd and his spawn. This has become more urgent as the town is running low on supplies from The Wizard of Wines.",
+            "description": "The Vallaki Sewers are built on top of an abandoned mine created by Dwarves ages past, the sewers pre-date Strahd. The entrance to the mine has been lost for aeons, but old blueprints suggest they would be a quick and safe way to travel around Barovia undetected by Strahd and his spawn. This has become more urgent as the town is running low on supplies from The Wizard of Wines.",
             "rewards": [
                 "Anything found within in the mine",
                 "Quick access around Barovia"
             ],
-            "status": "Gorek to talk to the Burgomaster about the sewers"
+            "status": "Gorek has successfully entered the mines and is currently exploring them."
         }, {
             "title": "The Missing Mage",
-            "description": "Noth of Vallaki is a lake, every morning a mad mage will walk out to the lake and shot bolts of lightning at it to capture fish. He has recently been missing and this request is to find out where he is headed. Some report that he lives somewhere in the mountains to the north.",
+            "description": "Noth of Vallaki is a lake, every morning a mad mage will walk out to the lake and shot bolts of lightning at it to capture fish. She has recently been missing and this request is to find out where she is and what fate has befallen her. Some report that he lives somewhere in the mountains to the north, while others suggest that she made her way into the sewers in search of the mines.",
             "rewards": [
                 "A Diamond woth 5000gp"
             ],
-            "status": "Arty to talk to Rictavio and whether he knows any stories about this mad mage"
+            "status": "Arty had entered the mines in search of this mad mage."
         }]
     },
     "wraithRaiders": {
@@ -155,6 +155,13 @@
             "location": "Town Square Alley"
         },
         "jobs": [{
+            "title": "Assasination at the Wizard of Wines",
+            "description": "Urwin wants his father, who owns the Wizard of Wines, to be assassinated to inherit the winery. It must look like an accident to finish the job.",
+            "rewards": [
+                "Oathbow"
+            ],
+            "status": "Dwight has accepted this mission, no one else knows about this."
+        }, {
             "title": "Assasination",
             "description": "The client wants Ernst Larnak dead, no questions asked. It must look like an accident.",
             "rewards": [
