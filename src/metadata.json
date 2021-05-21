@@ -252,21 +252,21 @@
         "image": "/story-icon.png"
     },
     "/story/chapter15": {
-        "title": "Chapter 14 - The Madhouse",
+        "title": "Chapter 15 - Twisted Teleportation",
         "className": "story",
-        "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
+        "description": "Everyone makes their way into the attic to find the butler and lady-in-waiting",
         "image": "/story-icon.png"
     },
     "/story/chapter16": {
-        "title": "Chapter 14 - The Madhouse",
+        "title": "Chapter 16 - Godfrey the Vengeful",
         "className": "story",
-        "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
+        "description": "Godfrey returns a different man",
         "image": "/story-icon.png"
     },
     "/story/chapter17": {
-        "title": "Chapter 14 - The Madhouse",
+        "title": "Chapter 17 - The Gottrisson Mine",
         "className": "story",
-        "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
+        "description": "Gorek leads the way through the sewers and everyone makes their way into the Gottrisson Mines",
         "image": "/story-icon.png"
     }
 }
