@@ -268,5 +268,11 @@
         "className": "story",
         "description": "Gorek leads the way through the sewers and everyone makes their way into the Gottrisson Mines",
         "image": "/story-icon.png"
+    },
+    "/story/chapter18": {
+        "title": "Chapter 18 - The Last of the Gottrisson's'",
+        "className": "story",
+        "description": "The group find the last Gottrisson's and solve a 500 year old murder to free their souls",
+        "image": "/story-icon.png"
     }
 }
