@@ -270,9 +270,15 @@
         "image": "/story-icon.png"
     },
     "/story/chapter18": {
-        "title": "Chapter 18 - The Last of the Gottrisson's'",
+        "title": "Chapter 18 - The Last of the Gottrisson's",
         "className": "story",
-        "description": "The group find the last Gottrisson's and solve a 500 year old murder to free their souls",
+        "description": "The group find the last Gottrisson's and solve a 500-year-old murder to free their souls",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter19": {
+        "title": "Chapter 19 - The Locked-up Doctor",
+        "className": "story",
+        "description": "As the group make their way towards the Wizard of Wines exit they are stopped by a Doctor",
         "image": "/story-icon.png"
     }
 }
