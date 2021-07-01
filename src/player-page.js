@@ -29,11 +29,11 @@ const Player = () => {
                     </div>
                     <div className='level-item'>
                         <div className="content">
-                            <h1 className='title is-size-2 mb-4'>{title}</h1>
+                            <h1 className='title is-size-2 mb-5'>{title}</h1>
                             <h2 className='subtitle'>
-                                <div className='is-size-4 mb-1'>
+                                <div className='is-size-4 mb-2'>
                                     <span className='pr-2'>{race}</span>
-                                    {playerClass.map(({title, level}) => (<span key={title} className='has-text-weight-light'>{title} ({level})</span>))}
+                                    {playerClass.map(({title, level}) => (<span key={title} className='has-text-weight-light mr-1'>{title} ({level})</span>))}
                                 </div>
                                 <div className='is-size-6'>
                                     <span className='pr-2'>{factionTitle}</span>
@@ -58,23 +58,3 @@ const Player = () => {
 }
 
 export default Player
-
-
-// Name
-// Faction, rank
-// Race/Class(es) <- if there are icons for these that would be cool, if not then I don't care
-// Level
-
-// Description
-
-// Things of Note
-
-// * blah
-// * blah
-// * blah
-
-// Favoured Actions
-
-// * blah
-// * blah
-// * blah

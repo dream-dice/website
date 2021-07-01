@@ -1,0 +1,13 @@
+# Charging the Winery
+
+Standing over the monstrosity which was once Dr Mekal, Arty understood that it was no ordinary construct like himself. It had the core of a Dwarf but the limbs and torso had been created by a powerful and disturbing individual. The group quickly examined the room where the doctor had been hiding, on the walls above his bed were the words "kill me" repeated in blood.
+
+Because time was pressing against them they decided to leave the mine. Guided by Gorek's skeletal hand they quickly found the exit for the Wizard of Wines. They stepped out into the middle of the woods and looking back at the door it was clear why it had been hidden for so long and so well. Not a soul had been in this area of the woods for centuries and the door was so well concealed that even if you knew where it was it was hard to see.
+
+They ventured through the woods, following the track leading to the Wizard of Wines Winery. Soon they hailed by an old man in the woods, they approached him and found that he was Davian Urwin, the owner of the winery. He introduced everyone to his family and explained that the wine from the winery was the living blood of Barovia. Most people in Barovia have no hope or will of their own, and the only way to forgo the pain of existence was through his famous drinks.
+
+Davian told the group that to restore wine to Vallaki, and the rest of Barovia, they would need to clear out the druids and blights which attacked the winery. He offered that he and his eldest son, Adrian, go with them, though admitted that at the first sign of danger they would no doubt both flee. Xerus suggested that only Adrian come along with them, at least to show them the way.
+
+When they arrived at the winery all was still. They approached the doors and from all sides an army of Twig Blights attacked them. Adrian managed to make his escape back to the camp, but not before sustaining serious damage from the needles of the blights. Arty summoned a mighty thunderstorm which took out masses of the army, exploding them into dust. Xerus and Zordar made their way inside after seeing several creatures hiding and started their assault. Dwight snuck downstairs to take advantage of the chaos around him and see what was afoot in the cellar.
+
+Dwight was also looking for a way or an opportunity to carry out his job to assassinate Davian so the X could become the owner of the winery and to claim the Oathbow.

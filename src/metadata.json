@@ -280,5 +280,11 @@
         "className": "story",
         "description": "As the group make their way towards the Wizard of Wines exit they are stopped by a Doctor",
         "image": "/story-icon.png"
+    },
+    "/story/chapter20": {
+        "title": "Chapter 20 - Charging the Winery",
+        "className": "story",
+        "description": "After meeting Davian Urwin the group head to the winery",
+        "image": "/story-icon.png"
     }
 }
