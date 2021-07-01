@@ -14,8 +14,4 @@ if (rootElement.hasChildNodes()) {
   render(<App />, rootElement);
 }
 
-if (process.env.NODE_ENV !== "production" || navigator.userAgent === "ReactSnap") {
-  serviceWorkerRegistration.unregister();
-} else {
-  serviceWorkerRegistration.register();
-}
+serviceWorkerRegistration.unregister();
