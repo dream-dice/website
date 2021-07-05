@@ -3,7 +3,6 @@ import React from 'react';
 import { hydrate, render } from "react-dom";
 import './index.css';
 import 'bulma/css/bulma.css'
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 import App from './app'
 
@@ -13,5 +12,3 @@ if (rootElement.hasChildNodes()) {
 } else {
   render(<App />, rootElement);
 }
-
-serviceWorkerRegistration.unregister();

@@ -286,5 +286,11 @@
         "className": "story",
         "description": "After meeting Davian Urwin the group head to the winery",
         "image": "/story-icon.png"
+    },
+    "/story/chapter21": {
+        "title": "Chapter 21 - Purging the Winery",
+        "className": "story",
+        "description": "After entering the winery the group clear out all the blights and druids",
+        "image": "/story-icon.png"
     }
 }
