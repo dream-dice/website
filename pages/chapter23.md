@@ -20,6 +20,6 @@ During this time Godfrey also re-purposed the mansion in a charitable building, 
 
 Xerus was seen as a hero by the people, everyone knew him and his friends and respected them highly. The Seven agreed that every year on that day they should celebrate "Serpents Release" in honour of Xerus and how he started the revolution.
 
-Arty and Godfrey tucked themselves away from everyone for the whole time. Godfrey was eager to work on Arty and turned his arm and Warhammer into an Armblade. This weapon would mean that Arty was able to swap between his Warhammer and his arm at a moments notice.
+Arty and Gorek tucked themselves away from everyone for the whole time. Gorek was eager to work on Arty and turned his arm and Warhammer into an Armblade. This weapon would mean that Arty was able to swap between his Warhammer and his arm at a moments notice.
 
 Zordar, as one might expect, drank himself into a stooper. He spent much of his time talking to the locals and hearing many stories. Some were seen as rumours and tall tales, though if true would prove valuable information.
