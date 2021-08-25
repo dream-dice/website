@@ -292,5 +292,23 @@
         "className": "story",
         "description": "After entering the winery the group clear out all the blights and druids",
         "image": "/story-icon.png"
+    },
+    "/story/chapter22": {
+        "title": "Chapter 22 - My Name is Van Richten",
+        "className": "story",
+        "description": "The group discovers the true identity of Rictavio",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter23": {
+        "title": "Chapter 23 - The Revolution of Vallaki",
+        "className": "story",
+        "description": "The Festival of the Blazing Sun ends in a revolt",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter24": {
+        "title": "Chapter 24 - Marina's Monument",
+        "className": "story",
+        "description": "The group head to the Runis of Berez in search of a mighty weapon",
+        "image": "/story-icon.png"
     }
 }
