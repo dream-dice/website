@@ -310,5 +310,29 @@
         "className": "story",
         "description": "The group head to the Runis of Berez in search of a mighty weapon",
         "image": "/story-icon.png"
+    },
+    "/story/chapter25": {
+        "title": "Chapter 25 - Griek's Frustration",
+        "className": "story",
+        "description": "Arty leads the way to the thunderous churchyard and the group encounter a familier face",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter26": {
+        "title": "Chapter 26 - Finding the Marsh Witch",
+        "className": "story",
+        "description": "With unfinished business in the marsh the group are in search of Baba Lysaga",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter27": {
+        "title": "Chapter 27 - Sour Grapes",
+        "className": "story",
+        "description": "The assault on Baba Lysaga continues",
+        "image": "/story-icon.png"
+    },
+    "/story/chapter28": {
+        "title": "Chapter 28 - Zuleika's Prayer",
+        "className": "story",
+        "description": "Sneaking inside the werewolf den the group come across a woman praying for help",
+        "image": "/story-icon.png"
     }
 }
