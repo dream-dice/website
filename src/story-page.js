@@ -23,8 +23,8 @@ const fetchChildren = async (path, setChildren) => {
 }
 
 const Story = () => {
-    const {page} = useParams()
-    const path = `/pages/${page}.md`
+    const {group, page} = useParams()
+    const path = `/pages/${group}/${page}.md`
     const [children, setChildren] = useState('Loading')
 
     useEffect(() => {

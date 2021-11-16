@@ -10,6 +10,7 @@ import FactionManifestoPage from './faction-manifesto-page'
 import FactionJobsPage from './faction-jobs-page';
 import CreditsPage from './credits-page';
 import RandomPage from './random-page';
+import RulesPage from './rules-page';
 import StoryPage from './story-page'
 import SauceyPage from './saucey-page'
 import FactionOverviewPage from './faction-overview-page'
@@ -35,7 +36,8 @@ const App = () => (
               <Route path='/faction/overview' component={FactionOverviewPage}></Route>
               <Route path='/credits' component={CreditsPage}></Route>
               <Route path='/random' component={RandomPage}></Route>
-              <Route path='/story/:page' component={StoryPage}></Route>
+              <Route path='/rules' component={RulesPage}></Route>
+              <Route path='/story/:group/:page' component={StoryPage}></Route>
               <Route path='/service/:service' component={ServicePage}></Route>
               <Route path='/saucey' component={SauceyPage}></Route>
               <Route component={NotFound}></Route>

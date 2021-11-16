@@ -1,5 +1,5 @@
 - Library
-    - As the Story Unfolds in Barovia
+    - The Vampire Hunters
     - The saucy novel (a link where to buy a copy)
 - Factions
     - Illuminaries

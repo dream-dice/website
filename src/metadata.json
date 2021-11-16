@@ -155,184 +155,196 @@
         "description": "A couple of tools used to generate items for my players",
         "image": "/icon.png"
     },
+    "/rules": {
+        "title": "My Rules",
+        "className": "home",
+        "description": "The way I run the game for everyone to have fun",
+        "image": "/icon.png"
+    },
     "/credits": {
         "title": "Credits",
         "className": "home",
         "description": "A list of credited people and thanks",
         "image": "/icon.png"
     },
-    "/story/forward": {
+    "/story/vampire-hunters/forward": {
         "title": "Forward",
         "className": "story",
         "description": "The forward for the journey through Barovia",
         "image": "/story-icon.png"
     },
-    "/story/chapter1": {
+    "/story/vampire-hunters/chapter1": {
         "title": "Chapter 1 - Werewolves in the Mist",
         "className": "story",
         "description": "Our adventurers take on the mission to take out the Werewolves in the Mist",
         "image": "/story-icon.png"
     },
-    "/story/chapter2": {
+    "/story/vampire-hunters/chapter2": {
         "title": "Chapter 2 - The Durst Manor",
         "className": "story",
         "description": "After walking through the mist the adventurers come across a manor, and chase a werewolf inside",
         "image": "/story-icon.png"
     },
-    "/story/chapter3": {
+    "/story/vampire-hunters/chapter3": {
         "title": "Chapter 3 - The Forgotten Children",
         "className": "story",
         "description": "Whilst exploring the manor the adventurers come across the ghosts of two children of the manor",
         "image": "/story-icon.png"
     },
-    "/story/chapter4": {
+    "/story/vampire-hunters/chapter4": {
         "title": "Chapter 4 - The Cultist Dungeon",
         "className": "story",
         "description": "Finding a secret stairway the adventurers make their way down into a cultists dungeon",
         "image": "/story-icon.png"
     },
-    "/story/chapter5": {
+    "/story/vampire-hunters/chapter5": {
         "title": "Chapter 5 - The Fallen Brethren",
         "className": "story",
         "description": "To escape the house with their lives one of the adventurer's sacrifices himself for the others",
         "image": "/story-icon.png"
     },
-    "/story/chapter6": {
+    "/story/vampire-hunters/chapter6": {
         "title": "Chapter 6 - The Dreary Village",
         "className": "story",
         "description": "The village of Barovia is in ruins, a tavern is required for a long-awaited rest",
         "image": "/story-icon.png"
     },
-    "/story/chapter7": {
+    "/story/vampire-hunters/chapter7": {
         "title": "Chapter 7 - A Blood Thirsty Encounter",
         "className": "story",
         "description": "While burying the deceased burgomaster the group come across a horrid creature who is out for blood",
         "image": "/story-icon.png"
     },
-    "/story/chapter8": {
+    "/story/vampire-hunters/chapter8": {
         "title": "Chapter 8 - Fortunes and Fate",
         "className": "story",
         "description": "The group move on and meet Madam Eva who tells them their fortune",
         "image": "/story-icon.png"
     },
-    "/story/chapter9": {
+    "/story/vampire-hunters/chapter9": {
         "title": "Chapter 9 - The Cursed Encounter",
         "className": "story",
         "description": "Whilst making their way to Vallaki they are swept away to meet Strahd for dinner1",
         "image": "/story-icon.png"
     },
-    "/story/chapter10": {
+    "/story/vampire-hunters/chapter10": {
         "title": "Chapter 10 - Reclaiming the Windmill",
         "className": "story",
         "description": "After surviving their visit to Castle Ravenloft the group seek refuge in a windmill",
         "image": "/story-icon.png"
     },
-    "/story/chapter11": {
+    "/story/vampire-hunters/chapter11": {
         "title": "Chapter 11 - Haunting Pastries",
         "className": "story",
         "description": "They climb the windmill to clear out the hags who haunt it",
         "image": "/story-icon.png"
     },
-    "/story/chapter12": {
+    "/story/vampire-hunters/chapter12": {
         "title": "Chapter 12 - Doomed Mine",
         "className": "story",
         "description": "After leaving the windmill they spy a mine full of riches",
         "image": "/story-icon.png"
     },
-    "/story/chapter13": {
+    "/story/vampire-hunters/chapter13": {
         "title": "Chapter 13 - The Demon Hand",
         "className": "story",
         "description": "Finally they reach Vallaki and are greated by the leader of the guards who let's them pass",
         "image": "/story-icon.png"
     },
-    "/story/chapter14": {
+    "/story/vampire-hunters/chapter14": {
         "title": "Chapter 14 - The Madhouse",
         "className": "story",
         "description": "The group, lead by Izek, make their way and meet the cold Baron and mad Baroness",
         "image": "/story-icon.png"
     },
-    "/story/chapter15": {
+    "/story/vampire-hunters/chapter15": {
         "title": "Chapter 15 - Twisted Teleportation",
         "className": "story",
         "description": "Everyone makes their way into the attic to find the butler and lady-in-waiting",
         "image": "/story-icon.png"
     },
-    "/story/chapter16": {
+    "/story/vampire-hunters/chapter16": {
         "title": "Chapter 16 - Godfrey the Vengeful",
         "className": "story",
         "description": "Godfrey returns a different man",
         "image": "/story-icon.png"
     },
-    "/story/chapter17": {
+    "/story/vampire-hunters/chapter17": {
         "title": "Chapter 17 - The Gottrisson Mine",
         "className": "story",
         "description": "Gorek leads the way through the sewers and everyone makes their way into the Gottrisson Mines",
         "image": "/story-icon.png"
     },
-    "/story/chapter18": {
+    "/story/vampire-hunters/chapter18": {
         "title": "Chapter 18 - The Last of the Gottrisson's",
         "className": "story",
         "description": "The group find the last Gottrisson's and solve a 500-year-old murder to free their souls",
         "image": "/story-icon.png"
     },
-    "/story/chapter19": {
+    "/story/vampire-hunters/chapter19": {
         "title": "Chapter 19 - The Locked-up Doctor",
         "className": "story",
         "description": "As the group make their way towards the Wizard of Wines exit they are stopped by a Doctor",
         "image": "/story-icon.png"
     },
-    "/story/chapter20": {
+    "/story/vampire-hunters/chapter20": {
         "title": "Chapter 20 - Charging the Winery",
         "className": "story",
         "description": "After meeting Davian Urwin the group head to the winery",
         "image": "/story-icon.png"
     },
-    "/story/chapter21": {
+    "/story/vampire-hunters/chapter21": {
         "title": "Chapter 21 - Purging the Winery",
         "className": "story",
         "description": "After entering the winery the group clear out all the blights and druids",
         "image": "/story-icon.png"
     },
-    "/story/chapter22": {
+    "/story/vampire-hunters/chapter22": {
         "title": "Chapter 22 - My Name is Van Richten",
         "className": "story",
         "description": "The group discovers the true identity of Rictavio",
         "image": "/story-icon.png"
     },
-    "/story/chapter23": {
+    "/story/vampire-hunters/chapter23": {
         "title": "Chapter 23 - The Revolution of Vallaki",
         "className": "story",
         "description": "The Festival of the Blazing Sun ends in a revolt",
         "image": "/story-icon.png"
     },
-    "/story/chapter24": {
+    "/story/vampire-hunters/chapter24": {
         "title": "Chapter 24 - Marina's Monument",
         "className": "story",
         "description": "The group head to the Runis of Berez in search of a mighty weapon",
         "image": "/story-icon.png"
     },
-    "/story/chapter25": {
+    "/story/vampire-hunters/chapter25": {
         "title": "Chapter 25 - Griek's Frustration",
         "className": "story",
         "description": "Arty leads the way to the thunderous churchyard and the group encounter a familier face",
         "image": "/story-icon.png"
     },
-    "/story/chapter26": {
+    "/story/vampire-hunters/chapter26": {
         "title": "Chapter 26 - Finding the Marsh Witch",
         "className": "story",
         "description": "With unfinished business in the marsh the group are in search of Baba Lysaga",
         "image": "/story-icon.png"
     },
-    "/story/chapter27": {
+    "/story/vampire-hunters/chapter27": {
         "title": "Chapter 27 - Sour Grapes",
         "className": "story",
         "description": "The assault on Baba Lysaga continues",
         "image": "/story-icon.png"
     },
-    "/story/chapter28": {
+    "/story/vampire-hunters/chapter28": {
         "title": "Chapter 28 - Zuleika's Prayer",
         "className": "story",
         "description": "Sneaking inside the werewolf den the group come across a woman praying for help",
+        "image": "/story-icon.png"
+    },
+    "/story/seekers/forward": {
+        "title": "Forward",
+        "className": "story",
+        "description": "Welcome seekers",
         "image": "/story-icon.png"
     }
 }
