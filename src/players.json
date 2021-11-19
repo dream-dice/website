@@ -37,7 +37,7 @@
         "rank": "Rank A",
         "renown": 75,
         "race": "Human",
-        "class": [{"title": "Paladin", "level": 3}, {"title": "Sorcerer", "level": 2}],
+        "class": [{"title": "Paladin", "level": 4}, {"title": "Sorcerer", "level": 3}],
         "description": "Godfrey is a descendant from royalty. His homeland was ravaged by an inexplicable plague and he set off to learn the ways of the Paladin under the guidance of Helm. He vowed never to return home until could find a way to remove the plague.",
         "famous": [
             "Ireena hid behind his shield",
