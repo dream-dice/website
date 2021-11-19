@@ -35,7 +35,7 @@ const Story = () => {
         <div className='content mt-3'>
             <ReactMarkdown
                 plugins={[gfm]}
-                renderers={{
+                components={{
                     link: LinkMarkdown
                 }}
                 children={children}

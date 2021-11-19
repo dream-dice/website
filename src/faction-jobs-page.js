@@ -21,7 +21,6 @@ const Job = ({ description, status, rewards, title }) => (
 )
 
 const FactionJobs = () => {
-    console.log('HERR', useParams())
     const { name } = useParams()
     const { title, jobs, contact = {} } = factions[name] || {}
 
