@@ -7,6 +7,8 @@ import story from './story.json'
 import players from './players.json'
 import services from './services.json'
 
+const titleCase = (name) => `${name[0].toUpperCase()}${name.slice(1, name.length)}`
+
 const MenuLink = ({ to, children }) => {
     const { pathname } = useLocation()
     const isActive = `is-${pathname === to ? 'active' : 'inactive'}`
@@ -66,7 +68,7 @@ const Menu = () => {
     }, [])
 
     return (
-        <aside className="menu mt-3" style={{height: menuHeight}}>
+        <aside className="menu mt-3" style={{ height: menuHeight }}>
             <ul className="menu-list">
                 <li>
                     <MenuLink to='/'>Home</MenuLink>
@@ -107,13 +109,11 @@ const Menu = () => {
             <ul className="menu-list">
                 {Object.entries(players)
                     .sort((left, right) => {
-                        if (left[1].faction < right[1].faction) return -2
-                        if (left[1].faction > right[1].faction) return 2
                         if (left[1].title < right[1].title) return -1
                         if (left[1].title > right[1].title) return 1
                         return 0
                     })
-                    .map(([name, { title, status }]) => <li key={name}><MenuLink to={`/player/${name}`}><span>{title}</span>{status && <b> - {status}</b>}</MenuLink></li>)}
+                    .map(([name, { title, status }]) => <li key={name}><MenuLink to={`/player/${name}`}><span>{titleCase(name)}</span>{status && <b> - {status}</b>}</MenuLink></li>)}
             </ul>
             <p className="menu-label">
                 Game Master

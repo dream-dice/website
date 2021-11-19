@@ -101,11 +101,11 @@
         "description": "Has infomation about individuals in Barovia and will buy stories",
         "image": "/icon.png"
     },
-    "/player/izek": {
-        "title": "Izek",
-        "className": "brawlers",
-        "description": "Leader of Vallaki guards",
-        "image": "/players/izek.png"
+    "/player/ka": {
+        "title": "Ka Ka Tikki Tikki Ka Ka",
+        "className": "wraithRaiders",
+        "description": "Entered Barovia contracted to retrieve a powerful item",
+        "image": "/players/ka.png"
     },
     "/player/zordar": {
         "title": "Zordar",

@@ -14,11 +14,28 @@
             "Arty tried to stop him from dying, which caused Ku-Quar to seek revenge against him"
         ]
     },
+    "arty": {
+        "title": "Artefact #4546B a.k.a Arty",
+        "status": "Deceased",
+        "faction": "spellworkers",
+        "rank": "Rank A",
+        "renown": 75,
+        "race": "Warforged",
+        "class": [{"title": "Cleric", "level": 8}],
+        "description": "Arty was destroyed whilst humans tried to summon Talos into a suit of armour and Talos was in such a rage that he destroyed the church and grounds. Centuries later Gorek and other Spellworkers uncovered Arty and restored him. Now he still has the power of Talos but has no human emotion or sympathy, he understands the world by copying others.",
+        "famous": [
+            "Summons a Spirit Hammer similar to his Warhammer",
+            "Burned down gallows to cheer Dwight up",
+            "Chased down Strahd to rescue charmed Godfrey",
+            "Killed by Griek, twice",
+            "Turned into a Tyrannosaurus and ate a werewolf"
+        ]
+    },
     "godfrey": {
         "title": "Godfrey the Vengeful",
         "faction": "luminaries",
-        "rank": "Rank B",
-        "renown": 20,
+        "rank": "Rank A",
+        "renown": 75,
         "race": "Human",
         "class": [{"title": "Paladin", "level": 3}, {"title": "Sorcerer", "level": 2}],
         "description": "Godfrey is a descendant from royalty. His homeland was ravaged by an inexplicable plague and he set off to learn the ways of the Paladin under the guidance of Helm. He vowed never to return home until could find a way to remove the plague.",
@@ -29,92 +46,84 @@
             "He has changed his oath, to strike vengeance against Strahd"
         ]
     },
-    "arty": {
-        "title": "Artefact #4546B a.k.a Arty",
-        "faction": "spellworkers",
-        "rank": "Rank B",
-        "renown": 20,
-        "race": "Warforged",
-        "class": [{"title": "Cleric", "level": 5}],
-        "description": "Arty was destroyed whilst humans tried to summon Talos into a suit of armour and Talos was in such a rage that he destroyed the church and grounds. Centuries later Gorek and other Spellworkers uncovered Arty and restored him. Now he still has the power of Talos but has no human emotion or sympathy, he understands the world by copying others.",
+    "ka": {
+        "title": "Ka Ka Tikki Tikki Ka Ka",
+        "faction": "wraithRaiders",
+        "rank": "Rank A",
+        "renown": 90,
+        "race": "Aarakocra",
+        "class": [{"title": "Warlock", "level": 10}],
+        "description": "Entered Barovia contracted to retrieve a powerful item, he got stuck in Barovia and has since taken contracts in order to kill werewolves and vampires.",
         "famous": [
-            "Summons a Spirit Hammer similar to his Warhammer",
-            "Burned down gallows to cheer Dwight up",
-            "Chased down Strahd to rescue charmed Godfrey"
+            "Started a race with Dwight to break the monotony",
+            "Used his mask to pretend to be Dwight and the werewolf Lykaios",
+            "Managed to steal the Holy Symbol before Dwight, but gave it back"
         ]
     },
     "dwight": {
         "title": "Dwight Ribble",
         "faction": "wraithRaiders",
-        "rank": "Rank B",
-        "renown": 22,
+        "rank": "Rank A",
+        "renown": 75,
         "race": "Elf",
-        "class": [{"title": "Ranger", "level": 5}],
+        "class": [{"title": "Ranger", "level": 8}],
         "description": "Dwight went through hell as a young elf, his entire family was killed and he saw his own mother burned to death in-front of his own eyes. He pursued and killed those responsible. He spent most of his life surviving in caves and abandoned castles until he was recruited by the Wraith Raiders.",
         "famous": [
             "Extremely sneaky",
             "Extremely dangerous with a bow",
             "Plays pranks on Gorek",
-            "No one has caught him with his pickpocket abilities"
+            "No one has caught him with his pickpocket abilities",
+            "Cursed after stealing some treasure from the werewolves",
+            "Lost against Ka and owes him one favour"
         ]
     },
     "gorek": {
         "title": "Gorek Gottrisson",
         "faction": "spellworkers",
-        "rank": "Rank B",
-        "renown": 20,
+        "rank": "Rank A",
+        "renown": 75,
         "race": "Dwarf",
-        "class": [{"title": "Artificer", "level": 5}],
+        "class": [{"title": "Artificer", "level": 8}],
         "description": "Gorek was young when he started tinkering with items, and he did so in a way that his family didn't approve and they exiled him. After that, he joined the Spellworkers and met Arty who he took an interest in and wanted to learn how he works. Time has made Gorek into a grumpy old dwarf and he will a pick fight with anyone who doesn't agree with him.",
         "famous": [
             "Uses thunder gauntlets",
             "Loves rocks, a little too much",
             "Plays pranks on Dwight",
-            "Uses his flute to cast spells"
+            "Uses his flute to cast spells",
+            "Created replicas of everyone to fool the werewolves",
+            "Cursed after stealing some treasure from the werewolves"
         ]
     },
     "zordar": {
         "title": "Zordar",
         "faction": "brawlers",
-        "rank": "Rank B",
-        "renown": 20,
+        "rank": "Rank A",
+        "renown": 75,
         "race": "Dragonborn",
-        "class": [{"title": "Barbarian", "level": 5}],
+        "class": [{"title": "Barbarian", "level": 8}],
         "description": "A strong warrior and enjoys nothing more than swinging his giant greataxe around. If he can smell liquor he will decend on it faster than you can say 'Zordar the Dragonborn'.",
         "famous": [
             "Always the first one to get within 5ft of a monster",
             "Has had the most alcohol out of all the characters",
-            "Almost died because of some weak bats"
+            "Almost died because of some weak bats",
+            "Was captured by werewolves, no one tried to save him"
         ]
     },
     "xerus": {
         "title": "Xerus",
         "faction": "luminaries",
-        "rank": "Rank B",
-        "renown": 20,
+        "rank": "Rank A",
+        "renown": 75,
         "race": "Tiefling",
-        "class": [{"title": "Warlock", "level": 5}],
+        "class": [{"title": "Warlock", "level": 8}],
         "description": "Spent his entire life trapped in Barovia performing tricks for the locals, whilst adventuring he entered Death House and became so afraid that he decided to hide inside the ring his patron, Efreeti, gave him. Only after his new companions found him did he come out and now has a blood thurst for revenge against Strahd.",
         "famous": [
             "Causes mischief using his surrounding environment",
             "Uses lots of fire",
             "Has an overly friendly Efreeti patron",
-            "Will always remind you that he killed a dragon and a hag (with ease)"
-        ]
-    },
-    "izek": {
-        "title": "Izek",
-        "faction": "brawlers",
-        "rank": "Rank B",
-        "renown": 100,
-        "race": "Human",
-        "class": [{"title": "Warlock", "level": 6}],
-        "description": "A strong leader of the Vallaki Guard. What he lacks in intelligence he makes up for in brute force strength and his military tatics are second to none.",
-        "famous": [
-            "Leader of Vallaki Guard",
-            "Takes orders from the baron",
-            "Will lock anyone in the stockade who breaks the rules",
-            "Has a malformed arm"
+            "Will always remind you that he killed a dragon and a hag (with ease)",
+            "Caused a riot in Vallaki and became the hero of Vallaki",
+            "Turned into a werewolf after being bit by the Loup Garu"
         ]
     }
 }
