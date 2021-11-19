@@ -18,7 +18,7 @@ const reducer = (state, { type, payload: { name, value } }) => {
 const DDBLink = ({ href, name, keepCase = false }) => {
     let hrefName = name
     if (!keepCase) hrefName = name.toLowerCase()
-    const url = `${href}${hrefName.replace(/ /g, '-').replace(/[,()]/g, '')}`
+    const url = `${href}${hrefName.replace(/ /g, '-').replace(/[,()']/g, '')}`
     return <a target='_blank' href={url} rel="noreferrer">{name}</a>
 }
 
