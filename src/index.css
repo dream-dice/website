@@ -59,6 +59,25 @@ blockquote {
   border-top: 5px solid #000000;
 }
 
+.random {
+  margin-bottom: 15px;
+}
+
+.random-list {
+  width: 205px;
+  margin-right: 10px;
+}
+
+.random-roll {
+  width: 145px;
+  margin-right: 10px;
+}
+
+.random-result {
+  height: 40px;
+  line-height: 40px;
+}
+
 /* Not Found */
 
 .is-notFound .icon-2 {

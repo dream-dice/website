@@ -15,40 +15,54 @@ const reducer = (state, { type, payload: { name, value } }) => {
     return state
 }
 
-const Generator = ({ dispatch, state, name, title }) => (
-    <div className='columns'>
-        <div className='column is-4'>
-            <button className='button is-fullwidth' onClick={() => {
-                const value = generate(name)
-                dispatch({
-                    type: 'generate',
-                    payload: {
-                        name,
-                        value
-                    }
-                })
-            }}>{title}</button>
-            </div>
-            <div className='column is-4'>
-            {state[name] && <button className='button is-text is-fullwidth'>{state[name]}</button>}
-            </div>
-        <div className='column is-4'>
-            <button className='button is-ghost is-fullwidth' onClick={() => {
-                dispatch({
-                    type: 'toggle',
-                    payload: {
-                        name
-                    }
-                })
-            }}>{state.open.includes(name) ? 'Collapse' : 'Expand'} {title} List</button>
+const DDBLink = ({ href, name, keepCase = false }) => {
+    let hrefName = name
+    if (!keepCase) hrefName = name.toLowerCase()
+    const url = `${href}${hrefName.replace(/ /g, '-').replace(/[,()]/g, '')}`
+    console.log(url)
+    return <a target='_blank' href={url} rel="noreferrer">{name}</a>
+}
+
+const Generator = ({ dispatch, state, name, title, href, keepCase }) => (
+    <div className='is-flex random'>
+        <div className='random-list'>
+            <button
+                style={{
+                    justifyContent: 'left'
+                }}
+                className='button is-ghost is-fullwidth'
+                onClick={() => {
+                    dispatch({
+                        type: 'toggle',
+                        payload: {
+                            name
+                        }
+                    })
+                }}>{state.open.includes(name) ? 'Collapse' : 'Expand'} {title} List</button>
             {state.open.includes(name) && <ul style={{
                 overflow: 'auto',
                 maxHeight: 100
             }}>
-                {random[name].map(item => <li key={item}>{item}</li>)}
+                {random[name].sort().map(item => <li key={item}>{<DDBLink name={item} href={href} keepCase={keepCase} />}</li>)}
             </ul>}
         </div>
-        
+        <div className='random-roll'>
+            <button
+                className='button is-fullwidth'
+                onClick={() => {
+                    const value = generate(name)
+                    dispatch({
+                        type: 'generate',
+                        payload: {
+                            name,
+                            value
+                        }
+                    })
+                }}>Roll {title}</button>
+        </div>
+        <div className='random-result'>
+            {state[name] && <DDBLink name={state[name]} href={href} />}
+        </div>
     </div>
 )
 
@@ -63,13 +77,13 @@ const Random = () => {
                     As part of the Discord server everyone is rewarded using <a href='https://tatsu.gg/'>Tatsu</a>. Here are the generators which I use to roll for random items.
                 </p>
             </div>
-            <Generator dispatch={dispatch} state={state} name='common' title='Common'/>
-            <Generator dispatch={dispatch} state={state} name='uncommon' title='Uncommon'/>
-            <Generator dispatch={dispatch} state={state} name='attribute' title='Attribute'/>
-            <Generator dispatch={dispatch} state={state} name='rare' title='Rare'/>
-            <Generator dispatch={dispatch} state={state} name='feat' title='Feat'/>
-            <Generator dispatch={dispatch} state={state} name='very-rare' title='Very Rare'/>
-            <Generator dispatch={dispatch} state={state} name='legendary' title='Legendary'/>
+            <Generator dispatch={dispatch} state={state} name='common' title='Common' href='https://www.dndbeyond.com/equipment/' />
+            <Generator dispatch={dispatch} state={state} name='uncommon' title='Uncommon' href='https://www.dndbeyond.com/magic-items/' />
+            <Generator dispatch={dispatch} state={state} name='attribute' title='Attribute' href='https://www.dndbeyond.com/sources/phb/using-ability-scores#' keepCase />
+            <Generator dispatch={dispatch} state={state} name='rare' title='Rare' href='https://www.dndbeyond.com/magic-items/' />
+            <Generator dispatch={dispatch} state={state} name='feat' title='Feat' href='https://www.dndbeyond.com/feats/' />
+            <Generator dispatch={dispatch} state={state} name='very-rare' title='Very Rare' href='https://www.dndbeyond.com/magic-items/' />
+            <Generator dispatch={dispatch} state={state} name='legendary' title='Legendary' href='https://www.dndbeyond.com/magic-items/' />
         </div>
     )
 }
