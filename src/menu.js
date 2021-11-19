@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 
@@ -55,9 +55,18 @@ const FactionLinks = ({ name, title }) => {
     )
 }
 
+const calculateMenuHeight = () => window.innerHeight - document.getElementsByClassName('hero')[0].getBoundingClientRect().height - 30
+
 const Menu = () => {
+    const [menuHeight, setMenuHeight] = useState(window.innerHeight)
+    useEffect(() => {
+        setMenuHeight(calculateMenuHeight())
+        window.onresize = () => { setMenuHeight(calculateMenuHeight()) }
+        return () => { window.onresize = null }
+    }, [])
+
     return (
-        <aside className="menu mt-3">
+        <aside className="menu mt-3" style={{height: menuHeight}}>
             <ul className="menu-list">
                 <li>
                     <MenuLink to='/'>Home</MenuLink>

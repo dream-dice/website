@@ -1,8 +1,8 @@
-import { useRouteMatch } from 'react-router'
+import { useParams } from 'react-router-dom'
 import factions from './factions.json'
 
 const Faction = ({children}) => {
-    const { params: { name } } = useRouteMatch()
+    const { name } = useParams()
     if (!(name in factions)) return <div className='p-5 is-size-4 has-text-danger'>This faction does not exist!</div>
     const { title } = factions[name]
     return (

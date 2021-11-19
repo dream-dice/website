@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { hydrate, render } from "react-dom";
 import './index.css';
 import 'bulma/css/bulma.css'

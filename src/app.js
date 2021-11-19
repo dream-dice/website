@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, BrowserRouter as Router, Route} from 'react-router-dom'
+import {Routes, BrowserRouter as Router, Route} from 'react-router-dom'
 
 import Menu from './menu'
 import Header from './header'
@@ -28,20 +28,20 @@ const App = () => (
               <Menu></Menu>
               </div>
             <div className='column is-8 scroll-to'>
-            <Switch>
-              <Route path='/' exact component={HomePage}></Route>
-              <Route path='/player/:name' component={PlayerPage}></Route>
-              <Route path='/faction/:name/manifesto' component={FactionManifestoPage}></Route>
-              <Route path='/faction/:name/jobs' component={FactionJobsPage}></Route>
-              <Route path='/faction/overview' component={FactionOverviewPage}></Route>
-              <Route path='/credits' component={CreditsPage}></Route>
-              <Route path='/random' component={RandomPage}></Route>
-              <Route path='/rules' component={RulesPage}></Route>
-              <Route path='/story/:group/:page' component={StoryPage}></Route>
-              <Route path='/service/:service' component={ServicePage}></Route>
-              <Route path='/saucey' component={SauceyPage}></Route>
-              <Route component={NotFound}></Route>
-            </Switch>
+            <Routes>
+              <Route path='/' exact element={<HomePage />}></Route>
+              <Route path='/player/:name' element={<PlayerPage />}></Route>
+              <Route path='/faction/:name/manifesto' element={<FactionManifestoPage />}></Route>
+              <Route path='/faction/:name/jobs' element={<FactionJobsPage />}></Route>
+              <Route path='/faction/overview' element={<FactionOverviewPage />}></Route>
+              <Route path='/credits' element={<CreditsPage />}></Route>
+              <Route path='/random' element={<RandomPage />}></Route>
+              <Route path='/rules' element={<RulesPage />}></Route>
+              <Route path='/story/:group/:page' element={<StoryPage />}></Route>
+              <Route path='/service/:service' element={<ServicePage />}></Route>
+              <Route path='/saucey' element={<SauceyPage />}></Route>
+              <Route element={<NotFound />}></Route>
+            </Routes>
             </div>
             </div>
           </div>

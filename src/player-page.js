@@ -1,9 +1,9 @@
-import { useRouteMatch } from "react-router"
+import { useParams } from "react-router"
 import players from './players.json'
 import factions from './factions.json'
 
 const Player = () => {
-    const { params: { name } } = useRouteMatch()
+    const { name } = useParams()
     const {
         title,
         faction,

@@ -341,6 +341,18 @@
         "description": "Sneaking inside the werewolf den the group come across a woman praying for help",
         "image": "/story-icon.png"
     },
+    "/story/vampire-hunters/chapter29": {
+        "title": "Chapter 29 - Frost and Smoke",
+        "className": "story",
+        "description": "The werewolves march north on the group as they prepare for battle in the den",
+        "image": "/story-icon.png"
+    },
+    "/story/vampire-hunters/chapter30": {
+        "title": "Chapter 30 - A New Pack is Born",
+        "className": "story",
+        "description": "Zuleika claims her new position as alpha",
+        "image": "/story-icon.png"
+    },
     "/story/seekers/forward": {
         "title": "Forward",
         "className": "story",

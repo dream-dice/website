@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import { useLocation } from "react-router"
 import Icon from './icon'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
@@ -8,21 +8,12 @@ const Header = () => {
     let { pathname } = useLocation()
     pathname = pathname.replace(/\/$/g, '')
     if (pathname === '') pathname = '/'
-    const [scrollTo, setScrollTo] = useState(window.innerWidth <= 768 ? '.scroll-to' : '.hero')
 
     const {title, className, description, image} = metadata[pathname] || metadata.notFound
 
     useEffect(() => {
         document.body.className = `is-${className}`
-
-        const element = document.querySelector(scrollTo)
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        window.onresize = () => {
-            setScrollTo(window.innerWidth <= 768 ? '.scroll-to' : '.hero')
-        }
-
         return () => {
-            window.onresize = null
             document.body.className = `is-home`
         }
     })

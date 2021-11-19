@@ -1,4 +1,4 @@
-import { useParams } from 'react-router'
+import { useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
 import services from './services.json'

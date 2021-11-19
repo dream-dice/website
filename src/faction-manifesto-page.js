@@ -1,9 +1,9 @@
-import { useRouteMatch } from 'react-router'
+import { useParams } from 'react-router-dom'
 import factions from './factions.json'
 import Faction from './faction'
 
 const FactionJobs = () => {
-    const { params: { name } } = useRouteMatch()
+    const { name } = useParams()
     const { title, intro, leader, beliefs = [], offences = [], skill = {} } = factions[name] || {}
 
     return (
