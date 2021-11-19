@@ -114,7 +114,7 @@
         "image": "/players/zordar.png"
     },
     "/player/godfrey": {
-        "title": "Godfrey the Guardian",
+        "title": "Godfrey the Vengful",
         "className": "luminaries",
         "description": "A human paladin who is in a quest to rid his land of a mysterious plague",
         "image": "/players/godfrey.png"
