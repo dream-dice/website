@@ -40,19 +40,9 @@ const StoryLinks = () => {
 }
 
 const FactionLinks = ({ name, title }) => {
-    const { pathname } = useLocation()
-    const [open, setOpen] = useState(navigator.userAgent === "ReactSnap" || (pathname.includes('faction') && pathname.includes(name)))
     return (
         <li>
-            <button className='button is-ghost' onClick={() => setOpen(!open)}>{title}</button>
-            {open && <ul>
-                <li>
-                    <MenuLink to={`/faction/${name}/manifesto`}>Manifesto</MenuLink>
-                </li>
-                <li>
-                    <MenuLink to={`/faction/${name}/jobs`}>Jobs</MenuLink>
-                </li>
-            </ul>}
+            <MenuLink to={`/faction/${name}/manifesto`}>{title}</MenuLink>
         </li>
     )
 }
@@ -61,6 +51,7 @@ const calculateMenuHeight = () => window.innerHeight - document.getElementsByCla
 
 const Menu = () => {
     const [menuHeight, setMenuHeight] = useState(window.innerHeight)
+    let currentFaction = null
     useEffect(() => {
         setMenuHeight(calculateMenuHeight())
         window.onresize = () => { setMenuHeight(calculateMenuHeight()) }
@@ -93,10 +84,10 @@ const Menu = () => {
                         if (left[0] > right[0]) return 2
                         return 0
                     })
-                    .map(([name, { title }]) => <FactionLinks key={name} name={name} title={title} />)}
+                    .map(([name, { title, jobs }]) => <FactionLinks key={name} name={name} title={title} />)}
             </ul>
             <p className="menu-label">
-                Services
+                Barovia Services
             </p>
             <ul className="menu-list">
                 {Object.entries(services).map(([name, { title }]) => (
@@ -109,11 +100,21 @@ const Menu = () => {
             <ul className="menu-list">
                 {Object.entries(players)
                     .sort((left, right) => {
+                        if (left[1].faction < right[1].faction) return -2
+                        if (left[1].faction > right[1].faction) return 2
                         if (left[1].title < right[1].title) return -1
                         if (left[1].title > right[1].title) return 1
                         return 0
                     })
-                    .map(([name, { title, status }]) => <li key={name}><MenuLink to={`/player/${name}`}><span>{titleCase(name)}</span>{status && <b> - {status}</b>}</MenuLink></li>)}
+                    .map(([name, { status, faction }]) => {
+                        const newFaction = currentFaction !== faction
+                        if (currentFaction !== faction) currentFaction = faction
+                        return <div key={name}>
+                            {newFaction && <li style={{marginTop: 15, marginBottom: 5, fontSize: '1.1em'}}><i>{titleCase(faction)}</i></li>}
+                            <li><MenuLink to={`/player/${name}`}><span>{titleCase(name)}</span>{status && <b> - {status}</b>}</MenuLink></li>
+                        </div>
+                    }
+                    )}
             </ul>
             <p className="menu-label">
                 Game Master

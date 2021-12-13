@@ -109,6 +109,7 @@ blockquote {
 .is-notFound h5,
 .is-notFound h6,
 .is-notFound p,
+.is-notFound li,
 .is-notFound blockquote {
   color: #686868 !important;
 }
@@ -156,6 +157,7 @@ blockquote {
 .is-story h5,
 .is-story h6,
 .is-story p,
+.is-story li,
 .is-story blockquote {
   color: #37200F !important;
 }
@@ -203,6 +205,7 @@ blockquote {
 .is-brawlers h5,
 .is-brawlers h6,
 .is-brawlers p,
+.is-brawlers li,
 .is-brawlers blockquote {
   color: #25201C !important;
 }
@@ -250,6 +253,7 @@ blockquote {
 .is-wraithRaiders h5,
 .is-wraithRaiders h6,
 .is-wraithRaiders p,
+.is-wraithRaiders li,
 .is-wraithRaiders blockquote {
   color: #FFFFFF !important;
 }
@@ -297,6 +301,7 @@ blockquote {
 .is-luminaries h5,
 .is-luminaries h6,
 .is-luminaries p,
+.is-luminaries li,
 .is-luminaries blockquote {
   color: #0055D4 !important;
 }
@@ -344,6 +349,7 @@ blockquote {
 .is-spellworkers h5,
 .is-spellworkers h6,
 .is-spellworkers p,
+.is-spellworkers li,
 .is-spellworkers blockquote {
   color: #5A2CA0 !important;
 }
@@ -358,4 +364,52 @@ blockquote {
 .is-spellworkers .card,
 .is-spellworkers blockquote {
   background-color: #D0CAE4 !important;
+}
+
+/* Avowed */
+
+.is-avowed .icon-2 {
+  fill: #FF9507;
+}
+
+.is-avowed .icon-1 {
+  fill: #C7301D;
+}
+
+.is-avowed .icon-3 {
+  fill: #1A1414;
+}
+
+.is-avowed {
+  background-color: #551518;
+}
+
+.is-avowed .card,
+.is-avowed .title,
+.is-avowed .button,
+.is-avowed a,
+.is-avowed .menu-label,
+.is-avowed .content,
+.is-avowed h1,
+.is-avowed h2,
+.is-avowed h3,
+.is-avowed h4,
+.is-avowed h5,
+.is-avowed h6,
+.is-avowed p,
+.is-avowed li,
+.is-avowed blockquote {
+  color: #FF9507 !important;
+}
+
+.is-avowed blockquote,
+.is-avowed .menu-list li ul {
+  border-color: #FF9507 !important;
+}
+
+.is-avowed a:hover,
+.is-avowed a.is-active,
+.is-avowed .card,
+.is-avowed blockquote {
+  background-color: #1A1414 !important;
 }

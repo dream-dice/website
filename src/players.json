@@ -125,5 +125,51 @@
             "Caused a riot in Vallaki and became the hero of Vallaki",
             "Turned into a werewolf after being bit by the Loup Garu"
         ]
+    },
+    "timagast": {
+        "title": "Timagast",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Dwarf",
+        "class": [{"title": "Druid", "level": 1}],
+        "description": "He is short, quick-tempered and very hairy. Timagast spent a lot of time studying mushrooms and their effect on people.",
+        "famous": [
+            "Has bugs in his hair",
+            "Turned a pile of book into his 'Book Club'"
+        ]
+    },
+    "cloud": {
+        "title": "Cloud",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Tabaxi",
+        "class": [{"title": "Ranger", "level": 1}],
+        "description": "Cloud spent a lot of time walking the world and create a compandium of all the animals he saw along the way.",
+        "famous": [
+            "Knows a lot about animals, including the every-frog"
+        ]
+    },
+    "florian": {
+        "title": "Florian",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Kalashtar",
+        "class": [{"title": "Warlock", "level": 1}],
+        "description": "Is a borderline con artist who's book '10 ways to cure warts' had an entry which, much to his suprise, worked.",
+        "famous": [
+            "Is cautious of chairs and when offered to sit down, he would prefer to stand"
+        ]
+    },
+    "firewatch": {
+        "title": "Firewatch",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Warlock",
+        "class": [{"title": "Wizard", "level": 1}],
+        "description": "Used to work in Candlekeep as a fire warden. He became obsolete after the fire were magically controlled throughout Candlekeep and was allowed to travel the world as an Avowed.",
+        "famous": [
+            "Has a compartment in his chest for a fire extinguisher and scissor lift left to reach up to 8ft tall",
+            "Hates fire and will put it out if he can"
+        ]
     }
 }

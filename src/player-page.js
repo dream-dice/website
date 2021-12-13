@@ -37,7 +37,7 @@ const Player = () => {
                                 </div>
                                 <div className='is-size-6'>
                                     <span className='pr-2'>{factionTitle}</span>
-                                    <span className='has-text-weight-light'>{rank} ({renown})</span>
+                                    <span className='has-text-weight-light'>{rank} {renown >= 0 && <span>({renown})</span> }</span>
                                 </div>
                             </h2>
                         </div>

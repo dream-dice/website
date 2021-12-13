@@ -71,6 +71,18 @@
         "description": "A list of jobs and their status for the Wraith Raiders",
         "image": "/wraithRaiders-icon.png"
     },
+    "/faction/avowed/manifesto": {
+        "title": "Avowed Faction",
+        "className": "avowed",
+        "description": "An introduction to the Avowed",
+        "image": "/avowed-icon.png"
+    },
+    "/faction/avowed/jobs": {
+        "title": "Avowed Jobs",
+        "className": "avowed",
+        "description": "A list of jobs and their status for the Avowed",
+        "image": "/avowed-icon.png"
+    },
     "/service/smith": {
         "title": "Byllenan Smithy",
         "className": "home",
@@ -148,6 +160,30 @@
         "className": "wraithRaiders",
         "description": "A lizardfolk ranger that sacrificed himself to save his friends",
         "image": "/players/kuquar.png"
+    },
+    "/player/timagast": {
+        "title": "Timagast",
+        "className": "avowed",
+        "description": "A dude",
+        "image": "/players/timagast.png"
+    },
+    "/player/florian": {
+        "title": "Florian",
+        "className": "avowed",
+        "description": "A dude",
+        "image": "/players/florian.png"
+    },
+    "/player/cloud": {
+        "title": "Cloud",
+        "className": "avowed",
+        "description": "A dude",
+        "image": "/players/cloud.png"
+    },
+    "/player/firewatch": {
+        "title": "Firewatch",
+        "className": "avowed",
+        "description": "A dude",
+        "image": "/players/firewatch.png"
     },
     "/random": {
         "title": "Random Item Generator",

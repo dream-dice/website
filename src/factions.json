@@ -78,6 +78,33 @@
         },
         "jobs": []
     },
+    "avowed": {
+        "title": "Avowed",
+        "intro": "For roughly three hundred we Avowed have lived in Candlekeep. We work to collect and preserve knowledge throughout the known worlds and apply that knowledge diving deep into the depths of the unknown.",
+        "leader": "Janussi",
+        "beliefs": [
+            "one",
+            "two",
+            "three"
+        ],
+        "offences": [
+            "No fighting",
+            "No stealing",
+            "No copying",
+            "No damaging, marking, or otherwise modifying the works"
+        ],
+        "skill": {
+            "title": "Quick Reader",
+            "description": "You can read and write faster than the average person. What takes someone an hour to read take syou a tenth of the time."
+        },
+        "contact": {
+            "name": "pictacus",
+            "title": "Pictacus",
+            "location": "Candlekeep, The Hearth",
+            "description": "A short halfling who knows more about Candlekeep than anyone else"
+        },
+        "jobs": []
+    },
     "wraithRaiders": {
         "title": "Wraith Raiders",
         "intro": "We are the most dangerous and financially successful faction to exist. Our clientele wants us to be discrete and efficient. We are not thieves or murderers, we are problem solvers. Our price may be high but the quality of service is second to none. We do not exist, we are incognito and no one knows our real identities. You do not contact us, we contact you.",

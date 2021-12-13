@@ -77,7 +77,7 @@ const FactionOverview = () => (
                             50
                         </td>
                         <td>
-                            2
+                            3
                         </td>
                     </tr>
                     <tr>
@@ -91,7 +91,7 @@ const FactionOverview = () => (
                             100
                         </td>
                         <td>
-                            3
+                            4
                         </td>
                     </tr>
                 </tbody>
