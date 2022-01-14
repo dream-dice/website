@@ -131,11 +131,12 @@
         "faction": "avowed",
         "rank": "Rank D",
         "race": "Dwarf",
-        "class": [{"title": "Druid", "level": 1}],
+        "class": [{"title": "Druid", "level": 2}],
         "description": "He is short, quick-tempered and very hairy. Timagast spent a lot of time studying mushrooms and their effect on people.",
         "famous": [
             "Has bugs in his hair",
-            "Turned a pile of book into his 'Book Club'"
+            "Turned a pile of book into his 'Book Club'",
+            "Owns a mastiff as a mount and a frog"
         ]
     },
     "cloud": {
@@ -143,10 +144,11 @@
         "faction": "avowed",
         "rank": "Rank D",
         "race": "Tabaxi",
-        "class": [{"title": "Ranger", "level": 1}],
+        "class": [{"title": "Ranger", "level": 2}],
         "description": "Cloud spent a lot of time walking the world and create a compandium of all the animals he saw along the way.",
         "famous": [
-            "Knows a lot about animals, including the every-frog"
+            "Knows a lot about animals, including the every-frog",
+            "Has a black pet cat which sits on his shoulder"
         ]
     },
     "florian": {
@@ -154,10 +156,11 @@
         "faction": "avowed",
         "rank": "Rank D",
         "race": "Kalashtar",
-        "class": [{"title": "Warlock", "level": 1}],
+        "class": [{"title": "Warlock", "level": 2}],
         "description": "Is a borderline con artist who's book '10 ways to cure warts' had an entry which, much to his suprise, worked.",
         "famous": [
-            "Is cautious of chairs and when offered to sit down, he would prefer to stand"
+            "Is cautious of chairs, and when offered to sit down, he would prefer to stand",
+            "A raven dropped a book in front of his feet"
         ]
     },
     "firewatch": {
@@ -165,7 +168,7 @@
         "faction": "avowed",
         "rank": "Rank D",
         "race": "Warlock",
-        "class": [{"title": "Wizard", "level": 1}],
+        "class": [{"title": "Wizard", "level": 2}],
         "description": "Used to work in Candlekeep as a fire warden. He became obsolete after the fire were magically controlled throughout Candlekeep and was allowed to travel the world as an Avowed.",
         "famous": [
             "Has a compartment in his chest for a fire extinguisher and scissor lift left to reach up to 8ft tall",
