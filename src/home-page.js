@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Home = () => (
     <div className='content mt-3'>
         <h1 className='title'>Dream Dice</h1>

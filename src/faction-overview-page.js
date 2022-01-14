@@ -1,3 +1,5 @@
+import React from 'react'
+
 const FactionOverview = () => (
     <div className='mt-3'>
         <div className='content'>

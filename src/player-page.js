@@ -1,3 +1,4 @@
+import React from 'react'
 import { useParams } from "react-router"
 import players from './players.json'
 import factions from './factions.json'

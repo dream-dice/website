@@ -1,3 +1,4 @@
+import React from 'react'
 import { useParams } from 'react-router-dom'
 import factions from './factions.json'
 import Faction from './faction'

@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Saucey = () => (
     <div className='columns mt-3'>
         <div className='column is-4'>

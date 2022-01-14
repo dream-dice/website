@@ -1,8 +1,24 @@
 {
-    "seekers": [
+    "avowed": [
         {
             "title": "Forward",
-            "to": "seekers/forward"
+            "to": "avowed/forward"
+        },
+        {
+            "title": "Chapter 1",
+            "to": "avowed/chapter1"
+        },
+        {
+            "title": "Cahpter 2",
+            "to": "avowed/chapter2"
+        },
+        {
+            "title": "Cahpter 3",
+            "to": "avowed/chapter3"
+        },
+        {
+            "title": "Cahpter 4",
+            "to": "avowed/chapter4"
         }
     ],
     "vampireHunters": [
@@ -129,6 +145,10 @@
         {
             "title": "Chapter 30",
             "to": "vampire-hunters/chapter30"
+        },
+        {
+            "title": "Chapter 31",
+            "to": "vampire-hunters/chapter31"
         }
     ]
 }

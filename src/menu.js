@@ -1,3 +1,4 @@
+import React from 'react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
@@ -19,7 +20,7 @@ const StoryLinks = () => {
     const { pathname } = useLocation()
     const [open, setOpen] = useState({
         vampires: navigator.userAgent === "ReactSnap" || pathname.includes('story/vampire-hunters'),
-        seekers: navigator.userAgent === "ReactSnap" || pathname.includes('story/seekers')
+        avowed: navigator.userAgent === "ReactSnap" || pathname.includes('story/avowed')
     })
     return (
         <div>
@@ -30,9 +31,9 @@ const StoryLinks = () => {
                 </ul>}
             </li>
             <li>
-                <button className='button is-ghost' onClick={() => setOpen({ seekers: !open.seekers })}>The Seekers</button>
-                {open.seekers && <ul>
-                    {story.seekers.map(({ to, title }) => <li key={to}><MenuLink to={`/story/${to}`}>{title}</MenuLink></li>)}
+                <button className='button is-ghost' onClick={() => setOpen({ avowed: !open.avowed })}>The Avowed</button>
+                {open.avowed && <ul>
+                    {story.avowed.map(({ to, title }) => <li key={to}><MenuLink to={`/story/${to}`}>{title}</MenuLink></li>)}
                 </ul>}
             </li>
         </div>

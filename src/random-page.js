@@ -1,3 +1,4 @@
+import React from 'react'
 import Chance from 'chance'
 import { useReducer } from 'react'
 import random from './random.json'
@@ -19,50 +20,56 @@ const DDBLink = ({ href, name, keepCase = false }) => {
     let hrefName = name
     if (!keepCase) hrefName = name.toLowerCase()
     const url = `${href}${hrefName.replace(/ /g, '-').replace(/[,()']/g, '')}`
-    return <a target='_blank' href={url} rel="noreferrer">{name}</a>
+    return <a target='_blank' href={url} rel="noopener noreferrer">{name}</a>
 }
 
 const Generator = ({ dispatch, state, name, title, href, keepCase }) => (
-    <div className='is-flex random'>
-        <div className='random-list'>
-            <button
-                style={{
-                    justifyContent: 'left'
-                }}
-                className='button is-ghost is-fullwidth'
-                onClick={() => {
-                    dispatch({
-                        type: 'toggle',
-                        payload: {
-                            name
-                        }
-                    })
-                }}>{state.open.includes(name) ? 'Collapse' : 'Expand'} {title} List</button>
-            {state.open.includes(name) && <ul style={{
-                overflow: 'auto',
-                maxHeight: 100
-            }}>
-                {random[name].sort().map(item => <li key={item}>{<DDBLink name={item} href={href} keepCase={keepCase} />}</li>)}
-            </ul>}
+    <div>
+        <div className='is-flex random'>
+            <div className='random-list'>
+                <button
+                    style={{
+                        justifyContent: 'left'
+                    }}
+                    className='button is-ghost is-fullwidth'
+                    onClick={() => {
+                        dispatch({
+                            type: 'toggle',
+                            payload: {
+                                name
+                            }
+                        })
+                    }}>{state.open.includes(name) ? 'Collapse' : 'Expand'} {title} List</button>
+                {state.open.includes(name) && <ul style={{
+                    overflow: 'auto',
+                    maxHeight: 100
+                }}>
+                    {random[name].sort().map(item => <li key={item}>{<DDBLink name={item} href={href} keepCase={keepCase} />}</li>)}
+                </ul>}
+            </div>
+            <div className='random-roll'>
+                <button
+                    className='button is-fullwidth'
+                    onClick={() => {
+                        const value = generate(name)
+                        dispatch({
+                            type: 'generate',
+                            payload: {
+                                name,
+                                value
+                            }
+                        })
+                    }}>Roll {title}</button>
+            </div>
+            <div className='random-result is-hidden-mobile'>
+                {state[name] && <DDBLink name={state[name]} href={href} />}
+            </div>
         </div>
-        <div className='random-roll'>
-            <button
-                className='button is-fullwidth'
-                onClick={() => {
-                    const value = generate(name)
-                    dispatch({
-                        type: 'generate',
-                        payload: {
-                            name,
-                            value
-                        }
-                    })
-                }}>Roll {title}</button>
-        </div>
-        <div className='random-result'>
-            {state[name] && <DDBLink name={state[name]} href={href} />}
-        </div>
+        <div className={`random-result is-visible-mobile is-hidden-tablet${state[name] ? '' : ' is-hidden'}`}>
+                {state[name] && <DDBLink name={state[name]} href={href} />}
+            </div>
     </div>
+
 )
 
 const Random = () => {

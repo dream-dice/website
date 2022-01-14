@@ -78,6 +78,10 @@ blockquote {
   line-height: 40px;
 }
 
+.random-result.is-visible-mobile {
+  padding-left: 16px;
+}
+
 /* Not Found */
 
 .is-notFound .icon-2 {

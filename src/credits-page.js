@@ -1,3 +1,5 @@
+import React from "react"
+
 const Credits = () => (
     <div className='content mt-3'>
         <h1 className='title'>Credits</h1>
