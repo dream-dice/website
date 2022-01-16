@@ -395,6 +395,12 @@
         "description": "The groupd meet The Abbot who asks for a diamond before for helping them.",
         "image": "/story-icon.png"
     },
+    "/story/vampire-hunters/chapter32": {
+        "title": "Chapter 32 - Meeting The Abbot",
+        "className": "story",
+        "description": "In order to lift the curse off of Ireena, The Abbot needed an exquisite wedding dress.",
+        "image": "/story-icon.png"
+    },
     "/story/avowed/forward": {
         "title": "Forward",
         "className": "story",
