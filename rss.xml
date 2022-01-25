@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-    <channel>
-        <title>Dream Dice</title>
-        <link>https://dream-dice.blankstring.com</link>
-        <description>Where I keep public notes for my players</description>
-        <item>
-            <title>Chapter 32 Added</title>
-            <link>https://dream-dice.blankstring.com/story/vampire-hunters/chapter32</link>
-            <description>A new chapter was added</description>
-        </item>
-        <item>
-            <title>Chapter 5 Added</title>
-            <link>https://dream-dice.blankstring.com/story/avowed/chapter5</link>
-            <description>A new chapter was added to the Avowed collection and several characters were updated.</description>
-        </item>
-    </channel>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title><![CDATA[Dream Dice]]></title>
+		<description><![CDATA[Where I keep all my notes.]]></description>
+		<link>https://dream-dice.blankstring.com</link>
+		<image>
+			<url>https://dream-dice.blankstring.com/icon.png</url>
+			<title>Dream Dice</title>
+			<link>https://dream-dice.blankstring.com</link>
+		</image>
+		<generator>Dream Dice</generator>
+		<lastBuildDate>Tue Jan 25 2022 18:39:37 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
+		<author><![CDATA[Luke Preston]]></author>
+		<language><![CDATA[en-gb]]></language>
+		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+                <item>
+                    <title><![CDATA[Chapter 32 Added]]></title>
+                    <description><![CDATA[<p>A new chapter was added</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/story/vampire-hunters/chapter32</link>
+                    <guid isPermaLink="false">0ee287ef-eb7e-4493-b15f-7a3c6d978522</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-01-25T18:32:34.359Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Chapter 5 Added]]></title>
+                    <description><![CDATA[<p>A new chapter was added to the Avowed collection and several characters were updated.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/story/avowed/chapter5</link>
+                    <guid isPermaLink="false">ae982852-6a97-4c10-bbe5-57d5725c6f87</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-01-25T18:36:15.784Z</pubDate>
+                </item>
+	</channel>
 </rss>
