@@ -13,7 +13,10 @@ Pittacus and Jannusi entered the room. Immediately Jannusi accused them of murde
 
 Over the next few days, many people came back to Candlekeep to mourne Matreous. On the third day, at low tide, everyone made their way to the Candlekeep tombs to carry out Matreous's funeral. Most of the Avowed who showed up donated pieces of work in his honour, our group of heroes entered this poem
 
-> man called matreous, you dun betray'd us, you is dead, book is bread
+> man called matreous
+> you dun betray'd us
+> you is dead
+> book is bread
 
 By all accounts, Matreous was a well-loved individual, and no one had anything wrong to say about him. He has been responsible for expanding many rooms throughout Candlekeep with magical mansions and was researching ways to improve this when he became trapped inside Fistandia's mansion.
 

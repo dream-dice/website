@@ -164,26 +164,32 @@
     "/player/timagast": {
         "title": "Timagast",
         "className": "avowed",
-        "description": "A dude.",
+        "description": "A dwarf who experiments with mushrooms.",
         "image": "/players/timagast.png"
     },
     "/player/florian": {
         "title": "Florian",
         "className": "avowed",
-        "description": "A dude.",
+        "description": "A Kalashtar who relishes in conning people.",
         "image": "/players/florian.png"
     },
     "/player/cloud": {
         "title": "Cloud",
         "className": "avowed",
-        "description": "A dude.",
+        "description": "A Tabazi Ranger that knows almost a lot about creatures.",
         "image": "/players/cloud.png"
     },
     "/player/firewatch": {
         "title": "Firewatch",
         "className": "avowed",
-        "description": "A dude.",
+        "description": "An obsolete warforged who used to put out flames in Candlekeep.",
         "image": "/players/firewatch.png"
+    },
+    "/player/cassandra": {
+        "title": "Cassandra",
+        "className": "avowed",
+        "description": "A Changeling who specializes in erotic art.",
+        "image": "/players/cassandra.png"
     },
     "/random": {
         "title": "Random Item Generator",
@@ -429,6 +435,12 @@
         "title": "Chapter 4 - A Curious Raven",
         "className": "story",
         "description": "Whilst investigating the events after escaping a raven drops a book at the groups feat and they go to Wytchway to investigate further.",
+        "image": "/story-icon.png"
+    },
+    "/story/avowed/chapter5": {
+        "title": "Chapter 5 - Following The Winding Path",
+        "className": "story",
+        "description": "After leaving Wytchway the group follow the path on the treasure map in search of the mysterious castle.",
         "image": "/story-icon.png"
     }
 }

@@ -8,6 +8,10 @@ body {
   transition: background-color 0.3s ease-in-out;
 }
 
+blockquote p {
+  white-space: pre;
+}
+
 h1,
 .lobster {
   font-family: 'Lobster Two', cursive;

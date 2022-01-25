@@ -136,7 +136,7 @@
         "famous": [
             "Has bugs in his hair",
             "Turned a pile of book into his 'Book Club'",
-            "Owns a mastiff as a mount and a frog"
+            "Owns a mastiff named Ambrosius as a mount and a frog named Frog"
         ]
     },
     "cloud": {
@@ -148,7 +148,9 @@
         "description": "Cloud spent a lot of time walking the world and create a compandium of all the animals he saw along the way.",
         "famous": [
             "Knows a lot about animals, including the every-frog",
-            "Has a black pet cat which sits on his shoulder"
+            "Has a black pet cat which sits on his shoulder, named Barret",
+            "Has a Chocobo named Highwind",
+            "Turned a magical bookcase into a magical flail"
         ]
     },
     "florian": {
@@ -160,19 +162,32 @@
         "description": "Is a borderline con artist who's book '10 ways to cure warts' had an entry which, much to his suprise, worked.",
         "famous": [
             "Is cautious of chairs, and when offered to sit down, he would prefer to stand",
-            "A raven dropped a book in front of his feet"
+            "A raven dropped a book in front of his feet",
+            "Has a horse, dressed as a unicorn, known as Charlie the Unicorn"
         ]
     },
     "firewatch": {
         "title": "Firewatch",
         "faction": "avowed",
         "rank": "Rank D",
-        "race": "Warlock",
+        "race": "Warforged",
         "class": [{"title": "Wizard", "level": 2}],
         "description": "Used to work in Candlekeep as a fire warden. He became obsolete after the fire were magically controlled throughout Candlekeep and was allowed to travel the world as an Avowed.",
         "famous": [
             "Has a compartment in his chest for a fire extinguisher and scissor lift left to reach up to 8ft tall",
             "Hates fire and will put it out if he can"
+        ]
+    },
+    "cassandra": {
+        "title": "Cassandra of Quirm",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Changeling",
+        "class": [{"title": "Bard", "level": 2}],
+        "description": "An orphan whose parents died before she was born, she travelled around and ended up in Candlekeep after writing an erotic self help book.",
+        "famous": [
+            "Loves erotic smooth jazz",
+            "Has a horse named Honey Bun"
         ]
     }
 }
