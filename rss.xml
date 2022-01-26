@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Tue Jan 25 2022 18:39:37 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Wed Jan 26 2022 09:24:15 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -27,9 +27,9 @@
                     <title><![CDATA[Chapter 5 Added]]></title>
                     <description><![CDATA[<p>A new chapter was added to the Avowed collection and several characters were updated.</p>]]></description>
                     <link>https://dream-dice.blankstring.com/story/avowed/chapter5</link>
-                    <guid isPermaLink="false">ae982852-6a97-4c10-bbe5-57d5725c6f87</guid>
+                    <guid isPermaLink="false">b25df0d6-37b7-4e59-a69b-e5f5189108c7</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
-                    <pubDate>2022-01-25T18:36:15.784Z</pubDate>
+                    <pubDate>2022-01-26T09:17:35.410ZZ</pubDate>
                 </item>
 	</channel>
 </rss>
