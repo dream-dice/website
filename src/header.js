@@ -13,9 +13,9 @@ const Header = () => {
     const {title, className, description, image} = metadata[pathname] || metadata.notFound
 
     useEffect(() => {
-        document.body.className = `is-${className}`
+        document.documentElement.className = `is-${className}`
         return () => {
-            document.body.className = `is-home`
+            document.documentElement.className = `is-home`
         }
     })
 

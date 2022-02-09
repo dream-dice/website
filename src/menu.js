@@ -48,7 +48,7 @@ const FactionLinks = ({ name, title }) => {
     )
 }
 
-const calculateMenuHeight = () => window.innerHeight - document.getElementsByClassName('hero')[0].getBoundingClientRect().height - 30
+const calculateMenuHeight = () => window.innerHeight - document.getElementsByClassName('hero')[0].getBoundingClientRect().height - 100
 
 const Menu = () => {
     const [menuHeight, setMenuHeight] = useState(window.innerHeight)
