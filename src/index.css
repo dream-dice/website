@@ -5,7 +5,7 @@ body,
 }
 
 body {
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 blockquote p {
@@ -51,7 +51,7 @@ blockquote {
 }
 
 .menu {
-  transition: opacity 0.3s ease-in-out, height 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out, height 0.2s ease-in-out;
 }
 
 .is-menu-open {
@@ -87,7 +87,7 @@ blockquote {
 .icon-1,
 .icon-2,
 .icon-3 {
-  transition: fill 0.3s ease-in-out;
+  transition: fill 0.2s ease-in-out;
 }
 
 .arrow-dsc {
@@ -127,6 +127,13 @@ blockquote {
 
 .random-result.is-visible-mobile {
   padding-left: 16px;
+}
+
+/* Home */
+
+.is-home,
+.is-home .button.is-menu {
+  background-color: #fff;
 }
 
 /* Not Found */
