@@ -2,17 +2,17 @@ import React, { useState } from 'react'
 
 import factions from './factions.json'
 
-const Player = ({
-    name,
+const Card = ({
     image,
     title,
     faction,
     rank,
     renown,
     race,
-    class: playerClass = [],
     description,
+    class: playerClass = [],
     famous = [],
+    notes = [],
     first = false
 }) => {
     const { title: factionTitle } = factions[faction] || {}
@@ -23,7 +23,7 @@ const Player = ({
             <button className="card-header" onClick={() => setOpen(!open)}>
                 <div className='card-header-title'>
                     <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
-                        <img src={`/players/${image}.png`} alt={`${title} Avatar`} />
+                        <img src={`/avatars/${image}.png`} alt={title} />
                     </div>
                     <span className={`text is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
                         {title}
@@ -59,6 +59,14 @@ const Player = ({
                             {famous.map(item => <li key={item}>{item}</li>)}
                         </ul>
                     </>}
+                    {notes.length > 0 && <>
+                        <h2 className='subtitle'>
+                            Notes
+                        </h2>
+                        <ul>
+                            {notes.map(item => <li key={item}>{item}</li>)}
+                        </ul>
+                    </>}
                 </div>
             </div>
             }
@@ -66,4 +74,4 @@ const Player = ({
     )
 }
 
-export default Player
+export default Card

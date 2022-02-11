@@ -1,19 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Game = ({ game }) => (
-    <div className='level'>
-        <div className='level-left'>
-            <div className='level-item'>
-                {game !== 'cos' && <Link to='/characters/cos' className='oswald has-text-weight-medium'>Curse of Strahd</Link>}
-                {game === 'cos' && <span className='oswald has-text-weight-bold'>Curse of Strahd</span>}
-            </div>
-            <div className='level-item'>
-                {game !== 'cm' && <Link to='/characters/cm' className='oswald has-text-weight-medium'>Candlekeep Mysteries</Link>}
-                {game === 'cm' && <span className='oswald has-text-weight-bold'>Candlekeep Mysteries</span>}
-            </div>
-        </div>
-    </div>
+const Game = ({ game, path }) => (
+    <div className="tabs">
+  <ul>
+    <li className={`is-${game === 'cos' ? 'active' : 'inactive'}`}>
+      <Link to={`${path}/cos`}>Curse of Strahd</Link>
+    </li>
+    <li className={`is-${game === 'cm' ? 'active' : 'inactive'}`}>
+    <Link to={`${path}/cm`}>Candlekeep Mysteries</Link>
+    </li>
+  </ul>
+</div>
 )
 
 export default Game

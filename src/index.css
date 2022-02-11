@@ -4,12 +4,16 @@ body,
  font-family: 'Lato', sans-serif !important;
 }
 
-body {
-  transition: background-color 0.2s ease-in-out;
+html {
+  transition: background-color 0.1s ease-in-out;
 }
 
 blockquote p {
   white-space: pre;
+}
+
+.section {
+  padding-top: 0.5rem !important;
 }
 
 h1,
@@ -59,11 +63,18 @@ blockquote {
 }
 
 .hero {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .hero .title {
   margin: 0 !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .hero .title {
+    word-wrap: break-word;
+    max-width: 50%;
+  }
 }
 
 .navbar-brand {
@@ -83,7 +94,7 @@ blockquote {
 .icon-2,
 .icon-3,
 .discord {
-  transition: fill 0.2s ease-in-out;
+  transition: fill 0.1s ease-in-out;
 }
 
 .discord {
@@ -174,7 +185,7 @@ blockquote {
 .is-notFound p,
 .is-notFound li,
 .is-notFound blockquote,
-.is-notFound .navbar-burger {
+.is-notFound span {
   color: #686868 !important;
 }
 
@@ -183,8 +194,17 @@ blockquote {
 }
 
 .is-notFound blockquote,
-.is-notFound .menu-list li ul {
+.is-notFound .tabs li.is-active a {
   border-color: #686868 !important;
+}
+
+.is-notFound .tabs li a {
+  border-width:0;
+}
+
+.is-notFound .tabs li.is-active a {
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .is-notFound a:hover,
@@ -228,7 +248,7 @@ blockquote {
 .is-story p,
 .is-story li,
 .is-story blockquote,
-.is-story .navbar-burger {
+.is-story span {
   color: #37200F !important;
 }
 
@@ -237,8 +257,17 @@ blockquote {
 }
 
 .is-story blockquote,
-.is-story .menu-list li ul {
+.is-story .tabs li.is-active a {
   border-color: #37200F !important;
+}
+
+.is-story .tabs li a {
+  border-wid0: 2px;
+}
+
+.is-story .tabs li.is-active a {
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .is-story a:hover,
@@ -282,7 +311,7 @@ blockquote {
 .is-brawlers p,
 .is-brawlers li,
 .is-brawlers blockquote,
-.is-brawlers .navbar-burger {
+.is-brawlers span {
   color: #25201C !important;
 }
 
@@ -291,8 +320,17 @@ blockquote {
 }
 
 .is-brawlers blockquote,
-.is-brawlers .menu-list li ul {
+.is-brawlers .tabs li.is-active a {
   border-color: #25201C !important;
+}
+
+.is-brawlers .tabs li a {
+  border-width:0;
+}
+
+.is-brawlers .tabs li.is-active a {
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .is-brawlers a:hover,
@@ -336,7 +374,7 @@ blockquote {
 .is-wraithRaiders p,
 .is-wraithRaiders li,
 .is-wraithRaiders blockquote,
-.is-wraithRaiders .navbar-burger {
+.is-wraithRaiders span {
   color: #FFFFFF !important;
 }
 
@@ -345,8 +383,17 @@ blockquote {
 }
 
 .is-wraithRaiders blockquote,
-.is-wraithRaiders .menu-list li ul {
+.is-wraithRaiders .tabs li.is-active a {
   border-color: #FFFFFF !important;
+}
+
+.is-wraithRaiders .tabs li a {
+  border-width: 0;
+}
+
+.is-wraithRaiders .tabs li.is-active a {
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .is-wraithRaiders a:hover,
@@ -390,7 +437,7 @@ blockquote {
 .is-luminaries p,
 .is-luminaries li,
 .is-luminaries blockquote,
-.is-luminaries .navbar-burger {
+.is-luminaries span {
   color: #0055D4 !important;
 }
 
@@ -399,8 +446,17 @@ blockquote {
 }
 
 .is-luminaries blockquote,
-.is-luminaries .menu-list li ul {
+.is-luminaries .tabs li.is-active a {
   border-color: #0055D4 !important;
+}
+
+.is-luminaries .tabs li a {
+  border-width: 0;
+}
+
+.is-luminaries .tabs li.is-active a {
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .is-luminaries a:hover,
@@ -444,7 +500,7 @@ blockquote {
 .is-spellworkers p,
 .is-spellworkers li,
 .is-spellworkers blockquote,
-.is-spellworkers .navbar-burger {
+.is-spellworkers span {
   color: #5A2CA0 !important;
 }
 
@@ -453,8 +509,17 @@ blockquote {
 }
 
 .is-spellworkers blockquote,
-.is-spellworkers .menu-list li ul {
+.is-spellworkers .tabs li.is-active a {
   border-color: #5A2CA0 !important;
+}
+
+.is-spellworkers .tabs li a {
+  border-width: 0;
+}
+
+.is-spellworkers .tabs li.is-active a {
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .is-spellworkers a:hover,
@@ -498,7 +563,9 @@ blockquote {
 .is-avowed p,
 .is-avowed li,
 .is-avowed blockquote,
-.is-avowed .navbar-burger {
+.is-avowed span,
+.is-avowed input,
+.is-avowed input::placeholder {
   color: #FF9507 !important;
 }
 
@@ -507,13 +574,24 @@ blockquote {
 }
 
 .is-avowed blockquote,
-.is-avowed .menu-list li ul {
+.is-avowed .tabs li.is-active a,
+.is-avowed input {
   border-color: #FF9507 !important;
+}
+
+.is-avowed .tabs li a {
+  border-width: 0;
+}
+
+.is-avowed .tabs li.is-active a {
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .is-avowed a:hover,
 .is-avowed a.is-active,
 .is-avowed .card,
-.is-avowed blockquote {
+.is-avowed blockquote,
+.is-avowed input {
   background-color: #1A1414 !important;
 }

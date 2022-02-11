@@ -8,7 +8,7 @@ import metadata from './metadata.json'
 import Discord from './discord'
 
 const HeroFootLink = ({ pathname, to, label }) => (
-    <li className={pathname === to ? 'is-active' : 'is-inactive'}>
+    <li className={(to !== '/' && pathname.includes(to)) ? 'is-active' : 'is-inactive'}>
         <Link className="navbar-item" to={to}>{label}</Link>
     </li>
 )
@@ -27,7 +27,7 @@ const HeroHead = ({ title }) => (
                         </div>
                     </Link>
                     <h1 className="navbar-item title is-size-1 is-hidden-touch">{title}</h1>
-                    <h1 className="navbar-item title is-size-4 is-hidden-desktop">{title}</h1>
+                    <h1 className="navbar-item title is-size-6 is-hidden-desktop">{title}</h1>
                     <div className='navbar-item external-links is-flex is-align-items-center'>
                         <a href='https://foundry.blankstring.com' target='_blank' rel="noreferrer">
                             <div className='image is-24x24 is-hidden-touch'>
@@ -86,6 +86,7 @@ const Header = () => {
                             <ul>
                                 <HeroFootLink pathname={pathname} to='/' label='Home' />
                                 <HeroFootLink pathname={pathname} to='/characters' label='Players & NPCs' />
+                                <HeroFootLink pathname={pathname} to='/notes' label='Session Notes' />
                             </ul>
                         </div>
                     </nav>

@@ -1,10 +1,8 @@
 {
-    "kuquar": {
+    "cos": [{
         "name": "kuquar",
         "image": "kuquar",
-        "game": "cos",
         "title": "Ku-Quar",
-        "status": "Deceased",
         "faction": "wraithRaiders",
         "rank": "Rank B",
         "renown": 5,
@@ -16,13 +14,10 @@
             "Killed himself and turned into a Revenant",
             "Arty tried to stop him from dying, which caused Ku-Quar to seek revenge against him"
         ]
-    },
-    "arty": {
+    }, {
         "name": "arty",
         "image": "arty",
-        "game": "cos",
         "title": "Artefact #4546B a.k.a Arty",
-        "status": "Deceased",
         "faction": "spellworkers",
         "rank": "Rank A",
         "renown": 75,
@@ -36,11 +31,9 @@
             "Killed by Griek, twice",
             "Turned into a Tyrannosaurus and ate a werewolf"
         ]
-    },
-    "godfrey": {
+    }, {
         "name": "godfrey",
         "image": "godfrey",
-        "game": "cos",
         "title": "Godfrey the Vengeful",
         "faction": "luminaries",
         "rank": "Rank A",
@@ -54,11 +47,9 @@
             "Helm saved him from Strahd, and in the process infused a magical power within him",
             "He has changed his oath, to strike vengeance against Strahd"
         ]
-    },
-    "ka": {
+    }, {
         "name": "ka",
         "image": "ka",
-        "game": "cos",
         "title": "Ka Ka Tikki Tikki Ka Ka",
         "faction": "wraithRaiders",
         "rank": "Rank A",
@@ -71,11 +62,9 @@
             "Used his mask to pretend to be Dwight and the werewolf Lykaios",
             "Managed to steal the Holy Symbol before Dwight, but gave it back"
         ]
-    },
-    "dwight": {
+    }, {
         "name": "dwight",
         "image": "dwight",
-        "game": "cos",
         "title": "Dwight Ribble",
         "faction": "wraithRaiders",
         "rank": "Rank A",
@@ -91,11 +80,9 @@
             "Cursed after stealing some treasure from the werewolves",
             "Lost against Ka and owes him one favour"
         ]
-    },
-    "gorek": {
+    }, {
         "name": "gorek",
         "image": "gorek",
-        "game": "cos",
         "title": "Gorek Gottrisson",
         "faction": "spellworkers",
         "rank": "Rank A",
@@ -111,11 +98,9 @@
             "Created replicas of everyone to fool the werewolves",
             "Cursed after stealing some treasure from the werewolves"
         ]
-    },
-    "zordar": {
+    }, {
         "name": "zordar",
         "image": "zordar",
-        "game": "cos",
         "title": "Zordar",
         "faction": "brawlers",
         "rank": "Rank A",
@@ -129,11 +114,9 @@
             "Almost died because of some weak bats",
             "Was captured by werewolves, no one tried to save him"
         ]
-    },
-    "xerus": {
+    }, {
         "name": "xerus",
         "image": "xerus",
-        "game": "cos",
         "title": "Xerus",
         "faction": "luminaries",
         "rank": "Rank A",
@@ -149,90 +132,9 @@
             "Caused a riot in Vallaki and became the hero of Vallaki",
             "Turned into a werewolf after being bit by the Loup Garu"
         ]
-    },
-    "timagast": {
-        "name": "timagast",
-        "image": "timagast",
-        "game": "cm",
-        "title": "Timagast",
-        "faction": "avowed",
-        "rank": "Rank D",
-        "race": "Dwarf",
-        "class": [{"title": "Druid", "level": 2}],
-        "description": "He is short, quick-tempered and very hairy. Timagast spent a lot of time studying mushrooms and their effect on people.",
-        "famous": [
-            "Has bugs in his hair",
-            "Turned a pile of book into his 'Book Club'",
-            "Owns a mastiff named Ambrosius as a mount and a frog named Frog"
-        ]
-    },
-    "cloud": {
-        "name": "cloud",
-        "image": "cloud",
-        "game": "cm",
-        "title": "Cloud",
-        "faction": "avowed",
-        "rank": "Rank D",
-        "race": "Tabaxi",
-        "class": [{"title": "Ranger", "level": 2}],
-        "description": "Cloud spent a lot of time walking the world and create a compandium of all the animals he saw along the way.",
-        "famous": [
-            "Knows a lot about animals, including the every-frog",
-            "Has a black pet cat which sits on his shoulder, named Barret",
-            "Has a Chocobo named Highwind",
-            "Turned a magical bookcase into a magical flail"
-        ]
-    },
-    "florian": {
-        "name": "florian",
-        "image": "florian",
-        "game": "cm",
-        "title": "Florian",
-        "faction": "avowed",
-        "rank": "Rank D",
-        "race": "Kalashtar",
-        "class": [{"title": "Warlock", "level": 2}],
-        "description": "Is a borderline con artist who's book '10 ways to cure warts' had an entry which, much to his suprise, worked.",
-        "famous": [
-            "Is cautious of chairs, and when offered to sit down, he would prefer to stand",
-            "A raven dropped a book in front of his feet",
-            "Has a horse, dressed as a unicorn, known as Charlie the Unicorn"
-        ]
-    },
-    "firewatch": {
-        "name": "firewatch",
-        "image": "firewatch",
-        "game": "cm",
-        "title": "Firewatch",
-        "faction": "avowed",
-        "rank": "Rank D",
-        "race": "Warforged",
-        "class": [{"title": "Wizard", "level": 2}],
-        "description": "Used to work in Candlekeep as a fire warden. He became obsolete after the fire were magically controlled throughout Candlekeep and was allowed to travel the world as an Avowed.",
-        "famous": [
-            "Has a compartment in his chest for a fire extinguisher and scissor lift left to reach up to 8ft tall",
-            "Hates fire and will put it out if he can"
-        ]
-    },
-    "cassandra": {
-        "name": "cassandra",
-        "image": "cassandra",
-        "game": "cm",
-        "title": "Cassandra of Quirm",
-        "faction": "avowed",
-        "rank": "Rank D",
-        "race": "Changeling",
-        "class": [{"title": "Bard", "level": 2}],
-        "description": "An orphan whose parents died before she was born, she travelled around and ended up in Candlekeep after writing an erotic self help book.",
-        "famous": [
-            "Loves erotic smooth jazz",
-            "Has a horse named Honey Bun"
-        ]
-    },
-    "rictavio": {
+    }, {
         "name": "rictavio",
         "image": "rictavio",
-        "game": "cos",
         "title": "Van Richten a.k.a Rictavio",
         "faction": "luminaries",
         "race": "Human",
@@ -247,22 +149,18 @@
             "Offers a service to record stories, he will pay for them",
             "Does not want anyone to know his identity."
         ]
-    },
-    "shield-guardian": {
+    }, {
         "name": "shield-guardian",
         "image": "shield-guardian",
-        "game": "cos",
         "title": "Shield Guardian of the Armlet",
         "race": "Construct",
         "description": "On one of Xerus's adventures he came across an Armlet which lets him call forth a Shield Guardian. He made an agreement with Efreeti to keep it inside his ring which keeps the genie company.",
         "famous": [
             "Really big, can't fit through an average door."
         ]
-    },
-    "efreeti": {
+    }, {
         "name": "efreeti",
         "image": "efreeti",
-        "game": "cos",
         "title": "Efreeti",
         "race": "Elemental",
         "description": "Xerus's patron. He lives inside his ring and has asked Xerus to do many dangerous things in the past. He is an evil being, but has his own moral compass that guides him in life.",
@@ -270,22 +168,18 @@
             "Invited everyone into Xerus's ring to have a look around.",
             "Gave Xerus an extra pact slot in exchange for destroying Vallaki Town Square."
         ]
-    },
-    "python-staff": {
+    }, {
         "name": "python-staff",
         "image": "giant-constrictor-snake",
-        "game": "cos",
         "title": "Python Staff",
         "race": "Beast",
         "description": "Xerus found the Staff of the Python whilst clearing out a cave of vampires. He can now summon a large snake by throwing the staff to the ground",
         "famous": [
             "Was used quite a bit in order to travel around the marsh."
         ]
-    },
-    "kasimir": {
+    }, {
         "name": "kasimir",
         "image": "kasimir-velikov",
-        "game": "cos",
         "title": "Kasimir Velikov",
         "race": "Dark Elf (Drow)",
         "description": "Kasimir used to live with the Vistani who camped outside of Vallaki and helped lead them. After his daughter drowned in lake Zarovich he decided to leave the group and save his sister Patrina Velikovna from Strahd.",
@@ -296,11 +190,9 @@
             "Has said that the Amber Temple is too cold to withstand without warm winter gear.",
             "He is leaving in a day with or without the group."
         ]
-    },
-    "emil": {
+    }, {
         "name": "emil",
         "image": "unknown",
-        "game": "cos",
         "title": "Emil",
         "race": "Werewolf (Human)",
         "description": "",
@@ -309,22 +201,18 @@
             "Locked by Strahd as he tried to convince the Werewolves to stop their ways.",
             "Strahd has said his body is locked in his dungeon."
         ]
-    },
-    "rahadin": {
+    }, {
         "name": "rahadin",
         "image": "rahadin",
-        "game": "cos",
         "title": "Rahadin",
         "race": "Dusk Elf",
         "description": "Serves Strahd.",
         "famous": [
             "Showed everyone to the dining hall in Caslte Ravenloft."
         ]
-    },
-    "strahd": {
+    }, {
         "name": "strahd",
         "image": "strahd-von-zarovich",
-        "game": "cos",
         "title": "Strahd von Zarovich",
         "race": "Vampire",
         "description": "Strahd's magic is powerful and has decended Barovia into chaos. He is a driven by the woman he loved, Tatyana and plans to make Ireena his bride as he believes she is her reincarnation.",
@@ -345,11 +233,9 @@
             "They fought him and killed him in the mines.",
             "Before he died he said if he did get Ireena he would destroy everyone in Barovia and send vampires out into the world."
         ]
-    },
-    "ireena": {
+    }, {
         "name": "ireena",
         "image": "ireena",
-        "game": "cos",
         "title": "Ireena",
         "race": "Human",
         "description": "As a child she was found walking in the woods alone by Izmark. As she grew Strahd showed an interest in her, believing she is Tatyana's riencarnation.",
@@ -363,11 +249,9 @@
             "She took Scoob, the Baron's matif, to keep her company in the mine.",
             "The group came to lift the curse on her which binds her to Strahd but found her on her knees chanting."
         ]
-    },
-    "mordenkainen": {
+    }, {
         "name": "mordenkainen",
         "image": "mad-mage",
-        "game": "cos",
         "title": "Mordenkainen",
         "race": "Human",
         "description": "Mmordenkainen is a powerful mage and took a group of villagers to sake Castle Ravenloft, but failed. She hid from Strahd and learned how to enter the mines, as she entered the mines werewolves attacked her. The spell she cast was so powerful that her memory was  fragmented and the entrance to the mine was destroyed and unusable. She has agreed to take one sixth of the income from the trade route in return she will look after Ireena and the mines.",
@@ -380,11 +264,9 @@
             "Strahd has commanded her to trigger the mines defences to attack the group.",
             "Strahd then slit her throat and drank her blood, she is currently incapacited on the floor."
         ]
-    },
-    "cipher": {
+    }, {
         "name": "cipher",
         "image": "cipher",
-        "game": "cos",
         "title": "Cipher",
         "race": "Construct",
         "description": "Created by the Gottrison's as a way to get back into the mines and lock everyone else out. It is impossible to get in and out of the mines without this. It has it's own conciousness.",
@@ -394,11 +276,9 @@
             "Once a day can cast Greater Restoration.",
             "Only Zordar can understand it as it speaks Primordial."
         ]
-    },
-    "scoob": {
+    }, {
         "name": "scoob",
         "image": "mastif",
-        "game": "cos",
         "title": "Scoob",
         "race": "Beast",
         "description": "One of the surviving Mastif's of the former Baron of Vallaki.",
@@ -406,5 +286,75 @@
             "Kept Ireena company.",
             "Found dead in the mines."
         ]
-    }
+    }],
+    "cm": [{
+        "name": "timagast",
+        "image": "timagast",
+        "title": "Timagast",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Dwarf",
+        "class": [{"title": "Druid", "level": 2}],
+        "description": "He is short, quick-tempered and very hairy. Timagast spent a lot of time studying mushrooms and their effect on people.",
+        "famous": [
+            "Has bugs in his hair",
+            "Turned a pile of book into his 'Book Club'",
+            "Owns a mastiff named Ambrosius as a mount and a frog named Frog"
+        ]
+    }, {
+        "name": "cloud",
+        "image": "cloud",
+        "title": "Cloud",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Tabaxi",
+        "class": [{"title": "Ranger", "level": 2}],
+        "description": "Cloud spent a lot of time walking the world and create a compandium of all the animals he saw along the way.",
+        "famous": [
+            "Knows a lot about animals, including the every-frog",
+            "Has a black pet cat which sits on his shoulder, named Barret",
+            "Has a Chocobo named Highwind",
+            "Turned a magical bookcase into a magical flail"
+        ]
+    }, {
+        "name": "florian",
+        "image": "florian",
+        "title": "Florian",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Kalashtar",
+        "class": [{"title": "Warlock", "level": 2}],
+        "description": "Is a borderline con artist who's book '10 ways to cure warts' had an entry which, much to his suprise, worked.",
+        "famous": [
+            "Is cautious of chairs, and when offered to sit down, he would prefer to stand",
+            "A raven dropped a book in front of his feet",
+            "Has a horse, dressed as a unicorn, known as Charlie the Unicorn"
+        ]
+    }, {
+        "name": "firewatch",
+        "image": "firewatch",
+        "title": "Firewatch",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Warforged",
+        "class": [{"title": "Wizard", "level": 2}],
+        "description": "Used to work in Candlekeep as a fire warden. He became obsolete after the fire were magically controlled throughout Candlekeep and was allowed to travel the world as an Avowed.",
+        "famous": [
+            "Has a compartment in his chest for a fire extinguisher and scissor lift left to reach up to 8ft tall",
+            "Hates fire and will put it out if he can"
+        ]
+    }, {
+        "name": "cassandra",
+        "image": "cassandra",
+        "title": "Cassandra of Quirm",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Changeling",
+        "class": [{"title": "Bard", "level": 2}],
+        "description": "An orphan whose parents died before she was born, she travelled around and ended up in Candlekeep after writing an erotic self help book.",
+        "famous": [
+            "Loves erotic smooth jazz",
+            "Has a horse named Honey Bun"
+        ]
+    }]
 }

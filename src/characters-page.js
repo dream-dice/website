@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import Player from './player'
-import Game from './game'
+import Card from './card'
 import players from './players.json'
 
 const CharactersPage = ({ game }) => {
@@ -8,23 +7,18 @@ const CharactersPage = ({ game }) => {
 
     return (
         <div className='characters'>
-            <Game game={game} />
             <div>
                 <input
                     className="input mb-4"
                     type="text"
                     placeholder="Search name"
-                    onChange={({ target: { value } }) => setTerm(value)}
+                    onChange={({ target: { value } }) => setTerm(value.toLowerCase().replace(/\W*/g, ''))}
                 />
                 {
-                    Object.values(players)
-                        .filter(({ game: playerGame }) => playerGame === game)
+                    players[game]
                         .filter(({ title }) => title.toLowerCase()
                             .replace(/\W*/g, '')
-                            .includes(
-                                term.toLowerCase()
-                                    .replace(/\W*/g, '')
-                            )
+                            .includes(term)
                         )
                         .sort(({title: left}, {title: right}) => {
                             if (left < right) return -1
@@ -32,7 +26,7 @@ const CharactersPage = ({ game }) => {
                             return 0
                         })
                         .map((player, index) => (
-                            <Player
+                            <Card
                                 key={player.name}
                                 {...player}
                                 first={index === 0}

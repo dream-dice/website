@@ -1,0 +1,37 @@
+{
+    "cos": [{
+        "name": "session-1",
+        "image": "1",
+        "title": "Session 1 - The thing",
+        "description": "Something",
+        "notes": [
+            "bacon",
+            "facon"
+        ]
+    }, {
+        "name": "session-2",
+        "image": "1",
+        "title": "Session 2 - The thing",
+        "description": "A thing happened",
+        "notes": [
+            "introduction"
+        ]
+    }],
+    "cm": [{
+        "name": "session-1",
+        "image": "1",
+        "title": "Session 1 - The thing",
+        "description": "A thing happened",
+        "notes": [
+            "introduction"
+        ]
+    }, {
+        "name": "session-2",
+        "image": "1",
+        "title": "Session 2 - The thing",
+        "description": "A thing happened",
+        "notes": [
+            "introduction"
+        ]
+    }]
+}
