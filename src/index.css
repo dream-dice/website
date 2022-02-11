@@ -13,8 +13,27 @@ blockquote p {
 }
 
 h1,
-.lobster {
+.lobster,
+.card-header-title {
   font-family: 'Lobster Two', cursive;
+}
+
+.card-header-title .image {
+  transition: height 0.1s ease-in-out, width 0.1s ease-in-out;
+}
+
+.card-header-title .text {
+  transition: font-size 0.1s ease-in-out;
+}
+
+.card {
+  transition: margin 0.1s ease-in-out;
+}
+
+.card-header {
+  width: 100%;
+  border-width: 0;
+  cursor: pointer;
 }
 
 h2,
@@ -26,15 +45,8 @@ h6,
   font-family: 'Oswald', sans-serif;
 }
 
-.card,
 blockquote {
   box-shadow: none !important;
-}
-
-.navbar-burger {
-  background-color: transparent !important;
-  display: block !important;
-  margin-left: 0 !important;
 }
 
 .button.is-menu {
@@ -46,48 +58,36 @@ blockquote {
   z-index: 666;
 }
 
-.app {
-  transition: transform 0.2s ease-in-out;
-}
-
-.menu {
-  transition: opacity 0.2s ease-in-out, height 0.2s ease-in-out;
-}
-
-.is-menu-open {
-  transform: translateX(0);
-}
-
-@media only screen and (min-width: 769px) {
-  .is-menu-closed {
-    transform: translateX(-25%);
-  }
-}
-
-.is-menu-open .menu {
-  opacity: 1;
-}
-
-.is-menu-closed .menu {
-  pointer-events: none;
-  opacity: 0;
-  height: 0 !important;
-}
-
-.menu {
-  position: sticky;
-  top: 62px;
-  overflow: auto;
-}
-
 .hero {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+.hero .title {
+  margin: 0 !important;
+}
+
+.navbar-brand {
+  width: 100%;
+}
+
+.external-links {
+  margin-left: auto;
+  order: 2;
+}
+
+.external-links a {
+  margin-left: 20px;
+}
+
 .icon-1,
 .icon-2,
-.icon-3 {
+.icon-3,
+.discord {
   transition: fill 0.2s ease-in-out;
+}
+
+.discord {
+  height: 100%;
 }
 
 .arrow-dsc {
@@ -136,6 +136,10 @@ blockquote {
   background-color: #fff;
 }
 
+.is-home .discord {
+  fill: #363636 !important;
+}
+
 /* Not Found */
 
 .is-notFound .icon-2 {
@@ -172,6 +176,10 @@ blockquote {
 .is-notFound blockquote,
 .is-notFound .navbar-burger {
   color: #686868 !important;
+}
+
+.is-notFound .discord {
+  fill: #686868 !important;
 }
 
 .is-notFound blockquote,
@@ -224,6 +232,10 @@ blockquote {
   color: #37200F !important;
 }
 
+.is-story .discord {
+  fill: #37200F !important;
+}
+
 .is-story blockquote,
 .is-story .menu-list li ul {
   border-color: #37200F !important;
@@ -272,6 +284,10 @@ blockquote {
 .is-brawlers blockquote,
 .is-brawlers .navbar-burger {
   color: #25201C !important;
+}
+
+.is-brawlers .discord {
+  fill: #25201C !important;
 }
 
 .is-brawlers blockquote,
@@ -324,6 +340,10 @@ blockquote {
   color: #FFFFFF !important;
 }
 
+.is-wraithRaiders .discord {
+  fill: #FFFFFF !important;
+}
+
 .is-wraithRaiders blockquote,
 .is-wraithRaiders .menu-list li ul {
   border-color: #FFFFFF !important;
@@ -372,6 +392,10 @@ blockquote {
 .is-luminaries blockquote,
 .is-luminaries .navbar-burger {
   color: #0055D4 !important;
+}
+
+.is-luminaries .discord {
+  fill: #0055D4 !important;
 }
 
 .is-luminaries blockquote,
@@ -424,6 +448,10 @@ blockquote {
   color: #5A2CA0 !important;
 }
 
+.is-spellworkers .discord {
+  fill: #5A2CA0 !important;
+}
+
 .is-spellworkers blockquote,
 .is-spellworkers .menu-list li ul {
   border-color: #5A2CA0 !important;
@@ -472,6 +500,10 @@ blockquote {
 .is-avowed blockquote,
 .is-avowed .navbar-burger {
   color: #FF9507 !important;
+}
+
+.is-avowed .discord {
+  fill: #FF9507 !important;
 }
 
 .is-avowed blockquote,

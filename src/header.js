@@ -1,16 +1,63 @@
 import React from 'react'
 import { useEffect } from "react"
 import { useLocation } from "react-router"
+import { Link } from 'react-router-dom'
 import Icon from './icon'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import metadata from './metadata.json'
+import Discord from './discord'
+
+const HeroFootLink = ({ pathname, to, label }) => (
+    <li className={pathname === to ? 'is-active' : 'is-inactive'}>
+        <Link className="navbar-item" to={to}>{label}</Link>
+    </li>
+)
+
+const HeroHead = ({ title }) => (
+    <div className="hero-head">
+        <nav className="navbar">
+            <div className="container">
+                <div className="navbar-brand">
+                    <Link className="navbar-item" to='/'>
+                        <div className='image is-96x96 is-hidden-touch'>
+                            <Icon />
+                        </div>
+                        <div className='image is-32x32 is-hidden-desktop'>
+                            <Icon />
+                        </div>
+                    </Link>
+                    <h1 className="navbar-item title is-size-1 is-hidden-touch">{title}</h1>
+                    <h1 className="navbar-item title is-size-4 is-hidden-desktop">{title}</h1>
+                    <div className='navbar-item external-links is-flex is-align-items-center'>
+                        <a href='https://foundry.blankstring.com' target='_blank' rel="noreferrer">
+                            <div className='image is-24x24 is-hidden-touch'>
+                                <img src='/fvtt.png' alt='Foundry VTT' />
+                            </div>
+                            <div className='image is-16x16 is-hidden-desktop'>
+                                <img src='/fvtt.png' alt='Foundry VTT' />
+                            </div>
+                        </a>
+                        <a href='https://discord.com/channels/819872538548371517/819872538548371519' target='_blank' rel="noreferrer">
+                            <div className='image is-24x24 is-hidden-touch'>
+                                <Discord />
+                            </div>
+                            <div className='image is-16x16 is-hidden-desktop'>
+                                <Discord />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+)
 
 const Header = () => {
     let { pathname } = useLocation()
     pathname = pathname.replace(/\/$/g, '')
     if (pathname === '') pathname = '/'
 
-    const {title, className, description, image} = metadata[pathname] || metadata.notFound
+    const { title, className, description, image } = metadata[pathname] || metadata.notFound
 
     useEffect(() => {
         document.documentElement.className = `is-${className}`
@@ -21,32 +68,29 @@ const Header = () => {
 
     return (
         <>
-        <HelmetProvider>
-        <Helmet>
-            <title>{title}</title>
-            <meta name="description" content={description} />
-            <meta property="og:title" content={title} />
-            <meta property="og:description" content={description} />
-            <meta property="og:image" content={`http://dream-dice.blankstring.com${image}`} />
-            <meta property="og:url" content={`http://dream-dice.blankstring.com${pathname}`} />
-        </Helmet>
-        </HelmetProvider>
-        <section className="hero">
-            <div className="hero-body">
-                <div className='level'>
-                    <div className='level-left'>
-                        <div className='level-item'>
-                            <div className='image is-128x128'>
-                                <Icon />
-                            </div>
+            <HelmetProvider>
+                <Helmet>
+                    <title>{title}</title>
+                    <meta name="description" content={description} />
+                    <meta property="og:title" content={title} />
+                    <meta property="og:description" content={description} />
+                    <meta property="og:image" content={`http://dream-dice.blankstring.com${image}`} />
+                    <meta property="og:url" content={`http://dream-dice.blankstring.com${pathname}`} />
+                </Helmet>
+            </HelmetProvider>
+            <section className="hero is-small">
+                <HeroHead title={title} />
+                <div className="hero-foot">
+                    <nav className="tabs">
+                        <div className="container">
+                            <ul>
+                                <HeroFootLink pathname={pathname} to='/' label='Home' />
+                                <HeroFootLink pathname={pathname} to='/characters' label='Players & NPCs' />
+                            </ul>
                         </div>
-                        <div className='level-item'>
-                            <h1 className="title is-size-1">{title}</h1>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
-            </div>
-        </section>
+            </section>
         </>
     )
 }

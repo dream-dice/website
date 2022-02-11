@@ -1,0 +1,69 @@
+import React, { useState } from 'react'
+
+import factions from './factions.json'
+
+const Player = ({
+    name,
+    image,
+    title,
+    faction,
+    rank,
+    renown,
+    race,
+    class: playerClass = [],
+    description,
+    famous = [],
+    first = false
+}) => {
+    const { title: factionTitle } = factions[faction] || {}
+    const [open, setOpen] = useState(false)
+
+    return (
+        <div className={`card mt-${first ? '0' : (open ? '5' : '2')} mb-${open ? '5' : '2'}`}>
+            <button className="card-header" onClick={() => setOpen(!open)}>
+                <div className='card-header-title'>
+                    <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
+                        <img src={`/players/${image}.png`} alt={`${title} Avatar`} />
+                    </div>
+                    <span className={`text is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
+                        {title}
+                    </span>
+                </div>
+            </button>
+            {open && <div className="card-content">
+                <div className='level'>
+                    <div className='level-left'>
+                        <div className='level-item'>
+                            <div className="content">
+                                <h2 className='subtitle'>
+                                    {(race || playerClass.length > 0) && <div className='is-size-4 mb-2'>
+                                        <span className='pr-2'>{race}</span>
+                                        {playerClass.map(({ title, level }) => (<span key={title} className='has-text-weight-light mr-1'>{title} ({level})</span>))}
+                                    </div>}
+                                    {factionTitle && <div className='is-size-6'>
+                                        <span className='pr-2'>{factionTitle}</span>
+                                        <span className='has-text-weight-light'>{rank} {renown >= 0 && <span>({renown})</span>}</span>
+                                    </div>}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='content'>
+                    {description && <p>{description}</p>}
+                    {famous.length > 0 && <>
+                        <h2 className='subtitle'>
+                            Famously
+                        </h2>
+                        <ul>
+                            {famous.map(item => <li key={item}>{item}</li>)}
+                        </ul>
+                    </>}
+                </div>
+            </div>
+            }
+        </div>
+    )
+}
+
+export default Player
