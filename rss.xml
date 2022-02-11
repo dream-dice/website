@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Thu Feb 10 2022 09:19:46 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Fri Feb 11 2022 14:57:29 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -30,6 +30,14 @@
                     <guid isPermaLink="false">b25df0d6-37b7-4e59-a69b-e5f5189108c7</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-01-26T09:17:35.410ZZ</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Rebuild]]></title>
+                    <description><![CDATA[<p>The web is being rebuilt from the ground up to solve the problem of forgetting things.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/characters</link>
+                    <guid isPermaLink="false">538b4438-6304-497a-917a-608c7feaca85</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-02-11T14:56:45.355Z</pubDate>
                 </item>
 	</channel>
 </rss>
