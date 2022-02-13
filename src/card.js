@@ -10,6 +10,7 @@ const Card = ({
     renown,
     race,
     description,
+    date,
     class: playerClass = [],
     famous = [],
     notes = [],
@@ -28,6 +29,7 @@ const Card = ({
                     <span className={`text is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
                         {title}
                     </span>
+                    {date && <span className='card-header-date'>{new Date(date).toLocaleDateString()}</span>}
                 </div>
             </button>
             {open && <div className="card-content">

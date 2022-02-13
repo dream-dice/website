@@ -28,7 +28,7 @@ const App = () => {
                 <Route path='/characters' exact element={<CharactersPage game='cos' />}></Route>
                 <Route path='/characters/cos' exact element={<CharactersPage game='cos' />}></Route>
                 <Route path='/characters/cm' exact element={<CharactersPage game='cm' />}></Route>
-                <Route path='/notes' exact element={<NotesPage game='cm' />}></Route>
+                <Route path='/notes' exact element={<NotesPage game='cos' />}></Route>
                 <Route path='/notes/cos' exact element={<NotesPage game='cos' />}></Route>
                 <Route path='/notes/cm' exact element={<NotesPage game='cm' />}></Route>
                 <Route element={<NotFound />}></Route>

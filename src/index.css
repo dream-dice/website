@@ -40,6 +40,10 @@ h1,
   cursor: pointer;
 }
 
+.card-header-date {
+  margin-left: auto;
+}
+
 h2,
 h3,
 h4,

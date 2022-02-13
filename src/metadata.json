@@ -32,7 +32,7 @@
     "/notes": {
         "title": "Session Notes",
         "className": "wraithRaiders",
-        "description": "All the players and notes from our Curse of Strahd campaign.",
+        "description": "All the players and notes from the campaigns.",
         "image": "/icon.png"
     },
     "/notes/cos": {
