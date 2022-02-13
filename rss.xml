@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Fri Feb 11 2022 14:57:29 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Sun Feb 13 2022 11:44:41 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -38,6 +38,14 @@
                     <guid isPermaLink="false">538b4438-6304-497a-917a-608c7feaca85</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-02-11T14:56:45.355Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Adding the notes page]]></title>
+                    <description><![CDATA[<p>A new page has been added with notes, it has the last two session from the Curse of Strahd campaign.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/notes</link>
+                    <guid isPermaLink="false">10fd2739-b910-4840-8fb7-db9f72b42ed5</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-02-13T11:44:00.120Z</pubDate>
                 </item>
 	</channel>
 </rss>
