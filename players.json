@@ -1,0 +1,360 @@
+{
+    "cos": [{
+        "name": "kuquar",
+        "image": "kuquar",
+        "title": "Ku-Quar",
+        "faction": "wraithRaiders",
+        "rank": "Rank B",
+        "renown": 5,
+        "race": "Lizardfolk",
+        "class": [{"title": "Ranger", "level": 3}],
+        "description": "Ku-Quar wandered through Death House with everyone and after several tough battles he took an opportunity to take his own life in order to save everyone else.",
+        "famous": [
+            "Struggled to hit a Mimic door",
+            "Killed himself and turned into a Revenant",
+            "Arty tried to stop him from dying, which caused Ku-Quar to seek revenge against him"
+        ]
+    }, {
+        "name": "arty",
+        "image": "arty",
+        "title": "Artefact #4546B a.k.a Arty",
+        "faction": "spellworkers",
+        "rank": "Rank A",
+        "renown": 75,
+        "race": "Warforged",
+        "class": [{"title": "Cleric", "level": 8}],
+        "description": "Arty was destroyed whilst humans tried to summon Talos into a suit of armour and Talos was in such a rage that he destroyed the church and grounds. Centuries later Gorek and other Spellworkers uncovered Arty and restored him. Now he still has the power of Talos but has no human emotion or sympathy, he understands the world by copying others.",
+        "famous": [
+            "Summons a Spirit Hammer similar to his Warhammer",
+            "Burned down gallows to cheer Dwight up",
+            "Chased down Strahd to rescue charmed Godfrey",
+            "Killed by Griek, twice",
+            "Turned into a Tyrannosaurus and ate a werewolf"
+        ]
+    }, {
+        "name": "godfrey",
+        "image": "godfrey",
+        "title": "Godfrey the Vengeful",
+        "faction": "luminaries",
+        "rank": "Rank A",
+        "renown": 75,
+        "race": "Human",
+        "class": [{"title": "Paladin", "level": 4}, {"title": "Sorcerer", "level": 3}],
+        "description": "Godfrey is a descendant from royalty. His homeland was ravaged by an inexplicable plague and he set off to learn the ways of the Paladin under the guidance of Helm. He vowed never to return home until could find a way to remove the plague.",
+        "famous": [
+            "Ireena hid behind his shield",
+            "Strahd charmed him and took him away",
+            "Helm saved him from Strahd, and in the process infused a magical power within him",
+            "He has changed his oath, to strike vengeance against Strahd"
+        ]
+    }, {
+        "name": "ka",
+        "image": "ka",
+        "title": "Ka Ka Tikki Tikki Ka Ka",
+        "faction": "wraithRaiders",
+        "rank": "Rank A",
+        "renown": 90,
+        "race": "Aarakocra",
+        "class": [{"title": "Warlock", "level": 10}],
+        "description": "Entered Barovia contracted to retrieve a powerful item, he got stuck in Barovia and has since taken contracts in order to kill werewolves and vampires.",
+        "famous": [
+            "Started a race with Dwight to break the monotony",
+            "Used his mask to pretend to be Dwight and the werewolf Lykaios",
+            "Managed to steal the Holy Symbol before Dwight, but gave it back"
+        ]
+    }, {
+        "name": "dwight",
+        "image": "dwight",
+        "title": "Dwight Ribble",
+        "faction": "wraithRaiders",
+        "rank": "Rank A",
+        "renown": 75,
+        "race": "Elf",
+        "class": [{"title": "Ranger", "level": 8}],
+        "description": "Dwight went through hell as a young elf, his entire family was killed and he saw his own mother burned to death in-front of his own eyes. He pursued and killed those responsible. He spent most of his life surviving in caves and abandoned castles until he was recruited by the Wraith Raiders.",
+        "famous": [
+            "Extremely sneaky",
+            "Extremely dangerous with a bow",
+            "Plays pranks on Gorek",
+            "No one has caught him with his pickpocket abilities",
+            "Cursed after stealing some treasure from the werewolves",
+            "Lost against Ka and owes him one favour"
+        ]
+    }, {
+        "name": "gorek",
+        "image": "gorek",
+        "title": "Gorek Gottrisson",
+        "faction": "spellworkers",
+        "rank": "Rank A",
+        "renown": 75,
+        "race": "Dwarf",
+        "class": [{"title": "Artificer", "level": 8}],
+        "description": "Gorek was young when he started tinkering with items, and he did so in a way that his family didn't approve and they exiled him. After that, he joined the Spellworkers and met Arty who he took an interest in and wanted to learn how he works. Time has made Gorek into a grumpy old dwarf and he will a pick fight with anyone who doesn't agree with him.",
+        "famous": [
+            "Uses thunder gauntlets",
+            "Loves rocks, a little too much",
+            "Plays pranks on Dwight",
+            "Uses his flute to cast spells",
+            "Created replicas of everyone to fool the werewolves",
+            "Cursed after stealing some treasure from the werewolves"
+        ]
+    }, {
+        "name": "zordar",
+        "image": "zordar",
+        "title": "Zordar",
+        "faction": "brawlers",
+        "rank": "Rank A",
+        "renown": 75,
+        "race": "Dragonborn",
+        "class": [{"title": "Barbarian", "level": 8}],
+        "description": "A strong warrior and enjoys nothing more than swinging his giant greataxe around. If he can smell liquor he will decend on it faster than you can say 'Zordar the Dragonborn'.",
+        "famous": [
+            "Always the first one to get within 5ft of a monster",
+            "Has had the most alcohol out of all the characters",
+            "Almost died because of some weak bats",
+            "Was captured by werewolves, no one tried to save him"
+        ]
+    }, {
+        "name": "xerus",
+        "image": "xerus",
+        "title": "Xerus",
+        "faction": "luminaries",
+        "rank": "Rank A",
+        "renown": 75,
+        "race": "Tiefling",
+        "class": [{"title": "Warlock", "level": 8}],
+        "description": "Spent his entire life trapped in Barovia performing tricks for the locals, whilst adventuring he entered Death House and became so afraid that he decided to hide inside the ring his patron, Efreeti, gave him. Only after his new companions found him did he come out and now has a blood thurst for revenge against Strahd.",
+        "famous": [
+            "Causes mischief using his surrounding environment",
+            "Uses lots of fire",
+            "Has an overly friendly Efreeti patron",
+            "Will always remind you that he killed a dragon and a hag (with ease)",
+            "Caused a riot in Vallaki and became the hero of Vallaki",
+            "Turned into a werewolf after being bit by the Loup Garu"
+        ]
+    }, {
+        "name": "rictavio",
+        "image": "rictavio",
+        "title": "Van Richten a.k.a Rictavio",
+        "faction": "luminaries",
+        "race": "Human",
+        "description": "Van Richten is a vampire hunter who has been hunting Strahd for a long time. He found himself trapped in Barovia and has not been able to escape. He now goes by the name Rictavio and tries to keep the large city of Vallaki safe from Strahd and his dark intentions.",
+        "famous": [
+            "Has a pet sabertooth in his storage space",
+            "Speaks wildly when pretending to be Rictavio",
+            "Has a lot of stories that he shares with people, they seem made up",
+            "Has a cane which conceals a sword",
+            "Saw Zordar being taken by the werewolves and chased them down to help save him",
+            "Is the point of contact for the Luminaries",
+            "Offers a service to record stories, he will pay for them",
+            "Does not want anyone to know his identity."
+        ]
+    }, {
+        "name": "shield-guardian",
+        "image": "shield-guardian",
+        "title": "Shield Guardian of the Armlet",
+        "race": "Construct",
+        "description": "On one of Xerus's adventures he came across an Armlet which lets him call forth a Shield Guardian. He made an agreement with Efreeti to keep it inside his ring which keeps the genie company.",
+        "famous": [
+            "Really big, can't fit through an average door."
+        ]
+    }, {
+        "name": "efreeti",
+        "image": "efreeti",
+        "title": "Efreeti",
+        "race": "Elemental",
+        "description": "Xerus's patron. He lives inside his ring and has asked Xerus to do many dangerous things in the past. He is an evil being, but has his own moral compass that guides him in life.",
+        "famous": [
+            "Invited everyone into Xerus's ring to have a look around.",
+            "Gave Xerus an extra pact slot in exchange for destroying Vallaki Town Square."
+        ]
+    }, {
+        "name": "python-staff",
+        "image": "giant-constrictor-snake",
+        "title": "Python Staff",
+        "race": "Beast",
+        "description": "Xerus found the Staff of the Python whilst clearing out a cave of vampires. He can now summon a large snake by throwing the staff to the ground",
+        "famous": [
+            "Was used quite a bit in order to travel around the marsh."
+        ]
+    }, {
+        "name": "kasimir",
+        "image": "kasimir-velikov",
+        "title": "Kasimir Velikov",
+        "race": "Dark Elf (Drow)",
+        "description": "Kasimir used to live with the Vistani who camped outside of Vallaki and helped lead them. After his daughter drowned in lake Zarovich he decided to leave the group and save his sister Patrina Velikovna from Strahd.",
+        "famous": [
+            "Staying in Krezk in order to liase with Ezmerelda",
+            "Wears a ring which keeps him warm.",
+            "He has asked to go with the group to the Amber Temple to find a cure for vampirism.",
+            "Has said that the Amber Temple is too cold to withstand without warm winter gear.",
+            "He is leaving in a day with or without the group."
+        ]
+    }, {
+        "name": "emil",
+        "image": "unknown",
+        "title": "Emil",
+        "race": "Werewolf (Human)",
+        "description": "",
+        "famous": [
+            "Is Zuleika's partner.",
+            "Locked by Strahd as he tried to convince the Werewolves to stop their ways.",
+            "Strahd has said his body is locked in his dungeon."
+        ]
+    }, {
+        "name": "rahadin",
+        "image": "rahadin",
+        "title": "Rahadin",
+        "race": "Dusk Elf",
+        "description": "Serves Strahd.",
+        "famous": [
+            "Showed everyone to the dining hall in Caslte Ravenloft."
+        ]
+    }, {
+        "name": "strahd",
+        "image": "strahd-von-zarovich",
+        "title": "Strahd von Zarovich",
+        "race": "Vampire",
+        "description": "Strahd's magic is powerful and has decended Barovia into chaos. He is a driven by the woman he loved, Tatyana and plans to make Ireena his bride as he believes she is her reincarnation.",
+        "famous": [
+            "Met everyone in Barovia outside of the church and gave them in an invite for dinner.",
+            "Mordenkainen took several people to attack the castle (including Doru) and failed, he threw her off a cliff and presumed she had died.",
+            "Possessed Ireena and others in order to get them to come over for dinner.",
+            "Tatyana was his brother's (Serei) wife.",
+            "During Sergei and Tatyana's wedding he killed them both.",
+            "He invaded the land and named it Barovia.",
+            "During the invasion the Gottrison's locked up their mine form him.",
+            "He found the group and took Godfrey away with him.",
+            "He summoned several bats and nearly killed everyone.",
+            "When he realised the Godfrey was not Sergei he let Griek experiment on him.",
+            "He was quiet whilst trying to work out how to get into the mines after seeing the group enter.",
+            "He managed to work out how to get into the mine (you don't know how).",
+            "Controlled Mordenkainen and made her activate the mines defences to attack the group.",
+            "They fought him and killed him in the mines.",
+            "Before he died he said if he did get Ireena he would destroy everyone in Barovia and send vampires out into the world."
+        ]
+    }, {
+        "name": "ireena",
+        "image": "ireena",
+        "title": "Ireena",
+        "race": "Human",
+        "description": "As a child she was found walking in the woods alone by Izmark. As she grew Strahd showed an interest in her, believing she is Tatyana's riencarnation.",
+        "famous": [
+            "When they met they saw she had several marks on her neck, beleiving they are Strahd's bite marks.",
+            "She left Barovia village with the group to seek refuge in Vallaki.",
+            "She was possessed by Strahd and forced everyone to dine with him.",
+            "For some reason she has taken a liking to Godfrey and gave him a magical shield and a silver sword.",
+            "The baroness of Vallaki gave her a job as ger hand maid. It was torturous.",
+            "After the saking of Vallaki the group decided to keep her safe in the mine.",
+            "She took Scoob, the Baron's matif, to keep her company in the mine.",
+            "The group came to lift the curse on her which binds her to Strahd but found her on her knees chanting."
+        ]
+    }, {
+        "name": "mordenkainen",
+        "image": "mad-mage",
+        "title": "Mordenkainen",
+        "race": "Human",
+        "description": "Mmordenkainen is a powerful mage and took a group of villagers to sake Castle Ravenloft, but failed. She hid from Strahd and learned how to enter the mines, as she entered the mines werewolves attacked her. The spell she cast was so powerful that her memory was  fragmented and the entrance to the mine was destroyed and unusable. She has agreed to take one sixth of the income from the trade route in return she will look after Ireena and the mines.",
+        "famous": [
+            "When the group met her they struggled to follow her logic.",
+            "She learnt Primordial and got access to the mines.",
+            "They used the Greater Restoration spell to bring her memory back.",
+            "She summoned a mansion for herself in the mines.",
+            "She summoned a mansion for Ireena in the mines.",
+            "Strahd has commanded her to trigger the mines defences to attack the group.",
+            "Strahd then slit her throat and drank her blood, she is currently incapacited on the floor."
+        ]
+    }, {
+        "name": "cipher",
+        "image": "cipher",
+        "title": "Cipher",
+        "race": "Construct",
+        "description": "Created by the Gottrison's as a way to get back into the mines and lock everyone else out. It is impossible to get in and out of the mines without this. It has it's own conciousness.",
+        "famous": [
+            "Tampered with by Mordenkainen.",
+            "Arrogant and tells everyone their are stupid.",
+            "Once a day can cast Greater Restoration.",
+            "Only Zordar can understand it as it speaks Primordial."
+        ]
+    }, {
+        "name": "scoob",
+        "image": "mastif",
+        "title": "Scoob",
+        "race": "Beast",
+        "description": "One of the surviving Mastif's of the former Baron of Vallaki.",
+        "famous": [
+            "Kept Ireena company.",
+            "Found dead in the mines."
+        ]
+    }],
+    "cm": [{
+        "name": "timagast",
+        "image": "timagast",
+        "title": "Timagast",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Dwarf",
+        "class": [{"title": "Druid", "level": 2}],
+        "description": "He is short, quick-tempered and very hairy. Timagast spent a lot of time studying mushrooms and their effect on people.",
+        "famous": [
+            "Has bugs in his hair",
+            "Turned a pile of book into his 'Book Club'",
+            "Owns a mastiff named Ambrosius as a mount and a frog named Frog"
+        ]
+    }, {
+        "name": "cloud",
+        "image": "cloud",
+        "title": "Cloud",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Tabaxi",
+        "class": [{"title": "Ranger", "level": 2}],
+        "description": "Cloud spent a lot of time walking the world and create a compandium of all the animals he saw along the way.",
+        "famous": [
+            "Knows a lot about animals, including the every-frog",
+            "Has a black pet cat which sits on his shoulder, named Barret",
+            "Has a Chocobo named Highwind",
+            "Turned a magical bookcase into a magical flail"
+        ]
+    }, {
+        "name": "florian",
+        "image": "florian",
+        "title": "Florian",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Kalashtar",
+        "class": [{"title": "Warlock", "level": 2}],
+        "description": "Is a borderline con artist who's book '10 ways to cure warts' had an entry which, much to his suprise, worked.",
+        "famous": [
+            "Is cautious of chairs, and when offered to sit down, he would prefer to stand",
+            "A raven dropped a book in front of his feet",
+            "Has a horse, dressed as a unicorn, known as Charlie the Unicorn"
+        ]
+    }, {
+        "name": "firewatch",
+        "image": "firewatch",
+        "title": "Firewatch",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Warforged",
+        "class": [{"title": "Wizard", "level": 2}],
+        "description": "Used to work in Candlekeep as a fire warden. He became obsolete after the fire were magically controlled throughout Candlekeep and was allowed to travel the world as an Avowed.",
+        "famous": [
+            "Has a compartment in his chest for a fire extinguisher and scissor lift left to reach up to 8ft tall",
+            "Hates fire and will put it out if he can"
+        ]
+    }, {
+        "name": "cassandra",
+        "image": "cassandra",
+        "title": "Cassandra of Quirm",
+        "faction": "avowed",
+        "rank": "Rank D",
+        "race": "Changeling",
+        "class": [{"title": "Bard", "level": 2}],
+        "description": "An orphan whose parents died before she was born, she travelled around and ended up in Candlekeep after writing an erotic self help book.",
+        "famous": [
+            "Loves erotic smooth jazz",
+            "Has a horse named Honey Bun"
+        ]
+    }]
+}

@@ -1,0 +1,134 @@
+{
+    "brawlers": {
+        "title": "Brawlers",
+        "intro": "We are people of action and we don’t enjoy your fancy words or your fancy magic. Sometimes we are seen fighting one another, but this is how we bond. Who says violence can’t solve all of the problems of the world? We throw everything we have into a problem, sometimes literally. Can I have another ale? What do you mean 5 silver pieces for a pretzel!? I dun mo hau ny...  zzzzz",
+        "leader": "Kildrak",
+        "contact": {
+            "name": "byllenan-stoutale",
+            "title": "Byllenan Stoutale",
+            "location": "Byllenan Smithy",
+            "description": "A kind dwarf who was a Brawler that found herself trapped in Barovia like many other adventurers before her."
+        },
+        "beliefs": [
+            "Violence solves all problems",
+            "Throw caution to the wind",
+            "Fight first, ask questions later",
+            "They get a lot of power from drinking"
+        ],
+        "offences": [
+            "Going for longer than a day without drinking",
+            "Solving a problem using logic",
+            "Using magic"
+        ],
+        "skill": {
+            "title": "Heavy Drinker",
+            "description": "As a bonus action on your turn you can take a swig of an alcoholic drink. Your strikes are now so powerful that you deal an extra 1d6 damage. If you have had more than 2 drinks in this way before a short rest your max health is temporarily lowered by your current level."
+        },
+        "jobs": []
+    },
+    "luminaries": {
+        "title": "Luminaries",
+        "intro": "We do things with pazazz! Throw in some razzle-dazzle with a sprinkling of funk. We do things in a way that when you hear a song or see a play about the work we have done you will remember our name. We have the largest number of famous members in any faction and that number increases daily. People love us and that is what we hope to keep up going forward.",
+        "beliefs": [
+            "Getting attention is never a bad thing",
+            "Everything should be done with pazazz",
+            "Try to make everyone like and recognise them",
+            "Use their fame (and fortune) to help others"
+        ],
+        "offences": [
+            "Bland or boring actions",
+            "Passing up an opportunity to gain fame",
+            "Being rude or uncouth"
+        ],
+        "leader": "Kimiko",
+        "skill": {
+            "title": "Crowd Pleaser",
+            "description": "For an individual or a group of people you can use your charm and skill to try and impress them, roll a Performance Check, and if they are impressed they will be compelled to tell you the truth and follow your commands for the next hour. You can do this once per long rest."
+        },
+        "contact": {
+            "name": "rictavio",
+            "title": "Rictavio, the storyman",
+            "location": "Blue Water Inn",
+            "description": "A colorfully dressed half-elf bard. He regales tavern patrons with stories so outrageous as to be hardly believable, yet he asserts they are true indeed."
+        },
+        "jobs": []
+    },
+    "spellworkers": {
+        "title": "Spellworkers",
+        "intro": "Our faction predates recorded history. We are often called out to investigate cases for people all over this wonderous globe. Since we are in such high demand we only take on interesting cases. We often further the field of magic which has to lead to some of the worlds greatest break-throughs and progressed our understanding of the world further.",
+        "leader": "Quillathe",
+        "beliefs": [
+            "Use magic and intellect to discern fact",
+            "Only investigate 'interesting' cases",
+            "Magic is the way forward"
+        ],
+        "offences": [
+            "Unintelligent or non-magic solutions",
+            "Ignoring facts and truth"
+        ],
+        "skill": {
+            "title": "Avid Reader",
+            "description": "You can read spell scrolls from any school of magic without penalty. You can also cast spells from spell scrolls of a level higher than the highest level of your known spells."
+        },
+        "contact": {
+            "name": "dathana-mellerelel",
+            "title": "Dathana Mellerelel",
+            "location": "Dathana Magical Emporium",
+            "description": "A cruel but fair dark elf. She is a powerful mage and knows about every school of magic."
+        },
+        "jobs": []
+    },
+    "avowed": {
+        "title": "Avowed",
+        "intro": "For roughly three hundred we Avowed have lived in Candlekeep. We work to collect and preserve knowledge throughout the known worlds and apply that knowledge diving deep into the depths of the unknown.",
+        "leader": "Janussi",
+        "beliefs": [
+            "one",
+            "two",
+            "three"
+        ],
+        "offences": [
+            "No fighting",
+            "No stealing",
+            "No copying",
+            "No damaging, marking, or otherwise modifying the works"
+        ],
+        "skill": {
+            "title": "Quick Reader",
+            "description": "You can read and write faster than the average person. What takes someone an hour to read take syou a tenth of the time."
+        },
+        "contact": {
+            "name": "pictacus",
+            "title": "Pictacus",
+            "location": "Candlekeep, The Hearth",
+            "description": "A short halfling who knows more about Candlekeep than anyone else"
+        },
+        "jobs": []
+    },
+    "wraithRaiders": {
+        "title": "Wraith Raiders",
+        "intro": "We are the most dangerous and financially successful faction to exist. Our clientele wants us to be discrete and efficient. We are not thieves or murderers, we are problem solvers. Our price may be high but the quality of service is second to none. We do not exist, we are incognito and no one knows our real identities. You do not contact us, we contact you.",
+        "leader": "???",
+        "beliefs": [
+            "Sneaking, stealing, killing is not a problem",
+            "Never turn down a job or say no",
+            "We work outside of the law"
+        ],
+        "offences": [
+            "Getting caught",
+            "Failing a mission",
+            "Having identiy known"
+        ],
+        "skill": {
+            "title": "Pickpocket",
+            "description": "One per short rest you can perform the pickpocket action. You can sneak up on an unsuspecting character (after a successful Stealth check) then roll a Sleight of Hand. You will then be shared a list of items on that character and you can take one of those items. If the Sleight of Hand is a natural 1 then you are caught."
+        },
+        "contact": {
+            "name": "mirapetor-the-fence",
+            "title": "Mirapetor (a.k.a M)",
+            "description": "A highly dangerous and devious individual, don't let his tall figure and slow speech fool you, if your name is on his target list it won't be there for long.",
+            "location": "Town Square Alley"
+        },
+        "jobs": []
+    }
+}
