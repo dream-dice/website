@@ -62,5 +62,159 @@
             "The group killed Strahd, the Holy Symbol of Ravenloft proved instrumental in his defeat"
         ]
     }],
-    "cm": []
+    "cm": [{
+        "date": "",
+        "name": "summary",
+        "image": "ellipsis",
+        "title": "Candlekeep Mysteries",
+        "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Together they solve the many mysteries that they come across whilst researching in Canlekeep.",
+        "notes": [
+            "Everyone joined Candlekeep and entered their books into the archive",
+            "Whilst on their tour of Candlekeep, they found a book which Matreous was researching called The Joy of Extradimensional Spaces",
+            "They found Fistandia has made a mansion, and Freyot forced them to keep it open or would reveal how many book Fistandia has stolen",
+            "When they left Matreous was dead with a note saying \"Freyot can no longer be trusted\".",
+            "Whilst investigating Matreous and Freyot, they came across a book from a raven and followed a mysterious map.",
+            "A Dragonborn named Gre asked them to go to Chalet Brantifax and enter Shadowfell to finish something he started. He didn't say what it was.",
+            "Everyone is currently in Chalet Brantifax and looking for a way to enter Shadowfell."
+        ]
+    }, {
+        "date": "2021-11-11",
+        "name": "session-0",
+        "image": "0",
+        "title": "Chapter 0 - Introductions",
+        "description": "We meet our group of new Seekers",
+        "notes": [
+            "A Druid Dwarf named Timagast, he wrote a book on mushrooms and their effects on people.",
+            "A Tabaxi named Cloud, using his Ranger skills he wrote an incomplete compendium on animals.",
+            "Florian, a Warlock Kalashtar, wrote a book about curing warts. One of the cures worked.",
+            "Lastly, a Warforged Sorcerer named Firewatch. He already resided in Candlekeep. Now a defunct fire warden decided to become a Seeker."
+        ]
+    }, {
+        "date": "2021-11-21",
+        "name": "session-1",
+        "image": "1",
+        "title": "Chapter 1 - Welcome to Candlekeep",
+        "description": "We meet everyone, and whilst going on Pittacus's tour of Candlekeep, Matreous accidentally locks everyone inside a magical mansion.",
+        "notes": [
+            "Pittacus is responsible for taking all new Seekers on a tour of Candlekeep.",
+            "He showed them The Bathhouse where you can get bath salts and tattoos for a temporary buff.",
+            "The smithy where you can purchase or rent animals as well as forge weapons.",
+            "The Outfitters is a place where you can buy and sell magical items, specifically clothes.",
+            "The Hearth where you can get lots of intel from a Troll named Little One",
+            "The House of Rest, a man who could not speak, was attempting to fix a lift. For a long time, the lift had required maintenance.",
+            "There was a church if you need any religious respite.",
+            "The House of the Binder, a place to buy and sell scrolls or wizard books as well as get copies of text from Candlekeep.",
+            "Large emerald doors leading into the heart of Candlekeep, The Great Library. Only a select few Avowed are allowed admittance.",
+            "The Pillars of Pedagogy, a large building full of studies. Here they found Matreous's study empty.",
+            "They found a book \"The Joy of Extradimensional Spaces\", an exploration into Mordenkeinen's Magical Mansion spell.",
+            "After reading the book, a door appeared.",
+            "Matreous was there. He fled, accidentally locking them in the mansion.",
+            "They were locked inside and unable to leave.",
+            "They find a room with a Mimic chair that knocks Florian out cold."
+        ]
+    }, {
+        "date": "2021-12-20",
+        "name": "session-2",
+        "image": "2",
+        "title": "Chapter 2 - Exploring the Mansion",
+        "description": "Locked inside the mansion, everyone runs around trying to find a way out.",
+        "notes": [
+            "They discover two homunculi whose masters have left them doing nothing but make bread. Fistandia and Freyot are their master's.",
+            "They look outside and are attacked by mischievous and invisible creatures.",
+            "Eventually, they find a book with the letter B on it.",
+            "In the Study, they find a shelf that reveals a hidden staircase.",
+            "Downstairs, they are attacked by a room full of hands.",
+            "They also find a frog that turns out to be a Quasit.",
+            "After knocking down a door, they find another book with an I on the cover.",
+            "Cloud finds a scroll to summon a Homunculus.",
+            "They go upstairs and are attacked by books in a library.",
+            "Timagast turns the books into a club he named the Book Club.",
+            "There is also a book in this room with the letter R on it."
+        ]
+    }, {
+        "date": "2022-01-10",
+        "name": "session-3",
+        "image": "3",
+        "title": "Chapter 3 - Leaving the Mansion",
+        "description": "Everyone manages to figure out how to open the door and leave the mansion, only to find Matreous dead.",
+        "notes": [
+            "Everyone heads upstairs and into the Attic.",
+            "Florian and Timagast fall through the floor, and a large bookshelf attacks them.",
+            "Everyone manages to slip out of the room and proceed to attack the bookshelf from outside in safety.",
+            "Cloud turns the bookshelf into a magical + 1 flail.",
+            "Together they solve the mystery of the observatory, only to find it opens the door to the chained library they just destroyed.",
+            "They find a book with the letter L on it.",
+            "There is also a bedroom on the same floor, with a journal from Fistandia.",
+            "The journal has the letter E on it.",
+            "They go into another room with a fireplace and are attacked by flying swords.",
+            "In here they find another journal by Fistandia, this time it mentions how Freyot convinced him to make a mansion to steal books.",
+            "Since this is technically stealing, Freyot blackmailed him into letting them do necromantic research in the cellar.",
+            "They found a book with the letter Y on it.",
+            "Cloud works out that the letters spell the word LIBERTY, and the door opens up.",
+            "When they leave, they find Matreous, dead on the floor.",
+            "In his hand is a letter which says \"Fistandia can no longer be trusted\".",
+            "Junassi, the Master of Candlekeep, showed up to find out what happened to the missing Matreous and then the missing new Seekers.",
+            "She accuses them of his death but quickly dismisses that idea.",
+            "The group finishes their tour with the rules of Candlekeep.",
+            "Little One tells them that he has heard the name Freyot, but there is no record of them ever existing.",
+            "Freyot seems to bring people into trouble by showing them workarounds the rules.",
+            "Together Firewatch and Little One conclude that Freyot is testing out their theories on innocent Avowed.",
+            "One person <name> lost their voice when using the message spell to dictate books to someone on the outside. He is currently working on the elevator.",
+            "Another person was exiled after learning you can steal part of a book, but then was caught after it was discovered that stealing more than half the book would return the book catching the culprit.",
+            "Afterwards, they went to find out more about Matreous and understand why he would cross paths with Freyot. He seemed much loved by everyone.",
+            "They sent letters out in the Rookery, and whilst they were doing this, a raven dropped off a book.",
+            "They named it \"The Book of The Raven\", it told of a girl who broke her leg, and Vistani took her with them. Suddenly the book cuts off, and pages were torn out.",
+            "There was a mysterious map, with a path starting at Wytchway and ending at a castle.",
+            "They bought some steeds and went to Wytchway to solve the mystery of the book."
+        ]
+    }, {
+        "date": "2022-01-24",
+        "name": "session-4",
+        "image": "4",
+        "title": "Chapter 4 - Following the Mysterious Map",
+        "description": "After arriving at Wytchway everyone follows the map and it leads them to a volcano, home to a dragon and his speaker.",
+        "notes": [
+            "When they arrived at Wytchway, someone told them that ghosts brought about a plague of bad luck after gatecrashing the fertility festival at the Hand and Horn.",
+            "They climbed up the Hand and Horn, and the dwarf ghosts mentioned that they came from a platinum mine near Vermillion that was destroyed.",
+            "They don't know how, but they were killed before they arrived at the Hand and Horn. The last place they were at was a hill with three trees on it, and a Dragonborn spoke to them.",
+            "They said that if the group could go investigate and give them the closure, they would give them a correction to a book in Candlekeep named \"A Deep and Creeping Darkness\".",
+            "When they got to Three Tree Hill, they found an altar with nine dwarf skulls on the floor.",
+            "After placing the skulls on the altar in a specific pattern, it opened up, revealing a wizards book and a journal.",
+            "The journal belonged to Gre, who had decided to leave his necromantic ways to become a dragon speaker after finding coming across a dragons egg.",
+            "It went on to say that he would lock up the book in case it didn't pan out, and to do so, he needed to kill several people, namely the dwarves.",
+            "They returned to the Hand and Horn and found a short extract with a detailed account on how the mine was destroyed.",
+            "From Three Tree Hill, they could see a bridge that was labelled on the map. It was the only way to cross along the river at the bottom of a valley.",
+            "A Troll was on the bridge and asked them to solve a riddle.",
+            "Instead, they tricked the Troll and ran across the bridge.",
+            "When they found the volcano Gre jumped down to see what they wanted."
+        ]
+    }, {
+        "date": "2022-02-7",
+        "name": "session-5",
+        "image": "5",
+        "title": "Chapter 5 - Entering Chalet Brantifax",
+        "description": "We meet everyone",
+        "notes": [
+            "They spoke with Gre and marvelled at Drugry, a red dragon.",
+            "Gre told them he had escaped from Shadowfell, wanting to change his ways and rear this young dragon.",
+            "He told them that he has had left things in a rather bad state and that if they could go to Shadowfell and resolve this for him, he would share some of Drugry's hoard.",
+            "He also mentioned that there was a dragon named Miirym whose hoard was deep in Candlekeep's Great Library and that Drugry aspired to be like Miirym.",
+            "The group agreed to go investigate further, and Gre told them of a crossing at Chalet Brantifax, the final destination on the map.",
+            "When they arrived, there was no one there.",
+            "They found a well with a ghost at the bottom.",
+            "She was a baroness and asked them to find her something to remind her of her loved one, and she would reward them.",
+            "They found a piano with an incomplete music sheet.",
+            "Whilst searching around, they found several articles with notes on them.",
+            "One item was a scroll which stated that after the two baronesses of Chalet Brantifax had died, a group named \"The Scarlet Sash\" would protect the crossing.",
+            "They also learned that one of the Baronesses (the one in the well) hated the chalet. They had two daughters and a mastiff, and she resented the mastiff as it seemed her spouse (the one in the well) loved it more than her.",
+            "Upstairs, they found a room with a doll that managed to swap places with Cloud and tried to force Cassandra to leave, but then swapped places once again.",
+            "In the attic, they found a crib, and a spectre appeared, attacking them.",
+            "They subdued the spectre and fled downstairs.",
+            "After they found all the notes, they played a song on the piano.",
+            "It opened up to reveal gems and a trinket. The gems were plenty with enough for 30gp worth of gems each.",
+            "They trinket was a locket with two pictures inside, the two baronesses.",
+            "They returned the locket to the woman in the well, and she thanks Cassandra and Cloud for returning the locket and even though she was bitter in life, in death she realised she someone significant to her.",
+        "As she left this plane, she gave them a parting gift and charmed both of them."
+        ]
+    }]
 }

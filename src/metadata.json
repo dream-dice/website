@@ -13,13 +13,13 @@
     },
     "/characters": {
         "title": "Characters",
-        "className": "wraithRaiders",
+        "className": "vampire",
         "description": "All the players and characters from our Curse of Strahd campaign.",
         "image": "/icon.png"
     },
     "/characters/cos": {
         "title": "Characters - Curse of Strahd",
-        "className": "wraithRaiders",
+        "className": "vampire",
         "description": "All the players and characters from our Curse of Strahd campaign.",
         "image": "/icon.png"
     },
@@ -31,13 +31,13 @@
     },
     "/notes": {
         "title": "Session Notes",
-        "className": "wraithRaiders",
+        "className": "vampire",
         "description": "All the players and notes from the campaigns.",
         "image": "/icon.png"
     },
     "/notes/cos": {
         "title": "Session Notes - Curse of Strahd",
-        "className": "wraithRaiders",
+        "className": "vampire",
         "description": "All the players and notes from our Curse of Strahd campaign.",
         "image": "/icon.png"
     },

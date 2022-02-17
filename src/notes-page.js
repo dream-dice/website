@@ -3,7 +3,6 @@ import Card from './card'
 import notes from './notes.json'
 
 const NotesPage = ({ game }) => {
-    console.log(game)
     const [term, setTerm] = useState('')
     return <div className='notes'>
         <div>
@@ -23,7 +22,6 @@ const NotesPage = ({ game }) => {
 
                 })
                 .sort(({ date: left }, { date: right }) => {
-                    if (left || right === 0) return 2
                     left = new Date(left).getTime()
                     right = new Date(right).getTime()
                     if (left < right) return 1

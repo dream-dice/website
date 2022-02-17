@@ -19,11 +19,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "react-snap && npm run rss && gh-pages -d build",
+    "postbuild": "react-snap && npm run rss && npm run api && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "guid": "node scripts/guid",
-    "rss": "node scripts/rss"
+    "rss": "node scripts/rss",
+    "api": "node scripts/api"
   },
   "eslintConfig": {
     "extends": [
