@@ -24,8 +24,14 @@
     "date": "2022-02-13T11:44:00.120Z"
 }, {
     "title": "Adding all the notes for the Candlekeep campaign",
-    "description": "A new page has been added with notes, it has the last two session from the Curse of Strahd campaign.",
+    "description": "A new page has been added with notes, it has the last two session from the Candlekeep campaign.",
     "link": "https://dream-dice.blankstring.com/notes/cm",
     "guid": "9b90f86c-ebfd-40bd-b754-0da4505e02d0",
     "date": "2022-02-17T22:52:50.127Z"
+}, {
+    "title": "Adding all the players and NPCs for the Candlekeep campaign",
+    "description": "The characters for the Candlekeep campaign have been updated. There is also improved searching, using the URL and ability to search multiple terms. The home page is updated with the API for the data on the website.",
+    "link": "http://localhost:3000/characters/cm",
+    "guid": "0fc7926f-c42f-47d0-bd42-ce11b7effed3",
+    "date": "2022-02-18T17:38:27.160Z"
 }]
