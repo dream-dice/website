@@ -1,0 +1,1 @@
+![Map of Mystery](/appendix/map-of-mystery.png)

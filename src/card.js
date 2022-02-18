@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import Markdown from './markdown'
 import factions from './factions.json'
 
 const Card = ({
@@ -10,6 +10,7 @@ const Card = ({
     renown,
     race,
     description,
+    content,
     date,
     class: playerClass = [],
     famous = [],
@@ -23,13 +24,17 @@ const Card = ({
         setOpen(isOpen)
     }, [isOpen])
 
+    const showMeta = race || playerClass.length > 0 || factionTitle
+
     return (
         <div className={`card mt-${first ? '0' : (open ? '5' : '2')} mb-${open ? '5' : '2'}`}>
             <button className="card-header" onClick={() => setOpen(!open)}>
                 <div className='card-header-title'>
-                    <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
-                        <img src={`/avatars/${image}.png`} alt={title} />
-                    </div>
+                    {image && (
+                        <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
+                            <img src={`/avatars/${image}.png`} alt={title} />
+                        </div>
+                    )}
                     <span className={`text has-text-left is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
                         {title}
                     </span>
@@ -37,26 +42,29 @@ const Card = ({
                 </div>
             </button>
             {open && <div className="card-content">
-                <div className='level'>
-                    <div className='level-left'>
-                        <div className='level-item'>
-                            <div className="content">
-                                <h2 className='subtitle'>
-                                    {(race || playerClass.length > 0) && <div className='is-size-4 mb-2'>
-                                        <span className='pr-2'>{race}</span>
-                                        {playerClass.map(({ title, level }) => (<span key={title} className='has-text-weight-light mr-1'>{title} {level && <span>{level}</span>}</span>))}
-                                    </div>}
-                                    {factionTitle && <div className='is-size-6'>
-                                        <span className='pr-2'>{factionTitle}</span>
-                                        <span className='has-text-weight-light'>{rank} {renown >= 0 && <span>({renown})</span>}</span>
-                                    </div>}
-                                </h2>
+                {showMeta && (
+                    <div className='level'>
+                        <div className='level-left'>
+                            <div className='level-item'>
+                                <div className="content">
+                                    <h2 className='subtitle'>
+                                        {(race || playerClass.length > 0) && <div className='is-size-4 mb-2'>
+                                            <span className='pr-2'>{race}</span>
+                                            {playerClass.map(({ title, level }) => (<span key={title} className='has-text-weight-light mr-1'>{title} {level && <span>{level}</span>}</span>))}
+                                        </div>}
+                                        {factionTitle && <div className='is-size-6'>
+                                            <span className='pr-2'>{factionTitle}</span>
+                                            <span className='has-text-weight-light'>{rank} {renown >= 0 && <span>({renown})</span>}</span>
+                                        </div>}
+                                    </h2>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                )}
                 <div className='content'>
                     {description && <p>{description}</p>}
+                    {content && <Markdown path={content} />}
                     {famous.length > 0 && <>
                         <h2 className='subtitle'>
                             Famously

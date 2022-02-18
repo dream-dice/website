@@ -32,7 +32,7 @@ Late in the book, the author writes of hobble about on crutches. She describes t
 
 The book also contained a copy of a map with the title "Evil Beware". The map included a root starting at Wytchway, leading to a place known as The Hand & Horn, passing Threetree Hill, going over Wood Bridge and just before getting to a castle, it stopped at a site labelled Scorch of the Red Wyrm. There was also an inscription on the map
 
-> Follow the trail, To the Hand and Horn, Past Threetree Hill, Over a river worn, To the wyrm's mark, In the foggy moors, West of there, The treasure's yours.
+> Follow the trail, To the Hand and Horn, Past Three tree Hill, Over a river worn, To the wyrm's mark, In the foggy moors, West of there, The treasure's yours.
 
 The mystery placed before them led them to talk to Khe'irl, the smithy who told them that he knew where Wytchway was, a ghost town and that he hadn't heard much of it in years. They bought two ponies and two mastiffs to make the journey faster. Timagast also bought a pet frog to keep him company along the way.
 

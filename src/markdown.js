@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
 
@@ -16,16 +16,14 @@ const fetchChildren = async (path, setChildren) => {
             }
         })
         const children = await res.text()
-        if (children.includes('<!DOCTYPE html>')) setChildren('There was an issue getting this page, [Forward](forward)')
+        if (children.includes('<!DOCTYPE html>')) setChildren('There was an issue getting this document')
         else setChildren(children)
     } catch (err) {
         setChildren('There was an issue getting this page')
     }
 }
 
-const Story = () => {
-    const {group, page} = useParams()
-    const path = `/pages/${group}/${page}.md`
+const Markdown = ({path}) => {
     const [children, setChildren] = useState('Loading')
 
     useEffect(() => {
@@ -35,7 +33,7 @@ const Story = () => {
     return (
         <div className='content mt-3'>
             <ReactMarkdown
-                plugins={[gfm]}
+                remarkPlugins={[gfm]}
                 components={{
                     link: LinkMarkdown
                 }}
@@ -45,4 +43,4 @@ const Story = () => {
     )
 }
 
-export default Story
+export default Markdown

@@ -87,6 +87,7 @@ const Header = () => {
                                 <HeroFootLink pathname={pathname} to='/' label='Home' />
                                 <HeroFootLink pathname={pathname} to='/characters' label='Players & NPCs' />
                                 <HeroFootLink pathname={pathname} to='/notes' label='Session Notes' />
+                                <HeroFootLink pathname={pathname} to='/appendix' label='Appendix' />
                             </ul>
                         </div>
                     </nav>

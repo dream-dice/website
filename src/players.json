@@ -783,13 +783,12 @@
                 }
             ],
             "famous": [
-                "Primary expertise: history, folklore, and the cultures of Toril (past and present).",
-                "Explained to the group about Shadowfell and the Vistani"
+                "Primary expertise: history, folklore, and the cultures of Toril (past and present)."
             ]
         },
         {
             "name": "kazryn-nyantani",
-            "image": "unknown",
+            "image": "cleric",
             "title": "Kazryn Nyantani",
             "description": "A powerful cleric who specialises in the natural world and celestial navigation.",
             "race": "Human",
@@ -801,7 +800,8 @@
                 }
             ],
             "famous": [
-                "Primary expertise: the natural world and celestial navigation."
+                "Primary expertise: the natural world and celestial navigation.",
+                "Explained to the group about Shadowfell and the Vistani"
             ]
         },
         {
