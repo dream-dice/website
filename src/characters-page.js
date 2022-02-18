@@ -6,11 +6,28 @@ import players from './players.json'
 
 const CharactersPage = ({ game }) => {
     const navigate = useNavigate()
-    const {pathname, search} = useLocation()
-    const query = qs.parse(search, {ignoreQueryPrefix: true})
+    const { pathname, search } = useLocation()
+    const query = qs.parse(search, { ignoreQueryPrefix: true })
     const term = query.term || ''
 
-    const searchTerm = term.toLowerCase().replace(/\W*/g, '')
+    const searchTerms = term
+        .split(/\W/g)
+        .filter(searchTerm => searchTerm !== '')
+        .map(t => t.toLowerCase())
+
+    let found = players[game]
+    if (searchTerms.length > 0) {
+        found = players[game]
+            .filter(({ title }) =>
+                searchTerms
+                    .filter(
+                        searchTerm => title
+                            .toLowerCase()
+                            .replace(/\W*/g, '')
+                            .includes(searchTerm)
+                    ).length > 0
+            )
+    }
 
     return (
         <div className='characters'>
@@ -21,16 +38,12 @@ const CharactersPage = ({ game }) => {
                     placeholder="Search name"
                     value={term}
                     onChange={({ target: { value } }) => {
-                        navigate(`${pathname}?term=${value}`)
+                        navigate(`${pathname}?term=${encodeURIComponent(value)}`)
                     }}
                 />
                 {
-                    players[game]
-                        .filter(({ title }) => title.toLowerCase()
-                            .replace(/\W*/g, '')
-                            .includes(searchTerm)
-                        )
-                        .sort(({title: left}, {title: right}) => {
+                    found
+                        .sort(({ title: left }, { title: right }) => {
                             if (left < right) return -1
                             if (left > right) return 1
                             return 0
@@ -40,6 +53,7 @@ const CharactersPage = ({ game }) => {
                                 key={player.name}
                                 {...player}
                                 first={index === 0}
+                                isOpen={found.length === 1}
                             />
                         ))
                 }

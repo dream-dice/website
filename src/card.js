@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import factions from './factions.json'
 
@@ -14,10 +14,14 @@ const Card = ({
     class: playerClass = [],
     famous = [],
     notes = [],
-    first = false
+    first = false,
+    isOpen = false
 }) => {
     const { title: factionTitle } = factions[faction] || {}
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(isOpen)
+    useEffect(() => {
+        setOpen(isOpen)
+    }, [isOpen])
 
     return (
         <div className={`card mt-${first ? '0' : (open ? '5' : '2')} mb-${open ? '5' : '2'}`}>
@@ -40,7 +44,7 @@ const Card = ({
                                 <h2 className='subtitle'>
                                     {(race || playerClass.length > 0) && <div className='is-size-4 mb-2'>
                                         <span className='pr-2'>{race}</span>
-                                        {playerClass.map(({ title, level }) => (<span key={title} className='has-text-weight-light mr-1'>{title} ({level})</span>))}
+                                        {playerClass.map(({ title, level }) => (<span key={title} className='has-text-weight-light mr-1'>{title} {level && <span>{level}</span>}</span>))}
                                     </div>}
                                     {factionTitle && <div className='is-size-6'>
                                         <span className='pr-2'>{factionTitle}</span>
