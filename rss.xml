@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Fri Feb 18 2022 20:10:59 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Fri Feb 18 2022 21:05:02 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -58,10 +58,18 @@
                 <item>
                     <title><![CDATA[Adding all the players and NPCs for the Candlekeep campaign]]></title>
                     <description><![CDATA[<p>The characters for the Candlekeep campaign have been updated. There is also improved searching, using the URL and ability to search multiple terms. The home page is updated with the API for the data on the website.</p>]]></description>
-                    <link>http://localhost:3000/characters/cm</link>
+                    <link>http://dream-dice.blankstring.com/characters/cm</link>
                     <guid isPermaLink="false">0fc7926f-c42f-47d0-bd42-ce11b7effed3</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-02-18T17:38:27.160Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Creating the appendix page]]></title>
+                    <description><![CDATA[<p>Adding a new appendix page with all the items shared with the Candlekeep Mysteries campaign.</p>]]></description>
+                    <link>http://dream-dice.blankstring.com/appendix</link>
+                    <guid isPermaLink="false">b88f3f0e-2d24-4e84-a7f1-3988b597d3e2</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-02-18T21:03:33.099Z</pubDate>
                 </item>
 	</channel>
 </rss>

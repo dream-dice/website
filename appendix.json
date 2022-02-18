@@ -1,0 +1,48 @@
+{
+    "cos": [
+    ],
+    "cm": [
+        {
+            "name": "matreous-song",
+            "title": "A Song About Matreous",
+            "description": "This song was composed by Timagast and dropped into Matreous's grave.",
+            "content": "/appendix/matreous-song.md"
+        },
+        {
+            "name": "candlekeep-rules",
+            "title": "The Rules of Candlekeep",
+            "description": "If any of these rules are broken, then the guilty party will be exiled.",
+            "content": "/appendix/candlekeep-rules.md"
+        },
+        {
+            "name": "mysterious-map",
+            "title": "Mysterious Map",
+            "description": "The map found in the \"Book of the Raven\".",
+            "content": "/appendix/mysterious-map.md"
+        },
+        {
+            "name": "vistani",
+            "title": "The Vistani",
+            "description": "Everything Kazryn Nyantani told you about the Vistani.",
+            "content": "/appendix/cm-vistani.md"
+        },
+        {
+            "name": "book-of-raven",
+            "title": "The Book of the Raven",
+            "description": "A summary of the Book of The Raven.",
+            "content": "/appendix/book-of-raven.md"
+        },
+        {
+            "name": "deep-creeping-darkness-ammendment",
+            "title": "A Deep and Creeping Darkness Ammendment",
+            "description": "The dwarven survivors from Vermillion left this ammendment for the book, \"A Deep and Creeping Darkness\".",
+            "content": "/appendix/deep-creeping-darkness-ammendment.md"
+        },
+        {
+            "name": "pendle-coven-song",
+            "title": "The Pendle Coven Song",
+            "description": "A song found in Chalet Brantifax.",
+            "content": "/appendix/pendle-coven-song.md"
+        }
+    ]
+}
