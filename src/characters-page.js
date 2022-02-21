@@ -11,7 +11,7 @@ const CharactersPage = ({ game }) => {
     const term = query.term || ''
 
     const searchTerms = term
-        .split(/\W/g)
+        .split(/[^A-Z0-9 ]/ig)
         .filter(searchTerm => searchTerm !== '')
         .map(t => t.toLowerCase())
 
@@ -23,7 +23,6 @@ const CharactersPage = ({ game }) => {
                     .filter(
                         searchTerm => title
                             .toLowerCase()
-                            .replace(/\W*/g, '')
                             .includes(searchTerm)
                     ).length > 0
             )

@@ -6,11 +6,33 @@ import notes from './notes.json'
 
 const NotesPage = ({ game }) => {
     const navigate = useNavigate()
-    const {pathname, search} = useLocation()
-    const query = qs.parse(search, {ignoreQueryPrefix: true})
+    const { pathname, search } = useLocation()
+    const query = qs.parse(search, { ignoreQueryPrefix: true })
     const term = query.term || ''
 
-    const searchTerm = term.toLowerCase().replace(/\W*/g, '')
+
+    const searchTerms = term
+        .split(/[^A-Z0-9 ]/ig)
+        .filter(searchTerm => searchTerm !== '')
+        .map(t => t.toLowerCase())
+
+    let found = notes[game]
+    if (searchTerms.length > 0) {
+        found = notes[game]
+            .filter(({ title, description, notes }) =>
+                searchTerms
+                    .filter(
+                        searchTerm => {
+                            if (searchTerm === '') return true
+                            if (title.toLowerCase().includes(searchTerm)) return true
+                            if (description.toLowerCase().includes(searchTerm)) return true
+                            if (notes.join(' ').toLowerCase().includes(searchTerm)) return true
+                            return false
+                        }
+                    ).length > 0
+            )
+    }
+
 
     return <div className='notes'>
         <div>
@@ -19,19 +41,12 @@ const NotesPage = ({ game }) => {
                 type="text"
                 placeholder="Search content"
                 value={term}
+
                 onChange={({ target: { value } }) => {
-                    navigate(`${pathname}?term=${value}`)
+                    navigate(`${pathname}?term=${encodeURIComponent(value)}`)
                 }}
             />
-            {notes[game]
-                .filter(({ title, description, notes }) => {
-                    if (searchTerm === '') return true
-                    if (title.toLowerCase().replace(/\W*/g, '').includes(searchTerm)) return true
-                    if (description.toLowerCase().replace(/\W*/g, '').includes(searchTerm)) return true
-                    if (notes.join(' ').toLowerCase().replace(/\W*/g, '').includes(searchTerm)) return true
-                    return false
-
-                })
+            {found
                 .sort(({ date: left }, { date: right }) => {
                     left = new Date(left).getTime()
                     right = new Date(right).getTime()
@@ -39,7 +54,7 @@ const NotesPage = ({ game }) => {
                     if (left > right) return -1
                     return 0
                 })
-                .map(note => <Card key={note.name} {...note} />)}
+                .map(note => <Card key={note.name} {...note} open={found.length === 1} />)}
         </div>
     </div>
 }
