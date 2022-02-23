@@ -54,7 +54,11 @@ const NotesPage = ({ game }) => {
                     if (left > right) return -1
                     return 0
                 })
-                .map(note => <Card key={note.name} {...note} open={found.length === 1} />)}
+                .map(note => <Card
+                    key={note.name}
+                    {...note}
+                    isOpen={found.length === 1}
+                />)}
         </div>
     </div>
 }

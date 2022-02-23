@@ -32,7 +32,7 @@ const Card = ({
                 <div className='card-header-title'>
                     {image && (
                         <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
-                            <img src={`/avatars/${image}.png`} alt={title} />
+                            <img src={`/avatars/${image}.png`} alt={title} key={title} />
                         </div>
                     )}
                     <span className={`text has-text-left is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
