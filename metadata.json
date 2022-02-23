@@ -11,55 +11,49 @@
         "description": "A website with all my DM notes that I want to share with my players including services, player info, the story so far and faction jobs.",
         "image": "/icon.png"
     },
-    "/characters": {
-        "title": "Characters",
+    "/cos": {
+        "title": "Characters - Curse of Strahd",
         "className": "vampire",
-        "description": "All the players and characters from our Curse of Strahd campaign.",
+        "description": "Welcome to the Curse of Strahd Campaign.",
         "image": "/icon.png"
     },
-    "/characters/cos": {
+    "/cos/characters": {
         "title": "Characters - Curse of Strahd",
         "className": "vampire",
         "description": "All the players and characters from our Curse of Strahd campaign.",
         "image": "/icon.png"
     },
-    "/characters/cm": {
+    "/cm": {
+        "title": "Characters - Candlekeep Mysteries",
+        "className": "avowed",
+        "description": "Welcome to the Candlekeep Mysteries campaign.",
+        "image": "/icon.png"
+    },
+    "/cm/characters": {
         "title": "Characters - Candlekeep Mysteries",
         "className": "avowed",
         "description": "All the players and characters from our Candlekeep Mysteries campaign.",
         "image": "/icon.png"
     },
-    "/notes": {
-        "title": "Session Notes",
-        "className": "vampire",
-        "description": "All the players and notes from the campaigns.",
-        "image": "/icon.png"
-    },
-    "/notes/cos": {
+    "/cos/notes": {
         "title": "Session Notes - Curse of Strahd",
         "className": "vampire",
         "description": "All the players and notes from our Curse of Strahd campaign.",
         "image": "/icon.png"
     },
-    "/notes/cm": {
+    "/cm/notes": {
         "title": "Session Notes - Candlekeep Mysteries",
         "className": "avowed",
         "description": "All the players and notes from our Candlekeep Mysteries campaign.",
         "image": "/icon.png"
     },
-    "/appendix": {
-        "title": "Appendix",
-        "className": "vampire",
-        "description": "The appendix contains material which was shared in game.",
-        "image": "/icon.png"
-    },
-    "/appendix/cos": {
+    "/cos/appendix": {
         "title": "Appendix - Curse of Strahd",
         "className": "vampire",
         "description": "The appendix contains material which was shared in the Curse of Strahd campaign.",
         "image": "/icon.png"
     },
-    "/appendix/cm": {
+    "/cm/appendix": {
         "title": "Appendix - Candlekeep Mysteries",
         "className": "avowed",
         "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
