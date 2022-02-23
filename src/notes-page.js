@@ -1,52 +1,33 @@
-import React from 'react'
-import { useNavigate, useLocation } from "react-router-dom";
-import qs from 'qs'
-import Card from './card'
-import notes from './notes.json'
+import React, { useState } from 'react';
+import Card from './card';
+import notes from './notes.json';
+import Search from './search';
+
+const filterNotes = (searchTerms) => ({ title, description, notes }) =>
+    searchTerms
+        .filter(
+            searchTerm => {
+                if (searchTerm === '') return true
+                if (title.toLowerCase().includes(searchTerm)) return true
+                if (description.toLowerCase().includes(searchTerm)) return true
+                if (notes.join(' ').toLowerCase().includes(searchTerm)) return true
+                return false
+            }
+        ).length > 0
 
 const NotesPage = ({ game }) => {
-    const navigate = useNavigate()
-    const { pathname, search } = useLocation()
-    const query = qs.parse(search, { ignoreQueryPrefix: true })
-    const term = query.term || ''
-
-
-    const searchTerms = term
-        .split(/[^A-Z0-9 ]/ig)
-        .filter(searchTerm => searchTerm !== '')
-        .map(t => t.toLowerCase())
-
-    let found = notes[game]
-    if (searchTerms.length > 0) {
-        found = notes[game]
-            .filter(({ title, description, notes }) =>
-                searchTerms
-                    .filter(
-                        searchTerm => {
-                            if (searchTerm === '') return true
-                            if (title.toLowerCase().includes(searchTerm)) return true
-                            if (description.toLowerCase().includes(searchTerm)) return true
-                            if (notes.join(' ').toLowerCase().includes(searchTerm)) return true
-                            return false
-                        }
-                    ).length > 0
-            )
-    }
-
+    const [data, setData] = useState([])
 
     return <div className='notes'>
         <div>
-            <input
-                className="input mb-4"
-                type="text"
-                placeholder="Search content"
-                value={term}
-
-                onChange={({ target: { value } }) => {
-                    navigate(`${pathname}?term=${encodeURIComponent(value)}`)
+            <Search
+                filter={filterNotes}
+                data={notes[game]}
+                onChange={(data) => {
+                    setData(data)
                 }}
             />
-            {found
+            {data
                 .sort(({ date: left }, { date: right }) => {
                     left = new Date(left).getTime()
                     right = new Date(right).getTime()
@@ -57,7 +38,7 @@ const NotesPage = ({ game }) => {
                 .map(note => <Card
                     key={note.name}
                     {...note}
-                    isOpen={found.length === 1}
+                    isOpen={data.length === 1}
                 />)}
         </div>
     </div>

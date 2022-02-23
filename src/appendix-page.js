@@ -1,49 +1,33 @@
-import React from 'react'
-import { useNavigate, useLocation } from "react-router-dom";
-import qs from 'qs'
-import Card from './card'
-import appendix from './appendix.json'
+import React, { useState } from 'react';
+import appendix from './appendix.json';
+import Card from './card';
+import Search from './search';
+
+const filterAppendix = (searchTerms) => ({ title }) =>
+    searchTerms
+        .filter(
+            searchTerm => title
+                .toLowerCase()
+                .replace(/\W*/g, '')
+                .includes(searchTerm)
+        ).length > 0
+
 
 const CharactersPage = ({ game }) => {
-    const navigate = useNavigate()
-    const { pathname, search } = useLocation()
-    const query = qs.parse(search, { ignoreQueryPrefix: true })
-    const term = query.term || ''
-
-    const searchTerms = term
-        .split(/\W/g)
-        .filter(searchTerm => searchTerm !== '')
-        .map(t => t.toLowerCase())
-        
-
-    let found = appendix[game]
-    if (searchTerms.length > 0) {
-        found = appendix[game]
-            .filter(({ title }) =>
-                searchTerms
-                    .filter(
-                        searchTerm => title
-                            .toLowerCase()
-                            .replace(/\W*/g, '')
-                            .includes(searchTerm)
-                    ).length > 0
-            )
-    }
+    const [data, setData] = useState([])
 
     return (
         <div className='appendix'>
             <div>
-                <input
-                    className="input mb-4"
-                    type="text"
-                    placeholder="Search appendix item"
-                    value={term}
-                    onChange={({ target: { value } }) => {
-                        navigate(`${pathname}?term=${encodeURIComponent(value)}`)
+                <Search
+                    filter={filterAppendix}
+                    data={appendix[game]}
+                    onChange={(data) => {
+                        setData(data)
                     }}
                 />
                 {
-                    found
+                    data
                         .sort(({ title: left }, { title: right }) => {
                             if (left < right) return -1
                             if (left > right) return 1
@@ -54,7 +38,7 @@ const CharactersPage = ({ game }) => {
                                 key={app.name}
                                 {...app}
                                 first={index === 0}
-                                isOpen={found.length === 1}
+                                isOpen={data.length === 1}
                             />
                         ))
                 }
