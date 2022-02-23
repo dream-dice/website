@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Card from './card';
+import NoResults from './no-results';
 import players from './players.json';
 import Search from './search';
 
@@ -38,6 +39,7 @@ const CharactersPage = ({ game }) => {
                             />
                         ))
                 }
+                { data.length === 0 && <NoResults />}
             </div>
         </div>
     )

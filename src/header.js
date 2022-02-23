@@ -57,6 +57,8 @@ const Header = () => {
     pathname = pathname.replace(/\/$/g, '')
     if (pathname === '') pathname = '/'
 
+    const subPage = pathname.split('/')[2] || 'characters'
+
     const { title, className, description, image } = metadata[pathname] || metadata.notFound
 
     useEffect(() => {
@@ -85,9 +87,8 @@ const Header = () => {
                         <div className="container">
                             <ul>
                                 <HeroFootLink pathname={pathname} to='/' label='Home' />
-                                <HeroFootLink pathname={pathname} to='/characters' label='Players & NPCs' />
-                                <HeroFootLink pathname={pathname} to='/notes' label='Session Notes' />
-                                <HeroFootLink pathname={pathname} to='/appendix' label='Appendix' />
+                                <HeroFootLink pathname={pathname} to={`/cos/${subPage}`} label='Curse of Strahd' />
+                                <HeroFootLink pathname={pathname} to={`/cm/${subPage}`} label='Candlekeep Mysteries' />
                             </ul>
                         </div>
                     </nav>
