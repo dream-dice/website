@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Wed Feb 23 2022 18:01:40 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Thu Feb 24 2022 18:06:09 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -70,6 +70,14 @@
                     <guid isPermaLink="false">b88f3f0e-2d24-4e84-a7f1-3988b597d3e2</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-02-18T21:03:33.099Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Updating Candlekeep Mysteries notes with Chapter 6]]></title>
+                    <description><![CDATA[<p>Adding several notes for the Candlekeep Mysteries campaign.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/cm/notes?term=chapter%206</link>
+                    <guid isPermaLink="false">9fbd9ff3-9caf-445c-a866-edc4269ce120</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-02-24T18:04:48.537Z</pubDate>
                 </item>
 	</channel>
 </rss>
