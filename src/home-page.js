@@ -13,9 +13,10 @@ const Home = () => (
         <h2>API</h2>
         <p>There are several APIs which contains all the data that the website uses. Feel free to use these, they aren't maintained so don't get in contact if anything is broken with them.</p>
         <ul>
+            <li>https://dream-dice.blankstring.com/appendix.json</li>
+            <li>https://dream-dice.blankstring.com/factions.json</li>
             <li>https://dream-dice.blankstring.com/notes.json</li>
             <li>https://dream-dice.blankstring.com/players.json</li>
-            <li>https://dream-dice.blankstring.com/factions.json</li>
             <li>https://dream-dice.blankstring.com/random.json</li>
             <li>https://dream-dice.blankstring.com/services.json</li>
         </ul>
@@ -35,7 +36,6 @@ const Home = () => (
         <h2>More to come</h2>
         <p>More things to come, lots more.</p>
         <ul>
-            <li><b>Apendix</b> Things like books or extracts which can be referenced later.</li>
             <li><b>Shops and services</b> I had this before but I am moving it about. It will list all the things players can take advantage of when they play.</li>
             <li><b>DM notes and tools</b> I have a list of things like rules and certain tools which I have created in order to make my job easier, but also to set expectations for players. This is being moved about as well.</li>
         </ul>

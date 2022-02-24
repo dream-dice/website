@@ -43,6 +43,12 @@
             "title": "The Pendle Coven Song",
             "description": "A song found in Chalet Brantifax.",
             "content": "/appendix/pendle-coven-song.md"
+        },
+        {
+            "name": "scarlet-sash-manifesto",
+            "title": "Scarlet Sash Manifesto",
+            "description": "The manifesto for all member of the Scarlet Sash.",
+            "content": "/appendix/scarlet-sash-manifesto.md"
         }
     ]
 }
