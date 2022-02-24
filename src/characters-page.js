@@ -4,12 +4,15 @@ import NoResults from './no-results';
 import players from './players.json';
 import Search from './search';
 
-const filterCharacters = (searchTerms) => ({ title }) => searchTerms
-    .filter(
-        searchTerm => title
-            .toLowerCase()
-            .includes(searchTerm)
-    ).length > 0
+const filterCharacters = (searchTerms) => ({ title }) =>
+    searchTerms
+        .filter(
+            searchTerm => {
+                if (searchTerm === '') return true
+                if (title.toLowerCase().includes(searchTerm)) return true
+                return false
+            }
+        ).length > 0
 
 const CharactersPage = ({ game }) => {
     const [data, setData] = useState([])

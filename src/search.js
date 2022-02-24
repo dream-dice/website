@@ -14,7 +14,7 @@ const Search = ({ data, filter, onChange }) => {
         const searchTerms = value
             .split(/[^A-Z0-9 ]/ig)
             .filter(searchTerm => searchTerm !== '')
-            .map(t => t.toLowerCase())
+            .map(t => t.toLowerCase().trim())
 
         if (searchTerms.length > 0) return data.filter(filter(searchTerms))
         return data

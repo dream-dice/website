@@ -6,10 +6,11 @@ import Search from './search';
 const filterAppendix = (searchTerms) => ({ title }) =>
     searchTerms
         .filter(
-            searchTerm => title
-                .toLowerCase()
-                .replace(/\W*/g, '')
-                .includes(searchTerm)
+            searchTerm => {
+                if (searchTerm === '') return true
+                if (title.toLowerCase().includes(searchTerm)) return true
+                return false
+            }
         ).length > 0
 
 
