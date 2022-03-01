@@ -58,5 +58,11 @@
         "className": "avowed",
         "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
         "image": "/icon.png"
+    },
+    "/shop": {
+        "title": "Shop & Services",
+        "className": "home",
+        "description": "All the shops and services available in the campaign.",
+        "image": "/icon.png"
     }
 }
