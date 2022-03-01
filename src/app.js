@@ -7,6 +7,7 @@ import NotesPage from './notes-page'
 import NotFound from './not-found-page';
 import Game from './game';
 import AppendixPage from './appendix-page'
+import ShopAndServicesPage from './shop-and-services-page'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <div className='container'>
               <Routes>
                 <Route path='/' element={(<div />)}></Route>
+                <Route path='/shop' element={(<div />)}></Route>
                 <Route path='/cos' element={<Game game='cos' page='characters' />}></Route>
                 <Route path='/cos/characters' element={<Game game='cos' page='characters' />}></Route>
                 <Route path='/cos/notes' element={<Game game='cos' page='notes' />}></Route>
@@ -29,6 +31,7 @@ const App = () => {
               </Routes>
               <Routes>
                 <Route path='/' element={<HomePage />}></Route>
+                <Route path='/shop' element={<ShopAndServicesPage />}></Route>
                 <Route path='/cos' element={<CharactersPage game='cos' />}></Route>
                 <Route path='/cm' element={<CharactersPage game='cm' />}></Route>
                 <Route path='/cos/characters' element={<CharactersPage game='cos' />}></Route>

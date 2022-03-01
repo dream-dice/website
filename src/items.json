@@ -1,0 +1,2574 @@
+{
+    "equipment": [
+        {
+            "title": "Padded",
+            "price": "5gp",
+            "type": "Light Armour"
+        },
+        {
+            "title": "Leather",
+            "price": "10gp",
+            "type": "Light Armour"
+        },
+        {
+            "title": "Studded leather",
+            "price": "45gp",
+            "type": "Light Armour"
+        },
+        {
+            "title": "Hide",
+            "price": "10gp",
+            "type": "Medium Armour"
+        },
+        {
+            "title": "Chain shirt",
+            "price": "50gp",
+            "type": "Medium Armour"
+        },
+        {
+            "title": "Scale mail",
+            "price": "50gp",
+            "type": "Medium Armour"
+        },
+        {
+            "title": "Breastplate",
+            "price": "400gp",
+            "type": "Medium Armour"
+        },
+        {
+            "title": "Half plate",
+            "price": "750gp",
+            "type": "Medium Armour"
+        },
+        {
+            "title": "Ring mail",
+            "price": "30gp",
+            "type": "Heavy Armour"
+        },
+        {
+            "title": "Chain mail",
+            "price": "75gp",
+            "type": "Heavy Armour"
+        },
+        {
+            "title": "Splint",
+            "price": "200gp",
+            "type": "Heavy Armour"
+        },
+        {
+            "title": "Plate",
+            "price": "1500gp",
+            "type": "Heavy Armour"
+        },
+        {
+            "title": "Shield",
+            "price": "10gp",
+            "type": "Shield"
+        },
+        {
+            "title": "Club",
+            "price": "1sp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Dagger",
+            "price": "2gp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Greatclub",
+            "price": "2sp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Handaxe",
+            "price": "5gp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Javelin",
+            "price": "5sp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Light Hammer",
+            "price": "2gp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Mace",
+            "price": "5gp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Quarterstaff",
+            "price": "2sp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Sickle",
+            "price": "1gp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Spear",
+            "price": "1gp",
+            "type": "Simple Meelee"
+        },
+        {
+            "title": "Crossbow, Light",
+            "price": "25gp",
+            "type": "Simple Ranged"
+        },
+        {
+            "title": "Dart",
+            "price": "5cp",
+            "type": "Simple Ranged"
+        },
+        {
+            "title": "Shortbow",
+            "price": "25gp",
+            "type": "Simple Ranged"
+        },
+        {
+            "title": "Sling",
+            "price": "1sp",
+            "type": "Simple Ranged"
+        },
+        {
+            "title": "Battleaxe",
+            "price": "10gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Flail",
+            "price": "10gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Glaive",
+            "price": "20gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Greataxe",
+            "price": "30gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Greatsword",
+            "price": "50gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Halberd",
+            "price": "20gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Lance",
+            "price": "10gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Longsword",
+            "price": "15gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Maul",
+            "price": "10gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Morningstar",
+            "price": "15gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Pike",
+            "price": "5gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Rapier",
+            "price": "25gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Scimitar",
+            "price": "25gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Shortsword",
+            "price": "10gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Trident",
+            "price": "5gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "War pick",
+            "price": "5gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Warhammer",
+            "price": "15gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Whip",
+            "price": "2gp",
+            "type": "Martial Melee"
+        },
+        {
+            "title": "Blowgun",
+            "price": "10gp",
+            "type": "Martial Ranged"
+        },
+        {
+            "title": "Crossbow, Hand",
+            "price": "75gp",
+            "type": "Martial Ranged"
+        },
+        {
+            "title": "Crossbow, Heavy",
+            "price": "50gp",
+            "type": "Martial Ranged"
+        },
+        {
+            "title": "Longbow",
+            "price": "50gp",
+            "type": "Martial Ranged"
+        },
+        {
+            "title": "Pistol",
+            "price": "250gp",
+            "type": "Martial Ranged"
+        },
+        {
+            "title": "Net",
+            "price": "1gp",
+            "type": "Martial Ranged"
+        },
+        {
+            "title": "Arrows (20)",
+            "price": "1gp",
+            "type": "Ammunition"
+        },
+        {
+            "title": "Blowgun needles (50)",
+            "price": "1gp",
+            "type": "Ammunition"
+        },
+        {
+            "title": "Crossbow bolts (20)",
+            "price": "1gp",
+            "type": "Ammunition"
+        },
+        {
+            "title": "Sling bullets (1)",
+            "price": "4cp",
+            "type": "Ammunition"
+        },
+        {
+            "title": "Bullets Modern (10)",
+            "price": "1sp",
+            "type": "Ammunition"
+        },
+        {
+            "title": "Bomb",
+            "price": "150gp",
+            "type": "Explosive"
+        },
+        {
+            "title": "Gunpowder, Keg",
+            "price": "250",
+            "type": "Explosive"
+        },
+        {
+            "title": "Gunpowder, Powder Horn",
+            "price": "35",
+            "type": "Explosive"
+        }
+    ],
+    "scrolls": [
+        {
+            "title": "Spell Scroll Cantrip",
+            "price": "50gp"
+        },
+        {
+            "title": "Spell Scroll 1st",
+            "price": "100gp"
+        },
+        {
+            "title": "Spell Scroll 2nd",
+            "price": "250gp"
+        },
+        {
+            "title": "Spell Scroll 3rd",
+            "price": "500gp"
+        },
+        {
+            "title": "Spell Scroll 4th",
+            "price": "2500gp"
+        },
+        {
+            "title": "Spell Scroll 5th",
+            "price": "5000gp"
+        },
+        {
+            "title": "Spell Scroll 6th",
+            "price": "15000gp"
+        },
+        {
+            "title": "Spell Scroll 7th",
+            "price": "35000gp"
+        },
+        {
+            "title": "Spell Scroll 8th",
+            "price": "50000gp"
+        },
+        {
+            "title": "Spell Scroll 9th",
+            "price": "1000000gp"
+        }
+    ],
+    "magicItem": [
+        {
+            "title": "Bracers of Archery",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Bracers of Defense",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Brass Horn of Valhalla",
+            "price": "8400gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Brazier of Commanding Fire Elementals",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Bronze Griffon",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Bronze Horn of Valhalla",
+            "price": "11200gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Brooch of Shielding",
+            "price": "7500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Broom of Flying",
+            "price": "8000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Cap of Water Breathing",
+            "price": "1000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Cape of the Mounte-bank",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Carpet of Flying",
+            "price": "12000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Censer of Controlling Air Elementals",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Chime of Opening",
+            "price": "1500gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Circlet of Blasting",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Cloak of Arachnida",
+            "price": "5000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Cloak of Displacement",
+            "price": "60000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Cloak of Elvenkind",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Cloak of Invisibility",
+            "price": "80000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Cloak of Protection",
+            "price": "3500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Cloak of the Bat",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Cloak of the Manta Ray",
+            "price": "6000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Crystal Ball",
+            "price": "50000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Cube of Force",
+            "price": "16000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Cubic Gate",
+            "price": "40000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Daern's Instant Fortress",
+            "price": "75000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Dagger of Venom",
+            "price": "2500gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Dancing Sword",
+            "price": "2000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Decanter of Endless Water",
+            "price": "135000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Deck of Illusions",
+            "price": "6120gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Defender",
+            "price": "24000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Dimensional Shackles",
+            "price": "3000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Dragon Scale Mail",
+            "price": "4000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Dragon Slayer",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Driftglobe",
+            "price": "750gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "+1 Armor",
+            "price": "1500gp",
+            "type": "Rare"
+        },
+        {
+            "title": "+1 Shield",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "+1 Weapon",
+            "price": "1000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "+2 Armor",
+            "price": "6000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "+2 Shield",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "+2 Weapon",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "+3 Armor",
+            "price": "24000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "+3 Shield",
+            "price": "24000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "+3 Weapon",
+            "price": "16000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Adamantine Armor",
+            "price": "500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Alchemy Jug",
+            "price": "6000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ammunition +1 (each)",
+            "price": "25gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ammunition +2( ea)",
+            "price": "100gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ammunition +3 (ea)",
+            "price": "400gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Amulet of Health",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Amulet of Proof Against Detection and Location",
+            "price": "20000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Amulet of the Planes",
+            "price": "160000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Animated Shield",
+            "price": "6000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Apparatus of Kwalish",
+            "price": "10000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Armor of Invulnerability",
+            "price": "18000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Armor of Resistance",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Arrow of Slaying (ea)",
+            "price": "600gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Arrow-Catching Shield",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Bag of Holding",
+            "price": "4000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Bead of Force",
+            "price": "960gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Belt of Dwarvenkind",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Boots of Elvenkind",
+            "price": "2500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Boots of Levitation",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Boots of Speed",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Boots of Striding and Springing",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Boots of the Winterlands",
+            "price": "10000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Bowl of Commanding Water Elementals",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Holy Avenger",
+            "price": "165000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Horn of Blasting",
+            "price": "450gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Horseshoes of Speed",
+            "price": "5000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Horseshoes of the Zephyr",
+            "price": "1500gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Immovable Rod",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Instrument of the Bards - Anstruth Harp",
+            "price": "109000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Instrument of the Bards - Canaith Mandolin",
+            "price": "30000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Instrument of the Bards - Cli Lyre",
+            "price": "35000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Instrument of the Bards - Doss Lute",
+            "price": "28500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Instrument of the Bards - Fochulan Bandlore",
+            "price": "26500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Instrument of the Bards - Mac-Fuirmidh Cittern",
+            "price": "27000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Instrument of the Bards - Ollamh Harp",
+            "price": "125000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ioun Stone Absorption",
+            "price": "2400gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ioun Stone Agility",
+            "price": "3000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ioun Stone Awareness",
+            "price": "12000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ioun Stone Fortitude",
+            "price": "3000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ioun Stone Greater Absorption",
+            "price": "31000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ioun Stone Insight",
+            "price": "3000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ioun Stone Intellect",
+            "price": "3000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ioun Stone Leadership",
+            "price": "3000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ioun Stone Mastery",
+            "price": "15000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ioun Stone Protection",
+            "price": "1200gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ioun Stone Regeneration",
+            "price": "4000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ioun Stone Reserve",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ioun Stone Strength",
+            "price": "3000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ioun Stone Sustenance",
+            "price": "1000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Iron Bands of Bilarro",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Iron Horn of Valhalla",
+            "price": "14000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ivory Goat(Terror)",
+            "price": "20000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ivory Goat(Travail)",
+            "price": "400gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Dust of Disappearance",
+            "price": "300gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Dust of Dryness (1 pellet)",
+            "price": "120gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Dust of Sneezing and Choking",
+            "price": "480gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Dwarven Plate",
+            "price": "9000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Dwarven Thrower",
+            "price": "18000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ebony Fly",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Efreeti Chain",
+            "price": "20000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Elemental Gem",
+            "price": "960gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Elixir of Health",
+            "price": "120gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Elven Chain",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Eversmoking Bottle",
+            "price": "1000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Eyes of Charming",
+            "price": "3000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Eyes of Minute Seeing",
+            "price": "2500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Eyes of the Eagle",
+            "price": "2500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Flame Tongue",
+            "price": "5000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Folding Boat",
+            "price": "10000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Frost Brand",
+            "price": "2200gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Gauntlets of Ogre Power",
+            "price": "8000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Gem of Brightness",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Gem of Seeing",
+            "price": "32000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Giant Slayer",
+            "price": "7000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Glamoured Studded Leather",
+            "price": "2000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Gloves of Missile Snaring",
+            "price": "3000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Gloves of Swimming and Climbing",
+            "price": "2000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Gloves of Thievery",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Goggles of Night",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Goldean Lion (ea)",
+            "price": "600gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Hammer of Thunderbolts ",
+            "price": "16000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Hat of Disguise",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Headband of Intellect",
+            "price": "8000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Helm of Comprehend Languages",
+            "price": "500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Helm of Telepathy",
+            "price": "12000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Helm of Teleportation",
+            "price": "64000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Heward's Handy Haversack",
+            "price": "2000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Periapt of Wound Closure",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Philter of Love",
+            "price": "90gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Pipes of Haunting",
+            "price": "6000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Pipes of the Sewers",
+            "price": "2000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Plate Armor of Ethe-realness",
+            "price": "48000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Portable Hole",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Potion of Animal Friendship",
+            "price": "200gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Potion of Clairvoyance",
+            "price": "960gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Potion of Climbing",
+            "price": "180gp",
+            "type": "Common"
+        },
+        {
+            "title": "Potion of Diminution",
+            "price": "270gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Potion of Fire Breath",
+            "price": "150gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Potion of Flying",
+            "price": "500gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Potion of Gaseous Form",
+            "price": "300gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Potion of Greater Healing",
+            "price": "150gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Potion of Growth",
+            "price": "270gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Potion of Healing",
+            "price": "50gp",
+            "type": "Common"
+        },
+        {
+            "title": "Potion of Heroism",
+            "price": "180gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Potion of Invisibility",
+            "price": "180gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Potion of Invulnerability",
+            "price": "3840gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Potion of Longevity",
+            "price": "9000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Potion of Mind Reading",
+            "price": "180gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Potion of Poison",
+            "price": "100gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Potion of Resistance",
+            "price": "300gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Potion of Speed",
+            "price": "400gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Potion of Superior Healing",
+            "price": "450gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Potion of Supreme Healing",
+            "price": "1350gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Potion of Vitality",
+            "price": "960gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Potion of Water Breathing",
+            "price": "180gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Prayer Bead - Bless",
+            "price": "2000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Prayer Bead - Curing",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Prayer Bead - Favor",
+            "price": "32000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Prayer Bead - Smiting",
+            "price": "1500gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Prayer Bead - Summons",
+            "price": "128000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ivory Goat (Traveling)",
+            "price": "1000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Javelin of Lightning",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Keoghtom's Ointment (Per dose)",
+            "price": "120gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Lantern of Revealing",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Luckstone",
+            "price": "4200gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Mace of Disruption",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Mace of Smiting",
+            "price": "7000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Mace of Terror",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Mantle of Spell Resistance",
+            "price": "30000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Marble Elephant",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Mariner's Armor",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Medallion of Thoughts",
+            "price": "3000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Mirror of Life Trapping",
+            "price": "18000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Mithral Armor",
+            "price": "800gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Necklace of Adaption",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Necklace of Fireballs (Five beads)",
+            "price": "3840gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Necklace of Fireballs (Four beads)",
+            "price": "1600gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Necklace of Fireballs (One bead)",
+            "price": "300gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Necklace of Fireballs (Six beads)",
+            "price": "7680gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Necklace of Fireballs (Three beads)",
+            "price": "960gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Necklace of Fireballs (Two beads)",
+            "price": "480gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Nine Lives Stealer (Fully Charged)",
+            "price": "8000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Nolzur's Marvelous Pigments",
+            "price": "200gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Oathbow",
+            "price": "3500gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Obsidian Steed",
+            "price": "128000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Oil of Etherealness",
+            "price": "1920gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Oil of Sharpness",
+            "price": "3200gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Oil of Slipperiness",
+            "price": "480gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Onyx Dog",
+            "price": "3000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Pearl of Power",
+            "price": "6000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Periapt of Health",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Periapt of Proof Against Poison",
+            "price": "5000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Robe of Scintillating Colors",
+            "price": "6000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Robe of Stars",
+            "price": "60000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Robe of the Archmagi",
+            "price": "34000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Robe of Useful Items Items",
+            "price": "Items * 5",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Rod of Absorption",
+            "price": "50000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Rod of Alertness",
+            "price": "25000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Rod of Lordly Might",
+            "price": "28000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Rod of Rulership",
+            "price": "16000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Rod of Security",
+            "price": "90000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Rod of the Pact Keeper +1",
+            "price": "12000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Rod of the Pact Keeper +2",
+            "price": "16000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Rod of the Pact Keeper +3",
+            "price": "28000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Rope of Climbing",
+            "price": "2000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Rope of Entanglement",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Saddle of the Cavalier",
+            "price": "2000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Scarab of Protection",
+            "price": "36000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Scimitar of Speed",
+            "price": "6000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Scroll of Protection",
+            "price": "180gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Sending Stones",
+            "price": "2000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Sentinel Shield",
+            "price": "20000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Serpentine Owl",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Shield of Missile Attraction",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Silver Horn of Valhalla",
+            "price": "5600gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Silver Raven",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Slippers of Spider Climbing",
+            "price": "5000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Sovereign Glue",
+            "price": "400gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Prayer Bead - Wind Walking",
+            "price": "96000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Quaal's Feather Token Anchor",
+            "price": "50gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Quaal's Feather Token Bird",
+            "price": "3000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Quaal's Feather Token Fan",
+            "price": "250gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Quaal's Feather Token Swan Boat",
+            "price": "3000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Quaal's Feather Token Whip",
+            "price": "250gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Quiver of Ehlonna",
+            "price": "1000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ring of Air Elemental Command",
+            "price": "35000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ring of Animal Influence",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Earth Elemental Command",
+            "price": "31000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ring of Evasion",
+            "price": "5000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Feather Falling",
+            "price": "2000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Fire Elemental Command",
+            "price": "17000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ring of Free Action",
+            "price": "20000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Invisibility",
+            "price": "10000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ring of Jumping",
+            "price": "2500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ring of Mind Shielding",
+            "price": "16000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ring of Protection",
+            "price": "3500gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Regeneration",
+            "price": "12000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ring of Resistance",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Shooting Stars",
+            "price": "14000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ring of Spell Storing",
+            "price": "24000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Spell Turning",
+            "price": "30000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ring of Swimming",
+            "price": "3000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ring of Telekinesis",
+            "price": "80000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Ring of the Ram",
+            "price": "5000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Ring of Warmth",
+            "price": "1000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ring of Water Elemental Command",
+            "price": "25000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Ring of Water Walking",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Ring of X-Ray Vision",
+            "price": "6000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Robe of Eyes",
+            "price": "30000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Wand of Magic Detection",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Wand of Magic Missiles",
+            "price": "8000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Wand of Paralysis",
+            "price": "16000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Wand of Polymorph",
+            "price": "32000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Wand of Secrets",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Wand of the War Mage +1",
+            "price": "1200gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Wand of the War Mage +2",
+            "price": "4800gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Wand of the War Mage +3",
+            "price": "19200gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Wand of Web",
+            "price": "8000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Weapon of Warning",
+            "price": "60000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Wind Fan",
+            "price": "1500gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Winged Boots",
+            "price": "8000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Wings of Flying",
+            "price": "5000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Spellguard Shield",
+            "price": "50000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Sphere of Annihilation",
+            "price": "15000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Staff of Charming",
+            "price": "12000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Staff of Fire",
+            "price": "16000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Staff of Frost",
+            "price": "26000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Staff of Healing",
+            "price": "13000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Staff of Power",
+            "price": "95500gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Staff of Striking",
+            "price": "21000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Staff of Swarming Insects",
+            "price": "16000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Staff of the Adder",
+            "price": "1800gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Staff of the Python",
+            "price": "2000gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Staff of the Woodlands",
+            "price": "44000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Staff of Thunder and Lightning",
+            "price": "10000gp",
+            "type": "Very Rare"
+        },
+        {
+            "title": "Staff of Withering",
+            "price": "3000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Stone of Controlling Earth Elementals",
+            "price": "8000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Sunblade",
+            "price": "12000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Sword of Answering",
+            "price": "36000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Sword of Life-Stealing",
+            "price": "1000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Sword of Sharpness",
+            "price": "1700gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Sword of Wounding",
+            "price": "2000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Talisman of Pure Good",
+            "price": "71680gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Talisman of the Sphere",
+            "price": "20000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Talisman of Ultimate Evil",
+            "price": "61440gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Tentacle Rod",
+            "price": "5000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Trident of Fish Command",
+            "price": "800gp",
+            "type": "Uncommon"
+        },
+        {
+            "title": "Universal Solvent",
+            "price": "300gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Vicious Weapon",
+            "price": "350gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Vorpal Sword",
+            "price": "24000gp",
+            "type": "Legendary"
+        },
+        {
+            "title": "Wand of Binding",
+            "price": "10000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Wand of Enemy Detection",
+            "price": "4000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Wand of Fear",
+            "price": "10000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Wand of Fireballs",
+            "price": "32000gp",
+            "type": "Rare"
+        },
+        {
+            "title": "Wand of Lightning Bolts",
+            "price": "32000gp",
+            "type": "Rare"
+        }
+    ],
+    "general": [
+        {
+            "title": "Crystal",
+            "price": "10gp"
+        },
+        {
+            "title": "Orb",
+            "price": "20gp"
+        },
+        {
+            "title": "Rod",
+            "price": "10gp"
+        },
+        {
+            "title": "Staff",
+            "price": "5gp"
+        },
+        {
+            "title": "Wand",
+            "price": "10gp"
+        },
+        {
+            "title": "Sprig of mistletoe",
+            "price": "1gp"
+        },
+        {
+            "title": "Totem",
+            "price": "1gp"
+        },
+        {
+            "title": "Wooden staff",
+            "price": "5gp"
+        },
+        {
+            "title": "Yew wand",
+            "price": "10gp"
+        },
+        {
+            "title": "Amulet",
+            "price": "5gp"
+        },
+        {
+            "title": "Emblem",
+            "price": "5gp"
+        },
+        {
+            "title": "Reliquary",
+            "price": "5gp"
+        },
+        {
+            "title": "Abacus",
+            "price": "2gp"
+        },
+        {
+            "title": "Acid (vial)",
+            "price": "25gp"
+        },
+        {
+            "title": "Alchemist's fire (flask)",
+            "price": "50gp"
+        },
+        {
+            "title": "Antitoxin (vial)",
+            "price": "50gp"
+        },
+        {
+            "title": "Backpack",
+            "price": "2gp"
+        },
+        {
+            "title": "Ball bearings (bag of 1,000)",
+            "price": "1gp"
+        },
+        {
+            "title": "Barrel",
+            "price": "2gp"
+        },
+        {
+            "title": "Basket",
+            "price": "4sp"
+        },
+        {
+            "title": "Bedroll",
+            "price": "1gp"
+        },
+        {
+            "title": "Bell",
+            "price": "1gp"
+        },
+        {
+            "title": "Blanket",
+            "price": "5sp"
+        },
+        {
+            "title": "Block and tackle",
+            "price": "1gp"
+        },
+        {
+            "title": "Book",
+            "price": "25gp"
+        },
+        {
+            "title": "Bottle, glass",
+            "price": "2gp"
+        },
+        {
+            "title": "Bucket",
+            "price": "5cp"
+        },
+        {
+            "title": "Caltrops (bag of 20)",
+            "price": "1gp"
+        },
+        {
+            "title": "Candle",
+            "price": "1cp"
+        },
+        {
+            "title": "Case, crossbow bolt",
+            "price": "1gp"
+        },
+        {
+            "title": "Case, map or scroll",
+            "price": "1gp"
+        },
+        {
+            "title": "Chain (10 feet)",
+            "price": "5gp"
+        },
+        {
+            "title": "Chalk (1 piece)",
+            "price": "1cp"
+        },
+        {
+            "title": "Chest",
+            "price": "5gp"
+        },
+        {
+            "title": "Climber's kit",
+            "price": "25gp"
+        },
+        {
+            "title": "Clothes, common",
+            "price": "5sp"
+        },
+        {
+            "title": "Clothes, costume",
+            "price": "5gp"
+        },
+        {
+            "title": "Clothes, fine",
+            "price": "15gp"
+        },
+        {
+            "title": "Clothes, traveler's",
+            "price": "2gp"
+        },
+        {
+            "title": "Component pouch",
+            "price": "25gp"
+        },
+        {
+            "title": "Crowbar",
+            "price": "2gp"
+        },
+        {
+            "title": "Fishing tackle",
+            "price": "1gp"
+        },
+        {
+            "title": "Flask or tankard",
+            "price": "2cp"
+        },
+        {
+            "title": "Grappling hook",
+            "price": "2gp"
+        },
+        {
+            "title": "Hammer",
+            "price": "1gp"
+        },
+        {
+            "title": "Hammer, sledge",
+            "price": "2gp"
+        },
+        {
+            "title": "Healer's kit",
+            "price": "5gp"
+        },
+        {
+            "title": "Holy water (flask)",
+            "price": "25gp"
+        },
+        {
+            "title": "Hourglass",
+            "price": "25gp"
+        },
+        {
+            "title": "Hunting trap",
+            "price": "5gp"
+        },
+        {
+            "title": "Ink (1 ounce bottle)",
+            "price": "10gp"
+        },
+        {
+            "title": "Ink pen",
+            "price": "2cp"
+        },
+        {
+            "title": "Jug or pitcher",
+            "price": "2cp"
+        },
+        {
+            "title": "Ladder (10 foot)",
+            "price": "1sp"
+        },
+        {
+            "title": "Lamp",
+            "price": "5sp"
+        },
+        {
+            "title": "Lantern, bullseye",
+            "price": "10gp"
+        },
+        {
+            "title": "Lantern, hooded",
+            "price": "5gp"
+        },
+        {
+            "title": "Lock",
+            "price": "10gp"
+        },
+        {
+            "title": "Magnifying glass",
+            "price": "100gp"
+        },
+        {
+            "title": "Manacles",
+            "price": "2gp"
+        },
+        {
+            "title": "Mess kit",
+            "price": "2sp"
+        },
+        {
+            "title": "Mirror, steel",
+            "price": "5gp"
+        },
+        {
+            "title": "Oil (flask)",
+            "price": "1sp"
+        },
+        {
+            "title": "Paper (one sheet)",
+            "price": "2sp"
+        },
+        {
+            "title": "Parchment (one sheet)",
+            "price": "1sp"
+        },
+        {
+            "title": "Perfume (vial)",
+            "price": "5gp"
+        },
+        {
+            "title": "Pick, miner's",
+            "price": "2gp"
+        },
+        {
+            "title": "Piton",
+            "price": "5cp"
+        },
+        {
+            "title": "Poison, basic (vial)",
+            "price": "100gp"
+        },
+        {
+            "title": "Pole (10-foot)",
+            "price": "5cp"
+        },
+        {
+            "title": "Pot, iron",
+            "price": "2gp"
+        },
+        {
+            "title": "Potion of healing",
+            "price": "50gp"
+        },
+        {
+            "title": "Pouch",
+            "price": "5sp"
+        },
+        {
+            "title": "Quiver",
+            "price": "1gp"
+        },
+        {
+            "title": "Ram, portable",
+            "price": "4gp"
+        },
+        {
+            "title": "Rations (1 day)",
+            "price": "5sp"
+        },
+        {
+            "title": "Robes",
+            "price": "1gp"
+        },
+        {
+            "title": "Rope, hempen (50 feet)",
+            "price": "1gp"
+        },
+        {
+            "title": "Rope, silk (50 feet)",
+            "price": "10gp"
+        },
+        {
+            "title": "Sack",
+            "price": "1cp"
+        },
+        {
+            "title": "Scale, merchant's",
+            "price": "5gp"
+        },
+        {
+            "title": "Sealing wax",
+            "price": "5sp"
+        },
+        {
+            "title": "Shovel",
+            "price": "2gp"
+        },
+        {
+            "title": "Signal whistle",
+            "price": "5cp"
+        },
+        {
+            "title": "Signet ring",
+            "price": "5gp"
+        },
+        {
+            "title": "Soap",
+            "price": "2cp"
+        },
+        {
+            "title": "Spellbook",
+            "price": "50gp"
+        },
+        {
+            "title": "Spikes, iron (10)",
+            "price": "1gp"
+        },
+        {
+            "title": "Spyglass",
+            "price": "1000gp"
+        },
+        {
+            "title": "Tent, two-person",
+            "price": "2gp"
+        },
+        {
+            "title": "Tinderbox",
+            "price": "5sp"
+        },
+        {
+            "title": "Torch",
+            "price": "1cp"
+        },
+        {
+            "title": "Vial",
+            "price": "1gp"
+        },
+        {
+            "title": "Waterskin",
+            "price": "2sp"
+        },
+        {
+            "title": "Whetstone",
+            "price": "1cp"
+        },
+        {
+            "title": "Alchemist's supplies",
+            "price": "50gp"
+        },
+        {
+            "title": "Brewer's supplies",
+            "price": "20gp"
+        },
+        {
+            "title": "Calligrapher's supplies",
+            "price": "10gp"
+        },
+        {
+            "title": "Carpenter's tools",
+            "price": "8gp"
+        },
+        {
+            "title": "Cartographer's tools",
+            "price": "15gp"
+        },
+        {
+            "title": "Cobbler's tools",
+            "price": "5gp"
+        },
+        {
+            "title": "Cook's utensils",
+            "price": "1gp"
+        },
+        {
+            "title": "Glassblower's tools",
+            "price": "30gp"
+        },
+        {
+            "title": "Jeweler's tools",
+            "price": "25gp"
+        },
+        {
+            "title": "Leatherworker's tools",
+            "price": "5gp"
+        },
+        {
+            "title": "Mason's tools",
+            "price": "10gp"
+        },
+        {
+            "title": "Painter's supplies",
+            "price": "10gp"
+        },
+        {
+            "title": "Potter's tools",
+            "price": "10gp"
+        },
+        {
+            "title": "Smith's tools",
+            "price": "20gp"
+        },
+        {
+            "title": "Tinker's tools",
+            "price": "50gp"
+        },
+        {
+            "title": "Weaver's tools",
+            "price": "1gp"
+        },
+        {
+            "title": "Woodcarver's tools",
+            "price": "1gp"
+        },
+        {
+            "title": "Disguise kit",
+            "price": "25gp"
+        },
+        {
+            "title": "Forgery kit",
+            "price": "15gp"
+        },
+        {
+            "title": "Dice set",
+            "price": "1sp"
+        },
+        {
+            "title": "Dragonchess set",
+            "price": "1gp"
+        },
+        {
+            "title": "Playing card set",
+            "price": "5sp"
+        },
+        {
+            "title": "Three-Dragon Ante set",
+            "price": "1gp"
+        },
+        {
+            "title": "Herbalism kit",
+            "price": "5gp"
+        },
+        {
+            "title": "Bagpipes",
+            "price": "30gp"
+        },
+        {
+            "title": "Drum",
+            "price": "6gp"
+        },
+        {
+            "title": "Dulcimer",
+            "price": "25gp"
+        },
+        {
+            "title": "Flute",
+            "price": "2gp"
+        },
+        {
+            "title": "Lute",
+            "price": "35gp"
+        },
+        {
+            "title": "Lyre",
+            "price": "30gp"
+        },
+        {
+            "title": "Horn",
+            "price": "3gp"
+        },
+        {
+            "title": "Pan flute",
+            "price": "12gp"
+        },
+        {
+            "title": "Shawm",
+            "price": "2gp"
+        },
+        {
+            "title": "Viol",
+            "price": "30gp"
+        },
+        {
+            "title": "Navigator's tools",
+            "price": "25gp"
+        },
+        {
+            "title": "Poisoner's kit",
+            "price": "50gp"
+        },
+        {
+            "title": "Thieves' tools",
+            "price": "25gp"
+        },
+        {
+            "title": "1 lb. of wheat",
+            "price": "1cp"
+        },
+        {
+            "title": "1 lb. of flour or one chicken",
+            "price": "2cp"
+        },
+        {
+            "title": "1 lb. of salt",
+            "price": "5cp"
+        },
+        {
+            "title": "1 lb. of iron or 1 sq. yd. of canvas",
+            "price": "1sp"
+        },
+        {
+            "title": "1 lb. of copper of 1 sq. yd. of cotton cloth",
+            "price": "5sp"
+        },
+        {
+            "title": "1 lb. of ginger or one goat",
+            "price": "1gp"
+        },
+        {
+            "title": "1 lb. of cinnamon or pepper, or one sheep",
+            "price": "2gp"
+        },
+        {
+            "title": "1 lb. of cloves or one pig",
+            "price": "3gp"
+        },
+        {
+            "title": "1 lb. of silver or 1 sq. yd. of linen",
+            "price": "5gp"
+        },
+        {
+            "title": "1 sq. yd. of silk or one cow",
+            "price": "10gp"
+        },
+        {
+            "title": "1 lb. of saffron or one ox",
+            "price": "15gp"
+        },
+        {
+            "title": "1 lb. of gold",
+            "price": "50gp"
+        },
+        {
+            "title": "1 lb. of platinum",
+            "price": "500gp"
+        },
+        {
+            "title": "Ale (gallon)",
+            "price": "2sp"
+        },
+        {
+            "title": "Ale (mug)",
+            "price": "4cp"
+        },
+        {
+            "title": "Banquet (per person)",
+            "price": "10gp"
+        },
+        {
+            "title": "Bread, loaf",
+            "price": "2cp"
+        },
+        {
+            "title": "Cheese, hunk",
+            "price": "1sp"
+        },
+        {
+            "title": "Meat, chunk",
+            "price": "3sp"
+        },
+        {
+            "title": "Wine, common (pitcher)",
+            "price": "2sp"
+        },
+        {
+            "title": "Wine, fine (bottle)",
+            "price": "10gp"
+        }
+    ],
+    "animals": [
+        {
+            "title": "Camel",
+            "price": "50gp",
+            "type": "Land"
+        },
+        {
+            "title": "Donkey",
+            "price": "8gp",
+            "type": "Land"
+        },
+        {
+            "title": "Draft Horse",
+            "price": "50gp",
+            "type": "Land"
+        },
+        {
+            "title": "Riding Horse",
+            "price": "75gp",
+            "type": "Land"
+        },
+        {
+            "title": "Elephant",
+            "price": "200gp",
+            "type": "Land"
+        },
+        {
+            "title": "Mastiff",
+            "price": "25gp",
+            "type": "Land"
+        },
+        {
+            "title": "Pony",
+            "price": "30gp",
+            "type": "Land"
+        },
+        {
+            "title": "Warhorse",
+            "price": "400gp",
+            "type": "Land"
+        },
+        {
+            "title": "Hippogriff",
+            "price": "1000gp",
+            "type": "Flying"
+        },
+        {
+            "title": "Pegasus",
+            "price": "750gp",
+            "type": "Flying"
+        },
+        {
+            "title": "Griffon",
+            "price": "1500gp",
+            "type": "Flying"
+        },
+        {
+            "title": "Wyvern",
+            "price": "5000gp",
+            "type": "Flying"
+        },
+        {
+            "title": "Constrictor Snake",
+            "price": "750gp",
+            "type": "Swimming"
+        },
+        {
+            "title": "Dolphin",
+            "price": "1000gp",
+            "type": "Swimming"
+        },
+        {
+            "title": "Giant Sea Horse",
+            "price": "1500gp",
+            "type": "Swimming"
+        },
+        {
+            "title": "Reef Shark",
+            "price": "2500gp",
+            "type": "Swimming"
+        },
+        {
+            "title": "Bat",
+            "price": "10gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Cat",
+            "price": "5gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Eagle",
+            "price": "20gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Fox",
+            "price": "15gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Frog",
+            "price": "1gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Lizard",
+            "price": "1gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Octopus",
+            "price": "20gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Owl",
+            "price": "15gp",
+            "type": "Pet"
+        },
+        {
+            "title": "Raven",
+            "price": "15gp",
+            "type": "Pet"
+        }
+    ]
+}

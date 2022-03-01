@@ -16,7 +16,8 @@ const Card = ({
     famous = [],
     notes = [],
     first = false,
-    isOpen = false
+    isOpen = false,
+    children
 }) => {
     const { title: factionTitle } = factions[faction] || {}
     const [open, setOpen] = useState(isOpen)
@@ -25,6 +26,8 @@ const Card = ({
     }, [isOpen])
 
     const showMeta = race || playerClass.length > 0 || factionTitle
+
+    const showContent = description || content || famous.length > 0 || notes.length > 0
 
     return (
         <div className={`card mt-${first ? '0' : (open ? '5' : '2')} mb-${open ? '5' : '2'}`}>
@@ -62,7 +65,7 @@ const Card = ({
                         </div>
                     </div>
                 )}
-                <div className='content'>
+                { showContent && <div className='content'>
                     {description && <p>{description}</p>}
                     {content && <Markdown path={content} />}
                     {famous.length > 0 && <>
@@ -81,7 +84,8 @@ const Card = ({
                             {notes.map(item => <li key={item}>{item}</li>)}
                         </ul>
                     </>}
-                </div>
+                </div> }
+                {children}
             </div>
             }
         </div>

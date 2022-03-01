@@ -8,7 +8,7 @@ import metadata from './metadata.json'
 import Discord from './discord'
 
 const HeroFootLink = ({ pathname, to, label }) => (
-    <li className={(to !== '/' && pathname.includes(to)) ? 'is-active' : 'is-inactive'}>
+    <li className={(to === pathname || (to !== '/' && pathname.includes(to))) ? 'is-active' : 'is-inactive'}>
         <Link className="navbar-item" to={to}>{label}</Link>
     </li>
 )
@@ -89,6 +89,7 @@ const Header = () => {
                                 <HeroFootLink pathname={pathname} to='/' label='Home' />
                                 <HeroFootLink pathname={pathname} to={`/cos/${subPage}`} label='Curse of Strahd' />
                                 <HeroFootLink pathname={pathname} to={`/cm/${subPage}`} label='Candlekeep Mysteries' />
+                                <HeroFootLink pathname={pathname} to={'/shop'} label='Shops & Services' />
                             </ul>
                         </div>
                     </nav>
