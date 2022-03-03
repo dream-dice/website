@@ -1,7 +1,7 @@
 html,
 body,
 .lato {
- font-family: 'Lato', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 html {
@@ -19,7 +19,7 @@ blockquote p {
 h1,
 .lobster,
 .card-header-title {
-  font-family: 'Lobster Two', cursive;
+  font-family: "Lobster Two", cursive;
 }
 
 .card-header-title .image {
@@ -44,13 +44,35 @@ h1,
   margin-left: auto;
 }
 
+.card-index {
+  color: #3f3f3f;
+  border-radius: 90px;
+  border: solid #3f3f3f 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: font-size 0.1s ease-in-out, width 1.8em 0.1s ease-in-out, height 1.8em 0.1s ease-in-out;
+}
+
+.card-index.is-closed {
+  font-size: 1.4em;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.card-index.is-open {
+  font-size: 2.1em;
+  width: 2.4em;
+  height: 2.4em;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6,
 .oswald {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 blockquote {
@@ -107,16 +129,16 @@ blockquote {
 }
 
 .arrow-dsc {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 5px solid #000000;
 }
 
 .arrow-asc {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 5px solid #000000;

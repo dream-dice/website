@@ -4,12 +4,16 @@ import factions from './factions.json'
 
 const Card = ({
     image,
+    index,
     title,
     faction,
     rank,
     renown,
     race,
     description,
+    current,
+    next,
+    why,
     content,
     date,
     class: playerClass = [],
@@ -36,6 +40,11 @@ const Card = ({
                     {image && (
                         <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
                             <img src={`/avatars/${image}.png`} alt={title} key={title} />
+                        </div>
+                    )}
+                    {index && (
+                        <div className={`card-index mr-2 is-${open ? 'open' : 'closed'} lato`}>
+                            <span>{index}</span>
                         </div>
                     )}
                     <span className={`text has-text-left is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
@@ -65,9 +74,27 @@ const Card = ({
                         </div>
                     </div>
                 )}
-                { showContent && <div className='content'>
+                {showContent && <div className='content'>
                     {description && <p>{description}</p>}
                     {content && <Markdown path={content} />}
+                    {current && (
+                        <div className='content'>
+                            <h3>What are we currently doing?</h3>
+                            <p>{current}</p>
+                        </div>
+                    )}
+                    {next && (
+                        <div className='content'>
+                            <h3>What are we are we doing next?</h3>
+                            <p>{next}</p>
+                        </div>
+                    )}
+                    {why && (
+                        <div className='content'>
+                            <h3>Why are we doing this?</h3>
+                            <p>{why}</p>
+                        </div>
+                    )}
                     {famous.length > 0 && <>
                         <h2 className='subtitle'>
                             Famously
@@ -84,7 +111,7 @@ const Card = ({
                             {notes.map(item => <li key={item}>{item}</li>)}
                         </ul>
                     </>}
-                </div> }
+                </div>}
                 {children}
             </div>
             }
