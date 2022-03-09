@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Wed Mar 02 2022 20:34:56 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Wed Mar 09 2022 09:21:51 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -86,6 +86,14 @@
                     <guid isPermaLink="false">e34764d5-a4ff-4940-87d6-cfa391c0da2b</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-03-01T23:15:26.148Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Update CoS chapter, new Random section in Shops & Services]]></title>
+                    <description><![CDATA[<p>Updating the CoS campaign with the latest, long, chapter. There is now a random section which will allow for picking random items as well as other improvments to the Shops</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/cos/notes</link>
+                    <guid isPermaLink="false">fc36d77d-c2b0-428b-9962-19586156bb46</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-03-09T09:20:29.167Z</pubDate>
                 </item>
 	</channel>
 </rss>
