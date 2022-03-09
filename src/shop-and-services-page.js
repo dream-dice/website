@@ -1,6 +1,24 @@
-import React, { useReducer } from 'react'
+import React, { useReducer, useState } from 'react'
 import Card from './card'
 import items from './items.json'
+import chance from 'chance'
+
+const links = {
+    equipment: 'https://www.dndbeyond.com/equipment/',
+    general: 'https://www.dndbeyond.com/equipment/',
+    magicItem: 'https://www.dndbeyond.com/magic-items/',
+    scrolls: 'https://www.dndbeyond.com/magic-items/spell-scroll/#',
+    animals: 'https://www.dndbeyond.com/monsters/',
+    name: 'https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1304&q=dnd+'
+}
+
+const DDBLink = ({ href, name, keepCase = false }) => {
+    let hrefName = name
+    if (!keepCase) hrefName = name.toLowerCase()
+    const url = `${href}${hrefName.replace(/ /g, '-').replace(/[,()']/g, '')}`
+    if (href) return <a className='button is-ghost' target='_blank' href={url} rel="noopener noreferrer">{name}</a>
+    return <button className='button is-black' >{name}</button>
+}
 
 const ItemTitle = ({ value, onChange, sort, onSort }) => (
     <th>
@@ -96,9 +114,9 @@ const priceToCopper = (price) => {
         .reduce((prev, curr) => prev + curr, 0)
 }
 
-const Shop = ({ items }) => {
+const Shop = ({ itemType }) => {
     const initChecked = {}
-    Object.values(items).forEach(({ type }) => { initChecked[type] = false })
+    Object.values(items[itemType]).forEach(({ type }) => { initChecked[type] = false })
 
     const [{ typeOpen, checked, titleTerm, priceValue, sortTitle, sortPrice, sortType }, dispatch] = useReducer(
         (state, { type, payload }) => {
@@ -120,7 +138,7 @@ const Shop = ({ items }) => {
         sortType: 'asc'
     })
 
-    const hasType = 'type' in items[0]
+    const hasType = 'type' in items[itemType][0]
     const checkedQuantity = Object.values(checked).reduce((prev, curr) => {
         if (curr) return prev + 1
         return prev
@@ -149,13 +167,13 @@ const Shop = ({ items }) => {
                         onSort={(sort) => { dispatch({ type: 'sort-type', payload: { sort } }) }}
                         onToggle={() => { dispatch({ type: 'type-toggle', payload: { open: !typeOpen } }) }}
                         onChange={({ type, checked }) => { dispatch({ type: 'type-checked', payload: { type, checked } }) }}
-                        types={[...new Set(items.map(({ title, type }) => type || title))].sort()}
+                        types={[...new Set(items[itemType].map(({ title, type }) => type || title))].sort()}
                     />}
                 </tr>
             </thead>
             <tbody>
                 {
-                    items
+                    items[itemType]
                         .filter(({ type }) => checkedQuantity === 0 || checked[type])
                         .filter(({ title }) => {
                             const searchTerms = titleTerm
@@ -190,7 +208,9 @@ const Shop = ({ items }) => {
                         })
                         .map(({ title, price, type }) => (
                             <tr key={title}>
-                                <td>{title}</td>
+                                <td>
+                                    <DDBLink href={links[itemType]} name={title} />
+                                </td>
                                 <td>{price}</td>
                                 {type && <td>{type}</td>}
                             </tr>
@@ -201,23 +221,75 @@ const Shop = ({ items }) => {
     )
 }
 
+const RandomGenerator = ({ href, title, random }) => {
+    const [value, setValue] = useState(random())
+
+    return (
+        <div className="buttons has-addons">
+            <button
+                style={{
+                    width: 120
+                }}
+                onClick={() => setValue(random())}
+                className='button'
+            >
+                {title}
+            </button>
+            <DDBLink
+                href={href}
+                name={value}
+            />
+        </div>
+
+    )
+}
+
+const RandomItem = ({ items, title, href }) => <RandomGenerator href={href} random={() => chance().pickone(items).title} title={title} />
+
+const Random = () => (
+    <div>
+        <div className='mb-5'>
+            <RandomItem items={items.general} title='Item' href={links.general} />
+        </div>
+        <div className='mb-5'>
+            <RandomItem items={items.equipment} title='Equipment' href={links.equipment} />
+        </div>
+        <div className='mb-5'>
+            <RandomItem items={items.magicItem} title='Magic item' href={links.magicItem} />
+        </div>
+        <div className='mb-5'>
+            <RandomItem items={items.scrolls} title='Scroll' href={links.scrolls} />
+        </div>
+        <div className='mb-5'>
+            <RandomItem items={items.animals} title='Animal' href={links.animals} />
+        </div>
+        <div>
+            <RandomGenerator title='Male name' random={() => chance().first({ gender: 'male' })} href={links.name} />
+            <RandomGenerator title='Female name' random={() => chance().first({ gender: 'female' })} href={links.name} />
+        </div>
+    </div>
+)
+
 const ShopAndServicesPage = () => {
     return (
         <div>
             <Card title='General'>
-                <Shop items={items.general} />
+                <Shop itemType='general' />
             </Card>
             <Card title='Equipment'>
-                <Shop items={items.equipment} />
+                <Shop itemType='equipment' />
             </Card>
             <Card title='Magic Items'>
-                <Shop items={items.magicItem} />
+                <Shop itemType='magicItem' />
             </Card>
             <Card title='Scrolls'>
-                <Shop items={items.scrolls} />
+                <Shop itemType='scrolls' />
             </Card>
             <Card title='Animals'>
-                <Shop items={items.animals} />
+                <Shop itemType='animals' />
+            </Card>
+            <Card title='Random'>
+                <Random />
             </Card>
         </div>
     )

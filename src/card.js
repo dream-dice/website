@@ -107,9 +107,19 @@ const Card = ({
                         <h2 className='subtitle'>
                             Notes
                         </h2>
-                        <ul>
-                            {notes.map(item => <li key={item}>{item}</li>)}
-                        </ul>
+                        <div>
+                            <ul>
+                                {notes.map(({ title, value }) => (
+                                    <li
+                                        key={value || title}
+                                        style={{ listStyle: title ? 'none' : 'initial' }}
+                                    >
+                                        {title && <h4 className='mt-4'>{title}</h4>}
+                                        {value && <span>{value}</span>}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                     </>}
                 </div>}
                 {children}
