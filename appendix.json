@@ -1,5 +1,17 @@
 {
     "cos": [
+        {
+            "name": "first-reading",
+            "title": "Madam Eva's First Reading",
+            "description": "This reading tells of a path to defeating your enemy.",
+            "content": "/appendix/first-reading.md"
+        },
+        {
+            "name": "second-reading",
+            "title": "Madam Eva's Second Reading",
+            "description": "This reading gives an insight into your enemies plans, giving you a chance to get ahead.",
+            "content": "/appendix/second-reading.md"
+        }
     ],
     "cm": [
         {

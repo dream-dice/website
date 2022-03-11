@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Wed Mar 09 2022 09:21:51 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Fri Mar 11 2022 13:59:33 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -94,6 +94,14 @@
                     <guid isPermaLink="false">fc36d77d-c2b0-428b-9962-19586156bb46</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-03-09T09:20:29.167Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Update CoS appendix with card readings]]></title>
+                    <description><![CDATA[<p>Adding Madam Eva's card readings</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/cos/appendix?term=madam%20eva</link>
+                    <guid isPermaLink="false">62fccb93-d9f5-496d-afae-913d2480807e</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-03-11T11:17:28.922Z</pubDate>
                 </item>
 	</channel>
 </rss>
