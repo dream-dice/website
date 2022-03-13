@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Fri Mar 11 2022 13:59:33 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+		<lastBuildDate>Sun Mar 13 2022 17:57:41 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -102,6 +102,22 @@
                     <guid isPermaLink="false">62fccb93-d9f5-496d-afae-913d2480807e</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-03-11T11:17:28.922Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Update CoS with Chapter 36]]></title>
+                    <description><![CDATA[<p>Adding chapter 36 and the letter from Rolando.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/cos/notes?term=chapter%2036</link>
+                    <guid isPermaLink="false">2b294ddc-5e8d-4854-b89d-c261c0cda02b</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-03-13T17:05:41.259Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Update CM with Chapter 8]]></title>
+                    <description><![CDATA[<p>Adding chapter 8 of the Candlekeep Mysteries campaign.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/cm/notes?term=chapter%208</link>
+                    <guid isPermaLink="false">ccb0a0f5-23c0-4353-bd42-a786cfbf8dc7</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-03-13T17:53:50.403Z</pubDate>
                 </item>
 	</channel>
 </rss>

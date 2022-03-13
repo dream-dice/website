@@ -22,6 +22,42 @@
             ]
         },
         {
+            "date": "2022-03-12",
+            "name": "session-36",
+            "index": "36",
+            "title": "Chapter 36 - Breaking Through Tsolenka Pass",
+            "description": "The group make their way to the Amber Temple via Tsolenka pass and find themselves stuck between a rock and a hard place",
+            "notes": [
+                {
+                    "value": "Just as they awoke and ready to set off, Godfrey received a letter from Rolando of The Seven of Vallaki. It was an invitation to celebrate the Heroes of Vallaki at their earliest convenience. The letter also mentioned that an unnamed benefactor had donated several bottles of the illustrious Champagne De Stomp."
+                },
+                {
+                    "value": "As they got the pass, they found several Sangzor, a monk named Goatku. Goatku was Izek, who had renounced his ways and learned the goat's way. After challenging the group to a sparring match, he let them pass but warned them that things are not what they appeared and that the Amber Temple is very dangerous."
+                },
+                {
+                    "value": "After humiliating Goatku they found the bridge marked on the map. On it, Strahd and Rahadin stood. In a flash of rage, Mordenkainen ran forward to attack Strahd. Godfrey tried to stop her, but it was in vain as she stopped time for everyone and ran across the bridge to attack Strahd. To everyone's surprise, Strahd's image faded down Mord fell through an invisible hole into the freezing depths below."
+                },
+                {
+                    "value": "Zordar quickly dispelled the Rahadin illusion with a snowball, then Gorek expertly aided everyone across with his intermate knowledge of stones."
+                },
+                {
+                    "value": "They approached a wall 124ft high, with a gate made of a mysterious fire. Xerus flew over the wall, past the stone two giant bird statues, and found an outpost on the other side when he landed. The birds lept up and attacked, but they were too slow as he dashed inside the building."
+                },
+                {
+                    "value": "Using Zordar's cipher scroll, the group dispelled the magic and ran inside the tower to catch up with Xerus. Now there was one bird on top of the tower, and one stood outside."
+                },
+                {
+                    "value": "While inside the tower, the group realized that the gate was not to stop people from reaching the temple, but to stop things from the temple getting into Barovia."
+                },
+                {
+                    "value": "Kasimir's quick thinking to blast the cold hand on his shoulder with a firebolt revealed several ghosts hidden behind everyone, readying to slit their throats. The tower was cursed, and the spirits had previously been summoned centuries ago to assassinate everyone in the tower."
+                },
+                {
+                    "value": "The group made quick work of the specters and rested to strategies how they would get past the birds several times larger than they were and blocked all exits."
+                }
+            ]
+        },
+        {
             "date": "2022-02-26",
             "name": "session-35",
             "index": "35",
@@ -32,7 +68,7 @@
                     "title": "Gorek, Xerus and Zuleika"
                 },
                 {
-                    "value": "Gorek, Xerus and Zuleika are given a key by Ezmerelda and told that there is a tower that belonged to her surrogate father, Van Richten, that they could clear out and use as a place to keep Ireena safe."
+                    "value": "Gorek, Xerus, and Zuleika are given a key by Ezmerelda and told that there is a tower that belonged to her surrogate father, Van Richten, that they could clear out and use as a place to keep Ireena safe."
                 },
                 {
                     "value": "They find the tower and learn that an anti-magic shield protects it. At the top of the tower are books explaining that Van Richten used the tower, known as Kazahn's Tower, to learn everything he could about Strahd. They make a new friend, a suit of armour, named Kora. They took Van Richtens detailed map and notes on Barovia."
@@ -118,19 +154,45 @@
             "title": "Chapter 34 - Escaping the Mines",
             "description": "After killing Strahd, the group desperately tried to escape the mines as it stated to destroy itself around them. They managed to escape but now separated from one another.",
             "notes": [
-                "Dwight showed up in the mine and saw a wall explode with a ancient dwarf running out, followed by a creature known as The Beholder",
-                "He snapped Ireena out her trance, who had next to no memories of had happened",
-                "Everyone scrambled for the exit as the Beholder's magic on the mine started making it grow and change shape",
-                "First Xerus, Zuileika and Cuddles managed to get through the door and found themselves outside the marsh of the ruines of Berez",
-                "The mines shifted again and the door dissapeared into the floor behind Xerus",
-                "Godfrey summoned a Gold Dragon named Sedring to aide everyone else's escape",
-                "Next Zordar, Dwight and Mordankeinen escaped only to found themselves on top of a freezing mountain with The Amber Temple below them",
-                "The Beholder petrified Sedring, though his strength and wisdom was strong and he released himself from the stone",
-                "Sedring grabbed Ireena and Godfrey as he flew through the door, with an ancient dwarf screaming for his life not far behind",
-                "They found themselves as Tser Falls near the encampment where everyone met Madam Eva",
-                "Xerus went back to Krezk, in hopes he would find his friends and met Gorek who was waiting in the Baron's cottage",
-                "Dwight and Zordar could not stay the night atop a frozen mountain but saw Dwight's windmill not too far away so they went there to rest",
-                "Godfrey made camp, he only had a day before Sedring would leave him and asked him to go out and search for his friends"
+                {
+                    "value": "Dwight showed up in the mine and saw a wall explode with a ancient dwarf running out, followed by a creature known as The Beholder"
+                },
+                {
+                    "value": "He snapped Ireena out her trance, who had next to no memories of had happened"
+                },
+                {
+                    "value": "Everyone scrambled for the exit as the Beholder's magic on the mine started making it grow and change shape"
+                },
+                {
+                    "value": "First Xerus, Zuileika and Cuddles managed to get through the door and found themselves outside the marsh of the ruines of Berez"
+                },
+                {
+                    "value": "The mines shifted again and the door dissapeared into the floor behind Xerus"
+                },
+                {
+                    "value": "Godfrey summoned a Gold Dragon named Sedring to aide everyone else's escape"
+                },
+                {
+                    "value": "Next Zordar, Dwight and Mordankeinen escaped only to found themselves on top of a freezing mountain with The Amber Temple below them"
+                },
+                {
+                    "value": "The Beholder petrified Sedring, though his strength and wisdom was strong and he released himself from the stone"
+                },
+                {
+                    "value": "Sedring grabbed Ireena and Godfrey as he flew through the door, with an ancient dwarf screaming for his life not far behind"
+                },
+                {
+                    "value": "They found themselves as Tser Falls near the encampment where everyone met Madam Eva"
+                },
+                {
+                    "value": "Xerus went back to Krezk, in hopes he would find his friends and met Gorek who was waiting in the Baron's cottage"
+                },
+                {
+                    "value": "Dwight and Zordar could not stay the night atop a frozen mountain but saw Dwight's windmill not too far away so they went there to rest"
+                },
+                {
+                    "value": "Godfrey made camp, he only had a day before Sedring would leave him and asked him to go out and search for his friends"
+                }
             ]
         },
         {
@@ -170,16 +232,16 @@
             "name": "summary",
             "index": "S",
             "title": "Candlekeep Mysteries",
-            "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Together they solve the many mysteries that they come across whilst researching in Canlekeep.",
-            "current": "The group is stood outside the entrance to Shadowfell after a long rest.",
-            "next": "You plan to enter through the gate and discover what is on the other side.",
-            "why": "To finish Gre's unfinished business so that Drugry and he can move on.",
+            "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Together they solve the many mysteries that they come across while researching in Canlekeep.",
+            "current": "Everyone has arrived back at Candlekeep with Gre and Drugry.",
+            "next": "All Avowed have been asked to search for Freyot, who has killed another member of Candlekeep.",
+            "why": "Another member of Candlekeep has been killed.",
             "notes": [
                 {
                     "value": "Everyone joined Candlekeep and entered their books into the archive"
                 },
                 {
-                    "value": "Whilst on their tour of Candlekeep, they found a book which Matreous was researching called The Joy of Extradimensional Spaces"
+                    "value": "While on their tour of Candlekeep, they found a book which Matreous was researching called The Joy of Extradimensional Spaces"
                 },
                 {
                     "value": "They found Fistandia has made a mansion, and Freyot forced them to keep it open or would reveal how many book Fistandia has stolen"
@@ -188,13 +250,52 @@
                     "value": "When they left Matreous was dead with a note saying \"Freyot can no longer be trusted\"."
                 },
                 {
-                    "value": "Whilst investigating Matreous and Freyot, they came across a book from a raven and followed a mysterious map."
+                    "value": "While investigating Matreous and Freyot, they came across a book from a raven and followed a mysterious map."
                 },
                 {
-                    "value": "A Dragonborn named Gre asked them to go to Chalet Brantifax and enter Shadowfell to finish something he started. He didn't say what it was."
+                    "value": "A Dragonborn named Gre asked them to go to Chalet Brantifax and enter Shadowfell where the group killed his dark power Gory."
                 },
                 {
-                    "value": "The Scarlet Sash have shown the way into Shadowfell."
+                    "value": "After arriving back in Candlekeep all the Avowed are on the hunt for Freyot."
+                }
+            ]
+        },
+        {
+            "date": "2022-03-07",
+            "name": "session-8",
+            "index": "8",
+            "title": "Chapter 8 - Destroying Gre's Dark Power",
+            "description": "With Urwin, everyone makes their way into Shadowfell to find what Gre had left behind and solve the msteries of the Book of the Raven",
+            "notes": [
+                {
+                    "value": "Everyone crawled through the grave and found themselves in Shadowfell. In front of them stood a terrifying mausoleum."
+                },
+                {
+                    "value": "They entered the building and found several torture devices and chains adorning the building. In one of the sarcophaguses, they found a journal written by a lich named Gregory and the remains of the Book of The Raven hidden in a secret compartment inside."
+                },
+                {
+                    "value": "The rest of the book details how the author of the Book of the Raven had found a way to escape Barovia and detailed the hole leading through the grave."
+                },
+                {
+                    "value": "Gregory's journal explained that he had been locked up inside a place known as the Amber Temple. Once a powerful sorcerer named Strahd had been defeated he escaped. Gregory found a group of Vistani and killed them all in a blind rage. He found a dragon's egg, and the love he had for it split his dark power from him. Now he was Gre and Gory. Gre took the pages from Book of the Raven and escaped with the dragon egg. Gory stayed behind and wreaked havoc on anyone he came across."
+                },
+                {
+                    "value": "Gory attacked from the ceiling, firing arrows at everyone on the ground. He summoned chains to grapple anyone foolish enough to get close to the walls. It was a tough and close fight, during which two gargoyles joined and attacked anyone who wasn't paying attention to the ceiling."
+                },
+                {
+                    "value": "After dispatching Gory and destroying the gargoyles, Cloud took a ring of jumping from the remains of Gory, and the group crawled back through the hole and out of Shadowfell. Urwin left them to go back to the Scarlet Sash and promised to keep in touch with Cassandra, their latest member."
+                },
+                {
+                    "value": "They made their way back to the volcano and found Gre, who was no longer a dark Dragonborn, but a blue one. He thanked them and gave them each a bag of gems worth 100gp and a magical hoard item, a book with a large red gem on the cover. So long as Drugry worked to build his hoard, the Dragon-Touched Focus would grow stronger."
+                },
+                {
+                    "value": "Along with Gre and Drugry, everyone returned back to Candlekeep. Gre and Drugry went into the mountains to look for a place to create a new hoard, but still close enough to learn more about Myiirm."
+                },
+                {
+                    "value": "Bookwyrm gave everyone a total of 320gp each for the update to A Deep and Creeping Darkness and for a limerick to summarise their mystery."
+                },
+                {
+                    "value": "In The Hearth, Little One told them that they should seek Pittacus as all Avowed were asked to find Freyot after they had killed again."
                 }
             ]
         },
@@ -202,7 +303,7 @@
             "date": "2021-11-11",
             "name": "session-0",
             "index": "0",
-            "title": "Chapter 0 - Introductions",
+            "title": "Chapter 1 - Introductions",
             "description": "We meet our group of new Seekers",
             "notes": [
                 {
@@ -223,7 +324,7 @@
             "date": "2021-11-21",
             "name": "session-1",
             "index": "1",
-            "title": "Chapter 1 - Welcome to Candlekeep",
+            "title": "Chapter 2 - Welcome to Candlekeep",
             "description": "We meet everyone, and whilst going on Pittacus's tour of Candlekeep, Matreous accidentally locks everyone inside a magical mansion.",
             "notes": [
                 {
@@ -277,7 +378,7 @@
             "date": "2021-12-20",
             "name": "session-2",
             "index": "2",
-            "title": "Chapter 2 - Exploring the Mansion",
+            "title": "Chapter 3 - Exploring the Mansion",
             "description": "Locked inside the mansion, everyone runs around trying to find a way out.",
             "notes": [
                 "They discover two homunculi whose masters have left them doing nothing but make bread. Fistandia and Freyot are their master's.",
@@ -297,7 +398,7 @@
             "date": "2022-01-10",
             "name": "session-3",
             "index": "3",
-            "title": "Chapter 3 - Leaving the Mansion",
+            "title": "Chapter 4 - Leaving the Mansion",
             "description": "Everyone manages to figure out how to open the door and leave the mansion, only to find Matreous dead.",
             "notes": [
                 {
@@ -390,7 +491,7 @@
             "date": "2022-01-24",
             "name": "session-4",
             "index": "4",
-            "title": "Chapter 4 - Following the Mysterious Map",
+            "title": "Chapter 5 - Following the Mysterious Map",
             "description": "After arriving at Wytchway everyone follows the map and it leads them to a volcano, home to a dragon and his speaker.",
             "notes": [
                 {
@@ -438,7 +539,7 @@
             "date": "2022-02-7",
             "name": "session-5",
             "index": "5",
-            "title": "Chapter 5 - Entering Chalet Brantifax",
+            "title": "Chapter 6 - Entering Chalet Brantifax",
             "description": "The mysterious map leads everyone to Chalet Brantifax, the final destination on the map.",
             "notes": [
                 {
@@ -507,7 +608,7 @@
             "date": "2022-02-21",
             "name": "session-6",
             "index": "6",
-            "title": "Chapter 6 - Finding the Entrance to Shadowfell",
+            "title": "Chapter 7 - Finding the Entrance to Shadowfell",
             "description": "Everyone meets the Scarlet Sash and find the entrance to Shadowfell",
             "notes": [
                 {
