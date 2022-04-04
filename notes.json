@@ -233,9 +233,9 @@
             "index": "S",
             "title": "Candlekeep Mysteries",
             "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Together they solve the many mysteries that they come across while researching in Canlekeep.",
-            "current": "Everyone has arrived back at Candlekeep with Gre and Drugry.",
-            "next": "All Avowed have been asked to search for Freyot, who has killed another member of Candlekeep.",
-            "why": "Another member of Candlekeep has been killed.",
+            "current": "You found Freyot, who is heading to the Grand Library.",
+            "next": "You are jumping down a hole dug by Freyot to catch up to them.",
+            "why": "They are dangerous and in planning to take of Myiirm's hoard.",
             "notes": [
                 {
                     "value": "Everyone joined Candlekeep and entered their books into the archive"
@@ -253,10 +253,46 @@
                     "value": "While investigating Matreous and Freyot, they came across a book from a raven and followed a mysterious map."
                 },
                 {
-                    "value": "A Dragonborn named Gre asked them to go to Chalet Brantifax and enter Shadowfell where the group killed his dark power Gory."
+                    "value": "After arriving back in Candlekeep all the Avowed are on the hunt for Freyot."
+                }
+            ]
+        },
+        {
+            "date": "2022-03-21",
+            "name": "session-9",
+            "index": "9",
+            "title": "Chapter 9 - Tracking Freyot",
+            "description": "After returning to Candlekeep Freyot killed again, and the hunt was on.",
+            "notes": [
+                {
+                    "value": "Little One explained that another person has been killed."
                 },
                 {
-                    "value": "After arriving back in Candlekeep all the Avowed are on the hunt for Freyot."
+                    "value": "Firewatch received a letter from Glenny, Matreous's mother explaining that Freyot had open three rooms in the Hearth."
+                },
+                {
+                    "value": "Together they found the keys for the three rooms, and Florian reached under the elevator freeing them from the house of rest."
+                },
+                {
+                    "value": "The first room was a hoard of books, all about Myiirm, the dragon who started their hoard with Janussi when Candlekeep was    ."
+                },
+                {
+                    "value": "The next room contained a Dragonborn named Ernest, Freyots dragon speaker."
+                },
+                {
+                    "value": "Ernest explained that Freyot had created four illusions to get around Candlekeep. Francis, with no voice. Matreous, now dead. Lirial, now exiled. Pittacus was the fourth illusion."
+                },
+                {
+                    "value": "The last room contained several tunnels acting as portals to the whole of Candlekeep."
+                },
+                {
+                    "value": "The group took Janussi to meet Ernest to prove that Freyot is planning on taking over the hoard and that Pittacus is an illusion."
+                },
+                {
+                    "value": "Back in The Hearth Pittacus was there, the illusion broken, showing the emerald dragon in their true form. Freyot fled towards the Grand Library by burrowing."
+                },
+                {
+                    "value": "In light of this, Jannusi gave Firewatch a key to the Grand Library and said she would get back up while they chased down the dragon."
                 }
             ]
         },
