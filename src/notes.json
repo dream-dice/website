@@ -6,8 +6,8 @@
             "index": "S",
             "title": "Curse of Strahd",
             "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land ruled by a vampire named Strahd who had all but destroyed the world around them.",
-            "current": "While passing through Tsolenka pass to get to the Amber Temple, the group have been pinned down by giant birds.",
-            "next": "With Kasimir, the group are going through Tsolenka Pass, the quickest way from Krezk, to get to The Amber Temple.",
+            "current": "After entering the Amber Temple the group found and killed Rahadin.",
+            "next": "The group is looking for a weapon in the Amber Temple while Kasimir is looking for a cure for his sister.",
             "why": "Madam Eva said there would be a weapon of great power here, and Kasimir wants to cure his sister of Vampirism.",
             "notes": [
                 {
@@ -18,6 +18,36 @@
                 },
                 {
                     "value": "Madam Eva gave them a card reading to help them defeat Strahd."
+                }
+            ]
+        },
+        {
+            "date": "2022-03-12",
+            "name": "session-37",
+            "index": "37",
+            "title": "Chapter 37 - Stepping into the Amber Temple",
+            "description": "The group escaped the clutches of the giant birds only to find themselves face-to-face with Rahadin",
+            "notes": [
+                {
+                    "value": "The group, stuck inside a tower, decided to divide into two. Half went onto the roof to attack the giant bird in the sky, and half went to attack the one on the ground."
+                },
+                {
+                    "value": "Kasimir flew into the sky to save Gorek from falling to his death while Dwight finished the monster in the sky with his bow."
+                },
+                {
+                    "value": "The group made their way to the Amber Temple and saw Rahadin run inside. Godfrey the Vengeful with some of the group charged to chase down Rahadin."
+                },
+                {
+                    "value": "Some of the party found a crack in the wall to the west of the temple and fled after seeing several large and angry people with a giant wolf."
+                },
+                {
+                    "value": "They found Rahadin praying at a giant statue of a wizard, sacrificing a frog, and then turned to attack the group, almost wiping out Zuleika with a single attack."
+                },
+                {
+                    "value": "Rahadin told Kasamir that he wanted him dead so that he and his sister, Patricia, could take over Barovia. Kasimir said he would do anything to save his sister."
+                },
+                {
+                    "value": "The group killed Rahadin, then Godfrey prayed to Helm, who managed to contact him, telling him to find the weapon in the temple and be wary of a Lich."
                 }
             ]
         },
@@ -233,9 +263,9 @@
             "index": "S",
             "title": "Candlekeep Mysteries",
             "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Together they solve the many mysteries that they come across while researching in Canlekeep.",
-            "current": "You found Freyot, who is heading to the Grand Library.",
-            "next": "You are jumping down a hole dug by Freyot to catch up to them.",
-            "why": "They are dangerous and in planning to take of Myiirm's hoard.",
+            "current": "You found Freyot in the Grand Library and are biding time for back up.",
+            "next": "You plan to finish Freyot off and reap as many rewards as you can in the process.",
+            "why": "Freyot keeps killing people and wants to take over Myiirms hoard.",
             "notes": [
                 {
                     "value": "Everyone joined Candlekeep and entered their books into the archive"
@@ -253,7 +283,46 @@
                     "value": "While investigating Matreous and Freyot, they came across a book from a raven and followed a mysterious map."
                 },
                 {
-                    "value": "After arriving back in Candlekeep all the Avowed are on the hunt for Freyot."
+                    "value": "After arriving back in Candlekeep you face down Freyot in a showdown."
+                }
+            ]
+        },
+        {
+            "date": "2022-04-04",
+            "name": "session-10",
+            "index": "10",
+            "title": "Chapter 10 - Through the Grand Library Maze",
+            "description": "Without a moments hesitation the group made their way through Freyots tunnel to find them in the Grand Library.",
+            "notes": [
+                {
+                    "value": "The Grand Library was a large and complex maze."
+                },
+                {
+                    "value": "Many of the books in the library \"came to life\" with their powers."
+                },
+                {
+                    "value": "Timagast found a tiny Efreeti with incredible powers, and they are now adventuring together."
+                },
+                {
+                    "value": "They came across a clock with abilities to alter time, where Cassandra took the hand and put it into her equipment."
+                },
+                {
+                    "value": "Florain took the \"Book of the Raven\" from the library after fighting Gory again."
+                },
+                {
+                    "value": "Timagast took a book named \"How the bloody hell do I get out of this blasted maze?\" to act as a compass, though the group refused to use it."
+                },
+                {
+                    "value": "The group found Pittacus, the real one, and he went with them to find and kill Freyot."
+                },
+                {
+                    "value": "The group found Freyot behind a secret door, hiding in a room full of treasure."
+                },
+                {
+                    "value": "Freyot used their psychic powers and killed Pittacus."
+                },
+                {
+                    "value": "Timagast managed to trick Freyot into thinking they would help him hide in Candlekeep and get stronger in an attempt to buy time and wait for Firewatch and back up to arrive."
                 }
             ]
         },
