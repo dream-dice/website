@@ -10,7 +10,7 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Mon Apr 04 2022 12:04:30 GMT+0100 (British Summer Time)</lastBuildDate>
+		<lastBuildDate>Tue Apr 19 2022 11:04:46 GMT+0100 (British Summer Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
@@ -126,6 +126,14 @@
                     <guid isPermaLink="false">2d6fea15-a1ca-4417-acb3-129df08a16e3</guid>
                     <dc:creator><![CDATA[Luke String]]></dc:creator>
                     <pubDate>2022-04-04T11:03:40.950Z</pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Update CM with Chapter 10 and CoS with chapter 37]]></title>
+                    <description><![CDATA[<p>Adding some missing chapters to the notes and updating some character notes.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/cos/notes?term=chapter%2037</link>
+                    <guid isPermaLink="false">eec0e7c8-16be-4381-b492-aa19b556231d</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-04-19T09:37:00.879Z</pubDate>
                 </item>
 	</channel>
 </rss>

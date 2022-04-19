@@ -14,7 +14,7 @@
                     "level": 3
                 }
             ],
-            "description": "Ku-Quar wandered through Death House with everyone and after several tough battles he took an opportunity to take his own life in order to save everyone else.",
+            "description": "Ku-Quar wandered through Death House with everyone and after several tough battles he took an opportunity to take his own life to save everyone else.",
             "famous": [
                 "Struggled to hit a Mimic door",
                 "Killed himself and turned into a Revenant",
@@ -67,7 +67,9 @@
                 "Ireena hid behind his shield",
                 "Strahd charmed him and took him away",
                 "Helm saved him from Strahd, and in the process infused a magical power within him",
-                "He has changed his oath, to strike vengeance against Strahd"
+                "He has changed his oath, to strike vengeance against Strahd",
+                "Was able to contact Helm inside the Amber Temple",
+                "Got revenge on Rahadin who almost killed him"
             ]
         },
         {
@@ -84,7 +86,7 @@
                     "level": 10
                 }
             ],
-            "description": "Entered Barovia contracted to retrieve a powerful item, he got stuck in Barovia and has since taken contracts in order to kill werewolves and vampires.",
+            "description": "Entered Barovia contracted to retrieve a powerful item, he got stuck in Barovia and has since taken contracts to kill werewolves and vampires.",
             "famous": [
                 "Started a race with Dwight to break the monotony",
                 "Used his mask to pretend to be Dwight and the werewolf Lykaios",
@@ -136,7 +138,8 @@
                 "Plays pranks on Dwight",
                 "Uses his flute to cast spells",
                 "Created replicas of everyone to fool the werewolves",
-                "Cursed after stealing some treasure from the werewolves"
+                "Cursed after stealing some treasure from the werewolves",
+                "Kasmir saved him from falling to his death in the clutches of a giant bird"
             ]
         },
         {
@@ -231,7 +234,7 @@
             "race": "Beast",
             "description": "Xerus found the Staff of the Python whilst clearing out a cave of vampires. He can now summon a large snake by throwing the staff to the ground",
             "famous": [
-                "Was used quite a bit in order to travel around the marsh."
+                "Was used quite a bit to travel around the marsh."
             ]
         },
         {
@@ -241,11 +244,12 @@
             "race": "Dark Elf (Drow)",
             "description": "Kasimir used to live with the Vistani who camped outside of Vallaki and helped lead them. After his daughter drowned in lake Zarovich he decided to leave the group and save his sister Patrina Velikovna from Strahd.",
             "famous": [
-                "Staying in Krezk in order to liase with Ezmerelda",
+                "Staying in Krezk to liase with Ezmerelda",
                 "Wears a ring which keeps him warm.",
                 "He has asked to go with the group to the Amber Temple to find a cure for vampirism.",
                 "Has said that the Amber Temple is too cold to withstand without warm winter gear.",
-                "He is leaving in a day with or without the group."
+                "He is leaving in a day with or without the group.",
+                "Wanted Rahadin dead so that he could save his sister."
             ]
         },
         {
@@ -267,7 +271,11 @@
             "race": "Dusk Elf",
             "description": "Serves Strahd.",
             "famous": [
-                "Showed everyone to the dining hall in Caslte Ravenloft."
+                "Showed everyone to the dining hall in Caslte Ravenloft.",
+                "Almost killed Godfrey and lost his Nightmare in the process.",
+                "Wants to marry Patricia and eventually rule Barovia.",
+                "Found in the Amber Temple worshiping a giant statue of a Wizard.",
+                "Was killed by the group in the Amber Temple."
             ]
         },
         {
@@ -279,7 +287,7 @@
             "famous": [
                 "Met everyone in Barovia outside of the church and gave them in an invite for dinner.",
                 "Mordenkainen took several people to attack the castle (including Doru) and failed, he threw her off a cliff and presumed she had died.",
-                "Possessed Ireena and others in order to get them to come over for dinner.",
+                "Possessed Ireena and others to get them to come over for dinner.",
                 "Tatyana was his brother's (Serei) wife.",
                 "During Sergei and Tatyana's wedding he killed them both.",
                 "He invaded the land and named it Barovia.",
@@ -308,7 +316,8 @@
                 "The baroness of Vallaki gave her a job as ger hand maid. It was torturous.",
                 "After the saking of Vallaki the group decided to keep her safe in the mine.",
                 "She took Scoob, the Baron's matif, to keep her company in the mine.",
-                "The group came to lift the curse on her which binds her to Strahd but found her on her knees chanting."
+                "The group came to lift the curse on her which binds her to Strahd but found her on her knees chanting.",
+                "She is now locked inside Kazhan's tower and protected by powerful magic."
             ]
         },
         {
@@ -324,7 +333,8 @@
                 "She summoned a mansion for herself in the mines.",
                 "She summoned a mansion for Ireena in the mines.",
                 "Strahd has commanded her to trigger the mines defences to attack the group.",
-                "Strahd then slit her throat and drank her blood, she is currently incapacited on the floor."
+                "Strahd then slit her throat and drank her blood, she is currently incapacited on the floor.",
+                "When she saw Strahd she froze time, charged onto the bridge and fell down into the icy cold depths below."
             ]
         },
         {
@@ -350,6 +360,59 @@
                 "Kept Ireena company.",
                 "Found dead in the mines."
             ]
+        },
+        {
+            "name": "patricia",
+            "image": "unknown",
+            "title": "Patricia",
+            "race": "Dark Elf (Drow)",
+            "description": "Kasmir's sister who fell in love with Rahadin taken by Strahd to be one of his brides.",
+            "famous": [
+                "Has been in contact with Ezmerelda and is waiting to be rescued by her.",
+                "The Hag told Dwight and Zordar that she is a Banshee and it is a trap as she plans to kill Kasimir and Ezmerelda."
+            ]
+        },
+        {
+            "name": "esokva",
+            "image": "priest-osybus-masked",
+            "title": "Esokva",
+            "race": "Human",
+            "description": "Lives in Dwight's windmill after he saved him and his sister Kiyakal from three evil hags.",
+            "famous": [
+                "Found inside a chest and was told if he and his sister could live in the Windmill.",
+                "Was seen at Vallaki Markets selling pastries.",
+                "His sister pushed him off the Windmill killing him when they were fighting.",
+                "Was brought back to life in the Amber Temple.",
+                "He is now a vampire and looking to gain more power and eventually over through Strahd.",
+                "Dwight and Zordar have promised to help him in his quest in exchange for knowledge about Strahd and the Castle."
+            ]
+        },
+        {
+            "name": "kiyakal",
+            "image": "hag-4",
+            "title": "Esokva",
+            "race": "Human",
+            "description": "Lives in Dwight's windmill after he saved him and his sister Kiyakal from three evil hags.",
+            "famous": [
+                "Found inside a chest and was told if he and his sister could live in the Windmill.",
+                "Was seen at Vallaki Markets selling pastries.",
+                "As she started transforming into a Hag she eventually went into a rage and pushed her brother off the Windmill.",
+                "She took him to the Amber Temple and prayed to a statue to bring him back to life. He became a vampire.",
+                "Kiyakal has an Amber Eye left by the Hag sisters, which allows her to see into Strahd's castle.",
+                "Using this power, she told Zordar and Dwight that Patricia was planning to kill everyone.",
+                "She also told them that a Pidlwik III would be in the castle, a mischievous puppet who would act as a guide.",
+                "She gave Dwight the Amber Eye and said that he could come back to the Nightmare plane anytime and seek advice, in exchange her and her brother would be allowed to live and continue making pasties, out of people."
+            ]
+        },
+        {
+            "name": "pidlwik-iii",
+            "image": "unknown",
+            "title": "Pidlwik III",
+            "race": "Construct",
+            "description": "Hides in Strahd's castle, like a rat, causing mischief and has never been caught.",
+            "famous": [
+                "Will act as a guide to the group if they ask him."
+            ]
         }
     ],
     "cm": [
@@ -370,7 +433,8 @@
             "famous": [
                 "Has bugs in his hair.",
                 "Turned a pile of a book into his 'Book Club'.",
-                "Owns a mastiff named Ambrosius as a mount and a frog named Frog."
+                "Owns a mastiff named Ambrosius as a mount and a frog named Frog.",
+                "Has an Efreeti"
             ]
         },
         {
