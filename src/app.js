@@ -7,6 +7,7 @@ import NotesPage from './notes-page'
 import NotFound from './not-found-page';
 import Game from './game';
 import AppendixPage from './appendix-page'
+import CalendarPage from './calendar-page'
 import ShopAndServicesPage from './shop-and-services-page'
 
 const App = () => {
@@ -24,10 +25,12 @@ const App = () => {
                 <Route path='/cos/characters' element={<Game game='cos' page='characters' />}></Route>
                 <Route path='/cos/notes' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/appendix' element={<Game game='cos' page='appendix' />}></Route>
+                <Route path='/cos/calendar' element={<Game game='cos' page='calendar' />}></Route>
                 <Route path='/cm' element={<Game game='cm' page='characters' />}></Route>
                 <Route path='/cm/characters' element={<Game game='cm' page='characters' />}></Route>
                 <Route path='/cm/notes' element={<Game game='cm' page='notes' />}></Route>
                 <Route path='/cm/appendix' element={<Game game='cm' page='appendix' />}></Route>
+                <Route path='/cm/calendar' element={<Game game='cm' page='calendar' />}></Route>
               </Routes>
               <Routes>
                 <Route path='/' element={<HomePage />}></Route>
@@ -40,6 +43,8 @@ const App = () => {
                 <Route path='/cm/notes' element={<NotesPage game='cm' />}></Route>
                 <Route path='/cos/appendix' element={<AppendixPage game='cos' />}></Route>
                 <Route path='/cm/appendix' element={<AppendixPage game='cm' />}></Route>
+                <Route path='/cos/calendar' element={<CalendarPage game='cos' />}></Route>
+                <Route path='/cm/calendar' element={<CalendarPage game='cm' />}></Route>
                 <Route element={<NotFound />}></Route>
               </Routes>
             </div>

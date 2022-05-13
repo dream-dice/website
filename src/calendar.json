@@ -1,0 +1,14 @@
+{
+    "cos": {
+        "time": "2022-01-25T18:32:34.359Z",
+        "weather": "Freezing and snowing, -10*F",
+        "combat": false,
+        "round": 0,
+        "events": [{
+            "value": "Ronaldo of The Seven of Vallaki has invited you all to dine with them in Vallaki at HQ, at your earliest convenience."
+        }, {
+            "time": "2022-01-27T00:00:00.000Z",
+            "value": "Ezmerelda is meeting with Kasimir in Berez to break the vampirism on Patricia."
+        }]
+    }
+}

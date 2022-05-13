@@ -16,88 +16,90 @@ const FactionOverview = () => (
             <p>
                 The following is your renown or how many jobs you will need to have taken to progress through the ranks, it is up to your faction to decide what each rank’s responsibilities are ant what rewards you receive but the format is the same for each rank.
             </p>
-            <table className='table is-narrow is-stripped'>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Benefit</th>
-                        <th>Renown</th>
-                        <th>Jobs</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            Rank D
-                        </td>
-                        <td>
-                            Nothing
-                        </td>
-                        <td>
-                            1
-                        </td>
-                        <td>
-                            0
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Rank C
-                        </td>
-                        <td>
-                            Faction skill
-                        </td>
-                        <td>
-                            3
-                        </td>
-                        <td>
-                            1
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Rank B
-                        </td>
-                        <td>
-                            +1 ability point, can't go above 20
-                        </td>
-                        <td>
-                            20
-                        </td>
-                        <td>
-                            2
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Rank A
-                        </td>
-                        <td>
-                            A unique magic item that reflects the Faction's beliefs
-                        </td>
-                        <td>
-                            50
-                        </td>
-                        <td>
-                            3
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Rank S
-                        </td>
-                        <td>
-                            A unique feat that reflects the Faction's beliefs
-                        </td>
-                        <td>
-                            100
-                        </td>
-                        <td>
-                            4
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div className='table-container'>
+                <table className='table is-narrow is-stripped'>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Benefit</th>
+                            <th>Renown</th>
+                            <th>Jobs</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Rank D
+                            </td>
+                            <td>
+                                Nothing
+                            </td>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Rank C
+                            </td>
+                            <td>
+                                Faction skill
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Rank B
+                            </td>
+                            <td>
+                                +1 ability point, can't go above 20
+                            </td>
+                            <td>
+                                20
+                            </td>
+                            <td>
+                                2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Rank A
+                            </td>
+                            <td>
+                                A unique magic item that reflects the Faction's beliefs
+                            </td>
+                            <td>
+                                50
+                            </td>
+                            <td>
+                                3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Rank S
+                            </td>
+                            <td>
+                                A unique feat that reflects the Faction's beliefs
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                4
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
         </div>
 

@@ -66,56 +66,59 @@ const Items = ({ items }) => {
     const [{ price, search }, dispatch] = useReducer(itemsReducer, { price: 'asc', search: '', items })
 
     return (
-        <table className='table is-striped is-narrow is-fullwidth'>
-            <thead>
-                <tr>
-                    <th>
 
-                        <input
-                            type='text'
-                            className='input is-small'
-                            placeholder='Name'
-                            value={search}
-                            onChange={({ target: { value: search } }) => {
-                                dispatch({
-                                    type: 'search',
-                                    payload: {
-                                        search
-                                    }
-                                })
-                            }}
-                        />
+        <div className='table-container'>
+            <table className='table is-striped is-narrow is-fullwidth'>
+                <thead>
+                    <tr>
+                        <th>
 
-                    </th>
-                    <th>
-                        <button
-                            className='button is-small'
-                            onClick={() => {
-                                dispatch({
-                                    type: 'sort',
-                                    payload: {
-                                        kind: 'price'
-                                    }
-                                })
-                            }}
-                        >
-                            <div className={`arrow-${price} mr-1`} />
-                            <span>Price</span>
-                        </button>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>{
-                filter({ items, search })
-                    .sort(sort(price))
-                    .map(({ title, price }) => (
-                        <tr key={title}>
-                            <td>{title}</td>
-                            <td>{price}</td>
-                        </tr>
-                    ))
-            }</tbody>
-        </table>
+                            <input
+                                type='text'
+                                className='input is-small'
+                                placeholder='Name'
+                                value={search}
+                                onChange={({ target: { value: search } }) => {
+                                    dispatch({
+                                        type: 'search',
+                                        payload: {
+                                            search
+                                        }
+                                    })
+                                }}
+                            />
+
+                        </th>
+                        <th>
+                            <button
+                                className='button is-small'
+                                onClick={() => {
+                                    dispatch({
+                                        type: 'sort',
+                                        payload: {
+                                            kind: 'price'
+                                        }
+                                    })
+                                }}
+                            >
+                                <div className={`arrow-${price} mr-1`} />
+                                <span>Price</span>
+                            </button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>{
+                    filter({ items, search })
+                        .sort(sort(price))
+                        .map(({ title, price }) => (
+                            <tr key={title}>
+                                <td>{title}</td>
+                                <td>{price}</td>
+                            </tr>
+                        ))
+                }</tbody>
+            </table>
+        </div>
     )
 }
 

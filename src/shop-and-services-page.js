@@ -145,79 +145,81 @@ const Shop = ({ itemType }) => {
     }, 0)
 
     return (
-        <table className='table is-fullwidth is-striped is-narrow'>
-            <thead>
-                <tr>
-                    <ItemTitle
-                        sort={sortTitle}
-                        value={titleTerm}
-                        onSort={(sort) => { dispatch({ type: 'sort-title', payload: { sort } }) }}
-                        onChange={(term) => { dispatch({ type: 'filter-title', payload: { term } }) }}
-                    />
-                    <ItemPrice
-                        sort={sortPrice}
-                        value={priceValue}
-                        onSort={(sort) => { dispatch({ type: 'sort-price', payload: { sort } }) }}
-                        onChange={(value) => { dispatch({ type: 'max-price', payload: { value } }) }}
-                    />
-                    {hasType && <ItemType
-                        sort={sortType}
-                        checked={checked}
-                        open={typeOpen}
-                        onSort={(sort) => { dispatch({ type: 'sort-type', payload: { sort } }) }}
-                        onToggle={() => { dispatch({ type: 'type-toggle', payload: { open: !typeOpen } }) }}
-                        onChange={({ type, checked }) => { dispatch({ type: 'type-checked', payload: { type, checked } }) }}
-                        types={[...new Set(items[itemType].map(({ title, type }) => type || title))].sort()}
-                    />}
-                </tr>
-            </thead>
-            <tbody>
-                {
-                    items[itemType]
-                        .filter(({ type }) => checkedQuantity === 0 || checked[type])
-                        .filter(({ title }) => {
-                            const searchTerms = titleTerm
-                                .split(/[^A-Z0-9 ]/ig)
-                                .filter(searchTerm => searchTerm !== '')
-                                .map(t => t.toLowerCase().trim())
+        <div className='table-container'>
+            <table className='table is-fullwidth is-striped is-narrow'>
+                <thead>
+                    <tr>
+                        <ItemTitle
+                            sort={sortTitle}
+                            value={titleTerm}
+                            onSort={(sort) => { dispatch({ type: 'sort-title', payload: { sort } }) }}
+                            onChange={(term) => { dispatch({ type: 'filter-title', payload: { term } }) }}
+                        />
+                        <ItemPrice
+                            sort={sortPrice}
+                            value={priceValue}
+                            onSort={(sort) => { dispatch({ type: 'sort-price', payload: { sort } }) }}
+                            onChange={(value) => { dispatch({ type: 'max-price', payload: { value } }) }}
+                        />
+                        {hasType && <ItemType
+                            sort={sortType}
+                            checked={checked}
+                            open={typeOpen}
+                            onSort={(sort) => { dispatch({ type: 'sort-type', payload: { sort } }) }}
+                            onToggle={() => { dispatch({ type: 'type-toggle', payload: { open: !typeOpen } }) }}
+                            onChange={({ type, checked }) => { dispatch({ type: 'type-checked', payload: { type, checked } }) }}
+                            types={[...new Set(items[itemType].map(({ title, type }) => type || title))].sort()}
+                        />}
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        items[itemType]
+                            .filter(({ type }) => checkedQuantity === 0 || checked[type])
+                            .filter(({ title }) => {
+                                const searchTerms = titleTerm
+                                    .split(/[^A-Z0-9 ]/ig)
+                                    .filter(searchTerm => searchTerm !== '')
+                                    .map(t => t.toLowerCase().trim())
 
-                            return titleTerm === '' ||
-                                searchTerms.filter(term => title.toLowerCase().includes(term)).length > 0
-                        })
-                        .filter(({ price }) => {
-                            return priceValue === '' ||
-                                isNaN(priceValue) ||
-                                priceToCopper(price) <= priceToCopper(`${priceValue}gp`)
-                        })
-                        .sort(({ title: leftTitle, price: leftPrice, type: leftType }, { title: rightTitle, price: rightPrice, type: rightType }) => {
-                            if (sortPrice === 'asc' && priceToCopper(leftPrice) < priceToCopper(rightPrice)) return -3
-                            if (sortPrice === 'asc' && priceToCopper(leftPrice) > priceToCopper(rightPrice)) return 3
-                            if (sortPrice === 'dsc' && priceToCopper(leftPrice) < priceToCopper(rightPrice)) return 3
-                            if (sortPrice === 'dsc' && priceToCopper(leftPrice) > priceToCopper(rightPrice)) return -3
+                                return titleTerm === '' ||
+                                    searchTerms.filter(term => title.toLowerCase().includes(term)).length > 0
+                            })
+                            .filter(({ price }) => {
+                                return priceValue === '' ||
+                                    isNaN(priceValue) ||
+                                    priceToCopper(price) <= priceToCopper(`${priceValue}gp`)
+                            })
+                            .sort(({ title: leftTitle, price: leftPrice, type: leftType }, { title: rightTitle, price: rightPrice, type: rightType }) => {
+                                if (sortPrice === 'asc' && priceToCopper(leftPrice) < priceToCopper(rightPrice)) return -3
+                                if (sortPrice === 'asc' && priceToCopper(leftPrice) > priceToCopper(rightPrice)) return 3
+                                if (sortPrice === 'dsc' && priceToCopper(leftPrice) < priceToCopper(rightPrice)) return 3
+                                if (sortPrice === 'dsc' && priceToCopper(leftPrice) > priceToCopper(rightPrice)) return -3
 
-                            if (sortType === 'asc' && leftType < rightType) return -2
-                            if (sortType === 'asc' && leftType > rightType) return 2
-                            if (sortType === 'dsc' && leftType < rightType) return 2
-                            if (sortType === 'dsc' && leftType > rightType) return -2
+                                if (sortType === 'asc' && leftType < rightType) return -2
+                                if (sortType === 'asc' && leftType > rightType) return 2
+                                if (sortType === 'dsc' && leftType < rightType) return 2
+                                if (sortType === 'dsc' && leftType > rightType) return -2
 
-                            if (sortTitle === 'asc' && leftTitle < rightTitle) return -1
-                            if (sortTitle === 'dsc' && leftTitle > rightTitle) return -1
-                            if (sortTitle === 'asc' && leftTitle < rightTitle) return 1
-                            if (sortTitle === 'dsc' && leftTitle > rightTitle) return 1
-                            return 0
-                        })
-                        .map(({ title, price, type }) => (
-                            <tr key={title}>
-                                <td>
-                                    <DDBLink href={links[itemType]} name={title} />
-                                </td>
-                                <td>{price}</td>
-                                {type && <td>{type}</td>}
-                            </tr>
-                        ))
-                }
-            </tbody>
-        </table>
+                                if (sortTitle === 'asc' && leftTitle < rightTitle) return -1
+                                if (sortTitle === 'dsc' && leftTitle > rightTitle) return -1
+                                if (sortTitle === 'asc' && leftTitle < rightTitle) return 1
+                                if (sortTitle === 'dsc' && leftTitle > rightTitle) return 1
+                                return 0
+                            })
+                            .map(({ title, price, type }) => (
+                                <tr key={title}>
+                                    <td>
+                                        <DDBLink href={links[itemType]} name={title} />
+                                    </td>
+                                    <td>{price}</td>
+                                    {type && <td>{type}</td>}
+                                </tr>
+                            ))
+                    }
+                </tbody>
+            </table>
+        </div>
     )
 }
 
