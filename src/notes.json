@@ -6,9 +6,9 @@
             "index": "S",
             "title": "Curse of Strahd",
             "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land ruled by a vampire named Strahd who had all but destroyed the world around them.",
-            "current": "After entering the Amber Temple the group found and killed Rahadin.",
-            "next": "The group is looking for a weapon in the Amber Temple while Kasimir is looking for a cure for his sister.",
-            "why": "Madam Eva said there would be a weapon of great power here, and Kasimir wants to cure his sister of Vampirism.",
+            "current": "The group continues to search for the weapon Madam Eva spoke of in her card reading in the Amber Temple.",
+            "next": "With the help of Vilnius the group continues their search for the weapon of great power.",
+            "why": "Madam Eva said there would be a weapon of great power here, Kasimir wants to cure his sister of Vampirism, and Vilnius wants to escape.",
             "notes": [
                 {
                     "value": "Everyone was trapped in Barovia and can't leave due to the thick fog."
@@ -18,6 +18,78 @@
                 },
                 {
                     "value": "Madam Eva gave them a card reading to help them defeat Strahd."
+                }
+            ]
+        },
+        {
+            "date": "2022-05-07",
+            "name": "session-39",
+            "index": "39",
+            "title": "Chapter 39 - Saving the Cowardly Mage",
+            "description": "The group comes across a mage, hiding from the dangers in the Amber Temple.",
+            "notes": [
+                {
+                    "value": "The group finds the library after following the scent of the Witches."
+                },
+                {
+                    "value": "In the Library, a book named \"Shalx\", details of a wizard who studied death and tried to bring people back from beyond the grave, open on a table."
+                },
+                {
+                    "value": "The book showed a picture of the Witches' door, and it tells them the password is \"Shalx\"."
+                },
+                {
+                    "value": "While researching in the library, they find a book about the architecture of Castle Ravenloft. On the back of the book is a picture of the card reading \"The Elementalist\"."
+                },
+                {
+                    "value": "The book details how the wizards of the Amber Temple had constructed the castle. The blue prints inside are out of date, at least the part of the castle the group have previously seen."
+                },
+                {
+                    "value": "Gorek finds a book bound using cogs and chains."
+                },
+                {
+                    "value": "The book is from an Artificer who studied different ways to augment one's natural abilities."
+                },
+                {
+                    "value": "The book has the symbol of a Shield with a Chain running across it and tells them the password for this door is \"Harkotha\"."
+                },
+                {
+                    "value": "The group head back to the Witches, open the door with the password, and proceed to kill them all."
+                },
+                {
+                    "value": "Godfrey took an ability from one of the sarcophagi in the room, a spirit told traded his face and smile for the Thunderbolt spell."
+                },
+                {
+                    "value": "The group through a hole in the roof and as they see an Amber Giant they dash into a lecture theatre."
+                },
+                {
+                    "value": "Vilnius, a mage who came to study in the temple, was found cowering in the room."
+                },
+                {
+                    "value": "The group agreed to help him escape if he helped them find what they are looking for first."
+                }
+            ]
+        },
+        {
+            "date": "2022-04-23",
+            "name": "session-38",
+            "index": "38",
+            "title": "Chapter 38 - Stopping Neferon",
+            "description": "After slaying Rahadin the group comes face to face with a fiend guarded the Amber Temple.",
+            "notes": [
+                {
+                    "value": "A fiend attacks from the shadows and nearly destroys everyone."
+                },
+                {
+                    "value": "The fiend is named Neferon, and he tells the group that guards the Amber Temple."
+                },
+                {
+                    "value": "After felling Neferon, the group comes across a coven of Witches, and while hiding, they see them go to the library and come back with a password to enter a locked room."
+                },
+                {
+                    "value": "Before chasing down the Witches, the group decides to find out where this library is following the scent of the Witches."
+                },
+                {
+                    "value": "While resting the group find Xerus's Shield Guardian lying dormant. Efreeti explains that this is where he found the construct."
                 }
             ]
         },
@@ -262,28 +334,49 @@
             "name": "summary",
             "index": "S",
             "title": "Candlekeep Mysteries",
-            "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Together they solve the many mysteries that they come across while researching in Canlekeep.",
-            "current": "You found Freyot in the Grand Library and are biding time for back up.",
-            "next": "You plan to finish Freyot off and reap as many rewards as you can in the process.",
-            "why": "Freyot keeps killing people and wants to take over Myiirms hoard.",
+            "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Now they are heading into the Feywild to help Mardyck rescue his patron.",
+            "current": "The Scarlet Sash sent Cassandra a message to meet Madryck Roslof and lend their aid.",
+            "next": "On the way to Mardyck's pumpkin farm, everyone stops off at a village deep within the High Forest.",
+            "why": "Because it is on the way to Mardyck's pumpkin farm, and it would mean a lot to Cloud.",
             "notes": [
                 {
-                    "value": "Everyone joined Candlekeep and entered their books into the archive"
+                    "value": "Cassandra received a letter to aid Mardyck."
                 },
                 {
-                    "value": "While on their tour of Candlekeep, they found a book which Matreous was researching called The Joy of Extradimensional Spaces"
+                    "value": "Everyone has stopped on their way to Mardyck's pumpkin farm to visit Cloud's home."
+                }
+            ]
+        },
+        {
+            "date": "2022-05-02",
+            "name": "session-11",
+            "index": "11",
+            "title": "Chapter 11 - Slaying the Emerald Dragon",
+            "description": "Face to face with Freyot the group fight tooth and nail to defeat the dragon with incredible psyonic power.",
+            "notes": [
+                {
+                    "value": "Timagast slipped off to get help and lead them to Freyot."
                 },
                 {
-                    "value": "They found Fistandia has made a mansion, and Freyot forced them to keep it open or would reveal how many book Fistandia has stolen"
+                    "value": "Cassandra tricks Freyot and becomes his new dragon speaker."
                 },
                 {
-                    "value": "When they left Matreous was dead with a note saying \"Freyot can no longer be trusted\"."
+                    "value": "Avowed and Little One arrive. Together they defeat Freyot."
                 },
                 {
-                    "value": "While investigating Matreous and Freyot, they came across a book from a raven and followed a mysterious map."
+                    "value": "The group loots Freyot's hoard."
                 },
                 {
-                    "value": "After arriving back in Candlekeep you face down Freyot in a showdown."
+                    "value": "Little One offers to sell The Hearth for 10,000gp on the condition they find him an isolated cottage to live in, safe from people who'd want to hurt an Ogre."
+                },
+                {
+                    "value": "Cassandra receives a letter from the Scarlet Sash to give Mardyck their aid and save his patron Zybilna who has gone missing in the Feywild."
+                },
+                {
+                    "value": "The group researches Zybilna and reads Mardyck's book \"All things Fary and Wonderful\". They discover that Zybilna gave Mardyck her power to save children who go missing or abused. He writes very affectionately about her."
+                },
+                {
+                    "value": "Cloud suggests they stop at his home in the High Forest, which is on route to Mardyck's pumpkin farm."
                 }
             ]
         },

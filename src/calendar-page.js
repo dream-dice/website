@@ -1,4 +1,5 @@
 import React, { useEffect, useReducer } from 'react'
+import { Moon } from "lunarphase-js";
 import Card from './card'
 import calendar from './calendar.json'
 
@@ -13,32 +14,8 @@ const timeOfDay = (time) => {
     return 'Unknown'
 }
 
-const phases = [
-    '🌑 New',
-    '🌒 Waxing Crescent',
-    '🌓 First Quarter',
-    '🌔 Waxing Gibbous',
-    '🌕 Full',
-    '🌖 Waning Gibbous',
-    '🌗 Last Quarter',
-    '🌘 Waning Crescent'
-]
 const moonPhase = (date) => {
-    let year = date.getFullYear()
-    let month = date.getMonth()
-    let day = date.getDate()
-    if (month < 3) {
-        year--;
-        month += 12;
-    }
-    ++month;
-    let jd = 365.25 * year + 30.6 * month + day - 694039.09;
-    jd /= 29.53;
-    let phase = parseInt(jd, 10);
-    jd -= phase;
-    phase = Math.ceil(jd * 8);
-    phase = phase & 7;
-    return phases[phase]
+    return `${Moon.lunarPhaseEmoji(date)} ${Moon.lunarPhase(date)} `
 }
 
 const reducer = (state, { type, payload }) => {
@@ -59,6 +36,7 @@ const reducer = (state, { type, payload }) => {
     if (type === 'tick') return { ...state, time: new Date(state.time.getTime() + 1000) }
     if (type === 'skip') {
         let skip = state.skipValue * 1000
+        if (state.skipType === 'days') skip = skip * 24 * 60 * 60
         if (state.skipType === 'hours') skip = skip * 60 * 60
         if (state.skipType === 'minutes') skip = skip * 60
         return { ...state, time: new Date(state.time.getTime() + skip) }
@@ -168,6 +146,21 @@ const Skip = ({ dispatch, skipValue, skipType }) => (
                 </div>
             </div>
             <div className='field has-addons' style={{ flexGrow: 0 }}>
+            <div className='control'>
+                    <button
+                        className={`button ${skipType === 'days' ? 'is-info' : ''}`}
+                        onClick={() => {
+                            dispatch(
+                                {
+                                    type: 'skip-type',
+                                    payload: { skipType: 'days' }
+                                }
+                            )
+                        }}
+                    >
+                        <span>Days</span>
+                    </button>
+                </div>
                 <div className='control'>
                     <button
                         className={`button ${skipType === 'hours' ? 'is-info' : ''}`}
