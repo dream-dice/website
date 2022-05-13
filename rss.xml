@@ -10,11 +10,19 @@
 			<link>https://dream-dice.blankstring.com</link>
 		</image>
 		<generator>Dream Dice</generator>
-		<lastBuildDate>Tue Apr 19 2022 13:48:08 GMT+0100 (British Summer Time)</lastBuildDate>
+		<lastBuildDate>Sat May 14 2022 00:48:27 GMT+0100 (British Summer Time)</lastBuildDate>
 		<atom:link href="https://dream-dice.blankstring.com/rss.xml" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Luke Preston]]></author>
 		<language><![CDATA[en-gb]]></language>
 		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+                <item>
+                    <title><![CDATA[Notes updated, adding a new calendar.]]></title>
+                    <description><![CDATA[<p>Adding several chapters from the notes and calendars to help players track the time.</p>]]></description>
+                    <link>https://dream-dice.blankstring.com/cos/calendar</link>
+                    <guid isPermaLink="false">a23ae39d-3c69-473a-baa1-e177770e10a8</guid>
+                    <dc:creator><![CDATA[Luke String]]></dc:creator>
+                    <pubDate>2022-05-13T23:35:46.193Z</pubDate>
+                </item>
                 <item>
                     <title><![CDATA[Chapter 32 Added]]></title>
                     <description><![CDATA[<p>A new chapter was added</p>]]></description>
