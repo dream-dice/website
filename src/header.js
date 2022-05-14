@@ -57,8 +57,6 @@ const Header = () => {
     pathname = pathname.replace(/\/$/g, '')
     if (pathname === '') pathname = '/'
 
-    const subPage = pathname.split('/')[2] || 'characters'
-
     const { title, className, description, image } = metadata[pathname] || metadata.notFound
 
     useEffect(() => {
@@ -80,15 +78,15 @@ const Header = () => {
                     <meta property="og:url" content={`http://dream-dice.blankstring.com${pathname}`} />
                 </Helmet>
             </HelmetProvider>
-            <section className="hero is-small">
+            <section className="hero is-small" scrape={window.location.href}>
                 <HeroHead title={title} />
                 <div className="hero-foot">
                     <nav className="tabs">
                         <div className="container">
                             <ul>
                                 <HeroFootLink pathname={pathname} to='/' label='Home' />
-                                <HeroFootLink pathname={pathname} to={`/cos/${subPage}`} label='Curse of Strahd' />
-                                <HeroFootLink pathname={pathname} to={`/cm/${subPage}`} label='Candlekeep Mysteries' />
+                                <HeroFootLink pathname={pathname} to={`/cos`} label='Curse of Strahd' />
+                                <HeroFootLink pathname={pathname} to={`/cm`} label='Candlekeep Mysteries' />
                                 <HeroFootLink pathname={pathname} to={'/shop'} label='Shops & Services' />
                             </ul>
                         </div>

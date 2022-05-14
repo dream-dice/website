@@ -15,15 +15,14 @@
     "react-markdown": "^8.0.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
-    "react-snap": "^1.13.1",
     "remark-gfm": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "react-snap && npm run rss && npm run api && gh-pages -d build",
-    "test": "react-scripts test",
+    "postbuild": "npm run snap && npm run rss && npm run api && gh-pages -d build",
     "eject": "react-scripts eject",
+    "snap": "node --experimental-modules scripts/snap.mjs",
     "guid": "node scripts/guid",
     "rss": "node scripts/rss",
     "api": "node scripts/api"
@@ -47,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "puppeteer": "^14.1.0",
+    "serve-handler": "^6.1.3",
     "uuid": "^8.3.2"
   }
 }
