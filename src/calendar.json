@@ -1,7 +1,7 @@
 {
     "cos": {
         "time": "2022-04-24T04:17:00.000Z",
-        "weather": "Freezing and snowing, -10*F",
+        "weather": "Freezing and snowing, -25*C",
         "combat": false,
         "round": 0,
         "events": [{
@@ -12,8 +12,8 @@
         }]
     },
     "cm": {
-        "time": "2022-04-21T18:21:30.000Z",
-        "weather": "Overcast, 53*F",
+        "time": "2022-05-21T20:44:29.000Z",
+        "weather": "Clear skies, 18*C",
         "combat": false,
         "round": 0,
         "events": []
