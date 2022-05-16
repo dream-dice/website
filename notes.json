@@ -335,15 +335,42 @@
             "index": "S",
             "title": "Candlekeep Mysteries",
             "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Now they are heading into the Feywild to help Mardyck rescue his patron.",
-            "current": "The Scarlet Sash sent Cassandra a message to meet Madryck Roslof and lend their aid.",
-            "next": "On the way to Mardyck's pumpkin farm, everyone stops off at a village deep within the High Forest.",
-            "why": "Because it is on the way to Mardyck's pumpkin farm, and it would mean a lot to Cloud.",
+            "current": "Searching for Dr. Gast to put a stop to the mistreatment of Killmoulis.",
+            "next": "In a cave underground, you stand in front of a Mite after it caught a floating book.",
+            "why": "Because Wedge, Jesse and Biggs asked you to find Dr. Gast and figure out what they are doing to the innocent creatures.",
             "notes": [
                 {
                     "value": "Cassandra received a letter to aid Mardyck."
                 },
                 {
                     "value": "Everyone has stopped on their way to Mardyck's pumpkin farm to visit Cloud's home."
+                }
+            ]
+        },
+        {
+            "date": "2022-05-16",
+            "name": "session-12",
+            "index": "12",
+            "title": "Chapter 12 - Entering the High Forest Village",
+            "description": "Cloud invited everyone to his home to show them around his village enroute to the pumpkin farm.",
+            "notes": [
+                {
+                    "value": "Cloud participated in an archery contest with Zack's father. With his last shot, he destroyed the target and won."
+                },
+                {
+                    "value": "Chocobo Billy has offered everyone to store their mounts at his Chocobo farm and meet the newborn red Chocobo."
+                },
+                {
+                    "value": "Everyone climbed down an old well and found a cave system."
+                },
+                {
+                    "value": "Cassandra, Cloud, and Timagast were all hexed with something that curdled their blood and periodically paralyzed them."
+                },
+                {
+                    "value": "Firewatch found several books about dissecting and killing Fey to use their bodies to cure diseases and curses."
+                },
+                {
+                    "value": "While attempted to steal a book, a Mite jumped out, snatching the book in mid-air and prepared to attack."
                 }
             ]
         },
