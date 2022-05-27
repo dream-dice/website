@@ -45,13 +45,11 @@ const reducer = (state, { type, payload }) => {
 }
 
 const Today = ({ time, weather }) => (
-    <Card title='Today'>
-        <div className='content'>
-            <p><b>Date:</b> {time.toLocaleString()}, {timeOfDay(time)}</p>
-            <p><b>Weather:</b> {weather}</p>
-            <p><b>Moon Phase:</b> {moonPhase(time)}</p>
-        </div>
-    </Card>
+    <div className='content'>
+        <p><b>Date:</b> {time.toLocaleString('en-GB', { timeZone: 'UTC' })}, {timeOfDay(time)}</p>
+        <p><b>Weather:</b> {weather}</p>
+        <p><b>Moon Phase:</b> {moonPhase(time)}</p>
+    </div>
 )
 
 const UpcomingEvents = ({ events }) => (
@@ -68,7 +66,7 @@ const UpcomingEvents = ({ events }) => (
                     {events.map(({ time, value }) => (
                         <tr key={value}>
                             <td>
-                                {time ? new Date(time).toLocaleString().replace(', 00:00:00', '') : 'No time'}
+                                {time ? new Date(time).toLocaleString('en-GB', { timeZone: 'UTC' }).replace(', 00:00:00', '') : 'No time'}
                             </td>
                             <td>
                                 {value}
@@ -146,7 +144,7 @@ const Skip = ({ dispatch, skipValue, skipType }) => (
                 </div>
             </div>
             <div className='field has-addons' style={{ flexGrow: 0 }}>
-            <div className='control'>
+                <div className='control'>
                     <button
                         className={`button ${skipType === 'days' ? 'is-info' : ''}`}
                         onClick={() => {
@@ -322,13 +320,13 @@ const CalendarPage = ({ game }) => {
 
     return (
         <div>
-            <Today time={time} weather={data.weather} />
-            <UpcomingEvents events={data.events} />
-            <Card title='Controls'>
+            <Card title='Current' isOpen>
+                <Today time={time} weather={data.weather} />
                 <Controls dispatch={dispatch} running={running} combat={combat} />
                 <Skip dispatch={dispatch} skipValue={skipValue} skipType={skipType} />
                 <Combat dispatch={dispatch} combat={combat} round={round} />
             </Card>
+            <UpcomingEvents events={data.events} />
         </div>
     )
 }
