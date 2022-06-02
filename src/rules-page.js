@@ -28,7 +28,7 @@ const Rules = () => {
     return (
         <div className='mt-3'>
             <div className='content'>
-            <ReactMarkdown plugins={[gfm]}>{content}</ReactMarkdown>
+                <ReactMarkdown plugins={[gfm]}>{content}</ReactMarkdown>
             </div>
         </div>
     )

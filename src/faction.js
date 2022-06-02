@@ -2,17 +2,17 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import factions from './factions.json'
 
-const Faction = ({children}) => {
+const Faction = ({ children }) => {
     const { name } = useParams()
     if (!(name in factions)) return <div className='p-5 is-size-4 has-text-danger'>This faction does not exist!</div>
     const { title } = factions[name]
     return (
         <div>
             <div className='is-flex'>
-                    <div className='mr-3 is-hidden-mobile' style={{minWidth: 100}}>
-                        <img src={`/flags/${name}-flag.png`} alt={`${title} Flag`} />
-                    </div>
-                    <div>{children}</div>
+                <div className='mr-3 is-hidden-mobile' style={{ minWidth: 100 }}>
+                    <img src={`/flags/${name}-flag.png`} alt={`${title} Flag`} />
+                </div>
+                <div>{children}</div>
             </div>
         </div>
     )

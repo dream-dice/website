@@ -17,7 +17,7 @@ Hooks.on('ready', function () {
                 "<h1>Summary</h1>" +
                 "<p style='font-size: 1.1em;'>" +
                 found.description +
-                "</p>"+
+                "</p>" +
                 "<ul style='height: 400px; overflow: auto; font-size: 1em;'>" +
                 found.notes.map(function (note) {
                     return "<li>" + note + "</li>"

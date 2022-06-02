@@ -66,8 +66,8 @@ const Generator = ({ dispatch, state, name, title, href, keepCase }) => (
             </div>
         </div>
         <div className={`random-result is-visible-mobile is-hidden-tablet${state[name] ? '' : ' is-hidden'}`}>
-                {state[name] && <DDBLink name={state[name]} href={href} />}
-            </div>
+            {state[name] && <DDBLink name={state[name]} href={href} />}
+        </div>
     </div>
 
 )

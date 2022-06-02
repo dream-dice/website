@@ -24,7 +24,7 @@ const Search = ({ data, filter, onChange }) => {
 
     useEffect(() => {
         onChange(found(term))
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [data])
 
     return (

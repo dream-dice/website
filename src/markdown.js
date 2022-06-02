@@ -23,7 +23,7 @@ const fetchChildren = async (path, setChildren) => {
     }
 }
 
-const Markdown = ({path}) => {
+const Markdown = ({ path }) => {
     const [children, setChildren] = useState('Loading')
 
     useEffect(() => {

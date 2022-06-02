@@ -31,13 +31,3 @@ const Menu = () => {
 }
 
 export default Menu
-
-
-{/* <p className="menu-label">
-                Game Master
-            </p>
-            <ul className="menu-list">
-                <li><MenuLink to='/rules'>My Rules</MenuLink></li>
-                <li><MenuLink to='/random'>Random</MenuLink></li>
-                <li><MenuLink to='/credits'>Credits</MenuLink></li>
-            </ul> */}

@@ -42,7 +42,7 @@ const CharactersPage = ({ game }) => {
                             />
                         ))
                 }
-                { data.length === 0 && <NoResults />}
+                {data.length === 0 && <NoResults />}
             </div>
         </div>
     )

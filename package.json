@@ -23,7 +23,6 @@
     "postbuild": "npm run snap && npm run api && gh-pages -d build",
     "eject": "react-scripts eject",
     "snap": "node --experimental-modules scripts/snap.mjs",
-    "guid": "node scripts/guid",
     "api": "node scripts/api"
   },
   "eslintConfig": {
