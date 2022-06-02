@@ -1,24 +1,28 @@
 {
-    "cos": {
-        "time": "2022-04-24T06:42:31.000Z",
-        "weather": "Freezing and snowing, -25*C",
-        "combat": false,
-        "round": 0,
-        "events": [{
-            "value": "Ronaldo of The Seven of Vallaki has invited you all to dine with them in Vallaki at HQ, at your earliest convenience."
-        }, {
-            "time": "2022-04-29T00:00:00.000Z",
-            "value": "Dwight's sworn enemy can be reset unless Rhadin is killed before that time."
-        }, {
-            "time": "2022-04-25T00:00:00.000Z",
-            "value": "Ezmerelda is meeting with Kasimir in Berez to break the vampirism on Patricia."
-        }]
-    },
-    "cm": {
-        "time": "2022-05-21T20:44:29.000Z",
-        "weather": "Clear skies, 18*C",
-        "combat": false,
-        "round": 0,
-        "events": []
-    }
+  "cos": {
+    "time": "2022-04-24T06:42:31.000Z",
+    "weather": "Freezing and snowing, -25*C",
+    "combat": false,
+    "round": 0,
+    "events": [
+      {
+        "value": "Ronaldo of The Seven of Vallaki has invited you all to dine with them in Vallaki at HQ, at your earliest convenience."
+      },
+      {
+        "time": "2022-04-29T00:00:00.000Z",
+        "value": "Dwight's sworn enemy can be reset unless Rhadin is killed before that time."
+      },
+      {
+        "time": "2022-04-25T00:00:00.000Z",
+        "value": "Ezmerelda is meeting with Kasimir in Berez to break the vampirism on Patricia."
+      }
+    ]
+  },
+  "cm": {
+    "time": "2022-05-22T07:30:00.000Z",
+    "weather": "Scattered showers, 12*C",
+    "combat": false,
+    "round": 0,
+    "events": []
+  }
 }

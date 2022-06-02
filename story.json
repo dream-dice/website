@@ -1,162 +1,162 @@
 {
-    "avowed": [
-        {
-            "title": "Forward",
-            "to": "avowed/forward"
-        },
-        {
-            "title": "Chapter 1",
-            "to": "avowed/chapter1"
-        },
-        {
-            "title": "Cahpter 2",
-            "to": "avowed/chapter2"
-        },
-        {
-            "title": "Cahpter 3",
-            "to": "avowed/chapter3"
-        },
-        {
-            "title": "Cahpter 4",
-            "to": "avowed/chapter4"
-        },
-        {
-            "title": "Cahpter 5",
-            "to": "avowed/chapter5"
-        }
-    ],
-    "vampireHunters": [
-        {
-            "title": "Forward",
-            "to": "vampire-hunters/forward"
-        },
-        {
-            "title": "Chapter 1",
-            "to": "vampire-hunters/chapter1"
-        },
-        {
-            "title": "Chapter 2",
-            "to": "vampire-hunters/chapter2"
-        },
-        {
-            "title": "Chapter 3",
-            "to": "vampire-hunters/chapter3"
-        },
-        {
-            "title": "Chapter 4",
-            "to": "vampire-hunters/chapter4"
-        },
-        {
-            "title": "Chapter 5",
-            "to": "vampire-hunters/chapter5"
-        },
-        {
-            "title": "Chapter 6",
-            "to": "vampire-hunters/chapter6"
-        },
-        {
-            "title": "Chapter 7",
-            "to": "vampire-hunters/chapter7"
-        },
-        {
-            "title": "Chapter 8",
-            "to": "vampire-hunters/chapter8"
-        },
-        {
-            "title": "Chapter 9",
-            "to": "vampire-hunters/chapter9"
-        },
-        {
-            "title": "Chapter 10",
-            "to": "vampire-hunters/chapter10"
-        },
-        {
-            "title": "Chapter 11",
-            "to": "vampire-hunters/chapter11"
-        },
-        {
-            "title": "Chapter 12",
-            "to": "vampire-hunters/chapter12"
-        },
-        {
-            "title": "Chapter 13",
-            "to": "vampire-hunters/chapter13"
-        },
-        {
-            "title": "Chapter 14",
-            "to": "vampire-hunters/chapter14"
-        },
-        {
-            "title": "Chapter 15",
-            "to": "vampire-hunters/chapter15"
-        },
-        {
-            "title": "Chapter 16",
-            "to": "vampire-hunters/chapter16"
-        },
-        {
-            "title": "Chapter 17",
-            "to": "vampire-hunters/chapter17"
-        },
-        {
-            "title": "Chapter 18",
-            "to": "vampire-hunters/chapter18"
-        },
-        {
-            "title": "Chapter 19",
-            "to": "vampire-hunters/chapter19"
-        },
-        {
-            "title": "Chapter 20",
-            "to": "vampire-hunters/chapter20"
-        },
-        {
-            "title": "Chapter 21",
-            "to": "vampire-hunters/chapter21"
-        },
-        {
-            "title": "Chapter 22",
-            "to": "vampire-hunters/chapter22"
-        },
-        {
-            "title": "Chapter 23",
-            "to": "vampire-hunters/chapter23"
-        },
-        {
-            "title": "Chapter 24",
-            "to": "vampire-hunters/chapter24"
-        },
-        {
-            "title": "Chapter 25",
-            "to": "vampire-hunters/chapter25"
-        },
-        {
-            "title": "Chapter 26",
-            "to": "vampire-hunters/chapter26"
-        },
-        {
-            "title": "Chapter 27",
-            "to": "vampire-hunters/chapter27"
-        },
-        {
-            "title": "Chapter 28",
-            "to": "vampire-hunters/chapter28"
-        },
-        {
-            "title": "Chapter 29",
-            "to": "vampire-hunters/chapter29"
-        },
-        {
-            "title": "Chapter 30",
-            "to": "vampire-hunters/chapter30"
-        },
-        {
-            "title": "Chapter 31",
-            "to": "vampire-hunters/chapter31"
-        },
-        {
-            "title": "Chapter 32",
-            "to": "vampire-hunters/chapter32"
-        }
-    ]
+  "avowed": [
+    {
+      "title": "Forward",
+      "to": "avowed/forward"
+    },
+    {
+      "title": "Chapter 1",
+      "to": "avowed/chapter1"
+    },
+    {
+      "title": "Cahpter 2",
+      "to": "avowed/chapter2"
+    },
+    {
+      "title": "Cahpter 3",
+      "to": "avowed/chapter3"
+    },
+    {
+      "title": "Cahpter 4",
+      "to": "avowed/chapter4"
+    },
+    {
+      "title": "Cahpter 5",
+      "to": "avowed/chapter5"
+    }
+  ],
+  "vampireHunters": [
+    {
+      "title": "Forward",
+      "to": "vampire-hunters/forward"
+    },
+    {
+      "title": "Chapter 1",
+      "to": "vampire-hunters/chapter1"
+    },
+    {
+      "title": "Chapter 2",
+      "to": "vampire-hunters/chapter2"
+    },
+    {
+      "title": "Chapter 3",
+      "to": "vampire-hunters/chapter3"
+    },
+    {
+      "title": "Chapter 4",
+      "to": "vampire-hunters/chapter4"
+    },
+    {
+      "title": "Chapter 5",
+      "to": "vampire-hunters/chapter5"
+    },
+    {
+      "title": "Chapter 6",
+      "to": "vampire-hunters/chapter6"
+    },
+    {
+      "title": "Chapter 7",
+      "to": "vampire-hunters/chapter7"
+    },
+    {
+      "title": "Chapter 8",
+      "to": "vampire-hunters/chapter8"
+    },
+    {
+      "title": "Chapter 9",
+      "to": "vampire-hunters/chapter9"
+    },
+    {
+      "title": "Chapter 10",
+      "to": "vampire-hunters/chapter10"
+    },
+    {
+      "title": "Chapter 11",
+      "to": "vampire-hunters/chapter11"
+    },
+    {
+      "title": "Chapter 12",
+      "to": "vampire-hunters/chapter12"
+    },
+    {
+      "title": "Chapter 13",
+      "to": "vampire-hunters/chapter13"
+    },
+    {
+      "title": "Chapter 14",
+      "to": "vampire-hunters/chapter14"
+    },
+    {
+      "title": "Chapter 15",
+      "to": "vampire-hunters/chapter15"
+    },
+    {
+      "title": "Chapter 16",
+      "to": "vampire-hunters/chapter16"
+    },
+    {
+      "title": "Chapter 17",
+      "to": "vampire-hunters/chapter17"
+    },
+    {
+      "title": "Chapter 18",
+      "to": "vampire-hunters/chapter18"
+    },
+    {
+      "title": "Chapter 19",
+      "to": "vampire-hunters/chapter19"
+    },
+    {
+      "title": "Chapter 20",
+      "to": "vampire-hunters/chapter20"
+    },
+    {
+      "title": "Chapter 21",
+      "to": "vampire-hunters/chapter21"
+    },
+    {
+      "title": "Chapter 22",
+      "to": "vampire-hunters/chapter22"
+    },
+    {
+      "title": "Chapter 23",
+      "to": "vampire-hunters/chapter23"
+    },
+    {
+      "title": "Chapter 24",
+      "to": "vampire-hunters/chapter24"
+    },
+    {
+      "title": "Chapter 25",
+      "to": "vampire-hunters/chapter25"
+    },
+    {
+      "title": "Chapter 26",
+      "to": "vampire-hunters/chapter26"
+    },
+    {
+      "title": "Chapter 27",
+      "to": "vampire-hunters/chapter27"
+    },
+    {
+      "title": "Chapter 28",
+      "to": "vampire-hunters/chapter28"
+    },
+    {
+      "title": "Chapter 29",
+      "to": "vampire-hunters/chapter29"
+    },
+    {
+      "title": "Chapter 30",
+      "to": "vampire-hunters/chapter30"
+    },
+    {
+      "title": "Chapter 31",
+      "to": "vampire-hunters/chapter31"
+    },
+    {
+      "title": "Chapter 32",
+      "to": "vampire-hunters/chapter32"
+    }
+  ]
 }

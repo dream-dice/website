@@ -1,80 +1,80 @@
 {
-    "notFound": {
-        "title": "404 Not Found",
-        "className": "notFound",
-        "description": "This page does not exist.",
-        "image": "/icon.png"
-    },
-    "/": {
-        "title": "Intrepid Crusaders",
-        "className": "home",
-        "description": "A website with all my DM notes that I want to share with my players including services, player info, the story so far and faction jobs.",
-        "image": "/icon.png"
-    },
-    "/cos": {
-        "title": "Characters - Curse of Strahd",
-        "className": "vampire",
-        "description": "Welcome to the Curse of Strahd Campaign.",
-        "image": "/icon.png"
-    },
-    "/cos/characters": {
-        "title": "Characters - Curse of Strahd",
-        "className": "vampire",
-        "description": "All the players and characters from our Curse of Strahd campaign.",
-        "image": "/icon.png"
-    },
-    "/cos/calendar": {
-        "title": "Calendar - Curse of Strahd",
-        "className": "vampire",
-        "description": "The current date, time, weather and future events.",
-        "image": "/icon.png"
-    },
-    "/cm": {
-        "title": "Characters - Candlekeep Mysteries",
-        "className": "avowed",
-        "description": "Welcome to the Candlekeep Mysteries campaign.",
-        "image": "/icon.png"
-    },
-    "/cm/characters": {
-        "title": "Characters - Candlekeep Mysteries",
-        "className": "avowed",
-        "description": "All the players and characters from our Candlekeep Mysteries campaign.",
-        "image": "/icon.png"
-    },
-    "/cm/calendar": {
-        "title": "Calendar - Candlekeep Mysteries",
-        "className": "vampire",
-        "description": "The current date, time, weather and future events.",
-        "image": "/icon.png"
-    },
-    "/cos/notes": {
-        "title": "Session Notes - Curse of Strahd",
-        "className": "vampire",
-        "description": "All the players and notes from our Curse of Strahd campaign.",
-        "image": "/icon.png"
-    },
-    "/cm/notes": {
-        "title": "Session Notes - Candlekeep Mysteries",
-        "className": "avowed",
-        "description": "All the players and notes from our Candlekeep Mysteries campaign.",
-        "image": "/icon.png"
-    },
-    "/cos/appendix": {
-        "title": "Appendix - Curse of Strahd",
-        "className": "vampire",
-        "description": "The appendix contains material which was shared in the Curse of Strahd campaign.",
-        "image": "/icon.png"
-    },
-    "/cm/appendix": {
-        "title": "Appendix - Candlekeep Mysteries",
-        "className": "avowed",
-        "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
-        "image": "/icon.png"
-    },
-    "/shop": {
-        "title": "Shop & Services",
-        "className": "home",
-        "description": "All the shops and services available in the campaign.",
-        "image": "/icon.png"
-    }
+  "notFound": {
+    "title": "404 Not Found",
+    "className": "notFound",
+    "description": "This page does not exist.",
+    "image": "/icon.png"
+  },
+  "/": {
+    "title": "Intrepid Crusaders",
+    "className": "home",
+    "description": "A website with all my DM notes that I want to share with my players including services, player info, the story so far and faction jobs.",
+    "image": "/icon.png"
+  },
+  "/cos": {
+    "title": "Characters - Curse of Strahd",
+    "className": "vampire",
+    "description": "Welcome to the Curse of Strahd Campaign.",
+    "image": "/icon.png"
+  },
+  "/cos/characters": {
+    "title": "Characters - Curse of Strahd",
+    "className": "vampire",
+    "description": "All the players and characters from our Curse of Strahd campaign.",
+    "image": "/icon.png"
+  },
+  "/cos/calendar": {
+    "title": "Calendar - Curse of Strahd",
+    "className": "vampire",
+    "description": "The current date, time, weather and future events.",
+    "image": "/icon.png"
+  },
+  "/cm": {
+    "title": "Characters - Candlekeep Mysteries",
+    "className": "avowed",
+    "description": "Welcome to the Candlekeep Mysteries campaign.",
+    "image": "/icon.png"
+  },
+  "/cm/characters": {
+    "title": "Characters - Candlekeep Mysteries",
+    "className": "avowed",
+    "description": "All the players and characters from our Candlekeep Mysteries campaign.",
+    "image": "/icon.png"
+  },
+  "/cm/calendar": {
+    "title": "Calendar - Candlekeep Mysteries",
+    "className": "vampire",
+    "description": "The current date, time, weather and future events.",
+    "image": "/icon.png"
+  },
+  "/cos/notes": {
+    "title": "Session Notes - Curse of Strahd",
+    "className": "vampire",
+    "description": "All the players and notes from our Curse of Strahd campaign.",
+    "image": "/icon.png"
+  },
+  "/cm/notes": {
+    "title": "Session Notes - Candlekeep Mysteries",
+    "className": "avowed",
+    "description": "All the players and notes from our Candlekeep Mysteries campaign.",
+    "image": "/icon.png"
+  },
+  "/cos/appendix": {
+    "title": "Appendix - Curse of Strahd",
+    "className": "vampire",
+    "description": "The appendix contains material which was shared in the Curse of Strahd campaign.",
+    "image": "/icon.png"
+  },
+  "/cm/appendix": {
+    "title": "Appendix - Candlekeep Mysteries",
+    "className": "avowed",
+    "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
+    "image": "/icon.png"
+  },
+  "/shop": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  }
 }
