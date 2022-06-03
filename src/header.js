@@ -74,8 +74,8 @@ const Header = () => {
                     <meta name="description" content={description} />
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
-                    <meta property="og:image" content={`http://dream-dice.blankstring.com${image}`} />
-                    <meta property="og:url" content={`http://dream-dice.blankstring.com${pathname}`} />
+                    <meta property="og:image" content={`http://intrepid-crusaders.blankstring.com${image}`} />
+                    <meta property="og:url" content={`http://intrepid-crusaders.blankstring.com${pathname}`} />
                 </Helmet>
             </HelmetProvider>
             <section className="hero is-small" scrape={window.location.href}>

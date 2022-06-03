@@ -1,4 +1,4 @@
-# Dream Dice, a.k.a Intrepid Crusaders
+# Intrepid Crusaders
 
 The code is for a website with my notes for my players.
 

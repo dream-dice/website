@@ -13,7 +13,7 @@ Hooks.on('ready', function () {
         Dialog.prompt({
             title: "Previously in the campaign",
             content: "<div style='font-family: fantasy; letter-spacing: 1px;'>" +
-                "<div style='text-align: center; padding: 10px 0; font-size: 1.32em;'><a href='https://dream-dice.blankstring.com' target='_blank' rel='noreferrer'>All the notes</a></div>" +
+                "<div style='text-align: center; padding: 10px 0; font-size: 1.32em;'><a href='https://intrepid-crusaders.blankstring.com' target='_blank' rel='noreferrer'>All the notes</a></div>" +
                 "<h1>Summary</h1>" +
                 "<p style='font-size: 1.1em;'>" +
                 found.description +
@@ -25,11 +25,11 @@ Hooks.on('ready', function () {
                 "</ul>" +
                 "</div>",
             label: "Thanks DM",
-            callback: () => { ui.notifications.info("Don't forget to check out https://dream-dice.blankstring.com to read more info.") }
+            callback: () => { ui.notifications.info("Don't forget to check out https://intrepid-crusaders.blankstring.com to read more info.") }
         });
     }
     var oReq = new XMLHttpRequest();
     oReq.addEventListener("load", reqListener);
-    oReq.open("GET", "https://dream-dice.blankstring.com/notes.json");
+    oReq.open("GET", "https://intrepid-crusaders.blankstring.com/notes.json");
     oReq.send();
 })

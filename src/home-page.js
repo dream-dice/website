@@ -13,13 +13,13 @@ const Home = () => (
         <h2>API</h2>
         <p>There are several APIs which contains all the data that the website uses. Feel free to use these, they aren't maintained so don't get in contact if anything is broken with them.</p>
         <ul>
-            <li>https://dream-dice.blankstring.com/appendix.json</li>
-            <li>https://dream-dice.blankstring.com/calendar.json</li>
-            <li>https://dream-dice.blankstring.com/factions.json</li>
-            <li>https://dream-dice.blankstring.com/items.json</li>
-            <li>https://dream-dice.blankstring.com/notes.json</li>
-            <li>https://dream-dice.blankstring.com/players.json</li>
-            <li>https://dream-dice.blankstring.com/random.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/appendix.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/calendar.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/factions.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/items.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/notes.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/players.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/random.json</li>
         </ul>
 
         <h2>Players & NPCs</h2>
