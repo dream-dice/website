@@ -15,6 +15,12 @@
   ],
   "cm": [
     {
+      "name": "carnival-map",
+      "title": "The Feywild Carnival Map",
+      "description": "This is a map given to everyone who enters the Feywild Carnival.",
+      "content": "/appendix/carnival-map.md"
+    },
+    {
       "name": "matreous-song",
       "title": "A Song About Matreous",
       "description": "This song was composed by Timagast and dropped into Matreous's grave.",
