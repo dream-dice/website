@@ -395,8 +395,8 @@
       "index": "S",
       "title": "Candlekeep Mysteries",
       "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Now they are heading into the Feywild to help Mardyck rescue his patron Zybilna.",
-      "current": "After meeting Mardyk, the group heads to a carnival in the Feywild, the last place Zybilna was seen.",
-      "next": "Explore the carnival and find a lead to uncover what happened to Zybilna.",
+      "current": "While looking for Zybilna the group decided to enjoy the carnival at the same time.",
+      "next": "Mister Light was so impressed with the joy the group brought to the carnival that he asked to meet them when they were next available.",
       "why": "Because Mardyk has pleaded for the help from the Scarlet Sash, and the group came to his aide.",
       "notes": [
         {
@@ -404,6 +404,66 @@
         },
         {
           "value": "After walking through a mushroom ring to find the Feywild carnival Mardyk spoke of."
+        },
+        {
+          "value": "During the Big Top show, the group was asked to meet Mister Light in the Staff Area when they wanted to, no."
+        }
+      ]
+    },
+    {
+      "date": "2022-06-13",
+      "name": "session-14",
+      "index": "14",
+      "title": "Chapter 14 - Enjoying the Witchlight Carnival",
+      "description": "After stepping into the Feywild the group went to enjoy the sights and attractions at the Witchlight Carnival.",
+      "notes": [
+        {
+          "value": "Nikolas greeted the group and gave everyone a free ticket, given to him by an unnamed benefactor."
+        },
+        {
+          "value": "If anyone isn't wearing their wings or carrying a valid ticket, they will be asked to buy one or forced to leave."
+        },
+        {
+          "value": "The first attraction Cass and Florian went on was the Bubble-pop Teapot and they floated around."
+        },
+        {
+          "value": "Next Cloud and Cass went on the Giant Snail races where Cass won the race."
+        },
+        {
+          "value": "Cass, Florian, and Cloud went miniature entering the Pixie kingdom."
+        },
+        {
+          "value": "They played a wonderful game of hide-and-seek with Honeymint and Starbug."
+        },
+        {
+          "value": "Jerry, the pixie in charge of the event, mentioned that a Kenku named Kettlesteam had been causing mischief at the carnival, who uses disguise self to cause trouble."
+        },
+        {
+          "value": "He also mentioned that Candlefoot, the mime, was in-love with Palasha the mermaid. Candlefoot lost his voice and no one knows if this is part of the ac."
+        },
+        {
+          "value": "They came up to the Hall of Illusions, one halfling was proposing to another, who laughed in his face. He ran inside and Candlefoot mimed that the group should go in and find him while he took care of the other halfling."
+        },
+        {
+          "value": "By the time the group stopped looking at their reflection in the illusions, they found Rubin who was crying with a person wearing a pig mask. Then they stepped into the mirror together and disapeared."
+        },
+        {
+          "value": "Ween explained that she had been hexed to laugh and that Rubin ran away. It sounded like to her that he had been tricked by Skabatha Nightshade's thief, Slowpig, to go with him into Hither."
+        },
+        {
+          "value": "Skabatha Nightshade is one of three hags who lives in Hither. The other two hags are rumored to live in Thither and Yon. Ween didn't know any more information about these hags since she only came to the carnival today."
+        },
+        {
+          "value": "Next the group went to the Big Top show, with wonderful acts and staring Cloud and Cass who played music for everyone."
+        },
+        {
+          "value": "Mister Light was so impressed with the group bringing joy to everyone that he asked they come to the Staff area later to meet him."
+        },
+        {
+          "value": "Florian's patron, Graz'zt, mentioned that he recognized a gnome named Ellywick Tumblestrum who is running the Feasting Orchard attraction, and they should talk to her."
+        },
+        {
+          "value": "As they left the tent, they came across the Calliope where a monkey named Ernest was playing the music. Florian gave him one of his buttons which brought a smile to the monkey's face."
         }
       ]
     },
