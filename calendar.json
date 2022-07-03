@@ -1,28 +1,38 @@
 {
   "cos": {
-    "time": "2022-04-24T12:10:00.000Z",
-    "weather": "Freezing and snowing, -25*C",
+    "time": "2022-04-25T12:30:00.000Z",
+    "weather": "Heavy rain, 4*C",
     "combat": false,
     "round": 0,
     "events": [
       {
-        "value": "Ronaldo of The Seven of Vallaki has invited you all to dine with them in Vallaki at HQ, at your earliest convenience."
-      },
-      {
         "time": "2022-04-29T00:00:00.000Z",
         "value": "Dwight's sworn enemy can be reset unless Rhadin is killed before that time."
-      },
-      {
-        "time": "2022-04-25T00:00:00.000Z",
-        "value": "Ezmerelda is meeting with Kasimir in Berez to break the vampirism on Patricia."
       }
-    ]
+    ],
+    "nextSession": {
+      "date": "2022-07-16T20:30:00.000Z",
+      "title": "Chapter 44 - The Vallaki Heros Prove Themselves",
+      "description": "Everyone is trapped underneath The Seven HQ and Strahd is on his way to destroy Vallaki.",
+      "discord": "https://discord.com/channels/819872538548371517/835186528803094559/993161966824730684"
+    }
   },
   "cm": {
-    "time": "2022-05-22T13:00:00.000Z",
-    "weather": "Scattered showers, 12*C",
+    "time": "2022-05-22T16:30:00.000Z",
+    "weather": "Cloudy skies, 12*C",
     "combat": false,
     "round": 0,
-    "events": []
+    "events": [
+      {
+        "time": "2022-05-30T13:00:00.000Z",
+        "value": "Firewatch's nightmares from the Mystery Mine will fade."
+      }
+    ],
+    "nextSession": {
+      "date": "2022-07-11T20:30:00.000Z",
+      "title": "Chapter 16 - Crowning The Witchlight Monarch",
+      "description": "The group are on the hunt for Kettlestream and plan to steal Mister Witch's watch during the Crowning of the Witchlight Monarch.",
+      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/993160796043481149"
+    }
   }
 }
