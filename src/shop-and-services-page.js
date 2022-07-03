@@ -275,22 +275,22 @@ const Random = () => (
 const ShopAndServicesPage = () => {
     return (
         <div>
-            <Card title='General'>
+            <Card title='🫖 General'>
                 <Shop itemType='general' />
             </Card>
-            <Card title='Equipment'>
+            <Card title='⚔️ Equipment'>
                 <Shop itemType='equipment' />
             </Card>
-            <Card title='Magic Items'>
+            <Card title='🪄 Magic Items'>
                 <Shop itemType='magicItem' />
             </Card>
-            <Card title='Scrolls'>
+            <Card title='📜 Scrolls'>
                 <Shop itemType='scrolls' />
             </Card>
-            <Card title='Animals'>
+            <Card title='🐐 Animals'>
                 <Shop itemType='animals' />
             </Card>
-            <Card title='Random'>
+            <Card title='🎲 Random'>
                 <Random />
             </Card>
         </div>

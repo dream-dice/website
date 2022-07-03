@@ -6,6 +6,7 @@ const Card = ({
     image,
     index,
     title,
+    subtitle,
     faction,
     rank,
     renown,
@@ -16,6 +17,7 @@ const Card = ({
     why,
     content,
     date,
+    dateTime,
     class: playerClass = [],
     famous = [],
     notes = [],
@@ -36,22 +38,32 @@ const Card = ({
     return (
         <div className={`card mt-${first ? '0' : (open ? '5' : '2')} mb-${open ? '5' : '2'}`}>
             <button className="card-header" onClick={() => setOpen(!open)}>
-                <div className='card-header-title'>
-                    {image && (
-                        <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
-                            <img src={`/avatars/${image}.png`} alt={title} key={title} />
-                        </div>
-                    )}
-                    {index && (
-                        <div className={`card-index mr-2 is-${open ? 'open' : 'closed'} lato`}>
-                            <span>{index}</span>
-                        </div>
-                    )}
-                    <span className={`text has-text-left is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
-                        {title}
-                    </span>
-                    {date && <span className='card-header-date'>{new Date(date).toLocaleDateString()}</span>}
+                <div style={{ width: '100%' }}>
+                    <div className='card-header-title'>
+                        {image && (
+                            <div className={`image is-${open ? '64x64' : '32x32'} mr-2`}>
+                                <img src={`/avatars/${image}.png`} alt={title} key={title} />
+                            </div>
+                        )}
+                        {index && (
+                            <div className={`card-index mr-2 is-${open ? 'open' : 'closed'} lato`}>
+                                <span>{index}</span>
+                            </div>
+                        )}
+                        <span className={`text has-text-left is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
+                            {title}
+                        </span>
+                        {date && <span className='card-header-date'>{new Date(date).toLocaleDateString()}</span>}
+                        {dateTime && <span className='card-header-date'>{new Date(dateTime).toLocaleString('en-GB', { timeZone: 'UTC' })}</span>}
+                    </div>
                 </div>
+                {subtitle && (
+                    <div className='card-header-subtitle'>
+                        <span className={`text has-text-left is-size-${open ? '5' : '7'} is-size-${open ? '5' : '6'}-mobile`}>
+                            {subtitle}
+                        </span>
+                    </div>
+                )}
             </button>
             {open && <div className="card-content">
                 {showMeta && (

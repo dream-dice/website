@@ -1,7 +1,16 @@
 import React, { useEffect, useReducer } from 'react'
-import { Moon } from "lunarphase-js";
+import { Moon } from 'lunarphase-js';
 import Card from './card'
 import calendar from './calendar.json'
+import { createEvent } from 'ics'
+import Discord from './discord';
+
+const currentStatus = (running, combat) => {
+    if (running === 'stopped' && !combat) return '⏹️ Stopped'
+    if (running === 'started' || running === 'running') return '▶️ Running'
+    if (combat) return '⚔️ Combat'
+    return ''
+}
 
 const timeOfDay = (time) => {
     const hour = time.getHours()
@@ -24,6 +33,7 @@ const reducer = (state, { type, payload }) => {
     if (type === 'stop') return { ...state, running: 'stopped' }
     if (type === 'combat') return { ...state, running: 'stopped', combat: true }
     if (type === 'combat-end') return { ...state, combat: false, time: new Date(state.time.getTime() + 6 * 1000), round: 0 }
+    if (type === 'resume') return { ...state, combat: false, time: new Date(state.time.getTime() + 6 * 1000), round: 0, running: 'started' }
     if (type === 'next-round') return { ...state, time: new Date(state.time.getTime() + 6 * 1000), round: state.round + 1 }
     if (type === 'previous-round') return { ...state, time: new Date(state.time.getTime() - 6 * 1000), round: state.round - 1 }
     if (type === 'update-round') {
@@ -91,28 +101,28 @@ const Controls = ({ dispatch, running, combat }) => (
                         className='button is-danger'
                         onClick={() => dispatch({ type: 'reset' })}
                     >
-                        Reset
+                        ⏺️ Reset
                     </button>
                     <button
                         disabled={running !== 'stopped' || combat}
                         className='button is-success'
                         onClick={() => dispatch({ type: 'start' })}
                     >
-                        Start
+                        ▶️ Start
                     </button>
                     <button
                         disabled={running !== 'running'}
                         className='button is-info'
                         onClick={() => dispatch({ type: 'stop' })}
                     >
-                        Stop
+                        ⏹️ Stop
                     </button>
                     <button
                         disabled={combat}
                         className='button is-warning'
                         onClick={() => dispatch({ type: 'combat' })}
                     >
-                        Start combat
+                        ⚔️ Combat
                     </button>
                 </div>
             </div>
@@ -211,10 +221,59 @@ const Skip = ({ dispatch, skipValue, skipType }) => (
                         className='button is-success'
                         onClick={() => dispatch({ type: 'skip' })}
                     >
-                        Skip time
+                        ⏭️ Skip time
                     </button>
                 </div>
             </div>
+        </div>
+    </div>
+)
+
+const NextSession = ({ title, description, date, discord }) => (
+    <div className='content'>
+        <h3 className='subtitle mb-1'>{title}</h3>
+        <p>{description}</p>
+        <div className='buttons'>
+            <button
+                className='button is-link'
+                onClick={() => {
+                    date = new Date(date)
+
+                    const event = {
+                        start: [date.getUTCFullYear(), date.getUTCMonth() + 1, date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes()],
+                        duration: { hours: 2, minutes: 30 },
+                        title: title,
+                        description: description,
+                        url: 'http://foundry.blankstring.com',
+                        categories: ['game', 'dnd'],
+                        organizer: { name: 'Luke Preston', email: 'lukejpreston@gmail.com' }
+                    }
+
+                    createEvent(event, (error, value) => {
+                        var element = document.createElement('a');
+                        element.setAttribute('href', `data:text/plain;charset=utf-8,${encodeURIComponent(value)}`);
+                        element.setAttribute('download', `${title}.ics`);
+                        element.style.display = 'none';
+                        document.body.appendChild(element);
+                        element.click();
+                        document.body.removeChild(element);
+                    })
+                }}
+            >
+                📆 Download event
+            </button>
+            <a
+                disabled={typeof discord === 'undefined'}
+                className='button is-text'
+                href={discord || undefined}
+                rel='noopener noreferrer'
+                target='_blank'
+            >
+                <span className='icon mr-1'>
+                    <Discord />
+                </span>
+                Discord link
+            </a>
         </div>
     </div>
 )
@@ -249,25 +308,30 @@ const Combat = ({ dispatch, combat, round }) => (
                         <button
                             disabled={combat === false}
                             className='button is-danger'
+                            onClick={() => dispatch({ type: 'resume' })}
+                        >
+                            ▶️ Resume
+                        </button>
+                        <button
+                            disabled={combat === false}
+                            className='button is-danger'
                             onClick={() => dispatch({ type: 'combat-end' })}
                         >
-                            End combat
+                            ⏹️ End
                         </button>
-
                         <button
                             onClick={() => dispatch({ type: 'next-round' })}
                             disabled={combat === false}
                             className='button is-success'
                         >
-                            Next round
+                            ⏭️ Next round
                         </button>
-
                         <button
                             onClick={() => dispatch({ type: 'previous-round' })}
                             disabled={round <= 0}
                             className='button is-info'
                         >
-                            Previous round
+                            ⏮️ Previous round
                         </button>
                     </div>
                 </div>
@@ -286,7 +350,8 @@ const CalendarPage = ({ game }) => {
             combat,
             round,
             skipValue,
-            skipType
+            skipType,
+            nextSession
         },
         dispatch
     ] = useReducer(
@@ -299,7 +364,8 @@ const CalendarPage = ({ game }) => {
             round: data.round,
             skipValue: 0,
             skipType: 'hours',
-            initialTime: data.time
+            initialTime: data.time,
+            nextSession: data.nextSession
         }
     )
 
@@ -320,14 +386,24 @@ const CalendarPage = ({ game }) => {
 
     return (
         <div>
-            <Card title='Current' isOpen>
+            <Card
+                title='Next Session'
+                subtitle={new Date(nextSession.date).toLocaleString('en-GB', { timeZone: 'UTC' })}
+                isOpen
+            >
+                <NextSession {...nextSession} />
+            </Card >
+            <Card
+                title='Current Time'
+                subtitle={`${currentStatus(running, combat)} - ${new Date(time).toLocaleString('en-GB', { timeZone: 'UTC' })}`}
+            >
                 <Today time={time} weather={data.weather} />
                 <Controls dispatch={dispatch} running={running} combat={combat} />
                 <Skip dispatch={dispatch} skipValue={skipValue} skipType={skipType} />
                 <Combat dispatch={dispatch} combat={combat} round={round} />
             </Card>
             <UpcomingEvents events={data.events} />
-        </div>
+        </div >
     )
 }
 

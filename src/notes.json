@@ -6,9 +6,9 @@
       "index": "S",
       "title": "Curse of Strahd",
       "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land ruled by a vampire named Strahd who had all but destroyed the world around them.",
-      "current": "The group continues to search for the weapon Madam Eva spoke of in her card reading in the Amber Temple.",
-      "next": "With the help of Vilnius the group continues their search for the weapon of great power.",
-      "why": "Madam Eva said there would be a weapon of great power here, Kasimir wants to cure his sister of Vampirism, and Vilnius wants to escape.",
+      "current": "The group is trapped underneath The Seven HQ in Vallaki.",
+      "next": "They need to escape and stop Strahd as soon as possible.",
+      "why": "Because Ronaldo trapped them there in exchange for the safety of the orphans.",
       "notes": [
         {
           "value": "Everyone was trapped in Barovia and can't leave due to the thick fog."
@@ -18,6 +18,120 @@
         },
         {
           "value": "Madam Eva gave them a card reading to help them defeat Strahd."
+        }
+      ]
+    },
+    {
+      "date": "2022-06-04",
+      "name": "session-43",
+      "index": "43",
+      "title": "Chapter 43 - Trapped Beneath Vallaki",
+      "description": "The group found themselves trapped underneath The Seven HQ.",
+      "notes": [
+        {
+          "value": "Zordar explained to Kasimir that his sister was not a vampire and had planned to kill Ezmerelda and attack him. Something he learned from the Hag in the Windmill."
+        },
+        {
+          "value": "Goatku said he was going to try and right some wrongs and help the people of Vallaki. Now that Izek was 'dead,' he felt capable of looking after the town."
+        },
+        {
+          "value": "They slowly traveled back to Krezk to get ahead of Patrina."
+        },
+        {
+          "value": "When they arrived, Dimitri didn't recognize Zordar, mistaking him for a werewolf."
+        },
+        {
+          "value": "Dimitri told the group that The Abbot was dead and the Mongrelfolk had marched into town. He wasn't sure what to do."
+        },
+        {
+          "value": "One of the Mongrelfolk said that 'Mother' was waiting inside one of the homes."
+        },
+        {
+          "value": "Entering the home, they found Vasilka, the bride that The Abbot had made for Strahd."
+        },
+        {
+          "value": "She explained that she had got married, and as a wedding gift, Strahd gave her Krezk."
+        },
+        {
+          "value": "Dimitri came running inside and told them that Patrina had shown up and he needed their help."
+        },
+        {
+          "value": "Outside Patrina had charmed Kasimir and brought several vampires to attack the town."
+        },
+        {
+          "value": "She also convinced Vasilka that Strahd wanted her to attack the town."
+        },
+        {
+          "value": "During the fight, Dimitri died, and afterward, Anna, his wife, kicked the group out of Krezk and told them they were never allowed back in."
+        },
+        {
+          "value": "During the fight, Dimitri died. Anna, Dimitri's wife, kicked the group out of Krezk and told them they were never allowed back in seeing how they had destroyed Dimitri's body."
+        },
+        {
+          "value": "Kasimir took his dead sister to the Amber Temple in hopes that he would bring her back to life."
+        },
+        {
+          "value": "Zordar promised to be the father of the Mongrelfolk, and the group gained a new ally named Manny."
+        },
+        {
+          "value": "The group stopped off at Kazan's Tower to rest and talk to Ireena before going to Vallaki."
+        },
+        {
+          "value": "Ireena said she was bored. Zordar and Xerus offered to escort her to Vallaki so she could do some shopping."
+        },
+        {
+          "value": "The group met Goatku outside, who had joined the guard. He said he would go find Ronaldo and bring him to them."
+        },
+        {
+          "value": "After doing some shopping, the group went to The Seven HQ with Ronaldo for the meal he had promised in a letter sent to Godfrey."
+        },
+        {
+          "value": "While there, Zordar smashed the dining table after hearing noises underground, and together they descended a secret trapdoor."
+        },
+        {
+          "value": "Ronaldo closed the door behind them and locked them inside."
+        },
+        {
+          "value": "Ronaldo told them that Strahd had told him to lock them inside until nightfall or he would kill the orphans he cared for."
+        },
+        {
+          "value": "The mysterious screaming turned out to be a specter that was only there as a distraction."
+        }
+      ]
+    },
+    {
+      "date": "2022-06-04",
+      "name": "session-42",
+      "index": "42",
+      "title": "Chapter 42 - Escaping the Amber Temple",
+      "description": "The group found a powerful weapon in the Amber Temple.",
+      "notes": [
+        {
+          "value": "While exploring, the group made their way upstairs and found a mysterious glowing dagger underneath a replica of Castle Ravenloft."
+        },
+        {
+          "value": "Xerus took the dagger and heard Sergei's voice inside, and together they vowed to destroy Strahd with the power of the sun."
+        },
+        {
+          "value": "The group went into the hallway where Villanus took his opportunity and turned invisible, grabbing his master's sword and fleeing the temple."
+        },
+        {
+          "value": "The group followed the trail of dead bodies and went outside."
+        },
+        {
+          "value": "As they got there, several Barbarians were running, chasing after Rahadin who killed several members of their tribe."
+        },
+        {
+          "value": "A huge shadow flew overhead and dropped a screaming Vilanus to the ground, where he had died, and his staff was destrotyed."
+        },
+        {
+          "value": "The group ran on ahead and found Kasimir nailed to Tsolenka wall."
+        },
+        {
+          "value": "A gigantic roc was attracted to Kasimir's body and attacked the group."
+        },
+        {
+          "value": "Goatku showed and helped them fell the beast, Amlaib decided to go back to the Amber Temple as everyone else decided to help Kasimir."
         }
       ]
     },
@@ -395,9 +509,9 @@
       "index": "S",
       "title": "Candlekeep Mysteries",
       "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Now they are heading into the Feywild to help Mardyck rescue his patron Zybilna.",
-      "current": "While looking for Zybilna the group decided to enjoy the carnival at the same time.",
-      "next": "Mister Light was so impressed with the joy the group brought to the carnival that he asked to meet them when they were next available.",
-      "why": "Because Mardyk has pleaded for the help from the Scarlet Sash, and the group came to his aide.",
+      "current": "While looking for Zybilna, the group discovered they need to get into Prismeer and learn more about the three hags.",
+      "next": "There is still time to enjoy the carnival before the Crowning of the Witchlight Monarch, where the group will attempt to steal Mister Witch's watch. During this time, the group is on the hunt for Kettlestream.",
+      "why": "Because Mardyk has pleaded for help from the Scarlet Sash, and the group has discovered that three hags have taken over her domain, Prismeer, around the same time she went missing.",
       "notes": [
         {
           "value": "The group is searching for Zybilna in the Feywild."
@@ -406,7 +520,70 @@
           "value": "After walking through a mushroom ring to find the Feywild carnival Mardyk spoke of."
         },
         {
-          "value": "During the Big Top show, the group was asked to meet Mister Light in the Staff Area when they wanted to, no."
+          "value": "The group are on the hunt for Kettlestream to stop her from ruining the carnival and someway into Prismeer to find Zybilna."
+        },
+        {
+          "value": "Zybilna went missing in Prismeer around the same time that three hags split the domain into Hither, Thither and Yon."
+        }
+      ]
+    },
+    {
+      "date": "2022-06-27",
+      "name": "session-15",
+      "index": "15",
+      "title": "Chapter 15 - The Secrets of the Staff Area",
+      "description": "The group accept Mister Light's invitation and meet him and Mister Witch in the Staff Area.",
+      "notes": [
+        {
+          "value": "Cloud, Cass, Firewatch, and Timagast raced on the Giant Snails where Firewatch won."
+        },
+        {
+          "value": "Afterwards, the group went on the Mystery Mine, and after Firewatch left, he was shaking with fear from all the nightmares he saw."
+        },
+        {
+          "value": "Feeling peckish, they made their way to the other side of the carnival where they entered the custard pie eating context at the Feasting Orchard."
+        },
+        {
+          "value": "It seemed that Timagast was going to win, but at the last moment, he exploded with custard, but Cloud managed to take the win."
+        },
+        {
+          "value": "Here they met Ellywick Tumblestrum, a gnome who has traveled many planes of existence. She was looking for Zybilna to ask if she would be her patron."
+        },
+        {
+          "value": "Next Cass and Firewatch went on the Gondola Swans where Featherene told them that Palasha, the mermaid, and Candlefoot, the mime, were madly in love."
+        },
+        {
+          "value": "Next they went on the Gondola Swans where Featherene told them that Palasha, the mermaid, and Candlefoot, the mime, were madly in love."
+        },
+        {
+          "value": "Everyone gathered around Palasha as she started to sing, and a heckler shouted from the crowd causing Palasha to cry."
+        },
+        {
+          "value": "Cass and Firewatch used the mage hands and psionic shove to push this heckler into the stream. His disguise faded as he entered the water to reveal a Kenku."
+        },
+        {
+          "value": "Palasha said that the Kenku was named Kettlestream and had stolen Candlefoots voice. She was not sure why he hated the carnival but knew he was ruining it for everyone."
+        },
+        {
+          "value": "The group went to the Staff Area to meet Mister Light."
+        },
+        {
+          "value": "A Bugbear named Burly escorted them to Mister Light and Mister Witch."
+        },
+        {
+          "value": "Mister Light was delighted with their performance at the Big Top Extraveganser and wanted to meet them."
+        },
+        {
+          "value": "Mister Light was not sure why Kettlestream was ruining the carnival and wanted nothing more than to stop her. He agreed to reward the group if they brought her to them."
+        },
+        {
+          "value": "Burly escorted them out and pulled them aside. He was concerned that Mister Witch and Mister Light had been looking after the carnival for too long and wanted the group's help."
+        },
+        {
+          "value": "It was revealed the Mister Witch and Mister Light had come from a carnival in Shadowfell known as the Midnight Carnival and traded carnivals with Isolde for a year. This was eight years ago, and Burly was concerned that something nefarious was afoot."
+        },
+        {
+          "value": "He suggested that during the Crowning of the Monarch, at the end of the day, they could steal Mister Witch's watch that magically ran the carnival. He was sure they could use that watch to find out how to get into Prismeer to find Zybilna and their plans for the carnival."
         }
       ]
     },
@@ -425,9 +602,6 @@
         },
         {
           "value": "The first attraction Cass and Florian went on was the Bubble-pop Teapot and they floated around."
-        },
-        {
-          "value": "Next Cloud and Cass went on the Giant Snail races where Cass won the race."
         },
         {
           "value": "Cass, Florian, and Cloud went miniature entering the Pixie kingdom."

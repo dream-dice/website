@@ -84,10 +84,10 @@ const Header = () => {
                     <nav className="tabs">
                         <div className="container">
                             <ul>
-                                <HeroFootLink pathname={pathname} to='/' label='Home' />
-                                <HeroFootLink pathname={pathname} to={`/cos`} label='Curse of Strahd' />
-                                <HeroFootLink pathname={pathname} to={`/cm`} label='Candlekeep Mysteries' />
-                                <HeroFootLink pathname={pathname} to={'/shop'} label='Shops & Services' />
+                                <HeroFootLink pathname={pathname} to='/' label='🏠 Home' />
+                                <HeroFootLink pathname={pathname} to={`/cos`} label='🧛 Curse of Strahd' />
+                                <HeroFootLink pathname={pathname} to={`/cm`} label='🕯️ Candlekeep Mysteries' />
+                                <HeroFootLink pathname={pathname} to={'/shop'} label='🛍️ Shops & Services' />
                             </ul>
                         </div>
                     </nav>

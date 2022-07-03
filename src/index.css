@@ -30,11 +30,17 @@ h1,
   transition: font-size 0.1s ease-in-out;
 }
 
+.card-header-subtitle {
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+
 .card {
   transition: margin 0.1s ease-in-out;
 }
 
 .card-header {
+  flex-wrap: wrap;
   width: 100%;
   border-width: 0;
   cursor: pointer;
