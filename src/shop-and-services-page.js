@@ -1,6 +1,7 @@
 import React, { useReducer, useState } from 'react'
 import Card from './card'
 import items from './items.json'
+import names from './names.json'
 import chance from 'chance'
 
 const links = {
@@ -266,8 +267,9 @@ const Random = () => (
             <RandomItem items={items.animals} title='Animal' href={links.animals} />
         </div>
         <div>
-            <RandomGenerator title='Male name' random={() => chance().first({ gender: 'male' })} href={links.name} />
-            <RandomGenerator title='Female name' random={() => chance().first({ gender: 'female' })} href={links.name} />
+            <RandomGenerator title='Male name' random={() => chance().pickone(names.maleNames)} href={links.name} />
+            <RandomGenerator title='Female name' random={() => chance().pickone(names.femaleNames)} href={links.name} />
+            <RandomGenerator title='Last name' random={() => chance().pickone(names.lastNames)} href={links.name} />
         </div>
     </div>
 )
