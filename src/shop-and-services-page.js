@@ -267,9 +267,11 @@ const Random = () => (
             <RandomItem items={items.animals} title='Animal' href={links.animals} />
         </div>
         <div>
-            <RandomGenerator title='Male name' random={() => chance().pickone(names.maleNames)} href={links.name} />
-            <RandomGenerator title='Female name' random={() => chance().pickone(names.femaleNames)} href={links.name} />
-            <RandomGenerator title='Last name' random={() => chance().pickone(names.lastNames)} href={links.name} />
+            <RandomGenerator title='Male' random={() => chance().pickone(names.male)} href={links.name} />
+            <RandomGenerator title='Female' random={() => chance().pickone(names.female)} href={links.name} />
+            <RandomGenerator title='Last' random={() => chance().pickone(names.last)} href={links.name} />
+            <RandomGenerator title='Dragons' random={() => chance().pickone(names.dragon)} href={links.name} />
+            <RandomGenerator title='Undead' random={() => chance().pickone(names.undead)} href={links.name} />
         </div>
     </div>
 )

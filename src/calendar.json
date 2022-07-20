@@ -1,7 +1,7 @@
 {
   "cos": {
-    "time": "2022-04-25T12:30:00.000Z",
-    "weather": "Heavy rain, 4*C",
+    "time": "2022-04-26T06:30:00.000Z",
+    "weather": "Thunder and Heavy Rain, 4*C",
     "combat": false,
     "round": 0,
     "events": [
@@ -11,14 +11,14 @@
       }
     ],
     "nextSession": {
-      "date": "2022-07-16T20:30:00.000Z",
-      "title": "Chapter 44 - The Vallaki Heros Prove Themselves",
-      "description": "Everyone is trapped underneath The Seven HQ and Strahd is on his way to destroy Vallaki.",
-      "discord": "https://discord.com/channels/819872538548371517/835186528803094559/993161966824730684"
+      "date": "2022-07-30T20:30:00.000Z",
+      "title": "Chapter 45 - The Castle Gates",
+      "description": "It is clear to the group now that no matter hard one might try, Strahd will always find a way to destroy everything in Barovia. You have only had a taste of the destruction misery that he has caused, the people of Barovia live in a perpetual nightmare. Armed with anger, vengeance and justice, you approach the gates of Castle Ravenloft, the home of Strahd von Zarovich to free everyone from his nightmare.",
+      "discord": "https://discord.com/channels/819872538548371517/835186528803094559/999215352561016874"
     }
   },
   "cm": {
-    "time": "2022-05-22T16:30:00.000Z",
+    "time": "2022-05-22T18:30:00.000Z",
     "weather": "Cloudy skies, 12*C",
     "combat": false,
     "round": 0,
@@ -29,9 +29,9 @@
       }
     ],
     "nextSession": {
-      "date": "2022-07-11T20:30:00.000Z",
-      "title": "Chapter 16 - Crowning The Witchlight Monarch",
-      "description": "The group are on the hunt for Kettlestream and plan to steal Mister Witch's watch during the Crowning of the Witchlight Monarch.",
+      "date": "2022-07-25T20:30:00.000Z",
+      "title": "Chapter 17 - Stepping Into Prismeer",
+      "description": "Mister Light and Mister Witch are furious with everyone, you have stolen his precious watch, and he wants it back. You need answers, and you need to find a way into Prismeer to save Zybilna.",
       "discord": "https://discord.com/channels/819872538548371517/905005742359216159/993160796043481149"
     }
   }

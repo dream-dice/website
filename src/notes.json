@@ -5,10 +5,10 @@
       "name": "summary",
       "index": "S",
       "title": "Curse of Strahd",
-      "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land ruled by a vampire named Strahd who had all but destroyed the world around them.",
-      "current": "The group is trapped underneath The Seven HQ in Vallaki.",
-      "next": "They need to escape and stop Strahd as soon as possible.",
-      "why": "Because Ronaldo trapped them there in exchange for the safety of the orphans.",
+      "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land is ruled by a vampire named Strahd who had all but destroyed the world around them.",
+      "current": "You stand outside the gates of Castle Ravenloft.",
+      "next": "Enter the castle to take on Strahd.",
+      "why": "Because Strahd has destroyed everything you worked hard to save.",
       "notes": [
         {
           "value": "Everyone was trapped in Barovia and can't leave due to the thick fog."
@@ -18,6 +18,63 @@
         },
         {
           "value": "Madam Eva gave them a card reading to help them defeat Strahd."
+        },
+        {
+          "value": "You have the Holy Symbol of Ravenkind and Sergei's Sun Dagger."
+        }
+      ]
+    },
+    {
+      "date": "2022-07-16",
+      "name": "session-44",
+      "index": "44",
+      "title": "Chapter 44 - The Fall of the Heros of Vallaki",
+      "description": "The group escaped Vallaki, but returned to destruction.",
+      "notes": [
+        {
+          "value": "Everyone tried to escape the cellar."
+        },
+        {
+          "value": "Ronaldo went to take the children from the HQ to the church where the hallowed ground could keep them safe."
+        },
+        {
+          "value": "While investigating the cult symbols, Victor Vallakovich teleported into the room, looking to take back his fallen house."
+        },
+        {
+          "value": "Everyone struck and killed him, only to discover that was part of his plan the whole time, and he burst into a huge Ghost Dragon named Echo."
+        },
+        {
+          "value": "Zordar fell, and Gorek was paralyzed with fear. The outcome looked like certain death for everyone."
+        },
+        {
+          "value": "Brutus managed to gather everyone around him, and they all teleported back to Kazahn's Tower."
+        },
+        {
+          "value": "They decided to rest until the morning, knowing the Strahd was going to the town but deciding they needed to recover more before they took him on."
+        },
+        {
+          "value": "After leaving Ireena behind in the tower once more, the group returned to Vallaki at first light."
+        },
+        {
+          "value": "When they got back to Vallaki, they found Van Richten's head on a pike and the word \"Cowards\" written in blood on the gates."
+        },
+        {
+          "value": "At the Blue Water Inn, Urwin, the keeper of the feathers leader and Inn owner, explained that Rictavio was Van Richten, a famous vampire hunter, and he tried his best to kill Strahd and died."
+        },
+        {
+          "value": "After Van Richten was killed, Strahd executed the Seven one by one demanding that the Heros of Vallaki come out."
+        },
+        {
+          "value": "While this was happening, Goatku (formally Izek) was fighting the Kobolds that Strahd had recruited to destroy the city."
+        },
+        {
+          "value": "Strahd left after killing the Seven in anger that the group never showed up."
+        },
+        {
+          "value": "The guards managed to kill the Kobolds, but not before they caused massive damage to the town and killed scores of villagers."
+        },
+        {Strahd's 
+          "value": "They set off at once and marched to Castle Ravenloft."
         }
       ]
     },
@@ -520,10 +577,88 @@
           "value": "After walking through a mushroom ring to find the Feywild carnival Mardyk spoke of."
         },
         {
-          "value": "The group are on the hunt for Kettlestream to stop her from ruining the carnival and someway into Prismeer to find Zybilna."
+          "value": "The group is on the hunt for Kettlestream to stop her from ruining the carnival and someway into Prismeer to find Zybilna."
         },
         {
-          "value": "Zybilna went missing in Prismeer around the same time that three hags split the domain into Hither, Thither and Yon."
+          "value": "Zybilna went missing in Prismeer around the same time that three hags split the domain into Hither, Thither, and Yon."
+        }
+      ]
+    },
+    {
+      "date": "2022-07-11",
+      "name": "session-16",
+      "index": "16",
+      "title": "Chapter 16 - Crowning the Witchlight Monarch",
+      "description": "After being crowned the Witchlight Monarch, the heist comenses.",
+      "notes": [
+        {
+          "value": "With time left, the group went on the Dragonfly Ride next."
+        },
+        {
+          "value": "While flying, Kettlestream showed up and caused mischief, making a dragonfly buck and nearly knocking off a dwarf."
+        },
+        {
+          "value": "The group caught Kettlestream and discovered that Zybilna was her patron and that her contract with Zybilna meant she couldn't enter Prismeer to save her."
+        },
+        {
+          "value": "She was causing mischief until Mister Witch and Mister Light went to save Zybilna, perhaps not the most thought out of plans."
+        },
+        {
+          "value": "Cassandra took a corn husk doll which contained the voice of Candlefoot."
+        },
+        {
+          "value": "The group hatched the following plan. Firewatch created a fake watch and vane. While Firewatch and Cloud went to steal the watch and swap it with the fake, Florian and Cassandra would attempt the same thing with the vane."
+        },
+        {
+          "value": "They agreed to let Kettlestream go on the condition that she would cause a distraction so that Cassandra and Florian could attempt to steal the vane."
+        },
+        {
+          "value": "Timagast planned to fly in the sky on the back of a Giant Dragonfly, ready to dive in and help if needed."
+        },
+        {
+          "value": "Next, the group went past the Lost Property and were told that someone was looking for a lost child named Viro. They agreed to help, and Dirlagraun gave Florian a Mirror ball that belonged to Viro, which might resonate if they found him."
+        },
+        {
+          "value": "While searching, they saw a frog-like creature dragging a little boy into the Hall of Mirrors."
+        },
+        {
+          "value": "The creature dragged the boy into one of the mirrors and disappeared."
+        },
+        {
+          "value": "The group checked but couldn't find a way into the mirror again."
+        },
+        {
+          "value": "It was revealed that this frog was a Lornling of the \"Thieves of the Coven\" who worked for Bavlorna Blightstraw."
+        },
+        {
+          "value": "While talking to Candlefoot, it was clear that he had no memory of anyone ever going into the Hall of Mirrors, as though under a spell he would just change the subject and forget about the conversation."
+        },
+        {
+          "value": "The last attraction the group went on was the Carousel."
+        },
+        {
+          "value": "The Carousel was out of order, and Diana Cloppington asked the group to help her fix it."
+        },
+        {
+          "value": "While talking to her, she was under a spell and was unable to talk about the Hourglass Coven or how she became half horse half person without vomiting black slime."
+        },
+        {
+          "value": "The group fixed the horses, and they telepathically told them that Diana had gone into Prismeer and asked Granny Nightshade of the Hourglass Coven to be reunited with her beloved horse. The hag then united the horse with her, literally. After this, she escaped where Mister Witch and Mister Light recruited her."
+        },
+        {
+          "value": "Everyone agreed that Cassandra had brought the most joy into the carnival that day, and crowned the Witchlight Monarch and given a glorious crown."
+        },
+        {
+          "value": "While the procession started, the heist commenced."
+        },
+        {
+          "value": "Cloud became invisible with the cupcake he had won that day and managed to steal the watch from Mister Witch. Unfortunately, Firewatch was caught trying to swap it with the fake and was struck hard by his cane."
+        },
+        {
+          "value": "At the same time, Kettlestream pushed the Calliope into Mister Light while Cassandra and Florian tried to wrestle the vane out of his hands."
+        },
+        {
+          "value": "Enraged by the heist, Mister Light stopped the carnival and asked everyone to leave while Mister Witch demanded that the group be taken to the Staff Area so he could get his watch back."
         }
       ]
     },
@@ -610,7 +745,7 @@
           "value": "They played a wonderful game of hide-and-seek with Honeymint and Starbug."
         },
         {
-          "value": "Jerry, the pixie in charge of the event, mentioned that a Kenku named Kettlesteam had been causing mischief at the carnival, who uses disguise self to cause trouble."
+          "value": "Jerry, the pixie in charge of the event, mentioned that a Kenku named Kettlestream had been causing mischief at the carnival, who uses disguise self to cause trouble."
         },
         {
           "value": "He also mentioned that Candlefoot, the mime, was in-love with Palasha the mermaid. Candlefoot lost his voice and no one knows if this is part of the ac."
