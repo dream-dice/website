@@ -7,13 +7,15 @@ const personIcon = 'assets/icons/icons/person.png'
 const twoShadowsIcon = 'assets/icons/icons/two-shadows.png'
 const dragonIcon = 'assets/icons/icons/dragon-head.png'
 const undeadIcon = 'assets/icons/icons/chewed-skull.png'
+const treesIcon = 'assets/icons/icons/deku-tree.png'
 const {
     female,
     male,
     last,
     all,
     dragon,
-    undead
+    undead,
+    trees
 } = JSON.parse(fs.readFileSync('../src/names.json').toString())
 
 const randomId = () => chance().string({ alpha: true, length: 16 })
@@ -62,4 +64,5 @@ const generate = (names, icon, type) => {
 // generate(lastNames, personIcon, 'last')
 // generate(allNames, twoShadowsIcon, 'all')
 // generate(dragon, dragonIcon, 'dragon')
-generate(undead, undeadIcon, 'undead')
+// generate(undead, undeadIcon, 'undead')
+generate(trees, treesIcon, 'trees')

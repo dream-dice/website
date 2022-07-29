@@ -10,3 +10,9 @@ It is for my creative purposes only.
 * Introduce a blog
 * Update the characters section
 * Remove the old code
+
+## Notes
+
+### CM Date enetring Feywild
+
+2022-05-22T07:00:00.000Z

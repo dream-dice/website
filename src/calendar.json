@@ -18,21 +18,25 @@
     }
   },
   "cm": {
-    "time": "2022-05-22T18:30:00.000Z",
-    "weather": "Cloudy skies, 12*C",
+    "time": "2022-05-23T09:00:00.000Z",
+    "weather": "Heavy mist, clear skies, 7*C",
     "combat": false,
     "round": 0,
     "events": [
       {
         "time": "2022-05-30T13:00:00.000Z",
         "value": "Firewatch's nightmares from the Mystery Mine will fade."
+      },
+      {
+        "time": "2022-05-24T09:00:00.000Z",
+        "value": "Florian, Cassandra, and Cloud's boon expire."
       }
     ],
     "nextSession": {
       "date": "2022-07-25T20:30:00.000Z",
-      "title": "Chapter 17 - Stepping Into Prismeer",
-      "description": "Mister Light and Mister Witch are furious with everyone, you have stolen his precious watch, and he wants it back. You need answers, and you need to find a way into Prismeer to save Zybilna.",
-      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/993160796043481149"
+      "title": "Chapter 18 - Saving Sir Talavar",
+      "description": "After entering Hither, the group promised to help Sir Talavar escape his cage by bringing him to Jingle Jangle on Telemy Hill and finding a key to free him.",
+      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1002625776602054727"
     }
   }
 }

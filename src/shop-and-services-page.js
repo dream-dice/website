@@ -272,6 +272,7 @@ const Random = () => (
             <RandomGenerator title='Last' random={() => chance().pickone(names.last)} href={links.name} />
             <RandomGenerator title='Dragons' random={() => chance().pickone(names.dragon)} href={links.name} />
             <RandomGenerator title='Undead' random={() => chance().pickone(names.undead)} href={links.name} />
+            <RandomGenerator title='Trees' random={() => chance().pickone(names.trees)} href={links.name} />
         </div>
     </div>
 )
