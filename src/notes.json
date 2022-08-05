@@ -6,8 +6,8 @@
       "index": "S",
       "title": "Curse of Strahd",
       "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land is ruled by a vampire named Strahd who had all but destroyed the world around them.",
-      "current": "You stand outside the gates of Castle Ravenloft.",
-      "next": "Enter the castle to take on Strahd.",
+      "current": "Searching for Strahd's Tome in Sergei's tomb and Emil in the Dungeon.",
+      "next": "Descending the secret stairs found in Rahadin's office.",
       "why": "Because Strahd has destroyed everything you worked hard to save.",
       "notes": [
         {
@@ -21,6 +21,36 @@
         },
         {
           "value": "You have the Holy Symbol of Ravenkind and Sergei's Sun Dagger."
+        }
+      ]
+    },
+    {
+      "date": "2022-07-30",
+      "name": "session-45",
+      "index": "45",
+      "title": "Chapter 45 - Deafting the Sworn Enemy",
+      "description": "The group scaled the castle walls and killed Rahadin.",
+      "notes": [
+        {
+          "value": "Instead of heading straight through the gates, Xerus flew up, and the group climbed up after him on their rope."
+        },
+        {
+          "value": "On top of the wall they found a tough suit of armor which they destroyed."
+        },
+        {
+          "value": "Dwight fired several arrows using his boy to find Rahadin."
+        },
+        {
+          "value": "The group found stairs. They could feel a pulsating wave of evil coming from above."
+        },
+        {
+          "value": "At the bottom of the stairs was a room loaded with dead soldiers from a battle long ago."
+        },
+        {
+          "value": "On the other side of the room was Rahadin's office. The group fought hard to take him out and managed to kill him twice, finally killing him."
+        },
+        {
+          "value": "The group found a secret door in Rahadin's office leading down, the direction of the Dungeon where Emil is and the Crypts where Strahd's Tome lies on Sergei's tomb must be down there somewhere."
         }
       ]
     },
@@ -566,9 +596,9 @@
       "index": "S",
       "title": "Candlekeep Mysteries",
       "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Now they are heading into the Feywild to help Mardyck rescue his patron Zybilna.",
-      "current": "The group is searching for Bavlorna Bragshaw of the Hourglass Coven in order to stop her reign over the swamp and allow them to progress into Thither to get closer to Zybilna.",
+      "current": "The group is searching for Bavlorna Bragshaw of the Hourglass Coven to stop her reign over the swamp and allow them to progress into Thither to get closer to Zybilna.",
       "next": "The group has promised to take Sir Talavar to Jingle Jangl on Telemy Hill to free him from his cage.",
-      "why": "Because Primeer was was broken into three domains ruled by hags known as the Hourglass Coven and have trapped Zybilna.",
+      "why": "Because Primeer was broken into three domains ruled by hags known as the Hourglass Coven and have trapped Zybilna.",
       "notes": [
         {
           "value": "The group is searching for Zybilna in the Feywild."
@@ -583,7 +613,7 @@
           "value": "Zybilna went missing in Prismeer around the same time that three hags split the domain into Hither, Thither, and Yon."
         },
         {
-          "value": "Now you have entered Prismeer to find the three hags of the Hourglass Coven and tyo get through Hither, Thither, and Yon to save Zybilna."
+          "value": "Now you have entered Prismeer to find the three hags of the Hourglass Coven and to get through Hither, Thither, and Yon to save Zybilna."
         }
       ]
     },
