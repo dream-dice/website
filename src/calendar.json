@@ -1,19 +1,19 @@
 {
   "cos": {
-    "time": "2022-04-26T09:00:00.000Z",
+    "time": "2022-04-26T11:30:00.000Z",
     "weather": "Thunder and Heavy Rain, 4*C",
     "combat": false,
     "round": 0,
     "events": [],
     "nextSession": {
       "date": "2022-08-13T20:30:00.000Z",
-      "title": "Chapter 46 - In Rahadin's Wake",
-      "description": "After scaling the castle walls, the group descended a long winding staircase and found themselves in Rahadin's office. After a difficult battle, the group managed to kill Rahadin, ready to descend a secret staircase in the back of his office.",
-      "discord": "https://discord.com/channels/819872538548371517/835186528803094559/1005153387144302673"
+      "title": "Chapter 46 - Descending the Secret Staircase",
+      "description": "After killing Rahadin, a secret staircase was found in his office for the third time. The staircase leads down, and the group knows that Sergei's tomb with the Tome of Strahd must be further down under the castle.",
+      "discord": "https://discord.com/channels/819872538548371517/835186528803094559/1012705862588051466"
     }
   },
   "cm": {
-    "time": "2022-05-23T09:00:00.000Z",
+    "time": "2022-05-23T11:30:00.000Z",
     "weather": "Heavy mist, clear skies, 7*C",
     "combat": false,
     "round": 0,
@@ -29,9 +29,9 @@
     ],
     "nextSession": {
       "date": "2022-07-25T20:30:00.000Z",
-      "title": "Chapter 18 - Saving Sir Talavar",
-      "description": "After entering Hither, the group promised to help Sir Talavar escape his cage by bringing him to Jingle Jangle on Telemy Hill and finding a key to free him.",
-      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1002625776602054727"
+      "title": "Chapter 19 - Atop the Stump",
+      "description": "After defeating the Brigands and their leader Agdon Longscarf at the Brigands Tollway, the group stands on top of a large stump having to decide which way to go next.",
+      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1012720718166896671"
     }
   }
 }

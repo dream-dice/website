@@ -21,12 +21,12 @@ const App = () => {
               <Routes>
                 <Route path='/' element={(<div />)}></Route>
                 <Route path='/shop' element={(<div />)}></Route>
-                <Route path='/cos' element={<Game game='cos' page='characters' />}></Route>
+                <Route path='/cos' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/characters' element={<Game game='cos' page='characters' />}></Route>
                 <Route path='/cos/notes' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/appendix' element={<Game game='cos' page='appendix' />}></Route>
                 <Route path='/cos/calendar' element={<Game game='cos' page='calendar' />}></Route>
-                <Route path='/cm' element={<Game game='cm' page='characters' />}></Route>
+                <Route path='/cm' element={<Game game='cm' page='notes' />}></Route>
                 <Route path='/cm/characters' element={<Game game='cm' page='characters' />}></Route>
                 <Route path='/cm/notes' element={<Game game='cm' page='notes' />}></Route>
                 <Route path='/cm/appendix' element={<Game game='cm' page='appendix' />}></Route>
@@ -35,16 +35,16 @@ const App = () => {
               <Routes>
                 <Route path='/' element={<HomePage />}></Route>
                 <Route path='/shop' element={<ShopAndServicesPage />}></Route>
-                <Route path='/cos' element={<CharactersPage game='cos' />}></Route>
-                <Route path='/cm' element={<CharactersPage game='cm' />}></Route>
+                <Route path='/cos' element={<NotesPage game='cos' />}></Route>
+                <Route path='/cm' element={<NotesPage game='cm' />}></Route>
                 <Route path='/cos/characters' element={<CharactersPage game='cos' />}></Route>
                 <Route path='/cm/characters' element={<CharactersPage game='cm' />}></Route>
+                <Route path='/cos/calendar' element={<CalendarPage game='cos' />}></Route>
+                <Route path='/cm/calendar' element={<CalendarPage game='cm' />}></Route>
                 <Route path='/cos/notes' element={<NotesPage game='cos' />}></Route>
                 <Route path='/cm/notes' element={<NotesPage game='cm' />}></Route>
                 <Route path='/cos/appendix' element={<AppendixPage game='cos' />}></Route>
                 <Route path='/cm/appendix' element={<AppendixPage game='cm' />}></Route>
-                <Route path='/cos/calendar' element={<CalendarPage game='cos' />}></Route>
-                <Route path='/cm/calendar' element={<CalendarPage game='cm' />}></Route>
                 <Route element={<NotFound />}></Route>
               </Routes>
             </div>
