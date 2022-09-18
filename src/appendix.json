@@ -11,6 +11,12 @@
       "title": "Madam Eva's Second Reading",
       "description": "This reading gives an insight into your enemies plans, giving you a chance to get ahead.",
       "content": "/appendix/second-reading.md"
+    },
+    {
+      "name": "tome-of-strhad",
+      "title": "Tome of Strahd",
+      "description": "Resting atop Sergei's resting place you found the Tome of Strahd.",
+      "content": "/appendix/tome-of-strahd.md"
     }
   ],
   "cm": [

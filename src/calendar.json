@@ -7,14 +7,13 @@
     "events": [],
     "nextSession": {
       "date": "2022-08-27T20:30:00.000Z",
-      "title": "Chapter 46 - Descending the Secret Staircase",
-      "description": "After killing Rahadin, a secret staircase was found in his office for the third time. The staircase leads down, and the group knows that Sergei's tomb with the Tome of Strahd must be further down under the castle.",
-      "discord": "https://discord.com/channels/819872538548371517/835186528803094559/1012705862588051466"
+      "title": "Chapter 47 - The Final Showdown",
+      "description": "Madam Eva's card reading into fruition. It is time to smite the wretched king of Barovia, Strahd von Zarovich."
     }
   },
   "cm": {
-    "time": "2022-05-23T11:30:00.000Z",
-    "weather": "Heavy mist, clear skies, 7*C",
+    "time": "2022-05-23T14:00:00.000Z",
+    "weather": "Heavy mist, overcast, 7*C",
     "combat": false,
     "round": 0,
     "events": [
@@ -29,9 +28,9 @@
     ],
     "nextSession": {
       "date": "2022-09-05T20:30:00.000Z",
-      "title": "Chapter 19 - Atop the Stump",
-      "description": "After defeating the Brigands and their leader Agdon Longscarf at the Brigands Tollway, the group stands on top of a large stump having to decide which way to go next.",
-      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1012720718166896671"
+      "title": "Chapter 20 - Downfall Revolution",
+      "description": "You have agreed to help overthrow the king in exchange for an army of bullywugs.",
+      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1021051653916479488"
     }
   }
 }

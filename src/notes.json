@@ -6,9 +6,9 @@
       "index": "S",
       "title": "Curse of Strahd",
       "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land is ruled by a vampire named Strahd who had all but destroyed the world around them.",
-      "current": "Searching for Strahd's Tome in Sergei's tomb and Emil in the Dungeon.",
-      "next": "Descending the secret stairs found in Rahadin's office.",
-      "why": "Because Strahd has destroyed everything you worked hard to save.",
+      "current": "Searching for Strahd.",
+      "next": "Confront and kill Strahd once and for all.",
+      "why": "Because Strahd has destroyed everything you worked hard to save and if they don't Griek's will become even more powerful.",
       "notes": [
         {
           "value": "Everyone was trapped in Barovia and can't leave due to the thick fog."
@@ -21,6 +21,81 @@
         },
         {
           "value": "You have the Holy Symbol of Ravenkind and Sergei's Sun Dagger."
+        },
+        {
+          "value": "Griek took Zuleika and Emil."
+        },
+        {
+          "value": "You now have Sergei's Sun Dagger."
+        },
+        {
+          "value": "You now have the Tome of Strahd."
+        },
+        {
+          "value": "You have destroyed Strahd's heart."
+        },
+        {
+          "value": "Mord's younger self has come to help you destroy Strahd."
+        }
+      ]
+    },
+    {
+      "date": "2022-08-27",
+      "name": "session-47",
+      "index": "47",
+      "title": "Chapter 47 - In the Dungeons",
+      "description": "After fighting Strahd the group leaves the dungeon to search for Sergei's Tomb.",
+      "notes": [
+        {
+          "value": "The group found the crypts and scoured them looking for Sergei's Tomb."
+        },
+        {
+          "value": "While here, Efreeti told Xerus that he would give him his aide if he found his sword in the crypts."
+        },
+        {
+          "value": "When the group found Sergei's tomb, they found a large tome lying there. As they took it, the coffin started to thump. A familiar voice shouted for help from within."
+        },
+        {
+          "value": "They pulled open the coffin to reveal a younger version of Mordenkainen was lying inside."
+        },
+        {
+          "value": "She had received a letter from her older/alternate self, who had managed to open the door to Lamordia. A Domain of Dread where Arty had ended up. The letter had a scroll to send her to Barovia, where she promised to help these people destroy Strahd and the domain simultaneously."
+        },
+        {
+          "value": "Mord's mentor, Morden, whom she had got her name from, had been manipulated by Griek to create the Domains of Dread. Each one fed Griek with unlimited power, and now Mord planned to destroy them all before he turned the world into a Domain of Dread."
+        },
+        {
+          "value": "Each Domain of Dread starts with a catastrophic event, and then loops, feeding Griek with dark energy."
+        },
+        {
+          "value": "As the group searched the crypts, they found one filled with lethal brown mold, but also a great sword that would grant the wielder a wish. This was known as the Luck Sword and belonged to Efreeti, now in possession of Godfrey."
+        },
+        {
+          "value": "The group left the crypts and found the giant beating heart at the top of a tower. They destroyed it. Blood gushed down the stairs like a waterfall, and they heard a terryfying roar from within the castle."
+        }
+      ]
+    },
+    {
+      "date": "2022-08-27",
+      "name": "session-46",
+      "index": "46",
+      "title": "Chapter 46 - Descending the Secret Staircase",
+      "description": "After defeating Rahadin the group make their way down a secret staircase in search of Sergei's tomb.",
+      "notes": [
+        {
+          "value": "They climb down the secret staircase and find a sand timer and brazier. They work out that it can teleport you somewhere, though they were able to decipher where."
+        },
+        {
+          "value": "Afterwards the group trip a trap and find themselves caught in Strahd's Dungeon. As fate would have it, Strahd was waiting here."
+        },
+        {
+          "value": "The group manage to get out and fought Strahd. During the fight They freed Emil, Zuleika's partner."
+        },
+        {
+          "value": "Just as they are freed Strahd calls Griek who comes forward and steals both of them away to another dimention."
+        },
+        {
+          "value": "Strahd turned himself into a fog and fled the dungeon."
         }
       ]
     },
@@ -596,24 +671,57 @@
       "index": "S",
       "title": "Candlekeep Mysteries",
       "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Now they are heading into the Feywild to help Mardyck rescue his patron Zybilna.",
-      "current": "The group is searching for Bavlorna Bragshaw of the Hourglass Coven to stop her reign over the swamp and allow them to progress into Thither to get closer to Zybilna.",
-      "next": "The group has promised to take Sir Talavar to Jingle Jangl on Telemy Hill to free him from his cage.",
-      "why": "Because Primeer was broken into three domains ruled by hags known as the Hourglass Coven and have trapped Zybilna.",
+      "current": "The group has found Bavlorna Bragshaw of the Hourglass Coven in Downfall and plan to stop her reign over the swamp and allow them to progress into Thither to get closer to Zybilna.",
+      "next": "You have all decided to help the Bullywug revolution.",
+      "why": "Because Primeer was broken into three domains ruled by hags known as the Hourglass Coven and have trapped Zybilna. Getting to Bavlorna is the first step to figuring out how to free Zybilna.",
       "notes": [
         {
-          "value": "The group is searching for Zybilna in the Feywild."
+          "value": "Zybilna is trapped in the Palace of Heart's Desire."
         },
         {
-          "value": "After walking through a mushroom ring to find the Feywild carnival Mardyk spoke of."
+          "value": "The group know where Bavlorna's cottage is, in Downfall."
         },
         {
-          "value": "The group is on the hunt for Kettlestream to stop her from ruining the carnival and someway into Prismeer to find Zybilna."
+          "value": "The group is preparing for a full frontal assault on the cottage."
         },
         {
-          "value": "Zybilna went missing in Prismeer around the same time that three hags split the domain into Hither, Thither, and Yon."
+          "value": "Clapperclaw has promised to help them get into Thither if they help him get his head back."
+        }
+      ]
+    },
+    {
+      "date": "2022-08-05",
+      "name": "session-19",
+      "index": "19",
+      "title": "Chapter 19 - Atop the Stump",
+      "description": "After defeating Agdon Longscarf the group learns that Bavlorna lives in a place known as Downfall.",
+      "notes": [
+        {
+          "value": "A group of traveling Bugbears walked past, saying they were heading to Downfall to sell their wares to Trinket, Charm, and Bauble in their thunderstorm balloon shop. They also revealed that Bavlorna lives in Downfall."
         },
         {
-          "value": "Now you have entered Prismeer to find the three hags of the Hourglass Coven and to get through Hither, Thither, and Yon to save Zybilna."
+          "value": "When the group arrives they make their way to see King Gullop XIX."
+        },
+        {
+          "value": "On their way, they almost lose Comrade Alex to the giant merfolk that lives in the water. They exchange the snail for a performance."
+        },
+        {
+          "value": "They help someone put out a fire which then takes them to meet the king."
+        },
+        {
+          "value": "On the way, they meet Clapperclaw, who says he can help them get to Hither if they help him get a head. He came here to find Bavlorna and make a deal with her."
+        },
+        {
+          "value": "They meet the king, who sits on a pile of gold. He is obsessed with gold. He shows the group a book with his name and all the names of the royal family before him. All crossed out except his. The book is known as Bavlorna's Bad Book. If your name is there, bad things will come your way."
+        },
+        {
+          "value": "The group take his pet crocodile as a reward for putting out the fire. Someone approaches them and hands them a secret note."
+        },
+        {
+          "value": "When they meet this person in secret they reveal there is a revolution about to begin to overthrow King Gullop XIX."
+        },
+        {
+          "value": "They meet the secret group and agree to help in exchange for an army."
         }
       ]
     },

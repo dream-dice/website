@@ -10,9 +10,6 @@ const Game = ({ game, page }) => (
       <li className={`is-${page.includes('calendar') ? 'active' : 'inactive'}`}>
         <Link to={`/${game}/calendar`}>📆 Calendar</Link>
       </li>
-      <li className={`is-${page.includes('characters') ? 'active' : 'inactive'}`}>
-        <Link to={`/${game}/characters`}>🧑 Players & NPCs</Link>
-      </li>
       <li className={`is-${page.includes('appendix') ? 'active' : 'inactive'}`}>
         <Link to={`/${game}/appendix`}>📚 Appendix</Link>
       </li>
