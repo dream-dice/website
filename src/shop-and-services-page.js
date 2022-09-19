@@ -2,7 +2,9 @@ import React, { useReducer, useState } from 'react'
 import Card from './card'
 import items from './items.json'
 import names from './names.json'
+import tables from './tables.json'
 import chance from 'chance'
+import copy from 'copy-to-clipboard'
 
 const links = {
     equipment: 'https://www.dndbeyond.com/equipment/',
@@ -17,8 +19,8 @@ const DDBLink = ({ href, name, keepCase = false }) => {
     let hrefName = name
     if (!keepCase) hrefName = name.toLowerCase()
     const url = `${href}${hrefName.replace(/ /g, '-').replace(/[,()']/g, '')}`
-    if (href) return <a className='button is-ghost' target='_blank' href={url} rel="noopener noreferrer">{name}</a>
-    return <button className='button is-black' >{name}</button>
+    if (href) return <a className='button is-ghost' target='_blank' href={url} rel='noopener noreferrer'>{name}</a>
+    return <button className='button is-text' onClick={() => { copy(name) }}>{name}</button>
 }
 
 const ItemTitle = ({ value, onChange, sort, onSort }) => (
@@ -228,10 +230,11 @@ const RandomGenerator = ({ href, title, random }) => {
     const [value, setValue] = useState(random())
 
     return (
-        <div className="buttons has-addons">
+        <div className='buttons has-addons'>
             <button
                 style={{
-                    width: 120
+                    padding: 15,
+                    minWidth: 120
                 }}
                 onClick={() => setValue(random())}
                 className='button'
@@ -273,7 +276,162 @@ const Random = () => (
             <RandomGenerator title='Dragons' random={() => chance().pickone(names.dragon)} href={links.name} />
             <RandomGenerator title='Undead' random={() => chance().pickone(names.undead)} href={links.name} />
             <RandomGenerator title='Trees' random={() => chance().pickone(names.trees)} href={links.name} />
+            <RandomGenerator title='Bullywugs' random={() => chance().pickone(names.bullywug)} href={links.name} />
+            <RandomGenerator title='Pixie' random={() => chance().pickone(names.pixie)} href={links.name} />
         </div>
+    </div>
+)
+
+const Treasure = () => {
+
+
+    const [challenge, setChallenge] = useState(tables.challenge04)
+
+    const magicItem = (items) => {
+        const side = chance().integer({ min: 37, max: 44 })
+        return items.find(({ range }) => range[0] <= side && range[1] >= side).value
+    }
+
+    const items = (side, items) => {
+        const found = items.find(({ range }) => range[0] <= side && range[1] >= side)
+        if (typeof found === 'undefined') return []
+        const { d, value } = items.find(({ range }) => range[0] <= side && range[1] >= side)
+        const length = chance().integer({ min: 1, max: d })
+        return Array.from({ length }, () => magicItem(tables[value]))
+    }
+
+    const coins = (playerCount, { cpM, cpS, spM, spS, epM, epS, gpM, gpS, ppM, ppS }) => {
+        const cp = cpM * chance().integer({ min: 1, max: 6 }) * cpS
+        const sp = spM * chance().integer({ min: 1, max: 6 }) * spS
+        const ep = epM * chance().integer({ min: 1, max: 6 }) * epS
+        const gp = gpM * chance().integer({ min: 1, max: 6 }) * gpS
+        const pp = ppM * chance().integer({ min: 1, max: 6 }) * ppS
+        return {
+            cp: Math.round(cp / playerCount),
+            sp: Math.round(sp / playerCount),
+            ep: Math.round(ep / playerCount),
+            gp: Math.round(gp / playerCount),
+            pp: Math.round(pp / playerCount)
+        }
+    }
+
+    const loot = (side, loot) => {
+        const found = loot.find(({ range }) => range[0] <= side && range[1] >= side)
+        if (typeof found === 'undefined') return []
+        const { m, d, value } = found
+        const length = m * chance().integer({ min: 1, max: d })
+        return Array.from({ length }, () => chance().pickone(tables[value]))
+    }
+
+    const [players, setPlayers] = useState(3)
+
+    const side = chance().integer({ min: 1, max: 100 })
+    const [treasure, setTreasure] = useState({
+        coins: coins(players, challenge.coins),
+        items: items(side, challenge.items),
+        loot: loot(side, challenge.loot)
+    })
+
+    const generate = (players) => {
+        const side = chance().integer({ min: 1, max: 100 })
+        setTreasure({
+            coins: coins(players, challenge.coins),
+            items: items(side, challenge.items),
+            loot: loot(side, challenge.loot)
+        })
+    }
+
+    return (
+        <div>
+            <div className='field'>
+                <label className='label'>Challenge</label>
+                <div className='control'>
+                    <div className='select'>
+                        <select onChange={({ target: { value } }) => {
+                            setChallenge(tables[value])
+                            generate(players)
+                        }}>
+                            <option value='challenge04'>Challenge 0-4</option>
+                            <option value='challenge04'>Challenge 5-10</option>
+                            <option value='challenge04'>Challenge 11-16</option>
+                            <option value='challenge04'>Challenge 17+</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div className='field'>
+                <label className='label'>Number of Players</label>
+                <div className='control' style={{ maxWidth: 171 }}>
+                    <input
+                        className='input'
+                        type='number'
+                        placeholder='Number of players'
+                        value={players}
+                        onChange={({ target: { value } }) => {
+                            setPlayers(value)
+                            generate(value)
+                        }} />
+                </div>
+            </div>
+            <div className='field'>
+
+                <div className='control'>
+                    <button className='button is-info' onClick={() => generate(players)}>Generate</button>
+                </div>
+            </div>
+
+            <div className='content'>
+                <h3>Coins Each</h3>
+                <p>
+                    <b>CP</b><span> {treasure.coins.cp}</span>
+                    <br />
+                    <b>SP</b><span> {treasure.coins.sp}</span>
+                    <br />
+                    <b>EP</b><span> {treasure.coins.ep}</span>
+                    <br />
+                    <b>GP</b><span> {treasure.coins.gp}</span>
+                    <br />
+                    <b>PP</b><span> {treasure.coins.pp}</span>
+                </p>
+                <h3>Gems or Art</h3>
+                {treasure.loot.length === 0 && <div>There are no gems or art</div>}
+                <ul>
+                    {treasure.loot.map((value, index) => <li key={`loot-${index}`}>{value}</li>)}
+                </ul>
+
+                <h3>Magic Items</h3>
+                {treasure.items.length === 0 && <div>There are no items</div>}
+                <ul>
+                    {treasure.items.map((value, index) => <li key={`item-${index}`}>{value}</li>)}
+                </ul>
+                <button className='button is-info' onClick={() => {
+                    copy(`__Treasure__
+**CP** ${treasure.coins.cp}, **SP** ${treasure.coins.sp}, **EP** ${treasure.coins.ep}, **GP** ${treasure.coins.gp}, **PP** ${treasure.coins.pp}
+**Gems or Art**
+${treasure.loot.length === 0 ? 'no art' : treasure.loot.join('\n')}
+**Items**
+${treasure.items.length === 0 ? 'no items' : treasure.items.join('\n')}`)
+
+                }}>Copy to clipboard</button>
+            </div>
+
+        </div>
+    )
+}
+
+const Tables = () => (
+    <div>
+        <RandomGenerator title='Trinkets' random={() => chance().pickone(tables.trinkets)} />
+        <RandomGenerator title='Feywild Trinkets' random={() => chance().pickone(tables.feywildTrinkets)} />
+        <RandomGenerator title='Horror Trinkets' random={() => chance().pickone(tables.horrorTrinkets)} />
+        <RandomGenerator title='Soggy Court Honorifics' random={() => chance().pickone(tables.soggyCourtHonorifics)} />
+        <RandomGenerator title='25gp Art Object' random={() => chance().pickone(tables['25Art'])} />
+        <RandomGenerator title='250gp Art Object' random={() => chance().pickone(tables['250Art'])} />
+        <RandomGenerator title='750gp Art Object' random={() => chance().pickone(tables['750Art'])} />
+        <RandomGenerator title='2500gp Art Object' random={() => chance().pickone(tables['2500Art'])} />
+        <RandomGenerator title='7500gp Art Object' random={() => chance().pickone(tables['7500Art'])} />
+        <RandomGenerator title='Magic Item A' random={() => chance().pickone(tables.magicA.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item B' random={() => chance().pickone(tables.magicB.map(({ value }) => value))} />
     </div>
 )
 
@@ -297,6 +455,12 @@ const ShopAndServicesPage = () => {
             </Card>
             <Card title='🎲 Random'>
                 <Random />
+            </Card>
+            <Card title='🧮 Tables'>
+                <Tables />
+            </Card>
+            <Card title='🪙 Treasure'>
+                <Treasure />
             </Card>
         </div>
     )

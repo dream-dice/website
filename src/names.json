@@ -11421,5 +11421,25 @@
         "Wild Service-tree",
         "Wych Elm",
         "Yew"
+    ],
+    "bullywug": [
+        "Augluth",
+        "Bloff",
+        "Bultis",
+        "Grumple",
+        "Mundlemud",
+        "Ribble",
+        "Splop",
+        "Ufgunk"
+    ],
+    "pixie": [
+        "Brightmite",
+        "Cobweb",
+        "Cotton Candy",
+        "Dimple",
+        "Jellybean Starfish",
+        "Panache",
+        "Puddlemud",
+        "Toadhop"
     ]
 }

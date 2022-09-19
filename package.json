@@ -5,6 +5,7 @@
   "dependencies": {
     "bulma": "^0.9.4",
     "chance": "^1.1.8",
+    "copy-to-clipboard": "^3.3.2",
     "fuse.js": "^6.6.2",
     "gh-pages": "^4.0.0",
     "ics": "^2.35.0",
