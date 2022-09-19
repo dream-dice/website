@@ -432,6 +432,13 @@ const Tables = () => (
         <RandomGenerator title='7500gp Art Object' random={() => chance().pickone(tables['7500Art'])} />
         <RandomGenerator title='Magic Item A' random={() => chance().pickone(tables.magicA.map(({ value }) => value))} />
         <RandomGenerator title='Magic Item B' random={() => chance().pickone(tables.magicB.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item C' random={() => chance().pickone(tables.magicC.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item D' random={() => chance().pickone(tables.magicD.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item E' random={() => chance().pickone(tables.magicE.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item F' random={() => chance().pickone(tables.magicF.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item G' random={() => chance().pickone(tables.magicG.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item H' random={() => chance().pickone(tables.magicH.map(({ value }) => value))} />
+        <RandomGenerator title='Magic Item I' random={() => chance().pickone(tables.magicI.map(({ value }) => value))} />
     </div>
 )
 
