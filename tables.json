@@ -674,6 +674,2267 @@
             "value": "Wand of secrets"
         }
     ],
+    "magicC": [
+        {
+            "range": [
+                1,
+                15
+            ],
+            "value": "Potion of healing (superior)"
+        },
+        {
+            "range": [
+                16,
+                22
+            ],
+            "value": "Spell scroll (4th level)"
+        },
+        {
+            "range": [
+                23,
+                27
+            ],
+            "value": "Ammunition, +2"
+        },
+        {
+            "range": [
+                28,
+                32
+            ],
+            "value": "Potion of clairvoyance"
+        },
+        {
+            "range": [
+                33,
+                37
+            ],
+            "value": "Potion of diminution"
+        },
+        {
+            "range": [
+                38,
+                42
+            ],
+            "value": "Potion of gaseous form"
+        },
+        {
+            "range": [
+                43,
+                47
+            ],
+            "value": "Potion of frost giant strength"
+        },
+        {
+            "range": [
+                48,
+                52
+            ],
+            "value": "Potion of stone giant strength"
+        },
+        {
+            "range": [
+                53,
+                57
+            ],
+            "value": "Potion of heroism"
+        },
+        {
+            "range": [
+                58,
+                62
+            ],
+            "value": "Potion of invulnerability"
+        },
+        {
+            "range": [
+                63,
+                67
+            ],
+            "value": "Potion of mind reading"
+        },
+        {
+            "range": [
+                68,
+                72
+            ],
+            "value": "Spell scroll (5th level)"
+        },
+        {
+            "range": [
+                73,
+                75
+            ],
+            "value": "Elixir of health"
+        },
+        {
+            "range": [
+                76,
+                78
+            ],
+            "value": "Oil of etherealness"
+        },
+        {
+            "range": [
+                79,
+                81
+            ],
+            "value": "Potion of fire giant strength"
+        },
+        {
+            "range": [
+                82,
+                84
+            ],
+            "value": "Quaal's feather token"
+        },
+        {
+            "range": [
+                85,
+                87
+            ],
+            "value": "Scroll of protection"
+        },
+        {
+            "range": [
+                88,
+                89
+            ],
+            "value": "Bag of beans"
+        },
+        {
+            "range": [
+                90,
+                91
+            ],
+            "value": "Bead of force"
+        },
+        {
+            "range": [
+                92,
+                92
+            ],
+            "value": "Chime of opening"
+        },
+        {
+            "range": [
+                93,
+                93
+            ],
+            "value": "Decanter of endless water"
+        },
+        {
+            "range": [
+                94,
+                94
+            ],
+            "value": "Eyes of minute seeing"
+        },
+        {
+            "range": [
+                95,
+                95
+            ],
+            "value": "Folding boat"
+        },
+        {
+            "range": [
+                96,
+                96
+            ],
+            "value": "Heward's handy haversack"
+        },
+        {
+            "range": [
+                97,
+                97
+            ],
+            "value": "Horseshoes of speed"
+        },
+        {
+            "range": [
+                98,
+                98
+            ],
+            "value": "Necklace of fireballs"
+        },
+        {
+            "range": [
+                99,
+                99
+            ],
+            "value": "Periapt of health"
+        },
+        {
+            "range": [
+                100,
+                100
+            ],
+            "value": "Sending stones"
+        }
+    ],
+    "magicD": [
+        {
+            "range": [
+                1,
+                20
+            ],
+            "value": "Potion of healing (supreme)"
+        },
+        {
+            "range": [
+                21,
+                30
+            ],
+            "value": "Potion of invisibility"
+        },
+        {
+            "range": [
+                31,
+                40
+            ],
+            "value": "Potion of speed"
+        },
+        {
+            "range": [
+                41,
+                50
+            ],
+            "value": "Spell scroll (6th level)"
+        },
+        {
+            "range": [
+                51,
+                57
+            ],
+            "value": "Spell scroll (7th level)"
+        },
+        {
+            "range": [
+                58,
+                62
+            ],
+            "value": "Ammunition, +3"
+        },
+        {
+            "range": [
+                63,
+                67
+            ],
+            "value": "Oil of sharpness"
+        },
+        {
+            "range": [
+                68,
+                72
+            ],
+            "value": "Potion of flying"
+        },
+        {
+            "range": [
+                73,
+                77
+            ],
+            "value": "Potion of cloud giant strength"
+        },
+        {
+            "range": [
+                78,
+                82
+            ],
+            "value": "Potion of longevity"
+        },
+        {
+            "range": [
+                83,
+                87
+            ],
+            "value": "Potion of vitality"
+        },
+        {
+            "range": [
+                88,
+                92
+            ],
+            "value": "Spell scroll (8th level)"
+        },
+        {
+            "range": [
+                93,
+                95
+            ],
+            "value": "Horseshoes of a zephyr"
+        },
+        {
+            "range": [
+                96,
+                98
+            ],
+            "value": "Nolzur's marvelous pigments"
+        },
+        {
+            "range": [
+                99,
+                99
+            ],
+            "value": "Bag of devouring"
+        },
+        {
+            "range": [
+                100,
+                100
+            ],
+            "value": "Portable hole"
+        }
+    ],
+    "magicE": [
+        {
+            "range": [
+                1,
+                30
+            ],
+            "value": "Spell scroll (8th level)"
+        },
+        {
+            "range": [
+                31,
+                55
+            ],
+            "value": "Potion of storm giant strength"
+        },
+        {
+            "range": [
+                56,
+                70
+            ],
+            "value": "Potion of healing (supreme)"
+        },
+        {
+            "range": [
+                71,
+                85
+            ],
+            "value": "Spell scroll (9th level)"
+        },
+        {
+            "range": [
+                86,
+                93
+            ],
+            "value": "Universal solvent"
+        },
+        {
+            "range": [
+                94,
+                98
+            ],
+            "value": "Arrow of slaying"
+        },
+        {
+            "range": [
+                99,
+                100
+            ],
+            "value": "Sovereign glue"
+        }
+    ],
+    "magicF": [
+        {
+            "range": [
+                1,
+                15
+            ],
+            "value": "Weapon, +1"
+        },
+        {
+            "range": [
+                16,
+                18
+            ],
+            "value": "Shield, +1"
+        },
+        {
+            "range": [
+                19,
+                21
+            ],
+            "value": "Sentinel shield"
+        },
+        {
+            "range": [
+                22,
+                23
+            ],
+            "value": "Amulet of proof against detection and location"
+        },
+        {
+            "range": [
+                24,
+                25
+            ],
+            "value": "Boots of elvenkind"
+        },
+        {
+            "range": [
+                26,
+                27
+            ],
+            "value": "Boots of striding and springing"
+        },
+        {
+            "range": [
+                28,
+                29
+            ],
+            "value": "Bracers of archery"
+        },
+        {
+            "range": [
+                30,
+                31
+            ],
+            "value": "Brooch of shielding"
+        },
+        {
+            "range": [
+                32,
+                33
+            ],
+            "value": "Broom of flying"
+        },
+        {
+            "range": [
+                34,
+                35
+            ],
+            "value": "Cloak of elvenkind"
+        },
+        {
+            "range": [
+                36,
+                37
+            ],
+            "value": "Cloak of protection"
+        },
+        {
+            "range": [
+                38,
+                39
+            ],
+            "value": "Gauntlets of ogre power"
+        },
+        {
+            "range": [
+                40,
+                41
+            ],
+            "value": "Hat of disguise"
+        },
+        {
+            "range": [
+                42,
+                43
+            ],
+            "value": "Javelin of lightning"
+        },
+        {
+            "range": [
+                44,
+                45
+            ],
+            "value": "Pearl of power"
+        },
+        {
+            "range": [
+                46,
+                47
+            ],
+            "value": "Rod of the pact keeper, +1"
+        },
+        {
+            "range": [
+                48,
+                49
+            ],
+            "value": "Slippers of spider climbing"
+        },
+        {
+            "range": [
+                50,
+                51
+            ],
+            "value": "Staff of the adder"
+        },
+        {
+            "range": [
+                52,
+                53
+            ],
+            "value": "Staff of the python"
+        },
+        {
+            "range": [
+                54,
+                55
+            ],
+            "value": "Sword of vengeance"
+        },
+        {
+            "range": [
+                56,
+                57
+            ],
+            "value": "Trident of fish command"
+        },
+        {
+            "range": [
+                58,
+                59
+            ],
+            "value": "Wand of magic missiles"
+        },
+        {
+            "range": [
+                60,
+                61
+            ],
+            "value": "Wand of the war mage, +1"
+        },
+        {
+            "range": [
+                62,
+                63
+            ],
+            "value": "Wand of web"
+        },
+        {
+            "range": [
+                64,
+                65
+            ],
+            "value": "Weapon of warning"
+        },
+        {
+            "range": [
+                66,
+                66
+            ],
+            "value": "Adamantine armor (chain mail)"
+        },
+        {
+            "range": [
+                67,
+                67
+            ],
+            "value": "Adamantine armor (chain shirt)"
+        },
+        {
+            "range": [
+                68,
+                68
+            ],
+            "value": "Adamantine armor (scale mail)"
+        },
+        {
+            "range": [
+                69,
+                69
+            ],
+            "value": "Bag of tricks (gray)"
+        },
+        {
+            "range": [
+                70,
+                70
+            ],
+            "value": "Bag of tricks (rust)"
+        },
+        {
+            "range": [
+                71,
+                71
+            ],
+            "value": "Bag of tricks (tan)"
+        },
+        {
+            "range": [
+                72,
+                72
+            ],
+            "value": "Boots of the winterlands"
+        },
+        {
+            "range": [
+                73,
+                73
+            ],
+            "value": "Circlet of blasting"
+        },
+        {
+            "range": [
+                74,
+                74
+            ],
+            "value": "Deck of illusions"
+        },
+        {
+            "range": [
+                75,
+                75
+            ],
+            "value": "Eversmoking bottle"
+        },
+        {
+            "range": [
+                76,
+                76
+            ],
+            "value": "Eyes of charming"
+        },
+        {
+            "range": [
+                77,
+                77
+            ],
+            "value": "Eyes of the eagle"
+        },
+        {
+            "range": [
+                78,
+                78
+            ],
+            "value": "Figurine of wondrous power (silver raven)"
+        },
+        {
+            "range": [
+                79,
+                79
+            ],
+            "value": "Gem of brightness"
+        },
+        {
+            "range": [
+                80,
+                80
+            ],
+            "value": "Gloves of missile snaring"
+        },
+        {
+            "range": [
+                81,
+                81
+            ],
+            "value": "Gloves of swimming and climbing"
+        },
+        {
+            "range": [
+                82,
+                82
+            ],
+            "value": "Gloves of thievery"
+        },
+        {
+            "range": [
+                83,
+                83
+            ],
+            "value": "Headband of intellect"
+        },
+        {
+            "range": [
+                84,
+                84
+            ],
+            "value": "Helm of telepathy"
+        },
+        {
+            "range": [
+                85,
+                85
+            ],
+            "value": "Instrument of the bards (Doss lute)"
+        },
+        {
+            "range": [
+                86,
+                86
+            ],
+            "value": "Instrument of the bards (Fochlucan bandore)"
+        },
+        {
+            "range": [
+                87,
+                87
+            ],
+            "value": "Instrument of the bards (Mac-Fuirmidh cittern)"
+        },
+        {
+            "range": [
+                88,
+                88
+            ],
+            "value": "Medallion of thoughts"
+        },
+        {
+            "range": [
+                89,
+                89
+            ],
+            "value": "Necklace of adaptation"
+        },
+        {
+            "range": [
+                90,
+                90
+            ],
+            "value": "Periapt of wound closure"
+        },
+        {
+            "range": [
+                91,
+                91
+            ],
+            "value": "Pipes of haunting"
+        },
+        {
+            "range": [
+                92,
+                92
+            ],
+            "value": "Pipes of the sewers"
+        },
+        {
+            "range": [
+                93,
+                93
+            ],
+            "value": "Ring of jumping"
+        },
+        {
+            "range": [
+                94,
+                94
+            ],
+            "value": "Ring of mind shielding"
+        },
+        {
+            "range": [
+                95,
+                95
+            ],
+            "value": "Ring of warmth"
+        },
+        {
+            "range": [
+                96,
+                96
+            ],
+            "value": "Ring of water walking"
+        },
+        {
+            "range": [
+                97,
+                97
+            ],
+            "value": "Quiver of Ehlonna"
+        },
+        {
+            "range": [
+                98,
+                98
+            ],
+            "value": "Stone of good luck (luckstone)"
+        },
+        {
+            "range": [
+                99,
+                99
+            ],
+            "value": "Wind fan"
+        },
+        {
+            "range": [
+                100,
+                100
+            ],
+            "value": "Winged boots"
+        }
+    ],
+    "magicG": [
+        {
+            "range": [
+                1,
+                11
+            ],
+            "value": "Weapon, +2"
+        },
+        {
+            "range": [
+                12,
+                14
+            ],
+            "value": "Figurine of wondrous power"
+        },
+        {
+            "range": [
+                15,
+                15
+            ],
+            "value": "Adamantine armor (breastplate)"
+        },
+        {
+            "range": [
+                16,
+                16
+            ],
+            "value": "Adamantine armor (splint)"
+        },
+        {
+            "range": [
+                17,
+                17
+            ],
+            "value": "Amulet of health"
+        },
+        {
+            "range": [
+                18,
+                18
+            ],
+            "value": "Armor of vulnerability"
+        },
+        {
+            "range": [
+                19,
+                19
+            ],
+            "value": "Arrow-catching shield"
+        },
+        {
+            "range": [
+                20,
+                20
+            ],
+            "value": "Belt of dwarvenkind"
+        },
+        {
+            "range": [
+                21,
+                21
+            ],
+            "value": "Belt of hill giant strength"
+        },
+        {
+            "range": [
+                22,
+                22
+            ],
+            "value": "Berserker axe"
+        },
+        {
+            "range": [
+                23,
+                23
+            ],
+            "value": "Boots of levitation"
+        },
+        {
+            "range": [
+                24,
+                24
+            ],
+            "value": "Boots of speed"
+        },
+        {
+            "range": [
+                25,
+                25
+            ],
+            "value": "Bowl of commanding water elementals"
+        },
+        {
+            "range": [
+                26,
+                26
+            ],
+            "value": "Bracers of defense"
+        },
+        {
+            "range": [
+                27,
+                27
+            ],
+            "value": "Brazier of commanding fire elementals"
+        },
+        {
+            "range": [
+                28,
+                28
+            ],
+            "value": "Cape of the mountebank"
+        },
+        {
+            "range": [
+                29,
+                29
+            ],
+            "value": "Censer of controlling air elementals"
+        },
+        {
+            "range": [
+                30,
+                30
+            ],
+            "value": "Armor, +1 chain mail"
+        },
+        {
+            "range": [
+                31,
+                31
+            ],
+            "value": "Armor of resistance (chain mail)"
+        },
+        {
+            "range": [
+                32,
+                32
+            ],
+            "value": "Armor, +1 chain shirt"
+        },
+        {
+            "range": [
+                33,
+                33
+            ],
+            "value": "Armor of resistance (chain shirt)"
+        },
+        {
+            "range": [
+                34,
+                34
+            ],
+            "value": "Cloak of displacement"
+        },
+        {
+            "range": [
+                35,
+                35
+            ],
+            "value": "Cloak of the bat"
+        },
+        {
+            "range": [
+                36,
+                36
+            ],
+            "value": "Cube of force"
+        },
+        {
+            "range": [
+                37,
+                37
+            ],
+            "value": "Daern’s instant fortress"
+        },
+        {
+            "range": [
+                38,
+                38
+            ],
+            "value": "Dagger of venom"
+        },
+        {
+            "range": [
+                39,
+                39
+            ],
+            "value": "Dimensional shackles"
+        },
+        {
+            "range": [
+                40,
+                40
+            ],
+            "value": "Dragon slayer"
+        },
+        {
+            "range": [
+                41,
+                41
+            ],
+            "value": "Elven chain"
+        },
+        {
+            "range": [
+                42,
+                42
+            ],
+            "value": "Flame tongue"
+        },
+        {
+            "range": [
+                43,
+                43
+            ],
+            "value": "Gem of seeing"
+        },
+        {
+            "range": [
+                44,
+                44
+            ],
+            "value": "Giant slayer"
+        },
+        {
+            "range": [
+                45,
+                45
+            ],
+            "value": "Glamoured studded leather"
+        },
+        {
+            "range": [
+                46,
+                46
+            ],
+            "value": "Helm of teleportation"
+        },
+        {
+            "range": [
+                47,
+                47
+            ],
+            "value": "Horn of blasting"
+        },
+        {
+            "range": [
+                48,
+                48
+            ],
+            "value": "Horn of Valhalla (silver or brass)"
+        },
+        {
+            "range": [
+                49,
+                49
+            ],
+            "value": "Instrument of the bards (Canaith mandolin)"
+        },
+        {
+            "range": [
+                50,
+                50
+            ],
+            "value": "Instrument of the bards (Cli lyre)"
+        },
+        {
+            "range": [
+                51,
+                51
+            ],
+            "value": "Ioun stone (awareness)"
+        },
+        {
+            "range": [
+                52,
+                52
+            ],
+            "value": "Ioun stone (protection)"
+        },
+        {
+            "range": [
+                53,
+                53
+            ],
+            "value": "Ioun stone (reserve)"
+        },
+        {
+            "range": [
+                54,
+                54
+            ],
+            "value": "Ioun stone (sustenance)"
+        },
+        {
+            "range": [
+                55,
+                55
+            ],
+            "value": "Iron bands of Bilarro"
+        },
+        {
+            "range": [
+                56,
+                56
+            ],
+            "value": "Armor, +1 leather"
+        },
+        {
+            "range": [
+                57,
+                57
+            ],
+            "value": "Armor of resistance (leather)"
+        },
+        {
+            "range": [
+                58,
+                58
+            ],
+            "value": "Mace of disruption"
+        },
+        {
+            "range": [
+                59,
+                59
+            ],
+            "value": "Mace of smiting"
+        },
+        {
+            "range": [
+                60,
+                60
+            ],
+            "value": "Mace of terror"
+        },
+        {
+            "range": [
+                61,
+                61
+            ],
+            "value": "Mantle of spell resistance"
+        },
+        {
+            "range": [
+                62,
+                62
+            ],
+            "value": "Necklace of prayer beads"
+        },
+        {
+            "range": [
+                63,
+                63
+            ],
+            "value": "Periapt of proof against poison"
+        },
+        {
+            "range": [
+                64,
+                64
+            ],
+            "value": "Ring of animal influence"
+        },
+        {
+            "range": [
+                65,
+                65
+            ],
+            "value": "Ring of evasion"
+        },
+        {
+            "range": [
+                66,
+                66
+            ],
+            "value": "Ring of feather falling"
+        },
+        {
+            "range": [
+                67,
+                67
+            ],
+            "value": "Ring of free action"
+        },
+        {
+            "range": [
+                68,
+                68
+            ],
+            "value": "Ring of protection"
+        },
+        {
+            "range": [
+                69,
+                69
+            ],
+            "value": "Ring of resistance"
+        },
+        {
+            "range": [
+                70,
+                70
+            ],
+            "value": "Ring of spell storing"
+        },
+        {
+            "range": [
+                71,
+                71
+            ],
+            "value": "Ring of the ram"
+        },
+        {
+            "range": [
+                72,
+                72
+            ],
+            "value": "Ring of X-ray vision"
+        },
+        {
+            "range": [
+                73,
+                73
+            ],
+            "value": "Robe of eyes"
+        },
+        {
+            "range": [
+                74,
+                74
+            ],
+            "value": "Rod of rulership"
+        },
+        {
+            "range": [
+                75,
+                75
+            ],
+            "value": "Rod of the pact keeper, +2"
+        },
+        {
+            "range": [
+                76,
+                76
+            ],
+            "value": "Rope of entanglement"
+        },
+        {
+            "range": [
+                77,
+                77
+            ],
+            "value": "Armor, +1 scale mail"
+        },
+        {
+            "range": [
+                78,
+                78
+            ],
+            "value": "Armor of resistance (scale mail)"
+        },
+        {
+            "range": [
+                79,
+                79
+            ],
+            "value": "Shield, +2"
+        },
+        {
+            "range": [
+                80,
+                80
+            ],
+            "value": "Shield of missile attraction"
+        },
+        {
+            "range": [
+                81,
+                81
+            ],
+            "value": "Staff of charming"
+        },
+        {
+            "range": [
+                82,
+                82
+            ],
+            "value": "Staff of healing"
+        },
+        {
+            "range": [
+                83,
+                83
+            ],
+            "value": "Staff of swarming insects"
+        },
+        {
+            "range": [
+                84,
+                84
+            ],
+            "value": "Staff of the woodlands"
+        },
+        {
+            "range": [
+                85,
+                85
+            ],
+            "value": "Staff of withering"
+        },
+        {
+            "range": [
+                86,
+                86
+            ],
+            "value": "Stone of controlling earth elementals"
+        },
+        {
+            "range": [
+                87,
+                87
+            ],
+            "value": "Sun blade"
+        },
+        {
+            "range": [
+                88,
+                88
+            ],
+            "value": "Sword of life stealing"
+        },
+        {
+            "range": [
+                89,
+                89
+            ],
+            "value": "Sword of wounding"
+        },
+        {
+            "range": [
+                90,
+                90
+            ],
+            "value": "Tentacle rod"
+        },
+        {
+            "range": [
+                91,
+                91
+            ],
+            "value": "Vicious weapon"
+        },
+        {
+            "range": [
+                92,
+                92
+            ],
+            "value": "Wand of binding"
+        },
+        {
+            "range": [
+                93,
+                93
+            ],
+            "value": "Wand of enemy detection"
+        },
+        {
+            "range": [
+                94,
+                94
+            ],
+            "value": "Wand of fear"
+        },
+        {
+            "range": [
+                95,
+                95
+            ],
+            "value": "Wand of fireballs"
+        },
+        {
+            "range": [
+                96,
+                96
+            ],
+            "value": "Wand of lightning bolts"
+        },
+        {
+            "range": [
+                97,
+                97
+            ],
+            "value": "Wand of paralysis"
+        },
+        {
+            "range": [
+                98,
+                98
+            ],
+            "value": "Wand of the war mage, +2"
+        },
+        {
+            "range": [
+                99,
+                99
+            ],
+            "value": "Wand of wonder"
+        },
+        {
+            "range": [
+                100,
+                100
+            ],
+            "value": "Wings of flying"
+        }
+    ],
+    "magicH": [
+        {
+            "range": [
+                1,
+                10
+            ],
+            "value": "Weapon, +3"
+        },
+        {
+            "range": [
+                11,
+                12
+            ],
+            "value": "Amulet of the planes"
+        },
+        {
+            "range": [
+                13,
+                14
+            ],
+            "value": "Carpet of flying"
+        },
+        {
+            "range": [
+                15,
+                16
+            ],
+            "value": "Crystal ball (very rare version)"
+        },
+        {
+            "range": [
+                17,
+                18
+            ],
+            "value": "Ring of regeneration"
+        },
+        {
+            "range": [
+                19,
+                20
+            ],
+            "value": "Ring of shooting stars"
+        },
+        {
+            "range": [
+                21,
+                22
+            ],
+            "value": "Ring of telekinesis"
+        },
+        {
+            "range": [
+                23,
+                24
+            ],
+            "value": "Robe of scintillating colors"
+        },
+        {
+            "range": [
+                25,
+                26
+            ],
+            "value": "Robe of stars"
+        },
+        {
+            "range": [
+                27,
+                28
+            ],
+            "value": "Rod of absorption"
+        },
+        {
+            "range": [
+                29,
+                30
+            ],
+            "value": "Rod of alertness"
+        },
+        {
+            "range": [
+                31,
+                32
+            ],
+            "value": "Rod of security"
+        },
+        {
+            "range": [
+                33,
+                34
+            ],
+            "value": "Rod of the pact keeper, +3"
+        },
+        {
+            "range": [
+                35,
+                36
+            ],
+            "value": "Scimitar of speed"
+        },
+        {
+            "range": [
+                37,
+                38
+            ],
+            "value": "Shield, +3"
+        },
+        {
+            "range": [
+                39,
+                40
+            ],
+            "value": "Staff of fire"
+        },
+        {
+            "range": [
+                41,
+                42
+            ],
+            "value": "Staff of frost"
+        },
+        {
+            "range": [
+                43,
+                44
+            ],
+            "value": "Staff of power"
+        },
+        {
+            "range": [
+                45,
+                46
+            ],
+            "value": "Staff of striking"
+        },
+        {
+            "range": [
+                47,
+                48
+            ],
+            "value": "Staff of thunder and lightning"
+        },
+        {
+            "range": [
+                49,
+                50
+            ],
+            "value": "Sword of sharpness"
+        },
+        {
+            "range": [
+                51,
+                52
+            ],
+            "value": "Wand of polymorph"
+        },
+        {
+            "range": [
+                53,
+                54
+            ],
+            "value": "Wand of the war mage, +3"
+        },
+        {
+            "range": [
+                55,
+                55
+            ],
+            "value": "Adamantine armor (half plate)"
+        },
+        {
+            "range": [
+                56,
+                56
+            ],
+            "value": "Adamantine armor (plate)"
+        },
+        {
+            "range": [
+                57,
+                57
+            ],
+            "value": "Animated shield"
+        },
+        {
+            "range": [
+                58,
+                58
+            ],
+            "value": "Belt of fire giant strength"
+        },
+        {
+            "range": [
+                59,
+                59
+            ],
+            "value": "Belt of frost giant strength (or stone)"
+        },
+        {
+            "range": [
+                60,
+                60
+            ],
+            "value": "Armor, +1 breastplate"
+        },
+        {
+            "range": [
+                61,
+                61
+            ],
+            "value": "Armor of resistance (breastplate)"
+        },
+        {
+            "range": [
+                62,
+                62
+            ],
+            "value": "Candle of invocation"
+        },
+        {
+            "range": [
+                63,
+                63
+            ],
+            "value": "Armor, +2 chain mail"
+        },
+        {
+            "range": [
+                64,
+                64
+            ],
+            "value": "Armor, +2 chain shirt"
+        },
+        {
+            "range": [
+                65,
+                65
+            ],
+            "value": "Cloak of arachnida"
+        },
+        {
+            "range": [
+                66,
+                66
+            ],
+            "value": "Dancing sword"
+        },
+        {
+            "range": [
+                67,
+                67
+            ],
+            "value": "Demon armor"
+        },
+        {
+            "range": [
+                68,
+                68
+            ],
+            "value": "Dragon scale mail"
+        },
+        {
+            "range": [
+                69,
+                69
+            ],
+            "value": "Dwarven plate"
+        },
+        {
+            "range": [
+                70,
+                70
+            ],
+            "value": "Dwarven thrower"
+        },
+        {
+            "range": [
+                71,
+                71
+            ],
+            "value": "Efreeti bottle"
+        },
+        {
+            "range": [
+                72,
+                72
+            ],
+            "value": "Figurine of wondrous power (obsidian steed)"
+        },
+        {
+            "range": [
+                73,
+                73
+            ],
+            "value": "Frost brand"
+        },
+        {
+            "range": [
+                74,
+                74
+            ],
+            "value": "Helm of brilliance"
+        },
+        {
+            "range": [
+                75,
+                75
+            ],
+            "value": "Horn of Valhalla (bronze)"
+        },
+        {
+            "range": [
+                76,
+                76
+            ],
+            "value": "Instrument of the bards (Anstruth harp)"
+        },
+        {
+            "range": [
+                77,
+                77
+            ],
+            "value": "Ioun stone (absorption)"
+        },
+        {
+            "range": [
+                78,
+                78
+            ],
+            "value": "Ioun stone (agility)"
+        },
+        {
+            "range": [
+                79,
+                79
+            ],
+            "value": "Ioun stone (fortitude)"
+        },
+        {
+            "range": [
+                80,
+                80
+            ],
+            "value": "Ioun stone (insight)"
+        },
+        {
+            "range": [
+                81,
+                81
+            ],
+            "value": "Ioun stone (intellect)"
+        },
+        {
+            "range": [
+                82,
+                82
+            ],
+            "value": "Ioun stone (leadership)"
+        },
+        {
+            "range": [
+                83,
+                83
+            ],
+            "value": "Ioun stone (strength)"
+        },
+        {
+            "range": [
+                84,
+                84
+            ],
+            "value": "Armor, +2 leather"
+        },
+        {
+            "range": [
+                85,
+                85
+            ],
+            "value": "Manual of bodily health"
+        },
+        {
+            "range": [
+                86,
+                86
+            ],
+            "value": "Manual of gainful exercise"
+        },
+        {
+            "range": [
+                87,
+                87
+            ],
+            "value": "Manual of golems"
+        },
+        {
+            "range": [
+                88,
+                88
+            ],
+            "value": "Manual of quickness of action"
+        },
+        {
+            "range": [
+                89,
+                89
+            ],
+            "value": "Mirror of life trapping"
+        },
+        {
+            "range": [
+                90,
+                90
+            ],
+            "value": "Nine lives stealer"
+        },
+        {
+            "range": [
+                91,
+                91
+            ],
+            "value": "Oathbow"
+        },
+        {
+            "range": [
+                92,
+                92
+            ],
+            "value": "Armor, +2 scale mail"
+        },
+        {
+            "range": [
+                93,
+                93
+            ],
+            "value": "Spellguard shield"
+        },
+        {
+            "range": [
+                94,
+                94
+            ],
+            "value": "Armor, +1 splint"
+        },
+        {
+            "range": [
+                95,
+                95
+            ],
+            "value": "Armor of resistance (splint)"
+        },
+        {
+            "range": [
+                96,
+                96
+            ],
+            "value": "Armor, +1 studded leather"
+        },
+        {
+            "range": [
+                97,
+                97
+            ],
+            "value": "Armor of resistance (studded leather)"
+        },
+        {
+            "range": [
+                98,
+                98
+            ],
+            "value": "Tome of clear thought"
+        },
+        {
+            "range": [
+                99,
+                99
+            ],
+            "value": "Tome of leadership and influence"
+        },
+        {
+            "range": [
+                100,
+                100
+            ],
+            "value": "Tome of understanding"
+        }
+    ],
+    "magicI": [
+        {
+            "range": [
+                1,
+                5
+            ],
+            "value": "Defender"
+        },
+        {
+            "range": [
+                6,
+                10
+            ],
+            "value": "Hammer of thunderbolts"
+        },
+        {
+            "range": [
+                11,
+                15
+            ],
+            "value": "Luck blade"
+        },
+        {
+            "range": [
+                16,
+                20
+            ],
+            "value": "Sword of answering"
+        },
+        {
+            "range": [
+                21,
+                23
+            ],
+            "value": "Holy avenger"
+        },
+        {
+            "range": [
+                24,
+                26
+            ],
+            "value": "Ring of djinni summoning"
+        },
+        {
+            "range": [
+                27,
+                29
+            ],
+            "value": "Ring of invisibility"
+        },
+        {
+            "range": [
+                30,
+                32
+            ],
+            "value": "Ring of spell turning"
+        },
+        {
+            "range": [
+                33,
+                35
+            ],
+            "value": "Rod of lordly might"
+        },
+        {
+            "range": [
+                36,
+                38
+            ],
+            "value": "Staff of the magi"
+        },
+        {
+            "range": [
+                39,
+                41
+            ],
+            "value": "Vorpal sword"
+        },
+        {
+            "range": [
+                42,
+                43
+            ],
+            "value": "Belt of cloud giant strength"
+        },
+        {
+            "range": [
+                44,
+                45
+            ],
+            "value": "Armor, +2 breastplate"
+        },
+        {
+            "range": [
+                46,
+                47
+            ],
+            "value": "Armor, +3 chain mail"
+        },
+        {
+            "range": [
+                48,
+                49
+            ],
+            "value": "Armor, +3 chain shirt"
+        },
+        {
+            "range": [
+                50,
+                51
+            ],
+            "value": "Cloak of invisibility"
+        },
+        {
+            "range": [
+                52,
+                53
+            ],
+            "value": "Crystal ball (legendary version)"
+        },
+        {
+            "range": [
+                54,
+                55
+            ],
+            "value": "Armor, +1 half plate"
+        },
+        {
+            "range": [
+                56,
+                57
+            ],
+            "value": "Iron flask"
+        },
+        {
+            "range": [
+                58,
+                59
+            ],
+            "value": "Armor, +3 leather"
+        },
+        {
+            "range": [
+                60,
+                61
+            ],
+            "value": "Armor, +1 plate"
+        },
+        {
+            "range": [
+                62,
+                63
+            ],
+            "value": "Robe of the archmagi"
+        },
+        {
+            "range": [
+                64,
+                65
+            ],
+            "value": "Rod of resurrection"
+        },
+        {
+            "range": [
+                66,
+                67
+            ],
+            "value": "Armor, +1 scale mail"
+        },
+        {
+            "range": [
+                68,
+                69
+            ],
+            "value": "Scarab of protection"
+        },
+        {
+            "range": [
+                70,
+                71
+            ],
+            "value": "Armor, +2 splint"
+        },
+        {
+            "range": [
+                72,
+                73
+            ],
+            "value": "Armor, +2 studded leather"
+        },
+        {
+            "range": [
+                74,
+                75
+            ],
+            "value": "Well of many worlds"
+        },
+        {
+            "range": [
+                76,
+                76
+            ],
+            "value": "Magic armor (roll d12)"
+        },
+        {
+            "range": [
+                77,
+                77
+            ],
+            "value": "Apparatus of Kwalish"
+        },
+        {
+            "range": [
+                78,
+                78
+            ],
+            "value": "Armor of invulnerability"
+        },
+        {
+            "range": [
+                79,
+                79
+            ],
+            "value": "Belt of storm giant strength"
+        },
+        {
+            "range": [
+                80,
+                80
+            ],
+            "value": "Cubic gate"
+        },
+        {
+            "range": [
+                81,
+                81
+            ],
+            "value": "Deck of many things"
+        },
+        {
+            "range": [
+                82,
+                82
+            ],
+            "value": "Efreeti chain"
+        },
+        {
+            "range": [
+                83,
+                83
+            ],
+            "value": "Armor of resistance (half plate)"
+        },
+        {
+            "range": [
+                84,
+                84
+            ],
+            "value": "Horn of Valhalla (iron)"
+        },
+        {
+            "range": [
+                85,
+                85
+            ],
+            "value": "Instrument of the bards (Ollamh harp)"
+        },
+        {
+            "range": [
+                86,
+                86
+            ],
+            "value": "Ioun stone (greater absorption)"
+        },
+        {
+            "range": [
+                87,
+                87
+            ],
+            "value": "Ioun stone (mastery)"
+        },
+        {
+            "range": [
+                88,
+                88
+            ],
+            "value": "Ioun stone (regeneration)"
+        },
+        {
+            "range": [
+                89,
+                89
+            ],
+            "value": "Plate armor of etherealness"
+        },
+        {
+            "range": [
+                90,
+                90
+            ],
+            "value": "Armor of resistance (plate)"
+        },
+        {
+            "range": [
+                91,
+                91
+            ],
+            "value": "Ring of air elemental command"
+        },
+        {
+            "range": [
+                92,
+                92
+            ],
+            "value": "Ring of earth elemental command"
+        },
+        {
+            "range": [
+                93,
+                93
+            ],
+            "value": "Ring of fire elemental command"
+        },
+        {
+            "range": [
+                94,
+                94
+            ],
+            "value": "Ring of three wishes"
+        },
+        {
+            "range": [
+                95,
+                95
+            ],
+            "value": "Ring of water elemental command"
+        },
+        {
+            "range": [
+                96,
+                96
+            ],
+            "value": "Sphere of annihilation"
+        },
+        {
+            "range": [
+                97,
+                97
+            ],
+            "value": "Talisman of pure good"
+        },
+        {
+            "range": [
+                98,
+                98
+            ],
+            "value": "Talisman of the sphere"
+        },
+        {
+            "range": [
+                99,
+                99
+            ],
+            "value": "Talisman of ultimate evil"
+        },
+        {
+            "range": [
+                100,
+                100
+            ],
+            "value": "Tome of the stilled tongue"
+        }
+    ],
     "challenge04": {
         "coins": {
             "cpM": 6,
