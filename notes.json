@@ -1,669 +1,4 @@
 {
-  "cos": [
-    {
-      "date": "",
-      "name": "summary",
-      "index": "S",
-      "title": "Curse of Strahd",
-      "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land is ruled by a vampire named Strahd who had all but destroyed the world around them.",
-      "current": "Searching for Strahd.",
-      "next": "Confront and kill Strahd once and for all.",
-      "why": "Because Strahd has destroyed everything you worked hard to save and if they don't Griek's will become even more powerful.",
-      "notes": [
-        {
-          "value": "Everyone was trapped in Barovia and can't leave due to the thick fog."
-        },
-        {
-          "value": "The group must keep Ireena away from Strahd. If he marries her, he will destroy Barovia."
-        },
-        {
-          "value": "Madam Eva gave them a card reading to help them defeat Strahd."
-        },
-        {
-          "value": "You have the Holy Symbol of Ravenkind and Sergei's Sun Dagger."
-        },
-        {
-          "value": "Griek took Zuleika and Emil."
-        },
-        {
-          "value": "You now have Sergei's Sun Dagger."
-        },
-        {
-          "value": "You now have the Tome of Strahd."
-        },
-        {
-          "value": "You have destroyed Strahd's heart."
-        },
-        {
-          "value": "Mord's younger self has come to help you destroy Strahd."
-        }
-      ]
-    },
-    {
-      "date": "2022-08-27",
-      "name": "session-47",
-      "index": "47",
-      "title": "Chapter 47 - In the Dungeons",
-      "description": "After fighting Strahd the group leaves the dungeon to search for Sergei's Tomb.",
-      "notes": [
-        {
-          "value": "The group found the crypts and scoured them looking for Sergei's Tomb."
-        },
-        {
-          "value": "While here, Efreeti told Xerus that he would give him his aide if he found his sword in the crypts."
-        },
-        {
-          "value": "When the group found Sergei's tomb, they found a large tome lying there. As they took it, the coffin started to thump. A familiar voice shouted for help from within."
-        },
-        {
-          "value": "They pulled open the coffin to reveal a younger version of Mordenkainen was lying inside."
-        },
-        {
-          "value": "She had received a letter from her older/alternate self, who had managed to open the door to Lamordia. A Domain of Dread where Arty had ended up. The letter had a scroll to send her to Barovia, where she promised to help these people destroy Strahd and the domain simultaneously."
-        },
-        {
-          "value": "Mord's mentor, Morden, whom she had got her name from, had been manipulated by Griek to create the Domains of Dread. Each one fed Griek with unlimited power, and now Mord planned to destroy them all before he turned the world into a Domain of Dread."
-        },
-        {
-          "value": "Each Domain of Dread starts with a catastrophic event, and then loops, feeding Griek with dark energy."
-        },
-        {
-          "value": "As the group searched the crypts, they found one filled with lethal brown mold, but also a great sword that would grant the wielder a wish. This was known as the Luck Sword and belonged to Efreeti, now in possession of Godfrey."
-        },
-        {
-          "value": "The group left the crypts and found the giant beating heart at the top of a tower. They destroyed it. Blood gushed down the stairs like a waterfall, and they heard a terryfying roar from within the castle."
-        }
-      ]
-    },
-    {
-      "date": "2022-08-27",
-      "name": "session-46",
-      "index": "46",
-      "title": "Chapter 46 - Descending the Secret Staircase",
-      "description": "After defeating Rahadin the group make their way down a secret staircase in search of Sergei's tomb.",
-      "notes": [
-        {
-          "value": "They climb down the secret staircase and find a sand timer and brazier. They work out that it can teleport you somewhere, though they were able to decipher where."
-        },
-        {
-          "value": "Afterwards the group trip a trap and find themselves caught in Strahd's Dungeon. As fate would have it, Strahd was waiting here."
-        },
-        {
-          "value": "The group manage to get out and fought Strahd. During the fight They freed Emil, Zuleika's partner."
-        },
-        {
-          "value": "Just as they are freed Strahd calls Griek who comes forward and steals both of them away to another dimention."
-        },
-        {
-          "value": "Strahd turned himself into a fog and fled the dungeon."
-        }
-      ]
-    },
-    {
-      "date": "2022-07-30",
-      "name": "session-45",
-      "index": "45",
-      "title": "Chapter 45 - Deafting the Sworn Enemy",
-      "description": "The group scaled the castle walls and killed Rahadin.",
-      "notes": [
-        {
-          "value": "Instead of heading straight through the gates, Xerus flew up, and the group climbed up after him on their rope."
-        },
-        {
-          "value": "On top of the wall they found a tough suit of armor which they destroyed."
-        },
-        {
-          "value": "Dwight fired several arrows using his boy to find Rahadin."
-        },
-        {
-          "value": "The group found stairs. They could feel a pulsating wave of evil coming from above."
-        },
-        {
-          "value": "At the bottom of the stairs was a room loaded with dead soldiers from a battle long ago."
-        },
-        {
-          "value": "On the other side of the room was Rahadin's office. The group fought hard to take him out and managed to kill him twice, finally killing him."
-        },
-        {
-          "value": "The group found a secret door in Rahadin's office leading down, the direction of the Dungeon where Emil is and the Crypts where Strahd's Tome lies on Sergei's tomb must be down there somewhere."
-        }
-      ]
-    },
-    {
-      "date": "2022-07-16",
-      "name": "session-44",
-      "index": "44",
-      "title": "Chapter 44 - The Fall of the Heros of Vallaki",
-      "description": "The group escaped Vallaki, but returned to destruction.",
-      "notes": [
-        {
-          "value": "Everyone tried to escape the cellar."
-        },
-        {
-          "value": "Ronaldo went to take the children from the HQ to the church where the hallowed ground could keep them safe."
-        },
-        {
-          "value": "While investigating the cult symbols, Victor Vallakovich teleported into the room, looking to take back his fallen house."
-        },
-        {
-          "value": "Everyone struck and killed him, only to discover that was part of his plan the whole time, and he burst into a huge Ghost Dragon named Echo."
-        },
-        {
-          "value": "Zordar fell, and Gorek was paralyzed with fear. The outcome looked like certain death for everyone."
-        },
-        {
-          "value": "Brutus managed to gather everyone around him, and they all teleported back to Kazahn's Tower."
-        },
-        {
-          "value": "They decided to rest until the morning, knowing the Strahd was going to the town but deciding they needed to recover more before they took him on."
-        },
-        {
-          "value": "After leaving Ireena behind in the tower once more, the group returned to Vallaki at first light."
-        },
-        {
-          "value": "When they got back to Vallaki, they found Van Richten's head on a pike and the word \"Cowards\" written in blood on the gates."
-        },
-        {
-          "value": "At the Blue Water Inn, Urwin, the keeper of the feathers leader and Inn owner, explained that Rictavio was Van Richten, a famous vampire hunter, and he tried his best to kill Strahd and died."
-        },
-        {
-          "value": "After Van Richten was killed, Strahd executed the Seven one by one demanding that the Heros of Vallaki come out."
-        },
-        {
-          "value": "While this was happening, Goatku (formally Izek) was fighting the Kobolds that Strahd had recruited to destroy the city."
-        },
-        {
-          "value": "Strahd left after killing the Seven in anger that the group never showed up."
-        },
-        {
-          "value": "The guards managed to kill the Kobolds, but not before they caused massive damage to the town and killed scores of villagers."
-        },
-        {
-          "value": "They set off at once and marched to Castle Ravenloft."
-        }
-      ]
-    },
-    {
-      "date": "2022-06-04",
-      "name": "session-43",
-      "index": "43",
-      "title": "Chapter 43 - Trapped Beneath Vallaki",
-      "description": "The group found themselves trapped underneath The Seven HQ.",
-      "notes": [
-        {
-          "value": "Zordar explained to Kasimir that his sister was not a vampire and had planned to kill Ezmerelda and attack him. Something he learned from the Hag in the Windmill."
-        },
-        {
-          "value": "Goatku said he was going to try and right some wrongs and help the people of Vallaki. Now that Izek was 'dead,' he felt capable of looking after the town."
-        },
-        {
-          "value": "They slowly traveled back to Krezk to get ahead of Patrina."
-        },
-        {
-          "value": "When they arrived, Dimitri didn't recognize Zordar, mistaking him for a werewolf."
-        },
-        {
-          "value": "Dimitri told the group that The Abbot was dead and the Mongrelfolk had marched into town. He wasn't sure what to do."
-        },
-        {
-          "value": "One of the Mongrelfolk said that 'Mother' was waiting inside one of the homes."
-        },
-        {
-          "value": "Entering the home, they found Vasilka, the bride that The Abbot had made for Strahd."
-        },
-        {
-          "value": "She explained that she had got married, and as a wedding gift, Strahd gave her Krezk."
-        },
-        {
-          "value": "Dimitri came running inside and told them that Patrina had shown up and he needed their help."
-        },
-        {
-          "value": "Outside Patrina had charmed Kasimir and brought several vampires to attack the town."
-        },
-        {
-          "value": "She also convinced Vasilka that Strahd wanted her to attack the town."
-        },
-        {
-          "value": "During the fight, Dimitri died, and afterward, Anna, his wife, kicked the group out of Krezk and told them they were never allowed back in."
-        },
-        {
-          "value": "During the fight, Dimitri died. Anna, Dimitri's wife, kicked the group out of Krezk and told them they were never allowed back in seeing how they had destroyed Dimitri's body."
-        },
-        {
-          "value": "Kasimir took his dead sister to the Amber Temple in hopes that he would bring her back to life."
-        },
-        {
-          "value": "Zordar promised to be the father of the Mongrelfolk, and the group gained a new ally named Manny."
-        },
-        {
-          "value": "The group stopped off at Kazan's Tower to rest and talk to Ireena before going to Vallaki."
-        },
-        {
-          "value": "Ireena said she was bored. Zordar and Xerus offered to escort her to Vallaki so she could do some shopping."
-        },
-        {
-          "value": "The group met Goatku outside, who had joined the guard. He said he would go find Ronaldo and bring him to them."
-        },
-        {
-          "value": "After doing some shopping, the group went to The Seven HQ with Ronaldo for the meal he had promised in a letter sent to Godfrey."
-        },
-        {
-          "value": "While there, Zordar smashed the dining table after hearing noises underground, and together they descended a secret trapdoor."
-        },
-        {
-          "value": "Ronaldo closed the door behind them and locked them inside."
-        },
-        {
-          "value": "Ronaldo told them that Strahd had told him to lock them inside until nightfall or he would kill the orphans he cared for."
-        },
-        {
-          "value": "The mysterious screaming turned out to be a specter that was only there as a distraction."
-        }
-      ]
-    },
-    {
-      "date": "2022-06-04",
-      "name": "session-42",
-      "index": "42",
-      "title": "Chapter 42 - Escaping the Amber Temple",
-      "description": "The group found a powerful weapon in the Amber Temple.",
-      "notes": [
-        {
-          "value": "While exploring, the group made their way upstairs and found a mysterious glowing dagger underneath a replica of Castle Ravenloft."
-        },
-        {
-          "value": "Xerus took the dagger and heard Sergei's voice inside, and together they vowed to destroy Strahd with the power of the sun."
-        },
-        {
-          "value": "The group went into the hallway where Villanus took his opportunity and turned invisible, grabbing his master's sword and fleeing the temple."
-        },
-        {
-          "value": "The group followed the trail of dead bodies and went outside."
-        },
-        {
-          "value": "As they got there, several Barbarians were running, chasing after Rahadin who killed several members of their tribe."
-        },
-        {
-          "value": "A huge shadow flew overhead and dropped a screaming Vilanus to the ground, where he had died, and his staff was destrotyed."
-        },
-        {
-          "value": "The group ran on ahead and found Kasimir nailed to Tsolenka wall."
-        },
-        {
-          "value": "A gigantic roc was attracted to Kasimir's body and attacked the group."
-        },
-        {
-          "value": "Goatku showed and helped them fell the beast, Amlaib decided to go back to the Amber Temple as everyone else decided to help Kasimir."
-        }
-      ]
-    },
-    {
-      "date": "2022-06-04",
-      "name": "session-41",
-      "index": "41",
-      "title": "Chapter 41 - Turning Evil",
-      "description": "While exploring the Amber Temple, Zordar and Gorek take on more dark gifts.",
-      "notes": [
-        {
-          "value": "Gorek and Zuleika went back to the library and found a blueprint to create a spear for Zuleika naming it Auld Stoney."
-        },
-        {
-          "value": "Everyone tried to get into a hidden room next to the library, causing a cave-in."
-        },
-        {
-          "value": "The group found another room full of sarcophagi and a Slaad."
-        },
-        {
-          "value": "After dealing with the Slaad, Gorek and Zordar accepted two gifts, one who gave them more resilience but made them hairy and the other giving them extreme strangth but turned them into bullies."
-        },
-        {
-          "value": "Gorek was not able to resist the dark gift, corrupting his soul and making him evil."
-        },
-        {
-          "value": "The group went to rest in an old bedroom for a short while."
-        }
-      ]
-    },
-    {
-      "date": "2022-05-21",
-      "name": "session-40",
-      "index": "40",
-      "title": "Chapter 40 - Meeting Brutus",
-      "description": "The group comes across a mage, hiding from the dangers in the Amber Temple.",
-      "notes": [
-        {
-          "value": "Vilnius and Xerus cast invisibility on everyone they snuck past the Amber giant."
-        },
-        {
-          "value": "They found themselves in a room where Vilnius was convinced there was a secret door."
-        },
-        {
-          "value": "The secret door led them downstairs, and they climbed up to the library, where Zuleika and Xerus found a book to create a new hound."
-        },
-        {
-          "value": "Using Zordar's bone trophy and a piece of amber, Xerus called Efreeti to guide him and create an Amber Hound."
-        },
-        {
-          "value": "Xerus named the hound Brutus, and now Zuleika and Xerus had a new member in their pack."
-        },
-        {
-          "value": "They went down the spiral staircase and found a large room with three more sarcophagi."
-        },
-        {
-          "value": "As they stepped closer several vampires lept out of crates and attacked the group."
-        },
-        {
-          "value": "After dispatching them, they found that one of the sarcophagi was a vampire, another was a mighty being, and the last was a spider queen."
-        }
-      ]
-    },
-    {
-      "date": "2022-05-07",
-      "name": "session-39",
-      "index": "39",
-      "title": "Chapter 39 - Saving the Cowardly Mage",
-      "description": "The group comes across a mage, hiding from the dangers in the Amber Temple.",
-      "notes": [
-        {
-          "value": "The group finds the library after following the scent of the Witches."
-        },
-        {
-          "value": "In the Library, a book named \"Shalx\", details of a wizard who studied death and tried to bring people back from beyond the grave, open on a table."
-        },
-        {
-          "value": "The book showed a picture of the Witches' door, and it tells them the password is \"Shalx\"."
-        },
-        {
-          "value": "While researching in the library, they find a book about the architecture of Castle Ravenloft. On the back of the book is a picture of the card reading \"The Elementalist\"."
-        },
-        {
-          "value": "The book details how the wizards of the Amber Temple had constructed the castle. The blue prints inside are out of date, at least the part of the castle the group have previously seen."
-        },
-        {
-          "value": "Gorek finds a book bound using cogs and chains."
-        },
-        {
-          "value": "The book is from an Artificer who studied different ways to augment one's natural abilities."
-        },
-        {
-          "value": "The book has the symbol of a Shield with a Chain running across it and tells them the password for this door is \"Harkotha\"."
-        },
-        {
-          "value": "The group head back to the Witches, open the door with the password, and proceed to kill them all."
-        },
-        {
-          "value": "Godfrey took an ability from one of the sarcophagi in the room, a spirit told traded his face and smile for the Thunderbolt spell."
-        },
-        {
-          "value": "The group through a hole in the roof and as they see an Amber Giant they dash into a lecture theatre."
-        },
-        {
-          "value": "Vilnius, a mage who came to study in the temple, was found cowering in the room."
-        },
-        {
-          "value": "The group agreed to help him escape if he helped them find what they are looking for first."
-        }
-      ]
-    },
-    {
-      "date": "2022-04-23",
-      "name": "session-38",
-      "index": "38",
-      "title": "Chapter 38 - Stopping Neferon",
-      "description": "After slaying Rahadin the group comes face to face with a fiend guarded the Amber Temple.",
-      "notes": [
-        {
-          "value": "A fiend attacks from the shadows and nearly destroys everyone."
-        },
-        {
-          "value": "The fiend is named Neferon, and he tells the group that guards the Amber Temple."
-        },
-        {
-          "value": "After felling Neferon, the group comes across a coven of Witches, and while hiding, they see them go to the library and come back with a password to enter a locked room."
-        },
-        {
-          "value": "Before chasing down the Witches, the group decides to find out where this library is following the scent of the Witches."
-        },
-        {
-          "value": "While resting the group find Xerus's Shield Guardian lying dormant. Efreeti explains that this is where he found the construct."
-        }
-      ]
-    },
-    {
-      "date": "2022-03-12",
-      "name": "session-37",
-      "index": "37",
-      "title": "Chapter 37 - Stepping into the Amber Temple",
-      "description": "The group escaped the clutches of the giant birds only to find themselves face-to-face with Rahadin",
-      "notes": [
-        {
-          "value": "The group, stuck inside a tower, decided to divide into two. Half went onto the roof to attack the giant bird in the sky, and half went to attack the one on the ground."
-        },
-        {
-          "value": "Kasimir flew into the sky to save Gorek from falling to his death while Dwight finished the monster in the sky with his bow."
-        },
-        {
-          "value": "The group made their way to the Amber Temple and saw Rahadin run inside. Godfrey the Vengeful with some of the group charged to chase down Rahadin."
-        },
-        {
-          "value": "Some of the party found a crack in the wall to the west of the temple and fled after seeing several large and angry people with a giant wolf."
-        },
-        {
-          "value": "They found Rahadin praying at a giant statue of a wizard, sacrificing a frog, and then turned to attack the group, almost wiping out Zuleika with a single attack."
-        },
-        {
-          "value": "Rahadin told Kasamir that he wanted him dead so that he and his sister, Patricia, could take over Barovia. Kasimir said he would do anything to save his sister."
-        },
-        {
-          "value": "The group killed Rahadin, then Godfrey prayed to Helm, who managed to contact him, telling him to find the weapon in the temple and be wary of a Lich."
-        }
-      ]
-    },
-    {
-      "date": "2022-03-12",
-      "name": "session-36",
-      "index": "36",
-      "title": "Chapter 36 - Breaking Through Tsolenka Pass",
-      "description": "The group make their way to the Amber Temple via Tsolenka pass and find themselves stuck between a rock and a hard place",
-      "notes": [
-        {
-          "value": "Just as they awoke and ready to set off, Godfrey received a letter from Rolando of The Seven of Vallaki. It was an invitation to celebrate the Heroes of Vallaki at their earliest convenience. The letter also mentioned that an unnamed benefactor had donated several bottles of the illustrious Champagne De Stomp."
-        },
-        {
-          "value": "As they got the pass, they found several Sangzor, a monk named Goatku. Goatku was Izek, who had renounced his ways and learned the goat's way. After challenging the group to a sparring match, he let them pass but warned them that things are not what they appeared and that the Amber Temple is very dangerous."
-        },
-        {
-          "value": "After humiliating Goatku they found the bridge marked on the map. On it, Strahd and Rahadin stood. In a flash of rage, Mordenkainen ran forward to attack Strahd. Godfrey tried to stop her, but it was in vain as she stopped time for everyone and ran across the bridge to attack Strahd. To everyone's surprise, Strahd's image faded down Mord fell through an invisible hole into the freezing depths below."
-        },
-        {
-          "value": "Zordar quickly dispelled the Rahadin illusion with a snowball, then Gorek expertly aided everyone across with his intermate knowledge of stones."
-        },
-        {
-          "value": "They approached a wall 124ft high, with a gate made of a mysterious fire. Xerus flew over the wall, past the stone two giant bird statues, and found an outpost on the other side when he landed. The birds lept up and attacked, but they were too slow as he dashed inside the building."
-        },
-        {
-          "value": "Using Zordar's cipher scroll, the group dispelled the magic and ran inside the tower to catch up with Xerus. Now there was one bird on top of the tower, and one stood outside."
-        },
-        {
-          "value": "While inside the tower, the group realized that the gate was not to stop people from reaching the temple, but to stop things from the temple getting into Barovia."
-        },
-        {
-          "value": "Kasimir's quick thinking to blast the cold hand on his shoulder with a firebolt revealed several ghosts hidden behind everyone, readying to slit their throats. The tower was cursed, and the spirits had previously been summoned centuries ago to assassinate everyone in the tower."
-        },
-        {
-          "value": "The group made quick work of the specters and rested to strategies how they would get past the birds several times larger than they were and blocked all exits."
-        }
-      ]
-    },
-    {
-      "date": "2022-02-26",
-      "name": "session-35",
-      "index": "35",
-      "title": "Chapter 35 - Regrouping in Krezk",
-      "description": "After being separated from the mines, the group gather again in Krezk to cure Ireena of her curse and prepare to head out to the Amber Temple.",
-      "notes": [
-        {
-          "title": "Gorek, Xerus and Zuleika"
-        },
-        {
-          "value": "Gorek, Xerus, and Zuleika are given a key by Ezmerelda and told that there is a tower that belonged to her surrogate father, Van Richten, that they could clear out and use as a place to keep Ireena safe."
-        },
-        {
-          "value": "They find the tower and learn that an anti-magic shield protects it. At the top of the tower are books explaining that Van Richten used the tower, known as Kazahn's Tower, to learn everything he could about Strahd. They make a new friend, a suit of armour, named Kora. They took Van Richtens detailed map and notes on Barovia."
-        },
-        {
-          "value": "When they leave the tower, Ku-Quar has tracked them down, full of vengeance and out to kill Xerus, who replaced him. The small group easily defeat this undead Lizardfolk."
-        },
-        {
-          "title": "Godfrey and Ireena"
-        },
-        {
-          "value": "Meanwhile, Godfrey, Ireena and a dwarf Cempou head to Tser Falls and camp with Madam Eva and the Vistani. Madam Eva makes another card reading and gives an insight into Strahd's plans. Strahd's plans can still be stopped before they unfold. (See appendix \"Second Card Reading\" for more details)"
-        },
-        {
-          "value": "Madam Eva told Godfrey that the only way to destroy Strahd was to attack his heart, which he locks away from everyone in his castle."
-        },
-        {
-          "value": "Sedring, the dragon Godfrey summoned, comes back and tells him two things. First, everyone is heading to Krezk and will be there soon. Second, a Drow leaving Castle Ravenloft is on the path nearby."
-        },
-        {
-          "value": "Godfrey sneaks up on the Drow, Rahadin, and attacks him. He manages to capture his Nightmare horse in an Iron Flask and learns the Rahadin hates Ireena and wants Strahd to make him his heir. He doesn't care if Ireena is killed. After Godfrey is almost killed during the fight, Rahadin charges off to the Amber Temple to cut the group off, more interested in killing Kasimir."
-        },
-        {
-          "title": "Zordar, Dwight and Mordenkainen"
-        },
-        {
-          "value": "Whilst this is was happening, Zordar, Dwight and Mordenkainen ran down the mountain above the Amber Temple to rest at Dwight's windmill."
-        },
-        {
-          "value": "The children have been very busy, selling pastries and other baked goods to all of Barovia. They tucked into some pastries that the children made and found themselves drifting off to sleep."
-        },
-        {
-          "value": "They found themselves and an under dark nightmare. A hag approached them and explained how she was the girl and that the windmill was cursed and started turning her into a hag. One day the two children got into a fight and she pushed her brother who fell and died. She took him to the Amber Temple, hearing that it could bring people back from the dead. When she accepted the Dark Powers, she was consumed by the darkness and became a hag, her brother awoke, now a vampire."
-        },
-        {
-          "value": "The hags abilities grew, and she discovered how to control the amber eye. She was able to see inside the castle."
-        },
-        {
-          "value": "Her brother had also grown in power. He studied the teachings of a cult known as the Osybus, who used to reside in the basement under the haunted house at the start of the group's adventure. He planned to take over the thrown from Strahd once the group had killed him."
-        },
-        {
-          "value": "The two of them proposed that if the group let them live, and continue to make pastries from human flesh, that they would provide valuable information about Strahd using the hags amber eye."
-        },
-        {
-          "value": "They agreed to the terms, now realising they had just eaten human pasties."
-        },
-        {
-          "value": "The hag told them that Pidlwick III was a naughty puppet who would be a great ally to them. He knows every nook and cranny of the castle, so long as they ignored his harmless pranks, he would help them to navigate the castle expertly."
-        },
-        {
-          "value": "She also mentioned how Strahd had already come back to his full power, that the only way to defeat Strahd would be to destroy his heart, the Heart of Sorrow, which resided at the top of the tallest tower in Ravenloft."
-        },
-        {
-          "value": "One of her insights into Strahd, she warned them of, was his ability to move around the castle through the walls instantly and that they should always be looking over shoulder."
-        },
-        {
-          "value": "The last piece of information she gave them, Strahd knew about Ezmerelda's plan to sneak into the castle and steal Patrina. However, Patrina isn't a vampire. She is a wraith. Patrina had been sending lies via raven to her this entire to lure her and Kasimir into a trap and kill them both."
-        },
-        {
-          "title": "Together in Krezk"
-        },
-        {
-          "value": "After the group gathered in Krezk, The Abbot led them down a well to an underground shrine. Here he performed a ritual that summoned the ghost of Tatyana from within Ireena and Prince Sergei. He performed a wedding, and they thanked the group for bringing them back together. Sergei told them that there was a powerful book atop his tomb in the crypts of Ravenloft. If they used it wisely, then Strahd would be weakened, and they would be able to withstand his full strength."
-        },
-        {
-          "value": "Ireena now remember everything. How her and her brother Izek had escaped Strahd and that Izmark looked after her whilst Izek was rescued and given a patron by the Burgomaster of Vallaki. That Strahd had attacked her three times before they met, leaving a curse to control her. This was how he took control of her in the mines, using her as a conduit to charm Mordenkainen and open the mines to Strahd."
-        },
-        {
-          "value": "After leaving her in Kazhan's tower, Cempou explained that he was in charge of keeping the Beholder at bay and use its power to morph the mines and make them accessible. When Mord had started the defence system, there was no way he could stop the beast whilst it raged on. He thanked them for saving him and upgraded several items, including Zordars Greataxe and Godfrey's silver shortsword. He left them. He needed to prepare the entrances of the mines and lock them up again before he could enter the mines. He hoped that he would cross paths with them, and perhaps the rightful heir to Gottrison mine would reveal themselves in time."
-        },
-        {
-          "value": "They set about to find cold-resistant clothing. Dimitri, the burgomaster of Krezk, told them that a hunter had not returned from the mountains for several days, if they find him then he would likely have some items they could take. When they found him, he explained that the Elk and wildlife had dissapeared from the mountain recently, if they help him hunt he would give them several items that he had at his home. Suddenly a Yeti, with an elk antlet lodged between its teeth attacked them. They made short work of it and found its cave, inside there was a hoard of gold proividing everyone with 100 gold apiece and plenty of meat to take back to Krezk. The hunter gave them a ring of warmth, some winterlands boots and cold resistant armour."
-        },
-        {
-          "value": "Everyone rested up and planned to go with Kasimir to the Amber temple in the morning via Tsolekna Pass, the quickest and safest route to the Amber Temple."
-        }
-      ]
-    },
-    {
-      "date": "2022-02-13",
-      "name": "session-34",
-      "index": "34",
-      "title": "Chapter 34 - Escaping the Mines",
-      "description": "After killing Strahd, the group desperately tried to escape the mines as it stated to destroy itself around them. They managed to escape but now separated from one another.",
-      "notes": [
-        {
-          "value": "Dwight showed up in the mine and saw a wall explode with a ancient dwarf running out, followed by a creature known as The Beholder"
-        },
-        {
-          "value": "He snapped Ireena out her trance, who had next to no memories of had happened"
-        },
-        {
-          "value": "Everyone scrambled for the exit as the Beholder's magic on the mine started making it grow and change shape"
-        },
-        {
-          "value": "First Xerus, Zuileika and Cuddles managed to get through the door and found themselves outside the marsh of the ruines of Berez"
-        },
-        {
-          "value": "The mines shifted again and the door dissapeared into the floor behind Xerus"
-        },
-        {
-          "value": "Godfrey summoned a Gold Dragon named Sedring to aide everyone else's escape"
-        },
-        {
-          "value": "Next Zordar, Dwight and Mordankeinen escaped only to found themselves on top of a freezing mountain with The Amber Temple below them"
-        },
-        {
-          "value": "The Beholder petrified Sedring, though his strength and wisdom was strong and he released himself from the stone"
-        },
-        {
-          "value": "Sedring grabbed Ireena and Godfrey as he flew through the door, with an ancient dwarf screaming for his life not far behind"
-        },
-        {
-          "value": "They found themselves as Tser Falls near the encampment where everyone met Madam Eva"
-        },
-        {
-          "value": "Xerus went back to Krezk, in hopes he would find his friends and met Gorek who was waiting in the Baron's cottage"
-        },
-        {
-          "value": "Dwight and Zordar could not stay the night atop a frozen mountain but saw Dwight's windmill not too far away so they went there to rest"
-        },
-        {
-          "value": "Godfrey made camp, he only had a day before Sedring would leave him and asked him to go out and search for his friends"
-        }
-      ]
-    },
-    {
-      "date": "2022-01-29",
-      "name": "session-33",
-      "index": "33",
-      "title": "Chapter 33 - Removing the Curse",
-      "description": "They gave the wedding dress to The Abbot who told them to bring Ireena to him at dusk to perform the ritual. When they went to get her they found Strahd in the mines.",
-      "notes": [
-        {
-          "value": "The Abbot told them that once the ritual was done Ireena would no longer be connected to Strahd"
-        },
-        {
-          "value": "He would try to convince Strahd to marry the bride he made for him in order to buy the group some time"
-        },
-        {
-          "value": "The Abbot mentioned that if Ireena should die then Strahd would bring a force more powerful on the group than anything they could handle"
-        },
-        {
-          "value": "When they entered the mines they found Ireena chanting and unresponsive"
-        },
-        {
-          "value": "As they rounded the corner Strahd had Mordankeinen and forced her to trigger the Gottrison's defences"
-        },
-        {
-          "value": "Strahd said that he would marry Ireena and then destroy Barovia in order to start all over again"
-        },
-        {
-          "value": "The group killed Strahd, the Holy Symbol of Ravenloft proved instrumental in his defeat"
-        }
-      ]
-    }
-  ],
   "cm": [
     {
       "date": "",
@@ -686,6 +21,67 @@
         },
         {
           "value": "Clapperclaw has promised to help them get into Thither if they help him get his head back."
+        }
+      ]
+    },
+    {
+      "date": "2022-10-03",
+      "name": "session-21",
+      "title": "Chapter 21 - A New Reign",
+      "description": "The group helped King Muckstump enforce his laws.",
+      "notes": [
+        {
+          "value": "The group had a wonderful meal with King Muckstump XXVII and said they would speak to his prisoner in the morning."
+        },
+        {
+          "value": "Before they met the prisoner, they went to Trinket, Bauble, and Charm's shop."
+        },
+        {
+          "value": "Trinket, and Bauble traded several goods and said that if the group went to see Charm in Bavlorna's cottage and have a conversation, they would give them their unicorn's horn. This was before they were insulted, and the deal was taken off the table."
+        },
+        {
+          "value": "The prisoner was a knight named Morgort, the Knight of Warts. She was sentenced for treason for aiding and abetting the escape of Sir Talavar."
+        },
+        {
+          "value": "Cassandra promised to put on a show during their trial by combat and feign killing Morgort. In exchange Morgot would sneak aboard a balloon and wait for them, with Clapperclaw as a guide she'd be able to take everyone to Thither."
+        },
+        {
+          "value": "During the fight, Cassandra almost lost. However, at the last moment, Morgot pretended to die and was kicked into the water where Cloud saw her swim away."
+        },
+        {
+          "value": "The group snuck into Bavlorna's Cottage, ready to take on the hag of the Hourglass Coven with an army of Bullywugs in tow."
+        }
+      ]
+    },
+    {
+      "date": "2022-09-19",
+      "name": "session-20",
+      "title": "Chapter 20 - Downfall Revolution",
+      "description": "The group helped Muckstump in his revolution against King Gullop XIX.",
+      "notes": [
+        {
+          "value": "With several hours before midnight, the group went to explore Downfall."
+        },
+        {
+          "value": "You met an elf named Octavian Meliamne who was missing his heart and asked if you would retrieve it from Bavlorna for him. You all agreed, and he promised to give you his pipes on your return."
+        },
+        {
+          "value": "Several sprites attacked Buzzy and goaded everyone into a fight with a Tree Blight. During the fight, one of the clotheslines connected to Bavlorna's Cottage broke."
+        },
+        {
+          "value": "Everyone quickly ran away and encountered a cauldron. The hot coals underneath exchanged the passed to open the cauldron for some wood."
+        },
+        {
+          "value": "Chip turned into a giant toad after drinking some of the liquid for an hour."
+        },
+        {
+          "value": "The group took this opportunity to rest before starting the assault."
+        },
+        {
+          "value": "The group managed to kill King Gullop XIX, but almost lost their minds during the fight and were nearly taken prisoner themselves."
+        },
+        {
+          "value": "Now the Bullywugs were ruled by King Muckstump XXVII"
         }
       ]
     },
@@ -1579,6 +975,671 @@
         },
         {
           "value": "After finding the entrance, the group decided to go back inside and enter Shadowfell in the morning after a long and well-earned rest."
+        }
+      ]
+    }
+  ],
+  "cos": [
+    {
+      "date": "",
+      "name": "summary",
+      "index": "S",
+      "title": "Curse of Strahd",
+      "description": "Our heroes set off on a quest from their faction to rid a village of werewolves. When they chased down the werewolves, they found themselves trapped in a place known as Barovia. The land is ruled by a vampire named Strahd who had all but destroyed the world around them.",
+      "current": "Searching for Strahd.",
+      "next": "Confront and kill Strahd once and for all.",
+      "why": "Because Strahd has destroyed everything you worked hard to save and if they don't Griek's will become even more powerful.",
+      "notes": [
+        {
+          "value": "Everyone was trapped in Barovia and can't leave due to the thick fog."
+        },
+        {
+          "value": "The group must keep Ireena away from Strahd. If he marries her, he will destroy Barovia."
+        },
+        {
+          "value": "Madam Eva gave them a card reading to help them defeat Strahd."
+        },
+        {
+          "value": "You have the Holy Symbol of Ravenkind and Sergei's Sun Dagger."
+        },
+        {
+          "value": "Griek took Zuleika and Emil."
+        },
+        {
+          "value": "You now have Sergei's Sun Dagger."
+        },
+        {
+          "value": "You now have the Tome of Strahd."
+        },
+        {
+          "value": "You have destroyed Strahd's heart."
+        },
+        {
+          "value": "Mord's younger self has come to help you destroy Strahd."
+        }
+      ]
+    },
+    {
+      "date": "2022-08-27",
+      "name": "session-47",
+      "index": "47",
+      "title": "Chapter 47 - In the Dungeons",
+      "description": "After fighting Strahd the group leaves the dungeon to search for Sergei's Tomb.",
+      "notes": [
+        {
+          "value": "The group found the crypts and scoured them looking for Sergei's Tomb."
+        },
+        {
+          "value": "While here, Efreeti told Xerus that he would give him his aide if he found his sword in the crypts."
+        },
+        {
+          "value": "When the group found Sergei's tomb, they found a large tome lying there. As they took it, the coffin started to thump. A familiar voice shouted for help from within."
+        },
+        {
+          "value": "They pulled open the coffin to reveal a younger version of Mordenkainen was lying inside."
+        },
+        {
+          "value": "She had received a letter from her older/alternate self, who had managed to open the door to Lamordia. A Domain of Dread where Arty had ended up. The letter had a scroll to send her to Barovia, where she promised to help these people destroy Strahd and the domain simultaneously."
+        },
+        {
+          "value": "Mord's mentor, Morden, whom she had got her name from, had been manipulated by Griek to create the Domains of Dread. Each one fed Griek with unlimited power, and now Mord planned to destroy them all before he turned the world into a Domain of Dread."
+        },
+        {
+          "value": "Each Domain of Dread starts with a catastrophic event, and then loops, feeding Griek with dark energy."
+        },
+        {
+          "value": "As the group searched the crypts, they found one filled with lethal brown mold, but also a great sword that would grant the wielder a wish. This was known as the Luck Sword and belonged to Efreeti, now in possession of Godfrey."
+        },
+        {
+          "value": "The group left the crypts and found the giant beating heart at the top of a tower. They destroyed it. Blood gushed down the stairs like a waterfall, and they heard a terryfying roar from within the castle."
+        }
+      ]
+    },
+    {
+      "date": "2022-08-27",
+      "name": "session-46",
+      "index": "46",
+      "title": "Chapter 46 - Descending the Secret Staircase",
+      "description": "After defeating Rahadin the group make their way down a secret staircase in search of Sergei's tomb.",
+      "notes": [
+        {
+          "value": "They climb down the secret staircase and find a sand timer and brazier. They work out that it can teleport you somewhere, though they were able to decipher where."
+        },
+        {
+          "value": "Afterwards the group trip a trap and find themselves caught in Strahd's Dungeon. As fate would have it, Strahd was waiting here."
+        },
+        {
+          "value": "The group manage to get out and fought Strahd. During the fight They freed Emil, Zuleika's partner."
+        },
+        {
+          "value": "Just as they are freed Strahd calls Griek who comes forward and steals both of them away to another dimention."
+        },
+        {
+          "value": "Strahd turned himself into a fog and fled the dungeon."
+        }
+      ]
+    },
+    {
+      "date": "2022-07-30",
+      "name": "session-45",
+      "index": "45",
+      "title": "Chapter 45 - Deafting the Sworn Enemy",
+      "description": "The group scaled the castle walls and killed Rahadin.",
+      "notes": [
+        {
+          "value": "Instead of heading straight through the gates, Xerus flew up, and the group climbed up after him on their rope."
+        },
+        {
+          "value": "On top of the wall they found a tough suit of armor which they destroyed."
+        },
+        {
+          "value": "Dwight fired several arrows using his boy to find Rahadin."
+        },
+        {
+          "value": "The group found stairs. They could feel a pulsating wave of evil coming from above."
+        },
+        {
+          "value": "At the bottom of the stairs was a room loaded with dead soldiers from a battle long ago."
+        },
+        {
+          "value": "On the other side of the room was Rahadin's office. The group fought hard to take him out and managed to kill him twice, finally killing him."
+        },
+        {
+          "value": "The group found a secret door in Rahadin's office leading down, the direction of the Dungeon where Emil is and the Crypts where Strahd's Tome lies on Sergei's tomb must be down there somewhere."
+        }
+      ]
+    },
+    {
+      "date": "2022-07-16",
+      "name": "session-44",
+      "index": "44",
+      "title": "Chapter 44 - The Fall of the Heros of Vallaki",
+      "description": "The group escaped Vallaki, but returned to destruction.",
+      "notes": [
+        {
+          "value": "Everyone tried to escape the cellar."
+        },
+        {
+          "value": "Ronaldo went to take the children from the HQ to the church where the hallowed ground could keep them safe."
+        },
+        {
+          "value": "While investigating the cult symbols, Victor Vallakovich teleported into the room, looking to take back his fallen house."
+        },
+        {
+          "value": "Everyone struck and killed him, only to discover that was part of his plan the whole time, and he burst into a huge Ghost Dragon named Echo."
+        },
+        {
+          "value": "Zordar fell, and Gorek was paralyzed with fear. The outcome looked like certain death for everyone."
+        },
+        {
+          "value": "Brutus managed to gather everyone around him, and they all teleported back to Kazahn's Tower."
+        },
+        {
+          "value": "They decided to rest until the morning, knowing the Strahd was going to the town but deciding they needed to recover more before they took him on."
+        },
+        {
+          "value": "After leaving Ireena behind in the tower once more, the group returned to Vallaki at first light."
+        },
+        {
+          "value": "When they got back to Vallaki, they found Van Richten's head on a pike and the word \"Cowards\" written in blood on the gates."
+        },
+        {
+          "value": "At the Blue Water Inn, Urwin, the keeper of the feathers leader and Inn owner, explained that Rictavio was Van Richten, a famous vampire hunter, and he tried his best to kill Strahd and died."
+        },
+        {
+          "value": "After Van Richten was killed, Strahd executed the Seven one by one demanding that the Heros of Vallaki come out."
+        },
+        {
+          "value": "While this was happening, Goatku (formally Izek) was fighting the Kobolds that Strahd had recruited to destroy the city."
+        },
+        {
+          "value": "Strahd left after killing the Seven in anger that the group never showed up."
+        },
+        {
+          "value": "The guards managed to kill the Kobolds, but not before they caused massive damage to the town and killed scores of villagers."
+        },
+        {
+          "value": "They set off at once and marched to Castle Ravenloft."
+        }
+      ]
+    },
+    {
+      "date": "2022-06-04",
+      "name": "session-43",
+      "index": "43",
+      "title": "Chapter 43 - Trapped Beneath Vallaki",
+      "description": "The group found themselves trapped underneath The Seven HQ.",
+      "notes": [
+        {
+          "value": "Zordar explained to Kasimir that his sister was not a vampire and had planned to kill Ezmerelda and attack him. Something he learned from the Hag in the Windmill."
+        },
+        {
+          "value": "Goatku said he was going to try and right some wrongs and help the people of Vallaki. Now that Izek was 'dead,' he felt capable of looking after the town."
+        },
+        {
+          "value": "They slowly traveled back to Krezk to get ahead of Patrina."
+        },
+        {
+          "value": "When they arrived, Dimitri didn't recognize Zordar, mistaking him for a werewolf."
+        },
+        {
+          "value": "Dimitri told the group that The Abbot was dead and the Mongrelfolk had marched into town. He wasn't sure what to do."
+        },
+        {
+          "value": "One of the Mongrelfolk said that 'Mother' was waiting inside one of the homes."
+        },
+        {
+          "value": "Entering the home, they found Vasilka, the bride that The Abbot had made for Strahd."
+        },
+        {
+          "value": "She explained that she had got married, and as a wedding gift, Strahd gave her Krezk."
+        },
+        {
+          "value": "Dimitri came running inside and told them that Patrina had shown up and he needed their help."
+        },
+        {
+          "value": "Outside Patrina had charmed Kasimir and brought several vampires to attack the town."
+        },
+        {
+          "value": "She also convinced Vasilka that Strahd wanted her to attack the town."
+        },
+        {
+          "value": "During the fight, Dimitri died, and afterward, Anna, his wife, kicked the group out of Krezk and told them they were never allowed back in."
+        },
+        {
+          "value": "During the fight, Dimitri died. Anna, Dimitri's wife, kicked the group out of Krezk and told them they were never allowed back in seeing how they had destroyed Dimitri's body."
+        },
+        {
+          "value": "Kasimir took his dead sister to the Amber Temple in hopes that he would bring her back to life."
+        },
+        {
+          "value": "Zordar promised to be the father of the Mongrelfolk, and the group gained a new ally named Manny."
+        },
+        {
+          "value": "The group stopped off at Kazan's Tower to rest and talk to Ireena before going to Vallaki."
+        },
+        {
+          "value": "Ireena said she was bored. Zordar and Xerus offered to escort her to Vallaki so she could do some shopping."
+        },
+        {
+          "value": "The group met Goatku outside, who had joined the guard. He said he would go find Ronaldo and bring him to them."
+        },
+        {
+          "value": "After doing some shopping, the group went to The Seven HQ with Ronaldo for the meal he had promised in a letter sent to Godfrey."
+        },
+        {
+          "value": "While there, Zordar smashed the dining table after hearing noises underground, and together they descended a secret trapdoor."
+        },
+        {
+          "value": "Ronaldo closed the door behind them and locked them inside."
+        },
+        {
+          "value": "Ronaldo told them that Strahd had told him to lock them inside until nightfall or he would kill the orphans he cared for."
+        },
+        {
+          "value": "The mysterious screaming turned out to be a specter that was only there as a distraction."
+        }
+      ]
+    },
+    {
+      "date": "2022-06-04",
+      "name": "session-42",
+      "index": "42",
+      "title": "Chapter 42 - Escaping the Amber Temple",
+      "description": "The group found a powerful weapon in the Amber Temple.",
+      "notes": [
+        {
+          "value": "While exploring, the group made their way upstairs and found a mysterious glowing dagger underneath a replica of Castle Ravenloft."
+        },
+        {
+          "value": "Xerus took the dagger and heard Sergei's voice inside, and together they vowed to destroy Strahd with the power of the sun."
+        },
+        {
+          "value": "The group went into the hallway where Villanus took his opportunity and turned invisible, grabbing his master's sword and fleeing the temple."
+        },
+        {
+          "value": "The group followed the trail of dead bodies and went outside."
+        },
+        {
+          "value": "As they got there, several Barbarians were running, chasing after Rahadin who killed several members of their tribe."
+        },
+        {
+          "value": "A huge shadow flew overhead and dropped a screaming Vilanus to the ground, where he had died, and his staff was destrotyed."
+        },
+        {
+          "value": "The group ran on ahead and found Kasimir nailed to Tsolenka wall."
+        },
+        {
+          "value": "A gigantic roc was attracted to Kasimir's body and attacked the group."
+        },
+        {
+          "value": "Goatku showed and helped them fell the beast, Amlaib decided to go back to the Amber Temple as everyone else decided to help Kasimir."
+        }
+      ]
+    },
+    {
+      "date": "2022-06-04",
+      "name": "session-41",
+      "index": "41",
+      "title": "Chapter 41 - Turning Evil",
+      "description": "While exploring the Amber Temple, Zordar and Gorek take on more dark gifts.",
+      "notes": [
+        {
+          "value": "Gorek and Zuleika went back to the library and found a blueprint to create a spear for Zuleika naming it Auld Stoney."
+        },
+        {
+          "value": "Everyone tried to get into a hidden room next to the library, causing a cave-in."
+        },
+        {
+          "value": "The group found another room full of sarcophagi and a Slaad."
+        },
+        {
+          "value": "After dealing with the Slaad, Gorek and Zordar accepted two gifts, one who gave them more resilience but made them hairy and the other giving them extreme strangth but turned them into bullies."
+        },
+        {
+          "value": "Gorek was not able to resist the dark gift, corrupting his soul and making him evil."
+        },
+        {
+          "value": "The group went to rest in an old bedroom for a short while."
+        }
+      ]
+    },
+    {
+      "date": "2022-05-21",
+      "name": "session-40",
+      "index": "40",
+      "title": "Chapter 40 - Meeting Brutus",
+      "description": "The group comes across a mage, hiding from the dangers in the Amber Temple.",
+      "notes": [
+        {
+          "value": "Vilnius and Xerus cast invisibility on everyone they snuck past the Amber giant."
+        },
+        {
+          "value": "They found themselves in a room where Vilnius was convinced there was a secret door."
+        },
+        {
+          "value": "The secret door led them downstairs, and they climbed up to the library, where Zuleika and Xerus found a book to create a new hound."
+        },
+        {
+          "value": "Using Zordar's bone trophy and a piece of amber, Xerus called Efreeti to guide him and create an Amber Hound."
+        },
+        {
+          "value": "Xerus named the hound Brutus, and now Zuleika and Xerus had a new member in their pack."
+        },
+        {
+          "value": "They went down the spiral staircase and found a large room with three more sarcophagi."
+        },
+        {
+          "value": "As they stepped closer several vampires lept out of crates and attacked the group."
+        },
+        {
+          "value": "After dispatching them, they found that one of the sarcophagi was a vampire, another was a mighty being, and the last was a spider queen."
+        }
+      ]
+    },
+    {
+      "date": "2022-05-07",
+      "name": "session-39",
+      "index": "39",
+      "title": "Chapter 39 - Saving the Cowardly Mage",
+      "description": "The group comes across a mage, hiding from the dangers in the Amber Temple.",
+      "notes": [
+        {
+          "value": "The group finds the library after following the scent of the Witches."
+        },
+        {
+          "value": "In the Library, a book named \"Shalx\", details of a wizard who studied death and tried to bring people back from beyond the grave, open on a table."
+        },
+        {
+          "value": "The book showed a picture of the Witches' door, and it tells them the password is \"Shalx\"."
+        },
+        {
+          "value": "While researching in the library, they find a book about the architecture of Castle Ravenloft. On the back of the book is a picture of the card reading \"The Elementalist\"."
+        },
+        {
+          "value": "The book details how the wizards of the Amber Temple had constructed the castle. The blue prints inside are out of date, at least the part of the castle the group have previously seen."
+        },
+        {
+          "value": "Gorek finds a book bound using cogs and chains."
+        },
+        {
+          "value": "The book is from an Artificer who studied different ways to augment one's natural abilities."
+        },
+        {
+          "value": "The book has the symbol of a Shield with a Chain running across it and tells them the password for this door is \"Harkotha\"."
+        },
+        {
+          "value": "The group head back to the Witches, open the door with the password, and proceed to kill them all."
+        },
+        {
+          "value": "Godfrey took an ability from one of the sarcophagi in the room, a spirit told traded his face and smile for the Thunderbolt spell."
+        },
+        {
+          "value": "The group through a hole in the roof and as they see an Amber Giant they dash into a lecture theatre."
+        },
+        {
+          "value": "Vilnius, a mage who came to study in the temple, was found cowering in the room."
+        },
+        {
+          "value": "The group agreed to help him escape if he helped them find what they are looking for first."
+        }
+      ]
+    },
+    {
+      "date": "2022-04-23",
+      "name": "session-38",
+      "index": "38",
+      "title": "Chapter 38 - Stopping Neferon",
+      "description": "After slaying Rahadin the group comes face to face with a fiend guarded the Amber Temple.",
+      "notes": [
+        {
+          "value": "A fiend attacks from the shadows and nearly destroys everyone."
+        },
+        {
+          "value": "The fiend is named Neferon, and he tells the group that guards the Amber Temple."
+        },
+        {
+          "value": "After felling Neferon, the group comes across a coven of Witches, and while hiding, they see them go to the library and come back with a password to enter a locked room."
+        },
+        {
+          "value": "Before chasing down the Witches, the group decides to find out where this library is following the scent of the Witches."
+        },
+        {
+          "value": "While resting the group find Xerus's Shield Guardian lying dormant. Efreeti explains that this is where he found the construct."
+        }
+      ]
+    },
+    {
+      "date": "2022-03-12",
+      "name": "session-37",
+      "index": "37",
+      "title": "Chapter 37 - Stepping into the Amber Temple",
+      "description": "The group escaped the clutches of the giant birds only to find themselves face-to-face with Rahadin",
+      "notes": [
+        {
+          "value": "The group, stuck inside a tower, decided to divide into two. Half went onto the roof to attack the giant bird in the sky, and half went to attack the one on the ground."
+        },
+        {
+          "value": "Kasimir flew into the sky to save Gorek from falling to his death while Dwight finished the monster in the sky with his bow."
+        },
+        {
+          "value": "The group made their way to the Amber Temple and saw Rahadin run inside. Godfrey the Vengeful with some of the group charged to chase down Rahadin."
+        },
+        {
+          "value": "Some of the party found a crack in the wall to the west of the temple and fled after seeing several large and angry people with a giant wolf."
+        },
+        {
+          "value": "They found Rahadin praying at a giant statue of a wizard, sacrificing a frog, and then turned to attack the group, almost wiping out Zuleika with a single attack."
+        },
+        {
+          "value": "Rahadin told Kasamir that he wanted him dead so that he and his sister, Patricia, could take over Barovia. Kasimir said he would do anything to save his sister."
+        },
+        {
+          "value": "The group killed Rahadin, then Godfrey prayed to Helm, who managed to contact him, telling him to find the weapon in the temple and be wary of a Lich."
+        }
+      ]
+    },
+    {
+      "date": "2022-03-12",
+      "name": "session-36",
+      "index": "36",
+      "title": "Chapter 36 - Breaking Through Tsolenka Pass",
+      "description": "The group make their way to the Amber Temple via Tsolenka pass and find themselves stuck between a rock and a hard place",
+      "notes": [
+        {
+          "value": "Just as they awoke and ready to set off, Godfrey received a letter from Rolando of The Seven of Vallaki. It was an invitation to celebrate the Heroes of Vallaki at their earliest convenience. The letter also mentioned that an unnamed benefactor had donated several bottles of the illustrious Champagne De Stomp."
+        },
+        {
+          "value": "As they got the pass, they found several Sangzor, a monk named Goatku. Goatku was Izek, who had renounced his ways and learned the goat's way. After challenging the group to a sparring match, he let them pass but warned them that things are not what they appeared and that the Amber Temple is very dangerous."
+        },
+        {
+          "value": "After humiliating Goatku they found the bridge marked on the map. On it, Strahd and Rahadin stood. In a flash of rage, Mordenkainen ran forward to attack Strahd. Godfrey tried to stop her, but it was in vain as she stopped time for everyone and ran across the bridge to attack Strahd. To everyone's surprise, Strahd's image faded down Mord fell through an invisible hole into the freezing depths below."
+        },
+        {
+          "value": "Zordar quickly dispelled the Rahadin illusion with a snowball, then Gorek expertly aided everyone across with his intermate knowledge of stones."
+        },
+        {
+          "value": "They approached a wall 124ft high, with a gate made of a mysterious fire. Xerus flew over the wall, past the stone two giant bird statues, and found an outpost on the other side when he landed. The birds lept up and attacked, but they were too slow as he dashed inside the building."
+        },
+        {
+          "value": "Using Zordar's cipher scroll, the group dispelled the magic and ran inside the tower to catch up with Xerus. Now there was one bird on top of the tower, and one stood outside."
+        },
+        {
+          "value": "While inside the tower, the group realized that the gate was not to stop people from reaching the temple, but to stop things from the temple getting into Barovia."
+        },
+        {
+          "value": "Kasimir's quick thinking to blast the cold hand on his shoulder with a firebolt revealed several ghosts hidden behind everyone, readying to slit their throats. The tower was cursed, and the spirits had previously been summoned centuries ago to assassinate everyone in the tower."
+        },
+        {
+          "value": "The group made quick work of the specters and rested to strategies how they would get past the birds several times larger than they were and blocked all exits."
+        }
+      ]
+    },
+    {
+      "date": "2022-02-26",
+      "name": "session-35",
+      "index": "35",
+      "title": "Chapter 35 - Regrouping in Krezk",
+      "description": "After being separated from the mines, the group gather again in Krezk to cure Ireena of her curse and prepare to head out to the Amber Temple.",
+      "notes": [
+        {
+          "title": "Gorek, Xerus and Zuleika"
+        },
+        {
+          "value": "Gorek, Xerus, and Zuleika are given a key by Ezmerelda and told that there is a tower that belonged to her surrogate father, Van Richten, that they could clear out and use as a place to keep Ireena safe."
+        },
+        {
+          "value": "They find the tower and learn that an anti-magic shield protects it. At the top of the tower are books explaining that Van Richten used the tower, known as Kazahn's Tower, to learn everything he could about Strahd. They make a new friend, a suit of armour, named Kora. They took Van Richtens detailed map and notes on Barovia."
+        },
+        {
+          "value": "When they leave the tower, Ku-Quar has tracked them down, full of vengeance and out to kill Xerus, who replaced him. The small group easily defeat this undead Lizardfolk."
+        },
+        {
+          "title": "Godfrey and Ireena"
+        },
+        {
+          "value": "Meanwhile, Godfrey, Ireena and a dwarf Cempou head to Tser Falls and camp with Madam Eva and the Vistani. Madam Eva makes another card reading and gives an insight into Strahd's plans. Strahd's plans can still be stopped before they unfold. (See appendix \"Second Card Reading\" for more details)"
+        },
+        {
+          "value": "Madam Eva told Godfrey that the only way to destroy Strahd was to attack his heart, which he locks away from everyone in his castle."
+        },
+        {
+          "value": "Sedring, the dragon Godfrey summoned, comes back and tells him two things. First, everyone is heading to Krezk and will be there soon. Second, a Drow leaving Castle Ravenloft is on the path nearby."
+        },
+        {
+          "value": "Godfrey sneaks up on the Drow, Rahadin, and attacks him. He manages to capture his Nightmare horse in an Iron Flask and learns the Rahadin hates Ireena and wants Strahd to make him his heir. He doesn't care if Ireena is killed. After Godfrey is almost killed during the fight, Rahadin charges off to the Amber Temple to cut the group off, more interested in killing Kasimir."
+        },
+        {
+          "title": "Zordar, Dwight and Mordenkainen"
+        },
+        {
+          "value": "Whilst this is was happening, Zordar, Dwight and Mordenkainen ran down the mountain above the Amber Temple to rest at Dwight's windmill."
+        },
+        {
+          "value": "The children have been very busy, selling pastries and other baked goods to all of Barovia. They tucked into some pastries that the children made and found themselves drifting off to sleep."
+        },
+        {
+          "value": "They found themselves and an under dark nightmare. A hag approached them and explained how she was the girl and that the windmill was cursed and started turning her into a hag. One day the two children got into a fight and she pushed her brother who fell and died. She took him to the Amber Temple, hearing that it could bring people back from the dead. When she accepted the Dark Powers, she was consumed by the darkness and became a hag, her brother awoke, now a vampire."
+        },
+        {
+          "value": "The hags abilities grew, and she discovered how to control the amber eye. She was able to see inside the castle."
+        },
+        {
+          "value": "Her brother had also grown in power. He studied the teachings of a cult known as the Osybus, who used to reside in the basement under the haunted house at the start of the group's adventure. He planned to take over the thrown from Strahd once the group had killed him."
+        },
+        {
+          "value": "The two of them proposed that if the group let them live, and continue to make pastries from human flesh, that they would provide valuable information about Strahd using the hags amber eye."
+        },
+        {
+          "value": "They agreed to the terms, now realising they had just eaten human pasties."
+        },
+        {
+          "value": "The hag told them that Pidlwick III was a naughty puppet who would be a great ally to them. He knows every nook and cranny of the castle, so long as they ignored his harmless pranks, he would help them to navigate the castle expertly."
+        },
+        {
+          "value": "She also mentioned how Strahd had already come back to his full power, that the only way to defeat Strahd would be to destroy his heart, the Heart of Sorrow, which resided at the top of the tallest tower in Ravenloft."
+        },
+        {
+          "value": "One of her insights into Strahd, she warned them of, was his ability to move around the castle through the walls instantly and that they should always be looking over shoulder."
+        },
+        {
+          "value": "The last piece of information she gave them, Strahd knew about Ezmerelda's plan to sneak into the castle and steal Patrina. However, Patrina isn't a vampire. She is a wraith. Patrina had been sending lies via raven to her this entire to lure her and Kasimir into a trap and kill them both."
+        },
+        {
+          "title": "Together in Krezk"
+        },
+        {
+          "value": "After the group gathered in Krezk, The Abbot led them down a well to an underground shrine. Here he performed a ritual that summoned the ghost of Tatyana from within Ireena and Prince Sergei. He performed a wedding, and they thanked the group for bringing them back together. Sergei told them that there was a powerful book atop his tomb in the crypts of Ravenloft. If they used it wisely, then Strahd would be weakened, and they would be able to withstand his full strength."
+        },
+        {
+          "value": "Ireena now remember everything. How her and her brother Izek had escaped Strahd and that Izmark looked after her whilst Izek was rescued and given a patron by the Burgomaster of Vallaki. That Strahd had attacked her three times before they met, leaving a curse to control her. This was how he took control of her in the mines, using her as a conduit to charm Mordenkainen and open the mines to Strahd."
+        },
+        {
+          "value": "After leaving her in Kazhan's tower, Cempou explained that he was in charge of keeping the Beholder at bay and use its power to morph the mines and make them accessible. When Mord had started the defence system, there was no way he could stop the beast whilst it raged on. He thanked them for saving him and upgraded several items, including Zordars Greataxe and Godfrey's silver shortsword. He left them. He needed to prepare the entrances of the mines and lock them up again before he could enter the mines. He hoped that he would cross paths with them, and perhaps the rightful heir to Gottrison mine would reveal themselves in time."
+        },
+        {
+          "value": "They set about to find cold-resistant clothing. Dimitri, the burgomaster of Krezk, told them that a hunter had not returned from the mountains for several days, if they find him then he would likely have some items they could take. When they found him, he explained that the Elk and wildlife had dissapeared from the mountain recently, if they help him hunt he would give them several items that he had at his home. Suddenly a Yeti, with an elk antlet lodged between its teeth attacked them. They made short work of it and found its cave, inside there was a hoard of gold proividing everyone with 100 gold apiece and plenty of meat to take back to Krezk. The hunter gave them a ring of warmth, some winterlands boots and cold resistant armour."
+        },
+        {
+          "value": "Everyone rested up and planned to go with Kasimir to the Amber temple in the morning via Tsolekna Pass, the quickest and safest route to the Amber Temple."
+        }
+      ]
+    },
+    {
+      "date": "2022-02-13",
+      "name": "session-34",
+      "index": "34",
+      "title": "Chapter 34 - Escaping the Mines",
+      "description": "After killing Strahd, the group desperately tried to escape the mines as it stated to destroy itself around them. They managed to escape but now separated from one another.",
+      "notes": [
+        {
+          "value": "Dwight showed up in the mine and saw a wall explode with a ancient dwarf running out, followed by a creature known as The Beholder"
+        },
+        {
+          "value": "He snapped Ireena out her trance, who had next to no memories of had happened"
+        },
+        {
+          "value": "Everyone scrambled for the exit as the Beholder's magic on the mine started making it grow and change shape"
+        },
+        {
+          "value": "First Xerus, Zuileika and Cuddles managed to get through the door and found themselves outside the marsh of the ruines of Berez"
+        },
+        {
+          "value": "The mines shifted again and the door dissapeared into the floor behind Xerus"
+        },
+        {
+          "value": "Godfrey summoned a Gold Dragon named Sedring to aide everyone else's escape"
+        },
+        {
+          "value": "Next Zordar, Dwight and Mordankeinen escaped only to found themselves on top of a freezing mountain with The Amber Temple below them"
+        },
+        {
+          "value": "The Beholder petrified Sedring, though his strength and wisdom was strong and he released himself from the stone"
+        },
+        {
+          "value": "Sedring grabbed Ireena and Godfrey as he flew through the door, with an ancient dwarf screaming for his life not far behind"
+        },
+        {
+          "value": "They found themselves as Tser Falls near the encampment where everyone met Madam Eva"
+        },
+        {
+          "value": "Xerus went back to Krezk, in hopes he would find his friends and met Gorek who was waiting in the Baron's cottage"
+        },
+        {
+          "value": "Dwight and Zordar could not stay the night atop a frozen mountain but saw Dwight's windmill not too far away so they went there to rest"
+        },
+        {
+          "value": "Godfrey made camp, he only had a day before Sedring would leave him and asked him to go out and search for his friends"
+        }
+      ]
+    },
+    {
+      "date": "2022-01-29",
+      "name": "session-33",
+      "index": "33",
+      "title": "Chapter 33 - Removing the Curse",
+      "description": "They gave the wedding dress to The Abbot who told them to bring Ireena to him at dusk to perform the ritual. When they went to get her they found Strahd in the mines.",
+      "notes": [
+        {
+          "value": "The Abbot told them that once the ritual was done Ireena would no longer be connected to Strahd"
+        },
+        {
+          "value": "He would try to convince Strahd to marry the bride he made for him in order to buy the group some time"
+        },
+        {
+          "value": "The Abbot mentioned that if Ireena should die then Strahd would bring a force more powerful on the group than anything they could handle"
+        },
+        {
+          "value": "When they entered the mines they found Ireena chanting and unresponsive"
+        },
+        {
+          "value": "As they rounded the corner Strahd had Mordankeinen and forced her to trigger the Gottrison's defences"
+        },
+        {
+          "value": "Strahd said that he would marry Ireena and then destroy Barovia in order to start all over again"
+        },
+        {
+          "value": "The group killed Strahd, the Holy Symbol of Ravenloft proved instrumental in his defeat"
         }
       ]
     }

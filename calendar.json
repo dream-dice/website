@@ -12,7 +12,7 @@
     }
   },
   "cm": {
-    "time": "2022-05-23T14:00:00.000Z",
+    "time": "2022-05-25T11:00:00.000Z",
     "weather": "Heavy mist, overcast, 7*C",
     "combat": false,
     "round": 0,
@@ -20,17 +20,13 @@
       {
         "time": "2022-05-30T13:00:00.000Z",
         "value": "Firewatch's nightmares from the Mystery Mine will fade."
-      },
-      {
-        "time": "2022-05-24T09:00:00.000Z",
-        "value": "Florian, Cassandra, and Cloud's boon expire."
       }
     ],
     "nextSession": {
-      "date": "2022-09-05T20:30:00.000Z",
-      "title": "Chapter 20 - Downfall Revolution",
-      "description": "You have agreed to help overthrow the king in exchange for an army of bullywugs.",
-      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1021051653916479488"
+      "date": "2022-10-17T20:30:00.000Z",
+      "title": " Chapter 22 - Bavlorna's Cottage",
+      "description": "You have made your way into Bavlorna's cottage, what awaits you upstairs?",
+      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1028377809430794300"
     }
   }
 }
