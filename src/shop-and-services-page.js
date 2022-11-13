@@ -283,21 +283,34 @@ const Random = () => (
 )
 
 const Treasure = () => {
-
-
     const [challenge, setChallenge] = useState(tables.challenge04)
+    const { table } = challenge
 
     const magicItem = (items) => {
-        const side = chance().integer({ min: 37, max: 44 })
-        return items.find(({ range }) => range[0] <= side && range[1] >= side).value
+        const side = chance().integer({ min: 1, max: 100 })
+        const found = items.find(({ range }) => range[0] <= side && range[1] >= side)
+        if (typeof found === 'undefined') {
+            console.log(side, found)
+            return 'what now?'
+        }
+        return found.value
     }
 
-    const items = (side, items) => {
-        const found = items.find(({ range }) => range[0] <= side && range[1] >= side)
-        if (typeof found === 'undefined') return []
-        const { d, value } = items.find(({ range }) => range[0] <= side && range[1] >= side)
-        const length = chance().integer({ min: 1, max: d })
-        return Array.from({ length }, () => magicItem(tables[value]))
+    const checkAll = () => {
+        const items = tables.magicC
+        for (let side = 1; side < 100; side++) {
+            const found = items.find(({ range }) => range[0] <= side && range[1] >= side)
+            if (typeof found === 'undefined') {
+                console.log(side, found)
+            }
+        }
+    }
+    checkAll()
+
+    const items = (max, item) => {
+        if (max === null) return []
+        const length = chance().integer({ min: 1, max })
+        return Array.from({ length }, () => magicItem(tables[item]))
     }
 
     const coins = (playerCount, { cpM, cpS, spM, spS, epM, epS, gpM, gpS, ppM, ppS }) => {
@@ -315,29 +328,29 @@ const Treasure = () => {
         }
     }
 
-    const loot = (side, loot) => {
-        const found = loot.find(({ range }) => range[0] <= side && range[1] >= side)
-        if (typeof found === 'undefined') return []
-        const { m, d, value } = found
-        const length = m * chance().integer({ min: 1, max: d })
-        return Array.from({ length }, () => chance().pickone(tables[value]))
+    const loot = (count, max, loot) => {
+        if (count === null || max === null) return []
+        let length = Array.from({ length: count }).reduce((prev) => prev + chance().integer({ min: 1, max }), 0)
+        return Array.from({ length }, () => chance().pickone(tables[loot]))
     }
 
     const [players, setPlayers] = useState(3)
 
     const side = chance().integer({ min: 1, max: 100 })
+    const found = table.find(({ range }) => range[0] <= side && range[1] >= side)
     const [treasure, setTreasure] = useState({
         coins: coins(players, challenge.coins),
-        items: items(side, challenge.items),
-        loot: loot(side, challenge.loot)
+        items: items(found.iD || null, found.item),
+        loot: loot(found.lM || null, found.iD || null, found.loot)
     })
 
     const generate = (players) => {
         const side = chance().integer({ min: 1, max: 100 })
+        const found = table.find(({ range }) => range[0] <= side && range[1] >= side)
         setTreasure({
             coins: coins(players, challenge.coins),
-            items: items(side, challenge.items),
-            loot: loot(side, challenge.loot)
+            items: items(found.iD || null, found.item),
+            loot: loot(found.lM || null, found.iD || null, found.loot)
         })
     }
 

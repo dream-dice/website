@@ -373,8 +373,11 @@
         "Jade game board with solid gold playing pieces (7,500gp)",
         "Bejeweled ivory drinking horn with gold filigree (7,500gp)"
     ],
-    "10gems": [
+    "10Gems": [
         "10gp gems"
+    ],
+    "50Gems": [
+        "50gp gems"
     ],
     "magicA": [
         {
@@ -469,6 +472,13 @@
                 39
             ],
             "value": "Potion of animal friendship"
+        },
+        {
+            "range": [
+                40,
+                44
+            ],
+            "value": "Potion of hill giant strength"
         },
         {
             "range": [
@@ -2948,25 +2958,182 @@
             "ppM": 0,
             "ppS": 0
         },
-        "loot": [
+        "table": [
+            {
+                "range": [
+                    1,
+                    6
+                ]
+            },
             {
                 "range": [
                     7,
                     16
                 ],
-                "m": 2,
-                "d": 4,
-                "value": "25Art"
-            }
-        ],
-        "items": [
+                "lM": 2,
+                "lD": 6,
+                "loot": "10Gems"
+            },
+            {
+                "range": [
+                    17,
+                    26
+                ],
+                "lM": 2,
+                "lD": 4,
+                "loot": "25Art"
+            },
+            {
+                "range": [
+                    27,
+                    36
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "50Gems"
+            },
             {
                 "range": [
                     37,
                     44
                 ],
-                "d": 6,
-                "value": "magicA"
+                "lM": 2,
+                "lD": 6,
+                "loot": "10Gems",
+                "iD": 6,
+                "item": "magicA"
+            },
+            {
+                "range": [
+                    45,
+                    52
+                ],
+                "lM": 2,
+                "lD": 4,
+                "loot": "25Art",
+                "iD": 6,
+                "item": "magicA"
+            },
+            {
+                "range": [
+                    53,
+                    60
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "50Gems",
+                "iD": 6,
+                "item": "magicA"
+            },
+            {
+                "range": [
+                    61,
+                    65
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "10Gems",
+                "iD": 4,
+                "item": "magicB"
+            },
+            {
+                "range": [
+                    66,
+                    70
+                ],
+                "lM": 2,
+                "lD": 4,
+                "loot": "25Art",
+                "iD": 4,
+                "item": "magicB"
+            },
+            {
+                "range": [
+                    71,
+                    75
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "50Gems",
+                "iD": 4,
+                "item": "magicB"
+            },
+            {
+                "range": [
+                    76,
+                    78
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "10Gems",
+                "iD": 4,
+                "item": "magicC"
+            },
+            {
+                "range": [
+                    79,
+                    80
+                ],
+                "lM": 2,
+                "lD": 4,
+                "loot": "25Art",
+                "iD": 4,
+                "item": "magicC"
+            },
+            {
+                "range": [
+                    81,
+                    85
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "50Gems",
+                "iD": 4,
+                "item": "magicC"
+            },
+            {
+                "range": [
+                    86,
+                    92
+                ],
+                "lM": 2,
+                "lD": 4,
+                "loot": "25Art",
+                "iD": 4,
+                "item": "magicF"
+            },
+            {
+                "range": [
+                    93,
+                    97
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "50Gems",
+                "iD": 4,
+                "item": "magicF"
+            },
+            {
+                "range": [
+                    98,
+                    99
+                ],
+                "lM": 2,
+                "lD": 4,
+                "loot": "25Art",
+                "iD": 1,
+                "item": "magicG"
+            },
+            {
+                "range": [
+                    100,
+                    100
+                ],
+                "lM": 2,
+                "lD": 6,
+                "loot": "50Gems",
+                "iD": 1,
+                "item": "magicG"
             }
         ]
     }

@@ -29,14 +29,6 @@ const HeroHead = ({ title }) => (
                     <h1 className="navbar-item title is-size-1 is-hidden-touch">{title}</h1>
                     <h1 className="navbar-item title is-size-6 is-hidden-desktop">{title}</h1>
                     <div className='navbar-item external-links is-flex is-align-items-center'>
-                        <a href='https://foundry.blankstring.com' target='_blank' rel="noreferrer">
-                            <div className='image is-24x24 is-hidden-touch'>
-                                <img src='/fvtt.png' alt='Foundry VTT' />
-                            </div>
-                            <div className='image is-16x16 is-hidden-desktop'>
-                                <img src='/fvtt.png' alt='Foundry VTT' />
-                            </div>
-                        </a>
                         <a href='https://discord.com/channels/819872538548371517/819872538548371519' target='_blank' rel="noreferrer">
                             <div className='image is-24x24 is-hidden-touch'>
                                 <Discord />
@@ -85,8 +77,8 @@ const Header = () => {
                         <div className="container">
                             <ul>
                                 <HeroFootLink pathname={pathname} to='/' label='🏠 Home' />
-                                <HeroFootLink pathname={pathname} to={`/cos`} label='🧛 Curse of Strahd' />
                                 <HeroFootLink pathname={pathname} to={`/cm`} label='🕯️ Candlekeep Mysteries' />
+                                <HeroFootLink pathname={pathname} to={`/cos`} label='🧛 Curse of Strahd' />
                                 <HeroFootLink pathname={pathname} to={'/shop'} label='🛍️ Shops & Services' />
                             </ul>
                         </div>
