@@ -12,21 +12,29 @@
     }
   },
   "cm": {
-    "time": "2022-05-25T13:30:00.000Z",
-    "weather": "Heavy mist, overcast, 7*C",
+    "time": "2022-05-25T16:00:00.000Z",
+    "weather": "Light rain, 7*C",
     "combat": false,
     "round": 0,
     "events": [
       {
         "time": "2022-05-30T13:00:00.000Z",
         "value": "Firewatch's nightmares from the Mystery Mine will fade."
+      },
+      {
+        "time": "???",
+        "value": "Florian sent a parcel east"
+      },
+      {
+        "time": "???",
+        "value": "Cloud sent a sock of honey north"
       }
     ],
     "nextSession": {
-      "date": "2022-10-31T20:30:00.000Z",
-      "title": " Chapter 23 - Talking with Zybilna",
-      "description": "You made a deal with Bavlorna. The Bullywugs have returned with the BBBB and the taxidermy. Now it is time to exchange these things for a heart, a head, and a conversation with Zybilna.",
-      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1035562861814104064"
+      "date": "2022-11-13T20:30:00.000Z",
+      "title": "Chapter 23 - The Restful Lilly",
+      "description": "After teleporting into a place with Zybilna the group have agreed that they will try and free her betrothed, Graz'zt.",
+      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1041311497676140595"
     }
   }
 }
