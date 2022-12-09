@@ -12,8 +12,8 @@
     }
   },
   "cm": {
-    "time": "2022-05-25T16:00:00.000Z",
-    "weather": "Light rain, 7*C",
+    "time": "???-??-??T09:30:00.000Z",
+    "weather": "Humid, 7*C",
     "combat": false,
     "round": 0,
     "events": [
@@ -31,10 +31,10 @@
       }
     ],
     "nextSession": {
-      "date": "2022-11-13T20:30:00.000Z",
-      "title": "Chapter 23 - The Restful Lilly",
-      "description": "After teleporting into a place with Zybilna the group have agreed that they will try and free her betrothed, Graz'zt.",
-      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1041311497676140595"
+      "date": "2022-12-12T20:30:00.000Z",
+      "title": "Chapter 25 - Saving the demon prince",
+      "description": "With the help of Ushi, you have the potion to cure Graz'zt. Now you need to meet with Zybilna and discover the next step to free the demon prince.",
+      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1050763541172465694"
     }
   }
 }
