@@ -99,15 +99,15 @@ const Card = ({
                     )}
                     {filename && (
                         <div className='content'>
-                            {filename.endsWith('jpg') && <img src={filename} alt={title} />}
+                            {filename.endsWith('jpg') && <img src={`${window.location.origin}/${filename}`} alt={title} />}
                             {filename.endsWith('mp4') && (
                                 <video controls>
-                                    <source src={filename} type="video/mp4" />
+                                    <source src={`${window.location.origin}/${filename}`} type="video/mp4" />
                                 </video>
                             )}
-                            <div class="buttons">
-                                <a href={filename} download className='button is-link'>📁 Download</a>
-                                <button className='button is-link' onClick={() => { copy(`${window.location.href}${filename}`) }}>📋 Copy URL</button>
+                            <div className="buttons">
+                                <a href={`${window.location.origin}/${filename}`} download className='button is-link'>📁 Download</a>
+                                <button className='button is-link' onClick={() => { copy(`${window.location.origin}/${filename}`) }}>📋 Copy URL</button>
                             </div>
                         </div>
                     )}

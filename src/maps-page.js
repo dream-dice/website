@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import Card from './card';
 import maps from './maps.json';
 import Search from './search';
@@ -16,6 +17,7 @@ const filterMaps = (searchTerms) => ({ title, description }) =>
 
 const MapsPage = () => {
     const [data, setData] = useState([])
+    const {search} = useLocation()
 
     return <div className='maps'>
         <p className='content mt-5 mb-5 is-size-5'>
@@ -30,6 +32,7 @@ const MapsPage = () => {
                 }}
             />
             {data
+                .filter(({hide}) => search.includes('show') || !hide)
                 .sort(({ date: left }, { date: right }) => {
                     left = new Date(left).getTime()
                     right = new Date(right).getTime()
