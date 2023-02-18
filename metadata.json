@@ -71,37 +71,85 @@
     "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
     "image": "/icon.png"
   },
-  "/s": {
+  "/sj": {
     "title": "Spelljammer",
     "className": "avowed",
     "description": "Welcome to the Spelljammer campaign.",
     "image": "/icon.png"
   },
-  "/s/characters": {
+  "/sj/characters": {
     "title": "Characters - Spelljammer",
     "className": "avowed",
     "description": "All the players and characters from our Spelljammer campaign.",
     "image": "/icon.png"
   },
-  "/s/calendar": {
+  "/sj/calendar": {
     "title": "Calendar - Spelljammer",
     "className": "vampire",
     "description": "The current date, time, weather and future events.",
     "image": "/icon.png"
   },
-  "/s/notes": {
+  "/sj/notes": {
     "title": "Session Notes - Spelljammer",
     "className": "avowed",
     "description": "All the players and notes from our Spelljammer campaign.",
     "image": "/icon.png"
   },
-  "/s/appendix": {
+  "/sj/appendix": {
     "title": "Appendix - Spelljammer",
     "className": "avowed",
     "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
     "image": "/icon.png"
   },
   "/shop": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/general": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/equipment": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/magicItems": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/scrolls": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/animals": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/random": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/tables": {
+    "title": "Shop & Services",
+    "className": "home",
+    "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/shop/treasure": {
     "title": "Shop & Services",
     "className": "home",
     "description": "All the shops and services available in the campaign.",
