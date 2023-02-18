@@ -5,6 +5,7 @@ import names from './names.json'
 import tables from './tables.json'
 import chance from 'chance'
 import copy from 'copy-to-clipboard'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 
 const links = {
     equipment: 'https://www.dndbeyond.com/equipment/',
@@ -456,30 +457,66 @@ const Tables = () => (
 )
 
 const ShopAndServicesPage = () => {
+    const { section = 'none' } = useParams()
+    const navigate = useNavigate()
+    const routeTo = (section) => (open) => navigate(open ? `/shop/${section}` : '/shop')
+
     return (
         <div>
-            <Card title='🫖 General'>
+            <Card
+                title='🫖 General'
+                onClick={routeTo('general')}
+                isOpen={section === 'general'}
+            >
                 <Shop itemType='general' />
             </Card>
-            <Card title='⚔️ Equipment'>
+            <Card
+                title='⚔️ Equipment'
+                onClick={routeTo('equipment')}
+                isOpen={section === 'equipment'}
+            >
                 <Shop itemType='equipment' />
             </Card>
-            <Card title='🪄 Magic Items'>
+            <Card
+                title='🪄 Magic Items'
+                onClick={routeTo('magicItems')}
+                isOpen={section === 'magicItems'}
+            >
                 <Shop itemType='magicItem' />
             </Card>
-            <Card title='📜 Scrolls'>
+            <Card
+                title='📜 Scrolls'
+                onClick={routeTo('scrolls')}
+                isOpen={section === 'scrolls'}
+            >
                 <Shop itemType='scrolls' />
             </Card>
-            <Card title='🐐 Animals'>
+            <Card
+                title='🐐 Animals'
+                onClick={routeTo('animals')}
+                isOpen={section === 'animals'}
+            >
                 <Shop itemType='animals' />
             </Card>
-            <Card title='🎲 Random'>
+            <Card
+                title='🎲 Random'
+                onClick={routeTo('random')}
+                isOpen={section === 'random'}
+            >
                 <Random />
             </Card>
-            <Card title='🧮 Tables'>
+            <Card
+                title='🧮 Tables'
+                onClick={routeTo('tables')}
+                isOpen={section === 'tables'}
+            >
                 <Tables />
             </Card>
-            <Card title='🪙 Treasure'>
+            <Card
+                title='🪙 Treasure'
+                onClick={routeTo('treasure')}
+                isOpen={section === 'treasure'}
+            >
                 <Treasure />
             </Card>
         </div>

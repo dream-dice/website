@@ -2,7 +2,6 @@ import copy from 'copy-to-clipboard';
 import React, { useEffect, useState } from 'react';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 import gfm from 'remark-gfm';
-import factions from './factions.json';
 import Markdown from './markdown';
 
 const Card = ({
@@ -10,7 +9,6 @@ const Card = ({
     index,
     title,
     subtitle,
-    faction,
     rank,
     renown,
     race,
@@ -22,26 +20,28 @@ const Card = ({
     filename,
     date,
     dateTime,
-    class: playerClass = [],
     famous = [],
     notes = [],
     first = false,
     isOpen = false,
-    children
+    children,
+    onClick = () => { }
 }) => {
-    const { title: factionTitle } = factions[faction] || {}
     const [open, setOpen] = useState(isOpen)
     useEffect(() => {
         setOpen(isOpen)
     }, [isOpen])
 
-    const showMeta = race || playerClass.length > 0 || factionTitle
-
     const showContent = description || content || famous.length > 0 || notes.length > 0
 
     return (
         <div className={`card mt-${first ? '0' : (open ? '5' : '2')} mb-${open ? '5' : '2'}`}>
-            <button className="card-header" onClick={() => setOpen(!open)}>
+            <button
+                className="card-header"
+                onClick={() => {
+                    onClick(!open)
+                    setOpen(!open)
+                }}>
                 <div style={{ width: '100%' }}>
                     <div className='card-header-title'>
                         {image && (
@@ -70,26 +70,6 @@ const Card = ({
                 )}
             </button>
             {open && <div className="card-content">
-                {showMeta && (
-                    <div className='level'>
-                        <div className='level-left'>
-                            <div className='level-item'>
-                                <div className="content">
-                                    <h2 className='subtitle'>
-                                        {(race || playerClass.length > 0) && <div className='is-size-4 mb-2'>
-                                            <span className='pr-2'>{race}</span>
-                                            {playerClass.map(({ title, level }) => (<span key={title} className='has-text-weight-light mr-1'>{title} {level && <span>{level}</span>}</span>))}
-                                        </div>}
-                                        {factionTitle && <div className='is-size-6'>
-                                            <span className='pr-2'>{factionTitle}</span>
-                                            <span className='has-text-weight-light'>{rank} {renown >= 0 && <span>({renown})</span>}</span>
-                                        </div>}
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )}
                 {showContent && <div className='content'>
                     {description && (
                         <ReactMarkdown

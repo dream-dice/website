@@ -78,7 +78,7 @@ const Header = () => {
                             <ul>
                                 <HeroFootLink pathname={pathname} to='/' label='🏠 Home' />
                                 <HeroFootLink pathname={pathname} to={'/cm'} label='🕯️ Candlekeep Mysteries' />
-                                <HeroFootLink pathname={pathname} to={'/s'} label='👾 Spelljammer' />
+                                <HeroFootLink pathname={pathname} to={'/sj'} label='👾 Spelljammer' />
                                 <HeroFootLink pathname={pathname} to={'/cos'} label='🧛 Curse of Strahd' />
                                 <HeroFootLink pathname={pathname} to={'/shop'} label='🛍️ Shops & Services' />
                                 <HeroFootLink pathname={pathname} to={'/maps'} label='📍 Maps' />
