@@ -22,24 +22,8 @@ const Home = () => (
             <li>https://intrepid-crusaders.blankstring.com/random.json</li>
         </ul>
 
-        <h2>Players & NPCs</h2>
-        <p>This has all the infomation I am willing to share about players and NPCs. If something is missing it will be because the players do not know this infomation. It might not be complete and I have tried to keep it as brief as possible.</p>
-
-        <h2>Notes</h2>
-        <p>This is a bullet point list of notes after I have run a session. Useful for recapping or finding info that you might have forgotton.</p>
-
         <h2>Copyright and other T&C's</h2>
-        <p>For all the D&D content it will either come from Wizards of the Coast or my brain. It is all creative and if I plagurise anything it is probably a parody or super coincidence.</p>
-        <p>I didn't make any images, if anyone recognises the images and wants me to take them down I am happy to. As far as I am aware they all fall under creative licence or were publically posted without any rules on them.</p>
-        <p>If you take any of the images off my site, that doesn't bother me. You are responsible for them and if you get caught that's your own fault and not mine.</p>
-        <p>I don't make any money off of this, it is all a hobby and for fun.</p>
-
-        <h2>More to come</h2>
-        <p>More things to come, lots more.</p>
-        <ul>
-            <li><b>Services</b> I intend to extend the shops with the services available.</li>
-            <li><b>DM notes and tools</b> I have a list of things like rules and certain tools which I have created in order to make my job easier, but also to set expectations for players. This is being moved about as well.</li>
-        </ul>
+        <p>Any content I have used comes from WotC or I created it. It is all for hobby and fun and no profit is made from the content on this website.</p>
     </div>
 )
 
