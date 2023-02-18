@@ -12,7 +12,7 @@
     "image": "/icon.png"
   },
   "/cos": {
-    "title": "Characters - Curse of Strahd",
+    "title": "Curse of Strahd",
     "className": "vampire",
     "description": "Welcome to the Curse of Strahd Campaign.",
     "image": "/icon.png"
@@ -23,14 +23,26 @@
     "description": "All the players and characters from our Curse of Strahd campaign.",
     "image": "/icon.png"
   },
+  "/cos/notes": {
+    "title": "Session Notes - Curse of Strahd",
+    "className": "vampire",
+    "description": "All the players and notes from our Curse of Strahd campaign.",
+    "image": "/icon.png"
+  },
   "/cos/calendar": {
     "title": "Calendar - Curse of Strahd",
     "className": "vampire",
     "description": "The current date, time, weather and future events.",
     "image": "/icon.png"
   },
+  "/cos/appendix": {
+    "title": "Appendix - Curse of Strahd",
+    "className": "vampire",
+    "description": "The appendix contains material which was shared in the Curse of Strahd campaign.",
+    "image": "/icon.png"
+  },
   "/cm": {
-    "title": "Characters - Candlekeep Mysteries",
+    "title": "Candlekeep Mysteries",
     "className": "avowed",
     "description": "Welcome to the Candlekeep Mysteries campaign.",
     "image": "/icon.png"
@@ -47,22 +59,10 @@
     "description": "The current date, time, weather and future events.",
     "image": "/icon.png"
   },
-  "/cos/notes": {
-    "title": "Session Notes - Curse of Strahd",
-    "className": "vampire",
-    "description": "All the players and notes from our Curse of Strahd campaign.",
-    "image": "/icon.png"
-  },
   "/cm/notes": {
     "title": "Session Notes - Candlekeep Mysteries",
     "className": "avowed",
     "description": "All the players and notes from our Candlekeep Mysteries campaign.",
-    "image": "/icon.png"
-  },
-  "/cos/appendix": {
-    "title": "Appendix - Curse of Strahd",
-    "className": "vampire",
-    "description": "The appendix contains material which was shared in the Curse of Strahd campaign.",
     "image": "/icon.png"
   },
   "/cm/appendix": {
@@ -71,10 +71,46 @@
     "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
     "image": "/icon.png"
   },
+  "/s": {
+    "title": "Spelljammer",
+    "className": "avowed",
+    "description": "Welcome to the Spelljammer campaign.",
+    "image": "/icon.png"
+  },
+  "/s/characters": {
+    "title": "Characters - Spelljammer",
+    "className": "avowed",
+    "description": "All the players and characters from our Spelljammer campaign.",
+    "image": "/icon.png"
+  },
+  "/s/calendar": {
+    "title": "Calendar - Spelljammer",
+    "className": "vampire",
+    "description": "The current date, time, weather and future events.",
+    "image": "/icon.png"
+  },
+  "/s/notes": {
+    "title": "Session Notes - Spelljammer",
+    "className": "avowed",
+    "description": "All the players and notes from our Spelljammer campaign.",
+    "image": "/icon.png"
+  },
+  "/s/appendix": {
+    "title": "Appendix - Spelljammer",
+    "className": "avowed",
+    "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
+    "image": "/icon.png"
+  },
   "/shop": {
     "title": "Shop & Services",
     "className": "home",
     "description": "All the shops and services available in the campaign.",
+    "image": "/icon.png"
+  },
+  "/maps": {
+    "title": "Maps",
+    "className": "home",
+    "description": "All the maps that have been created for my campaigns.",
     "image": "/icon.png"
   }
 }
