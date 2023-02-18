@@ -1,6 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import Markdown from './markdown'
-import factions from './factions.json'
+import copy from 'copy-to-clipboard';
+import React, { useEffect, useState } from 'react';
+import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import gfm from 'remark-gfm';
+import factions from './factions.json';
+import Markdown from './markdown';
 
 const Card = ({
     image,
@@ -16,6 +19,7 @@ const Card = ({
     next,
     why,
     content,
+    filename,
     date,
     dateTime,
     class: playerClass = [],
@@ -87,7 +91,26 @@ const Card = ({
                     </div>
                 )}
                 {showContent && <div className='content'>
-                    {description && <p>{description}</p>}
+                    {description && (
+                        <ReactMarkdown
+                            remarkPlugins={[gfm]}
+                            children={description}
+                        />
+                    )}
+                    {filename && (
+                        <div className='content'>
+                            {filename.endsWith('jpg') && <img src={filename} alt={title} />}
+                            {filename.endsWith('mp4') && (
+                                <video controls>
+                                    <source src={filename} type="video/mp4" />
+                                </video>
+                            )}
+                            <div class="buttons">
+                                <a href={filename} download className='button is-link'>📁 Download</a>
+                                <button className='button is-link' onClick={() => { copy(`${window.location.href}${filename}`) }}>📋 Copy URL</button>
+                            </div>
+                        </div>
+                    )}
                     {content && <Markdown path={content} />}
                     {current && (
                         <div className='content'>

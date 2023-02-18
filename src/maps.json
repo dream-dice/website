@@ -1,10 +1,8 @@
 [
     {
-        "name": "Flying Ship Ruined",
-        "filename": "flying-ship-ruined.mp4"
-    },
-    {
-        "name": "Flying Ship Ruined",
-        "filename": "flying-ship-ruined.jpg"
+        "title": "Gymnasium",
+        "description": "Used in the Spelljammer Academy campaign part 1. A gymnasium with several challenges. You can find the details [Gymnasium](https://www.dndbeyond.com/sources/sja/orientation#Gymnasium)",
+        "filename": "gymnasium.mp4",
+        "date": "2023-02-10"
     }
 ]

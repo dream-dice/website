@@ -1,4 +1,16 @@
 {
+  "s": {
+    "time": "2022-04-26T11:30:00.000Z",
+    "weather": "Thunder and Heavy Rain, 4*C",
+    "combat": false,
+    "round": 0,
+    "events": [],
+    "nextSession": {
+      "date": "2022-08-27T20:30:00.000Z",
+      "title": "Chapter 47 - The Final Showdown",
+      "description": "Madam Eva's card reading into fruition. It is time to smite the wretched king of Barovia, Strahd von Zarovich."
+    }
+  },
   "cos": {
     "time": "2022-04-26T11:30:00.000Z",
     "weather": "Thunder and Heavy Rain, 4*C",

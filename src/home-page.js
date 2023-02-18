@@ -17,6 +17,7 @@ const Home = () => (
             <li>https://intrepid-crusaders.blankstring.com/calendar.json</li>
             <li>https://intrepid-crusaders.blankstring.com/factions.json</li>
             <li>https://intrepid-crusaders.blankstring.com/items.json</li>
+            <li>https://intrepid-crusaders.blankstring.com/maps.json</li>
             <li>https://intrepid-crusaders.blankstring.com/names.json</li>
             <li>https://intrepid-crusaders.blankstring.com/notes.json</li>
             <li>https://intrepid-crusaders.blankstring.com/players.json</li>
