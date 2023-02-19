@@ -3,6 +3,7 @@
         "title": "Flying Ship RUined",
         "description": "Used in the Spelljammer Academy campaign part 2. The Ruined ship the cadets race to.",
         "filename": "maps/flying-ship-ruined.jpg",
+        "name": "flying-ship-ruined",
         "date": "2023-02-10",
         "hide": true
     },
@@ -10,31 +11,36 @@
         "title": "Gymnasium",
         "description": "Used in the Spelljammer Academy campaign part 1. Overcome several obstacles during the orientation.",
         "filename": "maps/gymnasium.mp4",
+        "name": "gymnasium",
         "date": "2023-02-10"
     },
     {
         "title": "Sky Dock",
         "description": "Used in the Spelljammer Academy campaign part 1. Learn about Spelljammer ships and catch the shady cadet.",
         "filename": "maps/sky-dock.mp4",
+        "name": "sky-dock",
         "date": "2023-02-10"
     },
     {
         "title": "Mirt's Room",
         "description": "Used in the Spelljammer Academy campaign part 1. The attack on Mirt takes place here.",
         "filename": "maps/mirts-room.jpg",
+        "name": "mirts-room",
         "date": "2023-02-10"
     },
     {
         "title": "Cadets Quarters",
         "description": "Used in the Spelljammer Academy campaign part 1. For any interactions that require combat,",
-        "date": "2023-02-10",
-        "filename": "maps/cadets-quarters.mp4"
+        "filename": "maps/cadets-quarters.mp4",
+        "name": "cadets-quarters",
+        "date": "2023-02-10"
     },
     {
         "title": "Lakeside Shrooms",
         "description": "The Avatar from Candklekeep's Lore of Lure is found here.",
         "date": "2023-02-10",
         "filename": "maps/lakeside-shrooms.mp4",
+        "name": "lakeside-shrooms",
         "hide": true
     },
     {
@@ -42,55 +48,64 @@
         "description": "A camp on the top of some mountains",
         "date": "2023-02-10",
         "filename": "maps/camp-night.mp4",
+        "name": "camp-night",
         "hide": true
     },
     {
         "title": "Forecastle Ruined",
         "description": "Used in the Spelljammer Academy campaign part 1. The front of this ship at the start of the campaign after the attack.",
         "date": "2023-02-10",
-        "filename": "maps/forecastle-ruined.mp4"
+        "filename": "maps/forecastle-ruined.mp4",
+        "name": "forecastle-ruined"
     },
     {
         "title": "Forecastle Working",
         "description": "Used in the Spelljammer Academy campaign part 1. The front of this ship at the start of the campaign before the attack.",
         "date": "2023-02-10",
-        "filename": "maps/forecastle-working.mp4"
+        "filename": "maps/forecastle-working.mp4",
+        "name": "forecastle-working"
     },
     {
         "title": "Large Tent Night",
         "description": "A Large tent at night.",
         "date": "2023-02-10",
-        "filename": "maps/large-tent-night.jpg"
+        "filename": "maps/large-tent-night.jpg",
+        "name": "large-tent-night"
     },
     {
         "title": "Mountains Night",
         "description": "A random mountain range at night",
         "date": "2023-02-10",
-        "filename": "maps/mountains-night.jpg"
+        "filename": "maps/mountains-night.jpg",
+        "name": "mountains-night"
     },
     {
         "title": "Mountains",
         "description": "A random mountain range",
         "date": "2023-02-10",
-        "filename": "maps/mountains.jpg"
+        "filename": "maps/mountains.jpg",
+        "name": "mountains"
     },
     {
         "title": "Abandoned Hovel",
         "description": "A random abandoned hovel.",
         "date": "2023-02-10",
-        "filename": "maps/abandoned-hovel.jpg"
+        "filename": "maps/abandoned-hovel.jpg",
+        "name": "abandoned-hovel"
     },
     {
         "title": "Large Tent",
         "description": "A large tent",
         "date": "2023-02-10",
-        "filename": "maps/large-tent.jpg"
+        "filename": "maps/large-tent.jpg",
+        "name": "large-tent"
     },
     {
         "title": "Firefly Bottom",
         "description": "The bottom floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
         "date": "2023-02-10",
         "filename": "maps/firefly-bottom.jpg",
+        "name": "firefly-bottom",
         "hide": true
     },
     {
@@ -98,6 +113,7 @@
         "description": "The middle floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
         "date": "2023-02-10",
         "filename": "maps/firefly-middle.jpg",
+        "name": "firefly-middle",
         "hide": true
     },
     {
@@ -105,6 +121,7 @@
         "description": "The top floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
         "date": "2023-02-10",
         "filename": "maps/firefly-top.jpg",
+        "name": "firefly-top",
         "hide": true
     },
     {
@@ -112,6 +129,7 @@
         "description": "The second floor to Loomlurch in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
         "filename": "maps/loomlurch-2.jpg",
+        "name": "loomlurch-2",
         "hide": true
     },
     {
@@ -119,133 +137,155 @@
         "description": "The ground floor to the Loomlurch in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
         "filename": "maps/loomlurch-1.jpg",
+        "name": "loomlurch-1",
         "hide": true
     },
     {
         "title": "Big Forest",
         "description": "A random forest of trees",
         "date": "2023-02-10",
-        "filename": "maps/big-forest.jpg"
+        "filename": "maps/big-forest.jpg",
+        "name": "big-forest"
     },
     {
         "title": "Lakeside",
         "description": "A random encounter by a lake",
         "date": "2023-02-10",
-        "filename": "maps/lakeside.jpg"
+        "filename": "maps/lakeside.jpg",
+        "name": "lakeside"
     },
     {
         "title": "Camp",
         "description": "A campsite with the hunters from the Lore of Lure",
         "date": "2023-02-10",
-        "filename": "maps/camp.jpg"
+        "filename": "maps/camp.jpg",
+        "name": "camp"
     },
     {
         "title": "Dead Tree",
         "description": "A random encounter in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
         "filename": "maps/dead-tree.jpg",
+        "name": "dead-tree",
         "hide": true
     },
     {
         "title": "Cauldron Camp",
         "description": "A cauldron found in the middle of the woods. A random encounter from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/cauldron-camp.jpg"
+        "filename": "maps/cauldron-camp.jpg",
+        "name": "cauldron-camp"
     },
     {
         "title": "Temple Of Restful Lily 2",
         "description": "From Candlekeep Mysteries' Temple of the Restful Lilly, upstairs and basement",
         "date": "2023-02-10",
-        "filename": "maps/temple-of-restful-lily-2.jpg"
+        "filename": "maps/temple-of-restful-lily-2.jpg",
+        "name": "temple-of-restful-lily-2"
     },
     {
         "title": "Temple Of Restful Lily",
         "description": "From Candlekeep Mysteries' Temple of the Restful Lilly, ground floor",
         "date": "2023-02-10",
-        "filename": "maps/temple-of-restful-lily.jpg"
+        "filename": "maps/temple-of-restful-lily.jpg",
+        "name": "temple-of-restful-lily"
     },
     {
         "title": "Bullywug Gazebo",
         "description": "The gazebo in Downfall from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/bullywug-gazebo.jpg"
+        "filename": "maps/bullywug-gazebo.jpg",
+        "name": "bullywug-gazebo"
     },
     {
         "title": "Downfall Bullywugs 2",
         "description": "In Downfall, an area of houses and a missing tree from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/downfall-bullywugs-2.jpg"
+        "filename": "maps/downfall-bullywugs-2.jpg",
+        "name": "downfall-bullywugs-2"
     },
     {
         "title": "Downfall Bullywugs 1",
         "description": "In Downfall, an area of houses and undisturbed tree",
         "date": "2023-02-10",
-        "filename": "maps/downfall-bullywugs-1.jpg"
+        "filename": "maps/downfall-bullywugs-1.jpg",
+        "name": "downfall-bullywugs-1"
     },
     {
         "title": "Stepping Stones 2",
         "description": "In Downfall, a series of large stepping stones missing a stone from the Wild Beyond the Witchlight.",
         "date": "2023-02-10",
-        "filename": "maps/stepping-stones-2.jpg"
+        "filename": "maps/stepping-stones-2.jpg",
+        "name": "stepping-stones-2"
     },
     {
         "title": "Stepping Stones 1",
         "description": "In Downfall, a series of large stepping stones from the Wild Beyond the Witchlight.",
         "date": "2023-02-10",
-        "filename": "maps/stepping-stones-1.jpg"
+        "filename": "maps/stepping-stones-1.jpg",
+        "name": "stepping-stones-1"
     },
     {
         "title": "Bavlorna 3",
         "description": "Bavlorna's Cottage top floor from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/bavlorna-3.jpg"
+        "filename": "maps/bavlorna-3.jpg",
+        "name": "bavlorna-3"
     },
     {
         "title": "Bavlorna 2",
         "description": "Bavlorna's Cottage second floor from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/bavlorna-2.jpg"
+        "filename": "maps/bavlorna-2.jpg",
+        "name": "bavlorna-2"
     },
     {
         "title": "Bavlorna 1",
         "description": "Bavlorna's Cottage ground floor from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/bavlorna-1.jpg"
+        "filename": "maps/bavlorna-1.jpg",
+        "name": "bavlorna-1"
     },
     {
         "title": "Brigands Tollway",
         "description": "The Brigands Tollway from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/brigands-tollway.jpg"
+        "filename": "maps/brigands-tollway.jpg",
+        "name": "brigands-tollway"
     },
     {
         "title": "Telemy Hill",
         "description": "Telemy Hill from the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/telemy-hill.jpg"
+        "filename": "maps/telemy-hill.jpg",
+        "name": "telemy-hill"
     },
     {
         "title": "Swamp 2",
         "description": "A random swamp encounter with ruins",
         "date": "2023-02-10",
-        "filename": "maps/swamp-2.jpg"
+        "filename": "maps/swamp-2.jpg",
+        "name": "swamp-2"
     },
     {
         "title": "Swamp 1",
         "description": "A random swamp encounter after jumping down from the Queens causeway in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/swamp-1.jpg"
+        "filename": "maps/swamp-1.jpg",
+        "name": "swamp-1"
     },
     {
         "title": "Slanty Tower",
         "description": "Outside the Slanty Tower in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
-        "filename": "maps/slanty-tower.jpg"
+        "filename": "maps/slanty-tower.jpg",
+        "name": "slanty-tower"
     },
     {
         "title": "O' Wells",
         "description": "A random encounter with a large well",
         "date": "2023-02-10",
-        "filename": "maps/o-wells.jpg"
+        "filename": "maps/o-wells.jpg",
+        "name": "o-wells"
     }
 ]
