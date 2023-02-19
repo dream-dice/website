@@ -16,28 +16,28 @@ const App = () => {
       <Router>
         <>
           <Routes>
-                <Route path='/' element={<Header />}></Route>
-                <Route path='/shop/:section?' element={<Header />}></Route>
-              <Route path='/maps/:section?' element={<Header />}></Route>
-                <Route path='/cos' element={<Header />}></Route>
-                <Route path='/cos/notes/:section?' element={<Header />}></Route>
-                <Route path='/cos/appendix' element={<Header />}></Route>
-                <Route path='/cos/calendar' element={<Header />}></Route>
-                <Route path='/cm' element={<Header />}></Route>
-                <Route path='/cm/notes/:section?' element={<Header />}></Route>
-                <Route path='/cm/appendix' element={<Header />}></Route>
-                <Route path='/cm/calendar' element={<Header />}></Route>
-                <Route path='/sj' element={<Header />}></Route>
-                <Route path='/sj/notes/:section?' element={<Header />}></Route>
-                <Route path='/sj/appendix' element={<Header />}></Route>
-                <Route path='/sj/calendar' element={<Header />}></Route>
+            <Route path='/' element={<Header />}></Route>
+            <Route path='/shop/:section?' element={<Header />}></Route>
+            <Route path='/maps/:section?' element={<Header />}></Route>
+            <Route path='/cos' element={<Header />}></Route>
+            <Route path='/cos/notes/:section?' element={<Header />}></Route>
+            <Route path='/cos/appendix' element={<Header />}></Route>
+            <Route path='/cos/calendar' element={<Header />}></Route>
+            <Route path='/cm' element={<Header />}></Route>
+            <Route path='/cm/notes/:section?' element={<Header />}></Route>
+            <Route path='/cm/appendix' element={<Header />}></Route>
+            <Route path='/cm/calendar' element={<Header />}></Route>
+            <Route path='/sj' element={<Header />}></Route>
+            <Route path='/sj/notes/:section?' element={<Header />}></Route>
+            <Route path='/sj/appendix' element={<Header />}></Route>
+            <Route path='/sj/calendar' element={<Header />}></Route>
           </Routes>
           <section className='section'>
             <div className='container'>
               <Routes>
                 <Route path='/' element={<div />}></Route>
                 <Route path='/shop/:section?' element={<div />}></Route>
-              <Route path='/maps/:section?' element={<div />}></Route>
+                <Route path='/maps/:section?' element={<div />}></Route>
                 <Route path='/cos' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/notes/:section?' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/appendix' element={<Game game='cos' page='appendix' />}></Route>
@@ -54,7 +54,7 @@ const App = () => {
               <Routes>
                 <Route path='/' element={<HomePage />}></Route>
                 <Route path='/shop/:section?' element={<ShopAndServicesPage />}></Route>
-              <Route path='/maps/:section?' element={<MapsPage />}></Route>
+                <Route path='/maps/:section?' element={<MapsPage />}></Route>
                 <Route path='/cm' element={<NotesPage game='cm' />}></Route>
                 <Route path='/cm/calendar' element={<CalendarPage game='cm' />}></Route>
                 <Route path='/cm/notes/:section?' element={<NotesPage game='cm' />}></Route>

@@ -55,13 +55,17 @@ const Header = () => {
     let { title, description } = metadata[pathname] || metadata.notFound
     if (pathname.includes('notes') && section !== 'none') {
         const game = pathname.split('/')[1]
-        const data = notes[game].find(({index}) => index === section)
-        title = data.title
-        description = data.description
+        const data = notes[game].find(({ index }) => index === section) || null
+        if (data !== null) {
+            title = data.title
+            description = data.description
+        }
     } else if (pathname.includes('maps') && section !== 'none') {
-        const data = maps.find(({name}) => name === section)
-        title = data.title
-        description = data.description
+        const data = maps.find(({ name }) => name === section) || null
+        if (data !== null) {
+            title = data.title
+            description = data.description
+        }
     }
 
     return (
