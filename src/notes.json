@@ -1,5 +1,50 @@
 {
-  "sj": [],
+  "sj": [
+    {
+      "date": "",
+      "name": "summary",
+      "index": "S",
+      "title": "Spelljammer",
+      "description": "A group of space-loving adventurers gathered together to complete the Spelljammer Academy and explore the multiverse.",
+      "current": "The group has finished their orientation.",
+      "next": "You are all moving onto basic training.",
+      "why": "It is the next step to graduating the academy.",
+      "notes": []
+    },
+    {
+      "date": "2023-02-13T20:30:00.000Z",
+      "name": "session-1",
+      "index": "1",
+      "title": "Chapter 1 - Welcome to the Spelljammer Academy",
+      "description": "The group completes their orientation.",
+      "notes": [
+        {
+          "value": "You started aboard the Moonraider when a bloody battle started."
+        },
+        {
+          "value": "As the battle turned into a disaster, it was revealed by Boatswain Tarto to be a simulation."
+        },
+        {
+          "value": "Tarto gave the group their orientation tasks. Nine-Seven and Fluck joined the Corps course while Tialha and Blobby joined the Spelljammer course."
+        },
+        {
+          "value": "They were also warned about a recent wave of thefts."
+        },
+        {
+          "value": "While exploring the Sky Dock the group caught Officer Hershel buying contraband. Hershel was a respected officer and the group gained a bad reputation for this."
+        },
+        {
+          "value": "The group finished the rest of their tasks. Nine-Seven gained skills in navigtion, Fluck gained skills in physical shipmate activities, and Blobby gained skills in ship maintenance and piloting."
+        },
+        {
+          "value": "The last task was to deliver a letter to the director, Mirt the Merciless."
+        },
+        {
+          "value": "They eventually woke Mirt. he instructed them to open the draws in his office where they found and killed two small creatures sent to attack Mirt."
+        }
+      ]
+    }
+  ],
   "cm": [
     {
       "date": "",
