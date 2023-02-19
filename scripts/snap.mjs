@@ -24,10 +24,19 @@ const notesUrls = Object
         )
     )
     .flat()
+const appendix = JSON.parse(fs.readFileSync('./src/appendix.json').toString())
+const appendixUrls = Object
+    .entries(appendix)
+    .map(([game, values]) =>
+        values.map(
+            ({ name }) => `/${game}/appendix/${name}`
+        )
+    )
+    .flat()
 const maps = JSON.parse(fs.readFileSync('./src/maps.json').toString())
 const mapsUrls = maps.map(({name}) => `/maps/${name}`)
 
-const urls = [...metadataUrls, ...notesUrls, ...mapsUrls]
+const urls = [...metadataUrls, ...notesUrls, ...appendixUrls, ...mapsUrls]
 
 const copyIndex = async () => {
     for (const url of urls) {

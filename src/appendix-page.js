@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import appendix from './appendix.json';
 import Card from './card';
 import Search from './search';
@@ -15,6 +16,7 @@ const filterAppendix = (searchTerms) => ({ title }) =>
 
 
 const CharactersPage = ({ game }) => {
+    const { section = 'none' } = useParams()
     const [data, setData] = useState([])
 
     return (
@@ -38,8 +40,10 @@ const CharactersPage = ({ game }) => {
                             <Card
                                 key={app.name}
                                 {...app}
+                                base={`${game}/appendix`}
+                                section={app.name}
                                 first={index === 0}
-                                isOpen={data.length === 1}
+                                isOpen={section === app.name}
                             />
                         ))
                 }
