@@ -52,21 +52,84 @@
       "index": "S",
       "title": "Candlekeep Mysteries",
       "description": "After meeting each other along the way, everyone entered their literature into the archives of the great Candlekeep and joined the ranks of the Avowed as Seekers. Now they are heading into the Feywild to help Mardyck rescue his patron Zybilna.",
-      "current": "The group has found Bavlorna Bragshaw of the Hourglass Coven in Downfall and plan to stop her reign over the swamp and allow them to progress into Thither to get closer to Zybilna.",
-      "next": "You have all decided to help the Bullywug revolution.",
-      "why": "Because Primeer was broken into three domains ruled by hags known as the Hourglass Coven and have trapped Zybilna. Getting to Bavlorna is the first step to figuring out how to free Zybilna.",
+      "current": "The group has entered Thither looking for Skabatha Nightshade and Bavlorna, and a way into Yon.",
+      "next": "You have found the Lore of Lure and are looking to get into the Wayward Pool to \"help\" the hunters.",
+      "why": "Because Primeer was broken into three domains ruled by hags known as the Hourglass Coven and their mother Baba Yaga and have trapped Zybilna.",
       "notes": [
         {
           "value": "Zybilna is trapped in the Palace of Heart's Desire."
         },
         {
-          "value": "The group know where Bavlorna's cottage is, in Downfall."
+          "value": "The group knows Skabatha and Bavlorna are at Loomlurch."
         },
         {
-          "value": "The group is preparing for a full frontal assault on the cottage."
+          "value": "The Lore of Lure is narrating the way to the hunt."
         },
         {
-          "value": "Clapperclaw has promised to help them get into Thither if they help him get his head back."
+          "value": "Wil is planning to save the children trapped by Skabatha in Loomlurch."
+        }
+      ]
+    },
+    {
+      "date": "2022-02-04T20:30:00.000Z",
+      "name": "session-27",
+      "index": "27",
+      "title": "Chapter 27 - Meeting Wil of the Feywild",
+      "description": "The group met Wil and received the Lore of Lure.",
+      "notes": [
+        {
+          "value": "As the group left they rested. Timagast struggled to sleep, but Cassandra could not get any rest as a knight ghost kept waking her and any sleep she got was also troubled."
+        },
+        {
+          "value": "On the way to Loomlurch the group found Red XIII and played a game of Liar. Red XIII told them that Cloud's old friend Tifa was looking for hunters killing animals in the High Forest and had gone to Little Oak to get more information and get into the Wayward Pool."
+        },
+        {
+          "value": "Cloud could sense someone was following them, so the group set a trap for the hunter."
+        },
+        {
+          "value": "The group caught the hunter and killed her, they suspected that she was a Werewolf. Timagast had tricked Jill into getting engaged with him and so they preserved the body for ten days in hopes to bring her back to life."
+        },
+        {
+          "value": "The group changed their direction and went to Little Oak where they met Wil of the Feywild and his gang who had all been saved from Skabatha."
+        },
+        {
+          "value": "Wil told them how Skabatha trapped children and got them to make toys and sweets to sell in her market at Loomlurch. He then told them his plan to save the children from Skabatha."
+        },
+        {
+          "value": "Cloud heard a noise from Wil's bag and they found a book named the Lore of Lure with a picture of a unicorn on it. The book told them to look in the back and they found an extract from Cloud's book, An Incomplete Wiki of Flora and Fauna about unicorn's A.K.A \"Female Unicorns\"."
+        },
+        {
+          "value": "The book told them that Tifa couldn't open the book but head out to Dewight to find a way into the Wayward Pool trying to save a corrupt beast. The children gave the group a pantomime unicorn outfit and said that this was the only way into the Wayward Pool."
+        }
+      ]
+    },
+    {
+      "date": "2022-12-28T20:30:00.000Z",
+      "name": "session-26",
+      "index": "26",
+      "title": "Chapter 26 - Stepping into Thither",
+      "description": "The group took their first steps into Thither.",
+      "notes": [
+        {
+          "value": "The group left their hot air balloon while Morgot and Clapperclaw fixed the balloon. It would take two days to fix."
+        },
+        {
+          "value": "The group met Nibb in his cave, a blindfolded man from Waterdeep who escaped to the Feywild and Granny Nightshade helped him repent."
+        },
+        {
+          "value": "Nib made everyone a magical item weaving his large pile of ill-gotten gold."
+        },
+        {
+          "value": "Cassandra took some gold, and saw all the ghosts haunting Nibb. Now a knight ghost started following and taunting Cassandra."
+        },
+        {
+          "value": "Nib told the group about Wil, a child who Granny Nightshade was looking to capture. He also told them that Grnny Nightshade can be found in her home of Loomlurch."
+        },
+        {
+          "value": "The group went to the Wayward pool, but couldn't gain entry due to the thick magical fog surrounding it. Now and then red lighting would flash over the pool."
+        },
+        {
+          "value": "The group met a pack of hunters who worship Malar and asked the group if they could work out a way in, then they would hunt together."
         }
       ]
     },

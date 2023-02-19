@@ -16,7 +16,7 @@
     }
   },
   "cm": {
-    "time": "2022-06-06T12:00:00.000Z",
+    "time": "2022-06-07T12:00:00.000Z",
     "weather": "Clear skies, 13*C",
     "events": [
       {
@@ -24,6 +24,18 @@
       },
       {
         "value": "Cloud sent a sock of honey north"
+      },
+      {
+        "time": "2022-06-06T07:00:00.000Z",
+        "value": "Cassandra took gold from Nibb"
+      },
+      {
+        "time": "2022-06-07T12:00:00.000Z",
+        "value": "Jill of the Jungle was preserved."
+      },
+      {
+        "time": "2022-05-30T07:00:00.000Z",
+        "value": "Cassandra gained 1 Dexterity and Timagast gained 1 Constitution"
       },
       {
         "time": "2022-05-24T07:00:00.000Z",
