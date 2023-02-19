@@ -24,7 +24,10 @@ const notesUrls = Object
         )
     )
     .flat()
-const urls = [...metadataUrls, ...notesUrls]
+const maps = JSON.parse(fs.readFileSync('./src/maps.json').toString())
+const mapsUrls = maps.map(({name}) => `/maps/${name}`)
+
+const urls = [...metadataUrls, ...notesUrls, ...mapsUrls]
 
 const copyIndex = async () => {
     for (const url of urls) {

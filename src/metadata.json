@@ -11,10 +11,6 @@
     "title": "Curse of Strahd",
     "description": "Welcome to the Curse of Strahd Campaign."
   },
-  "/cos/characters": {
-    "title": "Characters - Curse of Strahd",
-    "description": "All the players and characters from our Curse of Strahd campaign."
-  },
   "/cos/notes": {
     "title": "Session Notes - Curse of Strahd",
     "description": "All the players and notes from our Curse of Strahd campaign."
@@ -31,10 +27,6 @@
     "title": "Candlekeep Mysteries",
     "description": "Welcome to the Candlekeep Mysteries campaign."
   },
-  "/cm/characters": {
-    "title": "Characters - Candlekeep Mysteries",
-    "description": "All the players and characters from our Candlekeep Mysteries campaign."
-  },
   "/cm/calendar": {
     "title": "Calendar - Candlekeep Mysteries",
     "description": "The current date, time, weather and future events."
@@ -50,10 +42,6 @@
   "/sj": {
     "title": "Spelljammer",
     "description": "Welcome to the Spelljammer campaign."
-  },
-  "/sj/characters": {
-    "title": "Characters - Spelljammer",
-    "description": "All the players and characters from our Spelljammer campaign."
   },
   "/sj/calendar": {
     "title": "Calendar - Spelljammer",

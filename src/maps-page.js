@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import Card from './card';
 import maps from './maps.json';
 import Search from './search';
@@ -18,6 +18,7 @@ const filterMaps = (searchTerms) => ({ title, description }) =>
 const MapsPage = () => {
     const [data, setData] = useState([])
     const {search} = useLocation()
+    const {section = 'none'} = useParams()
 
     return <div className='maps'>
         <p className='content mt-5 mb-5 is-size-5'>
@@ -42,8 +43,10 @@ const MapsPage = () => {
                 })
                 .map((map) => <Card
                     key={map.title}
+                    base='maps'
+                    section={map.name}
                     {...map}
-                    isOpen={data.length === 1}
+                    isOpen={section === map.name}
                 />)}
         </div>
     </div>

@@ -1,11 +1,12 @@
-import React from 'react'
-import { useLocation, useParams } from "react-router"
-import { Link } from 'react-router-dom'
-import Icon from './icon'
+import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import metadata from './metadata.json'
-import notes from './notes.json'
-import Discord from './discord'
+import { useLocation, useParams } from "react-router";
+import { Link } from 'react-router-dom';
+import Discord from './discord';
+import Icon from './icon';
+import metadata from './metadata.json';
+import notes from './notes.json';
+import maps from './maps.json'
 
 const HeroFootLink = ({ pathname, to, label }) => (
     <li className={(to === pathname || (to !== '/' && pathname.startsWith(to))) ? 'is-active' : 'is-inactive'}>
@@ -55,6 +56,10 @@ const Header = () => {
     if (pathname.includes('notes') && section !== 'none') {
         const game = pathname.split('/')[1]
         const data = notes[game].find(({index}) => index === section)
+        title = data.title
+        description = data.description
+    } else if (pathname.includes('maps') && section !== 'none') {
+        const data = maps.find(({name}) => name === section)
         title = data.title
         description = data.description
     }
