@@ -84,16 +84,16 @@ const Card = ({
                     )}
                     {filename && (
                         <div className='content'>
+                            <div className="buttons mb-2">
+                                <a href={`${window.location.origin}/${filename}`} download className='button is-link'>📁 Download</a>
+                                <button className='button is-link' onClick={() => { copy(`${window.location.origin}/${filename}`) }}>📋 Copy URL</button>
+                            </div>
                             {filename.endsWith('jpg') && <img src={`${window.location.origin}/${filename}`} alt={title} />}
                             {filename.endsWith('mp4') && (
                                 <video controls>
                                     <source src={`${window.location.origin}/${filename}`} type="video/mp4" />
                                 </video>
                             )}
-                            <div className="buttons">
-                                <a href={`${window.location.origin}/${filename}`} download className='button is-link'>📁 Download</a>
-                                <button className='button is-link' onClick={() => { copy(`${window.location.origin}/${filename}`) }}>📋 Copy URL</button>
-                            </div>
                         </div>
                     )}
                     {content && <Markdown path={content} />}
