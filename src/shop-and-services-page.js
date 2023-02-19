@@ -469,8 +469,6 @@ const Tables = () => (
 
 const ShopAndServicesPage = () => {
     const { section = 'none' } = useParams()
-    const navigate = useNavigate()
-    const routeTo = (section) => (open) => navigate(open ? `/shop/${section}` : '/shop')
 
     return (
         <div>
