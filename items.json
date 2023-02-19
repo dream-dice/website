@@ -287,12 +287,12 @@
         },
         {
             "title": "Gunpowder, Keg",
-            "price": "250",
+            "price": "250gp",
             "type": "Explosive"
         },
         {
             "title": "Gunpowder, Powder Horn",
-            "price": "35",
+            "price": "35gp",
             "type": "Explosive"
         }
     ],
