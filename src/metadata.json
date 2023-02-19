@@ -1,164 +1,110 @@
 {
   "notFound": {
     "title": "404 Not Found",
-    "className": "notFound",
-    "description": "This page does not exist.",
-    "image": "/icon.png"
+    "description": "This page does not exist."
   },
   "/": {
     "title": "Intrepid Crusaders",
-    "className": "home",
-    "description": "A website with all my DM notes that I want to share with my players including services, player info, the story so far and faction jobs.",
-    "image": "/icon.png"
+    "description": "A website with all my DM notes that I want to share with my players including services, player info, the story so far and faction jobs."
   },
   "/cos": {
     "title": "Curse of Strahd",
-    "className": "vampire",
-    "description": "Welcome to the Curse of Strahd Campaign.",
-    "image": "/icon.png"
+    "description": "Welcome to the Curse of Strahd Campaign."
   },
   "/cos/characters": {
     "title": "Characters - Curse of Strahd",
-    "className": "vampire",
-    "description": "All the players and characters from our Curse of Strahd campaign.",
-    "image": "/icon.png"
+    "description": "All the players and characters from our Curse of Strahd campaign."
   },
   "/cos/notes": {
     "title": "Session Notes - Curse of Strahd",
-    "className": "vampire",
-    "description": "All the players and notes from our Curse of Strahd campaign.",
-    "image": "/icon.png"
+    "description": "All the players and notes from our Curse of Strahd campaign."
   },
   "/cos/calendar": {
     "title": "Calendar - Curse of Strahd",
-    "className": "vampire",
-    "description": "The current date, time, weather and future events.",
-    "image": "/icon.png"
+    "description": "The current date, time, weather and future events."
   },
   "/cos/appendix": {
     "title": "Appendix - Curse of Strahd",
-    "className": "vampire",
-    "description": "The appendix contains material which was shared in the Curse of Strahd campaign.",
-    "image": "/icon.png"
+    "description": "The appendix contains material which was shared in the Curse of Strahd campaign."
   },
   "/cm": {
     "title": "Candlekeep Mysteries",
-    "className": "avowed",
-    "description": "Welcome to the Candlekeep Mysteries campaign.",
-    "image": "/icon.png"
+    "description": "Welcome to the Candlekeep Mysteries campaign."
   },
   "/cm/characters": {
     "title": "Characters - Candlekeep Mysteries",
-    "className": "avowed",
-    "description": "All the players and characters from our Candlekeep Mysteries campaign.",
-    "image": "/icon.png"
+    "description": "All the players and characters from our Candlekeep Mysteries campaign."
   },
   "/cm/calendar": {
     "title": "Calendar - Candlekeep Mysteries",
-    "className": "vampire",
-    "description": "The current date, time, weather and future events.",
-    "image": "/icon.png"
+    "description": "The current date, time, weather and future events."
   },
   "/cm/notes": {
     "title": "Session Notes - Candlekeep Mysteries",
-    "className": "avowed",
-    "description": "All the players and notes from our Candlekeep Mysteries campaign.",
-    "image": "/icon.png"
+    "description": "All the players and notes from our Candlekeep Mysteries campaign."
   },
   "/cm/appendix": {
     "title": "Appendix - Candlekeep Mysteries",
-    "className": "avowed",
-    "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
-    "image": "/icon.png"
+    "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign."
   },
   "/sj": {
     "title": "Spelljammer",
-    "className": "avowed",
-    "description": "Welcome to the Spelljammer campaign.",
-    "image": "/icon.png"
+    "description": "Welcome to the Spelljammer campaign."
   },
   "/sj/characters": {
     "title": "Characters - Spelljammer",
-    "className": "avowed",
-    "description": "All the players and characters from our Spelljammer campaign.",
-    "image": "/icon.png"
+    "description": "All the players and characters from our Spelljammer campaign."
   },
   "/sj/calendar": {
     "title": "Calendar - Spelljammer",
-    "className": "vampire",
-    "description": "The current date, time, weather and future events.",
-    "image": "/icon.png"
+    "description": "The current date, time, weather and future events."
   },
   "/sj/notes": {
     "title": "Session Notes - Spelljammer",
-    "className": "avowed",
-    "description": "All the players and notes from our Spelljammer campaign.",
-    "image": "/icon.png"
+    "description": "All the players and notes from our Spelljammer campaign."
   },
   "/sj/appendix": {
     "title": "Appendix - Spelljammer",
-    "className": "avowed",
-    "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign.",
-    "image": "/icon.png"
+    "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign."
   },
   "/shop": {
     "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "description": "All the shops and services available in the campaign."
   },
   "/shop/general": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "General Items",
+    "description": "All the general items available in the campaign."
   },
   "/shop/equipment": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "Equipment",
+    "description": "All the equipment available in the campaign."
   },
   "/shop/magicItems": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "Magic Items",
+    "description": "All the magic items available in the campaign."
   },
   "/shop/scrolls": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "Scrolls",
+    "description": "All the Scrolls available in the campaign."
   },
   "/shop/animals": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "Animal",
+    "description": "All the animals available in the campaign."
   },
   "/shop/random": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "Random",
+    "description": "A series of random values."
   },
   "/shop/tables": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "Tables",
+    "description": "Several roll tables available in the campaign."
   },
   "/shop/treasure": {
-    "title": "Shop & Services",
-    "className": "home",
-    "description": "All the shops and services available in the campaign.",
-    "image": "/icon.png"
+    "title": "Treasure",
+    "description": "A random treasure generator available in the campaign."
   },
   "/maps": {
     "title": "Maps",
-    "className": "home",
-    "description": "All the maps that have been created for my campaigns.",
-    "image": "/icon.png"
+    "description": "All the maps that have been created for my campaigns."
   }
 }

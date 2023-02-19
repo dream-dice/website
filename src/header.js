@@ -1,10 +1,10 @@
 import React from 'react'
-import { useEffect } from "react"
-import { useLocation } from "react-router"
+import { useLocation, useParams } from "react-router"
 import { Link } from 'react-router-dom'
 import Icon from './icon'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import metadata from './metadata.json'
+import notes from './notes.json'
 import Discord from './discord'
 
 const HeroFootLink = ({ pathname, to, label }) => (
@@ -49,14 +49,15 @@ const Header = () => {
     pathname = pathname.replace(/\/$/g, '')
     if (pathname === '') pathname = '/'
 
-    const { title, className, description, image } = metadata[pathname] || metadata.notFound
+    const { section = 'none' } = useParams()
 
-    useEffect(() => {
-        document.documentElement.className = `is-${className}`
-        return () => {
-            document.documentElement.className = `is-home`
-        }
-    })
+    let { title, description } = metadata[pathname] || metadata.notFound
+    if (pathname.includes('notes') && section !== 'none') {
+        const game = pathname.split('/')[1]
+        const data = notes[game].find(({index}) => index === section)
+        title = data.title
+        description = data.description
+    }
 
     return (
         <>
@@ -66,7 +67,7 @@ const Header = () => {
                     <meta name="description" content={description} />
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
-                    <meta property="og:image" content={`http://intrepid-crusaders.blankstring.com${image}`} />
+                    <meta property="og:image" content={`http://intrepid-crusaders.blankstring.com/icon.png`} />
                     <meta property="og:url" content={`http://intrepid-crusaders.blankstring.com${pathname}`} />
                 </Helmet>
             </HelmetProvider>

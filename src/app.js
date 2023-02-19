@@ -15,23 +15,39 @@ const App = () => {
     <React.StrictMode>
       <Router>
         <>
-          <Header />
+          <Routes>
+                <Route path='/' element={<Header />}></Route>
+                <Route path='/shop/:section?' element={<Header />}></Route>
+                <Route path='/maps' element={<Header />}></Route>
+                <Route path='/cos' element={<Header />}></Route>
+                <Route path='/cos/notes/:section?' element={<Header />}></Route>
+                <Route path='/cos/appendix' element={<Header />}></Route>
+                <Route path='/cos/calendar' element={<Header />}></Route>
+                <Route path='/cm' element={<Header />}></Route>
+                <Route path='/cm/notes/:section?' element={<Header />}></Route>
+                <Route path='/cm/appendix' element={<Header />}></Route>
+                <Route path='/cm/calendar' element={<Header />}></Route>
+                <Route path='/sj' element={<Header />}></Route>
+                <Route path='/sj/notes/:section?' element={<Header />}></Route>
+                <Route path='/sj/appendix' element={<Header />}></Route>
+                <Route path='/sj/calendar' element={<Header />}></Route>
+          </Routes>
           <section className='section'>
             <div className='container'>
               <Routes>
-                <Route path='/' element={(<div />)}></Route>
-                <Route path='/shop/:section?' element={(<div />)}></Route>
-                <Route path='/maps' element={(<div />)}></Route>
+                <Route path='/' element={<div />}></Route>
+                <Route path='/shop/:section?' element={<div />}></Route>
+                <Route path='/maps' element={<div />}></Route>
                 <Route path='/cos' element={<Game game='cos' page='notes' />}></Route>
-                <Route path='/cos/notes' element={<Game game='cos' page='notes' />}></Route>
+                <Route path='/cos/notes/:section?' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/appendix' element={<Game game='cos' page='appendix' />}></Route>
                 <Route path='/cos/calendar' element={<Game game='cos' page='calendar' />}></Route>
                 <Route path='/cm' element={<Game game='cm' page='notes' />}></Route>
-                <Route path='/cm/notes' element={<Game game='cm' page='notes' />}></Route>
+                <Route path='/cm/notes/:section?' element={<Game game='cm' page='notes' />}></Route>
                 <Route path='/cm/appendix' element={<Game game='cm' page='appendix' />}></Route>
                 <Route path='/cm/calendar' element={<Game game='cm' page='calendar' />}></Route>
                 <Route path='/sj' element={<Game game='sj' page='notes' />}></Route>
-                <Route path='/sj/notes' element={<Game game='sj' page='notes' />}></Route>
+                <Route path='/sj/notes/:section?' element={<Game game='sj' page='notes' />}></Route>
                 <Route path='/sj/appendix' element={<Game game='sj' page='appendix' />}></Route>
                 <Route path='/sj/calendar' element={<Game game='sj' page='calendar' />}></Route>
               </Routes>
@@ -41,15 +57,15 @@ const App = () => {
                 <Route path='/maps' element={<MapsPage />}></Route>
                 <Route path='/cm' element={<NotesPage game='cm' />}></Route>
                 <Route path='/cm/calendar' element={<CalendarPage game='cm' />}></Route>
-                <Route path='/cm/notes' element={<NotesPage game='cm' />}></Route>
+                <Route path='/cm/notes/:section?' element={<NotesPage game='cm' />}></Route>
                 <Route path='/cm/appendix' element={<AppendixPage game='cm' />}></Route>
                 <Route path='/cos' element={<NotesPage game='cos' />}></Route>
                 <Route path='/cos/calendar' element={<CalendarPage game='cos' />}></Route>
-                <Route path='/cos/notes' element={<NotesPage game='cos' />}></Route>
+                <Route path='/cos/notes/:section?' element={<NotesPage game='cos' />}></Route>
                 <Route path='/cos/appendix' element={<AppendixPage game='cos' />}></Route>
                 <Route path='/sj' element={<NotesPage game='sj' />}></Route>
                 <Route path='/sj/calendar' element={<CalendarPage game='sj' />}></Route>
-                <Route path='/sj/notes' element={<NotesPage game='sj' />}></Route>
+                <Route path='/sj/notes/:section?' element={<NotesPage game='sj' />}></Route>
                 <Route path='/sj/appendix' element={<AppendixPage game='sj' />}></Route>
                 <Route element={<NotFound />}></Route>
               </Routes>

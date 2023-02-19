@@ -465,56 +465,64 @@ const ShopAndServicesPage = () => {
         <div>
             <Card
                 title='🫖 General'
-                onClick={routeTo('general')}
+                section='general'
+                base='shop'
                 isOpen={section === 'general'}
             >
                 <Shop itemType='general' />
             </Card>
             <Card
                 title='⚔️ Equipment'
-                onClick={routeTo('equipment')}
+                section='equipment'
+                base='shop'
                 isOpen={section === 'equipment'}
             >
                 <Shop itemType='equipment' />
             </Card>
             <Card
                 title='🪄 Magic Items'
-                onClick={routeTo('magicItems')}
+                section='magicItems'
+                base='shop'
                 isOpen={section === 'magicItems'}
             >
                 <Shop itemType='magicItem' />
             </Card>
             <Card
                 title='📜 Scrolls'
-                onClick={routeTo('scrolls')}
+                section='scrolls'
+                base='shop'
                 isOpen={section === 'scrolls'}
             >
                 <Shop itemType='scrolls' />
             </Card>
             <Card
                 title='🐐 Animals'
-                onClick={routeTo('animals')}
+                section='animals'
+                base='shop'
                 isOpen={section === 'animals'}
             >
                 <Shop itemType='animals' />
             </Card>
             <Card
                 title='🎲 Random'
-                onClick={routeTo('random')}
+                section='random'
+                base='shop'
                 isOpen={section === 'random'}
             >
                 <Random />
             </Card>
             <Card
                 title='🧮 Tables'
-                onClick={routeTo('tables')}
+                section='tables'
+                base='shop'
                 isOpen={section === 'tables'}
             >
                 <Tables />
             </Card>
             <Card
                 title='🪙 Treasure'
-                onClick={routeTo('treasure')}
+                section='treasure'
+                base='shop'
                 isOpen={section === 'treasure'}
             >
                 <Treasure />

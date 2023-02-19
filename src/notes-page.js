@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import Card from './card';
 import notes from './notes.json';
 import Search from './search';
@@ -16,6 +17,7 @@ const filterNotes = (searchTerms) => ({ title, description, notes }) =>
         ).length > 0
 
 const NotesPage = ({ game }) => {
+    const { section = 'none' } = useParams()
     const [data, setData] = useState([])
 
     return <div className='notes'>
@@ -37,8 +39,10 @@ const NotesPage = ({ game }) => {
                 })
                 .map((note, index) => <Card
                     key={note.name}
+                    base={`${game}/notes`}
+                    section={note.index}
                     {...note}
-                    isOpen={data.length === 1}
+                    isOpen={section === note.index}
                 />)}
         </div>
     </div>

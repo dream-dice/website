@@ -14,7 +14,18 @@ const server = http.createServer((request, response) => {
 })
 
 const metadata = JSON.parse(fs.readFileSync('./src/metadata.json').toString())
-const urls = Object.keys(metadata).filter(url => url.startsWith('/')).sort()
+const metadataUrls = Object.keys(metadata).filter(url => url.startsWith('/')).sort()
+const notes = JSON.parse(fs.readFileSync('./src/notes.json').toString())
+const notesUrls = Object
+    .entries(notes)
+    .map(([game, values]) =>
+        values.map(
+            ({ index }) => `/${game}/notes/${index}`
+        )
+    )
+    .flat()
+const urls = [...metadataUrls, ...notesUrls]
+
 const copyIndex = async () => {
     for (const url of urls) {
         const dir = path.join(buildDir, url)

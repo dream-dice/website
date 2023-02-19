@@ -1,6 +1,7 @@
 import copy from 'copy-to-clipboard';
 import React, { useEffect, useState } from 'react';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import { useLocation, useNavigate } from 'react-router-dom';
 import gfm from 'remark-gfm';
 import Markdown from './markdown';
 
@@ -9,9 +10,6 @@ const Card = ({
     index,
     title,
     subtitle,
-    rank,
-    renown,
-    race,
     description,
     current,
     next,
@@ -25,8 +23,11 @@ const Card = ({
     first = false,
     isOpen = false,
     children,
-    onClick = () => { }
+    base = null,
+    section
 }) => {
+    const navigate = useNavigate()
+    const { search } = useLocation()
     const [open, setOpen] = useState(isOpen)
     useEffect(() => {
         setOpen(isOpen)
@@ -39,7 +40,11 @@ const Card = ({
             <button
                 className="card-header"
                 onClick={() => {
-                    onClick(!open)
+                    if (base !== null) {
+                        navigate(
+                            `${!open ? `/${base}/${section}` : `/${base}`}${search}`
+                        )
+                    }
                     setOpen(!open)
                 }}>
                 <div style={{ width: '100%' }}>
