@@ -24,7 +24,8 @@ const Card = ({
     isOpen = false,
     children,
     base = null,
-    section
+    section,
+    clearSearch = false
 }) => {
     const navigate = useNavigate()
     const { search } = useLocation()
@@ -42,7 +43,7 @@ const Card = ({
                 onClick={() => {
                     if (base !== null) {
                         navigate(
-                            `${!open ? `/${base}/${section}` : `/${base}`}${search}`
+                            `${!open ? `/${base}/${section}` : `/${base}`}${!clearSearch ? search : ''}`
                         )
                     }
                     setOpen(!open)

@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from 'react'
+import React, { useState } from 'react'
 import Card from './card'
 import items from './items.json'
 import names from './names.json'
@@ -6,6 +6,7 @@ import tables from './tables.json'
 import chance from 'chance'
 import copy from 'copy-to-clipboard'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
+import qs from 'qs'
 
 const links = {
     equipment: 'https://www.dndbeyond.com/equipment/',
@@ -118,29 +119,39 @@ const priceToCopper = (price) => {
         .reduce((prev, curr) => prev + curr, 0)
 }
 
-const Shop = ({ itemType }) => {
+const toBool = (value) => value === 'true'
+
+const ShopRouter = ({ itemType }) => {
     const initChecked = {}
     Object.values(items[itemType]).forEach(({ type }) => { initChecked[type] = false })
+    const { search, pathname } = useLocation()
+    const navigate = useNavigate()
+    const {
+        typeOpen = false,
+        checked = initChecked,
+        titleTerm = '',
+        priceValue = '',
+        sortTitle = 'asc',
+        sortPrice = 'asc',
+        sortType = 'asc'
+    } = qs.parse(search, { ignoreQueryPrefix: true })
 
-    const [{ typeOpen, checked, titleTerm, priceValue, sortTitle, sortPrice, sortType }, dispatch] = useReducer(
-        (state, { type, payload }) => {
-            if (type === 'type-toggle') state.typeOpen = payload.open
-            if (type === 'type-checked') state.checked[payload.type] = payload.checked
-            if (type === 'filter-title') state.titleTerm = payload.term
-            if (type === 'max-price') state.priceValue = Number(payload.value) || ''
-            if (type === 'sort-title') state.sortTitle = payload.sort
-            if (type === 'sort-price') state.sortPrice = payload.sort
-            if (type === 'sort-type') state.sortType = payload.sort
-            return Object.assign({ ...state })
-        }, {
-        titleTerm: '',
-        priceValue: '',
-        typeOpen: false,
-        checked: initChecked,
-        sortTitle: 'asc',
-        sortPrice: 'asc',
-        sortType: 'asc'
+    Object.entries(checked).forEach(([key, value]) => {
+        checked[key] = toBool(value)
     })
+
+    const update = ({ type, payload }) => {
+        const state = { typeOpen, checked, titleTerm, priceValue, sortTitle, sortPrice, sortType }
+        if (type === 'type-toggle') state.typeOpen = payload.open
+        if (type === 'type-checked') state.checked[payload.type] = payload.checked
+        if (type === 'filter-title') state.titleTerm = payload.term
+        if (type === 'max-price') state.priceValue = Number(payload.value) || ''
+        if (type === 'sort-title') state.sortTitle = payload.sort
+        if (type === 'sort-price') state.sortPrice = payload.sort
+        if (type === 'sort-type') state.sortType = payload.sort
+        const updatedSearch = qs.stringify(state)
+        navigate(`${pathname}?${updatedSearch}`)
+    }
 
     const hasType = 'type' in items[itemType][0]
     const checkedQuantity = Object.values(checked).reduce((prev, curr) => {
@@ -156,22 +167,22 @@ const Shop = ({ itemType }) => {
                         <ItemTitle
                             sort={sortTitle}
                             value={titleTerm}
-                            onSort={(sort) => { dispatch({ type: 'sort-title', payload: { sort } }) }}
-                            onChange={(term) => { dispatch({ type: 'filter-title', payload: { term } }) }}
+                            onSort={(sort) => { update({ type: 'sort-title', payload: { sort } }) }}
+                            onChange={(term) => { update({ type: 'filter-title', payload: { term } }) }}
                         />
                         <ItemPrice
                             sort={sortPrice}
                             value={priceValue}
-                            onSort={(sort) => { dispatch({ type: 'sort-price', payload: { sort } }) }}
-                            onChange={(value) => { dispatch({ type: 'max-price', payload: { value } }) }}
+                            onSort={(sort) => { update({ type: 'sort-price', payload: { sort } }) }}
+                            onChange={(value) => { update({ type: 'max-price', payload: { value } }) }}
                         />
                         {hasType && <ItemType
                             sort={sortType}
                             checked={checked}
-                            open={typeOpen}
-                            onSort={(sort) => { dispatch({ type: 'sort-type', payload: { sort } }) }}
-                            onToggle={() => { dispatch({ type: 'type-toggle', payload: { open: !typeOpen } }) }}
-                            onChange={({ type, checked }) => { dispatch({ type: 'type-checked', payload: { type, checked } }) }}
+                            open={toBool(typeOpen)}
+                            onSort={(sort) => { update({ type: 'sort-type', payload: { sort } }) }}
+                            onToggle={() => { update({ type: 'type-toggle', payload: { open: !toBool(typeOpen) } }) }}
+                            onChange={({ type, checked }) => { update({ type: 'type-checked', payload: { type, checked } }) }}
                             types={[...new Set(items[itemType].map(({ title, type }) => type || title))].sort()}
                         />}
                     </tr>
@@ -464,44 +475,49 @@ const ShopAndServicesPage = () => {
     return (
         <div>
             <Card
+                clearSearch
                 title='🫖 General'
                 section='general'
                 base='shop'
                 isOpen={section === 'general'}
             >
-                <Shop itemType='general' />
+                <ShopRouter itemType='general' />
             </Card>
             <Card
+                clearSearch
                 title='⚔️ Equipment'
                 section='equipment'
                 base='shop'
                 isOpen={section === 'equipment'}
             >
-                <Shop itemType='equipment' />
+                <ShopRouter itemType='equipment' />
             </Card>
             <Card
+                clearSearch
                 title='🪄 Magic Items'
                 section='magicItems'
                 base='shop'
                 isOpen={section === 'magicItems'}
             >
-                <Shop itemType='magicItem' />
+                <ShopRouter itemType='magicItem' />
             </Card>
             <Card
+                clearSearch
                 title='📜 Scrolls'
                 section='scrolls'
                 base='shop'
                 isOpen={section === 'scrolls'}
             >
-                <Shop itemType='scrolls' />
+                <ShopRouter itemType='scrolls' />
             </Card>
             <Card
+                clearSearch
                 title='🐐 Animals'
                 section='animals'
                 base='shop'
                 isOpen={section === 'animals'}
             >
-                <Shop itemType='animals' />
+                <ShopRouter itemType='animals' />
             </Card>
             <Card
                 title='🎲 Random'
