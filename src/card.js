@@ -86,8 +86,8 @@ const Card = ({
                     {filename && (
                         <div className='content'>
                             <div className="buttons mb-2">
-                                <a href={`${window.location.origin}/${filename}`} download className='button is-link'>📁 Download</a>
-                                <button className='button is-link' onClick={() => { copy(`${window.location.origin}/${filename}`) }}>📋 Copy file URL</button>
+                                <a href={`${window.location.origin}/hotlink-ok/${filename}`} download className='button is-link'>📁 Download</a>
+                                <button className='button is-link' onClick={() => { copy(`${window.location.origin}/hotlink-ok/${filename}`) }}>📋 Copy file URL</button>
                             </div>
                             {filename.endsWith('jpg') && <img src={`${window.location.origin}/hotlink-ok/${filename}`} alt={title} />}
                             {filename.endsWith('mp4') && (
