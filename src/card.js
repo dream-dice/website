@@ -88,6 +88,7 @@ const Card = ({
                             <div className="buttons mb-2">
                                 <a href={`${window.location.origin}/hotlink-ok/${filename}`} download className='button is-link'>📁 Download</a>
                                 <button className='button is-link' onClick={() => { copy(`${window.location.origin}/hotlink-ok/${filename}`) }}>📋 Copy file URL</button>
+                                <button className='button is-link' onClick={() => { copy(`https://raw.githubusercontent.com/dream-dice/website/master/public/hotlink-ok/${filename}`) }}>📋 Copy file GH URL</button>
                             </div>
                             {filename.endsWith('jpg') && <img src={`${window.location.origin}/hotlink-ok/${filename}`} alt={title} />}
                             {filename.endsWith('mp4') && (
