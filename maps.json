@@ -1,6 +1,22 @@
 [
     {
-        "title": "Flying Ship RUined",
+        "title": "Flying Ship Ruined Lower",
+        "description": "Used in the Spelljammer Academy campaign part 2. The lower part of the ruined ship the cadets race to.",
+        "filename": "maps/flying-ship-ruined-lower.jpg",
+        "name": "flying-ship-ruined-lower",
+        "date": "2023-02-22",
+        "hide": true
+    },
+    {
+        "title": "Flying Ship Ruined Upper",
+        "description": "Used in the Spelljammer Academy campaign part 2. The upper part of the ruined ship the cadets race to.",
+        "filename": "maps/flying-ship-ruined-upper.jpg",
+        "name": "flying-ship-ruined-upper",
+        "date": "2023-02-22",
+        "hide": true
+    },
+    {
+        "title": "Flying Ship Ruined",
         "description": "Used in the Spelljammer Academy campaign part 2. The Ruined ship the cadets race to.",
         "filename": "maps/flying-ship-ruined.jpg",
         "name": "flying-ship-ruined",
@@ -117,7 +133,7 @@
         "hide": true
     },
     {
-        "title": "firefly-top.jpg",
+        "title": "Firefly Top",
         "description": "The top floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
         "date": "2023-02-10",
         "filename": "maps/firefly-top.jpg",
