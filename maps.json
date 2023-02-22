@@ -1,5 +1,13 @@
 [
     {
+        "title": "Large map to test",
+        "description": "A large map to test with",
+        "filename": "maps/hammerhead-ship-test.jpg",
+        "name": "hammerhead-ship-test",
+        "date": "2023-02-22",
+        "hide": true
+    },
+    {
         "title": "Flying Ship Ruined Lower",
         "description": "Used in the Spelljammer Academy campaign part 2. The lower part of the ruined ship the cadets race to.",
         "filename": "maps/flying-ship-ruined-lower.jpg",
