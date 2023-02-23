@@ -79,6 +79,10 @@
     "title": "Animal",
     "description": "All the animals available in the campaign."
   },
+  "/shop/spelljammers": {
+    "title": "Spelljammer Ships",
+    "description": "All the spelljammer ships available in the campaign."
+  },
   "/shop/random": {
     "title": "Random",
     "description": "A series of random values."
