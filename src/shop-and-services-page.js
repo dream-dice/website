@@ -14,7 +14,8 @@ const links = {
     magicItem: 'https://www.dndbeyond.com/magic-items/',
     scrolls: 'https://www.dndbeyond.com/magic-items/spell-scroll/#',
     animals: 'https://www.dndbeyond.com/monsters/',
-    name: 'https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1304&q=dnd+'
+    name: 'https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1304&q=dnd+',
+    spelljammers: 'https://www.dndbeyond.com/vehicles/'
 }
 
 const DDBLink = ({ href, name, keepCase = false }) => {
@@ -281,6 +282,9 @@ const Random = () => (
         <div className='mb-5'>
             <RandomItem items={items.animals} title='Animal' href={links.animals} />
         </div>
+        <div className='mb-5'>
+            <RandomItem items={items.spelljammers} title='Spelljammer ships' href={links.vehicles} />
+        </div>
         <div>
             <RandomGenerator title='Male' random={() => chance().pickone(names.male)} href={links.name} />
             <RandomGenerator title='Female' random={() => chance().pickone(names.female)} href={links.name} />
@@ -516,6 +520,15 @@ const ShopAndServicesPage = () => {
                 isOpen={section === 'animals'}
             >
                 <ShopRouter itemType='animals' />
+            </Card>
+            <Card
+                clearSearch
+                title='🚀 Spelljammer Ships'
+                section='spelljammers'
+                base='shop'
+                isOpen={section === 'spelljammers'}
+            >
+                <ShopRouter itemType='spelljammers' />
             </Card>
             <Card
                 title='🎲 Random'

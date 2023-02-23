@@ -1,4 +1,58 @@
 {
+    "spelljammers": [
+        {
+            "title": "Bombard",
+            "price": "50000gp"
+        },
+        {
+            "title": "Damselfly Ship",
+            "price": "20000gp"
+        },
+        {
+            "title": "Flying Fish Ship",
+            "price": "20000gp"
+        },
+        {
+            "title": "Hammerhead Ship",
+            "price": "40000gp"
+        },
+        {
+            "title": "Living Ship",
+            "price": "25000gp"
+        },
+        {
+            "title": "Nautiloid",
+            "price": "50000gp"
+        },
+        {
+            "title": "Nightspider",
+            "price": "50000gp"
+        },
+        {
+            "title": "Scorpion Ship",
+            "price": "25000gp"
+        },
+        {
+            "title": "Shrike Ship",
+            "price": "20000gp"
+        },
+        {
+            "title": "Space Galleon",
+            "price": "30000gp"
+        },
+        {
+            "title": "Squid Ship",
+            "price": "25000gp"
+        },
+        {
+            "title": "Star Moth",
+            "price": "40000gp"
+        },
+        {
+            "title": "Tyrant Ship",
+            "price": "-"
+        }
+    ],
     "equipment": [
         {
             "title": "Padded",
