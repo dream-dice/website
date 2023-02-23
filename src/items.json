@@ -1886,6 +1886,10 @@
     ],
     "general": [
         {
+            "title": "Basic Fishing Equipment",
+            "price": "1sp"
+        },
+        {
             "title": "Crystal",
             "price": "10gp"
         },
