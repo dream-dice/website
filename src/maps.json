@@ -1,5 +1,29 @@
 [
     {
+        "title": "Corrupt Squid Ship Top",
+        "description": "The top of the Squid ship from Spellhammer, but it is corrupt.",
+        "filename": "maps/corrupt-squid-ship-top.jpg",
+        "name": "corrupt-squid-ship-top",
+        "date": "2023-02-23",
+        "hide": true
+    },
+    {
+        "title": "Corrupt Squid Ship Middle",
+        "description": "The middle of the Squid ship from Spellhammer, but it is corrupt.",
+        "filename": "maps/corrupt-squid-ship-middle.jpg",
+        "name": "corrupt-squid-ship-middle",
+        "date": "2023-02-23",
+        "hide": true
+    },
+    {
+        "title": "Corrupt Squid Ship Bottom",
+        "description": "The bottom of the Squid ship from Spellhammer, but it is corrupt.",
+        "filename": "maps/corrupt-squid-ship-bottom.jpg",
+        "name": "corrupt-squid-ship-bottom",
+        "date": "2023-02-23",
+        "hide": true
+    },
+    {
         "title": "Hammerhead Ship Top",
         "description": "The top of the Hammerhead ship from Spellhammer.",
         "filename": "maps/hammerhead-ship-top.jpg",
