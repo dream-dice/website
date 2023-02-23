@@ -1,10 +1,26 @@
 [
     {
-        "title": "Large map to test",
-        "description": "A large map to test with",
-        "filename": "maps/hammerhead-ship-test.jpg",
-        "name": "hammerhead-ship-test",
-        "date": "2023-02-22",
+        "title": "Hammerhead Ship Top",
+        "description": "The top of the Hammerhead ship from Spellhammer.",
+        "filename": "maps/hammerhead-ship-top.jpg",
+        "name": "hammerhead-ship-top",
+        "date": "2023-02-23",
+        "hide": true
+    },
+    {
+        "title": "Hammerhead Ship Middle",
+        "description": "The middle of the Hammerhead ship from Spellhammer.",
+        "filename": "maps/hammerhead-ship-middle.jpg",
+        "name": "hammerhead-ship-middle",
+        "date": "2023-02-23",
+        "hide": true
+    },
+    {
+        "title": "Hammerhead Ship Bottom",
+        "description": "The bottom of the Hammerhead ship from Spellhammer.",
+        "filename": "maps/hammerhead-ship-bottom.jpg",
+        "name": "hammerhead-ship-bottom",
+        "date": "2023-02-23",
         "hide": true
     },
     {
@@ -21,14 +37,6 @@
         "filename": "maps/flying-ship-ruined-upper.jpg",
         "name": "flying-ship-ruined-upper",
         "date": "2023-02-22",
-        "hide": true
-    },
-    {
-        "title": "Flying Ship Ruined",
-        "description": "Used in the Spelljammer Academy campaign part 2. The Ruined ship the cadets race to.",
-        "filename": "maps/flying-ship-ruined.jpg",
-        "name": "flying-ship-ruined",
-        "date": "2023-02-10",
         "hide": true
     },
     {
