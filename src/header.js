@@ -1,13 +1,15 @@
-import React from 'react';
+import Cookies from 'js-cookie';
+import qs from 'qs';
+import React, { useEffect, useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { useLocation, useParams } from "react-router";
 import { Link } from 'react-router-dom';
+import appendix from './appendix.json';
 import Discord from './discord';
 import Icon from './icon';
-import appendix from './appendix.json';
+import maps from './maps.json';
 import metadata from './metadata.json';
 import notes from './notes.json';
-import maps from './maps.json'
 
 const HeroFootLink = ({ pathname, to, label }) => (
     <li className={(to === pathname || (to !== '/' && pathname.startsWith(to))) ? 'is-active' : 'is-inactive'}>
@@ -47,7 +49,7 @@ const HeroHead = ({ title }) => (
 )
 
 const Header = () => {
-    let { pathname } = useLocation()
+    let { pathname, search } = useLocation()
     pathname = pathname.replace(/\/$/g, '')
     if (pathname === '') pathname = '/'
 
@@ -75,6 +77,22 @@ const Header = () => {
             description = data.description
         }
     }
+
+    const { accept } = Cookies.get()
+    const [_, acceptChanged] = useState(accept)
+
+    useEffect(() => {
+        const queryString = qs.parse(search, { ignoreQueryPrefix: true })
+        const isDm = 'dm' in queryString
+        const isGm = 'gm' in queryString
+        const accepted = accept === 'true'
+        if (isDm && accepted) {
+            Cookies.set('dm', true)
+            Cookies.set('gm', true)
+        } else if (isGm && accepted) {
+            Cookies.set('gm', true)
+        }
+    }, [])
 
     return (
         <>
@@ -105,6 +123,39 @@ const Header = () => {
                     </nav>
                 </div>
             </section>
+            {typeof accept === 'undefined' && (
+                <div className='cookie-banner'>
+                    <section className='p-3'>
+                        <nav className="level is-mobile">
+                            <div className="level-item has-text-centered">
+                                <div className='content'>
+                                    <p>This website contains cookies to remember query terms, and if you wanted to adhear to cookies.</p>
+                                </div>
+                            </div>
+                            <div className="level-item has-text-centered">
+                                <div className='buttons'>
+                                    <button
+                                        onClick={() => {
+                                            acceptChanged(true)
+                                            Cookies.set('accept', true)
+                                        }}
+                                        className='button is-info'>
+                                        Accept
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            acceptChanged(false)
+                                            Cookies.set('accept', false)
+                                        }}
+                                        className='button is-danger'>
+                                        Decline
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
+                    </section>
+                </div>
+            )}
         </>
     )
 }

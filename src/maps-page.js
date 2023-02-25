@@ -1,3 +1,4 @@
+import Cookies from 'js-cookie';
 import React, { useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import Card from './card';
@@ -33,7 +34,7 @@ const MapsPage = () => {
                 }}
             />
             {data
-                .filter(({hide}) => search.includes('show') || !hide)
+                .filter(({hide}) => Cookies.get('dm') || !hide)
                 .sort(({ date: left }, { date: right }) => {
                     left = new Date(left).getTime()
                     right = new Date(right).getTime()

@@ -181,3 +181,12 @@ blockquote {
   border-width: 2px;
   font-weight: bold;
 }
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3f3f3f;
+  color: #fff;
+  z-index: 666;
+}
