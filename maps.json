@@ -1,5 +1,29 @@
 [
     {
+        "title": "Tyrant Ship Top",
+        "description": "The top of the Tyrant ship from Spellhammer, but it is Arabian themed.",
+        "filename": "maps/arabian-tyrant-ship-top.jpg",
+        "name": "arabian-tyrant-ship-top",
+        "date": "2023-02-25",
+        "hide": true
+    },
+    {
+        "title": "Tyrant Ship Middle",
+        "description": "The middle of the Tyrant ship from Spellhammer, but it is Arabian themed.",
+        "filename": "maps/arabian-tyrant-ship-middle.jpg",
+        "name": "arabian-tyrant-ship-middle",
+        "date": "2023-02-25",
+        "hide": true
+    },
+    {
+        "title": "Tyrant Ship Bottom",
+        "description": "The bottom of the Tyrant ship from Spellhammer, but it is Arabian themed.",
+        "filename": "maps/arabian-tyrant-ship-bottom.jpg",
+        "name": "arabian-tyrant-ship-bottom",
+        "date": "2023-02-25",
+        "hide": true
+    },
+    {
         "title": "Corrupt Squid Ship Top",
         "description": "The top of the Squid ship from Spellhammer, but it is corrupt.",
         "filename": "maps/corrupt-squid-ship-top.jpg",
