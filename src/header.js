@@ -139,7 +139,7 @@ const Header = () => {
             {typeof accept === 'undefined' && (
                 <div className='cookie-banner'>
                     <section className='p-3'>
-                        <nav className="level is-mobile">
+                        <nav className="level">
                             <div className="level-item has-text-centered">
                                 <div className='content'>
                                     <p>This website contains cookies to remember query terms, and if you wanted to adhear to cookies.</p>
