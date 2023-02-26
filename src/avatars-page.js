@@ -1,8 +1,9 @@
 import { capitalCase } from 'change-case'
 import copy from 'copy-to-clipboard'
 import Cookies from 'js-cookie'
+import qs from 'qs'
 import React, { useEffect, useState } from 'react'
-import { unstable_HistoryRouter, useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import avatars from './avatars.json'
 import NotFound from './not-found-page'
 import Search from './search'
@@ -50,15 +51,17 @@ const AvatarsPage = () => {
     const [data, setData] = useState([])
     const { section = 'none' } = useParams()
     const navigate = useNavigate()
+    const { search } = useLocation()
+    const { term = '', player = false, named = false } = qs.parse(search, { ignoreQueryPrefix: true })
 
     const isGm = Cookies.get('gm')
     const isDM = Cookies.get('dm')
 
     useEffect(() => {
-        if(section !== 'none') {
-            const found = avatars.find(({filename}) => filename.includes(section))
+        if (section !== 'none') {
+            const found = avatars.find(({ filename }) => filename.includes(section))
             setData([found])
-            if(found) navigate(`/avatars?term=${found.n || found.m}`)
+            if (found) navigate(`/avatars?term=${found.n || found.m}&named=${'n' in found}`)
             else navigate(`/avatars?term=${section}`)
         }
     }, [])
@@ -66,8 +69,9 @@ const AvatarsPage = () => {
     if (!isGm) return <NotFound />
 
     const filtered = data
-        .filter(({ n }) => {
-            if (typeof n !== 'undefined') return isDM
+        .filter(({ n, p }) => {
+            if (typeof p !== 'undefined') return isDM
+            if (named !== 'true') return typeof n === 'undefined'
             return true
         })
 
@@ -98,6 +102,26 @@ const AvatarsPage = () => {
                     setData(data)
                 }}
             />
+
+
+            <div className='mb-2'>
+                <label className='checkbox mr-2'>
+                    <input
+                        type='checkbox'
+                        checked={player === 'true'}
+                        onChange={(evt) => { navigate(`/avatars?term=${term}&player=${evt.target.checked}&named=${named}`) }}
+                    />
+                    <span className='pl-1'>Show player tokens</span>
+                </label>
+                <label className='checkbox'>
+                    <input
+                        type='checkbox'
+                        checked={named === 'true'}
+                        onChange={(evt) => { navigate(`/avatars?term=${term}&player=${player}&named=${evt.target.checked}`) }}
+                    />
+                    <span className='pl-1'>Show named tokens</span>
+                </label>
+            </div>
 
             <div className="tile is-ancestor">
                 <div className="tile is-vertical is-12">
