@@ -97,11 +97,10 @@ const Header = () => {
     }
 
     useEffect(() => {
-        const accepted = accept === 'true'
-        if (containsDm && accepted) {
+        if (containsDm) {
             Cookies.set('dm', true)
             Cookies.set('gm', true)
-        } else if (containsMaster && accepted) {
+        } else if (containsMaster) {
             Cookies.set('gm', true)
         }
     }, [])
