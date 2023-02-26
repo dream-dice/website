@@ -61,9 +61,9 @@ const Header = () => {
     const [ignoreMe, acceptChanged] = useState(accept)
     const queryString = qs.parse(search, { ignoreQueryPrefix: true })
     const containsDm = 'dm' in queryString
-    const containsMaster = 'master' in queryString
+    const containsMaster = pathname.includes('master')
     const isGm = containsDm || containsMaster || Cookies.get('gm') === 'true'
-    let icon = 'icon'
+    let icon = `http://intrepid-crusaders.blankstring.com/icon.png`
 
     let { title, description } = metadata[pathname] || metadata.notFound
     if (pathname.includes('notes') && section !== 'none') {
@@ -86,14 +86,16 @@ const Header = () => {
             title = data.title
             description = data.description
         }
-    } else if(pathname.includes('avatars') && !isGm) {
-        title = metadata.notFound.title
-        description = metadata.notFound.description
-    } else if (pathname.includes('avatars') && section !== 'none') {
-        const {n, m, filename} = avatars.find(({filename}) => filename.startsWith(section))
-        title = capitalCase(n || m)
-        description = `The avatar for ${title}`
-        icon = `${window.location.origin}/hotlink-ok/avatars/${filename}`
+    } else if (pathname.includes('avatars')) {
+        if (section !== 'none' || 'term' in queryString) {
+            const found = avatars.find(({ filename, n, m }) => filename.startsWith(section) || (n || m) === queryString.term)
+            if (found) {
+                const { n, m, filename } = found
+                title = capitalCase(n || m)
+                description = `The avatar for ${title}`
+                icon = `https://intrepid-crusaders.blankstring.com/hotlink-ok/avatars/${filename}`
+            }
+        }
     }
 
     useEffect(() => {
@@ -113,7 +115,7 @@ const Header = () => {
                     <meta name="description" content={description} />
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
-                    <meta property="og:image" content={`http://intrepid-crusaders.blankstring.com/${icon}.png`} />
+                    <meta property="og:image" content={icon} />
                     <meta property="og:url" content={`http://intrepid-crusaders.blankstring.com${pathname}`} />
                 </Helmet>
             </HelmetProvider>

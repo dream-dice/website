@@ -18,6 +18,7 @@ const App = () => {
         <>
           <Routes>
             <Route path='/' element={<Header />}></Route>
+            <Route path='/master' element={<Header />}></Route>
             <Route path='/avatars/:section?' element={<Header />}></Route>
             <Route path='/shop/:section?' element={<Header />}></Route>
             <Route path='/maps/:section?' element={<Header />}></Route>
@@ -38,6 +39,7 @@ const App = () => {
             <div className='container'>
               <Routes>
                 <Route path='/' element={<div />}></Route>
+                <Route path='/master' element={<div />}></Route>
                 <Route path='/shop/:section?' element={<div />}></Route>
                 <Route path='/maps/:section?' element={<div />}></Route>
               <Route path='/avatars/:section?' element={<div />}></Route>
@@ -56,6 +58,7 @@ const App = () => {
               </Routes>
               <Routes>
                 <Route path='/' element={<HomePage />}></Route>
+                <Route path='/master' element={<HomePage />}></Route>
                 <Route path='/shop/:section?' element={<ShopAndServicesPage />}></Route>
                 <Route path='/maps/:section?' element={<MapsPage />}></Route>
                 <Route path='/avatars/:section?' element={<AvatarsPage />}></Route>

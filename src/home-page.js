@@ -13,13 +13,13 @@ const Home = () => (
         <h2>API</h2>
         <p>There are several APIs which contains all the data that the website uses. Feel free to use these, they aren't maintained so don't get in contact if anything is broken with them.</p>
         <ul>
-            <li>https://intrepid-crusaders.blankstring.com/appendix.json</li>
-            <li>https://intrepid-crusaders.blankstring.com/calendar.json</li>
-            <li>https://intrepid-crusaders.blankstring.com/items.json</li>
-            <li>https://intrepid-crusaders.blankstring.com/maps.json</li>
-            <li>https://intrepid-crusaders.blankstring.com/names.json</li>
-            <li>https://intrepid-crusaders.blankstring.com/notes.json</li>
-            <li>https://intrepid-crusaders.blankstring.com/random.json</li>
+            <li><a href='https://intrepid-crusaders.blankstring.com/appendix.json'>https://intrepid-crusaders.blankstring.com/appendix.json</a></li>
+            <li><a href='https://intrepid-crusaders.blankstring.com/calendar.json'>https://intrepid-crusaders.blankstring.com/calendar.json</a></li>
+            <li><a href='https://intrepid-crusaders.blankstring.com/items.json'>https://intrepid-crusaders.blankstring.com/items.json</a></li>
+            <li><a href='https://intrepid-crusaders.blankstring.com/maps.json'>https://intrepid-crusaders.blankstring.com/maps.json</a></li>
+            <li><a href='https://intrepid-crusaders.blankstring.com/names.json'>https://intrepid-crusaders.blankstring.com/names.json</a></li>
+            <li><a href='https://intrepid-crusaders.blankstring.com/notes.json'>https://intrepid-crusaders.blankstring.com/notes.json</a></li>
+            <li><a href='https://intrepid-crusaders.blankstring.com/random.json'>https://intrepid-crusaders.blankstring.com/random.json</a></li>
         </ul>
 
         <h2>Copyright and other T&C's</h2>

@@ -1,8 +1,8 @@
 import { capitalCase } from 'change-case'
 import copy from 'copy-to-clipboard'
 import Cookies from 'js-cookie'
-import React, { useState } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { unstable_HistoryRouter, useNavigate, useParams } from 'react-router-dom'
 import avatars from './avatars.json'
 import NotFound from './not-found-page'
 import Search from './search'
@@ -22,6 +22,7 @@ const Avatar = ({ n, m, d, index, filename }) => <article className="tile is-chi
             <a href={`${window.location.origin}/hotlink-ok/avatars/${filename}`} download className='button is-fullwidth is-link'>📁 Download</a>
             <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/hotlink-ok/avatars/${filename}`) }}>📋 Copy file URL</button>
             <button className='button is-fullwidth is-link' onClick={() => { copy(`https://raw.githubusercontent.com/dream-dice/website/master/public/hotlink-ok/avatars/${filename}`) }}>📋 Copy file GH URL</button>
+            <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/avatars/${filename.replace('.png', '')}`) }}>📋 Share URL</button>
         </div>
         <p className='content'>{filename}</p>
     </div>
@@ -48,11 +49,19 @@ const filterAvatars = (searchTerms) => (props) =>
 const AvatarsPage = () => {
     const [data, setData] = useState([])
     const { section = 'none' } = useParams()
-
-    console.log(section)
+    const navigate = useNavigate()
 
     const isGm = Cookies.get('gm')
     const isDM = Cookies.get('dm')
+
+    useEffect(() => {
+        if(section !== 'none') {
+            const found = avatars.find(({filename}) => filename.includes(section))
+            setData([found])
+            if(found) navigate(`/avatars?term=${found.n || found.m}`)
+            else navigate(`/avatars?term=${section}`)
+        }
+    }, [])
 
     if (!isGm) return <NotFound />
 
