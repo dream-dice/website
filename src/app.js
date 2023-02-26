@@ -6,6 +6,7 @@ import Game from './game';
 import Header from './header';
 import HomePage from './home-page';
 import MapsPage from './maps-page';
+import AvatarsPage from './avatars-page';
 import NotFound from './not-found-page';
 import NotesPage from './notes-page';
 import ShopAndServicesPage from './shop-and-services-page';
@@ -17,6 +18,7 @@ const App = () => {
         <>
           <Routes>
             <Route path='/' element={<Header />}></Route>
+            <Route path='/avatars/:section?' element={<Header />}></Route>
             <Route path='/shop/:section?' element={<Header />}></Route>
             <Route path='/maps/:section?' element={<Header />}></Route>
             <Route path='/cos' element={<Header />}></Route>
@@ -38,6 +40,7 @@ const App = () => {
                 <Route path='/' element={<div />}></Route>
                 <Route path='/shop/:section?' element={<div />}></Route>
                 <Route path='/maps/:section?' element={<div />}></Route>
+              <Route path='/avatars/:section?' element={<div />}></Route>
                 <Route path='/cos' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/notes/:section?' element={<Game game='cos' page='notes' />}></Route>
                 <Route path='/cos/appendix/:section?' element={<Game game='cos' page='appendix' />}></Route>
@@ -55,6 +58,7 @@ const App = () => {
                 <Route path='/' element={<HomePage />}></Route>
                 <Route path='/shop/:section?' element={<ShopAndServicesPage />}></Route>
                 <Route path='/maps/:section?' element={<MapsPage />}></Route>
+                <Route path='/avatars/:section?' element={<AvatarsPage />}></Route>
                 <Route path='/cm' element={<NotesPage game='cm' />}></Route>
                 <Route path='/cm/calendar' element={<CalendarPage game='cm' />}></Route>
                 <Route path='/cm/notes/:section?' element={<NotesPage game='cm' />}></Route>

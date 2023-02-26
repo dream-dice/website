@@ -98,5 +98,9 @@
   "/maps": {
     "title": "Maps",
     "description": "All the maps that have been created for my campaigns."
+  },
+  "/avatars": {
+    "title": "Avatars",
+    "description": "All the avatars that have been created for my campaigns."
   }
 }

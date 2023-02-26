@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie';
 import React, { useState } from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Card from './card';
 import maps from './maps.json';
 import Search from './search';
@@ -18,7 +18,6 @@ const filterMaps = (searchTerms) => ({ title, description }) =>
 
 const MapsPage = () => {
     const [data, setData] = useState([])
-    const {search} = useLocation()
     const {section = 'none'} = useParams()
 
     return <div className='maps'>

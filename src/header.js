@@ -10,6 +10,8 @@ import Icon from './icon';
 import maps from './maps.json';
 import metadata from './metadata.json';
 import notes from './notes.json';
+import avatars from './avatars.json'
+import { capitalCase } from 'change-case';
 
 const HeroFootLink = ({ pathname, to, label }) => (
     <li className={(to === pathname || (to !== '/' && pathname.startsWith(to))) ? 'is-active' : 'is-inactive'}>
@@ -55,6 +57,14 @@ const Header = () => {
 
     const { section = 'none' } = useParams()
 
+    const { accept } = Cookies.get()
+    const [ignoreMe, acceptChanged] = useState(accept)
+    const queryString = qs.parse(search, { ignoreQueryPrefix: true })
+    const containsDm = 'dm' in queryString
+    const containsMaster = 'master' in queryString
+    const isGm = containsDm || containsMaster || Cookies.get('gm') === 'true'
+    let icon = 'icon'
+
     let { title, description } = metadata[pathname] || metadata.notFound
     if (pathname.includes('notes') && section !== 'none') {
         const game = pathname.split('/')[1]
@@ -76,20 +86,22 @@ const Header = () => {
             title = data.title
             description = data.description
         }
+    } else if(pathname.includes('avatars') && !isGm) {
+        title = metadata.notFound.title
+        description = metadata.notFound.description
+    } else if (pathname.includes('avatars') && section !== 'none') {
+        const {n, m, filename} = avatars.find(({filename}) => filename.startsWith(section))
+        title = capitalCase(n || m)
+        description = `The avatar for ${title}`
+        icon = `${window.location.origin}/hotlink-ok/avatars/${filename}`
     }
 
-    const { accept } = Cookies.get()
-    const [_, acceptChanged] = useState(accept)
-
     useEffect(() => {
-        const queryString = qs.parse(search, { ignoreQueryPrefix: true })
-        const isDm = 'dm' in queryString
-        const isGm = 'gm' in queryString
         const accepted = accept === 'true'
-        if (isDm && accepted) {
+        if (containsDm && accepted) {
             Cookies.set('dm', true)
             Cookies.set('gm', true)
-        } else if (isGm && accepted) {
+        } else if (containsMaster && accepted) {
             Cookies.set('gm', true)
         }
     }, [])
@@ -102,7 +114,7 @@ const Header = () => {
                     <meta name="description" content={description} />
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
-                    <meta property="og:image" content={`http://intrepid-crusaders.blankstring.com/icon.png`} />
+                    <meta property="og:image" content={`http://intrepid-crusaders.blankstring.com/${icon}.png`} />
                     <meta property="og:url" content={`http://intrepid-crusaders.blankstring.com${pathname}`} />
                 </Helmet>
             </HelmetProvider>
@@ -118,6 +130,7 @@ const Header = () => {
                                 <HeroFootLink pathname={pathname} to={'/cos'} label='🧛 Curse of Strahd' />
                                 <HeroFootLink pathname={pathname} to={'/shop'} label='🛍️ Shops & Services' />
                                 <HeroFootLink pathname={pathname} to={'/maps'} label='📍 Maps' />
+                                {isGm && <HeroFootLink pathname={pathname} to={'/avatars'} label='🧑 Avatars' />}
                             </ul>
                         </div>
                     </nav>

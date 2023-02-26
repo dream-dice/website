@@ -1,0 +1,32 @@
+[
+    {
+        "m": "blink-dog",
+        "d": "blink-dog",
+        "index": 1,
+        "filename": "m=blink-dog_d=blink-dog+1.png"
+    },
+    {
+        "m": "blink-dog",
+        "d": "blink-dog",
+        "index": 0,
+        "filename": "m=blink-dog_d=blink-dog.png"
+    },
+    {
+        "m": "magmin",
+        "d": "magmin",
+        "index": 0,
+        "filename": "m=magmin_d=magmin.png"
+    },
+    {
+        "n": "grazzt",
+        "d": "grazzt",
+        "index": 0,
+        "filename": "n=grazzt_d=grazzt.png"
+    },
+    {
+        "n": "iggwilv",
+        "d": "iggwilv-the-witch-queen",
+        "index": 0,
+        "filename": "n=iggwilv_d=iggwilv-the-witch-queen.png"
+    }
+]
