@@ -30,8 +30,103 @@
         "filename": "n=iggwilv_d=iggwilv-the-witch-queen.png"
     },
     {
+        "p": "alfalfa",
+        "index": 0,
+        "filename": "p=alfalfa.png"
+    },
+    {
+        "p": "amythystina",
+        "index": 0,
+        "filename": "p=amythystina.png"
+    },
+    {
+        "p": "biff",
+        "index": 0,
+        "filename": "p=biff.png"
+    },
+    {
+        "p": "blobby",
+        "index": 0,
+        "filename": "p=blobby.png"
+    },
+    {
+        "p": "cassandra",
+        "index": 0,
+        "filename": "p=cassandra.png"
+    },
+    {
+        "p": "chip",
+        "index": 0,
+        "filename": "p=chip.png"
+    },
+    {
         "p": "cloud",
         "index": 0,
         "filename": "p=cloud.png"
+    },
+    {
+        "p": "craid-simms",
+        "index": 0,
+        "filename": "p=craid-simms.png"
+    },
+    {
+        "p": "dalrig-bloodmantle",
+        "index": 0,
+        "filename": "p=dalrig-bloodmantle.png"
+    },
+    {
+        "p": "firewatch",
+        "index": 0,
+        "filename": "p=firewatch.png"
+    },
+    {
+        "p": "fluck",
+        "index": 0,
+        "filename": "p=fluck.png"
+    },
+    {
+        "p": "harryet",
+        "index": 0,
+        "filename": "p=harryet.png"
+    },
+    {
+        "p": "hiplomus-boo",
+        "index": 0,
+        "filename": "p=hiplomus-boo.png"
+    },
+    {
+        "p": "larielle",
+        "index": 0,
+        "filename": "p=larielle.png"
+    },
+    {
+        "p": "nine-seven",
+        "index": 0,
+        "filename": "p=nine-seven.png"
+    },
+    {
+        "p": "rodney",
+        "index": 0,
+        "filename": "p=rodney.png"
+    },
+    {
+        "p": "tialha",
+        "index": 0,
+        "filename": "p=tialha.png"
+    },
+    {
+        "p": "ugluk",
+        "index": 0,
+        "filename": "p=ugluk.png"
+    },
+    {
+        "p": "wigberta",
+        "index": 0,
+        "filename": "p=wigberta.png"
+    },
+    {
+        "p": "wyrd",
+        "index": 0,
+        "filename": "p=wyrd.png"
     }
 ]

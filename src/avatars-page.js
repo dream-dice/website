@@ -10,24 +10,29 @@ import Search from './search'
 
 const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
 
-const Avatar = ({ n, m, p, d, index, filename }) => <article className="tile is-child pl-2 pr-2">
-    <div className='box'>
-        <p className="title has-text-centered">{capitalCase(m || n || p)} {index > 0 ? `(${index})` : null}</p>
-        <div className='is-flex is-justify-content-center mb-3 mt-1'>
-            <figure className="image is-128x128">
-                <img src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
-            </figure>
-        </div>
-        <div className='buttons'>
-            {d && <a className="button is-link is-fullwidth" href={`https://www.dndbeyond.com/monsters/${d}`} target="_blank" rel="noreferrer noopener">🔗 DDB</a>}
-            <a href={`${window.location.origin}/hotlink-ok/avatars/${filename}`} download className='button is-fullwidth is-link'>📁 Download</a>
-            <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/hotlink-ok/avatars/${filename}`) }}>📋 Copy file URL</button>
-            <button className='button is-fullwidth is-link' onClick={() => { copy(`https://raw.githubusercontent.com/dream-dice/website/master/public/hotlink-ok/avatars/${filename}`) }}>📋 Copy file GH URL</button>
-            <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/avatars/${filename.replace('.png', '')}`) }}>📋 Share URL</button>
-        </div>
-        <p className='content'>{filename}</p>
-    </div>
-</article>
+const Avatar = ({ m, n, p, d, index, filename }) => {
+    console.log(m, n, p, filename)
+    return (
+        <article className="tile is-child pl-2 pr-2">
+            <div className='box'>
+                <p className="title has-text-centered">{capitalCase(m || n || p)} {index > 0 ? `(${index})` : null}</p>
+                <div className='is-flex is-justify-content-center mb-3 mt-1'>
+                    <figure className="image is-128x128">
+                        <img src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
+                    </figure>
+                </div>
+                <div className='buttons'>
+                    {d && <a className="button is-link is-fullwidth" href={`https://www.dndbeyond.com/monsters/${d}`} target="_blank" rel="noreferrer noopener">🔗 DDB</a>}
+                    <a href={`${window.location.origin}/hotlink-ok/avatars/${filename}`} download className='button is-fullwidth is-link'>📁 Download</a>
+                    <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/hotlink-ok/avatars/${filename}`) }}>📋 Copy file URL</button>
+                    <button className='button is-fullwidth is-link' onClick={() => { copy(`https://raw.githubusercontent.com/dream-dice/website/master/public/hotlink-ok/avatars/${filename}`) }}>📋 Copy file GH URL</button>
+                    <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/avatars/${filename.replace('.png', '')}`) }}>📋 Share URL</button>
+                </div>
+                <p className='content'>{filename}</p>
+            </div>
+        </article>
+    )
+}
 
 const Row = ({ avatars }) => <div className="tile is-parent">
     <Avatar {...avatars[0]} />
