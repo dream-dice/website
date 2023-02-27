@@ -28,5 +28,10 @@
         "d": "iggwilv-the-witch-queen",
         "index": 0,
         "filename": "n=iggwilv_d=iggwilv-the-witch-queen.png"
+    },
+    {
+        "p": "cloud",
+        "index": 0,
+        "filename": "p=cloud.png"
     }
 ]

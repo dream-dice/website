@@ -10,9 +10,9 @@ import Search from './search'
 
 const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
 
-const Avatar = ({ n, m, d, index, filename }) => <article className="tile is-child pl-2 pr-2">
+const Avatar = ({ n, m, p, d, index, filename }) => <article className="tile is-child pl-2 pr-2">
     <div className='box'>
-        <p className="title has-text-centered">{capitalCase(n || m)} {index > 0 ? `(${index})` : null}</p>
+        <p className="title has-text-centered">{capitalCase(m || n || p)} {index > 0 ? `(${index})` : null}</p>
         <div className='is-flex is-justify-content-center mb-3 mt-1'>
             <figure className="image is-128x128">
                 <img src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
@@ -61,7 +61,7 @@ const AvatarsPage = () => {
         if (section !== 'none') {
             const found = avatars.find(({ filename }) => filename.includes(section))
             setData([found])
-            if (found) navigate(`/avatars?term=${found.n || found.m}&named=${'n' in found}`)
+            if (found) navigate(`/avatars?term=${found.m || found.n || found.p}&named=${'n' in found}&player=${'p' in found}`)
             else navigate(`/avatars?term=${section}`)
         }
     }, [])
@@ -70,8 +70,8 @@ const AvatarsPage = () => {
 
     const filtered = data
         .filter(({ n, p }) => {
-            if (typeof p !== 'undefined') return isDM
-            if (named !== 'true') return typeof n === 'undefined'
+            if (typeof p !== 'undefined') return player === 'true'
+            if (typeof n !== 'undefined') return named === 'true'
             return true
         })
 

@@ -88,10 +88,10 @@ const Header = () => {
         }
     } else if (pathname.includes('avatars')) {
         if (section !== 'none' || 'term' in queryString) {
-            const found = avatars.find(({ filename, n, m }) => filename.startsWith(section) || (n || m) === queryString.term)
+            const found = avatars.find(({ filename, n, m, p }) => filename.startsWith(section) || (m || n || p) === queryString.term)
             if (found) {
-                const { n, m, filename } = found
-                title = capitalCase(n || m)
+                const { n, m, p, index, filename } = found
+                title = capitalCase(m || n || p) + (index > 0 ? ` (${index})` : '')
                 description = `The avatar for ${title}`
                 icon = `https://intrepid-crusaders.blankstring.com/hotlink-ok/avatars/${filename}`
             }
