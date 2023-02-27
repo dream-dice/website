@@ -22,3 +22,4 @@ fs.writeFileSync(
     avatarsJson,
     JSON.stringify(avatars, null, 4)
 )
+console.log('written to', avatarsJson)

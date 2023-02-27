@@ -27,7 +27,9 @@
     "postbuild": "npm run snap && npm run api && gh-pages -d build",
     "eject": "react-scripts eject",
     "snap": "node --experimental-modules scripts/snap.mjs",
-    "api": "node scripts/api"
+    "api": "node scripts/api",
+    "compress-avatars": "./scripts/compress-avatars.sh",
+    "avatars": "npm run compress-avatars && node scripts/avatars.mjs"
   },
   "eslintConfig": {
     "extends": [
