@@ -1,12 +1,26 @@
 {
-  "sj": [
-    {
-      "name": "first-reading",
-      "title": "The Captain of the Flying Fish Ship",
-      "content": "/dm-notes/flying-fish-ship.md",
-      "date": "2023-02-28"
-    }
-  ],
-  "cos": [],
-  "cm": []
+    "cm": [
+        {
+            "index": 0,
+            "name": "notes",
+            "title": "Notes",
+            "content": "/dm-notes/cm/notes.md"
+        }
+    ],
+    "cos": [
+        {
+            "index": 0,
+            "name": "nodes",
+            "title": "Nodes",
+            "content": "/dm-notes/cos/nodes.md"
+        }
+    ],
+    "sj": [
+        {
+            "index": 0,
+            "name": "flying-fish-ship",
+            "title": "Flying Fish Ship",
+            "content": "/dm-notes/sj/flying-fish-ship.md"
+        }
+    ]
 }
