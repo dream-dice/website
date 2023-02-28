@@ -55,11 +55,6 @@ const Card = ({
                                 <img src={`/avatars/${image}.png`} alt={title} key={title} />
                             </div>
                         )}
-                        {index && (
-                            <div className={`card-index mr-2 is-${open ? 'open' : 'closed'} lato`}>
-                                <span>{index}</span>
-                            </div>
-                        )}
                         <span className={`text has-text-left is-size-${open ? '3' : '5'} is-size-${open ? '5' : '6'}-mobile`}>
                             {title}
                         </span>

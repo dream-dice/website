@@ -17,7 +17,7 @@ const Avatar = ({ m, n, p, d, index, filename }) => (
             <p className="title has-text-centered">{capitalCase(m || n || p)} {index > 0 ? `(${index})` : null}</p>
             <div className='is-flex is-justify-content-center mb-3 mt-1'>
                 <figure className="image is-128x128">
-                    <img src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
+                    <img alt={capitalCase(m || n || p)} src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
                 </figure>
             </div>
             <div className='buttons'>
@@ -35,9 +35,9 @@ const Avatar = ({ m, n, p, d, index, filename }) => (
 const Row = ({ avatars }) => <RenderIfVisible defaultHeight={450}>
     <div className="tile is-parent">
         <Avatar {...avatars[0]} />
-        {avatars[1] && <Avatar {...avatars[1]} /> || <NoAvatar />}
-        {avatars[2] && <Avatar {...avatars[2]} /> || <NoAvatar />}
-        {avatars[3] && <Avatar {...avatars[3]} /> || <NoAvatar />}
+        {(avatars[1] && <Avatar {...avatars[1]} />) || <NoAvatar />}
+        {(avatars[2] && <Avatar {...avatars[2]} />) || <NoAvatar />}
+        {(avatars[3] && <Avatar {...avatars[3]} />) || <NoAvatar />}
     </div>
 </RenderIfVisible>
 

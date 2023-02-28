@@ -10,7 +10,7 @@
     ],
     "nextSession": {
       "date": "2022-08-27T20:30:00.000Z",
-      "title": "Chapter 2 - Basic Training",
+      "title": "Basic Training",
       "description": "After completing orientation at the Spelljammer Academy it is time to start basic training.",
       "discord": "https://discord.com/channels/819872538548371517/1065282926662647929/1076814619676512276"
     }
@@ -44,7 +44,7 @@
     ],
     "nextSession": {
       "date": "2023-01-09T20:30:00.000Z",
-      "title": "Chapter 26 - First steps into Thither",
+      "title": "First steps into Thither",
       "description": "After fleeing in hot air balloons, the group finds themselves at the edge of Thither.",
       "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1059443925217189968"
     }
@@ -55,7 +55,7 @@
     "events": [],
     "nextSession": {
       "date": "2022-08-27T20:30:00.000Z",
-      "title": "Chapter 47 - The Final Showdown",
+      "title": "The Final Showdown",
       "description": "Madam Eva's card reading into fruition. It is time to smite the wretched king of Barovia, Strahd von Zarovich."
     }
   }

@@ -1,79 +1,92 @@
 {
-  "sj": [],
-  "cos": [
-    {
-      "name": "first-reading",
-      "title": "Madam Eva's First Reading",
-      "description": "This reading tells of a path to defeating your enemy.",
-      "content": "/appendix/first-reading.md"
-    },
-    {
-      "name": "second-reading",
-      "title": "Madam Eva's Second Reading",
-      "description": "This reading gives an insight into your enemies plans, giving you a chance to get ahead.",
-      "content": "/appendix/second-reading.md"
-    },
-    {
-      "name": "tome-of-strhad",
-      "title": "Tome of Strahd",
-      "description": "Resting atop Sergei's resting place you found the Tome of Strahd.",
-      "content": "/appendix/tome-of-strahd.md"
-    }
-  ],
-  "cm": [
-    {
-      "name": "carnival-map",
-      "title": "The Feywild Carnival Map",
-      "description": "This is a map given to everyone who enters the Feywild Carnival.",
-      "content": "/appendix/carnival-map.md"
-    },
-    {
-      "name": "matreous-song",
-      "title": "A Song About Matreous",
-      "description": "This song was composed by Timagast and dropped into Matreous's grave.",
-      "content": "/appendix/matreous-song.md"
-    },
-    {
-      "name": "candlekeep-rules",
-      "title": "The Rules of Candlekeep",
-      "description": "If any of these rules are broken, then the guilty party will be exiled.",
-      "content": "/appendix/candlekeep-rules.md"
-    },
-    {
-      "name": "mysterious-map",
-      "title": "Mysterious Map",
-      "description": "The map found in the \"Book of the Raven\".",
-      "content": "/appendix/mysterious-map.md"
-    },
-    {
-      "name": "vistani",
-      "title": "The Vistani",
-      "description": "Everything Kazryn Nyantani told you about the Vistani.",
-      "content": "/appendix/cm-vistani.md"
-    },
-    {
-      "name": "book-of-raven",
-      "title": "The Book of the Raven",
-      "description": "A summary of the Book of The Raven.",
-      "content": "/appendix/book-of-raven.md"
-    },
-    {
-      "name": "deep-creeping-darkness-ammendment",
-      "title": "A Deep and Creeping Darkness Ammendment",
-      "description": "The dwarven survivors from Vermillion left this ammendment for the book, \"A Deep and Creeping Darkness\".",
-      "content": "/appendix/deep-creeping-darkness-ammendment.md"
-    },
-    {
-      "name": "pendle-coven-song",
-      "title": "The Pendle Coven Song",
-      "description": "A song found in Chalet Brantifax.",
-      "content": "/appendix/pendle-coven-song.md"
-    },
-    {
-      "name": "scarlet-sash-manifesto",
-      "title": "Scarlet Sash Manifesto",
-      "description": "The manifesto for all member of the Scarlet Sash.",
-      "content": "/appendix/scarlet-sash-manifesto.md"
-    }
-  ]
+    "cm": [
+        {
+            "index": 0,
+            "name": "book-of-raven",
+            "title": "Book Of Raven",
+            "content": "/appendix/cm/book-of-raven.md"
+        },
+        {
+            "index": 1,
+            "name": "candlekeep-rules",
+            "title": "Candlekeep Rules",
+            "content": "/appendix/cm/candlekeep-rules.md"
+        },
+        {
+            "index": 2,
+            "name": "carnival-map",
+            "title": "Carnival Map",
+            "content": "/appendix/cm/carnival-map.md"
+        },
+        {
+            "index": 3,
+            "name": "cm-vistani",
+            "title": "Cm Vistani",
+            "content": "/appendix/cm/cm-vistani.md"
+        },
+        {
+            "index": 4,
+            "name": "deep-creeping-darkness-ammendment",
+            "title": "Deep Creeping Darkness Ammendment",
+            "content": "/appendix/cm/deep-creeping-darkness-ammendment.md"
+        },
+        {
+            "index": 5,
+            "name": "matreous-song",
+            "title": "Matreous Song",
+            "content": "/appendix/cm/matreous-song.md"
+        },
+        {
+            "index": 6,
+            "name": "mysterious-map",
+            "title": "Mysterious Map",
+            "content": "/appendix/cm/mysterious-map.md"
+        },
+        {
+            "index": 7,
+            "name": "pendle-coven-song",
+            "title": "Pendle Coven Song",
+            "content": "/appendix/cm/pendle-coven-song.md"
+        },
+        {
+            "index": 8,
+            "name": "scarlet-sash-manifesto",
+            "title": "Scarlet Sash Manifesto",
+            "content": "/appendix/cm/scarlet-sash-manifesto.md"
+        }
+    ],
+    "cos": [
+        {
+            "index": 0,
+            "name": "first-reading",
+            "title": "First Reading",
+            "content": "/appendix/cos/first-reading.md"
+        },
+        {
+            "index": 1,
+            "name": "rolando-invite",
+            "title": "Rolando Invite",
+            "content": "/appendix/cos/rolando-invite.md"
+        },
+        {
+            "index": 2,
+            "name": "second-reading",
+            "title": "Second Reading",
+            "content": "/appendix/cos/second-reading.md"
+        },
+        {
+            "index": 3,
+            "name": "tome-of-strahd",
+            "title": "Tome Of Strahd",
+            "content": "/appendix/cos/tome-of-strahd.md"
+        }
+    ],
+    "sj": [
+        {
+            "index": 0,
+            "name": "notes",
+            "title": "Notes",
+            "content": "/appendix/sj/notes.md"
+        }
+    ]
 }

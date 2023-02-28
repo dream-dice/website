@@ -1,1 +1,0 @@
-![Second Reading](/appendix/second-reading.png)

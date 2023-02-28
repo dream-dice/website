@@ -67,27 +67,20 @@ const Header = () => {
     let icon = `http://intrepid-crusaders.blankstring.com/icon.png`
 
     let { title, description } = metadata[pathname] || metadata.notFound
+    const contentPage = (contentData) => {
+        const game = pathname.split('/')[1]
+        const data = contentData[game].find(({ index }) => Number(index) === Number(section)) || null
+        if (data !== null) {
+            title = data.title
+            description = `The notes for ${data.title}`
+        }
+    }
     if (pathname.includes('notes') && section !== 'none') {
-        const game = pathname.split('/')[1]
-        const data = notes[game].find(({ index }) => index === section) || null
-        if (data !== null) {
-            title = data.title
-            description = data.description
-        }
+        contentPage(notes)
     } else if (pathname.includes('appendix') && section !== 'none') {
-        const game = pathname.split('/')[1]
-        const data = appendix[game].find(({ name }) => name === section) || null
-        if (data !== null) {
-            title = data.title
-            description = data.description
-        }
+        contentPage(appendix)
     } else if (pathname.includes('dmNotes') && section !== 'none') {
-        const game = pathname.split('/')[1]
-        const data = dmNotes[game].find(({ name }) => name === section) || null
-        if (data !== null) {
-            title = data.title
-            description = data.description
-        }
+        contentPage(dmNotes)
     } else if (pathname.includes('maps') && section !== 'none') {
         const data = maps.find(({ name }) => name === section) || null
         if (data !== null) {

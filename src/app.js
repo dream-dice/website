@@ -1,16 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import AppendixPage from './appendix-page';
-import CalendarPage from './calendar-page';
-import Game from './game';
-import Header from './header';
-import HomePage from './home-page';
-import MapsPage from './maps-page';
-import AvatarsPage from './avatars-page';
-import NotFound from './not-found-page';
-import NotesPage from './notes-page';
-import DmNotesPage from './dm-notes-page';
-import ShopAndServicesPage from './shop-and-services-page';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import CalendarPage from './calendar-page'
+import Game from './game'
+import Header from './header'
+import HomePage from './home-page'
+import MapsPage from './maps-page'
+import AvatarsPage from './avatars-page'
+import NotFound from './not-found-page'
+import NotesPage from './notes-page'
+import ShopAndServicesPage from './shop-and-services-page'
+
+import notes from './notes.json'
+import appendix from './appendix.json'
+import dmNotes from './dm-notes.json'
 
 const App = () => {
   return (
@@ -69,21 +71,21 @@ const App = () => {
                 <Route path='/shop/:section?' element={<ShopAndServicesPage />}></Route>
                 <Route path='/maps/:section?' element={<MapsPage />}></Route>
                 <Route path='/avatars/:section?' element={<AvatarsPage />}></Route>
-                <Route path='/cm' element={<NotesPage game='cm' />}></Route>
+                <Route path='/cm' element={<NotesPage base='notes' notes={notes} game='cm' />}></Route>
                 <Route path='/cm/calendar' element={<CalendarPage game='cm' />}></Route>
-                <Route path='/cm/notes/:section?' element={<NotesPage game='cm' />}></Route>
-                <Route path='/cm/appendix/:section?' element={<AppendixPage game='cm' />}></Route>
-                <Route path='/cm/dmNotes/:section?' element={<DmNotesPage game='cm' />}></Route>
-                <Route path='/cos' element={<NotesPage game='cos' />}></Route>
+                <Route path='/cm/notes/:section?' element={<NotesPage base='notes' notes={notes} game='cm' />}></Route>
+                <Route path='/cm/appendix/:section?' element={<NotesPage base='appendix' notes={appendix} game='cm' />}></Route>
+                <Route path='/cm/dmNotes/:section?' element={<NotesPage base='dmNotes' notes={dmNotes} game='cm' />}></Route>
+                <Route path='/cos' element={<NotesPage base='notes' notes={notes} game='cos' />}></Route>
                 <Route path='/cos/calendar' element={<CalendarPage game='cos' />}></Route>
-                <Route path='/cos/notes/:section?' element={<NotesPage game='cos' />}></Route>
-                <Route path='/cos/appendix/:section?' element={<AppendixPage game='cos' />}></Route>
-                <Route path='/cos/dmNotes/:section?' element={<DmNotesPage game='cos' />}></Route>
-                <Route path='/sj' element={<NotesPage game='sj' />}></Route>
+                <Route path='/cos/notes/:section?' element={<NotesPage base='notes' notes={notes} game='cos' />}></Route>
+                <Route path='/cos/appendix/:section?' element={<NotesPage base='appendix' notes={appendix} game='cos' />}></Route>
+                <Route path='/cos/dmNotes/:section?' element={<NotesPage base='dmNotes' notes={dmNotes} game='cos' />}></Route>
+                <Route path='/sj' element={<NotesPage base='notes' notes={notes} game='sj' />}></Route>
                 <Route path='/sj/calendar' element={<CalendarPage game='sj' />}></Route>
-                <Route path='/sj/notes/:section?' element={<NotesPage game='sj' />}></Route>
-                <Route path='/sj/appendix/:section?' element={<AppendixPage game='sj' />}></Route>
-                <Route path='/sj/dmNotes/:section?' element={<DmNotesPage game='sj' />}></Route>
+                <Route path='/sj/notes/:section?' element={<NotesPage base='notes' notes={notes} game='sj' />}></Route>
+                <Route path='/sj/appendix/:section?' element={<NotesPage base='appendix' notes={appendix} game='sj' />}></Route>
+                <Route path='/sj/dmNotes/:section?' element={<NotesPage base='dmNotes' notes={dmNotes} game='sj' />}></Route>
                 <Route element={<NotFound />}></Route>
               </Routes>
             </div>
