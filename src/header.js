@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { useLocation, useParams } from "react-router";
 import { Link } from 'react-router-dom';
 import appendix from './appendix.json';
+import dmNotes from './dm-notes.json';
 import Discord from './discord';
 import Icon from './icon';
 import maps from './maps.json';
@@ -76,6 +77,13 @@ const Header = () => {
     } else if (pathname.includes('appendix') && section !== 'none') {
         const game = pathname.split('/')[1]
         const data = appendix[game].find(({ name }) => name === section) || null
+        if (data !== null) {
+            title = data.title
+            description = data.description
+        }
+    } else if (pathname.includes('dmNotes') && section !== 'none') {
+        const game = pathname.split('/')[1]
+        const data = dmNotes[game].find(({ name }) => name === section) || null
         if (data !== null) {
             title = data.title
             description = data.description
