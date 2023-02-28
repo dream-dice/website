@@ -1,0 +1,1 @@
+So the players think the ship is haunted, however I have changed my mind and made it so that they were holograms, not ghosts

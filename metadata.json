@@ -27,6 +27,10 @@
     "title": "Appendix - Curse of Strahd",
     "description": "The appendix contains material which was shared in the Curse of Strahd campaign."
   },
+  "/cos/dmNotes": {
+    "title": "DM Notes - Curse of Strahd",
+    "description": "The DM notes for the Curse of Strahd campaign."
+  },
   "/cm": {
     "title": "Candlekeep Mysteries",
     "description": "Welcome to the Candlekeep Mysteries campaign."
@@ -43,6 +47,10 @@
     "title": "Appendix - Candlekeep Mysteries",
     "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign."
   },
+  "/cm/dmNotes": {
+    "title": "DM Notes - Candlekeep Mysteries",
+    "description": "The DM notes for the Candlekeep Mysteries campaign."
+  },
   "/sj": {
     "title": "Spelljammer",
     "description": "Welcome to the Spelljammer campaign."
@@ -58,6 +66,10 @@
   "/sj/appendix": {
     "title": "Appendix - Spelljammer",
     "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign."
+  },
+  "/sj/dmNotes": {
+    "title": "DM Notes - Spelljammer",
+    "description": "The DM notes for the Candlekeep Mysteries campaign."
   },
   "/shop": {
     "title": "Shop & Services",
