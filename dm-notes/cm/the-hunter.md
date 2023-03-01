@@ -1,0 +1,1 @@
+The hunter they killed is actually Zaraks. Once they kill/save the unicorn they will be rewarded with a diamond and a scroll of resurrection. They can either abandon the body, or use these two things to bring them back to life.

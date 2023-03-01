@@ -2,17 +2,17 @@
     "cm": [
         {
             "index": 0,
-            "name": "notes",
-            "title": "Notes",
-            "content": "/dm-notes/cm/notes.md"
+            "name": "the-hunter",
+            "title": "The Hunter",
+            "content": "/dm-notes/cm/the-hunter.md"
         }
     ],
     "cos": [
         {
             "index": 0,
-            "name": "nodes",
-            "title": "Nodes",
-            "content": "/dm-notes/cos/nodes.md"
+            "name": "planned-sessions",
+            "title": "Planned Sessions",
+            "content": "/dm-notes/cos/planned-sessions.md"
         }
     ],
     "sj": [
