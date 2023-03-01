@@ -254,7 +254,7 @@ const Header = () => {
                                 <HeroFootLink pathname={pathname} to='/' label='🏠 Home' />
                                 {showDefaultTab(cm) && <HeroFootLink pathname={pathname} to={'/cm'} label='🕯️ Candlekeep Mysteries' />}
                                 {showDefaultTab(sj) && <HeroFootLink pathname={pathname} to={'/sj'} label='👾 Spelljammer' />}
-                                {Boolean(cos) && <HeroFootLink pathname={pathname} to={'/cos'} label='🧛 Curse of Strahd' />}
+                                {cos === 'true' && <HeroFootLink pathname={pathname} to={'/cos'} label='🧛 Curse of Strahd' />}
                                 <HeroFootLink pathname={pathname} to={'/shop'} label='🛍️ Shops & Services' />
                                 <HeroFootLink pathname={pathname} to={'/maps'} label='📍 Maps' />
                                 {isGm && <HeroFootLink pathname={pathname} to={'/avatars'} label='🧑 Avatars' />}
