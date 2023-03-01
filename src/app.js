@@ -1,19 +1,18 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import AvatarsPage from './avatars-page'
 import CalendarPage from './calendar-page'
 import Game from './game'
 import Header from './header'
 import HomePage from './home-page'
 import MapsPage from './maps-page'
-import AvatarsPage from './avatars-page'
 import NotFound from './not-found-page'
 import NotesPage from './notes-page'
 import ShopAndServicesPage from './shop-and-services-page'
 
-import notes from './notes.json'
 import appendix from './appendix.json'
 import dmNotes from './dm-notes.json'
-import SettingsPage from './settings-page'
+import notes from './notes.json'
 
 const App = () => {
   return (
