@@ -190,3 +190,7 @@ blockquote {
   color: #fff;
   z-index: 666;
 }
+
+.panel-block {
+  background-color: #fff;
+}
