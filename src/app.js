@@ -20,7 +20,7 @@ const App = () => {
       <Router>
         <>
           <Routes>
-            <Route path='*' element={<Header />}></Route>
+            <Route path=':root?/:map?/:section?' element={<Header />}></Route>
           </Routes>
           <section className='section'>
             <div className='container'>

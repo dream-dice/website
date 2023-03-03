@@ -121,12 +121,26 @@ const Settings = ({
     </div>
 )
 
+const fetchChildren = async (path, setChildren) => {
+    try {
+        const res = await fetch(path, {
+            headers: {
+                accept: 'text/plain'
+            }
+        })
+        const children = await res.text()
+        if (children.includes('<!DOCTYPE html>')) setChildren('There was an issue getting this document')
+        else setChildren(children)
+    } catch (err) {
+        setChildren('There was an issue getting this page')
+    }
+}
+
 const Header = () => {
     let { pathname, search } = useLocation()
     pathname = pathname.replace(/\/$/g, '')
     if (pathname === '') pathname = '/'
-
-    const { section = 'none' } = useParams()
+    const { section = 'none', map = 'none' } = useParams()
 
     const [settingsVisisble, showSettings] = useState(false)
 
@@ -143,37 +157,61 @@ const Header = () => {
     const containsDm = 'dm' in queryString
     const containsMaster = pathname.includes('master')
     const isGm = containsDm || containsMaster || Cookies.get('gm') === 'true'
-    let icon = `http://intrepid-crusaders.blankstring.com/icon.png`
 
-    let { title, description } = metadata[pathname] || metadata.notFound
+    const [{ title, description, icon }, setMeta] = useState({
+        ...metadata[pathname] || metadata.notFound,
+        icon: 'http://intrepid-crusaders.blankstring.com/icon.png'
+    })
     const contentPage = (contentData) => {
         const game = pathname.split('/')[1]
         const data = contentData[game].find(({ index }) => Number(index) === Number(section)) || null
         if (data !== null) {
-            title = data.title
-            description = `The notes for ${data.title}`
+            setMeta({
+                title: data.title,
+                description: `The notes for ${data.title}`,
+                icon
+            })
+
+            fetchChildren(data.content, (description) => {
+                setMeta({
+                    title: data.title,
+                    description,
+                    icon
+                })
+            })
         }
     }
-    if (pathname.includes('notes') && section !== 'none') {
-        contentPage(notes)
-    } else if (pathname.includes('appendix') && section !== 'none') {
-        contentPage(appendix)
-    } else if (pathname.includes('dmNotes') && section !== 'none') {
-        contentPage(dmNotes)
-    } else if (pathname.includes('maps') && section !== 'none') {
-        const data = maps.find(({ name }) => name === section) || null
-        if (data !== null) {
-            title = data.title
-            description = data.description
-        }
-    } else if (pathname.includes('avatars')) {
-        if (section !== 'none' || 'term' in queryString) {
-            const found = avatars.find(({ filename, n, m, p }) => filename.startsWith(section) || (m || n || p) === queryString.term)
-            if (found) {
-                const { n, m, p, index, filename } = found
-                title = capitalCase(m || n || p) + (index > 0 ? ` (${index})` : '')
-                description = `The avatar for ${title}`
-                icon = `https://intrepid-crusaders.blankstring.com/hotlink-ok/avatars/${filename}`
+    const setMetaData = () => {
+        setMeta({
+            ...metadata[pathname] || metadata.notFound,
+            icon: 'http://intrepid-crusaders.blankstring.com/icon.png'
+        })
+        if (pathname.includes('notes') && section !== 'none') {
+            contentPage(notes)
+        } else if (pathname.includes('appendix') && section !== 'none') {
+            contentPage(appendix)
+        } else if (pathname.includes('dmNotes') && section !== 'none') {
+            contentPage(dmNotes)
+        } else if (pathname.includes('maps') && map !== 'none') {
+            const data = maps.find(({ name }) => name === map) || null
+            if (data !== null) {
+                setMeta({
+                    title: data.title,
+                    description: data.description,
+                    icon: data.filename
+                })
+            }
+        } else if (pathname.includes('avatars')) {
+            if (section !== 'none' || 'term' in queryString) {
+                const found = avatars.find(({ filename, n, m, p }) => filename.startsWith(section) || (m || n || p) === queryString.term)
+                if (found) {
+                    const { n, m, p, index, filename } = found
+                    setMeta({
+                        title: capitalCase(m || n || p) + (index > 0 ? ` (${index})` : ''),
+                        description: `The avatar for ${title}`,
+                        icon: `https://intrepid-crusaders.blankstring.com/hotlink-ok/avatars/${filename}`
+                    })
+                }
             }
         }
     }
@@ -185,7 +223,11 @@ const Header = () => {
         } else if (containsMaster) {
             Cookies.set('gm', true)
         }
-    }, [])
+    }, [containsDm, containsMaster])
+
+    useEffect(() => {
+        setMetaData()
+    }, [pathname, section])
 
     const showDefaultTab = (tab) => {
         if (!accepted) return true
