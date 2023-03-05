@@ -34,7 +34,7 @@ const Search = ({ data, filter, onChange }) => {
             placeholder='Search name'
             value={term}
             onChange={({ target: { value } }) => {
-                navigate(`${pathname}?${qs.stringify({...query, term: value})}`)
+                navigate(`${pathname}?${qs.stringify({ ...query, term: value })}`)
                 onChange(found(value))
             }}
         />

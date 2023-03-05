@@ -15,17 +15,8 @@ const filterNotes = (searchTerms) => ({ title }) =>
         ).length > 0
 
 const NotesPage = ({ game, notes, base }) => {
-    const { pathname, search } = useLocation()
-    const navigate = useNavigate()
     const { section = 'none' } = useParams()
-    const [data, setData] = useState([])
-
-    useEffect(() => {
-        if (section !== 'none') {
-            const query = qs.parse(search, {ignoreQueryPrefix: true})
-            navigate(`${pathname}?${qs.stringify({...query, term: section})}`)
-        }
-    }, [section])
+    const [data, setData] = useState(notes[game])
 
     return <div>
         <div>
@@ -39,7 +30,7 @@ const NotesPage = ({ game, notes, base }) => {
             {data
                 .filter(note => {
                     if (section === 'none') return true
-                    return Number(note.index) === Number(section)
+                    return `${note.index}` === section
                 })
                 .sort(({ index: left }, { index: right }) => {
                     if (right === 0) return 2

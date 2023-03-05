@@ -8,6 +8,10 @@ const LinkMarkdown = ({ href, children }) => {
     return <Link to={href}>{children}</Link>
 }
 
+const CheckbxMardown = ({checked}) => <label className='checkbox pr-1'>
+<input type='checkbox' defaultChecked={checked} />
+</label>
+
 const fetchChildren = async (path, setChildren) => {
     try {
         const res = await fetch(path, {
@@ -35,7 +39,8 @@ const Markdown = ({ path }) => {
             <ReactMarkdown
                 remarkPlugins={[gfm]}
                 components={{
-                    link: LinkMarkdown
+                    link: LinkMarkdown,
+                    input: CheckbxMardown
                 }}
                 children={children}
             />
