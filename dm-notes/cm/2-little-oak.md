@@ -1,0 +1,18 @@
+- [ ] The hot air balloon has 5 items for sale at any time, 4 are trinkets and 1 is a sawn-off horn
+- [ ] Tifa thanks them, and says she is going home. She gives them a diamond and a spell of resurrection
+- [ ] As she leaves the book says that's the end of it, thanks for completing the story, everyone levels up
+- [ ] If they bring Zarak back to life, I think he will say "I will talk if you can give me gold, a caves worth of gold"
+    - Most of the creatures in Zybilna’s palace, including Zybilna, are frozen in time. The hags of the Hourglass Coven used an artifact called Iggwilv’s Cauldron to accomplish this effect. Zarak doesn’t know exactly how the cauldron or its magic works.
+    - The self-proclaimed leader of the League of Malevolence is a human sorcerer named Kelek. He wants to take custody of a magic staff belonging to his hated rival, the wizard Ringlerun, who is among those frozen in Zybilna’s palace. Apparently, a unicorn’s horn is needed to free Ringlerun from temporal stasis, which would then enable Kelek to seize Ringlerun’s staff.
+    - Zargash, a human priest of Orcus, is another member of the League of Malevolence. Although he hopes to challenge Kelek’s leadership one day, Zargash won’t do anything about it as long as Kelek is protected by Warduke, a mercenary who has a flame tongue longsword.
+    - A fifth member of the League of Malevolence, a human warlock named Skylla, gets her magic from an archfey named Baba Yaga. Skylla knows more about Iggwilv’s Cauldron and the hags of the Hourglass Coven than anyone else (as far as Zarak knows). But she has gone missing, and none of the other members of the league know where to find her.
+- [ ] Wil tells them the plan again
+    - Will of the Feywild, the gang’s leader (described above)
+    - Bobi, a boisterous male dwarf growing his first whiskers
+    - Sloane, a sarcastic, ginger-haired female wood elf
+    - Zennor, a tenacious female orc
+    - **The Approach** Bobi, Sloane, Zennor, and Star will creep through the woods to the west of the tree and hide just out of sight of the screaming scarecrows (area L5). Meanwhile, Will will sneak around to the entrance to the kitchen (area L13) on the east side of the tree.
+    - **The Distraction** The characters will enter the goblin market (area L2) posing as travelers, purchase some sweets, and arrange for a meeting with the hag. During the meeting, the children will alert the screaming scarecrows and thereby lure the tin soldiers into the garden.
+    - **The Escape** While everyone is distracted, the characters will free the captives from the workshop (area L4) while Will climbs into the textile mill (area L12) to free the captives there. Once the children are set free, everyone will run back to Little Oak.
+- [ ] Squirt steps out and tells them about Matterhorn where Endolyn lives. He escaped after getting sentience from Zargash. He'll guide them if they want, all he wants is a friend, someone like him who is strange and likes to travel.
+- [ ] Squirt is empty and needs Boggle Oil, asks that either he can go with them or they can come back to him with some oil. Boggles can be found in Loomlurch.

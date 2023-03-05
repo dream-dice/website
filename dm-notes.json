@@ -2,9 +2,15 @@
     "cm": [
         {
             "index": 0,
-            "name": "the-hunter",
-            "title": "The Hunter",
-            "content": "/dm-notes/cm/the-hunter.md"
+            "name": "1-the-hunt",
+            "title": "1 The Hunt",
+            "content": "/dm-notes/cm/1-the-hunt.md"
+        },
+        {
+            "index": 1,
+            "name": "2-little-oak",
+            "title": "2 Little Oak",
+            "content": "/dm-notes/cm/2-little-oak.md"
         }
     ],
     "cos": [
