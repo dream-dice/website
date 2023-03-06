@@ -32,24 +32,30 @@
         },
         {
             "index": 6,
+            "name": "letters",
+            "title": "Letters",
+            "content": "/appendix/cm/letters.md"
+        },
+        {
+            "index": 7,
             "name": "matreous-song",
             "title": "Matreous Song",
             "content": "/appendix/cm/matreous-song.md"
         },
         {
-            "index": 7,
+            "index": 8,
             "name": "mysterious-map",
             "title": "Mysterious Map",
             "content": "/appendix/cm/mysterious-map.md"
         },
         {
-            "index": 8,
+            "index": 9,
             "name": "pendle-coven-song",
             "title": "Pendle Coven Song",
             "content": "/appendix/cm/pendle-coven-song.md"
         },
         {
-            "index": 9,
+            "index": 10,
             "name": "scarlet-sash-manifesto",
             "title": "Scarlet Sash Manifesto",
             "content": "/appendix/cm/scarlet-sash-manifesto.md"
