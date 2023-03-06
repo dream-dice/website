@@ -7,13 +7,7 @@
         "time": "2023-02-13T07:00:00.000Z",
         "value": "Joined the Academy"
       }
-    ],
-    "nextSession": {
-      "date": "2022-08-27T20:30:00.000Z",
-      "title": "Basic Training",
-      "description": "After completing orientation at the Spelljammer Academy it is time to start basic training.",
-      "discord": "https://discord.com/channels/819872538548371517/1065282926662647929/1076814619676512276"
-    }
+    ]
   },
   "cm": {
     "time": "2022-06-07T14:00:00.000Z",
@@ -41,22 +35,11 @@
         "time": "2022-05-24T07:00:00.000Z",
         "value": "Entered the Feywild"
       }
-    ],
-    "nextSession": {
-      "date": "2023-01-09T20:30:00.000Z",
-      "title": "First steps into Thither",
-      "description": "After fleeing in hot air balloons, the group finds themselves at the edge of Thither.",
-      "discord": "https://discord.com/channels/819872538548371517/905005742359216159/1059443925217189968"
-    }
+    ]
   },
   "cos": {
     "time": "2022-04-26T11:30:00.000Z",
     "weather": "Thunder and Heavy Rain, 4*C",
-    "events": [],
-    "nextSession": {
-      "date": "2022-08-27T20:30:00.000Z",
-      "title": "The Final Showdown",
-      "description": "Madam Eva's card reading into fruition. It is time to smite the wretched king of Barovia, Strahd von Zarovich."
-    }
+    "events": []
   }
 }
