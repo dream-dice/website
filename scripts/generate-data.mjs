@@ -15,6 +15,7 @@ export default (base) => {
                     const name = filename.replace('.md', '')
                     const title = capitalCase(name)
                     const content = `/${base}/${game}/${filename}`
+                    index = index + 1
                     if (name === 'summary') index = 0
                     if (name.startsWith('session-')) index = Number(name.replace('session-', ''))
                     newData[game].push(

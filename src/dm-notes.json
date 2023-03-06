@@ -1,15 +1,27 @@
 {
     "cm": [
         {
-            "index": 0,
-            "name": "the-hunt",
-            "title": "The Hunt",
-            "content": "/dm-notes/cm/the-hunt.md"
+            "index": 1,
+            "name": "1-the-hunt",
+            "title": "1 The Hunt",
+            "content": "/dm-notes/cm/1-the-hunt.md"
+        },
+        {
+            "index": 2,
+            "name": "2-little-oak",
+            "title": "2 Little Oak",
+            "content": "/dm-notes/cm/2-little-oak.md"
+        },
+        {
+            "index": 3,
+            "name": "3-loomlurch",
+            "title": "3 Loomlurch",
+            "content": "/dm-notes/cm/3-loomlurch.md"
         }
     ],
     "cos": [
         {
-            "index": 0,
+            "index": 1,
             "name": "planned-sessions",
             "title": "Planned Sessions",
             "content": "/dm-notes/cos/planned-sessions.md"
@@ -17,7 +29,7 @@
     ],
     "sj": [
         {
-            "index": 0,
+            "index": 1,
             "name": "flying-fish-ship",
             "title": "Flying Fish Ship",
             "content": "/dm-notes/sj/flying-fish-ship.md"

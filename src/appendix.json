@@ -1,55 +1,55 @@
 {
     "cm": [
         {
-            "index": 0,
+            "index": 1,
             "name": "book-of-raven",
             "title": "Book Of Raven",
             "content": "/appendix/cm/book-of-raven.md"
         },
         {
-            "index": 1,
+            "index": 2,
             "name": "candlekeep-rules",
             "title": "Candlekeep Rules",
             "content": "/appendix/cm/candlekeep-rules.md"
         },
         {
-            "index": 2,
+            "index": 3,
             "name": "carnival-map",
             "title": "Carnival Map",
             "content": "/appendix/cm/carnival-map.md"
         },
         {
-            "index": 3,
+            "index": 4,
             "name": "cm-vistani",
             "title": "Cm Vistani",
             "content": "/appendix/cm/cm-vistani.md"
         },
         {
-            "index": 4,
+            "index": 5,
             "name": "deep-creeping-darkness-ammendment",
             "title": "Deep Creeping Darkness Ammendment",
             "content": "/appendix/cm/deep-creeping-darkness-ammendment.md"
         },
         {
-            "index": 5,
+            "index": 6,
             "name": "matreous-song",
             "title": "Matreous Song",
             "content": "/appendix/cm/matreous-song.md"
         },
         {
-            "index": 6,
+            "index": 7,
             "name": "mysterious-map",
             "title": "Mysterious Map",
             "content": "/appendix/cm/mysterious-map.md"
         },
         {
-            "index": 7,
+            "index": 8,
             "name": "pendle-coven-song",
             "title": "Pendle Coven Song",
             "content": "/appendix/cm/pendle-coven-song.md"
         },
         {
-            "index": 8,
+            "index": 9,
             "name": "scarlet-sash-manifesto",
             "title": "Scarlet Sash Manifesto",
             "content": "/appendix/cm/scarlet-sash-manifesto.md"
@@ -57,25 +57,25 @@
     ],
     "cos": [
         {
-            "index": 0,
+            "index": 1,
             "name": "first-reading",
             "title": "First Reading",
             "content": "/appendix/cos/first-reading.md"
         },
         {
-            "index": 1,
+            "index": 2,
             "name": "rolando-invite",
             "title": "Rolando Invite",
             "content": "/appendix/cos/rolando-invite.md"
         },
         {
-            "index": 2,
+            "index": 3,
             "name": "second-reading",
             "title": "Second Reading",
             "content": "/appendix/cos/second-reading.md"
         },
         {
-            "index": 3,
+            "index": 4,
             "name": "tome-of-strahd",
             "title": "Tome Of Strahd",
             "content": "/appendix/cos/tome-of-strahd.md"
@@ -83,7 +83,7 @@
     ],
     "sj": [
         {
-            "index": 0,
+            "index": 1,
             "name": "notes",
             "title": "Notes",
             "content": "/appendix/sj/notes.md"
