@@ -6,7 +6,7 @@
     - Timagast loses his con +1
     - Cassandra loses her dex +1, and the Ghost leaves her, and the rhyme is subdued until they get to Matterhorn
 - [ ] Charlie talks to Florian and explains that their friend's horn was taken
-- [ ] He says the unicorn is currently cursed at Loomlurch, and asks them to reunite him and Lamorna. He was my boyfriend and Skabatha worked with the cultists to break our bond and steal his horn while corrupting me in the process.
+- [ ] He says the unicorn is currently cursed at Loomlurch, and asks them to reunite him and Elidon. He was my boyfriend and Skabatha worked with the cultists to break our bond and steal his horn while corrupting me in the process.
 - [ ] He can't leave the Wayward Pool, someone needs to protect it from people corrupting the pool or abusing it to lift curses that should have been left
 - [ ] The book says that the group suddenly remembered that Wil had a deal to save the children from Skabatha
 - [ ] The book also tells them that Cloud spots Tifa's footprints nearby

@@ -1,5 +1,10 @@
 [
     {
+        "m": "animated-drum",
+        "index": 0,
+        "filename": "m=animated-drum.png"
+    },
+    {
         "m": "blink-dog",
         "d": "blink-dog",
         "index": 1,
