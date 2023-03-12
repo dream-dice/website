@@ -14,10 +14,10 @@ const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
 const Avatar = ({ m, n, p, d, index, filename, tags }) => (
     <article className="tile is-child pl-2 pr-2">
         <div className='box'>
-            <p className="title has-text-centered">{capitalCase(m || n || p)} {index > 0 ? `(${index})` : null}</p>
+            <p className="title has-text-centered">{capitalCase(p || n || m)} {index > 0 ? `(${index})` : null}</p>
             <div className='is-flex is-justify-content-center mb-3 mt-1'>
                 <figure className="image is-128x128">
-                    <img alt={capitalCase(m || n || p)} src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
+                    <img alt={capitalCase(p || n || m)} src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
                 </figure>
             </div>
             <div className='buttons'>
