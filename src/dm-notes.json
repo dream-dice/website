@@ -27,6 +27,18 @@
             "name": "flying-fish-ship",
             "title": "Flying Fish Ship",
             "content": "/dm-notes/sj/flying-fish-ship.md"
+        },
+        {
+            "index": 2,
+            "name": "planets",
+            "title": "Planets",
+            "content": "/dm-notes/sj/planets.md"
+        },
+        {
+            "index": 3,
+            "name": "the-tyrat-ship",
+            "title": "The Tyrat Ship",
+            "content": "/dm-notes/sj/the-tyrat-ship.md"
         }
     ]
 }

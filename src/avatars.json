@@ -2,153 +2,185 @@
     {
         "m": "animated-drum",
         "index": 0,
-        "filename": "m=animated-drum.png"
+        "filename": "m=animated-drum.png",
+        "tags": []
     },
     {
         "m": "blink-dog",
         "d": "blink-dog",
         "index": 1,
-        "filename": "m=blink-dog_d=blink-dog+1.png"
+        "filename": "m=blink-dog_d=blink-dog+1.png",
+        "tags": []
     },
     {
         "m": "blink-dog",
         "d": "blink-dog",
         "index": 0,
-        "filename": "m=blink-dog_d=blink-dog.png"
+        "filename": "m=blink-dog_d=blink-dog.png",
+        "tags": []
     },
     {
         "m": "elf",
-        "t1": "red-hair",
         "index": 0,
-        "filename": "m=elf_t1=female_t1=red-hair.png"
+        "filename": "m=elf_t1=female_t2=red-hair.png",
+        "tags": [
+            "female",
+            "red-hair"
+        ]
     },
     {
         "m": "human",
-        "t1": "female",
         "index": 0,
-        "filename": "m=human_t1=female_t2.png"
+        "filename": "m=human_t1=female.png",
+        "tags": [
+            "female"
+        ]
     },
     {
         "m": "magmin",
         "d": "magmin",
         "index": 0,
-        "filename": "m=magmin_d=magmin.png"
+        "filename": "m=magmin_d=magmin.png",
+        "tags": []
     },
     {
         "n": "grazzt",
         "d": "grazzt",
         "index": 0,
-        "filename": "n=grazzt_d=grazzt.png"
+        "filename": "n=grazzt_d=grazzt.png",
+        "tags": []
     },
     {
         "n": "iggwilv",
         "d": "iggwilv-the-witch-queen",
         "index": 0,
-        "filename": "n=iggwilv_d=iggwilv-the-witch-queen.png"
+        "filename": "n=iggwilv_d=iggwilv-the-witch-queen.png",
+        "tags": []
     },
     {
         "n": "reya-mantlemorn",
         "index": 0,
-        "filename": "n=reya-mantlemorn.png"
+        "filename": "n=reya-mantlemorn.png",
+        "tags": []
     },
     {
         "p": "alfalfa",
         "index": 0,
-        "filename": "p=alfalfa.png"
+        "filename": "p=alfalfa.png",
+        "tags": []
     },
     {
         "p": "amythystina",
         "index": 0,
-        "filename": "p=amythystina.png"
+        "filename": "p=amythystina.png",
+        "tags": []
     },
     {
         "p": "biff",
         "index": 0,
-        "filename": "p=biff.png"
+        "filename": "p=biff.png",
+        "tags": []
     },
     {
         "p": "blobby",
         "index": 0,
-        "filename": "p=blobby.png"
+        "filename": "p=blobby.png",
+        "tags": []
     },
     {
         "p": "cassandra",
         "index": 0,
-        "filename": "p=cassandra.png"
+        "filename": "p=cassandra.png",
+        "tags": []
     },
     {
         "p": "chip",
         "index": 0,
-        "filename": "p=chip.png"
+        "filename": "p=chip.png",
+        "tags": []
     },
     {
         "p": "cloud",
         "index": 0,
-        "filename": "p=cloud.png"
+        "filename": "p=cloud.png",
+        "tags": []
     },
     {
         "p": "craid-simms",
         "index": 0,
-        "filename": "p=craid-simms.png"
+        "filename": "p=craid-simms.png",
+        "tags": []
     },
     {
         "p": "dalrig-bloodmantle",
         "index": 0,
-        "filename": "p=dalrig-bloodmantle.png"
+        "filename": "p=dalrig-bloodmantle.png",
+        "tags": []
     },
     {
         "p": "firewatch",
         "index": 0,
-        "filename": "p=firewatch.png"
+        "filename": "p=firewatch.png",
+        "tags": []
     },
     {
         "p": "fluck",
         "index": 0,
-        "filename": "p=fluck.png"
+        "filename": "p=fluck.png",
+        "tags": []
     },
     {
         "p": "harryet",
         "index": 0,
-        "filename": "p=harryet.png"
+        "filename": "p=harryet.png",
+        "tags": []
     },
     {
         "p": "hiplomus-boo",
         "index": 0,
-        "filename": "p=hiplomus-boo.png"
+        "filename": "p=hiplomus-boo.png",
+        "tags": []
     },
     {
         "p": "larielle",
         "index": 0,
-        "filename": "p=larielle.png"
+        "filename": "p=larielle.png",
+        "tags": []
     },
     {
         "p": "nine-seven",
         "index": 0,
-        "filename": "p=nine-seven.png"
+        "filename": "p=nine-seven.png",
+        "tags": []
     },
     {
         "p": "rodney",
         "index": 0,
-        "filename": "p=rodney.png"
+        "filename": "p=rodney.png",
+        "tags": []
     },
     {
         "p": "tialha",
         "index": 0,
-        "filename": "p=tialha.png"
+        "filename": "p=tialha.png",
+        "tags": []
     },
     {
         "p": "ugluk",
         "index": 0,
-        "filename": "p=ugluk.png"
+        "filename": "p=ugluk.png",
+        "tags": []
     },
     {
         "p": "wigberta",
         "index": 0,
-        "filename": "p=wigberta.png"
+        "filename": "p=wigberta.png",
+        "tags": []
     },
     {
         "p": "wyrd",
         "index": 0,
-        "filename": "p=wyrd.png"
+        "filename": "p=wyrd.png",
+        "tags": []
     }
 ]

@@ -16,6 +16,13 @@ fs.readdirSync(avatarsDir)
                 .concat([['index', Number(index)]])
                 .concat([['filename', filename]])
         )
+
+        const tags = [...Object.keys(value)].filter(key => key.startsWith('t'))
+        value.tags = value.tags || []
+        tags.forEach(tag => {
+            value.tags.push(value[tag])
+            delete value[tag]
+        })
         avatars.push(value)
     })
 fs.writeFileSync(
