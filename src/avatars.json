@@ -17,6 +17,18 @@
         "filename": "m=blink-dog_d=blink-dog.png"
     },
     {
+        "m": "elf",
+        "t1": "red-hair",
+        "index": 0,
+        "filename": "m=elf_t1=female_t1=red-hair.png"
+    },
+    {
+        "m": "human",
+        "t1": "female",
+        "index": 0,
+        "filename": "m=human_t1=female_t2.png"
+    },
+    {
         "m": "magmin",
         "d": "magmin",
         "index": 0,
@@ -33,6 +45,11 @@
         "d": "iggwilv-the-witch-queen",
         "index": 0,
         "filename": "n=iggwilv_d=iggwilv-the-witch-queen.png"
+    },
+    {
+        "n": "reya-mantlemorn",
+        "index": 0,
+        "filename": "n=reya-mantlemorn.png"
     },
     {
         "p": "alfalfa",

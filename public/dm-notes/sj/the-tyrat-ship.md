@@ -1,0 +1,17 @@
+- [ ] Mica's is an odd one out and is joining the crew
+- [ ] Tarto is in the Sky Dock to debrief everyone
+    - [ ] Their first cadet mission
+    - [ ] There is a Tyrant ship in H'Catha
+    - [ ] They need to navigate there, install a Spelljammer helm on the Tyrant ship
+    - [ ] Inspect the ship and repair it if needed
+    - [ ] Return to the Academy with the ship
+- [ ] The crew, plus Mica can choose their crew, they can pick up to 2 more people to fly their ship. I want them to design 2 characters. Nothing complex, their species and how they fight
+- [ ] They need 26 days worth of provisions, and the Academy is only willing to give them enough for what is needed. This means if they stop off they need to get their own supplies and bear in mind that they need to get there and back again with enough for everyone
+- [ ] They can fish for food along the way, but they need enough for everyone who needs food
+- [ ] The mission reward is 200gp each, but for each full day spent extra reduces the money by 50gp. So if they spend 2 days going in the wrong direction they would get no rewards. This is the price for staying too long
+- [ ] If this happens then everyone on board will want compensation or fight and leave
+- [ ] I am happy for them to go do something along the way, they get a distress call as they pass Chanoda
+- [ ] They get warning as they pass other planets
+- [ ] They can stop off at the trading post
+- [ ] Otherwise they get to the ship
+- [ ] 

@@ -95,9 +95,57 @@ const AvatarsPage = () => {
 
     return (
         <>
-            <p className='content mt-5 mb-5 is-size-5'>
-                This page contains all the Avatars hosted for my campaigns. I don't own the images from these and are used for personal use in hobby games and not for profit.
-            </p>
+            <div className='content mt-5 mb-5 is-size-5'>
+                <p className='mb-1'>
+                    This page contains all the Avatars hosted for my campaigns. I don't own the images from these and are used for personal use in hobby games and not for profit.
+                </p>
+                <p className='mb-1'>
+                    Each file has a name to help find and filter an avatar. This table describe the file names. The files follow the pattern "key1=value_key2=value-with-spaces"
+                </p>
+                <div clasName="table-container">
+                    <table className='table is-striped is-narrow'>
+                        <thead>
+                            <tr>
+                                <td>Key</td>
+                                <td>Name</td>
+                                <td>Comment</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>m</td>
+                                <td>Monster</td>
+                                <td>The monster name or race</td>
+                            </tr>
+                            <tr>
+                                <td>p</td>
+                                <td>Player</td>
+                                <td>A player token</td>
+                            </tr>
+                            <tr>
+                                <td>n</td>
+                                <td>Named</td>
+                                <td>A named token</td>
+                            </tr>
+                            <tr>
+                                <td>d</td>
+                                <td>DND Beyond</td>
+                                <td>The token has a link in DDB with this name</td>
+                            </tr>
+                            <tr>
+                                <td>tX</td>
+                                <td>Tag</td>
+                                <td>A tag to describe tokens</td>
+                            </tr>
+                            <tr>
+                                <td>+I</td>
+                                <td>Index</td>
+                                <td>Increment for same token</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
             <Search
                 filter={filterAvatars}

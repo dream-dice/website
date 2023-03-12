@@ -2,18 +2,12 @@
     "cm": [
         {
             "index": 1,
-            "name": "1-the-hunt",
-            "title": "1 The Hunt",
-            "content": "/dm-notes/cm/1-the-hunt.md"
-        },
-        {
-            "index": 2,
             "name": "2-little-oak",
             "title": "2 Little Oak",
             "content": "/dm-notes/cm/2-little-oak.md"
         },
         {
-            "index": 3,
+            "index": 2,
             "name": "3-loomlurch",
             "title": "3 Loomlurch",
             "content": "/dm-notes/cm/3-loomlurch.md"
