@@ -1,1 +1,38 @@
-So the players think the ship is haunted. I have changed my mind and made it so that they were holograms, not ghosts
+- [ ] They have **40 minutes** before Hipo runs out of air
+- [ ] The last ghost is a broken's ships log
+- [ ] It tries to attack and says "Unable to load battle sequence, sustained too much damage"
+- [ ] On an **investigation DC 12** they work out the log is in a pack with 4 cells available and it is missing 3
+- [ ] Captain Marty says without the other 75% of the log he can only tell them about the asteroid field
+- [ ] He explains that the other 75% should be apparitions and they need repairing
+- [ ] The group can still repair the things they found, or they can move on
+    - [ ] One knows they were **chased by a ship**
+    - [ ] Another knows they were **escorting a person** of importance on board, who **died in the asteroid field**
+    - [ ] The last one knows that the **ship is crewed by the damned** and the person they were carrying was a **necromancer in custody**
+- [ ] When they board the ship Abajizn will comment on their work
+- [ ] Roll another flight to see if they take any more damage in the asteroid field
+- [ ] When they get to the edge they shows up
+- [ ] The battle goes on until
+    - [ ] The ship is 50%
+    - [ ] The crew boards their ship
+    - [ ] The skeleton boards the crews ship
+    - [ ] The crew is too far away for the ship to catch up
+- [ ] On the way they come across the rivalship
+- [ ] They can choose to help or not, the ship took too much damage from the asteroids and is losing air fast
+    - [ ] They can toe the ship, it isn't ruined
+    - [ ] They could ask the crew to get on their ship
+- [ ] Once this is resolved, an explosion occurs
+- [ ] The simulation breaks down
+- [ ] The crew level up to level 3
+- [ ] It is up to the group to investigate sabotage or not
+- [ ] If they ignore it, rumors spread of sabotage and perhaps someone in the newest batch of the training crew is to blame
+- [ ] Without evidence, they can't do anything
+- [ ] I like to think others start to blame them for it in passing "I reckon Blobby is smart enough to tamper with the simulation"
+- [ ] The next day they get their debriefing and reward
+    - [ ] They passed, they only needed to get to the ship and back alive
+    - [ ] They get 5gp each for each piece of log book recovered
+    - [ ] The broken-down crew was a test, they get 10gp each if they stopped to save them
+    - [ ] Navigation was a test, they get 10gp each, reduce by 5gp each time they crashed
+    - [ ] They destroy the pirates with minimal damage, 50gp
+    - [ ] They escape the pirates with minimal damage, 30gp
+    - [ ] If they take 75% damage or more, or the group do poorly but survive they get 10gp
+- [ ] As part of the debrief they are asked to work out how they could have done better, things they liked as part of the crew and things they disliked 
