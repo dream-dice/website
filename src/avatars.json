@@ -34,6 +34,14 @@
         "tags": []
     },
     {
+        "m": "eladrin",
+        "index": 0,
+        "filename": "m=eladrin_t1=male.png",
+        "tags": [
+            "male"
+        ]
+    },
+    {
         "m": "elf",
         "index": 0,
         "filename": "m=elf_t1=female_t2=red-hair.png",
