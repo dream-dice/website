@@ -203,11 +203,11 @@ const Header = () => {
             }
         } else if (pathname.includes('avatars')) {
             if (section !== 'none' || 'term' in queryString) {
-                const found = avatars.find(({ filename, n, m, p }) => filename.startsWith(section) || (p || n || m) === queryString.term)
+                const found = avatars.find(({ filename, i, n, m, p }) => filename.startsWith(section) || (p || n || m || i) === queryString.term)
                 if (found) {
-                    const { n, m, p, index, filename } = found
+                    const { i, n, m, p, index, filename } = found
                     setMeta({
-                        title: capitalCase(p || n || m) + (index > 0 ? ` (${index})` : ''),
+                        title: capitalCase(p || n || m || i) + (index > 0 ? ` (${index})` : ''),
                         description: `The avatar for ${title}`,
                         icon: `https://intrepid-crusaders.blankstring.com/hotlink-ok/avatars/${filename}`
                     })

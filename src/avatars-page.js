@@ -11,13 +11,13 @@ import Search from './search'
 
 const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
 
-const Avatar = ({ m, n, p, d, index, filename, tags }) => (
+const Avatar = ({ i, m, n, p, d, index, filename, tags }) => (
     <article className="tile is-child pl-2 pr-2">
         <div className='box'>
-            <p className="title has-text-centered">{capitalCase(p || n || m)} {index > 0 ? `(${index})` : null}</p>
+            <p className="title has-text-centered">{capitalCase(p || n || m || i)} {index > 0 ? `(${index})` : null}</p>
             <div className='is-flex is-justify-content-center mb-3 mt-1'>
-                <figure className="image is-128x128">
-                    <img alt={capitalCase(p || n || m)} src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
+                <figure className="image is-128x128" style={{backgroundColor: i ? '#3F3F3F' : 'transparent'}}>
+                    <img alt={capitalCase(p || n || m || i)} src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
                 </figure>
             </div>
             <div className='buttons'>
@@ -62,7 +62,7 @@ const AvatarsPage = () => {
     const { section = 'none' } = useParams()
     const navigate = useNavigate()
     const { search } = useLocation()
-    const { term = '', player = false, named = false } = qs.parse(search, { ignoreQueryPrefix: true })
+    const { term = '', player = 'false', named = 'false', monster = 'true', icon = 'false' } = qs.parse(search, { ignoreQueryPrefix: true })
 
     const isGm = Cookies.get('gm')
 
@@ -70,7 +70,7 @@ const AvatarsPage = () => {
         if (section !== 'none') {
             const found = avatars.find(({ filename }) => filename.includes(section))
             setData([found])
-            if (found) navigate(`/avatars?term=${found.m || found.n || found.p}&named=${'n' in found}&player=${'p' in found}`)
+            if (found) navigate(`/avatars?term=${found.m || found.n || found.p || found.i}&named=${'n' in found}&player=${'p' in found}&icon=${'i' in found}&monster=${'m' in found}`)
             else navigate(`/avatars?term=${section}`)
         }
     }, [])
@@ -78,9 +78,11 @@ const AvatarsPage = () => {
     if (!isGm) return <NotFound />
 
     const filtered = data
-        .filter(({ n, p }) => {
+        .filter(({ n, p, m, i }) => {
             if (typeof p !== 'undefined') return player === 'true'
             if (typeof n !== 'undefined') return named === 'true'
+            if (typeof m !== 'undefined') return monster === 'true'
+            if (typeof i !== 'undefined') return icon === 'true'
             return true
         })
 
@@ -107,7 +109,7 @@ const AvatarsPage = () => {
                 <p className='mb-1'>
                     Each file has a name to help find and filter an avatar. This table describe the file names. The files follow the pattern "key1=value_key2=value-with-spaces"
                 </p>
-                <div clasName="table-container">
+                <div className="table-container">
                     <table className='table is-striped is-narrow'>
                         <thead>
                             <tr>
@@ -131,6 +133,11 @@ const AvatarsPage = () => {
                                 <td>n</td>
                                 <td>Named</td>
                                 <td>A named token</td>
+                            </tr>
+                            <tr>
+                                <td>i</td>
+                                <td>Icon</td>
+                                <td>A white icon</td>
                             </tr>
                             <tr>
                                 <td>d</td>
@@ -165,8 +172,24 @@ const AvatarsPage = () => {
                 <label className='checkbox mr-2'>
                     <input
                         type='checkbox'
+                        checked={monster === 'true'}
+                        onChange={(evt) => { navigate(`/avatars?term=${term}&monster=${evt.target.checked}&player=${player}&named=${named}&icon=${icon}`) }}
+                    />
+                    <span className='pl-1'>Show monster tokens</span>
+                </label>
+                <label className='checkbox mr-2'>
+                    <input
+                        type='checkbox'
+                        checked={icon === 'true'}
+                        onChange={(evt) => { navigate(`/avatars?term=${term}&monster=${monster}&player=${player}&named=${named}&icon=${evt.target.checked}`) }}
+                    />
+                    <span className='pl-1'>Show icons</span>
+                </label>
+                <label className='checkbox mr-2'>
+                    <input
+                        type='checkbox'
                         checked={player === 'true'}
-                        onChange={(evt) => { navigate(`/avatars?term=${term}&player=${evt.target.checked}&named=${named}`) }}
+                        onChange={(evt) => { navigate(`/avatars?term=${term}&monster=${monster}&player=${evt.target.checked}&named=${named}&icon=${icon}`) }}
                     />
                     <span className='pl-1'>Show player tokens</span>
                 </label>
@@ -174,7 +197,7 @@ const AvatarsPage = () => {
                     <input
                         type='checkbox'
                         checked={named === 'true'}
-                        onChange={(evt) => { navigate(`/avatars?term=${term}&player=${player}&named=${evt.target.checked}`) }}
+                        onChange={(evt) => { navigate(`/avatars?term=${term}&monster=${monster}&player=${player}&named=${evt.target.checked}&icon=${icon}`) }}
                     />
                     <span className='pl-1'>Show named tokens</span>
                 </label>
