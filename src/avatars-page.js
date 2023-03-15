@@ -11,7 +11,9 @@ import Search from './search'
 
 const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
 
-const Avatar = ({ i, m, n, p, d, index, filename, tags }) => (
+const Avatar = ({ i, m, n, p, d, index, filename, tags }) => {
+    console.log(i, m, n, p, d, filename)
+    return (
     <article className="tile is-child pl-2 pr-2">
         <div className='box'>
             <p className="title has-text-centered">{capitalCase(p || n || m || i)} {index > 0 ? `(${index})` : null}</p>
@@ -36,6 +38,7 @@ const Avatar = ({ i, m, n, p, d, index, filename, tags }) => (
         </div>
     </article>
 )
+            }
 
 const Row = ({ avatars }) => <RenderIfVisible defaultHeight={450}>
     <div className="tile is-parent">
