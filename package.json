@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build-data && react-scripts build",
+    "build": "npm run avatars && npm run build-data && react-scripts build",
     "postbuild": "npm run snap && npm run api && gh-pages -d build",
     "eject": "react-scripts eject",
     "build-data": "node scripts/build-data.mjs",

@@ -34,14 +34,6 @@
         "tags": []
     },
     {
-        "m": "eladrin",
-        "index": 0,
-        "filename": "m=eladrin_t1=male.png",
-        "tags": [
-            "male"
-        ]
-    },
-    {
         "m": "elf",
         "index": 0,
         "filename": "m=elf_t1=female_t2=red-hair.png",
@@ -85,6 +77,15 @@
         "index": 0,
         "filename": "m=plasmoid_d=2821189-plasmoid-explorer.png",
         "tags": []
+    },
+    {
+        "m": "spring-eladrin",
+        "d": "2560921-spring-eladrin",
+        "index": 0,
+        "filename": "m=spring-eladrin_d=2560921-spring-eladrin_t1=male.png",
+        "tags": [
+            "male"
+        ]
     },
     {
         "m": "thri-kreen",
@@ -233,6 +234,12 @@
         "tags": []
     },
     {
+        "p": "florian",
+        "index": 0,
+        "filename": "p=florian.png",
+        "tags": []
+    },
+    {
         "p": "fluck",
         "index": 0,
         "filename": "p=fluck.png",
@@ -272,6 +279,12 @@
         "p": "tialha",
         "index": 0,
         "filename": "p=tialha.png",
+        "tags": []
+    },
+    {
+        "p": "timagast",
+        "index": 0,
+        "filename": "p=timagast.png",
         "tags": []
     },
     {
