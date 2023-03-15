@@ -1,5 +1,11 @@
 [
     {
+        "i": "window",
+        "index": 0,
+        "filename": "i=window.png",
+        "tags": []
+    },
+    {
         "m": "animated-drum",
         "index": 0,
         "filename": "m=animated-drum.png",
