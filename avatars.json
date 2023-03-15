@@ -548,6 +548,12 @@
         "tags": []
     },
     {
+        "p": "arty",
+        "index": 0,
+        "filename": "p=arty.png",
+        "tags": []
+    },
+    {
         "p": "biff",
         "index": 0,
         "filename": "p=biff.png",
@@ -564,6 +570,14 @@
         "index": 0,
         "filename": "p=cassandra.png",
         "tags": []
+    },
+    {
+        "p": "cassandra",
+        "index": 0,
+        "filename": "p=cassandra_t1=hybrid.png",
+        "tags": [
+            "hybrid"
+        ]
     },
     {
         "p": "chip",
@@ -590,6 +604,12 @@
         "tags": []
     },
     {
+        "p": "dwight",
+        "index": 0,
+        "filename": "p=dwight.png",
+        "tags": []
+    },
+    {
         "p": "firewatch",
         "index": 0,
         "filename": "p=firewatch.png",
@@ -608,6 +628,24 @@
         "tags": []
     },
     {
+        "p": "glim",
+        "index": 0,
+        "filename": "p=glim.png",
+        "tags": []
+    },
+    {
+        "p": "godfrey",
+        "index": 0,
+        "filename": "p=godfrey.png",
+        "tags": []
+    },
+    {
+        "p": "gorek",
+        "index": 0,
+        "filename": "p=gorek.png",
+        "tags": []
+    },
+    {
         "p": "harryet",
         "index": 0,
         "filename": "p=harryet.png",
@@ -620,15 +658,45 @@
         "tags": []
     },
     {
+        "p": "iorek",
+        "index": 0,
+        "filename": "p=iorek.png",
+        "tags": []
+    },
+    {
+        "p": "ka",
+        "index": 0,
+        "filename": "p=ka.png",
+        "tags": []
+    },
+    {
+        "p": "kazu",
+        "index": 0,
+        "filename": "p=kazu.png",
+        "tags": []
+    },
+    {
         "p": "larielle",
         "index": 0,
         "filename": "p=larielle.png",
         "tags": []
     },
     {
+        "p": "malus",
+        "index": 0,
+        "filename": "p=malus.png",
+        "tags": []
+    },
+    {
         "p": "nine-seven",
         "index": 0,
         "filename": "p=nine-seven.png",
+        "tags": []
+    },
+    {
+        "p": "poji",
+        "index": 0,
+        "filename": "p=poji.png",
         "tags": []
     },
     {
@@ -668,8 +736,31 @@
         "tags": []
     },
     {
+        "p": "xerus",
         "index": 0,
-        "filename": "stairs.png",
+        "filename": "p=xerus.png",
+        "tags": []
+    },
+    {
+        "p": "xerus",
+        "index": 0,
+        "filename": "p=xerus_t1=hybrid.png",
+        "tags": [
+            "hybrid"
+        ]
+    },
+    {
+        "p": "xerus",
+        "index": 0,
+        "filename": "p=xerus_t1=wolf.png",
+        "tags": [
+            "wolf"
+        ]
+    },
+    {
+        "p": "zordar",
+        "index": 0,
+        "filename": "p=zordar.png",
         "tags": []
     }
 ]
