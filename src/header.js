@@ -204,9 +204,10 @@ const Header = () => {
                 const found = avatars.find(({ filename, i, n, m, p }) => filename.startsWith(section) || (p || n || m || i) === queryString.term)
                 if (found) {
                     const { i, n, m, p, index, filename } = found
+                    const name = capitalCase(p || n || m || i) + (index > 0 ? ` (${index})` : '')
                     setMeta({
-                        title: capitalCase(p || n || m || i) + (index > 0 ? ` (${index})` : ''),
-                        description: `The avatar for ${title}`,
+                        title: capitalCase(name),
+                        description: `The avatar for ${name}`,
                         icon: `https://intrepid-crusaders.blankstring.com/hotlink-ok/avatars/${filename}`
                     })
                 }
