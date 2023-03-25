@@ -12,9 +12,10 @@ import Search from './search'
 const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
 
 const Avatar = ({ i, m, n, p, d, index, filename, tags }) => (
-    <RenderIfVisible defaultHeight={300}>
-        <article className="tile is-child pl-2 pr-2">
-            <div className='box mb-3'>
+
+    <article className="tile is-child pl-2 pr-2">
+        <div className='box mb-3'>
+            <RenderIfVisible defaultHeight={300}>
                 <div style={{ maxHeight: 300, overflow: 'auto' }}>
                     <p className="title has-text-centered">{capitalCase(p || n || m || i)} {index > 0 ? `(${index})` : null}</p>
                     <div className='is-flex is-justify-content-center mb-3 mt-1'>
@@ -36,9 +37,10 @@ const Avatar = ({ i, m, n, p, d, index, filename, tags }) => (
                     </div>
                     <p className='content'>{filename}</p>
                 </div>
-            </div>
-        </article>
-    </RenderIfVisible>
+            </RenderIfVisible>
+        </div>
+    </article>
+
 )
 
 const Row = ({ avatars }) => <div className="tile is-parent">
@@ -169,8 +171,6 @@ const AvatarsPage = () => {
                     setData(data)
                 }}
             />
-
-
             <div className='mb-2'>
                 <label className='checkbox mr-2'>
                     <input
@@ -204,8 +204,13 @@ const AvatarsPage = () => {
                     />
                     <span className='pl-1'>Show named tokens</span>
                 </label>
-            </div>
 
+            </div>
+            <div className='mb-2'>
+                <label>
+                    Showing: {filtered.length} / {avatars.length}
+                </label>
+            </div>
             <div className="tile is-ancestor">
                 <div className="tile is-vertical is-12">
                     {rows.map((row) => <Row key={row.map(({ filename }) => filename).join('_')} avatars={row} />)}
