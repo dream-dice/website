@@ -4,88 +4,77 @@
         "description": "The top of the Tyrant ship from Spellhammer, but it is Arabian themed.",
         "filename": "maps/arabian-tyrant-ship-top.jpg",
         "name": "arabian-tyrant-ship-top",
-        "date": "2023-02-25",
-        "hide": true
+        "date": "2023-02-25"
     },
     {
         "title": "Tyrant Ship Middle",
         "description": "The middle of the Tyrant ship from Spellhammer, but it is Arabian themed.",
         "filename": "maps/arabian-tyrant-ship-middle.jpg",
         "name": "arabian-tyrant-ship-middle",
-        "date": "2023-02-25",
-        "hide": true
+        "date": "2023-02-25"
     },
     {
         "title": "Tyrant Ship Bottom",
         "description": "The bottom of the Tyrant ship from Spellhammer, but it is Arabian themed.",
         "filename": "maps/arabian-tyrant-ship-bottom.jpg",
         "name": "arabian-tyrant-ship-bottom",
-        "date": "2023-02-25",
-        "hide": true
+        "date": "2023-02-25"
     },
     {
         "title": "Corrupt Squid Ship Top",
         "description": "The top of the Squid ship from Spellhammer, but it is corrupt.",
         "filename": "maps/corrupt-squid-ship-top.jpg",
         "name": "corrupt-squid-ship-top",
-        "date": "2023-02-23",
-        "hide": true
+        "date": "2023-02-23"
     },
     {
         "title": "Corrupt Squid Ship Middle",
         "description": "The middle of the Squid ship from Spellhammer, but it is corrupt.",
         "filename": "maps/corrupt-squid-ship-middle.jpg",
         "name": "corrupt-squid-ship-middle",
-        "date": "2023-02-23",
-        "hide": true
+        "date": "2023-02-23"
     },
     {
         "title": "Corrupt Squid Ship Bottom",
         "description": "The bottom of the Squid ship from Spellhammer, but it is corrupt.",
         "filename": "maps/corrupt-squid-ship-bottom.jpg",
         "name": "corrupt-squid-ship-bottom",
-        "date": "2023-02-23",
-        "hide": true
+        "date": "2023-02-23"
     },
     {
         "title": "Hammerhead Ship Top",
         "description": "The top of the Hammerhead ship from Spellhammer.",
         "filename": "maps/hammerhead-ship-top.jpg",
         "name": "hammerhead-ship-top",
-        "date": "2023-02-23",
-        "hide": true
+        "date": "2023-02-23"
     },
     {
         "title": "Hammerhead Ship Middle",
         "description": "The middle of the Hammerhead ship from Spellhammer.",
         "filename": "maps/hammerhead-ship-middle.jpg",
         "name": "hammerhead-ship-middle",
-        "date": "2023-02-23",
-        "hide": true
+        "date": "2023-02-23"
     },
     {
         "title": "Hammerhead Ship Bottom",
         "description": "The bottom of the Hammerhead ship from Spellhammer.",
         "filename": "maps/hammerhead-ship-bottom.jpg",
         "name": "hammerhead-ship-bottom",
-        "date": "2023-02-23",
-        "hide": true
+        "date": "2023-02-23"
     },
     {
         "title": "Flying Ship Ruined Lower",
         "description": "Used in the Spelljammer Academy campaign part 2. The lower part of the ruined ship the cadets race to.",
         "filename": "maps/flying-ship-ruined-lower.jpg",
         "name": "flying-ship-ruined-lower",
-        "date": "2023-02-22",
-        "hide": true
+        "date": "2023-02-22"
     },
     {
         "title": "Flying Ship Ruined Upper",
         "description": "Used in the Spelljammer Academy campaign part 2. The upper part of the ruined ship the cadets race to.",
         "filename": "maps/flying-ship-ruined-upper.jpg",
         "name": "flying-ship-ruined-upper",
-        "date": "2023-02-22",
-        "hide": true
+        "date": "2023-02-22"
     },
     {
         "title": "Gymnasium",
@@ -120,16 +109,14 @@
         "description": "The Avatar from Candklekeep's Lore of Lure is found here.",
         "date": "2023-02-10",
         "filename": "maps/lakeside-shrooms.mp4",
-        "name": "lakeside-shrooms",
-        "hide": true
+        "name": "lakeside-shrooms"
     },
     {
         "title": "Camp Night",
         "description": "A camp on the top of some mountains",
         "date": "2023-02-10",
         "filename": "maps/camp-night.mp4",
-        "name": "camp-night",
-        "hide": true
+        "name": "camp-night"
     },
     {
         "title": "Forecastle Ruined",
@@ -185,40 +172,35 @@
         "description": "The bottom floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
         "date": "2023-02-10",
         "filename": "maps/firefly-bottom.jpg",
-        "name": "firefly-bottom",
-        "hide": true
+        "name": "firefly-bottom"
     },
     {
         "title": "Firefly Middle",
         "description": "The middle floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
         "date": "2023-02-10",
         "filename": "maps/firefly-middle.jpg",
-        "name": "firefly-middle",
-        "hide": true
+        "name": "firefly-middle"
     },
     {
         "title": "Firefly Top",
         "description": "The top floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
         "date": "2023-02-10",
         "filename": "maps/firefly-top.jpg",
-        "name": "firefly-top",
-        "hide": true
+        "name": "firefly-top"
     },
     {
         "title": "Loomlurch 2",
         "description": "The second floor to Loomlurch in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
         "filename": "maps/loomlurch-2.jpg",
-        "name": "loomlurch-2",
-        "hide": true
+        "name": "loomlurch-2"
     },
     {
         "title": "Loomlurch 1",
         "description": "The ground floor to the Loomlurch in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
         "filename": "maps/loomlurch-1.jpg",
-        "name": "loomlurch-1",
-        "hide": true
+        "name": "loomlurch-1"
     },
     {
         "title": "Big Forest",
@@ -246,8 +228,7 @@
         "description": "A random encounter in the Wild Beyond the Witchlight",
         "date": "2023-02-10",
         "filename": "maps/dead-tree.jpg",
-        "name": "dead-tree",
-        "hide": true
+        "name": "dead-tree"
     },
     {
         "title": "Cauldron Camp",

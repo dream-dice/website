@@ -56,7 +56,6 @@ const Settings = ({
     closeSettings,
     changeSettings,
     accept,
-    isGm,
     cos,
     cm,
     sj
@@ -64,9 +63,9 @@ const Settings = ({
     <div className='modal is-active'>
         <div className='modal-background' onClick={closeSettings}></div>
         <div className='modal-content'>
-            <nav className={`panel ${isGm ? 'is-primary' : ''} ${typeof accept === 'undefined' ? 'is-danger' : ''}`}>
+            <nav className={`panel ${typeof accept === 'undefined' ? 'is-danger' : ''}`}>
                 <p className="panel-heading">
-                    {(typeof accept === 'undefined' && 'You need to accept cookies') || (isGm ? 'Settings - Master' : 'Settings')}
+                    {(typeof accept === 'undefined' && 'You need to accept cookies') || 'Settings'}
                 </p>
                 <label className="panel-block">
                     <input
@@ -156,7 +155,6 @@ const Header = () => {
     const queryString = qs.parse(search, { ignoreQueryPrefix: true })
     const containsDm = 'dm' in queryString
     const containsMaster = pathname.includes('master')
-    const isGm = containsDm || containsMaster || Cookies.get('gm') === 'true'
 
     const [{ title, description, icon }, setMeta] = useState({
         ...metadata[pathname] || metadata.notFound,
@@ -250,7 +248,6 @@ const Header = () => {
                 <Settings
                     closeSettings={() => showSettings(false)}
                     {...settings}
-                    isGm={isGm}
                     changeSettings={(setting) => {
                         if (setting === 'everything') {
                             if (accepted) {
@@ -299,7 +296,7 @@ const Header = () => {
                                 {cos === 'true' && <HeroFootLink pathname={pathname} to={'/cos'} label='🧛 Curse of Strahd' />}
                                 <HeroFootLink pathname={pathname} to={'/shop'} label='🛍️ Shops & Services' />
                                 <HeroFootLink pathname={pathname} to={'/maps'} label='📍 Maps' />
-                                {isGm && <HeroFootLink pathname={pathname} to={'/avatars'} label='🧑 Avatars' />}
+                                <HeroFootLink pathname={pathname} to={'/avatars'} label='🧑 Avatars' />
                             </ul>
                         </div>
                     </nav>

@@ -1,12 +1,10 @@
 import { capitalCase } from 'change-case'
 import copy from 'copy-to-clipboard'
-import Cookies from 'js-cookie'
 import qs from 'qs'
 import React, { useEffect, useState } from 'react'
 import RenderIfVisible from 'react-render-if-visible'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import avatars from './avatars.json'
-import NotFound from './not-found-page'
 import Search from './search'
 
 const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
@@ -69,8 +67,6 @@ const AvatarsPage = () => {
     const { search } = useLocation()
     const { term = '', player = 'false', named = 'false', monster = 'true', icon = 'false' } = qs.parse(search, { ignoreQueryPrefix: true })
 
-    const isGm = Cookies.get('gm')
-
     useEffect(() => {
         if (section !== 'none') {
             const found = avatars.find(({ filename }) => filename.includes(section))
@@ -79,8 +75,6 @@ const AvatarsPage = () => {
             else navigate(`/avatars?term=${section}`)
         }
     }, [])
-
-    if (!isGm) return <NotFound />
 
     const filtered = data
         .filter(({ n, p, m, i }) => {

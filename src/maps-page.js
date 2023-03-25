@@ -33,7 +33,6 @@ const MapsPage = () => {
                 }}
             />
             {data
-                .filter(({hide}) => Cookies.get('dm') || !hide)
                 .sort(({ date: left }, { date: right }) => {
                     left = new Date(left).getTime()
                     right = new Date(right).getTime()
