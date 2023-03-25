@@ -1,4 +1,4 @@
-if test -d temp/*; then
+if [ -n "$(ls -A temp)" ]; then
     for i in temp/*; do
         if test -f "/home/luke/Projects/website/public/hotlink-ok/avatars/$(basename $i)"; then
             echo "/home/luke/Projects/website/public/hotlink-ok/avatars/$(basename $i) exists."
