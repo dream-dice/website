@@ -29,4 +29,10 @@ fs.writeFileSync(
     avatarsJson,
     JSON.stringify(avatars, null, 4)
 )
+
+console.log(
+    'All the keys',
+    [...new Set(avatars.map(a => Object.keys(a)).flat())]
+)
+
 console.log('written to', avatarsJson)

@@ -427,13 +427,6 @@
         "tags": []
     },
     {
-        "m": "giant",
-        "d": "1979783-giant-swan",
-        "index": 0,
-        "filename": "m=giant_swan_d=1979783-giant-swan.png",
-        "tags": []
-    },
-    {
         "m": "gladiator",
         "d": "16903-gladiator",
         "index": 1,
@@ -583,14 +576,16 @@
     },
     {
         "m": "jackalwere",
+        "d": "17164-jackalwere",
         "index": 0,
-        "filename": "m=jackalwere_17164-jackalwere.png",
+        "filename": "m=jackalwere_d=17164-jackalwere.png",
         "tags": []
     },
     {
         "m": "jackalwere",
+        "d": "17164-jackalwere",
         "index": 0,
-        "filename": "m=jackalwere_17164-jackalwere_t1=hybrid.png",
+        "filename": "m=jackalwere_d=17164-jackalwere_t1=hybrid.png",
         "tags": [
             "hybrid"
         ]
@@ -1160,22 +1155,6 @@
     },
     {
         "m": "zombie",
-        "index": 1,
-        "filename": "m=zombie_d17077-zombie_t1=machine+1.png",
-        "tags": [
-            "machine"
-        ]
-    },
-    {
-        "m": "zombie",
-        "index": 0,
-        "filename": "m=zombie_d17077-zombie_t1=machine.png",
-        "tags": [
-            "machine"
-        ]
-    },
-    {
-        "m": "zombie",
         "d": "17077-zombie",
         "index": 0,
         "filename": "m=zombie_d=17077-zombie.png",
@@ -1204,6 +1183,24 @@
         "d": "17077-zombie",
         "index": 3,
         "filename": "m=zombie_d=17077-zombie_t1=machine+3.png",
+        "tags": [
+            "machine"
+        ]
+    },
+    {
+        "m": "zombie",
+        "d": "17077-zombie",
+        "index": 4,
+        "filename": "m=zombie_d=17077-zombie_t1=machine+4.png",
+        "tags": [
+            "machine"
+        ]
+    },
+    {
+        "m": "zombie",
+        "d": "17077-zombie",
+        "index": 5,
+        "filename": "m=zombie_d=17077-zombie_t1=machine+5.png",
         "tags": [
             "machine"
         ]
