@@ -11,43 +11,43 @@ import Search from './search'
 
 const NoAvatar = () => <div className='tile is-child pl-2 pr-2 is-invisible' />
 
-const Avatar = ({ i, m, n, p, d, index, filename, tags }) => {
-    console.log(i, m, n, p, d, filename)
-    return (
-    <article className="tile is-child pl-2 pr-2">
-        <div className='box'>
-            <p className="title has-text-centered">{capitalCase(p || n || m || i)} {index > 0 ? `(${index})` : null}</p>
-            <div className='is-flex is-justify-content-center mb-3 mt-1'>
-                <figure className="image is-128x128" style={{backgroundColor: i ? '#3F3F3F' : 'transparent'}}>
-                    <img alt={capitalCase(p || n || m || i)} src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
-                </figure>
-            </div>
-            <div className='buttons'>
-                {d && <a className="button is-link is-fullwidth" href={`https://www.dndbeyond.com/monsters/${d}`} target="_blank" rel="noreferrer noopener">🔗 DDB</a>}
-                <a href={`${window.location.origin}/hotlink-ok/avatars/${filename}`} download className='button is-fullwidth is-link'>📁 Download</a>
-                <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/hotlink-ok/avatars/${filename}`) }}>📋 Copy file URL</button>
-                <button className='button is-fullwidth is-link' onClick={() => { copy(`https://raw.githubusercontent.com/dream-dice/website/master/public/hotlink-ok/avatars/${filename}`) }}>📋 Copy file GH URL</button>
-                <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/avatars/${filename.replace('.png', '')}`) }}>📋 Share URL</button>
-            </div>
-            {tags.length > 0 && (
-                <div className='tags'>
-                    {tags.map((tag) => <span key={tag} className='tag is-rounded'>{tag}</span>)}
+const Avatar = ({ i, m, n, p, d, index, filename, tags }) => (
+    <RenderIfVisible defaultHeight={300}>
+        <article className="tile is-child pl-2 pr-2">
+            <div className='box mb-3'>
+                <div style={{ maxHeight: 300, overflow: 'auto' }}>
+                    <p className="title has-text-centered">{capitalCase(p || n || m || i)} {index > 0 ? `(${index})` : null}</p>
+                    <div className='is-flex is-justify-content-center mb-3 mt-1'>
+                        <figure className="image is-128x128" style={{ backgroundColor: i ? '#3F3F3F' : 'transparent' }}>
+                            <img alt={capitalCase(p || n || m || i)} src={`${window.location.origin}/hotlink-ok/avatars/${filename}`} />
+                        </figure>
+                    </div>
+                    {tags.length > 0 && (
+                        <div className='tags'>
+                            {tags.map((tag) => <span key={tag} className='tag is-rounded'>{tag}</span>)}
+                        </div>
+                    )}
+                    <div className='buttons'>
+                        {d && <a className="button is-link is-fullwidth" href={`https://www.dndbeyond.com/monsters/${d}`} target="_blank" rel="noreferrer noopener">🔗 DDB</a>}
+                        <a href={`${window.location.origin}/hotlink-ok/avatars/${filename}`} download className='button is-fullwidth is-link'>📁 Download</a>
+                        <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/hotlink-ok/avatars/${filename}`) }}>📋 Copy file URL</button>
+                        <button className='button is-fullwidth is-link' onClick={() => { copy(`https://raw.githubusercontent.com/dream-dice/website/master/public/hotlink-ok/avatars/${filename}`) }}>📋 Copy file GH URL</button>
+                        <button className='button is-fullwidth is-link' onClick={() => { copy(`${window.location.origin}/avatars/${filename.replace('.png', '')}`) }}>📋 Share URL</button>
+                    </div>
+                    <p className='content'>{filename}</p>
                 </div>
-            )}
-            <p className='content'>{filename}</p>
-        </div>
-    </article>
+            </div>
+        </article>
+    </RenderIfVisible>
 )
-            }
 
-const Row = ({ avatars }) => <RenderIfVisible defaultHeight={450}>
-    <div className="tile is-parent">
-        <Avatar {...avatars[0]} />
-        {(avatars[1] && <Avatar {...avatars[1]} />) || <NoAvatar />}
-        {(avatars[2] && <Avatar {...avatars[2]} />) || <NoAvatar />}
-        {(avatars[3] && <Avatar {...avatars[3]} />) || <NoAvatar />}
-    </div>
-</RenderIfVisible>
+const Row = ({ avatars }) => <div className="tile is-parent">
+    <Avatar {...avatars[0]} />
+    {(avatars[1] && <Avatar {...avatars[1]} />) || <NoAvatar />}
+    {(avatars[2] && <Avatar {...avatars[2]} />) || <NoAvatar />}
+    {(avatars[3] && <Avatar {...avatars[3]} />) || <NoAvatar />}
+</div>
+
 
 const filterAvatars = (searchTerms) => (props) =>
     searchTerms
@@ -95,8 +95,8 @@ const AvatarsPage = () => {
         rows.push(
             filtered
                 .sort(({ filename: left }, { filename: right }) => {
-                    if (left > right) return -1
-                    if (left < right) return 1
+                    if (left > right) return 1
+                    if (left < right) return -1
                     return 0
                 })
                 .slice(i, i + chunkSize)
