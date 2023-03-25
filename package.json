@@ -30,7 +30,7 @@
     "watch-data": "node scripts/watch-data.mjs",
     "snap": "node scripts/snap.mjs",
     "api": "node scripts/api",
-    "compress-avatars": "./scripts/compress-avatars.sh || true",
+    "compress-avatars": "./scripts/compress-avatars.sh",
     "avatars": "npm run compress-avatars && node scripts/avatars.mjs"
   },
   "eslintConfig": {

@@ -26,8 +26,22 @@
     {
         "m": "acolyte",
         "d": "16763-acolyte",
+        "index": 1,
+        "filename": "m=acolyte_d=16763-acolyte+1.png",
+        "tags": []
+    },
+    {
+        "m": "acolyte",
+        "d": "16763-acolyte",
         "index": 0,
         "filename": "m=acolyte_d=16763-acolyte.png",
+        "tags": []
+    },
+    {
+        "m": "animated-armor",
+        "d": "16786-animated-armor",
+        "index": 0,
+        "filename": "m=animated-armor_d=16786-animated-armor.png",
         "tags": []
     },
     {
@@ -41,6 +55,13 @@
         "m": "animated-drum",
         "index": 0,
         "filename": "m=animated-drum.png",
+        "tags": []
+    },
+    {
+        "m": "apprentice-wizard",
+        "d": "2560723-apprentice-wizard",
+        "index": 0,
+        "filename": "m=apprentice-wizard_d=2560723-apprentice-wizard.png",
         "tags": []
     },
     {
@@ -137,6 +158,13 @@
         "tags": []
     },
     {
+        "m": "bronze-dragon",
+        "d": "16767-adult-bronze-dragon",
+        "index": 0,
+        "filename": "m=bronze-dragon_d=16767-adult-bronze-dragon.png",
+        "tags": []
+    },
+    {
         "m": "bugbear",
         "d": "16817-bugbear",
         "index": 0,
@@ -151,9 +179,22 @@
         "tags": []
     },
     {
+        "m": "cat",
+        "d": "16820-cat",
+        "index": 0,
+        "filename": "m=cat_d=16820-cat.png",
+        "tags": []
+    },
+    {
         "m": "child",
         "index": 0,
         "filename": "m=child.png",
+        "tags": []
+    },
+    {
+        "m": "chocobo",
+        "index": 0,
+        "filename": "m=chocobo.png",
         "tags": []
     },
     {
@@ -276,6 +317,14 @@
         ]
     },
     {
+        "m": "commoner",
+        "index": 0,
+        "filename": "m=commoner_t1=female.png",
+        "tags": [
+            "female"
+        ]
+    },
+    {
         "m": "constrictor-snake",
         "d": "16830-constrictor-snake",
         "index": 0,
@@ -370,6 +419,13 @@
         "tags": []
     },
     {
+        "m": "drui",
+        "d": "175898-druid-of-the-old-ways",
+        "index": 0,
+        "filename": "m=drui_d=175898-druid-of-the-old-ways.png",
+        "tags": []
+    },
+    {
         "m": "eagle",
         "d": "16852-eagle",
         "index": 0,
@@ -410,6 +466,13 @@
         "d": "16872-ghoul",
         "index": 0,
         "filename": "m=ghoul_d=16872-ghoul.png",
+        "tags": []
+    },
+    {
+        "m": "giant-dragonfly",
+        "d": "1979781-giant-dragonfly",
+        "index": 0,
+        "filename": "m=giant-dragonfly_d=1979781-giant-dragonfly.png",
         "tags": []
     },
     {
@@ -472,10 +535,24 @@
         ]
     },
     {
+        "m": "green-dragon",
+        "d": "16770-adult-green-dragon",
+        "index": 0,
+        "filename": "m=green-dragon_d=16770-adult-green-dragon.png",
+        "tags": []
+    },
+    {
         "m": "griffon",
         "d": "16913-griffon",
         "index": 0,
         "filename": "m=griffon_d=16913-griffon.png",
+        "tags": []
+    },
+    {
+        "m": "guard",
+        "d": "16915-guard",
+        "index": 0,
+        "filename": "m=guard_d=16915-guard.png",
         "tags": []
     },
     {
@@ -490,6 +567,13 @@
         "d": "16911-green-hag",
         "index": 0,
         "filename": "m=hag_d=16911-green-hag.png",
+        "tags": []
+    },
+    {
+        "m": "hag",
+        "d": "486313-dusk-hag",
+        "index": 0,
+        "filename": "m=hag_d=486313-dusk-hag.png",
         "tags": []
     },
     {
@@ -532,6 +616,20 @@
         "d": "16921-hell-hound",
         "index": 0,
         "filename": "m=hell-hound_d=16921-hell-hound.png",
+        "tags": []
+    },
+    {
+        "m": "hippogriff",
+        "d": "16924-hippogriff",
+        "index": 0,
+        "filename": "m=hippogriff_d=16924-hippogriff.png",
+        "tags": []
+    },
+    {
+        "m": "homunculus",
+        "d": "16926-homunculus",
+        "index": 0,
+        "filename": "m=homunculus_d=16926-homunculus.png",
         "tags": []
     },
     {
@@ -709,6 +807,13 @@
         "tags": []
     },
     {
+        "m": "leonin",
+        "d": "16903-gladiator",
+        "index": 0,
+        "filename": "m=leonin_d=16903-gladiator.png",
+        "tags": []
+    },
+    {
         "m": "lich",
         "d": "16943-lich",
         "index": 0,
@@ -846,8 +951,22 @@
     {
         "m": "noble",
         "d": "16966-noble",
+        "index": 2,
+        "filename": "m=noble_d=16966-noble+2.png",
+        "tags": []
+    },
+    {
+        "m": "noble",
+        "d": "16966-noble",
         "index": 0,
         "filename": "m=noble_d=16966-noble.png",
+        "tags": []
+    },
+    {
+        "m": "ogre",
+        "d": "16969-ogre",
+        "index": 0,
+        "filename": "m=ogre_d=16969-ogre.png",
         "tags": []
     },
     {
@@ -918,6 +1037,20 @@
         "tags": []
     },
     {
+        "m": "red-dragon",
+        "d": "16771-adult-red-dragon",
+        "index": 0,
+        "filename": "m=red-dragon_d=16771-adult-red-dragon.png",
+        "tags": []
+    },
+    {
+        "m": "revenant",
+        "d": "17196-revenant",
+        "index": 1,
+        "filename": "m=revenant_d=17196-revenant+1.png",
+        "tags": []
+    },
+    {
         "m": "revenant",
         "d": "17196-revenant",
         "index": 0,
@@ -969,6 +1102,13 @@
     {
         "m": "shadow",
         "d": "17010-shadow",
+        "index": 1,
+        "filename": "m=shadow_d=17010-shadow+1.png",
+        "tags": []
+    },
+    {
+        "m": "shadow",
+        "d": "17010-shadow",
         "index": 0,
         "filename": "m=shadow_d=17010-shadow.png",
         "tags": []
@@ -988,6 +1128,13 @@
         "tags": []
     },
     {
+        "m": "sir-talavar",
+        "d": "1979805-sir-talavar",
+        "index": 0,
+        "filename": "m=sir-talavar_d=1979805-sir-talavar.png",
+        "tags": []
+    },
+    {
         "m": "skeleton",
         "d": "17015-skeleton",
         "index": 1,
@@ -999,6 +1146,13 @@
         "d": "17015-skeleton",
         "index": 0,
         "filename": "m=skeleton_d=17015-skeleton.png",
+        "tags": []
+    },
+    {
+        "m": "slaad-tadpole",
+        "d": "17117-slaad-tadpole",
+        "index": 0,
+        "filename": "m=slaad-tadpole_d=17117-slaad-tadpole.png",
         "tags": []
     },
     {
@@ -1034,6 +1188,13 @@
         "d": "17023-stirge",
         "index": 0,
         "filename": "m=stirge_d=17023-stirge.png",
+        "tags": []
+    },
+    {
+        "m": "stone-golem",
+        "d": "17025-stone-golem",
+        "index": 0,
+        "filename": "m=stone-golem_d=17025-stone-golem.png",
         "tags": []
     },
     {
@@ -1095,6 +1256,14 @@
         "tags": []
     },
     {
+        "m": "warforged",
+        "index": 0,
+        "filename": "m=warforged_t1=firefighter.png",
+        "tags": [
+            "firefighter"
+        ]
+    },
+    {
         "m": "warhorse-skeleton",
         "d": "17050-warhorse-skeleton",
         "index": 0,
@@ -1105,6 +1274,13 @@
         "m": "weather-balloon",
         "index": 0,
         "filename": "m=weather-balloon.png",
+        "tags": []
+    },
+    {
+        "m": "wererat",
+        "d": "17055-wererat",
+        "index": 0,
+        "filename": "m=wererat_d=17055-wererat.png",
         "tags": []
     },
     {
