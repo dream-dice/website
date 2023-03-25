@@ -24,6 +24,13 @@
         "tags": []
     },
     {
+        "m": "aarakocra",
+        "d": "17100-aarakocra",
+        "index": 0,
+        "filename": "m=aarakocra_d=17100-aarakocra.png",
+        "tags": []
+    },
+    {
         "m": "acolyte",
         "d": "16763-acolyte",
         "index": 1,
@@ -35,6 +42,13 @@
         "d": "16763-acolyte",
         "index": 0,
         "filename": "m=acolyte_d=16763-acolyte.png",
+        "tags": []
+    },
+    {
+        "m": "agdon-longscarf",
+        "d": "1979768-agdon-longscarf",
+        "index": 0,
+        "filename": "m=agdon-longscarf_d=1979768-agdon-longscarf.png",
         "tags": []
     },
     {
@@ -60,6 +74,13 @@
     {
         "m": "apprentice-wizard",
         "d": "2560723-apprentice-wizard",
+        "index": 1,
+        "filename": "m=apprentice-wizard_d=2560723-apprentice-wizard+1.png",
+        "tags": []
+    },
+    {
+        "m": "apprentice-wizard",
+        "d": "2560723-apprentice-wizard",
         "index": 0,
         "filename": "m=apprentice-wizard_d=2560723-apprentice-wizard.png",
         "tags": []
@@ -76,6 +97,12 @@
         "d": "1528956-bak-mei",
         "index": 0,
         "filename": "m=bak-mei_d=1528956-bak-mei.png",
+        "tags": []
+    },
+    {
+        "m": "balloon",
+        "index": 0,
+        "filename": "m=balloon.png",
         "tags": []
     },
     {
@@ -139,8 +166,22 @@
     {
         "m": "berserker",
         "d": "16805-berserker",
+        "index": 1,
+        "filename": "m=berserker_d=16805-berserker+1.png",
+        "tags": []
+    },
+    {
+        "m": "berserker",
+        "d": "16805-berserker",
         "index": 0,
         "filename": "m=berserker_d=16805-berserker.png",
+        "tags": []
+    },
+    {
+        "m": "black-dragon",
+        "d": "16764-adult-black-dragon",
+        "index": 0,
+        "filename": "m=black-dragon_d=16764-adult-black-dragon.png",
         "tags": []
     },
     {
@@ -155,6 +196,13 @@
         "d": "blink-dog",
         "index": 0,
         "filename": "m=blink-dog_d=blink-dog.png",
+        "tags": []
+    },
+    {
+        "m": "bronze-dragon",
+        "d": "16767-adult-bronze-dragon",
+        "index": 1,
+        "filename": "m=bronze-dragon_d=16767-adult-bronze-dragon+1.png",
         "tags": []
     },
     {
@@ -293,6 +341,13 @@
     {
         "m": "cockatrice",
         "d": "16828-cockatrice",
+        "index": 1,
+        "filename": "m=cockatrice_d=16828-cockatrice+1.png",
+        "tags": []
+    },
+    {
+        "m": "cockatrice",
+        "d": "16828-cockatrice",
         "index": 0,
         "filename": "m=cockatrice_d=16828-cockatrice.png",
         "tags": []
@@ -322,6 +377,23 @@
         "filename": "m=commoner_t1=female.png",
         "tags": [
             "female"
+        ]
+    },
+    {
+        "m": "commoner",
+        "index": null,
+        "filename": "m=commoner_t1=human+t2=male.png",
+        "tags": [
+            "human"
+        ]
+    },
+    {
+        "m": "commoner",
+        "index": 0,
+        "filename": "m=commoner_t1=male_t2=old.png",
+        "tags": [
+            "male",
+            "old"
         ]
     },
     {
@@ -518,12 +590,33 @@
         "tags": []
     },
     {
+        "m": "gnome-inventor",
+        "d": "3086274-nevermind-gnome-inventor",
+        "index": 0,
+        "filename": "m=gnome-inventor_d=3086274-nevermind-gnome-inventor.png",
+        "tags": []
+    },
+    {
         "m": "gnome",
         "index": 0,
         "filename": "m=gnome_t1=bard.png",
         "tags": [
             "bard"
         ]
+    },
+    {
+        "m": "goblin",
+        "d": "16907-goblin",
+        "index": 1,
+        "filename": "m=goblin_d=16907-goblin+1.png",
+        "tags": []
+    },
+    {
+        "m": "goblin",
+        "d": "16907-goblin",
+        "index": 0,
+        "filename": "m=goblin_d=16907-goblin.png",
+        "tags": []
     },
     {
         "m": "gobline",
@@ -710,6 +803,13 @@
         "tags": []
     },
     {
+        "m": "knight",
+        "d": "16938-knight",
+        "index": 0,
+        "filename": "m=knight_d=16938-knight.png",
+        "tags": []
+    },
+    {
         "m": "kobold-inventor",
         "d": "2560856-kobold-inventor",
         "index": 0,
@@ -801,6 +901,13 @@
         "tags": []
     },
     {
+        "m": "lamia",
+        "d": "16941-lamia",
+        "index": 0,
+        "filename": "m=lamia_d=16941-lamia.png",
+        "tags": []
+    },
+    {
         "m": "leonin",
         "index": 0,
         "filename": "m=leonin.png",
@@ -886,6 +993,13 @@
         "tags": []
     },
     {
+        "m": "merrow",
+        "d": "16956-merrow",
+        "index": 0,
+        "filename": "m=merrow_d=16956-merrow.png",
+        "tags": []
+    },
+    {
         "m": "mind-flayer",
         "d": "17104-mind-flayer",
         "index": 0,
@@ -935,6 +1049,13 @@
         "tags": []
     },
     {
+        "m": "moonstone-dragon",
+        "d": "2059686-adult-moonstone-dragon",
+        "index": 0,
+        "filename": "m=moonstone-dragon_d=2059686-adult-moonstone-dragon.png",
+        "tags": []
+    },
+    {
         "m": "noble",
         "d": "16966-noble",
         "index": 0,
@@ -977,10 +1098,24 @@
         "tags": []
     },
     {
+        "m": "orc",
+        "d": "16972-orc",
+        "index": 0,
+        "filename": "m=orc_d=16972-orc.png",
+        "tags": []
+    },
+    {
         "m": "pegasus",
         "d": "16977-pegasus",
         "index": 0,
         "filename": "m=pegasus_d=16977-pegasus.png",
+        "tags": []
+    },
+    {
+        "m": "phylaskia",
+        "d": "909500-phylaskia",
+        "index": 0,
+        "filename": "m=phylaskia_d=909500-phylaskia.png",
         "tags": []
     },
     {
@@ -1149,6 +1284,15 @@
         "tags": []
     },
     {
+        "m": "skeleton",
+        "d": "17015-skeleton",
+        "index": 0,
+        "filename": "m=skeleton_d=17015-skeleton_t1=butler.png",
+        "tags": [
+            "butler"
+        ]
+    },
+    {
         "m": "slaad-tadpole",
         "d": "17117-slaad-tadpole",
         "index": 0,
@@ -1222,6 +1366,13 @@
         ]
     },
     {
+        "m": "unicorn",
+        "d": "17042-unicorn",
+        "index": 0,
+        "filename": "m=unicorn_d=17042-unicorn.png",
+        "tags": []
+    },
+    {
         "m": "vampire-spawn",
         "d": "17044-vampire-spawn",
         "index": 1,
@@ -1246,6 +1397,13 @@
         "m": "vistani",
         "index": 0,
         "filename": "m=vistani.png",
+        "tags": []
+    },
+    {
+        "m": "warforged-soldier",
+        "d": "546111-warforged-soldier",
+        "index": 0,
+        "filename": "m=warforged-soldier_d=546111-warforged-soldier.png",
         "tags": []
     },
     {
