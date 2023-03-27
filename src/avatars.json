@@ -378,6 +378,13 @@
     {
         "m": "berserker",
         "d": "16805-berserker",
+        "index": 4,
+        "filename": "m=berserker_d=16805-berserker+4.png",
+        "tags": []
+    },
+    {
+        "m": "berserker",
+        "d": "16805-berserker",
         "index": 0,
         "filename": "m=berserker_d=16805-berserker_t1=orc.png",
         "tags": [
