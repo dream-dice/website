@@ -202,6 +202,13 @@
     {
         "m": "awakened-tree",
         "d": "16792-awakened-tree",
+        "index": 2,
+        "filename": "m=awakened-tree_d=16792-awakened-tree+2.png",
+        "tags": []
+    },
+    {
+        "m": "awakened-tree",
+        "d": "16792-awakened-tree",
         "index": 3,
         "filename": "m=awakened-tree_d=16792-awakened-tree+3.png",
         "tags": []
@@ -352,6 +359,13 @@
         "d": "16805-berserker",
         "index": 2,
         "filename": "m=berserker_d=16805-berserker+2.png",
+        "tags": []
+    },
+    {
+        "m": "berserker",
+        "d": "16805-berserker",
+        "index": 3,
+        "filename": "m=berserker_d=16805-berserker+3.png",
         "tags": []
     },
     {
@@ -511,6 +525,13 @@
         "d": "16820-cat",
         "index": 0,
         "filename": "m=cat_d=16820-cat.png",
+        "tags": []
+    },
+    {
+        "m": "cat",
+        "d": "16820-cat",
+        "index": 1,
+        "filename": "m=cat_d=16820-cat+1.png",
         "tags": []
     },
     {
@@ -989,6 +1010,13 @@
         "tags": []
     },
     {
+        "m": "ghost-dragon",
+        "d": "2059741-ghost-dragon",
+        "index": 0,
+        "filename": "m=ghost-dragon_d=2059741-ghost-dragon.png",
+        "tags": []
+    },
+    {
         "m": "ghost",
         "d": "16871-ghost",
         "index": 0,
@@ -1125,6 +1153,13 @@
         "tags": [
             "xmas"
         ]
+    },
+    {
+        "m": "gold-dragon",
+        "d": "16769-adult-gold-dragon",
+        "index": 0,
+        "filename": "m=gold-dragon_d=16769-adult-gold-dragon.png",
+        "tags": []
     },
     {
         "m": "green-dragon",
@@ -1287,6 +1322,14 @@
         ]
     },
     {
+        "m": "human",
+        "index": 1,
+        "filename": "m=human_t1=female+1.png",
+        "tags": [
+            "female"
+        ]
+    },
+    {
         "m": "ice-mephit",
         "d": "16932-ice-mephit",
         "index": 0,
@@ -1305,6 +1348,13 @@
         "d": "16932-ice-mephit",
         "index": 0,
         "filename": "m=ice-sprite_d=16932-ice-mephit.png",
+        "tags": []
+    },
+    {
+        "m": "ice-toad",
+        "d": "16896-giant-toad",
+        "index": 0,
+        "filename": "m=ice-toad_d=16896-giant-toad.png",
         "tags": []
     },
     {
@@ -1394,6 +1444,13 @@
         "d": "16938-knight",
         "index": 0,
         "filename": "m=knight_d=16938-knight.png",
+        "tags": []
+    },
+    {
+        "m": "knight",
+        "d": "16938-knight",
+        "index": 1,
+        "filename": "m=knight_d=16938-knight+1.png",
         "tags": []
     },
     {
@@ -1603,6 +1660,13 @@
         "tags": []
     },
     {
+        "m": "magmin",
+        "d": "magmin",
+        "index": 1,
+        "filename": "m=magmin_d=magmin+1.png",
+        "tags": []
+    },
+    {
         "m": "marid",
         "d": "17143-marid",
         "index": 0,
@@ -1781,6 +1845,13 @@
         "d": "16972-orc",
         "index": 1,
         "filename": "m=orc_d=16972-orc+1.png",
+        "tags": []
+    },
+    {
+        "m": "orc",
+        "d": "16972-orc",
+        "index": 2,
+        "filename": "m=orc_d=16972-orc+2.png",
         "tags": []
     },
     {
@@ -2160,6 +2231,15 @@
         "tags": []
     },
     {
+        "m": "tyrannosaurus-rex",
+        "d": "17041-tyrannosaurus-rex",
+        "index": 0,
+        "filename": "m=tyrannosaurus-rex_d=17041-tyrannosaurus-rex_t1=clockwork.png",
+        "tags": [
+            "clockwork"
+        ]
+    },
+    {
         "m": "tyrant-ship",
         "index": 0,
         "filename": "m=tyrant-ship_t1=vehicle.png",
@@ -2298,6 +2378,13 @@
         "d": "17050-warhorse-skeleton",
         "index": 0,
         "filename": "m=warhorse-skeleton_d=17050-warhorse-skeleton.png",
+        "tags": []
+    },
+    {
+        "m": "water-elemental",
+        "d": "17051-water-elemental",
+        "index": 0,
+        "filename": "m=water-elemental_d=17051-water-elemental.png",
         "tags": []
     },
     {
