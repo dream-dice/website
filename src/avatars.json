@@ -115,6 +115,13 @@
         "tags": []
     },
     {
+        "m": "animated-chained-library",
+        "d": "1528954-animated-chained-library",
+        "index": 0,
+        "filename": "m=animated-chained-library_d=1528954-animated-chained-library.png",
+        "tags": []
+    },
+    {
         "m": "animated-drum",
         "index": 0,
         "filename": "m=animated-drum.png",
@@ -367,6 +374,15 @@
         "index": 3,
         "filename": "m=berserker_d=16805-berserker+3.png",
         "tags": []
+    },
+    {
+        "m": "berserker",
+        "d": "16805-berserker",
+        "index": 0,
+        "filename": "m=berserker_d=16805-berserker_t1=orc.png",
+        "tags": [
+            "orc"
+        ]
     },
     {
         "m": "black-dragon",
@@ -704,14 +720,6 @@
     {
         "m": "commoner",
         "index": 0,
-        "filename": "m=commoner_t1=inn-keep.png",
-        "tags": [
-            "inn-keep"
-        ]
-    },
-    {
-        "m": "commoner",
-        "index": 0,
         "filename": "m=commoner_t1=male_t2=old.png",
         "tags": [
             "male",
@@ -732,6 +740,13 @@
         "d": "16830-constrictor-snake",
         "index": 0,
         "filename": "m=constrictor-snake_d=16830-constrictor-snake.png",
+        "tags": []
+    },
+    {
+        "m": "corrupted-avatar",
+        "d": "1528960-corrupted-avatar-of-lurue",
+        "index": 0,
+        "filename": "m=corrupted-avatar_d=1528960-corrupted-avatar-of-lurue.png",
         "tags": []
     },
     {
@@ -977,6 +992,13 @@
         "tags": []
     },
     {
+        "m": "fire-elemental",
+        "d": "16861-fire-elemental",
+        "index": 0,
+        "filename": "m=fire-elemental_d=16861-fire-elemental.png",
+        "tags": []
+    },
+    {
         "m": "fish",
         "index": 0,
         "filename": "m=fish.png",
@@ -987,6 +1009,13 @@
         "d": "16863-flesh-golem",
         "index": 0,
         "filename": "m=flesh-golem_d=16863-flesh-golem.png",
+        "tags": []
+    },
+    {
+        "m": "flesh-golem",
+        "d": "16863-flesh-golem",
+        "index": 1,
+        "filename": "m=flesh-golem_d=16863-flesh-golem+1.png",
         "tags": []
     },
     {
@@ -1280,6 +1309,13 @@
         "tags": []
     },
     {
+        "m": "hawk",
+        "d": "16920-hawk",
+        "index": 0,
+        "filename": "m=hawk_d=16920-hawk.png",
+        "tags": []
+    },
+    {
         "m": "hell-hound",
         "d": "16921-hell-hound",
         "index": 0,
@@ -1379,8 +1415,20 @@
     },
     {
         "m": "inn-keep",
-        "index": null,
-        "filename": "m=inn-keep+1.png.png",
+        "index": 1,
+        "filename": "m=inn-keep+1.png",
+        "tags": []
+    },
+    {
+        "m": "inn-keep",
+        "index": 2,
+        "filename": "m=inn-keep+2.png",
+        "tags": []
+    },
+    {
+        "m": "inn-keep",
+        "index": 4,
+        "filename": "m=inn-keep+4.png",
         "tags": []
     },
     {
@@ -1935,6 +1983,13 @@
         "tags": []
     },
     {
+        "m": "priest-of-osybus",
+        "d": "1680942-priest-of-osybus",
+        "index": 2,
+        "filename": "m=priest-of-osybus_d=1680942-priest-of-osybus+2.png",
+        "tags": []
+    },
+    {
         "m": "prisoner",
         "index": 0,
         "filename": "m=prisoner.png",
@@ -2016,6 +2071,15 @@
         "index": 0,
         "filename": "m=saber-toothed-tiger_d=17002-saber-toothed-tiger.png",
         "tags": []
+    },
+    {
+        "m": "sage",
+        "d": "1528979-sage",
+        "index": 0,
+        "filename": "m=sage_d=1528979-sage_t1=dragonborn.png",
+        "tags": [
+            "dragonborn"
+        ]
     },
     {
         "m": "satyr",
@@ -2104,10 +2168,26 @@
     {
         "m": "skeleton",
         "d": "17015-skeleton",
+        "index": 3,
+        "filename": "m=skeleton_d=17015-skeleton+3.png",
+        "tags": []
+    },
+    {
+        "m": "skeleton",
+        "d": "17015-skeleton",
         "index": 0,
         "filename": "m=skeleton_d=17015-skeleton_t1=butler.png",
         "tags": [
             "butler"
+        ]
+    },
+    {
+        "m": "skeleton",
+        "d": "17015-skeleton",
+        "index": 0,
+        "filename": "m=skeleton_d=17015-skeleton_t1=pirate.png",
+        "tags": [
+            "pirate"
         ]
     },
     {
