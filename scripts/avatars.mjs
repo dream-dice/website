@@ -27,7 +27,17 @@ fs.readdirSync(avatarsDir)
     })
 fs.writeFileSync(
     avatarsJson,
-    JSON.stringify(avatars, null, 4)
+    JSON.stringify(avatars.sort(({ filename: left }, { filename: right }) => {
+        if (!new RegExp(/.*\d+\.png$/igm).test(left)) {
+            left = left.replace('.png', '+0.png')
+        }
+        if (!new RegExp(/.*\d+\.png$/igm).test(right)) {
+            right = right.replace('.png', '+0.png')
+        }
+        if (left > right) return 1
+        if (left < right) return -1
+        return 0
+    }), null, 4)
 )
 
 console.log(

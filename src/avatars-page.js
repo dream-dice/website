@@ -91,6 +91,12 @@ const AvatarsPage = () => {
         rows.push(
             filtered
                 .sort(({ filename: left }, { filename: right }) => {
+                    if (!new RegExp(/.*\d+\.png$/igm).test(left)) {
+                        left = left.replace('.png', '+0.png')
+                    }
+                    if (!new RegExp(/.*\d+\.png$/igm).test(right)) {
+                        right = right.replace('.png', '+0.png')
+                    }
                     if (left > right) return 1
                     if (left < right) return -1
                     return 0
