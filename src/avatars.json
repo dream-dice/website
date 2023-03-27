@@ -327,6 +327,13 @@
         "tags": []
     },
     {
+        "m": "beholder-zombie",
+        "d": "17111-beholder-zombie",
+        "index": 0,
+        "filename": "m=beholder-zombie_d=17111-beholder-zombie.png",
+        "tags": []
+    },
+    {
         "m": "berserker",
         "d": "16805-berserker",
         "index": 1,
@@ -445,6 +452,13 @@
         "tags": []
     },
     {
+        "m": "bullywug-royal",
+        "d": "309715-bullywug-royal",
+        "index": 0,
+        "filename": "m=bullywug-royal_d=309715-bullywug-royal.png",
+        "tags": []
+    },
+    {
         "m": "bullywug",
         "d": "17120-bullywug",
         "index": 1,
@@ -456,6 +470,20 @@
         "d": "17120-bullywug",
         "index": 2,
         "filename": "m=bullywug_d=17120-bullywug+2.png",
+        "tags": []
+    },
+    {
+        "m": "bullywug",
+        "d": "17120-bullywug",
+        "index": 3,
+        "filename": "m=bullywug_d=17120-bullywug+3.png",
+        "tags": []
+    },
+    {
+        "m": "bullywug",
+        "d": "17120-bullywug",
+        "index": 4,
+        "filename": "m=bullywug_d=17120-bullywug+4.png",
         "tags": []
     },
     {
@@ -798,6 +826,13 @@
         "tags": []
     },
     {
+        "m": "door-mimic",
+        "d": "16957-mimic",
+        "index": 0,
+        "filename": "m=door-mimic_d=16957-mimic.png",
+        "tags": []
+    },
+    {
         "m": "door",
         "index": 0,
         "filename": "m=door.png",
@@ -824,10 +859,23 @@
         "tags": []
     },
     {
+        "m": "dragonborn",
+        "index": 0,
+        "filename": "m=dragonborn.png",
+        "tags": []
+    },
+    {
         "m": "dretch",
         "d": "16846-dretch",
         "index": 0,
         "filename": "m=dretch=_d=16846-dretch.png",
+        "tags": []
+    },
+    {
+        "m": "drow",
+        "d": "17370-rahadin",
+        "index": 0,
+        "filename": "m=drow_d=17370-rahadin.png",
         "tags": []
     },
     {
@@ -1060,6 +1108,13 @@
         "tags": []
     },
     {
+        "m": "grell",
+        "d": "17157-grell",
+        "index": 0,
+        "filename": "m=grell_d=17157-grell.png",
+        "tags": []
+    },
+    {
         "m": "griffon",
         "d": "16913-griffon",
         "index": 1,
@@ -1197,6 +1252,13 @@
         "tags": [
             "female"
         ]
+    },
+    {
+        "m": "ice-mephit",
+        "d": "16932-ice-mephit",
+        "index": 2,
+        "filename": "m=ice-mephit_d=16932-ice-mephit+2.png",
+        "tags": []
     },
     {
         "m": "ice-mephit",
@@ -1522,6 +1584,13 @@
         "tags": []
     },
     {
+        "m": "mastiff",
+        "d": "16953-mastiff",
+        "index": 0,
+        "filename": "m=mastiff_d=16953-mastiff.png",
+        "tags": []
+    },
+    {
         "m": "meenlock",
         "d": "2560871-meenlock",
         "index": 0,
@@ -1745,6 +1814,13 @@
         "m": "poor",
         "index": 0,
         "filename": "m=poor.png",
+        "tags": []
+    },
+    {
+        "m": "priest-of-osybus",
+        "d": "1680942-priest-of-osybus",
+        "index": 0,
+        "filename": "m=priest-of-osybus_d=1680942-priest-of-osybus.png",
         "tags": []
     },
     {
