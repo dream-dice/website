@@ -1,5 +1,19 @@
 [
     {
+        "title": "Spelljammer Academy Base",
+        "description": "A series of rooms intended for cadets to chase down people in.",
+        "filename": "maps/spelljammer-academy-holding-cells.mp4",
+        "name": "spelljammer-academy-holding-cells",
+        "date": "2023-04-05"
+    },
+    {
+        "title": "Meteriorite in a Cave",
+        "description": "A meteorite has crashed into a cave.",
+        "filename": "maps/meteorite-cave.mp4",
+        "name": "meteorite-cave",
+        "date": "2023-04-05"
+    },
+    {
         "title": "Tyrant Ship Top",
         "description": "The top of the Tyrant ship from Spellhammer, but it is Arabian themed.",
         "filename": "maps/arabian-tyrant-ship-top.jpg",
