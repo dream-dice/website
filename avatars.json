@@ -1939,13 +1939,6 @@
     },
     {
         "m": "orc",
-        "d": "16969-ogre",
-        "index": 0,
-        "filename": "m=orc_d=16969-ogre.png",
-        "tags": []
-    },
-    {
-        "m": "orc",
         "d": "16972-orc",
         "index": 0,
         "filename": "m=orc_d=16972-orc.png",
