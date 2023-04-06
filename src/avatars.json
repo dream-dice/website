@@ -1046,6 +1046,13 @@
         "tags": []
     },
     {
+        "m": "gazer",
+        "d": "2560821-gazer",
+        "index": 0,
+        "filename": "m=gazer_d=2560821-gazer.png",
+        "tags": []
+    },
+    {
         "m": "ghost-dragon",
         "d": "2059741-ghost-dragon",
         "index": 0,
@@ -1092,6 +1099,48 @@
         "d": "2560826-giff",
         "index": 0,
         "filename": "m=giff_d=2560826-giff.png",
+        "tags": []
+    },
+    {
+        "m": "giff",
+        "d": "2771399-giff-shipmate",
+        "index": 0,
+        "filename": "m=giff_d=2771399-giff-shipmate.png",
+        "tags": []
+    },
+    {
+        "m": "giff",
+        "d": "2771399-giff-shipmate",
+        "index": 1,
+        "filename": "m=giff_d=2771399-giff-shipmate+1.png",
+        "tags": []
+    },
+    {
+        "m": "giff",
+        "d": "2771399-giff-shipmate",
+        "index": 2,
+        "filename": "m=giff_d=2771399-giff-shipmate+2.png",
+        "tags": []
+    },
+    {
+        "m": "githyanki",
+        "d": "17149-githyanki-warrior",
+        "index": 0,
+        "filename": "m=githyanki_d=17149-githyanki-warrior.png",
+        "tags": []
+    },
+    {
+        "m": "githyanki",
+        "d": "17149-githyanki-warrior",
+        "index": 1,
+        "filename": "m=githyanki_d=17149-githyanki-warrior+1.png",
+        "tags": []
+    },
+    {
+        "m": "githyanki",
+        "d": "17149-githyanki-warrior",
+        "index": 2,
+        "filename": "m=githyanki_d=17149-githyanki-warrior+2.png",
         "tags": []
     },
     {
@@ -2261,6 +2310,13 @@
         "tags": []
     },
     {
+        "m": "star-lancer",
+        "d": "2506150-star-lancer",
+        "index": 0,
+        "filename": "m=star-lancer_d=2506150-star-lancer.png",
+        "tags": []
+    },
+    {
         "m": "stirge",
         "d": "17023-stirge",
         "index": 0,
@@ -3111,6 +3167,12 @@
         "p": "florian",
         "index": 0,
         "filename": "p=florian.png",
+        "tags": []
+    },
+    {
+        "p": "florian",
+        "index": 0,
+        "filename": "p=florian.gif",
         "tags": []
     },
     {
