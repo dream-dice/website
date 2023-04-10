@@ -371,6 +371,15 @@
         ]
     },
     {
+        "m": "bandit",
+        "d": "16798-bandit",
+        "index": 2,
+        "filename": "m=bandit_d=16798-bandit_t1=red+2.png",
+        "tags": [
+            "red"
+        ]
+    },
+    {
         "m": "banshee",
         "d": "17089-banshee",
         "index": 0,
@@ -458,16 +467,23 @@
     },
     {
         "m": "blink-dog",
-        "d": "blink-dog",
-        "index": 0,
-        "filename": "m=blink-dog_d=blink-dog.png",
+        "d": "16809-blink-dog",
+        "index": 1,
+        "filename": "m=blink-dog_d=16809-blink-dog+1.png",
         "tags": []
     },
     {
         "m": "blink-dog",
-        "d": "blink-dog",
-        "index": 1,
-        "filename": "m=blink-dog_d=blink-dog+1.png",
+        "d": "16809-blink-dog",
+        "index": 2,
+        "filename": "m=blink-dog_d=16809-blink-dog+2.png",
+        "tags": []
+    },
+    {
+        "m": "blink-dog",
+        "d": "16809-blink-dog",
+        "index": 3,
+        "filename": "m=blink-dog_d=16809-blink-dog+3.png",
         "tags": []
     },
     {
@@ -973,6 +989,15 @@
         ]
     },
     {
+        "m": "displacer-beast",
+        "d": "17130-displacer-beast",
+        "index": 0,
+        "filename": "m=displacer-beast_d=17130-displacer-beast_t1=kitten.png",
+        "tags": [
+            "kitten"
+        ]
+    },
+    {
         "m": "dolphin",
         "d": "2560780-dolphin",
         "index": 0,
@@ -1091,6 +1116,13 @@
         "tags": []
     },
     {
+        "m": "ezmerelda-davenir",
+        "d": "17364-ezmerelda-davenir",
+        "index": 0,
+        "filename": "m=ezmerelda-davenir_d=17364-ezmerelda-davenir.png",
+        "tags": []
+    },
+    {
         "m": "faerie-dragon",
         "d": "17107-faerie-dragon-younger",
         "index": 0,
@@ -1131,6 +1163,13 @@
         "tags": []
     },
     {
+        "m": "flying-rocking-horse",
+        "d": "1979780-flying-rocking-horse",
+        "index": 0,
+        "filename": "m=flying-rocking-horse_d=1979780-flying-rocking-horse.png",
+        "tags": []
+    },
+    {
         "m": "flying-ship",
         "index": 0,
         "filename": "m=flying-ship.png",
@@ -1144,10 +1183,24 @@
         "tags": []
     },
     {
+        "m": "fox",
+        "d": "1123082-fox",
+        "index": 0,
+        "filename": "m=fox_d=1123082-fox.png",
+        "tags": []
+    },
+    {
         "m": "frog",
         "d": "16866-frog",
         "index": 0,
         "filename": "m=frog_d=16866-frog.png",
+        "tags": []
+    },
+    {
+        "m": "frost-giant-skeleton",
+        "d": "1123084-frost-giant-skeleton",
+        "index": 0,
+        "filename": "m=frost-giant-skeleton_d=1123084-frost-giant-skeleton.png",
         "tags": []
     },
     {
@@ -1481,17 +1534,24 @@
         "tags": []
     },
     {
+        "m": "harengon-brigand",
+        "d": "1979787-harengon-brigand",
+        "index": 3,
+        "filename": "m=harengon-brigand_d=1979787-harengon-brigand+3.png",
+        "tags": []
+    },
+    {
+        "m": "harengon-brigand",
+        "d": "1979787-harengon-brigand",
+        "index": 4,
+        "filename": "m=harengon-brigand_d=1979787-harengon-brigand+4.png",
+        "tags": []
+    },
+    {
         "m": "harengon-sniper",
         "d": "1979788-harengon-sniper",
         "index": 0,
         "filename": "m=harengon-sniper_d=1979788-harengon-sniper.png",
-        "tags": []
-    },
-    {
-        "m": "harengon",
-        "d": "1979787-harengon-brigand",
-        "index": 0,
-        "filename": "m=harengon_d=1979787-harengon-brigand.png",
         "tags": []
     },
     {
@@ -1639,6 +1699,13 @@
         "m": "investigator",
         "index": 0,
         "filename": "m=investigator.png",
+        "tags": []
+    },
+    {
+        "m": "iron-golem",
+        "d": "16935-iron-golem",
+        "index": 0,
+        "filename": "m=iron-golem_d=16935-iron-golem.png",
         "tags": []
     },
     {
@@ -1955,6 +2022,13 @@
         "tags": []
     },
     {
+        "m": "mimic-chair",
+        "d": "1528975-mimic-chair",
+        "index": 0,
+        "filename": "m=mimic-chair_d=1528975-mimic-chair.png",
+        "tags": []
+    },
+    {
         "m": "mind-flayer",
         "d": "17104-mind-flayer",
         "index": 0,
@@ -2029,6 +2103,13 @@
         "d": "17183-myconid-adult",
         "index": 0,
         "filename": "m=myconid_d=17183-myconid-adult.png",
+        "tags": []
+    },
+    {
+        "m": "myconid",
+        "d": "17183-myconid-adult",
+        "index": 1,
+        "filename": "m=myconid_d=17183-myconid-adult+1.png",
         "tags": []
     },
     {
@@ -2143,6 +2224,13 @@
         "tags": []
     },
     {
+        "m": "pidlwick-ii",
+        "d": "17369-pidlwick-ii",
+        "index": 0,
+        "filename": "m=pidlwick-ii_d=17369-pidlwick-ii.png",
+        "tags": []
+    },
+    {
         "m": "pixie",
         "d": "17192-pixie",
         "index": 0,
@@ -2179,6 +2267,13 @@
         "d": "2821189-plasmoid-explorer",
         "index": 0,
         "filename": "m=plasmoid_d=2821189-plasmoid-explorer.png",
+        "tags": []
+    },
+    {
+        "m": "pony",
+        "d": "16984-pony",
+        "index": 0,
+        "filename": "m=pony_d=16984-pony.png",
         "tags": []
     },
     {
@@ -2278,6 +2373,13 @@
         "tags": []
     },
     {
+        "m": "roc",
+        "d": "16998-roc",
+        "index": 0,
+        "filename": "m=roc_d=16998-roc.png",
+        "tags": []
+    },
+    {
         "m": "rose",
         "d": "356626-rose-durst",
         "index": 0,
@@ -2333,6 +2435,13 @@
         "d": "17007-scout",
         "index": 0,
         "filename": "m=scout_d=17007-scout.png",
+        "tags": []
+    },
+    {
+        "m": "scout",
+        "d": "17007-scout",
+        "index": 1,
+        "filename": "m=scout_d=17007-scout+1.png",
         "tags": []
     },
     {
@@ -2681,6 +2790,13 @@
         "d": "17043-vampire",
         "index": 0,
         "filename": "m=vampire_d=17043-vampire.png",
+        "tags": []
+    },
+    {
+        "m": "vampire",
+        "d": "17043-vampire",
+        "index": 1,
+        "filename": "m=vampire_d=17043-vampire+1.png",
         "tags": []
     },
     {
