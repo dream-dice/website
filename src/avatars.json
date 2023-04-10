@@ -3114,6 +3114,12 @@
         "tags": []
     },
     {
+        "p": "blobby",
+        "index": 0,
+        "filename": "p=blobby.gif",
+        "tags": []
+    },
+    {
         "p": "cassandra",
         "index": 0,
         "filename": "p=cassandra.png",
@@ -3182,6 +3188,12 @@
         "tags": []
     },
     {
+        "p": "fluck",
+        "index": 0,
+        "filename": "p=fluck.gif",
+        "tags": []
+    },
+    {
         "p": "glim",
         "index": 0,
         "filename": "p=glim.png",
@@ -3209,6 +3221,12 @@
         "p": "hiplomus-boo",
         "index": 0,
         "filename": "p=hiplomus-boo.png",
+        "tags": []
+    },
+    {
+        "p": "hiplomus-boo",
+        "index": 0,
+        "filename": "p=hiplomus-boo.gif",
         "tags": []
     },
     {
@@ -3251,6 +3269,12 @@
         "p": "nine-seven",
         "index": 0,
         "filename": "p=nine-seven.png",
+        "tags": []
+    },
+    {
+        "p": "nine-seven",
+        "index": 0,
+        "filename": "p=nine-seven.gif",
         "tags": []
     },
     {
