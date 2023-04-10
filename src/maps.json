@@ -1,5 +1,12 @@
 [
     {
+        "title": "Brimstone Stronghold Surface",
+        "description": "The Brimstone Surface for the Keys to the Golden Vault campaign.",
+        "filename": "maps/brimstone.jpg",
+        "name": "brimstone",
+        "date": "2023-04-10"
+    },
+    {
         "title": "Spelljammer Academy Base",
         "description": "A series of rooms intended for cadets to chase down people in.",
         "filename": "maps/spelljammer-academy-holding-cells.mp4",
