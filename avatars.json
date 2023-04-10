@@ -128,6 +128,13 @@
         "tags": []
     },
     {
+        "m": "animated-halberd",
+        "d": "299572-animated-halberd",
+        "index": 0,
+        "filename": "m=animated-halberd_d=299572-animated-halberd.png",
+        "tags": []
+    },
+    {
         "m": "animated-knife",
         "d": "744300-animated-knife",
         "index": 0,
@@ -153,6 +160,13 @@
         "d": "2560723-apprentice-wizard",
         "index": 2,
         "filename": "m=apprentice-wizard_d=2560723-apprentice-wizard+2.png",
+        "tags": []
+    },
+    {
+        "m": "apprentice-wizard",
+        "d": "2560723-apprentice-wizard",
+        "index": 3,
+        "filename": "m=apprentice-wizard_d=2560723-apprentice-wizard+3.png",
         "tags": []
     },
     {
@@ -299,6 +313,13 @@
         "d": "16798-bandit",
         "index": 7,
         "filename": "m=bandit_d=16798-bandit+7.png",
+        "tags": []
+    },
+    {
+        "m": "bandit",
+        "d": "16798-bandit",
+        "index": 8,
+        "filename": "m=bandit_d=16798-bandit+8.png",
         "tags": []
     },
     {
@@ -531,6 +552,20 @@
         "tags": []
     },
     {
+        "m": "bullywug",
+        "d": "17120-bullywug",
+        "index": 5,
+        "filename": "m=bullywug_d=17120-bullywug+5.png",
+        "tags": []
+    },
+    {
+        "m": "campestri",
+        "d": "1979774-campestri",
+        "index": 0,
+        "filename": "m=campestri_d=1979774-campestri.png",
+        "tags": []
+    },
+    {
         "m": "carrion-crawler",
         "d": "17138-carrion-crawler",
         "index": 0,
@@ -556,6 +591,15 @@
         "index": 1,
         "filename": "m=cat_d=16820-cat+1.png",
         "tags": []
+    },
+    {
+        "m": "cat",
+        "d": "16820-cat",
+        "index": 0,
+        "filename": "m=cat_d=16820-cat_t1=skeleton.png",
+        "tags": [
+            "skeleton"
+        ]
     },
     {
         "m": "child",
@@ -986,6 +1030,13 @@
         ]
     },
     {
+        "m": "elkhorn",
+        "d": "1979777-elkhorn",
+        "index": 0,
+        "filename": "m=elkhorn_d=1979777-elkhorn.png",
+        "tags": []
+    },
+    {
         "m": "faerie-dragon",
         "d": "17107-faerie-dragon-younger",
         "index": 0,
@@ -1050,6 +1101,13 @@
         "d": "2560821-gazer",
         "index": 0,
         "filename": "m=gazer_d=2560821-gazer.png",
+        "tags": []
+    },
+    {
+        "m": "gelatinous-cube",
+        "d": "16869-gelatinous-cube",
+        "index": 0,
+        "filename": "m=gelatinous-cube_d=16869-gelatinous-cube.png",
         "tags": []
     },
     {
@@ -1228,6 +1286,15 @@
         "filename": "m=goblin_d=16907-goblin_t1=conductor.png",
         "tags": [
             "conductor"
+        ]
+    },
+    {
+        "m": "goblin",
+        "d": "16907-goblin",
+        "index": 0,
+        "filename": "m=goblin_d=16907-goblin_t1=frost.png",
+        "tags": [
+            "frost"
         ]
     },
     {
@@ -1485,6 +1552,12 @@
         "m": "inn-keep",
         "index": 4,
         "filename": "m=inn-keep+4.png",
+        "tags": []
+    },
+    {
+        "m": "inn-keep",
+        "index": 5,
+        "filename": "m=inn-keep+5.png",
         "tags": []
     },
     {
@@ -1848,6 +1921,13 @@
         "tags": []
     },
     {
+        "m": "mongrelfolk",
+        "d": "17367-mongrelfolk",
+        "index": 1,
+        "filename": "m=mongrelfolk_d=17367-mongrelfolk+1.png",
+        "tags": []
+    },
+    {
         "m": "monkey",
         "d": "16795-baboon",
         "index": 0,
@@ -1866,6 +1946,13 @@
         "d": "17173-mud-mephit",
         "index": 0,
         "filename": "m=mud-mephit_d=17173-mud-mephit.png",
+        "tags": []
+    },
+    {
+        "m": "myconid",
+        "d": "17183-myconid-adult",
+        "index": 0,
+        "filename": "m=myconid_d=17183-myconid-adult.png",
         "tags": []
     },
     {
@@ -2059,6 +2146,13 @@
         "tags": []
     },
     {
+        "m": "quickling",
+        "d": "17299-quickling",
+        "index": 0,
+        "filename": "m=quickling_d=17299-quickling.png",
+        "tags": []
+    },
+    {
         "m": "rat",
         "d": "16891-giant-rat",
         "index": 0,
@@ -2159,10 +2253,24 @@
         "tags": []
     },
     {
+        "m": "scout",
+        "d": "17007-scout",
+        "index": 0,
+        "filename": "m=scout_d=17007-scout.png",
+        "tags": []
+    },
+    {
         "m": "sea-horse",
         "d": "17009-sea-horse",
         "index": 0,
         "filename": "m=sea-horse_d=17009-sea-horse.png",
+        "tags": []
+    },
+    {
+        "m": "shadow-demon",
+        "d": "17131-shadow-demon",
+        "index": 0,
+        "filename": "m=shadow-demon_d=17131-shadow-demon.png",
         "tags": []
     },
     {
@@ -2177,6 +2285,13 @@
         "d": "17010-shadow",
         "index": 1,
         "filename": "m=shadow_d=17010-shadow+1.png",
+        "tags": []
+    },
+    {
+        "m": "shambling-mound",
+        "d": "17011-shambling-mound",
+        "index": 0,
+        "filename": "m=shambling-mound_d=17011-shambling-mound.png",
         "tags": []
     },
     {
@@ -2466,6 +2581,15 @@
         "index": 0,
         "filename": "m=vampire_d=17043-vampire.png",
         "tags": []
+    },
+    {
+        "m": "veteran",
+        "d": "17045-veteran",
+        "index": 0,
+        "filename": "m=veteran_d=17045-veteran_t1=sailor.png",
+        "tags": [
+            "sailor"
+        ]
     },
     {
         "m": "vistani",
