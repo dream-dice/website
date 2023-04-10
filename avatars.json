@@ -31,6 +31,13 @@
         "tags": []
     },
     {
+        "m": "aboleth",
+        "d": "16762-aboleth",
+        "index": 0,
+        "filename": "m=aboleth_d=16762-aboleth.png",
+        "tags": []
+    },
+    {
         "m": "acolyte",
         "d": "16763-acolyte",
         "index": 0,
@@ -80,10 +87,24 @@
         "tags": []
     },
     {
+        "m": "alhoon",
+        "d": "2560716-alhoon",
+        "index": 0,
+        "filename": "m=alhoon_d=2560716-alhoon.png",
+        "tags": []
+    },
+    {
         "m": "alseid",
         "d": "909469-alseid",
         "index": 0,
         "filename": "m=alseid_d=909469-alseid.png",
+        "tags": []
+    },
+    {
+        "m": "androsphinx",
+        "d": "16785-androsphinx",
+        "index": 0,
+        "filename": "m=androsphinx_d=16785-androsphinx.png",
         "tags": []
     },
     {
@@ -341,6 +362,15 @@
         ]
     },
     {
+        "m": "bandit",
+        "d": "16798-bandit",
+        "index": 1,
+        "filename": "m=bandit_d=16798-bandit_t1=red+1.png",
+        "tags": [
+            "red"
+        ]
+    },
+    {
         "m": "banshee",
         "d": "17089-banshee",
         "index": 0,
@@ -446,6 +476,15 @@
         "index": 0,
         "filename": "m=boar_d=16812-boar.png",
         "tags": []
+    },
+    {
+        "m": "boar",
+        "d": "16812-boar",
+        "index": 0,
+        "filename": "m=boar_d=16812-boar_t1=piglet.png",
+        "tags": [
+            "piglet"
+        ]
     },
     {
         "m": "boggle",
@@ -614,6 +653,12 @@
         "tags": []
     },
     {
+        "m": "child",
+        "index": 2,
+        "filename": "m=child+2.png",
+        "tags": []
+    },
+    {
         "m": "chocobo",
         "index": 0,
         "filename": "m=chocobo.png",
@@ -732,6 +777,15 @@
         "index": 1,
         "filename": "m=cockatrice_d=16828-cockatrice+1.png",
         "tags": []
+    },
+    {
+        "m": "commoner",
+        "d": "16829-commoner",
+        "index": 0,
+        "filename": "m=commoner_d=16829-commoner_t1=female.png",
+        "tags": [
+            "female"
+        ]
     },
     {
         "m": "commoner",
@@ -1301,6 +1355,15 @@
         "m": "goblin",
         "d": "16907-goblin",
         "index": 0,
+        "filename": "m=goblin_d=16907-goblin_t1=keys.png",
+        "tags": [
+            "keys"
+        ]
+    },
+    {
+        "m": "goblin",
+        "d": "16907-goblin",
+        "index": 0,
         "filename": "m=goblin_d=16907-goblin_t1=xmas.png",
         "tags": [
             "xmas"
@@ -1558,6 +1621,12 @@
         "m": "inn-keep",
         "index": 5,
         "filename": "m=inn-keep+5.png",
+        "tags": []
+    },
+    {
+        "m": "inn-keep",
+        "index": 6,
+        "filename": "m=inn-keep+6.png",
         "tags": []
     },
     {
@@ -1862,6 +1931,13 @@
         "d": "16953-mastiff",
         "index": 0,
         "filename": "m=mastiff_d=16953-mastiff.png",
+        "tags": []
+    },
+    {
+        "m": "mastiff",
+        "d": "16953-mastiff",
+        "index": 1,
+        "filename": "m=mastiff_d=16953-mastiff+1.png",
         "tags": []
     },
     {
@@ -2346,6 +2422,13 @@
     {
         "m": "skeleton",
         "d": "17015-skeleton",
+        "index": 4,
+        "filename": "m=skeleton_d=17015-skeleton+4.png",
+        "tags": []
+    },
+    {
+        "m": "skeleton",
+        "d": "17015-skeleton",
         "index": 0,
         "filename": "m=skeleton_d=17015-skeleton_t1=butler.png",
         "tags": [
@@ -2359,6 +2442,24 @@
         "filename": "m=skeleton_d=17015-skeleton_t1=pirate.png",
         "tags": [
             "pirate"
+        ]
+    },
+    {
+        "m": "skeleton",
+        "d": "17015-skeleton",
+        "index": 1,
+        "filename": "m=skeleton_d=17015-skeleton_t1=pirate+1.png",
+        "tags": [
+            "pirate"
+        ]
+    },
+    {
+        "m": "skeleton",
+        "d": "17015-skeleton",
+        "index": 0,
+        "filename": "m=skeleton_d=17015-skeleton_t1=pirate-1.png",
+        "tags": [
+            "pirate-1"
         ]
     },
     {
@@ -2587,6 +2688,15 @@
         "d": "17045-veteran",
         "index": 0,
         "filename": "m=veteran_d=17045-veteran_t1=sailor.png",
+        "tags": [
+            "sailor"
+        ]
+    },
+    {
+        "m": "veteran",
+        "d": "17045-veteran",
+        "index": 1,
+        "filename": "m=veteran_d=17045-veteran_t1=sailor+1.png",
         "tags": [
             "sailor"
         ]
