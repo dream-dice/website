@@ -59,6 +59,13 @@
         "tags": []
     },
     {
+        "m": "acolyte",
+        "d": "16763-acolyte",
+        "index": 3,
+        "filename": "m=acolyte_d=16763-acolyte+3.png",
+        "tags": []
+    },
+    {
         "m": "aeorian-reverser",
         "d": "744299-aeorian-reverser",
         "index": 0,
@@ -153,6 +160,13 @@
         "d": "299572-animated-halberd",
         "index": 0,
         "filename": "m=animated-halberd_d=299572-animated-halberd.png",
+        "tags": []
+    },
+    {
+        "m": "animated-halberd",
+        "d": "299572-animated-halberd",
+        "index": 1,
+        "filename": "m=animated-halberd_d=299572-animated-halberd+1.png",
         "tags": []
     },
     {
@@ -281,6 +295,14 @@
         "tags": []
     },
     {
+        "m": "balloon",
+        "index": 0,
+        "filename": "m=balloon_t1=rain-cloud.png",
+        "tags": [
+            "rain-cloud"
+        ]
+    },
+    {
         "m": "bandit",
         "d": "16798-bandit",
         "index": 0,
@@ -380,6 +402,15 @@
         ]
     },
     {
+        "m": "bandit",
+        "d": "16798-bandit",
+        "index": 3,
+        "filename": "m=bandit_d=16798-bandit_t1=red+3.png",
+        "tags": [
+            "red"
+        ]
+    },
+    {
         "m": "banshee",
         "d": "17089-banshee",
         "index": 0,
@@ -445,6 +476,13 @@
     {
         "m": "berserker",
         "d": "16805-berserker",
+        "index": 5,
+        "filename": "m=berserker_d=16805-berserker+5.png",
+        "tags": []
+    },
+    {
+        "m": "berserker",
+        "d": "16805-berserker",
         "index": 0,
         "filename": "m=berserker_d=16805-berserker_t1=orc.png",
         "tags": [
@@ -484,6 +522,13 @@
         "d": "16809-blink-dog",
         "index": 3,
         "filename": "m=blink-dog_d=16809-blink-dog+3.png",
+        "tags": []
+    },
+    {
+        "m": "blue-dragon",
+        "d": "16765-adult-blue-dragon",
+        "index": 0,
+        "filename": "m=blue-dragon_d=16765-adult-blue-dragon.png",
         "tags": []
     },
     {
@@ -832,6 +877,14 @@
     },
     {
         "m": "commoner",
+        "index": 1,
+        "filename": "m=commoner_t1=female+1.png",
+        "tags": [
+            "female"
+        ]
+    },
+    {
+        "m": "commoner",
         "index": null,
         "filename": "m=commoner_t1=human+t2=male.png",
         "tags": [
@@ -861,6 +914,13 @@
         "d": "16830-constrictor-snake",
         "index": 0,
         "filename": "m=constrictor-snake_d=16830-constrictor-snake.png",
+        "tags": []
+    },
+    {
+        "m": "copper-dragon",
+        "d": "16768-adult-copper-dragon",
+        "index": 0,
+        "filename": "m=copper-dragon_d=16768-adult-copper-dragon.png",
         "tags": []
     },
     {
@@ -1044,10 +1104,24 @@
         "tags": []
     },
     {
+        "m": "dragonborn-of-bahamut",
+        "d": "2059728-dragonborn-of-bahamut",
+        "index": 0,
+        "filename": "m=dragonborn-of-bahamut_d=2059728-dragonborn-of-bahamut.png",
+        "tags": []
+    },
+    {
         "m": "dretch",
         "d": "16846-dretch",
         "index": 0,
         "filename": "m=dretch=_d=16846-dretch.png",
+        "tags": []
+    },
+    {
+        "m": "droaw",
+        "d": "17133-drow",
+        "index": 0,
+        "filename": "m=droaw_d=17133-drow.png",
         "tags": []
     },
     {
@@ -1250,6 +1324,13 @@
         "d": "1979782-giant-snail",
         "index": 0,
         "filename": "m=giant-snail_d=1979782-giant-snail.png",
+        "tags": []
+    },
+    {
+        "m": "giant-snail",
+        "d": "1979782-giant-snail",
+        "index": 1,
+        "filename": "m=giant-snail_d=1979782-giant-snail+1.png",
         "tags": []
     },
     {
@@ -1739,6 +1820,13 @@
         "tags": []
     },
     {
+        "m": "kettlesteam-the-kenku",
+        "d": "1979793-kettlesteam-the-kenku",
+        "index": 0,
+        "filename": "m=kettlesteam-the-kenku_d=1979793-kettlesteam-the-kenku.png",
+        "tags": []
+    },
+    {
         "m": "killmoulis",
         "d": "588967-killmoulis",
         "index": 0,
@@ -2113,6 +2201,13 @@
         "tags": []
     },
     {
+        "m": "myconid",
+        "d": "17183-myconid-adult",
+        "index": 2,
+        "filename": "m=myconid_d=17183-myconid-adult+2.png",
+        "tags": []
+    },
+    {
         "m": "neogi-hatchling",
         "d": "2560884-neogi-hatchling",
         "index": 0,
@@ -2162,6 +2257,13 @@
         "tags": []
     },
     {
+        "m": "noble",
+        "d": "16966-noble",
+        "index": 5,
+        "filename": "m=noble_d=16966-noble+5.png",
+        "tags": []
+    },
+    {
         "m": "ogre",
         "d": "16969-ogre",
         "index": 0,
@@ -2179,6 +2281,13 @@
         "d": "16909-gray-ooze",
         "index": 0,
         "filename": "m=ooze_d=16909-gray-ooze.png",
+        "tags": []
+    },
+    {
+        "m": "orc-war-chief",
+        "d": "17187-orc-war-chief",
+        "index": 0,
+        "filename": "m=orc-war-chief_d=17187-orc-war-chief.png",
         "tags": []
     },
     {
@@ -2983,6 +3092,13 @@
         "d": "17065-wyvern",
         "index": 0,
         "filename": "m=wyvern_d=17065-wyvern.png",
+        "tags": []
+    },
+    {
+        "m": "yeti",
+        "d": "17096-yeti",
+        "index": 0,
+        "filename": "m=yeti_d=17096-yeti.png",
         "tags": []
     },
     {
