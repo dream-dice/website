@@ -1,12 +1,12 @@
+import chance from 'chance'
+import copy from 'copy-to-clipboard'
+import qs from 'qs'
 import React, { useState } from 'react'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import Card from './card'
 import items from './items.json'
 import names from './names.json'
 import tables from './tables.json'
-import chance from 'chance'
-import copy from 'copy-to-clipboard'
-import { useLocation, useNavigate, useParams } from 'react-router-dom'
-import qs from 'qs'
 
 const links = {
     equipment: 'https://www.dndbeyond.com/equipment/',
@@ -150,7 +150,20 @@ const ShopRouter = ({ itemType }) => {
         if (type === 'sort-title') state.sortTitle = payload.sort
         if (type === 'sort-price') state.sortPrice = payload.sort
         if (type === 'sort-type') state.sortType = payload.sort
-        const updatedSearch = qs.stringify(state)
+
+
+        let searchChecked = {}
+        let search = {}
+        Object.entries(state).forEach(([key, value]) => {
+            if (key === 'checked') {
+                Object.entries(value).forEach(([checkedName, checked]) => {
+                    if (checked) searchChecked[checkedName] = checked
+                })
+            } else if (value !== '' && value !== 'false' && value !== 'asc' && value !== false) {
+                search[key] = value
+            }
+        })
+        const updatedSearch = qs.stringify({ ...search, checked: searchChecked })
         navigate(`${pathname}?${updatedSearch}`)
     }
 
