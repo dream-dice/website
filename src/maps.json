@@ -1,5 +1,12 @@
 [
     {
+        "title": "Brimstone Stronghold Underground",
+        "description": "The Brimstone Underground for the Keys to the Golden Vault campaign.",
+        "filename": "maps/brimstone-2.jpg",
+        "name": "brimstone-2",
+        "date": "2023-04-15s"
+    },
+    {
         "title": "Brimstone Stronghold Surface",
         "description": "The Brimstone Surface for the Keys to the Golden Vault campaign.",
         "filename": "maps/brimstone.jpg",
