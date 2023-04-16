@@ -221,6 +221,13 @@
         ]
     },
     {
+        "m": "arcanaloth",
+        "d": "17109-arcanaloth",
+        "index": 0,
+        "filename": "m=arcanaloth_d=17109-arcanaloth.png",
+        "tags": []
+    },
+    {
         "m": "archmage",
         "d": "16789-archmage",
         "index": 0,
@@ -446,6 +453,13 @@
         "tags": []
     },
     {
+        "m": "beholder",
+        "d": "17099-beholder",
+        "index": 0,
+        "filename": "m=beholder_d=17099-beholder.png",
+        "tags": []
+    },
+    {
         "m": "berserker",
         "d": "16805-berserker",
         "index": 0,
@@ -569,6 +583,13 @@
         "tags": []
     },
     {
+        "m": "book-mimic",
+        "d": "16957-mimic.png",
+        "index": 0,
+        "filename": "m=book-mimic_d=16957-mimic.png.png",
+        "tags": []
+    },
+    {
         "m": "brazier",
         "index": 0,
         "filename": "m=brazier.png",
@@ -673,6 +694,13 @@
         "tags": []
     },
     {
+        "m": "cambion",
+        "d": "17137-cambion",
+        "index": 0,
+        "filename": "m=cambion_d=17137-cambion.png",
+        "tags": []
+    },
+    {
         "m": "campestri",
         "d": "1979774-campestri",
         "index": 0,
@@ -720,6 +748,13 @@
         "d": "16821-centaur",
         "index": 0,
         "filename": "m=centaur_d=16821-centaur.png",
+        "tags": []
+    },
+    {
+        "m": "chest-mimic",
+        "d": "16957-mimic.png",
+        "index": 0,
+        "filename": "m=chest-mimic_d=16957-mimic.png.png",
         "tags": []
     },
     {
@@ -1188,6 +1223,27 @@
         "tags": []
     },
     {
+        "m": "duergar",
+        "d": "16850-duergar",
+        "index": 0,
+        "filename": "m=duergar_d=16850-duergar.png",
+        "tags": []
+    },
+    {
+        "m": "duergar",
+        "d": "16850-duergar",
+        "index": 1,
+        "filename": "m=duergar_d=16850-duergar+1.png",
+        "tags": []
+    },
+    {
+        "m": "duergar",
+        "d": "16850-duergar",
+        "index": 2,
+        "filename": "m=duergar_d=16850-duergar+2.png",
+        "tags": []
+    },
+    {
         "m": "eagle",
         "d": "16852-eagle",
         "index": 0,
@@ -1209,6 +1265,13 @@
         "tags": []
     },
     {
+        "m": "efreeti",
+        "d": "16854-efreeti",
+        "index": 1,
+        "filename": "m=efreeti_d=16854-efreeti+1.png",
+        "tags": []
+    },
+    {
         "m": "elf",
         "index": 0,
         "filename": "m=elf_t1=female_t2=red-hair.png",
@@ -1222,6 +1285,27 @@
         "d": "1979777-elkhorn",
         "index": 0,
         "filename": "m=elkhorn_d=1979777-elkhorn.png",
+        "tags": []
+    },
+    {
+        "m": "erinyes",
+        "d": "16858-erinyes",
+        "index": 0,
+        "filename": "m=erinyes_d=16858-erinyes.png",
+        "tags": []
+    },
+    {
+        "m": "erinyes",
+        "d": "16858-erinyes",
+        "index": 1,
+        "filename": "m=erinyes_d=16858-erinyes+1.png",
+        "tags": []
+    },
+    {
+        "m": "erinyes",
+        "d": "16858-erinyes",
+        "index": 2,
+        "filename": "m=erinyes_d=16858-erinyes+2.png",
         "tags": []
     },
     {
@@ -2329,6 +2413,13 @@
         "tags": []
     },
     {
+        "m": "nycaloth",
+        "d": "17125-nycaloth",
+        "index": 0,
+        "filename": "m=nycaloth_d=17125-nycaloth.png",
+        "tags": []
+    },
+    {
         "m": "ogre",
         "d": "16969-ogre",
         "index": 0,
@@ -2582,6 +2673,13 @@
         "tags": [
             "dragonborn"
         ]
+    },
+    {
+        "m": "salamander",
+        "d": "17004-salamander",
+        "index": 0,
+        "filename": "m=salamander_d=17004-salamander.png",
+        "tags": []
     },
     {
         "m": "satyr",
@@ -2858,9 +2956,17 @@
         "tags": []
     },
     {
-        "m": "1528985-swarm-of-animated-books",
+        "m": "stone-golem",
+        "d": "17025-stone-golem",
+        "index": 1,
+        "filename": "m=stone-golem_d=17025-stone-golem+1.png",
+        "tags": []
+    },
+    {
+        "m": "swarm-of-animated-books",
+        "d": "1528985-swarm-of-animated-books",
         "index": 0,
-        "filename": "m=swarm-of-animated-books_m=1528985-swarm-of-animated-books.png",
+        "filename": "m=swarm-of-animated-books_d=1528985-swarm-of-animated-books.png",
         "tags": []
     },
     {
