@@ -235,6 +235,13 @@
         "tags": []
     },
     {
+        "m": "arclight-phoenix",
+        "d": "175275-arclight-phoenix",
+        "index": 0,
+        "filename": "m=arclight-phoenix_d=175275-arclight-phoenix.png",
+        "tags": []
+    },
+    {
         "m": "assassin",
         "d": "16790-assassin",
         "index": 0,
@@ -1181,17 +1188,17 @@
         "tags": []
     },
     {
-        "m": "droaw",
+        "m": "drow",
         "d": "17133-drow",
         "index": 0,
-        "filename": "m=droaw_d=17133-drow.png",
+        "filename": "m=drow_d=17133-drow.png",
         "tags": []
     },
     {
-        "m": "droaw",
+        "m": "drow",
         "d": "17133-drow",
         "index": 1,
-        "filename": "m=droaw_d=17133-drow+1.png",
+        "filename": "m=drow_d=17133-drow+1.png",
         "tags": []
     },
     {
@@ -2114,6 +2121,13 @@
         "d": "1979794-living-doll",
         "index": 0,
         "filename": "m=living-doll_d=1979794-living-doll.png",
+        "tags": []
+    },
+    {
+        "m": "living-lightning-bolt",
+        "d": "486454-living-lightning-bolt",
+        "index": 0,
+        "filename": "m=living-lightning-bolt_d=486454-living-lightning-bolt.png",
         "tags": []
     },
     {
