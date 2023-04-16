@@ -3701,6 +3701,12 @@
     {
         "p": "cassandra",
         "index": 0,
+        "filename": "p=cassandra.gif",
+        "tags": []
+    },
+    {
+        "p": "cassandra",
+        "index": 0,
         "filename": "p=cassandra_t1=hybrid.png",
         "tags": [
             "hybrid"
@@ -3716,6 +3722,12 @@
         "p": "cloud",
         "index": 0,
         "filename": "p=cloud.png",
+        "tags": []
+    },
+    {
+        "p": "cloud",
+        "index": 0,
+        "filename": "p=cloud.gif",
         "tags": []
     },
     {
@@ -3746,6 +3758,12 @@
         "p": "firewatch",
         "index": 0,
         "filename": "p=firewatch.png",
+        "tags": []
+    },
+    {
+        "p": "firewatch",
+        "index": 0,
+        "filename": "p=firewatch.gif",
         "tags": []
     },
     {
@@ -3884,6 +3902,12 @@
         "p": "timagast",
         "index": 0,
         "filename": "p=timagast.png",
+        "tags": []
+    },
+    {
+        "p": "timagast",
+        "index": 0,
+        "filename": "p=timagast.gif",
         "tags": []
     },
     {
