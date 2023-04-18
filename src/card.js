@@ -34,7 +34,7 @@ const Card = ({
         setOpen(isOpen)
     }, [isOpen])
 
-    const showContent = description || content || famous.length > 0 || notes.length > 0
+    const showContent = description || content || filename || famous.length > 0 || notes.length > 0
 
     return (
         <div className={`card mt-${first ? '0' : (open ? '5' : '2')} mb-${open ? '5' : '2'}`}>
@@ -86,6 +86,7 @@ const Card = ({
                                 <button className='button is-link' onClick={() => { copy(`https://raw.githubusercontent.com/dream-dice/website/master/public/hotlink-ok/${filename}`) }}>📋 Copy file GH URL</button>
                             </div>
                             {filename.endsWith('jpg') && <img src={`${window.location.origin}/hotlink-ok/${filename}`} alt={title} />}
+                            {filename.endsWith('webp') && <img src={`${window.location.origin}/hotlink-ok/${filename}`} alt={title} />}
                             {filename.endsWith('mp4') && (
                                 <video controls>
                                     <source src={`${window.location.origin}/hotlink-ok/${filename}`} type="video/mp4" />

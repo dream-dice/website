@@ -191,12 +191,13 @@ const Header = () => {
         } else if (pathname.includes('dmNotes') && section !== 'none') {
             contentPage(dmNotes)
         } else if (pathname.includes('maps') && map !== 'none') {
-            const data = maps.find(({ name }) => name === map) || null
-            if (data !== null) {
+            const found = maps.find(({ name }) => name === map) || null
+            if (found !== null) {
+                const {name, filename} = found
                 setMeta({
-                    title: data.title,
-                    description: data.description,
-                    icon: data.filename
+                    title: capitalCase(name),
+                    description: `The avatar for ${name}`,
+                    icon: `https://intrepid-crusaders.blankstring.com/hotlink-ok/avatars/${filename}`
                 })
             }
         } else if (pathname.includes('avatars')) {
