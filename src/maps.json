@@ -1,39 +1,43 @@
 [
     {
         "name": "abandoned-hovel",
-        "filename": "abandoned-hovel.jpg"
+        "filename": "abandoned-hovel.webp"
     },
     {
         "name": "arabian-tyrant-ship-bottom",
-        "filename": "arabian-tyrant-ship-bottom.jpg"
+        "filename": "arabian-tyrant-ship-bottom.webp"
     },
     {
         "name": "arabian-tyrant-ship-middle",
-        "filename": "arabian-tyrant-ship-middle.jpg"
+        "filename": "arabian-tyrant-ship-middle.webp"
     },
     {
         "name": "arabian-tyrant-ship-top",
-        "filename": "arabian-tyrant-ship-top.jpg"
+        "filename": "arabian-tyrant-ship-top.webp"
     },
     {
         "name": "bavlorna-1",
-        "filename": "bavlorna-1.jpg"
+        "filename": "bavlorna-1.webp"
     },
     {
         "name": "bavlorna-2",
-        "filename": "bavlorna-2.jpg"
+        "filename": "bavlorna-2.webp"
     },
     {
         "name": "bavlorna-3",
-        "filename": "bavlorna-3.jpg"
+        "filename": "bavlorna-3.webp"
     },
     {
         "name": "big-forest",
-        "filename": "big-forest.jpg"
+        "filename": "big-forest.webp"
     },
     {
         "name": "brigands-tollway",
-        "filename": "brigands-tollway.jpg"
+        "filename": "brigands-tollway.webp"
+    },
+    {
+        "name": "brimston-2",
+        "filename": "brimston-2.webp"
     },
     {
         "name": "brimstone-2",
@@ -45,7 +49,7 @@
     },
     {
         "name": "bullywug-gazebo",
-        "filename": "bullywug-gazebo.jpg"
+        "filename": "bullywug-gazebo.webp"
     },
     {
         "name": "cadets-quarters",
@@ -57,55 +61,55 @@
     },
     {
         "name": "camp",
-        "filename": "camp.jpg"
+        "filename": "camp.webp"
     },
     {
         "name": "cauldron-camp",
-        "filename": "cauldron-camp.jpg"
+        "filename": "cauldron-camp.webp"
     },
     {
         "name": "corrupt-squid-ship-bottom",
-        "filename": "corrupt-squid-ship-bottom.jpg"
+        "filename": "corrupt-squid-ship-bottom.webp"
     },
     {
         "name": "corrupt-squid-ship-middle",
-        "filename": "corrupt-squid-ship-middle.jpg"
+        "filename": "corrupt-squid-ship-middle.webp"
     },
     {
         "name": "corrupt-squid-ship-top",
-        "filename": "corrupt-squid-ship-top.jpg"
+        "filename": "corrupt-squid-ship-top.webp"
     },
     {
         "name": "dead-tree",
-        "filename": "dead-tree.jpg"
+        "filename": "dead-tree.webp"
     },
     {
         "name": "downfall-bullywugs-1",
-        "filename": "downfall-bullywugs-1.jpg"
+        "filename": "downfall-bullywugs-1.webp"
     },
     {
         "name": "downfall-bullywugs-2",
-        "filename": "downfall-bullywugs-2.jpg"
+        "filename": "downfall-bullywugs-2.webp"
     },
     {
         "name": "firefly-bottom",
-        "filename": "firefly-bottom.jpg"
+        "filename": "firefly-bottom.webp"
     },
     {
         "name": "firefly-middle",
-        "filename": "firefly-middle.jpg"
+        "filename": "firefly-middle.webp"
     },
     {
         "name": "firefly-top",
-        "filename": "firefly-top.jpg"
+        "filename": "firefly-top.webp"
     },
     {
         "name": "flying-ship-ruined-lower",
-        "filename": "flying-ship-ruined-lower.jpg"
+        "filename": "flying-ship-ruined-lower.webp"
     },
     {
         "name": "flying-ship-ruined-upper",
-        "filename": "flying-ship-ruined-upper.jpg"
+        "filename": "flying-ship-ruined-upper.webp"
     },
     {
         "name": "forecastle-ruined",
@@ -121,15 +125,15 @@
     },
     {
         "name": "hammerhead-ship-bottom",
-        "filename": "hammerhead-ship-bottom.jpg"
+        "filename": "hammerhead-ship-bottom.webp"
     },
     {
         "name": "hammerhead-ship-middle",
-        "filename": "hammerhead-ship-middle.jpg"
+        "filename": "hammerhead-ship-middle.webp"
     },
     {
         "name": "hammerhead-ship-top",
-        "filename": "hammerhead-ship-top.jpg"
+        "filename": "hammerhead-ship-top.webp"
     },
     {
         "name": "lakeside-shrooms",
@@ -137,23 +141,23 @@
     },
     {
         "name": "lakeside",
-        "filename": "lakeside.jpg"
+        "filename": "lakeside.webp"
     },
     {
         "name": "large-tent-night",
-        "filename": "large-tent-night.jpg"
+        "filename": "large-tent-night.webp"
     },
     {
         "name": "large-tent",
-        "filename": "large-tent.jpg"
+        "filename": "large-tent.webp"
     },
     {
         "name": "loomlurch-1",
-        "filename": "loomlurch-1.jpg"
+        "filename": "loomlurch-1.webp"
     },
     {
         "name": "loomlurch-2",
-        "filename": "loomlurch-2.jpg"
+        "filename": "loomlurch-2.webp"
     },
     {
         "name": "meteorite-cave",
@@ -161,19 +165,19 @@
     },
     {
         "name": "mirts-room",
-        "filename": "mirts-room.jpg"
+        "filename": "mirts-room.webp"
     },
     {
         "name": "mountains-night",
-        "filename": "mountains-night.jpg"
+        "filename": "mountains-night.webp"
     },
     {
         "name": "mountains",
-        "filename": "mountains.jpg"
+        "filename": "mountains.webp"
     },
     {
         "name": "o-wells",
-        "filename": "o-wells.jpg"
+        "filename": "o-wells.webp"
     },
     {
         "name": "sky-dock",
@@ -181,7 +185,7 @@
     },
     {
         "name": "slanty-tower",
-        "filename": "slanty-tower.jpg"
+        "filename": "slanty-tower.webp"
     },
     {
         "name": "spelljammer-academy-holding-cells",
@@ -189,30 +193,30 @@
     },
     {
         "name": "stepping-stones-1",
-        "filename": "stepping-stones-1.jpg"
+        "filename": "stepping-stones-1.webp"
     },
     {
         "name": "stepping-stones-2",
-        "filename": "stepping-stones-2.jpg"
+        "filename": "stepping-stones-2.webp"
     },
     {
         "name": "swamp-1",
-        "filename": "swamp-1.jpg"
+        "filename": "swamp-1.webp"
     },
     {
         "name": "swamp-2",
-        "filename": "swamp-2.jpg"
+        "filename": "swamp-2.webp"
     },
     {
         "name": "telemy-hill",
-        "filename": "telemy-hill.jpg"
+        "filename": "telemy-hill.webp"
     },
     {
         "name": "temple-of-restful-lily-2",
-        "filename": "temple-of-restful-lily-2.jpg"
+        "filename": "temple-of-restful-lily-2.webp"
     },
     {
         "name": "temple-of-restful-lily",
-        "filename": "temple-of-restful-lily.jpg"
+        "filename": "temple-of-restful-lily.webp"
     }
 ]
