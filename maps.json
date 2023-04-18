@@ -1,380 +1,222 @@
 [
     {
-        "title": "Brimstone Stronghold Underground",
-        "description": "The Brimstone Underground for the Keys to the Golden Vault campaign.",
-        "filename": "maps/brimstone-2.jpg",
-        "name": "brimstone-2",
-        "date": "2023-04-15s"
+        "name": "abandoned-hovel",
+        "filename": "abandoned-hovel.webp"
     },
     {
-        "title": "Brimstone Stronghold Surface",
-        "description": "The Brimstone Surface for the Keys to the Golden Vault campaign.",
-        "filename": "maps/brimstone.jpg",
-        "name": "brimstone",
-        "date": "2023-04-10"
-    },
-    {
-        "title": "Spelljammer Academy Base",
-        "description": "A series of rooms intended for cadets to chase down people in.",
-        "filename": "maps/spelljammer-academy-holding-cells.mp4",
-        "name": "spelljammer-academy-holding-cells",
-        "date": "2023-04-05"
-    },
-    {
-        "title": "Meteriorite in a Cave",
-        "description": "A meteorite has crashed into a cave.",
-        "filename": "maps/meteorite-cave.mp4",
-        "name": "meteorite-cave",
-        "date": "2023-04-05"
-    },
-    {
-        "title": "Tyrant Ship Top",
-        "description": "The top of the Tyrant ship from Spellhammer, but it is Arabian themed.",
-        "filename": "maps/arabian-tyrant-ship-top.jpg",
-        "name": "arabian-tyrant-ship-top",
-        "date": "2023-02-25"
-    },
-    {
-        "title": "Tyrant Ship Middle",
-        "description": "The middle of the Tyrant ship from Spellhammer, but it is Arabian themed.",
-        "filename": "maps/arabian-tyrant-ship-middle.jpg",
-        "name": "arabian-tyrant-ship-middle",
-        "date": "2023-02-25"
-    },
-    {
-        "title": "Tyrant Ship Bottom",
-        "description": "The bottom of the Tyrant ship from Spellhammer, but it is Arabian themed.",
-        "filename": "maps/arabian-tyrant-ship-bottom.jpg",
         "name": "arabian-tyrant-ship-bottom",
-        "date": "2023-02-25"
+        "filename": "arabian-tyrant-ship-bottom.webp"
     },
     {
-        "title": "Corrupt Squid Ship Top",
-        "description": "The top of the Squid ship from Spellhammer, but it is corrupt.",
-        "filename": "maps/corrupt-squid-ship-top.jpg",
-        "name": "corrupt-squid-ship-top",
-        "date": "2023-02-23"
+        "name": "arabian-tyrant-ship-middle",
+        "filename": "arabian-tyrant-ship-middle.webp"
     },
     {
-        "title": "Corrupt Squid Ship Middle",
-        "description": "The middle of the Squid ship from Spellhammer, but it is corrupt.",
-        "filename": "maps/corrupt-squid-ship-middle.jpg",
-        "name": "corrupt-squid-ship-middle",
-        "date": "2023-02-23"
+        "name": "arabian-tyrant-ship-top",
+        "filename": "arabian-tyrant-ship-top.webp"
     },
     {
-        "title": "Corrupt Squid Ship Bottom",
-        "description": "The bottom of the Squid ship from Spellhammer, but it is corrupt.",
-        "filename": "maps/corrupt-squid-ship-bottom.jpg",
-        "name": "corrupt-squid-ship-bottom",
-        "date": "2023-02-23"
+        "name": "bavlorna-1",
+        "filename": "bavlorna-1.webp"
     },
     {
-        "title": "Hammerhead Ship Top",
-        "description": "The top of the Hammerhead ship from Spellhammer.",
-        "filename": "maps/hammerhead-ship-top.jpg",
-        "name": "hammerhead-ship-top",
-        "date": "2023-02-23"
+        "name": "bavlorna-2",
+        "filename": "bavlorna-2.webp"
     },
     {
-        "title": "Hammerhead Ship Middle",
-        "description": "The middle of the Hammerhead ship from Spellhammer.",
-        "filename": "maps/hammerhead-ship-middle.jpg",
-        "name": "hammerhead-ship-middle",
-        "date": "2023-02-23"
+        "name": "bavlorna-3",
+        "filename": "bavlorna-3.webp"
     },
     {
-        "title": "Hammerhead Ship Bottom",
-        "description": "The bottom of the Hammerhead ship from Spellhammer.",
-        "filename": "maps/hammerhead-ship-bottom.jpg",
-        "name": "hammerhead-ship-bottom",
-        "date": "2023-02-23"
+        "name": "big-forest",
+        "filename": "big-forest.webp"
     },
     {
-        "title": "Flying Ship Ruined Lower",
-        "description": "Used in the Spelljammer Academy campaign part 2. The lower part of the ruined ship the cadets race to.",
-        "filename": "maps/flying-ship-ruined-lower.jpg",
-        "name": "flying-ship-ruined-lower",
-        "date": "2023-02-22"
+        "name": "brigands-tollway",
+        "filename": "brigands-tollway.webp"
     },
     {
-        "title": "Flying Ship Ruined Upper",
-        "description": "Used in the Spelljammer Academy campaign part 2. The upper part of the ruined ship the cadets race to.",
-        "filename": "maps/flying-ship-ruined-upper.jpg",
-        "name": "flying-ship-ruined-upper",
-        "date": "2023-02-22"
+        "name": "brimstone-2",
+        "filename": "brimstone-2.webp"
     },
     {
-        "title": "Gymnasium",
-        "description": "Used in the Spelljammer Academy campaign part 1. Overcome several obstacles during the orientation.",
-        "filename": "maps/gymnasium.mp4",
-        "name": "gymnasium",
-        "date": "2023-02-10"
+        "name": "brimstone",
+        "filename": "brimstone.webp"
     },
     {
-        "title": "Sky Dock",
-        "description": "Used in the Spelljammer Academy campaign part 1. Learn about Spelljammer ships and catch the shady cadet.",
-        "filename": "maps/sky-dock.mp4",
-        "name": "sky-dock",
-        "date": "2023-02-10"
+        "name": "bullywug-gazebo",
+        "filename": "bullywug-gazebo.webp"
     },
     {
-        "title": "Mirt's Room",
-        "description": "Used in the Spelljammer Academy campaign part 1. The attack on Mirt takes place here.",
-        "filename": "maps/mirts-room.jpg",
-        "name": "mirts-room",
-        "date": "2023-02-10"
-    },
-    {
-        "title": "Cadets Quarters",
-        "description": "Used in the Spelljammer Academy campaign part 1. For any interactions that require combat,",
-        "filename": "maps/cadets-quarters.mp4",
         "name": "cadets-quarters",
-        "date": "2023-02-10"
+        "filename": "cadets-quarters.mp4"
     },
     {
-        "title": "Lakeside Shrooms",
-        "description": "The Avatar from Candklekeep's Lore of Lure is found here.",
-        "date": "2023-02-10",
-        "filename": "maps/lakeside-shrooms.mp4",
-        "name": "lakeside-shrooms"
+        "name": "camp-night",
+        "filename": "camp-night.mp4"
     },
     {
-        "title": "Camp Night",
-        "description": "A camp on the top of some mountains",
-        "date": "2023-02-10",
-        "filename": "maps/camp-night.mp4",
-        "name": "camp-night"
+        "name": "camp",
+        "filename": "camp.webp"
     },
     {
-        "title": "Forecastle Ruined",
-        "description": "Used in the Spelljammer Academy campaign part 1. The front of this ship at the start of the campaign after the attack.",
-        "date": "2023-02-10",
-        "filename": "maps/forecastle-ruined.mp4",
-        "name": "forecastle-ruined"
+        "name": "cauldron-camp",
+        "filename": "cauldron-camp.webp"
     },
     {
-        "title": "Forecastle Working",
-        "description": "Used in the Spelljammer Academy campaign part 1. The front of this ship at the start of the campaign before the attack.",
-        "date": "2023-02-10",
-        "filename": "maps/forecastle-working.mp4",
-        "name": "forecastle-working"
+        "name": "compressed",
+        "filename": "compressed"
     },
     {
-        "title": "Large Tent Night",
-        "description": "A Large tent at night.",
-        "date": "2023-02-10",
-        "filename": "maps/large-tent-night.jpg",
-        "name": "large-tent-night"
+        "name": "corrupt-squid-ship-bottom",
+        "filename": "corrupt-squid-ship-bottom.webp"
     },
     {
-        "title": "Mountains Night",
-        "description": "A random mountain range at night",
-        "date": "2023-02-10",
-        "filename": "maps/mountains-night.jpg",
-        "name": "mountains-night"
+        "name": "corrupt-squid-ship-middle",
+        "filename": "corrupt-squid-ship-middle.webp"
     },
     {
-        "title": "Mountains",
-        "description": "A random mountain range",
-        "date": "2023-02-10",
-        "filename": "maps/mountains.jpg",
-        "name": "mountains"
+        "name": "corrupt-squid-ship-top",
+        "filename": "corrupt-squid-ship-top.webp"
     },
     {
-        "title": "Abandoned Hovel",
-        "description": "A random abandoned hovel.",
-        "date": "2023-02-10",
-        "filename": "maps/abandoned-hovel.jpg",
-        "name": "abandoned-hovel"
+        "name": "dead-tree",
+        "filename": "dead-tree.webp"
     },
     {
-        "title": "Large Tent",
-        "description": "A large tent",
-        "date": "2023-02-10",
-        "filename": "maps/large-tent.jpg",
-        "name": "large-tent"
+        "name": "downfall-bullywugs-1",
+        "filename": "downfall-bullywugs-1.webp"
     },
     {
-        "title": "Firefly Bottom",
-        "description": "The bottom floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
-        "date": "2023-02-10",
-        "filename": "maps/firefly-bottom.jpg",
-        "name": "firefly-bottom"
+        "name": "downfall-bullywugs-2",
+        "filename": "downfall-bullywugs-2.webp"
     },
     {
-        "title": "Firefly Middle",
-        "description": "The middle floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
-        "date": "2023-02-10",
-        "filename": "maps/firefly-middle.jpg",
-        "name": "firefly-middle"
+        "name": "firefly-bottom",
+        "filename": "firefly-bottom.webp"
     },
     {
-        "title": "Firefly Top",
-        "description": "The top floor from the Firefly cellar in Candlekeep Mysteries' Shemsime's Rhyme",
-        "date": "2023-02-10",
-        "filename": "maps/firefly-top.jpg",
-        "name": "firefly-top"
+        "name": "firefly-middle",
+        "filename": "firefly-middle.webp"
     },
     {
-        "title": "Loomlurch 2",
-        "description": "The second floor to Loomlurch in the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/loomlurch-2.jpg",
-        "name": "loomlurch-2"
+        "name": "firefly-top",
+        "filename": "firefly-top.webp"
     },
     {
-        "title": "Loomlurch 1",
-        "description": "The ground floor to the Loomlurch in the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/loomlurch-1.jpg",
-        "name": "loomlurch-1"
+        "name": "flying-ship-ruined-lower",
+        "filename": "flying-ship-ruined-lower.webp"
     },
     {
-        "title": "Big Forest",
-        "description": "A random forest of trees",
-        "date": "2023-02-10",
-        "filename": "maps/big-forest.jpg",
-        "name": "big-forest"
+        "name": "flying-ship-ruined-upper",
+        "filename": "flying-ship-ruined-upper.webp"
     },
     {
-        "title": "Lakeside",
-        "description": "A random encounter by a lake",
-        "date": "2023-02-10",
-        "filename": "maps/lakeside.jpg",
-        "name": "lakeside"
+        "name": "forecastle-ruined",
+        "filename": "forecastle-ruined.mp4"
     },
     {
-        "title": "Camp",
-        "description": "A campsite with the hunters from the Lore of Lure",
-        "date": "2023-02-10",
-        "filename": "maps/camp.jpg",
-        "name": "camp"
+        "name": "forecastle-working",
+        "filename": "forecastle-working.mp4"
     },
     {
-        "title": "Dead Tree",
-        "description": "A random encounter in the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/dead-tree.jpg",
-        "name": "dead-tree"
+        "name": "gymnasium",
+        "filename": "gymnasium.mp4"
     },
     {
-        "title": "Cauldron Camp",
-        "description": "A cauldron found in the middle of the woods. A random encounter from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/cauldron-camp.jpg",
-        "name": "cauldron-camp"
+        "name": "hammerhead-ship-bottom",
+        "filename": "hammerhead-ship-bottom.webp"
     },
     {
-        "title": "Temple Of Restful Lily 2",
-        "description": "From Candlekeep Mysteries' Temple of the Restful Lilly, upstairs and basement",
-        "date": "2023-02-10",
-        "filename": "maps/temple-of-restful-lily-2.jpg",
-        "name": "temple-of-restful-lily-2"
+        "name": "hammerhead-ship-middle",
+        "filename": "hammerhead-ship-middle.webp"
     },
     {
-        "title": "Temple Of Restful Lily",
-        "description": "From Candlekeep Mysteries' Temple of the Restful Lilly, ground floor",
-        "date": "2023-02-10",
-        "filename": "maps/temple-of-restful-lily.jpg",
-        "name": "temple-of-restful-lily"
+        "name": "hammerhead-ship-top",
+        "filename": "hammerhead-ship-top.webp"
     },
     {
-        "title": "Bullywug Gazebo",
-        "description": "The gazebo in Downfall from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/bullywug-gazebo.jpg",
-        "name": "bullywug-gazebo"
+        "name": "lakeside-shrooms",
+        "filename": "lakeside-shrooms.mp4"
     },
     {
-        "title": "Downfall Bullywugs 2",
-        "description": "In Downfall, an area of houses and a missing tree from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/downfall-bullywugs-2.jpg",
-        "name": "downfall-bullywugs-2"
+        "name": "lakeside",
+        "filename": "lakeside.webp"
     },
     {
-        "title": "Downfall Bullywugs 1",
-        "description": "In Downfall, an area of houses and undisturbed tree",
-        "date": "2023-02-10",
-        "filename": "maps/downfall-bullywugs-1.jpg",
-        "name": "downfall-bullywugs-1"
+        "name": "large-tent-night",
+        "filename": "large-tent-night.webp"
     },
     {
-        "title": "Stepping Stones 2",
-        "description": "In Downfall, a series of large stepping stones missing a stone from the Wild Beyond the Witchlight.",
-        "date": "2023-02-10",
-        "filename": "maps/stepping-stones-2.jpg",
-        "name": "stepping-stones-2"
+        "name": "large-tent",
+        "filename": "large-tent.webp"
     },
     {
-        "title": "Stepping Stones 1",
-        "description": "In Downfall, a series of large stepping stones from the Wild Beyond the Witchlight.",
-        "date": "2023-02-10",
-        "filename": "maps/stepping-stones-1.jpg",
-        "name": "stepping-stones-1"
+        "name": "loomlurch-1",
+        "filename": "loomlurch-1.webp"
     },
     {
-        "title": "Bavlorna 3",
-        "description": "Bavlorna's Cottage top floor from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/bavlorna-3.jpg",
-        "name": "bavlorna-3"
+        "name": "loomlurch-2",
+        "filename": "loomlurch-2.webp"
     },
     {
-        "title": "Bavlorna 2",
-        "description": "Bavlorna's Cottage second floor from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/bavlorna-2.jpg",
-        "name": "bavlorna-2"
+        "name": "meteorite-cave",
+        "filename": "meteorite-cave.mp4"
     },
     {
-        "title": "Bavlorna 1",
-        "description": "Bavlorna's Cottage ground floor from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/bavlorna-1.jpg",
-        "name": "bavlorna-1"
+        "name": "mirts-room",
+        "filename": "mirts-room.webp"
     },
     {
-        "title": "Brigands Tollway",
-        "description": "The Brigands Tollway from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/brigands-tollway.jpg",
-        "name": "brigands-tollway"
+        "name": "mountains-night",
+        "filename": "mountains-night.webp"
     },
     {
-        "title": "Telemy Hill",
-        "description": "Telemy Hill from the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/telemy-hill.jpg",
-        "name": "telemy-hill"
+        "name": "mountains",
+        "filename": "mountains.webp"
     },
     {
-        "title": "Swamp 2",
-        "description": "A random swamp encounter with ruins",
-        "date": "2023-02-10",
-        "filename": "maps/swamp-2.jpg",
-        "name": "swamp-2"
+        "name": "o-wells",
+        "filename": "o-wells.webp"
     },
     {
-        "title": "Swamp 1",
-        "description": "A random swamp encounter after jumping down from the Queens causeway in the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/swamp-1.jpg",
-        "name": "swamp-1"
+        "name": "sky-dock",
+        "filename": "sky-dock.mp4"
     },
     {
-        "title": "Slanty Tower",
-        "description": "Outside the Slanty Tower in the Wild Beyond the Witchlight",
-        "date": "2023-02-10",
-        "filename": "maps/slanty-tower.jpg",
-        "name": "slanty-tower"
+        "name": "slanty-tower",
+        "filename": "slanty-tower.webp"
     },
     {
-        "title": "O' Wells",
-        "description": "A random encounter with a large well",
-        "date": "2023-02-10",
-        "filename": "maps/o-wells.jpg",
-        "name": "o-wells"
+        "name": "spelljammer-academy-holding-cells",
+        "filename": "spelljammer-academy-holding-cells.mp4"
+    },
+    {
+        "name": "stepping-stones-1",
+        "filename": "stepping-stones-1.webp"
+    },
+    {
+        "name": "stepping-stones-2",
+        "filename": "stepping-stones-2.webp"
+    },
+    {
+        "name": "swamp-1",
+        "filename": "swamp-1.webp"
+    },
+    {
+        "name": "swamp-2",
+        "filename": "swamp-2.webp"
+    },
+    {
+        "name": "telemy-hill",
+        "filename": "telemy-hill.webp"
+    },
+    {
+        "name": "temple-of-restful-lily-2",
+        "filename": "temple-of-restful-lily-2.webp"
+    },
+    {
+        "name": "temple-of-restful-lily",
+        "filename": "temple-of-restful-lily.webp"
     }
 ]
