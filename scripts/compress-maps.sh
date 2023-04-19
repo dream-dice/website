@@ -8,9 +8,7 @@ if [ -n "$(ls -A temp/maps)" ]; then
         elif [[ $i != *.jpg ]]; then
             mv $i "/home/luke/Projects/website/public/hotlink-ok/maps/$(basename $i)"
         elif [[ $i == *.jpg ]]; then
-            echo /home/luke/Projects/website/temp/maps/compressed
-            compress --source $i --destination temp/compressed
-            infile="/home/luke/Projects/website/temp/compressed/$(basename $i)"
+            infile="/home/luke/Projects/website/temp/maps/$(basename $i)"
             file="/home/luke/Projects/website/public/hotlink-ok/maps/$(basename $i)"
             cwebp -q 60 $infile -o "${file%.jpg}.webp"
             rm $i $infile

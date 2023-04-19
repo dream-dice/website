@@ -3923,9 +3923,21 @@
         "tags": []
     },
     {
+        "p": "godfrey",
+        "index": 0,
+        "filename": "p=godfrey.gif",
+        "tags": []
+    },
+    {
         "p": "gorek",
         "index": 0,
         "filename": "p=gorek.png",
+        "tags": []
+    },
+    {
+        "p": "gorek",
+        "index": 0,
+        "filename": "p=gorek.gif",
         "tags": []
     },
     {
@@ -3956,6 +3968,12 @@
         "p": "ka",
         "index": 0,
         "filename": "p=ka.png",
+        "tags": []
+    },
+    {
+        "p": "ka",
+        "index": 0,
+        "filename": "p=ka.gif",
         "tags": []
     },
     {
