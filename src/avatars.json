@@ -1376,6 +1376,12 @@
         "tags": []
     },
     {
+        "m": "entertainer",
+        "index": 0,
+        "filename": "m=entertainer.png",
+        "tags": []
+    },
+    {
         "m": "erinyes",
         "d": "16858-erinyes",
         "index": 0,
@@ -1526,6 +1532,13 @@
         "d": "16872-ghoul",
         "index": 0,
         "filename": "m=ghoul_d=16872-ghoul.png",
+        "tags": []
+    },
+    {
+        "m": "ghoul",
+        "d": "16872-ghoul",
+        "index": 1,
+        "filename": "m=ghoul_d=16872-ghoul+1.png",
         "tags": []
     },
     {
@@ -2452,6 +2465,12 @@
         "tags": []
     },
     {
+        "m": "miner",
+        "index": 0,
+        "filename": "m=miner.png",
+        "tags": []
+    },
+    {
         "m": "minotaur-skeleton",
         "d": "16959-minotaur-skeleton",
         "index": 0,
@@ -2560,6 +2579,13 @@
         "d": "16965-night-hag",
         "index": 0,
         "filename": "m=night-hag_d=16965-night-hag.png",
+        "tags": []
+    },
+    {
+        "m": "night-hag",
+        "d": "16965-night-hag",
+        "index": 1,
+        "filename": "m=night-hag_d=16965-night-hag+1.png",
         "tags": []
     },
     {
@@ -2993,6 +3019,13 @@
         "tags": []
     },
     {
+        "m": "shadow-demon",
+        "d": "17131-shadow-demon",
+        "index": 1,
+        "filename": "m=shadow-demon_d=17131-shadow-demon+1.png",
+        "tags": []
+    },
+    {
         "m": "shadow",
         "d": "17010-shadow",
         "index": 0,
@@ -3011,6 +3044,13 @@
         "d": "17010-shadow",
         "index": 2,
         "filename": "m=shadow_d=17010-shadow+2.png",
+        "tags": []
+    },
+    {
+        "m": "shadow",
+        "d": "17010-shadow",
+        "index": 3,
+        "filename": "m=shadow_d=17010-shadow+3.png",
         "tags": []
     },
     {
@@ -3258,6 +3298,13 @@
         "d": "1528985-swarm-of-animated-books",
         "index": 0,
         "filename": "m=swarm-of-animated-books_d=1528985-swarm-of-animated-books.png",
+        "tags": []
+    },
+    {
+        "m": "swarm-of-insects-spiders",
+        "d": "301414-swarm-of-insects-spiders",
+        "index": 0,
+        "filename": "m=swarm-of-insects-spiders_d=301414-swarm-of-insects-spiders.png",
         "tags": []
     },
     {
@@ -3617,6 +3664,12 @@
         "d": "17062-wolf",
         "index": 1,
         "filename": "m=wolf_d=17062-wolf+1.png",
+        "tags": []
+    },
+    {
+        "m": "worker",
+        "index": 0,
+        "filename": "m=worker.png",
         "tags": []
     },
     {
