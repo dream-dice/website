@@ -792,6 +792,12 @@
         "tags": []
     },
     {
+        "m": "chef",
+        "index": 0,
+        "filename": "m=chef.png",
+        "tags": []
+    },
+    {
         "m": "chest-mimic",
         "d": "16957-mimic.png",
         "index": 0,
@@ -814,6 +820,18 @@
         "m": "child",
         "index": 2,
         "filename": "m=child+2.png",
+        "tags": []
+    },
+    {
+        "m": "child",
+        "index": 3,
+        "filename": "m=child+3.png",
+        "tags": []
+    },
+    {
+        "m": "child",
+        "index": 4,
+        "filename": "m=child+4.png",
         "tags": []
     },
     {
@@ -947,6 +965,15 @@
         "d": "16829-commoner",
         "index": 0,
         "filename": "m=commoner_d=16829-commoner_t1=female.png",
+        "tags": [
+            "female"
+        ]
+    },
+    {
+        "m": "commoner",
+        "d": "16829-commoner",
+        "index": 1,
+        "filename": "m=commoner_d=16829-commoner_t1=female+1.png",
         "tags": [
             "female"
         ]
@@ -1274,6 +1301,13 @@
         "d": "175898-druid-of-the-old-ways",
         "index": 0,
         "filename": "m=druid_d=175898-druid-of-the-old-ways.png",
+        "tags": []
+    },
+    {
+        "m": "druid",
+        "d": "175898-druid-of-the-old-ways",
+        "index": 1,
+        "filename": "m=druid_d=175898-druid-of-the-old-ways+1.png",
         "tags": []
     },
     {
@@ -1895,6 +1929,13 @@
         "tags": []
     },
     {
+        "m": "horse",
+        "d": "16997-riding-horse",
+        "index": 0,
+        "filename": "m=horse_d=16997-riding-horse.png",
+        "tags": []
+    },
+    {
         "m": "hourglass",
         "index": 0,
         "filename": "m=hourglass.png",
@@ -1942,6 +1983,13 @@
         "d": "16896-giant-toad",
         "index": 0,
         "filename": "m=ice-toad_d=16896-giant-toad.png",
+        "tags": []
+    },
+    {
+        "m": "ice-troll",
+        "d": "1123099-ice-troll",
+        "index": 0,
+        "filename": "m=ice-troll_d=1123099-ice-troll.png",
         "tags": []
     },
     {
@@ -2299,6 +2347,13 @@
         ]
     },
     {
+        "m": "magewright",
+        "d": "487578-magewright",
+        "index": 0,
+        "filename": "m=magewright_d=487578-magewright.png",
+        "tags": []
+    },
+    {
         "m": "magma-mephit",
         "d": "16948-magma-mephit",
         "index": 0,
@@ -2352,6 +2407,13 @@
         "d": "16953-mastiff",
         "index": 2,
         "filename": "m=mastiff_d=16953-mastiff+2.png",
+        "tags": []
+    },
+    {
+        "m": "mastiff",
+        "d": "16953-mastiff",
+        "index": 3,
+        "filename": "m=mastiff_d=16953-mastiff+3.png",
         "tags": []
     },
     {
@@ -2554,6 +2616,13 @@
         "d": "16966-noble",
         "index": 7,
         "filename": "m=noble_d=16966-noble+7.png",
+        "tags": []
+    },
+    {
+        "m": "noble",
+        "d": "16966-noble",
+        "index": 8,
+        "filename": "m=noble_d=16966-noble+8.png",
         "tags": []
     },
     {
@@ -2772,6 +2841,13 @@
         "d": "16891-giant-rat",
         "index": 0,
         "filename": "m=rat_d=16891-giant-rat.png",
+        "tags": []
+    },
+    {
+        "m": "raven",
+        "d": "16992-raven",
+        "index": 0,
+        "filename": "m=raven_d=16992-raven.png",
         "tags": []
     },
     {
@@ -3010,6 +3086,13 @@
     {
         "m": "skeleton",
         "d": "17015-skeleton",
+        "index": 5,
+        "filename": "m=skeleton_d=17015-skeleton+5.png",
+        "tags": []
+    },
+    {
+        "m": "skeleton",
+        "d": "17015-skeleton",
         "index": 0,
         "filename": "m=skeleton_d=17015-skeleton_t1=butler.png",
         "tags": [
@@ -3161,6 +3244,13 @@
         "d": "17374-strahd-von-zarovich",
         "index": 0,
         "filename": "m=strahd-von-zarovich_d=17374-strahd-von-zarovich.png",
+        "tags": []
+    },
+    {
+        "m": "strahd-zombie",
+        "d": "17375-strahd-zombie",
+        "index": 0,
+        "filename": "m=strahd-zombie_d=17375-strahd-zombie.png",
         "tags": []
     },
     {
@@ -3340,6 +3430,13 @@
         "tags": []
     },
     {
+        "m": "vrock",
+        "d": "17047-vrock",
+        "index": 0,
+        "filename": "m=vrock_d=17047-vrock.png",
+        "tags": []
+    },
+    {
         "m": "vulture",
         "d": "16897-giant-vulture",
         "index": 0,
@@ -3507,6 +3604,20 @@
         "tags": [
             "gun"
         ]
+    },
+    {
+        "m": "wolf",
+        "d": "17062-wolf",
+        "index": 0,
+        "filename": "m=wolf_d=17062-wolf.png",
+        "tags": []
+    },
+    {
+        "m": "wolf",
+        "d": "17062-wolf",
+        "index": 1,
+        "filename": "m=wolf_d=17062-wolf+1.png",
+        "tags": []
     },
     {
         "m": "wyvern",
