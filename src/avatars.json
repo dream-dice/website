@@ -73,6 +73,13 @@
         "tags": []
     },
     {
+        "m": "aeorian-nullifier",
+        "d": "744298-aeorian-nullifier",
+        "index": 0,
+        "filename": "m=aeorian-nullifier_d=744298-aeorian-nullifier.png",
+        "tags": []
+    },
+    {
         "m": "aeorian-reverser",
         "d": "744299-aeorian-reverser",
         "index": 0,
@@ -312,6 +319,13 @@
         "tags": []
     },
     {
+        "m": "baboon",
+        "d": "16795-baboon",
+        "index": 0,
+        "filename": "m=baboon_d=16795-baboon.png",
+        "tags": []
+    },
+    {
         "m": "bak-mei",
         "d": "1528956-bak-mei",
         "index": 0,
@@ -532,6 +546,13 @@
     {
         "m": "berserker",
         "d": "16805-berserker",
+        "index": 6,
+        "filename": "m=berserker_d=16805-berserker+6.png",
+        "tags": []
+    },
+    {
+        "m": "berserker",
+        "d": "16805-berserker",
         "index": 0,
         "filename": "m=berserker_d=16805-berserker_t1=orc.png",
         "tags": [
@@ -622,6 +643,13 @@
         "d": "16957-mimic.png",
         "index": 0,
         "filename": "m=book-mimic_d=16957-mimic.png.png",
+        "tags": []
+    },
+    {
+        "m": "brain-in-a-jar",
+        "d": "1123069-brain-in-a-jar",
+        "index": 0,
+        "filename": "m=brain-in-a-jar_d=1123069-brain-in-a-jar.png",
         "tags": []
     },
     {
@@ -2698,6 +2726,13 @@
         "tags": []
     },
     {
+        "m": "noble",
+        "d": "16966-noble",
+        "index": 9,
+        "filename": "m=noble_d=16966-noble+9.png",
+        "tags": []
+    },
+    {
         "m": "nycaloth",
         "d": "17125-nycaloth",
         "index": 0,
@@ -3389,6 +3424,12 @@
         "tags": []
     },
     {
+        "m": "tiefling",
+        "index": 0,
+        "filename": "m=tiefling.png",
+        "tags": []
+    },
+    {
         "m": "tin-soldier",
         "d": "1979811-tin-soldier",
         "index": 0,
@@ -3403,6 +3444,20 @@
         "tags": [
             "fey"
         ]
+    },
+    {
+        "m": "twig-blight",
+        "d": "17095-twig-blight",
+        "index": 0,
+        "filename": "m=twig-blight_d=17095-twig-blight.png",
+        "tags": []
+    },
+    {
+        "m": "twig-blight",
+        "d": "17095-twig-blight",
+        "index": 1,
+        "filename": "m=twig-blight_d=17095-twig-blight+1.png",
+        "tags": []
     },
     {
         "m": "twin-headed-snake",
@@ -3503,6 +3558,13 @@
         "d": "17043-vampire",
         "index": 1,
         "filename": "m=vampire_d=17043-vampire+1.png",
+        "tags": []
+    },
+    {
+        "m": "veteran",
+        "d": "17045-veteran",
+        "index": 0,
+        "filename": "m=veteran_d=17045-veteran.png",
         "tags": []
     },
     {
