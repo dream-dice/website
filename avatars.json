@@ -4055,6 +4055,12 @@
         "tags": []
     },
     {
+        "p": "voker",
+        "index": 0,
+        "filename": "p=voker.gif",
+        "tags": []
+    },
+    {
         "p": "wigberta",
         "index": 0,
         "filename": "p=wigberta.png",
@@ -4092,11 +4098,6 @@
         "p": "zordar",
         "index": 0,
         "filename": "p=zordar.png",
-        "tags": []
-    },
-    {
-        "index": 0,
-        "filename": "voker.gif",
         "tags": []
     }
 ]
