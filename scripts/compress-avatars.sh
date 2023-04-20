@@ -1,5 +1,5 @@
 if [ -n "$(ls -A temp/avatars)" ]; then
-    for i in temp/*; do
+    for i in temp/avatars/*; do
         if test -f "/home/luke/Projects/website/public/hotlink-ok/avatars/$(basename $i)"; then
             echo "/home/luke/Projects/website/public/hotlink-ok/avatars/$(basename $i) exists."
         else

@@ -89,6 +89,10 @@
     },
     {
         "name": "firefly-bottom",
+        "filename": "firefly-bottom.mp4"
+    },
+    {
+        "name": "firefly-bottom",
         "filename": "firefly-bottom.webp"
     },
     {
@@ -156,12 +160,20 @@
         "filename": "loomlurch-2.webp"
     },
     {
+        "name": "loomlurch",
+        "filename": "loomlurch.webp"
+    },
+    {
         "name": "meteorite-cave",
         "filename": "meteorite-cave.mp4"
     },
     {
         "name": "mirts-room",
         "filename": "mirts-room.webp"
+    },
+    {
+        "name": "motherhorn-1",
+        "filename": "motherhorn-1.webp"
     },
     {
         "name": "mountains-night",
@@ -172,8 +184,16 @@
         "filename": "mountains.webp"
     },
     {
+        "name": "mountin-purple",
+        "filename": "mountin-purple.mp4"
+    },
+    {
         "name": "o-wells",
         "filename": "o-wells.webp"
+    },
+    {
+        "name": "rocky-lakeside",
+        "filename": "rocky-lakeside.mp4"
     },
     {
         "name": "sky-dock",
@@ -186,6 +206,18 @@
     {
         "name": "spelljammer-academy-holding-cells",
         "filename": "spelljammer-academy-holding-cells.mp4"
+    },
+    {
+        "name": "squid-ship-bottom",
+        "filename": "squid-ship-bottom.webp"
+    },
+    {
+        "name": "squid-ship-middle",
+        "filename": "squid-ship-middle.webp"
+    },
+    {
+        "name": "squid-ship-top",
+        "filename": "squid-ship-top.webp"
     },
     {
         "name": "stepping-stones-1",

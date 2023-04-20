@@ -31,6 +31,13 @@
         "tags": []
     },
     {
+        "m": "abhorrent-overlord",
+        "d": "909467-abhorrent-overlord",
+        "index": 0,
+        "filename": "m=abhorrent-overlord_d=909467-abhorrent-overlord.png",
+        "tags": []
+    },
+    {
         "m": "aboleth",
         "d": "16762-aboleth",
         "index": 0,
@@ -235,6 +242,13 @@
         "tags": []
     },
     {
+        "m": "archmage",
+        "d": "16789-archmage",
+        "index": 1,
+        "filename": "m=archmage_d=16789-archmage+1.png",
+        "tags": []
+    },
+    {
         "m": "arclight-phoenix",
         "d": "175275-arclight-phoenix",
         "index": 0,
@@ -253,6 +267,13 @@
         "d": "16790-assassin",
         "index": 1,
         "filename": "m=assassin_d=16790-assassin+1.png",
+        "tags": []
+    },
+    {
+        "m": "assassin",
+        "d": "16790-assassin",
+        "index": 2,
+        "filename": "m=assassin_d=16790-assassin+2.png",
         "tags": []
     },
     {
@@ -701,6 +722,12 @@
         "tags": []
     },
     {
+        "m": "butt",
+        "index": 0,
+        "filename": "m=butt.png",
+        "tags": []
+    },
+    {
         "m": "cambion",
         "d": "17137-cambion",
         "index": 0,
@@ -865,6 +892,12 @@
         "d": "2821159-chwinga-astronaut",
         "index": 0,
         "filename": "m=chwinga-astronaut_d=2821159-chwinga-astronaut.png",
+        "tags": []
+    },
+    {
+        "m": "cipher",
+        "index": 0,
+        "filename": "m=cipher.png",
         "tags": []
     },
     {
@@ -1605,6 +1638,13 @@
     {
         "m": "goblin",
         "d": "16907-goblin",
+        "index": 3,
+        "filename": "m=goblin_d=16907-goblin+3.png",
+        "tags": []
+    },
+    {
+        "m": "goblin",
+        "d": "16907-goblin",
         "index": 0,
         "filename": "m=goblin_d=16907-goblin_t1=conductor.png",
         "tags": [
@@ -1768,6 +1808,13 @@
         "d": "1979788-harengon-sniper",
         "index": 0,
         "filename": "m=harengon-sniper_d=1979788-harengon-sniper.png",
+        "tags": []
+    },
+    {
+        "m": "harpy",
+        "d": "16919-harpy",
+        "index": 0,
+        "filename": "m=harpy_d=16919-harpy.png",
         "tags": []
     },
     {
@@ -2039,6 +2086,13 @@
         "tags": []
     },
     {
+        "m": "kobold",
+        "d": "16939-kobold",
+        "index": 4,
+        "filename": "m=kobold_d=16939-kobold+4.png",
+        "tags": []
+    },
+    {
         "m": "ktulah",
         "d": "1528970-ktulah",
         "index": 0,
@@ -2184,6 +2238,13 @@
         "d": "16947-mage",
         "index": 5,
         "filename": "m=mage_d=16947-mage+5.png",
+        "tags": []
+    },
+    {
+        "m": "mage",
+        "d": "16947-mage",
+        "index": 6,
+        "filename": "m=mage_d=16947-mage+6.png",
         "tags": []
     },
     {
@@ -2343,6 +2404,12 @@
         "tags": []
     },
     {
+        "m": "mouth",
+        "index": 0,
+        "filename": "m=mouth.png",
+        "tags": []
+    },
+    {
         "m": "mud-mephit",
         "d": "17173-mud-mephit",
         "index": 0,
@@ -2427,6 +2494,13 @@
         "tags": []
     },
     {
+        "m": "noble",
+        "d": "16966-noble",
+        "index": 6,
+        "filename": "m=noble_d=16966-noble+6.png",
+        "tags": []
+    },
+    {
         "m": "nycaloth",
         "d": "17125-nycaloth",
         "index": 0,
@@ -2482,6 +2556,13 @@
         "tags": []
     },
     {
+        "m": "orc",
+        "d": "16972-orc",
+        "index": 3,
+        "filename": "m=orc_d=16972-orc+3.png",
+        "tags": []
+    },
+    {
         "m": "pegasus",
         "d": "16977-pegasus",
         "index": 0,
@@ -2493,6 +2574,13 @@
         "d": "17368-phantom-warrior",
         "index": 0,
         "filename": "m=phantom-warrior_d=17368-phantom-warrior.png",
+        "tags": []
+    },
+    {
+        "m": "phase-spider",
+        "d": "16978-phase-spider",
+        "index": 0,
+        "filename": "m=phase-spider_d=16978-phase-spider.png",
         "tags": []
     },
     {
@@ -2546,6 +2634,13 @@
         "d": "2821189-plasmoid-explorer",
         "index": 0,
         "filename": "m=plasmoid_d=2821189-plasmoid-explorer.png",
+        "tags": []
+    },
+    {
+        "m": "polar-bear",
+        "d": "16983-polar-bear",
+        "index": 0,
+        "filename": "m=polar-bear_d=16983-polar-bear.png",
         "tags": []
     },
     {
@@ -2893,6 +2988,14 @@
         ]
     },
     {
+        "m": "smith",
+        "index": 1,
+        "filename": "m=smith_t1=dwarf+1.png",
+        "tags": [
+            "dwarf"
+        ]
+    },
+    {
         "m": "space-guppy",
         "d": "2821198-space-guppy",
         "index": 0,
@@ -3216,6 +3319,13 @@
         "tags": []
     },
     {
+        "m": "werebear",
+        "d": "17053-werebear",
+        "index": 0,
+        "filename": "m=werebear_d=17053-werebear.png",
+        "tags": []
+    },
+    {
         "m": "wererat",
         "d": "17055-wererat",
         "index": 0,
@@ -3326,6 +3436,13 @@
         "d": "17077-zombie",
         "index": 0,
         "filename": "m=zombie_d=17077-zombie.png",
+        "tags": []
+    },
+    {
+        "m": "zombie",
+        "d": "17077-zombie",
+        "index": 1,
+        "filename": "m=zombie_d=17077-zombie+1.png",
         "tags": []
     },
     {
@@ -4055,6 +4172,12 @@
         "tags": []
     },
     {
+        "p": "voker",
+        "index": 0,
+        "filename": "p=voker.gif",
+        "tags": []
+    },
+    {
         "p": "wigberta",
         "index": 0,
         "filename": "p=wigberta.png",
@@ -4092,11 +4215,6 @@
         "p": "zordar",
         "index": 0,
         "filename": "p=zordar.png",
-        "tags": []
-    },
-    {
-        "index": 0,
-        "filename": "voker.gif",
         "tags": []
     }
 ]
