@@ -785,6 +785,13 @@
         "tags": []
     },
     {
+        "m": "centaur",
+        "d": "16821-centaur",
+        "index": 1,
+        "filename": "m=centaur_d=16821-centaur+1.png",
+        "tags": []
+    },
+    {
         "m": "chest-mimic",
         "d": "16957-mimic.png",
         "index": 0,
@@ -1257,6 +1264,13 @@
     },
     {
         "m": "druid",
+        "d": "16848-druid",
+        "index": 2,
+        "filename": "m=druid_d=16848-druid+2.png",
+        "tags": []
+    },
+    {
+        "m": "druid",
         "d": "175898-druid-of-the-old-ways",
         "index": 0,
         "filename": "m=druid_d=175898-druid-of-the-old-ways.png",
@@ -1488,6 +1502,13 @@
         "tags": []
     },
     {
+        "m": "giant-lizard",
+        "d": "16887-giant-lizard",
+        "index": 0,
+        "filename": "m=giant-lizard_d=16887-giant-lizard.png",
+        "tags": []
+    },
+    {
         "m": "giant-snail",
         "d": "1979782-giant-snail",
         "index": 0,
@@ -1583,6 +1604,13 @@
         "d": "16903-gladiator",
         "index": 3,
         "filename": "m=gladiator_d=16903-gladiator+3.png",
+        "tags": []
+    },
+    {
+        "m": "gladiator",
+        "d": "16903-gladiator",
+        "index": 4,
+        "filename": "m=gladiator_d=16903-gladiator+4.png",
         "tags": []
     },
     {
@@ -1700,6 +1728,13 @@
         "tags": []
     },
     {
+        "m": "grick",
+        "d": "16912-grick",
+        "index": 0,
+        "filename": "m=grick_d=16912-grick.png",
+        "tags": []
+    },
+    {
         "m": "griffon",
         "d": "16913-griffon",
         "index": 0,
@@ -1732,6 +1767,13 @@
         "d": "16915-guard",
         "index": 2,
         "filename": "m=guard_d=16915-guard+2.png",
+        "tags": []
+    },
+    {
+        "m": "guard",
+        "d": "16915-guard",
+        "index": 3,
+        "filename": "m=guard_d=16915-guard+3.png",
         "tags": []
     },
     {
@@ -2404,6 +2446,13 @@
         "tags": []
     },
     {
+        "m": "mountain-goat",
+        "d": "1123114-mountain-goat",
+        "index": 0,
+        "filename": "m=mountain-goat_d=1123114-mountain-goat.png",
+        "tags": []
+    },
+    {
         "m": "mouth",
         "index": 0,
         "filename": "m=mouth.png",
@@ -2498,6 +2547,13 @@
         "d": "16966-noble",
         "index": 6,
         "filename": "m=noble_d=16966-noble+6.png",
+        "tags": []
+    },
+    {
+        "m": "noble",
+        "d": "16966-noble",
+        "index": 7,
+        "filename": "m=noble_d=16966-noble+7.png",
         "tags": []
     },
     {
@@ -2609,6 +2665,20 @@
         "d": "17192-pixie",
         "index": 1,
         "filename": "m=pixie_d=17192-pixie+1.png",
+        "tags": []
+    },
+    {
+        "m": "pixie",
+        "d": "17192-pixie",
+        "index": 2,
+        "filename": "m=pixie_d=17192-pixie+2.png",
+        "tags": []
+    },
+    {
+        "m": "pixie",
+        "d": "17192-pixie",
+        "index": 3,
+        "filename": "m=pixie_d=17192-pixie+3.png",
         "tags": []
     },
     {
@@ -2772,6 +2842,13 @@
         "d": "17002-saber-toothed-tiger",
         "index": 0,
         "filename": "m=saber-toothed-tiger_d=17002-saber-toothed-tiger.png",
+        "tags": []
+    },
+    {
+        "m": "sage",
+        "d": "1528979-sage",
+        "index": 0,
+        "filename": "m=sage_d=1528979-sage.png",
         "tags": []
     },
     {
@@ -3080,6 +3157,13 @@
         "tags": []
     },
     {
+        "m": "strahd-von-zarovich",
+        "d": "17374-strahd-von-zarovich",
+        "index": 0,
+        "filename": "m=strahd-von-zarovich_d=17374-strahd-von-zarovich.png",
+        "tags": []
+    },
+    {
         "m": "swarm-of-animated-books",
         "d": "1528985-swarm-of-animated-books",
         "index": 0,
@@ -3091,6 +3175,13 @@
         "d": "17372-the-abbot",
         "index": 0,
         "filename": "m=the-abbot_d=17372-the-abbot.png",
+        "tags": []
+    },
+    {
+        "m": "thorn-durst",
+        "d": "356633-thorn-durst",
+        "index": 0,
+        "filename": "m=thorn-durst_d=356633-thorn-durst.png",
         "tags": []
     },
     {
@@ -3443,6 +3534,13 @@
         "d": "17077-zombie",
         "index": 1,
         "filename": "m=zombie_d=17077-zombie+1.png",
+        "tags": []
+    },
+    {
+        "m": "zombie",
+        "d": "17077-zombie",
+        "index": 2,
+        "filename": "m=zombie_d=17077-zombie+2.png",
         "tags": []
     },
     {
