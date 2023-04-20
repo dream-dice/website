@@ -581,6 +581,13 @@
         "tags": []
     },
     {
+        "m": "blue-dracolich",
+        "d": "17106-adult-blue-dracolich",
+        "index": 0,
+        "filename": "m=blue-dracolich_d=17106-adult-blue-dracolich.png",
+        "tags": []
+    },
+    {
         "m": "blue-dragon",
         "d": "16765-adult-blue-dragon",
         "index": 0,
@@ -728,6 +735,12 @@
         "tags": []
     },
     {
+        "m": "cacoon",
+        "index": 0,
+        "filename": "m=cacoon.png",
+        "tags": []
+    },
+    {
         "m": "cambion",
         "d": "17137-cambion",
         "index": 0,
@@ -832,6 +845,12 @@
         "m": "child",
         "index": 4,
         "filename": "m=child+4.png",
+        "tags": []
+    },
+    {
+        "m": "child",
+        "index": 5,
+        "filename": "m=child+5.png",
         "tags": []
     },
     {
@@ -1549,6 +1568,13 @@
         "tags": []
     },
     {
+        "m": "giant-elk",
+        "d": "16882-giant-elk",
+        "index": 0,
+        "filename": "m=giant-elk_d=16882-giant-elk.png",
+        "tags": []
+    },
+    {
         "m": "giant-lizard",
         "d": "16887-giant-lizard",
         "index": 0,
@@ -1928,6 +1954,12 @@
         "tags": []
     },
     {
+        "m": "hobbit",
+        "index": 0,
+        "filename": "m=hobbit.png",
+        "tags": []
+    },
+    {
         "m": "hobgoblin",
         "d": "16925-hobgoblin",
         "index": 0,
@@ -1946,6 +1978,13 @@
         "d": "16997-riding-horse",
         "index": 0,
         "filename": "m=horse_d=16997-riding-horse.png",
+        "tags": []
+    },
+    {
+        "m": "horse",
+        "d": "16997-riding-horse",
+        "index": 1,
+        "filename": "m=horse_d=16997-riding-horse+1.png",
         "tags": []
     },
     {
@@ -2568,6 +2607,13 @@
         "tags": []
     },
     {
+        "m": "needle-blight",
+        "d": "17215-needle-blight",
+        "index": 0,
+        "filename": "m=needle-blight_d=17215-needle-blight.png",
+        "tags": []
+    },
+    {
         "m": "neogi-hatchling",
         "d": "2560884-neogi-hatchling",
         "index": 0,
@@ -3051,6 +3097,13 @@
         "d": "17010-shadow",
         "index": 3,
         "filename": "m=shadow_d=17010-shadow+3.png",
+        "tags": []
+    },
+    {
+        "m": "shadow",
+        "d": "17010-shadow",
+        "index": 4,
+        "filename": "m=shadow_d=17010-shadow+4.png",
         "tags": []
     },
     {
@@ -3604,6 +3657,15 @@
         "d": "17057-werewolf",
         "index": 0,
         "filename": "m=werewolf_d=17057-werewolf_t1=hybid.png",
+        "tags": [
+            "hybid"
+        ]
+    },
+    {
+        "m": "werewolf",
+        "d": "17057-werewolf",
+        "index": 1,
+        "filename": "m=werewolf_d=17057-werewolf_t1=hybid+1.png",
         "tags": [
             "hybid"
         ]
