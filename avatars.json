@@ -73,6 +73,20 @@
         "tags": []
     },
     {
+        "m": "acolyte",
+        "d": "16763-acolyte",
+        "index": 4,
+        "filename": "m=acolyte_d=16763-acolyte+4.png",
+        "tags": []
+    },
+    {
+        "m": "aeorian-absorber",
+        "d": "744297-aeorian-absorber",
+        "index": 0,
+        "filename": "m=aeorian-absorber_d=744297-aeorian-absorber.png",
+        "tags": []
+    },
+    {
         "m": "aeorian-nullifier",
         "d": "744298-aeorian-nullifier",
         "index": 0,
@@ -191,6 +205,13 @@
         "tags": []
     },
     {
+        "m": "animated-warhammer",
+        "d": "299572-animated-halberd",
+        "index": 1,
+        "filename": "m=animated-warhammer_d=299572-animated-halberd+1.png",
+        "tags": []
+    },
+    {
         "m": "apprentice-wizard",
         "d": "2560723-apprentice-wizard",
         "index": 0,
@@ -228,6 +249,13 @@
     {
         "m": "apprentice-wizard",
         "d": "2560723-apprentice-wizard",
+        "index": 5,
+        "filename": "m=apprentice-wizard_d=2560723-apprentice-wizard+5.png",
+        "tags": []
+    },
+    {
+        "m": "apprentice-wizard",
+        "d": "2560723-apprentice-wizard",
         "index": 0,
         "filename": "m=apprentice-wizard_d=2560723-apprentice-wizard_t1=quasit.png",
         "tags": [
@@ -253,6 +281,13 @@
         "d": "16789-archmage",
         "index": 1,
         "filename": "m=archmage_d=16789-archmage+1.png",
+        "tags": []
+    },
+    {
+        "m": "archmage",
+        "d": "16789-archmage",
+        "index": 2,
+        "filename": "m=archmage_d=16789-archmage+2.png",
         "tags": []
     },
     {
@@ -375,6 +410,13 @@
     {
         "m": "bandit",
         "d": "16798-bandit",
+        "index": 10,
+        "filename": "m=bandit_d=16798-bandit+10.png",
+        "tags": []
+    },
+    {
+        "m": "bandit",
+        "d": "16798-bandit",
         "index": 2,
         "filename": "m=bandit_d=16798-bandit+2.png",
         "tags": []
@@ -419,6 +461,13 @@
         "d": "16798-bandit",
         "index": 8,
         "filename": "m=bandit_d=16798-bandit+8.png",
+        "tags": []
+    },
+    {
+        "m": "bandit",
+        "d": "16798-bandit",
+        "index": 9,
+        "filename": "m=bandit_d=16798-bandit+9.png",
         "tags": []
     },
     {
@@ -471,6 +520,20 @@
         "d": "17089-banshee",
         "index": 0,
         "filename": "m=banshee_d=17089-banshee.png",
+        "tags": []
+    },
+    {
+        "m": "banshee",
+        "d": "17089-banshee",
+        "index": 1,
+        "filename": "m=banshee_d=17089-banshee+1.png",
+        "tags": []
+    },
+    {
+        "m": "banshee",
+        "d": "17089-banshee",
+        "index": 2,
+        "filename": "m=banshee_d=17089-banshee+2.png",
         "tags": []
     },
     {
@@ -670,6 +733,13 @@
         "d": "16767-adult-bronze-dragon",
         "index": 1,
         "filename": "m=bronze-dragon_d=16767-adult-bronze-dragon+1.png",
+        "tags": []
+    },
+    {
+        "m": "brown-bear",
+        "d": "16816-brown-bear",
+        "index": 0,
+        "filename": "m=brown-bear_d=16816-brown-bear.png",
         "tags": []
     },
     {
@@ -1011,6 +1081,15 @@
         "m": "commoner",
         "d": "16829-commoner",
         "index": 0,
+        "filename": "m=commoner_d=16829-commoner_t1=cleaner.png",
+        "tags": [
+            "cleaner"
+        ]
+    },
+    {
+        "m": "commoner",
+        "d": "16829-commoner",
+        "index": 0,
         "filename": "m=commoner_d=16829-commoner_t1=female.png",
         "tags": [
             "female"
@@ -1028,10 +1107,20 @@
     {
         "m": "commoner",
         "d": "16829-commoner",
-        "index": null,
-        "filename": "m=commoner_d=16829-commoner_t1=female+t2=halfling.png",
+        "index": 2,
+        "filename": "m=commoner_d=16829-commoner_t1=female+2.png",
         "tags": [
             "female"
+        ]
+    },
+    {
+        "m": "commoner",
+        "d": "16829-commoner",
+        "index": 0,
+        "filename": "m=commoner_d=16829-commoner_t1=female_t2=halfling.png",
+        "tags": [
+            "female",
+            "halfling"
         ]
     },
     {
@@ -1255,6 +1344,13 @@
         "tags": []
     },
     {
+        "m": "draconian-foot-soldier",
+        "d": "2059717-draconian-foot-soldier",
+        "index": 0,
+        "filename": "m=draconian-foot-soldier_d=2059717-draconian-foot-soldier.png",
+        "tags": []
+    },
+    {
         "m": "dragon-speaker",
         "d": "2059724-dragon-speaker",
         "index": 0,
@@ -1345,6 +1441,13 @@
     },
     {
         "m": "druid",
+        "d": "16848-druid",
+        "index": 3,
+        "filename": "m=druid_d=16848-druid+3.png",
+        "tags": []
+    },
+    {
+        "m": "druid",
         "d": "175898-druid-of-the-old-ways",
         "index": 0,
         "filename": "m=druid_d=175898-druid-of-the-old-ways.png",
@@ -1420,6 +1523,13 @@
         "d": "1979777-elkhorn",
         "index": 0,
         "filename": "m=elkhorn_d=1979777-elkhorn.png",
+        "tags": []
+    },
+    {
+        "m": "emerald-dragon",
+        "d": "2059694-ancient-emerald-dragon",
+        "index": 0,
+        "filename": "m=emerald-dragon_d=2059694-ancient-emerald-dragon.png",
         "tags": []
     },
     {
@@ -1558,6 +1668,13 @@
         "d": "16869-gelatinous-cube",
         "index": 0,
         "filename": "m=gelatinous-cube_d=16869-gelatinous-cube.png",
+        "tags": []
+    },
+    {
+        "m": "ghast",
+        "d": "16870-ghast",
+        "index": 0,
+        "filename": "m=ghast_d=16870-ghast.png",
         "tags": []
     },
     {
@@ -1961,6 +2078,13 @@
         "tags": []
     },
     {
+        "m": "harpy",
+        "d": "16919-harpy",
+        "index": 1,
+        "filename": "m=harpy_d=16919-harpy+1.png",
+        "tags": []
+    },
+    {
         "m": "hawk",
         "d": "16920-hawk",
         "index": 0,
@@ -1999,6 +2123,13 @@
         "d": "16926-homunculus",
         "index": 0,
         "filename": "m=homunculus_d=16926-homunculus.png",
+        "tags": []
+    },
+    {
+        "m": "homunculus",
+        "d": "16926-homunculus",
+        "index": 1,
+        "filename": "m=homunculus_d=16926-homunculus+1.png",
         "tags": []
     },
     {
@@ -2142,6 +2273,13 @@
         "tags": []
     },
     {
+        "m": "iron-golem",
+        "d": "16935-iron-golem",
+        "index": 1,
+        "filename": "m=iron-golem_d=16935-iron-golem+1.png",
+        "tags": []
+    },
+    {
         "m": "jackal",
         "d": "16936-jackal",
         "index": 0,
@@ -2205,6 +2343,15 @@
         "index": 1,
         "filename": "m=knight_d=16938-knight+1.png",
         "tags": []
+    },
+    {
+        "m": "knight",
+        "d": "16938-knight",
+        "index": 0,
+        "filename": "m=knight_d=16938-knight_t1=tiefling.png",
+        "tags": [
+            "tiefling"
+        ]
     },
     {
         "m": "kobold-inventor",
@@ -2348,6 +2495,13 @@
         "tags": []
     },
     {
+        "m": "living-doll",
+        "d": "1979794-living-doll",
+        "index": 1,
+        "filename": "m=living-doll_d=1979794-living-doll+1.png",
+        "tags": []
+    },
+    {
         "m": "living-lightning-bolt",
         "d": "486454-living-lightning-bolt",
         "index": 0,
@@ -2431,6 +2585,13 @@
         "d": "487578-magewright",
         "index": 0,
         "filename": "m=magewright_d=487578-magewright.png",
+        "tags": []
+    },
+    {
+        "m": "magewright",
+        "d": "487578-magewright",
+        "index": 1,
+        "filename": "m=magewright_d=487578-magewright+1.png",
         "tags": []
     },
     {
@@ -2679,6 +2840,13 @@
     {
         "m": "noble",
         "d": "16966-noble",
+        "index": 10,
+        "filename": "m=noble_d=16966-noble+10.png",
+        "tags": []
+    },
+    {
+        "m": "noble",
+        "d": "16966-noble",
         "index": 2,
         "filename": "m=noble_d=16966-noble+2.png",
         "tags": []
@@ -2903,6 +3071,12 @@
         "tags": []
     },
     {
+        "m": "poor",
+        "index": 1,
+        "filename": "m=poor+1.png",
+        "tags": []
+    },
+    {
         "m": "priest-of-osybus",
         "d": "1680942-priest-of-osybus",
         "index": 0,
@@ -2969,6 +3143,13 @@
         "d": "16771-adult-red-dragon",
         "index": 0,
         "filename": "m=red-dragon_d=16771-adult-red-dragon.png",
+        "tags": []
+    },
+    {
+        "m": "red-shadow-dragon",
+        "d": "17132-young-red-shadow-dragon",
+        "index": 0,
+        "filename": "m=red-shadow-dragon_d=17132-young-red-shadow-dragon.png",
         "tags": []
     },
     {
@@ -3104,6 +3285,13 @@
         "d": "17131-shadow-demon",
         "index": 1,
         "filename": "m=shadow-demon_d=17131-shadow-demon+1.png",
+        "tags": []
+    },
+    {
+        "m": "shadow-demon",
+        "d": "17131-shadow-demon",
+        "index": 2,
+        "filename": "m=shadow-demon_d=17131-shadow-demon+2.png",
         "tags": []
     },
     {
@@ -3298,6 +3486,13 @@
         "tags": []
     },
     {
+        "m": "specter",
+        "d": "17017-specter",
+        "index": 0,
+        "filename": "m=specter_d=17017-specter.png",
+        "tags": []
+    },
+    {
         "m": "spider-lady",
         "index": 0,
         "filename": "m=spider-lady.png",
@@ -3396,6 +3591,13 @@
         "tags": []
     },
     {
+        "m": "swarm-of-insects-wasps",
+        "d": "301415-swarm-of-insects-wasps",
+        "index": 0,
+        "filename": "m=swarm-of-insects-wasps_d=301415-swarm-of-insects-wasps.png",
+        "tags": []
+    },
+    {
         "m": "the-abbot",
         "d": "17372-the-abbot",
         "index": 0,
@@ -3464,6 +3666,20 @@
         "d": "16830-constrictor-snake",
         "index": 0,
         "filename": "m=twin-headed-snake_d=16830-constrictor-snake.png",
+        "tags": []
+    },
+    {
+        "m": "tyrannosaurus-rex",
+        "d": "17041-tyrannosaurus-rex",
+        "index": 0,
+        "filename": "m=tyrannosaurus-rex_d=17041-tyrannosaurus-rex.png",
+        "tags": []
+    },
+    {
+        "m": "tyrannosaurus-rex",
+        "d": "17041-tyrannosaurus-rex",
+        "index": 1,
+        "filename": "m=tyrannosaurus-rex_d=17041-tyrannosaurus-rex+1.png",
         "tags": []
     },
     {
@@ -3558,6 +3774,13 @@
         "d": "17043-vampire",
         "index": 1,
         "filename": "m=vampire_d=17043-vampire+1.png",
+        "tags": []
+    },
+    {
+        "m": "vampire",
+        "d": "17043-vampire",
+        "index": 2,
+        "filename": "m=vampire_d=17043-vampire+2.png",
         "tags": []
     },
     {
@@ -3663,6 +3886,13 @@
         "tags": []
     },
     {
+        "m": "weasel",
+        "d": "17052-weasel",
+        "index": 0,
+        "filename": "m=weasel_d=17052-weasel.png",
+        "tags": []
+    },
+    {
         "m": "weather-balloon",
         "index": 0,
         "filename": "m=weather-balloon.png",
@@ -3709,9 +3939,45 @@
         "m": "wereraven",
         "d": "17377-wereraven",
         "index": 0,
+        "filename": "m=wereraven_d=17377-wereraven_t1=humanoid.png",
+        "tags": [
+            "humanoid"
+        ]
+    },
+    {
+        "m": "wereraven",
+        "d": "17377-wereraven",
+        "index": 1,
+        "filename": "m=wereraven_d=17377-wereraven_t1=humanoid+1.png",
+        "tags": [
+            "humanoid"
+        ]
+    },
+    {
+        "m": "wereraven",
+        "d": "17377-wereraven",
+        "index": 0,
         "filename": "m=wereraven_d=17377-wereraven_t1=hybrid.png",
         "tags": [
             "hybrid"
+        ]
+    },
+    {
+        "m": "wereraven",
+        "d": "17377-wereraven",
+        "index": 1,
+        "filename": "m=wereraven_d=17377-wereraven_t1=hybrid+1.png",
+        "tags": [
+            "hybrid"
+        ]
+    },
+    {
+        "m": "werewolf",
+        "d": "17057-werewolf",
+        "index": 0,
+        "filename": "m=werewolf_d=17057-werewolf_t1=humanoid.png",
+        "tags": [
+            "humanoid"
         ]
     },
     {
@@ -3728,6 +3994,24 @@
         "d": "17057-werewolf",
         "index": 1,
         "filename": "m=werewolf_d=17057-werewolf_t1=hybid+1.png",
+        "tags": [
+            "hybid"
+        ]
+    },
+    {
+        "m": "werewolf",
+        "d": "17057-werewolf",
+        "index": 2,
+        "filename": "m=werewolf_d=17057-werewolf_t1=hybid+2.png",
+        "tags": [
+            "hybid"
+        ]
+    },
+    {
+        "m": "werewolf",
+        "d": "17057-werewolf",
+        "index": 3,
+        "filename": "m=werewolf_d=17057-werewolf_t1=hybid+3.png",
         "tags": [
             "hybid"
         ]
