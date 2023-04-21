@@ -903,6 +903,13 @@
         "tags": []
     },
     {
+        "m": "changeling",
+        "d": "487539-changeling",
+        "index": 0,
+        "filename": "m=changeling_d=487539-changeling.png",
+        "tags": []
+    },
+    {
         "m": "chef",
         "index": 0,
         "filename": "m=chef.png",
@@ -3781,6 +3788,13 @@
         "d": "17043-vampire",
         "index": 2,
         "filename": "m=vampire_d=17043-vampire+2.png",
+        "tags": []
+    },
+    {
+        "m": "varnyr",
+        "d": "1528987-varnyr",
+        "index": 0,
+        "filename": "m=varnyr_d=1528987-varnyr.png",
         "tags": []
     },
     {
