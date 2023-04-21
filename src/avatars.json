@@ -1116,10 +1116,11 @@
     {
         "m": "commoner",
         "d": "16829-commoner",
-        "index": null,
-        "filename": "m=commoner_d=16829-commoner_t1=female+t2=halfling.png",
+        "index": 0,
+        "filename": "m=commoner_d=16829-commoner_t1=female_t2=halfling.png",
         "tags": [
-            "female"
+            "female",
+            "halfling"
         ]
     },
     {
@@ -4534,6 +4535,12 @@
         "m": "auto-gnome",
         "index": 0,
         "filename": "n=wizpop_m=auto-gnome.png",
+        "tags": []
+    },
+    {
+        "n": "xerus",
+        "index": 0,
+        "filename": "n=xerus.gif",
         "tags": []
     },
     {
