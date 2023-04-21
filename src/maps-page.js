@@ -42,7 +42,7 @@ const MapsPage = () => {
                     key={name}
                     base='maps'
                     section={name}
-                    filename={`/maps/${filename}`}
+                    filename={`maps/${filename}`}
                     title={capitalCase(name)}
                     isOpen={section === name}
                 />
