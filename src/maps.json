@@ -132,6 +132,14 @@
         "filename": "hammerhead-ship-top.webp"
     },
     {
+        "name": "lake-city-trees",
+        "filename": "lake-city-trees.webp"
+    },
+    {
+        "name": "lake-city",
+        "filename": "lake-city.webp"
+    },
+    {
         "name": "lakeside-shrooms",
         "filename": "lakeside-shrooms.mp4"
     },
@@ -190,6 +198,14 @@
     {
         "name": "rocky-lakeside",
         "filename": "rocky-lakeside.mp4"
+    },
+    {
+        "name": "sky-city-trees",
+        "filename": "sky-city-trees.webp"
+    },
+    {
+        "name": "sky-city",
+        "filename": "sky-city.webp"
     },
     {
         "name": "sky-dock",

@@ -319,6 +319,48 @@
         "tags": []
     },
     {
+        "m": "astral-blight",
+        "d": "2821149-astral-blight",
+        "index": 0,
+        "filename": "m=astral-blight_d=2821149-astral-blight.png",
+        "tags": []
+    },
+    {
+        "m": "astral-blight",
+        "d": "2821149-astral-blight",
+        "index": 1,
+        "filename": "m=astral-blight_d=2821149-astral-blight+1.png",
+        "tags": []
+    },
+    {
+        "m": "astral-blight",
+        "d": "2821149-astral-blight",
+        "index": 2,
+        "filename": "m=astral-blight_d=2821149-astral-blight+2.png",
+        "tags": []
+    },
+    {
+        "m": "astral-blight",
+        "d": "2821149-astral-blight",
+        "index": 3,
+        "filename": "m=astral-blight_d=2821149-astral-blight+3.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-star-priest",
+        "d": "2821153-astral-elf-star-priest",
+        "index": 0,
+        "filename": "m=astral-elf-star-priest_d=2821153-astral-elf-star-priest.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 0,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior.png",
+        "tags": []
+    },
+    {
         "m": "autognome",
         "d": "2821155-autognome",
         "index": 0,
@@ -392,6 +434,13 @@
         "tags": [
             "rain-cloud"
         ]
+    },
+    {
+        "m": "bandit-captain",
+        "d": "16799-bandit-captain",
+        "index": 0,
+        "filename": "m=bandit-captain_d=16799-bandit-captain.png",
+        "tags": []
     },
     {
         "m": "bandit",
@@ -1600,6 +1649,13 @@
         "tags": []
     },
     {
+        "m": "flapjack-the-flumph",
+        "d": "2821165-flapjack-the-flumph",
+        "index": 0,
+        "filename": "m=flapjack-the-flumph_d=2821165-flapjack-the-flumph.png",
+        "tags": []
+    },
+    {
         "m": "flesh-golem",
         "d": "16863-flesh-golem",
         "index": 0,
@@ -1611,6 +1667,13 @@
         "d": "16863-flesh-golem",
         "index": 1,
         "filename": "m=flesh-golem_d=16863-flesh-golem+1.png",
+        "tags": []
+    },
+    {
+        "m": "flumph",
+        "d": "17145-flumph",
+        "index": 0,
+        "filename": "m=flumph_d=17145-flumph.png",
         "tags": []
     },
     {
@@ -2602,6 +2665,13 @@
         "tags": []
     },
     {
+        "m": "maggots",
+        "d": "17029-swarm-of-insects",
+        "index": 0,
+        "filename": "m=maggots_d=17029-swarm-of-insects.png",
+        "tags": []
+    },
+    {
         "m": "magma-mephit",
         "d": "16948-magma-mephit",
         "index": 0,
@@ -2807,6 +2877,13 @@
         "d": "17215-needle-blight",
         "index": 0,
         "filename": "m=needle-blight_d=17215-needle-blight.png",
+        "tags": []
+    },
+    {
+        "m": "neh-thalggu",
+        "d": "2821183-neh-thalggu",
+        "index": 0,
+        "filename": "m=neh-thalggu_d=2821183-neh-thalggu.png",
         "tags": []
     },
     {
@@ -3051,6 +3128,13 @@
         ]
     },
     {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 1,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+1.png",
+        "tags": []
+    },
+    {
         "m": "plasmoid",
         "d": "2821189-plasmoid-explorer",
         "index": 0,
@@ -3108,6 +3192,27 @@
         "m": "prisoner",
         "index": 0,
         "filename": "m=prisoner.png",
+        "tags": []
+    },
+    {
+        "m": "psurlon-ringer",
+        "d": "2821192-psurlon-ringer",
+        "index": 0,
+        "filename": "m=psurlon-ringer_d=2821192-psurlon-ringer.png",
+        "tags": []
+    },
+    {
+        "m": "psurlon",
+        "d": "2821193-psurlon",
+        "index": 0,
+        "filename": "m=psurlon_d=2821193-psurlon.png",
+        "tags": []
+    },
+    {
+        "m": "quaggoth",
+        "d": "17193-quaggoth",
+        "index": 0,
+        "filename": "m=quaggoth_d=17193-quaggoth.png",
         "tags": []
     },
     {
@@ -3479,6 +3584,20 @@
         ]
     },
     {
+        "m": "space-clown",
+        "d": "2821196-space-clown",
+        "index": 0,
+        "filename": "m=space-clown_d=2821196-space-clown.png",
+        "tags": []
+    },
+    {
+        "m": "space-clown",
+        "d": "2821196-space-clown",
+        "index": 1,
+        "filename": "m=space-clown_d=2821196-space-clown+1.png",
+        "tags": []
+    },
+    {
         "m": "space-guppy",
         "d": "2821198-space-guppy",
         "index": 0,
@@ -3630,6 +3749,13 @@
         "d": "17203-thri-kreen",
         "index": 1,
         "filename": "m=thri-kreen_d=17203-thri-kreen+1.png",
+        "tags": []
+    },
+    {
+        "m": "thug",
+        "d": "17035-thug",
+        "index": 0,
+        "filename": "m=thug_d=17035-thug.png",
         "tags": []
     },
     {
@@ -4254,6 +4380,13 @@
         "tags": []
     },
     {
+        "n": "elaina",
+        "d": "bandit-captain",
+        "index": 0,
+        "filename": "n=elaina_d=bandit-captain.png",
+        "tags": []
+    },
+    {
         "n": "elkhorn",
         "index": 0,
         "filename": "n=elkhorn.png",
@@ -4283,6 +4416,13 @@
         "n": "evil-santa",
         "index": 0,
         "filename": "n=evil-santa.png",
+        "tags": []
+    },
+    {
+        "n": "flapjack-the-flumph",
+        "d": "2821165-flapjack-the-flumph",
+        "index": 0,
+        "filename": "n=flapjack-the-flumph_d=2821165-flapjack-the-flumph.png",
         "tags": []
     },
     {
