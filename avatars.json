@@ -354,10 +354,52 @@
         "tags": []
     },
     {
+        "m": "astral-elf-star-priest",
+        "d": "2821153-astral-elf-star-priest",
+        "index": 1,
+        "filename": "m=astral-elf-star-priest_d=2821153-astral-elf-star-priest+1.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-star-priest",
+        "d": "2821153-astral-elf-star-priest",
+        "index": 2,
+        "filename": "m=astral-elf-star-priest_d=2821153-astral-elf-star-priest+2.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-star-priest",
+        "d": "2821153-astral-elf-star-priest",
+        "index": 3,
+        "filename": "m=astral-elf-star-priest_d=2821153-astral-elf-star-priest+3.png",
+        "tags": []
+    },
+    {
         "m": "astral-elf-warrior",
         "d": "2821154-astral-elf-warrior",
         "index": 0,
         "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 1,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+1.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 2,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+2.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 3,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+3.png",
         "tags": []
     },
     {
@@ -3132,6 +3174,55 @@
         "d": "2821189-plasmoid-explorer",
         "index": 1,
         "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+1.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 2,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+2.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 3,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+3.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 4,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+4.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 5,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+5.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 6,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+6.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 7,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+7.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 8,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+8.png",
         "tags": []
     },
     {
