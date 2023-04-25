@@ -1,5 +1,23 @@
 [
     {
+        "i": "anvil-impact",
+        "index": 0,
+        "filename": "i=anvil-impact.png",
+        "tags": []
+    },
+    {
+        "i": "beer-stein",
+        "index": 0,
+        "filename": "i=beer-stein.png",
+        "tags": []
+    },
+    {
+        "i": "church",
+        "index": 0,
+        "filename": "i=church.png",
+        "tags": []
+    },
+    {
         "i": "door",
         "index": 0,
         "filename": "i=door.png",
@@ -15,6 +33,12 @@
         "i": "locked-door",
         "index": 0,
         "filename": "i=locked-door.png",
+        "tags": []
+    },
+    {
+        "i": "sliced-bread",
+        "index": 0,
+        "filename": "i=sliced-bread.png",
         "tags": []
     },
     {
