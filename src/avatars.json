@@ -1,5 +1,23 @@
 [
     {
+        "i": "anvil-impact",
+        "index": 0,
+        "filename": "i=anvil-impact.png",
+        "tags": []
+    },
+    {
+        "i": "beer-stein",
+        "index": 0,
+        "filename": "i=beer-stein.png",
+        "tags": []
+    },
+    {
+        "i": "church",
+        "index": 0,
+        "filename": "i=church.png",
+        "tags": []
+    },
+    {
         "i": "door",
         "index": 0,
         "filename": "i=door.png",
@@ -15,6 +33,12 @@
         "i": "locked-door",
         "index": 0,
         "filename": "i=locked-door.png",
+        "tags": []
+    },
+    {
+        "i": "sliced-bread",
+        "index": 0,
+        "filename": "i=sliced-bread.png",
         "tags": []
     },
     {
@@ -354,10 +378,52 @@
         "tags": []
     },
     {
+        "m": "astral-elf-star-priest",
+        "d": "2821153-astral-elf-star-priest",
+        "index": 1,
+        "filename": "m=astral-elf-star-priest_d=2821153-astral-elf-star-priest+1.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-star-priest",
+        "d": "2821153-astral-elf-star-priest",
+        "index": 2,
+        "filename": "m=astral-elf-star-priest_d=2821153-astral-elf-star-priest+2.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-star-priest",
+        "d": "2821153-astral-elf-star-priest",
+        "index": 3,
+        "filename": "m=astral-elf-star-priest_d=2821153-astral-elf-star-priest+3.png",
+        "tags": []
+    },
+    {
         "m": "astral-elf-warrior",
         "d": "2821154-astral-elf-warrior",
         "index": 0,
         "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 1,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+1.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 2,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+2.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 3,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+3.png",
         "tags": []
     },
     {
@@ -1846,6 +1912,13 @@
         "tags": []
     },
     {
+        "m": "githyanki-kithrak",
+        "d": "2560829-githyanki-kithrak",
+        "index": 0,
+        "filename": "m=githyanki-kithrak_d=2560829-githyanki-kithrak.png",
+        "tags": []
+    },
+    {
         "m": "githyanki",
         "d": "17149-githyanki-warrior",
         "index": 0,
@@ -3132,6 +3205,55 @@
         "d": "2821189-plasmoid-explorer",
         "index": 1,
         "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+1.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 2,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+2.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 3,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+3.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 4,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+4.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 5,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+5.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 6,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+6.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 7,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+7.png",
+        "tags": []
+    },
+    {
+        "m": "plasmoid-explorer",
+        "d": "2821189-plasmoid-explorer",
+        "index": 8,
+        "filename": "m=plasmoid-explorer_d=2821189-plasmoid-explorer+8.png",
         "tags": []
     },
     {
@@ -4650,6 +4772,13 @@
         "n": "ushi",
         "index": 0,
         "filename": "n=ushi.png",
+        "tags": []
+    },
+    {
+        "n": "vacoth",
+        "d": "2560829-githyanki-kithrak",
+        "index": 0,
+        "filename": "n=vacoth_d=2560829-githyanki-kithrak.png",
         "tags": []
     },
     {
