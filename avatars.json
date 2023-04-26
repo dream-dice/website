@@ -12,6 +12,12 @@
         "tags": []
     },
     {
+        "i": "book-pile",
+        "index": 0,
+        "filename": "i=book-pile.png",
+        "tags": []
+    },
+    {
         "i": "church",
         "index": 0,
         "filename": "i=church.png",
@@ -4055,6 +4061,13 @@
     {
         "m": "veteran",
         "d": "17045-veteran",
+        "index": 1,
+        "filename": "m=veteran_d=17045-veteran+1.png",
+        "tags": []
+    },
+    {
+        "m": "veteran",
+        "d": "17045-veteran",
         "index": 0,
         "filename": "m=veteran_d=17045-veteran_t1=sailor.png",
         "tags": [
@@ -4760,6 +4773,13 @@
         "n": "tiny-dragon",
         "index": 0,
         "filename": "n=tiny-dragon.png",
+        "tags": []
+    },
+    {
+        "n": "traervus",
+        "d": "17045-veteran",
+        "index": 0,
+        "filename": "n=traervus_d=17045-veteran.png",
         "tags": []
     },
     {
