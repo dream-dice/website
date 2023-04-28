@@ -12,6 +12,12 @@
         "tags": []
     },
     {
+        "i": "book-pile",
+        "index": 0,
+        "filename": "i=book-pile.png",
+        "tags": []
+    },
+    {
         "i": "church",
         "index": 0,
         "filename": "i=church.png",
@@ -157,6 +163,13 @@
         "d": "909469-alseid",
         "index": 0,
         "filename": "m=alseid_d=909469-alseid.png",
+        "tags": []
+    },
+    {
+        "m": "amidor",
+        "d": "1979770-amidor-the-dandelion",
+        "index": 0,
+        "filename": "m=amidor_d=1979770-amidor-the-dandelion.png",
         "tags": []
     },
     {
@@ -1379,6 +1392,15 @@
         ]
     },
     {
+        "m": "cyclops",
+        "d": "17090-cyclops",
+        "index": 0,
+        "filename": "m=cyclops_d=17090-cyclops_t1=beekeeper.png",
+        "tags": [
+            "beekeeper"
+        ]
+    },
+    {
         "m": "darkling-elder",
         "d": "17232-darkling-elder",
         "index": 0,
@@ -1632,6 +1654,13 @@
         "tags": []
     },
     {
+        "m": "eldritch-cannon",
+        "d": "3499555-eldritch-cannon",
+        "index": 0,
+        "filename": "m=eldritch-cannon_d=3499555-eldritch-cannon.png",
+        "tags": []
+    },
+    {
         "m": "elf",
         "index": 0,
         "filename": "m=elf_t1=female_t2=red-hair.png",
@@ -1790,6 +1819,13 @@
         "d": "1123084-frost-giant-skeleton",
         "index": 0,
         "filename": "m=frost-giant-skeleton_d=1123084-frost-giant-skeleton.png",
+        "tags": []
+    },
+    {
+        "m": "galeb-duhr",
+        "d": "17148-galeb-duhr",
+        "index": 0,
+        "filename": "m=galeb-duhr_d=17148-galeb-duhr.png",
         "tags": []
     },
     {
@@ -2056,6 +2092,15 @@
         "filename": "m=goblin_d=16907-goblin_t1=keys.png",
         "tags": [
             "keys"
+        ]
+    },
+    {
+        "m": "goblin",
+        "d": "16907-goblin",
+        "index": 0,
+        "filename": "m=goblin_d=16907-goblin_t1=kite.png",
+        "tags": [
+            "kite"
         ]
     },
     {
@@ -3271,6 +3316,13 @@
         "tags": []
     },
     {
+        "m": "pollenella",
+        "d": "1979800-pollenella-the-honeybee",
+        "index": 0,
+        "filename": "m=pollenella_d=1979800-pollenella-the-honeybee.png",
+        "tags": []
+    },
+    {
         "m": "pony",
         "d": "16984-pony",
         "index": 0,
@@ -4055,6 +4107,13 @@
     {
         "m": "veteran",
         "d": "17045-veteran",
+        "index": 1,
+        "filename": "m=veteran_d=17045-veteran+1.png",
+        "tags": []
+    },
+    {
+        "m": "veteran",
+        "d": "17045-veteran",
         "index": 0,
         "filename": "m=veteran_d=17045-veteran_t1=sailor.png",
         "tags": [
@@ -4432,6 +4491,13 @@
         ]
     },
     {
+        "n": "amidor",
+        "d": "1979770-amidor-the-dandelion",
+        "index": 0,
+        "filename": "n=amidor_d=1979770-amidor-the-dandelion.png",
+        "tags": []
+    },
+    {
         "n": "baba-yaga",
         "index": 0,
         "filename": "n=baba-yaga.png",
@@ -4760,6 +4826,13 @@
         "n": "tiny-dragon",
         "index": 0,
         "filename": "n=tiny-dragon.png",
+        "tags": []
+    },
+    {
+        "n": "traervus",
+        "d": "17045-veteran",
+        "index": 0,
+        "filename": "n=traervus_d=17045-veteran.png",
         "tags": []
     },
     {
