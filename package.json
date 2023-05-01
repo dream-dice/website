@@ -24,7 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "npm run avatars && npm run maps && npm run build-data && react-scripts build",
-    "postbuild": "npm run snap && npm run api && gh-pages -d build",
+    "gh-pages": "gh-pages -d build",
+    "postbuild": "npm run snap && npm run api && npm run gh-pages",
     "eject": "react-scripts eject",
     "build-data": "node scripts/build-data.mjs",
     "watch-data": "node scripts/watch-data.mjs",
