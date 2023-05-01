@@ -3569,17 +3569,19 @@
     {
         "m": "selenelion-twin",
         "d": "1979803-selenelion-twin",
-        "index": null,
-        "filename": "m=selenelion-twin_d=1979803-selenelion-twin+t1=sun.png",
-        "tags": []
+        "index": 0,
+        "filename": "m=selenelion-twin_d=1979803-selenelion-twin_t1=moon.png",
+        "tags": [
+            "moon"
+        ]
     },
     {
         "m": "selenelion-twin",
         "d": "1979803-selenelion-twin",
         "index": 0,
-        "filename": "m=selenelion-twin_d=1979803-selenelion-twin_t1=moon.png",
+        "filename": "m=selenelion-twin_d=1979803-selenelion-twin_t1=sun.png",
         "tags": [
-            "moon"
+            "sun"
         ]
     },
     {
