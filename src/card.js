@@ -87,9 +87,9 @@ const Card = ({
                             </div>
                             {filename.endsWith('jpg') && <img src={`${window.location.origin}/hotlink-ok/${filename}`} alt={title} />}
                             {filename.endsWith('webp') && <img src={`${window.location.origin}/hotlink-ok/${filename}`} alt={title} />}
-                            {filename.endsWith('mp4') && (
+                            {(filename.endsWith('mp4') || filename.endsWith('webm')) && (
                                 <video controls>
-                                    <source src={`${window.location.origin}/hotlink-ok/${filename}`} type="video/mp4" />
+                                    <source src={`${window.location.origin}/hotlink-ok/${filename}`} type={`video/${filename.split('.')[filename.split('.').length - 1]}`} />
                                 </video>
                             )}
                         </div>
