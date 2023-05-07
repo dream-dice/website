@@ -1,4 +1,3 @@
-import Cookies from 'js-cookie';
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Card from './card';
@@ -22,7 +21,11 @@ const MapsPage = () => {
 
     return <div className='maps'>
         <p className='content mt-5 mb-5 is-size-5'>
-            All of these maps are made using <a href='https://www.dungeonalchemist.com/'>Dungeon Alchemist</a> and are available for anyone to use. I use the maps for my own campaign and if anyone finds them helpful, please feel free to use them. The maps come as they are with no promises that they will even be available
+            Maps named "dynamicdungeons" from <a target='_blank' rel="noreferrer noopener" href="https://patreon.com/dynamicdungeons">Patreon Dynamic Dungeon</a> or "Beneosbattlemaps" from <a target='_blank' rel="noreferrer noopener" href="https://www.patreon.com/BeneosBattlemaps">Patreon Beneos Battlemaps</a>  
+            <br />
+            I strongly urge you to pay these great artists, I host the ones I am using for my campaigns here and once I am finished with them I will remove them.
+            <br />
+            All other maps are made using <a target='_blank' rel="noreferrer noopener" href='https://www.dungeonalchemist.com'>Dungeon Alchemist</a> and are available for anyone to use. I use the maps for my own campaign and if anyone finds them helpful, please feel free to use them. The maps come as they are with no promises that they will even be available
         </p>
         <div>
             <Search
