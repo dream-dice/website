@@ -87,6 +87,14 @@
             "content": "/appendix/cos/tome-of-strahd.md"
         }
     ],
+    "dod": [
+        {
+            "index": 1,
+            "name": "brimstone-fortress",
+            "title": "Brimstone Fortress",
+            "content": "/appendix/dod/brimstone-fortress.md"
+        }
+    ],
     "sj": [
         {
             "index": 1,

@@ -139,6 +139,30 @@
             "content": "/notes/cm/session-3.md"
         },
         {
+            "index": 30,
+            "name": "session-30",
+            "title": "Session 30",
+            "content": "/notes/cm/session-30.md"
+        },
+        {
+            "index": 31,
+            "name": "session-31",
+            "title": "Session 31",
+            "content": "/notes/cm/session-31.md"
+        },
+        {
+            "index": 32,
+            "name": "session-32",
+            "title": "Session 32",
+            "content": "/notes/cm/session-32.md"
+        },
+        {
+            "index": 33,
+            "name": "session-33",
+            "title": "Session 33",
+            "content": "/notes/cm/session-33.md"
+        },
+        {
             "index": 4,
             "name": "session-4",
             "title": "Session 4",
@@ -273,6 +297,26 @@
             "content": "/notes/cos/summary.md"
         }
     ],
+    "dod": [
+        {
+            "index": 1,
+            "name": "session-1",
+            "title": "Session 1",
+            "content": "/notes/dod/session-1.md"
+        },
+        {
+            "index": 2,
+            "name": "session-2",
+            "title": "Session 2",
+            "content": "/notes/dod/session-2.md"
+        },
+        {
+            "index": 0,
+            "name": "summary",
+            "title": "Summary",
+            "content": "/notes/dod/summary.md"
+        }
+    ],
     "sj": [
         {
             "index": 1,
@@ -285,6 +329,30 @@
             "name": "session-2",
             "title": "Session 2",
             "content": "/notes/sj/session-2.md"
+        },
+        {
+            "index": 3,
+            "name": "session-3",
+            "title": "Session 3",
+            "content": "/notes/sj/session-3.md"
+        },
+        {
+            "index": 4,
+            "name": "session-4",
+            "title": "Session 4",
+            "content": "/notes/sj/session-4.md"
+        },
+        {
+            "index": 5,
+            "name": "session-5",
+            "title": "Session 5",
+            "content": "/notes/sj/session-5.md"
+        },
+        {
+            "index": 6,
+            "name": "session-6",
+            "title": "Session 6",
+            "content": "/notes/sj/session-6.md"
         },
         {
             "index": 0,

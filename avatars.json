@@ -440,6 +440,27 @@
         "tags": []
     },
     {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 4,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+4.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 5,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+5.png",
+        "tags": []
+    },
+    {
+        "m": "astral-elf-warrior",
+        "d": "2821154-astral-elf-warrior",
+        "index": 6,
+        "filename": "m=astral-elf-warrior_d=2821154-astral-elf-warrior+6.png",
+        "tags": []
+    },
+    {
         "m": "autognome",
         "d": "2821155-autognome",
         "index": 0,
@@ -3169,6 +3190,13 @@
         "d": "16972-orc",
         "index": 3,
         "filename": "m=orc_d=16972-orc+3.png",
+        "tags": []
+    },
+    {
+        "m": "owl",
+        "d": "16974-owl",
+        "index": 0,
+        "filename": "m=owl_d=16974-owl.png",
         "tags": []
     },
     {

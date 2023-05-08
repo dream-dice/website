@@ -71,6 +71,26 @@
     "title": "DM Notes - Spelljammer",
     "description": "The DM notes for the Candlekeep Mysteries campaign."
   },
+  "/dod": {
+    "title": "Domains of Dread",
+    "description": "Welcome to the Domains of Dread campaign."
+  },
+  "/dod/calendar": {
+    "title": "Calendar - Domains of Dread",
+    "description": "The current date, time, weather and future events."
+  },
+  "/dod/notes": {
+    "title": "Session Notes - Domains of Dread",
+    "description": "All the players and notes from our Domains of Dread campaign."
+  },
+  "/dod/appendix": {
+    "title": "Appendix - Domains of Dread",
+    "description": "The appendix contains material which was shared in the Candlekeep Mysteries campaign."
+  },
+  "/dod/dmNotes": {
+    "title": "DM Notes - Domains of Dread",
+    "description": "The DM notes for the Candlekeep Mysteries campaign."
+  },
   "/shop": {
     "title": "Shop & Services",
     "description": "All the shops and services available in the campaign."
