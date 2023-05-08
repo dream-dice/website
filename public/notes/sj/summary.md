@@ -2,9 +2,9 @@
 
 A group of space-loving adventurers gathered together to complete the Spelljammer Academy and explore the multiverse.
 
-**Current** The group has finished their orientation.
+**Current** The Academy is under attack from pirates. 
 
-**Next** You are all moving onto basic training.
+**Next** You are ging to recapture Miken from the pirates and drive them away.
 
-**Why?** You are all moving onto basic training.
+**Why?** Miken is a prisoner and knows secrets about the Academy.
 

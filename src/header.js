@@ -58,7 +58,8 @@ const Settings = ({
     accept,
     cos,
     cm,
-    sj
+    sj,
+    dod
 }) => (
     <div className='modal is-active'>
         <div className='modal-background' onClick={closeSettings}></div>
@@ -74,7 +75,7 @@ const Settings = ({
                         }}
                         type="checkbox"
                         disabled={typeof accept === 'undefined'}
-                        checked={cos && cm && sj}
+                        checked={cos && cm && sj && dod}
                     />
                     Show everything
                 </label>
@@ -104,6 +105,15 @@ const Settings = ({
                         checked={sj}
                     />
                     Show Spelljammer campaign
+                </label>
+                <label className="panel-block">
+                    <input
+                        onChange={() => changeSettings('dod')}
+                        type="checkbox"
+                        disabled={typeof accept === 'undefined'}
+                        checked={dod}
+                    />
+                    Show Domains of Dread campaign
                 </label>
                 <label className="panel-block">
                     <input
@@ -143,10 +153,11 @@ const Header = () => {
 
     const [settingsVisisble, showSettings] = useState(false)
 
-    const { accept, sj, cm, cos } = Cookies.get()
+    const { accept, sj, cm, dod, cos } = Cookies.get()
     const [settings, changeSettings] = useState({
         accept,
         sj: sj === 'true',
+        dod: dod === 'true',
         cm: cm === 'true',
         cos: cos === 'true'
     })
@@ -260,12 +271,14 @@ const Header = () => {
                             if (accepted) {
                                 Cookies.set('cos', true)
                                 Cookies.set('sj', true)
+                                Cookies.set('dod', true)
                                 Cookies.set('cm', true)
                             }
                             changeSettings({
                                 accept: true,
                                 cos: true,
                                 sj: true,
+                                dod: true,
                                 cm: true
                             })
                         } else if (setting === 'accept' && accepted) {
@@ -273,12 +286,14 @@ const Header = () => {
                             Cookies.remove('sj')
                             Cookies.remove('cos')
                             Cookies.remove('cm')
+                            Cookies.remove('dod')
                             Cookies.remove('gm')
                             Cookies.remove('dm')
                             changeSettings({
                                 accept: false,
                                 cos: false,
                                 sj: false,
+                                dod: false,
                                 cm: false
                             })
                         } else {
@@ -300,6 +315,7 @@ const Header = () => {
                                 <HeroFootLink pathname={pathname} to='/' label='🏠 Home' />
                                 {showDefaultTab(cm) && <HeroFootLink pathname={pathname} to={'/cm'} label='🕯️ Candlekeep Mysteries' />}
                                 {showDefaultTab(sj) && <HeroFootLink pathname={pathname} to={'/sj'} label='👾 Spelljammer' />}
+                                {showDefaultTab(dod) && <HeroFootLink pathname={pathname} to={'/dod'} label='🦹 Domains of Dream' />}
                                 {cos === 'true' && <HeroFootLink pathname={pathname} to={'/cos'} label='🧛 Curse of Strahd' />}
                                 <HeroFootLink pathname={pathname} to={'/shop'} label='🛍️ Shops & Services' />
                                 <HeroFootLink pathname={pathname} to={'/maps'} label='📍 Maps' />
@@ -325,11 +341,13 @@ const Header = () => {
                                             acceptChanged(true)
                                             Cookies.set('accept', true)
                                             Cookies.set('sj', true)
+                                            Cookies.set('dod', true)
                                             Cookies.set('cm', true)
                                             changeSettings({
                                                 accept: true,
                                                 cos: false,
                                                 sj: true,
+                                                dod: true,
                                                 cm: true
                                             })
                                         }}
@@ -341,6 +359,7 @@ const Header = () => {
                                             acceptChanged(false)
                                             Cookies.set('accept', false)
                                             Cookies.remove('sj')
+                                            Cookies.remove('dod')
                                             Cookies.remove('cos')
                                             Cookies.remove('cm')
                                             Cookies.remove('gm')
@@ -349,6 +368,7 @@ const Header = () => {
                                                 accept: false,
                                                 cos: false,
                                                 sj: true,
+                                                dod: true,
                                                 cm: true
                                             })
                                         }}

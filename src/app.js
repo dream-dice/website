@@ -40,6 +40,11 @@ const App = () => {
                 <Route path='/sj/appendix/:section?' element={<Game game='sj' page='appendix' />}></Route>
                 <Route path='/sj/dmNotes/:section?' element={<Game game='sj' page='dmNotes' />}></Route>
                 <Route path='/sj/calendar' element={<Game game='sj' page='calendar' />}></Route>
+                <Route path='/dod' element={<Game game='dod' page='notes' />}></Route>
+                <Route path='/dod/notes/:section?' element={<Game game='dod' page='notes' />}></Route>
+                <Route path='/dod/appendix/:section?' element={<Game game='dod' page='appendix' />}></Route>
+                <Route path='/dod/dmNotes/:section?' element={<Game game='dod' page='dmNotes' />}></Route>
+                <Route path='/dod/calendar' element={<Game game='dod' page='calendar' />}></Route>
                 <Route path='*' element={<div />}></Route>
               </Routes>
               <Routes>
@@ -66,6 +71,12 @@ const App = () => {
                 <Route path='/sj/notes/:section?' element={<NotesPage base='notes' notes={notes} game='sj' />}></Route>
                 <Route path='/sj/appendix/:section?' element={<NotesPage base='appendix' notes={appendix} game='sj' />}></Route>
                 <Route path='/sj/dmNotes/:section?' element={<NotesPage base='dmNotes' notes={dmNotes} game='sj' />}></Route>
+
+                <Route path='/dod' element={<NotesPage base='notes' notes={notes} game='dod' />}></Route>
+                <Route path='/dod/calendar' element={<CalendarPage game='dod' />}></Route>
+                <Route path='/dod/notes/:section?' element={<NotesPage base='notes' notes={notes} game='dod' />}></Route>
+                <Route path='/dod/appendix/:section?' element={<NotesPage base='appendix' notes={appendix} game='dod' />}></Route>
+                <Route path='/dod/dmNotes/:section?' element={<NotesPage base='dmNotes' notes={dmNotes} game='dod' />}></Route>
                 <Route element={<NotFound />}></Route>
               </Routes>
             </div>
