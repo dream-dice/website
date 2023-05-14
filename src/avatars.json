@@ -871,6 +871,13 @@
         "tags": []
     },
     {
+        "m": "brigganock",
+        "d": "1979772-brigganock",
+        "index": 0,
+        "filename": "m=brigganock_d=1979772-brigganock.png",
+        "tags": []
+    },
+    {
         "m": "bronze-dragon",
         "d": "16767-adult-bronze-dragon",
         "index": 0,
@@ -1781,6 +1788,13 @@
         "tags": []
     },
     {
+        "m": "flameskull",
+        "d": "17091-flameskull",
+        "index": 0,
+        "filename": "m=flameskull_d=17091-flameskull.png",
+        "tags": []
+    },
+    {
         "m": "flapjack-the-flumph",
         "d": "2821165-flapjack-the-flumph",
         "index": 0,
@@ -2572,6 +2586,22 @@
     {
         "m": "knight",
         "d": "16938-knight",
+        "index": 2,
+        "filename": "m=knight_d=16938-knight+2.png",
+        "tags": []
+    },
+    {
+        "m": "knight",
+        "d": "16938-knight",
+        "index": 0,
+        "filename": "m=knight_d=16938-knight_t1=elf.png",
+        "tags": [
+            "elf"
+        ]
+    },
+    {
+        "m": "knight",
+        "d": "16938-knight",
         "index": 0,
         "filename": "m=knight_d=16938-knight_t1=tiefling.png",
         "tags": [
@@ -3232,6 +3262,13 @@
         "tags": []
     },
     {
+        "m": "peryton",
+        "d": "17190-peryton",
+        "index": 0,
+        "filename": "m=peryton_d=17190-peryton.png",
+        "tags": []
+    },
+    {
         "m": "phantom-warrior",
         "d": "17368-phantom-warrior",
         "index": 0,
@@ -3388,6 +3425,15 @@
         "index": 0,
         "filename": "m=pony_d=16984-pony.png",
         "tags": []
+    },
+    {
+        "m": "pony",
+        "d": "16984-pony",
+        "index": 0,
+        "filename": "m=pony_d=16984-pony_t1=house.png",
+        "tags": [
+            "house"
+        ]
     },
     {
         "m": "poor",
@@ -4582,6 +4628,13 @@
         ]
     },
     {
+        "n": "alagarthas",
+        "d": "1979769-alagarthas",
+        "index": 0,
+        "filename": "n=alagarthas_d=1979769-alagarthas.png",
+        "tags": []
+    },
+    {
         "n": "amidor",
         "d": "1979770-amidor-the-dandelion",
         "index": 0,
@@ -4675,6 +4728,13 @@
         "n": "emil-toranescu",
         "index": 0,
         "filename": "n=emil-toranescu.png",
+        "tags": []
+    },
+    {
+        "n": "endelyn-moongrave",
+        "d": "1979778-endelyn-moongrave",
+        "index": 0,
+        "filename": "n=endelyn-moongrave_d=1979778-endelyn-moongrave.png",
         "tags": []
     },
     {
@@ -4783,6 +4843,13 @@
         "tags": [
             "young"
         ]
+    },
+    {
+        "n": "molliver",
+        "d": "1979798-molliver",
+        "index": 0,
+        "filename": "n=molliver_d=1979798-molliver.png",
+        "tags": []
     },
     {
         "n": "morgort",
