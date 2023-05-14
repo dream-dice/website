@@ -1065,6 +1065,15 @@
         "tags": []
     },
     {
+        "m": "chess",
+        "index": 0,
+        "filename": "m=chess_t1=queen_t2=black.png",
+        "tags": [
+            "queen",
+            "black"
+        ]
+    },
+    {
         "m": "chest-mimic",
         "d": "16957-mimic.png",
         "index": 0,
@@ -2624,6 +2633,22 @@
         "index": 4,
         "filename": "m=kobold_d=16939-kobold+4.png",
         "tags": []
+    },
+    {
+        "m": "korred",
+        "d": "17279-korred",
+        "index": 0,
+        "filename": "m=korred_d=17279-korred.png",
+        "tags": []
+    },
+    {
+        "m": "korred",
+        "d": "17279-korred",
+        "index": 0,
+        "filename": "m=korred_d=17279-korred_t1=queen.png",
+        "tags": [
+            "queen"
+        ]
     },
     {
         "m": "ktulah",
