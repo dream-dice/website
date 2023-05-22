@@ -16,6 +16,10 @@
         "filename": "arabian-tyrant-ship-top.webp"
     },
     {
+        "name": "astral-sea",
+        "filename": "astral-sea.webp"
+    },
+    {
         "name": "bavlorna-1",
         "filename": "bavlorna-1.webp"
     },
@@ -278,5 +282,13 @@
     {
         "name": "temple-of-restful-lily",
         "filename": "temple-of-restful-lily.webp"
+    },
+    {
+        "name": "test-middle",
+        "filename": "test-middle.png"
+    },
+    {
+        "name": "test-top",
+        "filename": "test-top.png"
     }
 ]
