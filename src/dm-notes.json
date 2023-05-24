@@ -5,6 +5,12 @@
             "name": "levels",
             "title": "Levels",
             "content": "/dm-notes/cm/levels.md"
+        },
+        {
+            "index": 2,
+            "name": "yon",
+            "title": "Yon",
+            "content": "/dm-notes/cm/yon.md"
         }
     ],
     "cos": [
