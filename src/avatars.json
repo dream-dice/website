@@ -7,6 +7,27 @@
         "tags": []
     },
     {
+        "d": "1979782-giant-snail",
+        "n": "comrade-alex",
+        "index": 0,
+        "filename": "d=1979782-giant-snail_n=comrade-alex.png",
+        "tags": []
+    },
+    {
+        "d": "1979796-mister-light",
+        "n": "mister-light",
+        "index": 0,
+        "filename": "d=1979796-mister-light_n=mister-light.png",
+        "tags": []
+    },
+    {
+        "d": "1979797-mister-witch",
+        "n": "mister-witch",
+        "index": 0,
+        "filename": "d=1979797-mister-witch_n=mister-witch.png",
+        "tags": []
+    },
+    {
         "d": "2821161-dohwar",
         "m": "dohwar",
         "index": 0,
@@ -4669,6 +4690,13 @@
     },
     {
         "n": "bavlorna",
+        "d": "1979771-bavlorna-blightstraw",
+        "index": 0,
+        "filename": "n=bavlorna_d=1979771-bavlorna-blightstraw.png",
+        "tags": []
+    },
+    {
+        "n": "bavlorna",
         "index": 0,
         "filename": "n=bavlorna_t1=young.png",
         "tags": [
@@ -4821,6 +4849,13 @@
         "n": "lamorna",
         "index": 0,
         "filename": "n=lamorna.png",
+        "tags": []
+    },
+    {
+        "n": "mardyk",
+        "d": "16947-mage",
+        "index": 0,
+        "filename": "n=mardyk_d=16947-mage.png",
         "tags": []
     },
     {
