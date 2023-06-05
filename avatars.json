@@ -1,5 +1,10 @@
 [
     {
+        "index": 0,
+        "filename": ".DS_Store",
+        "tags": []
+    },
+    {
         "d": "17192-pixie",
         "m": "pixie",
         "index": 0,
@@ -3119,6 +3124,12 @@
         "d": "17183-myconid-adult",
         "index": 2,
         "filename": "m=myconid_d=17183-myconid-adult+2.png",
+        "tags": []
+    },
+    {
+        "m": "nautiloid-ship",
+        "index": 0,
+        "filename": "m=nautiloid-ship.png",
         "tags": []
     },
     {
