@@ -163,6 +163,12 @@
             "content": "/notes/cm/session-33.md"
         },
         {
+            "index": 34,
+            "name": "session-34",
+            "title": "Session 34",
+            "content": "/notes/cm/session-34.md"
+        },
+        {
             "index": 4,
             "name": "session-4",
             "title": "Session 4",
@@ -311,6 +317,12 @@
             "content": "/notes/dod/session-2.md"
         },
         {
+            "index": 3,
+            "name": "session-3",
+            "title": "Session 3",
+            "content": "/notes/dod/session-3.md"
+        },
+        {
             "index": 0,
             "name": "summary",
             "title": "Summary",
@@ -353,6 +365,12 @@
             "name": "session-6",
             "title": "Session 6",
             "content": "/notes/sj/session-6.md"
+        },
+        {
+            "index": 8,
+            "name": "session-8",
+            "title": "Session 8",
+            "content": "/notes/sj/session-8.md"
         },
         {
             "index": 0,

@@ -1865,6 +1865,13 @@
         "tags": []
     },
     {
+        "m": "flying-scarecrow",
+        "d": "17200-scarecrow",
+        "index": 0,
+        "filename": "m=flying-scarecrow_d=17200-scarecrow.png",
+        "tags": []
+    },
+    {
         "m": "flying-ship",
         "index": 0,
         "filename": "m=flying-ship.png",
@@ -3061,6 +3068,12 @@
         "tags": []
     },
     {
+        "m": "moondancer-ship",
+        "index": 0,
+        "filename": "m=moondancer-ship.png",
+        "tags": []
+    },
+    {
         "m": "moonstone-dragon",
         "d": "2059686-adult-moonstone-dragon",
         "index": 0,
@@ -3515,6 +3528,15 @@
         "index": 0,
         "filename": "m=psurlon-ringer_d=2821192-psurlon-ringer.png",
         "tags": []
+    },
+    {
+        "m": "psurlon-ringer",
+        "d": "2821192-psurlon-ringer",
+        "index": 0,
+        "filename": "m=psurlon-ringer_d=2821192-psurlon-ringer_t1=disguise.png",
+        "tags": [
+            "disguise"
+        ]
     },
     {
         "m": "psurlon",
